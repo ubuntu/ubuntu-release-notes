@@ -1,6 +1,6 @@
 # Ubuntu release notes
 
-To file a ne release note, either edit these source files directly or open an issue.
+To file a new release note, either edit these source files directly or open an issue.
 
 ## Structure
 

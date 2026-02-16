@@ -87,5 +87,14 @@ Your comments, bug reports, patches and suggestions help fix bugs and improve th
 :hidden:
 :maxdepth: 2
 
-26.04/index
+release/26.04/index
+:::
+
+:::{toctree}
+:hidden:
+:maxdepth: 2
+:caption: Release schedules
+:glob:
+
+schedule/*
 :::

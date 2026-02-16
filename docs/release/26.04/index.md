@@ -4,7 +4,7 @@
 :::{rubric} 15 April 2026
 :::
 
-These release notes cover new features and changes in Ubuntu 26.04 LTS.
+These release notes cover new features and changes in Ubuntu 26.04 LTS (Resolute Raccoon).
 
 Ubuntu 26.04 LTS is designated as a long-term support release. This means it will continue to receive security updates and critical bug fixes for five years. With an Ubuntu Pro subscription, access to ESM (Expanded Security Maintenance) updates will be available for ten years. 
 

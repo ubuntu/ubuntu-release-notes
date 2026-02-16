@@ -111,7 +111,7 @@ html_context = {
     #
     # NOTE: If set, links for viewing the documentation source files
     #       and creating GitHub issues are added at the bottom of each page.
-    "github_url": "https://github.com/msuchane/ubuntu-release-notes",
+    "github_url": "https://github.com/ubuntu/ubuntu-release-notes",
     # Docs branch in the repo; used in links for viewing the source files
     'repo_default_branch': 'main',
     # Docs location in the repo; used in links for viewing the source files
@@ -145,7 +145,7 @@ html_extra_path = []
 # - https://git.launchpad.net/example
 #
 html_theme_options = {
-'source_edit_link': 'https://github.com/msuchane/ubuntu-release-notes',
+'source_edit_link': 'https://github.com/ubuntu/ubuntu-release-notes',
 }
 
 # Project slug; see https://meta.discourse.org/t/what-is-category-slug/87897

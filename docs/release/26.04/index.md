@@ -56,6 +56,6 @@ For details, see the complete interim release notes: [24.10](https://discourse.u
 :hidden:
 :maxdepth: 2
 
-26.04.1 <changes-in-ubuntu-26.04.1>
 26.04.2 <changes-in-ubuntu-26.04.2>
+26.04.1 <changes-in-ubuntu-26.04.1>
 :::

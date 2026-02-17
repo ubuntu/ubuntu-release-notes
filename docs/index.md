@@ -7,6 +7,7 @@ Release notes contain specific upgrade instructions for that particular release.
 ## 26.04 LTS
 
 * {ref}`ubuntu-26.04-lts-release-notes`
+* {ref}`resolute-raccoon-schedule`
 * [Ubuntu 26.04 LTS roadmap](https://discourse.ubuntu.com/t/ubuntu-26-04-lts-the-roadmap/72740)
 
 ## 25.10
@@ -18,6 +19,7 @@ Release notes contain specific upgrade instructions for that particular release.
 * [24.04.2](https://discourse.ubuntu.com/t/noble-numbat-point-release-changes/47565/3)  
 * [24.04.1](https://discourse.ubuntu.com/t/noble-numbat-point-release-changes/47565#h-24041-1)  
 * [Ubuntu 24.04 LTS (Noble Numbat) release notes](https://discourse.ubuntu.com/t/ubuntu-24-04-lts-noble-numbat-release-notes/39890)
+* {ref}`noble-numbat-schedule`
 
 (release-policy-and-schedule)=
 ## Release policy and schedule
@@ -72,6 +74,20 @@ Your comments, bug reports, patches and suggestions help fix bugs and improve th
 :::{toctree}
 :hidden:
 :maxdepth: 2
+:caption: Release notes
 
-26.04/index
+26.04 LTS (Resolute Raccoon) <release/26.04/index>
+release/archive
+:::
+
+:::{toctree}
+:hidden:
+:maxdepth: 2
+:caption: Release schedules
+
+26.10 (S* S*) <schedule/26.10>
+26.04 LTS (Resolute Raccoon) <schedule/26.04>
+24.04 LTS (Noble Numbat) <schedule/24.04>
+schedule/upcoming
+schedule/archive
 :::

@@ -74,20 +74,25 @@ Your comments, bug reports, patches and suggestions help fix bugs and improve th
 :::{toctree}
 :hidden:
 :maxdepth: 2
-:caption: Release notes
+:caption: Supported releases
 
-26.04 LTS (Resolute Raccoon) <release/26.04/index>
-release/archive
+26.04 LTS (Resolute Raccoon) <26.04/index>
+24.04 LTS (Noble Numbat) <24.04/index>
 :::
 
 :::{toctree}
 :hidden:
 :maxdepth: 2
-:caption: Release schedules
+:caption: Currently in development
 
-26.10 (S* S*) <schedule/26.10>
-26.04 LTS (Resolute Raccoon) <schedule/26.04>
-24.04 LTS (Noble Numbat) <schedule/24.04>
-schedule/upcoming
-schedule/archive
+26.10 (S* S*) <26.10/schedule>
+:::
+
+:::{toctree}
+:hidden:
+:maxdepth: 2
+:caption: Other releases
+
+Upcoming releases <upcoming>
+Older releases <archive>
 :::

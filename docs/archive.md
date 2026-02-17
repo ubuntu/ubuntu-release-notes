@@ -1,5 +1,4 @@
-(release-archive)=
-# Older releases
+# Older Ubuntu releases
 
 :::{toctree}
 :maxdepth: 1

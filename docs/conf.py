@@ -186,7 +186,7 @@ sitemap_excludes = [
 # Template and asset locations
 #######################
 
-#html_static_path = ["_static"]
+html_static_path = ["_static"]
 #templates_path = ["_templates"]
 
 
@@ -280,7 +280,7 @@ exclude_patterns = [
 
 # Adds custom CSS files, located under 'html_static_path'
 
-# html_css_files = []
+html_css_files = ["custom.css"]
 
 
 # Adds custom JavaScript files, located under 'html_static_path'

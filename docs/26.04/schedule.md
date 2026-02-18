@@ -3,6 +3,42 @@
 
 <!-- migrated from https://discourse.ubuntu.com/t/resolute-raccoon-release-schedule/47198 -->
 
+:::{timeline}
+:reversed:
+
+- start: 2025-10-16
+  name: Toolchain Uploaded
+- start: 2025-11-27
+  name: Resolute Snapshot 1
+- start: 2025-12-11
+  name: Resolute Snapshot 2
+- start: 2026-01-29
+  name: Resolute Snapshot 3
+- start: 2026-02-19
+  name: "[Feature Freeze](https://wiki.ubuntu.com/FeatureFreeze), Debian Import Freeze"
+- start: 2026-02-26
+  name: Resolute Snapshot 4
+
+- start: 2026-03-12
+  name: "[User Interface Freeze](https://wiki.ubuntu.com/UserInterfaceFreeze)"
+- start: 2026-03-19
+  name: "[Documentation String Freeze](https://wiki.ubuntu.com/DocumentationStringFreeze), [Kernel Feature Freeze](https://wiki.ubuntu.com/KernelFeatureFreeze)"
+- start: 2026-03-23
+  name: "[Beta Freeze](https://wiki.ubuntu.com/BetaFreeze), [Hardware Enablement Freeze](https://wiki.ubuntu.com/HardwareEnablementFreeze), ISO Testing Week (mandatory)"
+- start: 2026-03-26
+  name: Beta (mandatory)
+- start: 2026-04-09
+  name: "[Kernel Freeze](https://wiki.ubuntu.com/KernelFreeze), [Non Language Pack Translation Deadline](https://wiki.ubuntu.com/NonLanguagePackTranslationDeadline)"
+- start: 2026-04-16
+  name: "[Final Freeze](https://wiki.ubuntu.com/FinalFreeze), [Release Candidate](https://wiki.ubuntu.com/ReleaseCandidate), [Language Pack Translation Deadline](https://wiki.ubuntu.com/LanguagePackTranslationDeadline)"
+- start: 2026-04-23
+  name: "[Final Release](https://wiki.ubuntu.com/FinalRelease)"
+---
+**{{dtrange}}**
+
+{{e.name}}
+:::
+
 | Week | Date (Thursday) | 26.04 events |
 |----|----|----|
 | **October 2025** |  |  |

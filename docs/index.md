@@ -19,11 +19,11 @@ Release notes contain specific upgrade instructions for that particular release.
 
 ## 22.04 LTS
 
-* [22.04.5](https://discourse.ubuntu.com/t/jammy-jellyfish-point-release-changes/29835/8)
-* [22.04.4](https://discourse.ubuntu.com/t/jammy-jellyfish-point-release-changes/29835/5)
-* [22.04.3](https://discourse.ubuntu.com/t/jammy-jellyfish-point-release-changes/29835/4)
-* [22.04.2](https://discourse.ubuntu.com/t/jammy-jellyfish-point-release-changes/29835/3)
-* [22.04.1](https://discourse.ubuntu.com/t/jammy-jellyfish-point-release-changes/29835/1)
+* {ref}`changes-in-ubuntu-22.04.5`
+* {ref}`changes-in-ubuntu-22.04.4`
+* {ref}`changes-in-ubuntu-22.04.3`
+* {ref}`changes-in-ubuntu-22.04.2`
+* {ref}`changes-in-ubuntu-22.04.1`
 * {ref}`ubuntu-22.04-lts-release-notes`
 * {ref}`jammy-jellyfish-schedule`
 

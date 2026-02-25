@@ -5,11 +5,15 @@ These release notes for **Ubuntu 22.04 LTS** (Jammy Jellyfish) provide an overvi
 
 For details of the changes applied since 20.04, refer to the following posts:
 
-* [22.04.5](https://discourse.ubuntu.com/t/jammy-jellyfish-point-release-changes/29835/8)
-* [22.04.4](https://discourse.ubuntu.com/t/jammy-jellyfish-point-release-changes/29835/5)
-* [22.04.3](https://discourse.ubuntu.com/t/jammy-jellyfish-point-release-changes/29835/4)
-* [22.04.2](https://discourse.ubuntu.com/t/jammy-jellyfish-point-release-changes/29835/3)
-* [22.04.1](https://discourse.ubuntu.com/t/jammy-jellyfish-point-release-changes/29835/1)
+:::{toctree}
+:maxdepth: 1
+
+22.04.5 <5>
+22.04.4 <4>
+22.04.3 <3>
+22.04.2 <2>
+22.04.1 <1>
+:::
 
 For the release schedule of Ubuntu 22.04 LTS and its point releases, refer to:
 

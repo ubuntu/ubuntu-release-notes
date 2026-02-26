@@ -15,7 +15,11 @@ Changes since 25.10 <changes-since-previous-interim>
 Release schedule <schedule>
 :::
 
-Ubuntu 26.04 LTS is designated as a long-term support release. This means it will continue to receive security updates and critical bug fixes for five years. With an Ubuntu Pro subscription, access to ESM (Expanded Security Maintenance) updates will be available for ten years. 
+## Support lifespan
+
+Ubuntu 26.04 LTS is designated as a long-term support release. This means it will continue to receive security updates and critical bug fixes for five years. Ubuntu 26.04 LTS will be supported until April 2031.
+
+With an Ubuntu Pro subscription, access to ESM (Expanded Security Maintenance) updates will be available for ten years. 
 
 See our {ref}`release-policy-and-schedule`.
 

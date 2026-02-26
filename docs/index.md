@@ -102,7 +102,7 @@ Your comments, bug reports, patches and suggestions help fix bugs and improve th
 :maxdepth: 2
 :caption: Currently in development
 
-26.04 LTS (Resolute Raccoon) <26.04/schedule>
+26.04 LTS (Resolute Raccoon) <26.04/index>
 :::
 
 :::{toctree}

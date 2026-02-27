@@ -1,7 +1,7 @@
 ---
 name: Add a release note
 about: Add a new Ubuntu release note
-title: ''
+title: 'Ubuntu YY.MM release note: Component'
 labels: New release note
 assignees: ''
 

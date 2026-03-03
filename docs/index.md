@@ -7,11 +7,18 @@ Release notes contain specific upgrade instructions for that particular release.
 :::{toctree}
 :hidden:
 :maxdepth: 2
-:caption: Supported releases
+:caption: Supported LTS releases
 
-25.10 (Questing Quokka) <25.10/index>
 24.04 LTS (Noble Numbat) <24.04/index>
 22.04 LTS (Jammy Jellyfish) <22.04/index>
+:::
+
+:::{toctree}
+:hidden:
+:maxdepth: 2
+:caption: Supported interim releases
+
+25.10 (Questing Quokka) <25.10/index>
 :::
 
 :::{toctree}

@@ -55,12 +55,13 @@ The GNOME desktop environment has been updated to version 50:
 :::
 -->
 
-#### Gaming
+:::{rubric} Performance improvements for Windows games
+:::
+:::{versionadded} 25.04
+:::
 
-* A new NTSYNC driver that emulates WinNT sync primitives is available, delivering better performance potential for Windows games running on Wine and Proton (Steam Play).
+A new NTSYNC driver that emulates WinNT sync primitives is available, delivering better performance potential for Windows games running on Wine and Proton (Steam Play).
 
-    :::{versionadded} 25.04
-    :::
 
 ### Server
 
@@ -74,96 +75,114 @@ The GNOME desktop environment has been updated to version 50:
 * Zig ⚡ is now available in Ubuntu. It defaults to version 0.14.1.
 * Ubuntu Toolchains has a new [homepage](https://ubuntu.com/toolchains).
 
-#### OpenJDK ☕
+:::{rubric} OpenJDK 21 and TCK certification
+:::
+:::{versionadded} 24.10
+:::
 
 OpenJDK defaults to 21 (LTS), while version 25 (LTS) and an early access snapshot of version 26 are now available.
 
-* OpenJDK 21 and OpenJDK 17 packages are now TCK (Technology Compatibility Kit) certified on AMD64, ARM64, s390x, ppc64el and armhf. The Java TCK is the most comprehensive test suite that covers all aspects of Java SE specification including language features, libraries and APIs. This guarantees interoperability and conformance to standard.
+OpenJDK 21 and OpenJDK 17 packages are now TCK (Technology Compatibility Kit) certified on AMD64, ARM64, s390x, ppc64el and armhf. The Java TCK is the most comprehensive test suite that covers all aspects of Java SE specification including language features, libraries and APIs. This guarantees interoperability and conformance to standard.
 
-    :::{versionadded} 24.10
-    :::
+:::{rubric} Spring® snaps
+:::
+:::{versionadded} 25.04
+:::
 
-* We are excited to announce the [devpack-for-spring](https://snapcraft.io/devpack-for-spring) snap and a set of Spring® [content snaps](https://snapcraft.io/devpack-for-spring-manifest) that will serve as development tools for Spring® projects.
+We are excited to announce the [devpack-for-spring](https://snapcraft.io/devpack-for-spring) snap and a set of Spring® [content snaps](https://snapcraft.io/devpack-for-spring-manifest) that will serve as development tools for Spring® projects.
 
-    Developers can now quickly build Ubuntu ROCK images for their Java applications using the [Gradle and Maven plugins for Rockcraft](https://github.com/rockcrafters/java-rockcraft-plugins).
+Developers can now quickly build Ubuntu ROCK images for their Java applications using the [Gradle and Maven plugins for Rockcraft](https://github.com/rockcrafters/java-rockcraft-plugins).
 
-    :::{versionadded} 25.04
-    :::
+:::{rubric} GraalVM snap
+:::
+:::{versionadded} 25.04
+:::
 
-* GraalVM Community Edition for JDK versions 21, 24 and 25 is now available as a [snap](https://snapcraft.io/graalvm-jdk). Java developers now have a choice to build and deploy their applications with standard OpenJDK, with OpenJDK-CRaC or as a GraalVM native image.
+GraalVM Community Edition for JDK versions 21, 24 and 25 is now available as a [snap](https://snapcraft.io/graalvm-jdk). Java developers now have a choice to build and deploy their applications with standard OpenJDK, with OpenJDK-CRaC or as a GraalVM native image.
 
-    :::{versionadded} 25.04
-    :::
 
-#### .NET 🦄
+:::{rubric} .NET 10
+:::
 
 .NET has been updated from version 8 to 10.
 
-* We have expanded .NET support to the IBM Power platform, further broadening the platform’s reach.
+We have also expanded .NET support to the IBM Power platform, further broadening the platform’s reach.
 
-    :::{versionadded} 24.10
-    :::
+:::{rubric} .NET snap
+:::
+:::{versionadded} 24.10
+:::
 
-* We are also excited to introduce the new and improved [.NET Snap](https://snapcraft.io/dotnet), allowing developers to seamlessly install any supported version of .NET on any Ubuntu system.
+We are excited to introduce the new and improved [.NET Snap](https://snapcraft.io/dotnet), allowing developers to seamlessly install any supported version of .NET on any Ubuntu system.
 
-    :::{versionadded} 24.10
-    :::
+:::{rubric} PowerShell snap on more architectures
+:::
+:::{versionadded} 25.10
+:::
 
-* Support for the PowerShell snap has been expanded to include the `arm64`, `s390x`, and `ppc64el` architectures, broadening its availability across platforms.
+Support for the PowerShell snap has been expanded to include the `arm64`, `s390x`, and `ppc64el` architectures, broadening its availability across platforms.
 
-    :::{versionadded} 25.10
-    :::
-
-#### Containers
-
-* The `bpftools` and `linux-perf` tools have been decoupled from the kernel version, making dependency management easier for developers working with containers. These tools are now shipped in their own packages.
-
-    :::{versionchanged} 25.04
-    :::
 
 ### Cloud
 
 ### Security
 
+:::{rubric} New AppArmor sandboxing profiles
+:::
+:::{versionadded} 25.04
+:::
+
+As part of a profile writing effort to improve overall system security, the AppArmor package now includes many new profiles for applications. This improved sandboxing can help mitigate the impact of any exploit in the confined applications.
+
+:::{dropdown} Report bugs
+These profiles may cause breakage for unanticipated uses of those applications, and we encourage users to file a bug on [Launchpad](https://bugs.launchpad.net/ubuntu/+source/apparmor/+filebug) for AppArmor-induced breakage in common use cases. When AppArmor denies an action, it usually generates a log entry describing the denial, which will help us investigate the bug, but which can also be used to add additional rules for customization or to work around the denials. AppArmor log entries can be read in the auditd logs, if auditd is installed, or in the syslog otherwise. [This page](https://gitlab.com/apparmor/apparmor/-/wikis/denial_quick_guide) describes how the information contained in the denial log can be used to update a local override.
+:::
+
+
 ### Hardware support
 
-#### ARM
-
-The `linux-generic` kernel for ARM64 provides broader compatibility for ARM64 desktop platforms that utilize UEFI for booting ([LP#2121352](https://bugs.launchpad.net/ubuntu/+source/linux-signed/+bug/2121352)).
-
+:::{rubric} ARM desktop platforms
+:::
 :::{versionadded} 25.10
 :::
 
-#### RISC
+The `linux-generic` kernel for ARM64 provides broader compatibility for ARM64 desktop platforms that utilize UEFI for booting ([LP#2121352](https://bugs.launchpad.net/ubuntu/+source/linux-signed/+bug/2121352)).
 
-The Ubuntu RISC-V kernel (`linux-riscv`) only supports hardware that implements the RVA23S64 ISA profile. You can't run Ubuntu 26.04 LTS on systems that don't satisfy this requirement. The RISC-V kernel in Ubuntu 24.04 LTS continues to support boards with RVA20 processor cores.
 
+:::{rubric} New RISC requirements
+:::
 :::{versionchanged} 25.10
 :::
 
+The Ubuntu RISC-V kernel (`linux-riscv`) only supports hardware that implements the RVA23S64 ISA profile. You can't run Ubuntu 26.04 LTS on systems that don't satisfy this requirement. The RISC-V kernel in Ubuntu 24.04 LTS continues to support boards with RVA20 processor cores.
+
+
 ### Common changes
 
-#### `sudo-rs`
+:::{rubric} `sudo-rs`
+:::
+:::{versionadded} 25.10
+:::
 
-* The `sudo-rs` tool is now the default `sudo` provider.
+The `sudo-rs` tool is now the default `sudo` provider.
 
-    The `sudo` tool (the original `sudo` maintained by Todd C. Miller) has been renamed to `sudo.ws`. Additionally, the `sudo-ldap` package has been removed: please switch to using LDAP authentication via PAM.
+The `sudo` tool (the original `sudo` maintained by Todd C. Miller) has been renamed to `sudo.ws`. Additionally, the `sudo-ldap` package has been removed: please switch to using LDAP authentication via PAM.
     
-    See [Ubuntu Server Docs](https://documentation.ubuntu.com/server/how-to/security/user-management/#sudo-rs) for configuring your default `sudo` provider and for the differences between `sudo-rs` and `sudo.ws`.
+See [Ubuntu Server Docs](https://documentation.ubuntu.com/server/how-to/security/user-management/#sudo-rs) for configuring your default `sudo` provider and for the differences between `sudo-rs` and `sudo.ws`.
     
-    :::{versionadded} 25.10
-    :::
 
-#### `rust-coreutils`
+:::{rubric} `rust-coreutils`
+:::
+:::{versionadded} 25.10
+:::
 
-* The core utilities of the operating system are now provided by the [`rust-coreutils`](https://launchpad.net/ubuntu/+source/rust-coreutils) package. Among other things, this brings significant performance improvements, such as in the `base64` tool.
+The core utilities of the operating system are now provided by the [`rust-coreutils`](https://launchpad.net/ubuntu/+source/rust-coreutils) package. Among other things, this brings significant performance improvements, such as in the `base64` tool.
 
-    Since `rust-coreutils` are not necessarily fully compatible yet, we continue to provide the classic GNU utilities as well. You can switch back and forth between them.
+Since `rust-coreutils` are not necessarily fully compatible yet, we continue to provide the classic GNU utilities as well. You can switch back and forth between them.
     
-    :::{versionadded} 25.10
-    :::
 
-#### Linux kernel 🐧
+:::{rubric} Linux kernel 7.0
+:::
 
 The Linux kernel has been updated from version 6.8 to 7.0.
 
@@ -172,7 +191,7 @@ The Linux kernel has been updated from version 6.8 to 7.0.
     :::{versionadded} 24.10
     :::
 
-* Kernel developers can now make use of a [new scheduling system](https://canonical.com/blog/crafting-new-linux-schedulers-with-sched-ext-rust-and-ubuntu), "sched_ext", which provides a mechanism to implement scheduling policies as eBPF programs. This enables developers to defer scheduling decisions to standard user-space programs and implement fully functional hot-swappable Linux schedulers, using any language, tool, library, or resource accessible in user-space.
+* Kernel developers can now make use of a [new scheduling system](https://canonical.com/blog/crafting-new-linux-schedulers-with-sched-ext-rust-and-ubuntu), `sched_ext`, which provides a mechanism to implement scheduling policies as eBPF programs. This enables developers to defer scheduling decisions to standard user-space programs and implement fully functional hot-swappable Linux schedulers, using any language, tool, library, or resource accessible in user-space.
 
     :::{versionadded} 25.04
     :::
@@ -182,9 +201,10 @@ The Linux kernel has been updated from version 6.8 to 7.0.
     :::{versionadded} 25.04
     :::
 
-#### `systemd`
+:::{rubric} `systemd` 259
+:::
 
-The `systemd` service manager has been updated from version X to Y.
+The `systemd` service manager has been updated from version 255 to 259.
 
 * Support for System V service scripts has been removed. Use native `systemd` unit files instead of legacy System V scripts.
 
@@ -201,9 +221,10 @@ The `systemd` service manager has been updated from version X to Y.
     :::{versionchanged} 24.10
     :::
 
-#### Netplan
+:::{rubric} Netplan 1.2
+:::
 
-The Netplan network manager has been updated from version X to Y
+The Netplan network manager has been updated from version 1.0 to 1.2.
 
 * Netplan introduces a custom `systemd-networkd-wait-online` logic, waiting for link-local addresses and one routable interface, as described in the [specification](https://discourse.ubuntu.com/t/spec-definition-of-an-online-system/27838).
 
@@ -223,15 +244,4 @@ The Netplan network manager has been updated from version X to Y
 * Adds support non-standard OVS setups, e.g. inside snap environments.
 
     :::{versionadded} 25.10
-    :::
-
-#### AppArmor
-
-* As part of a profile writing effort to improve overall system security, the AppArmor package now includes many new profiles for applications. This improved sandboxing can help mitigate the impact of any exploit in the confined applications.
-
-    :::{dropdown} Report bugs
-    These profiles may cause breakage for unanticipated uses of those applications, and we encourage users to file a bug on [Launchpad](https://bugs.launchpad.net/ubuntu/+source/apparmor/+filebug) for AppArmor-induced breakage in common use cases. When AppArmor denies an action, it usually generates a log entry describing the denial, which will help us investigate the bug, but which can also be used to add additional rules for customization or to work around the denials. AppArmor log entries can be read in the auditd logs, if auditd is installed, or in the syslog otherwise. [This page](https://gitlab.com/apparmor/apparmor/-/wikis/denial_quick_guide) describes how the information contained in the denial log can be used to update a local override.
-    :::
-    
-    :::{versionadded} 25.04
     :::

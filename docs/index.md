@@ -9,6 +9,7 @@ Release notes contain specific upgrade instructions for that particular release.
 :maxdepth: 2
 :caption: Supported LTS releases
 
+26.04 LTS (Resolute Raccoon) <26.04/index>
 24.04 LTS (Noble Numbat) <24.04/index>
 22.04 LTS (Jammy Jellyfish) <22.04/index>
 :::
@@ -26,7 +27,7 @@ Release notes contain specific upgrade instructions for that particular release.
 :maxdepth: 2
 :caption: Currently in development
 
-26.04 LTS (Resolute Raccoon) <26.04/index>
+26.10 (S S) <26.10/index>
 :::
 
 :::{toctree}
@@ -39,6 +40,11 @@ Older releases <archive>
 :::
 
 ## LTS releases
+
+### 26.04 LTS (Resolute Raccoon)
+
+* {ref}`ubuntu-26.04-lts-release-notes`
+* {ref}`resolute-raccoon-schedule`
 
 ### 24.04 LTS (Noble Numbat)
 

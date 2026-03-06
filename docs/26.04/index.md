@@ -45,10 +45,10 @@ The following is an overview of the major changes.
 :::{rubric} Updated applications
 :::
 
-* [Firefox](https://mozilla.org/firefox/releases/) 137 🔥🦊
-* [LibreOffice 25.2](https://wiki.documentfoundation.org/ReleaseNotes/25.2) 📚
-* [Thunderbird 128 "Supernova"](https://blog.thunderbird.net/2023/07/our-fastest-most-beautiful-release-ever-thunderbird-XY-supernova-is-here/) 🌩️🐦
-* [GNU Image Manipulation Program 3.0](https://www.gimp.org/news/2025/03/16/gimp-3-0-released/) 🖼️
+* Firefox 🔥🦊 has been updated [to version 149](https://www.firefox.com/en-US/firefox/148.0/releasenotes/) / [150](https://www.firefox.com/en-US/firefox/148.0/releasenotes/).
+* LibreOffice 📚 has been updated from version 24.2 [to 25.8](https://wiki.documentfoundation.org/ReleaseNotes/25.8).
+* Thunderbird 🌩️🐦 has been updated [to version 128 "Supernova"](https://blog.thunderbird.net/2023/07/our-fastest-most-beautiful-release-ever-thunderbird-XY-supernova-is-here/).
+* GNU Image Manipulation Program 🖼️ has received a major update from version 2.10 [to 3.0](https://www.gimp.org/news/2025/03/16/gimp-3-0-released/).
 
 :::{rubric} GNOME 50
 :::

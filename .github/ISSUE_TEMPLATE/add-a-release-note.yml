@@ -1,12 +1,10 @@
-name: Add a release note (issue forms)
+name: Add a release note
 description: Add a new Ubuntu release note
 labels:
   - New release note
 assignees:
   - msuchane
-
 body:
-
 - type: dropdown
   attributes:
     label: Ubuntu release
@@ -18,38 +16,36 @@ body:
       - '27.04'
       - '27.10'
       - Other (specify in the description)
+    default: 1
   validations:
     required: true
-
 - type: checkboxes
   attributes:
     label: Change type
     description: |
       What kind of change is this? Try to select just one if possible.
     options:
-    - label: New feature or improvement
-    - label: Backwards-incompatible change, including removed features
-    - label: Deprecated feature -- will be removed in a later release
-    - label: Bug fix
-    - label: Known issue
-    - label: Something else (please describe)
-
+      - label: New feature or improvement
+      - label: Backwards-incompatible change, including removed features
+      - label: Deprecated feature – will be removed in a later release
+      - label: Bug fix
+      - label: Known issue
+      - label: Something else (please describe)
 - type: checkboxes
   attributes:
     label: Part of Ubuntu
     description: |
       Which part of Ubuntu does the change affect? Try to select just one if possible.
     options:
-    - label: Desktop
-    - label: Server
-    - label: Development tools
-    - label: Enterprise
-    - label: Cloud
-    - label: Security
-    - label: Real-time Ubuntu
-    - label: Hardware support
-    - label: A common, underlying change
-
+      - label: Desktop
+      - label: Server
+      - label: Development tools
+      - label: Enterprise
+      - label: Cloud
+      - label: Security
+      - label: Real-time Ubuntu
+      - label: Hardware support
+      - label: A common, underlying change
 - type: textarea
   attributes:
     label: Description
@@ -57,7 +53,6 @@ body:
       Describe the change in detail.
   validations:
     required: true
-
 - type: textarea
   id: workaround
   attributes:
@@ -66,7 +61,6 @@ body:
       If it's a known issue, how can users work around it for now?
   validations:
     required: false
-
 - type: textarea
   attributes:
     label: Title
@@ -74,20 +68,16 @@ body:
       Write a short title summarizing the change.
   validations:
     required: true
-
 - type: dropdown
   attributes:
     label: Major change
     description: |
       Is this a major change? Major changes are highlighted in an overview and are repeated when the next LTS release comes out.
-    multiple: false
     options:
-      - Yes
-      - No
-      - I don't know
+      - 'No'
+      - 'Yes'
   validations:
     required: true
-
 - type: textarea
   attributes:
     label: Tickets
@@ -95,7 +85,6 @@ body:
       Are there any tickets related to the change, e.g. in Launchpad, Jira, GitHub? Paste the links here.
   validations:
     required: false
-
 - type: textarea
   attributes:
     label: Upstream release notes

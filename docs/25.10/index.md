@@ -137,7 +137,7 @@ An icon in the system tray reminds you that updates are available even after dis
 
 #### Security Center
 
-- You can now manage your recovery key for the TPM-backed Full Disk Encryption. For details, see [ Encrypt your disk with TPM](https://canonical-ubuntu-desktop-documentation.readthedocs-hosted.com/en/latest/how-to/encrypt-your-disk-with-tpm/).
+- You can now manage your recovery key for the TPM-backed Full Disk Encryption. For details, see [Encrypt your disk with TPM](https://canonical-ubuntu-desktop-documentation.readthedocs-hosted.com/en/latest/how-to/encrypt-your-disk-with-tpm/).
 
 #### Ubuntu Insights
 

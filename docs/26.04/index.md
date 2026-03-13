@@ -18,6 +18,15 @@ Changes since 25.10 <changes-since-previous-interim>
 Release schedule <schedule>
 :::
 
+An archive of the unedited Discourse post before being migrated to GitHub:
+
+:::{toctree}
+:hidden:
+:maxdepth: 2
+
+before-migration
+:::
+
 ## Support lifespan
 
 Ubuntu 26.04 LTS is designated as a long-term support release. This means it will continue to receive security updates and critical bug fixes for five years. Ubuntu 26.04 LTS will be supported until April 2031.

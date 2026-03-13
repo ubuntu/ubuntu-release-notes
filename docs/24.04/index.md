@@ -5,7 +5,7 @@ tocdepth: 3
 (ubuntu-24.04-lts-release-notes)=
 # Ubuntu 24.04 LTS release notes
 
-These release notes for **Ubuntu 24.04 LTS** (Noble Numbat) provide an overview of the release and document the known issues with Ubuntu and its flavours.
+These release notes for **Ubuntu 24.04 LTS** (Noble Numbat) provide an overview of the release and document the known issues with Ubuntu and its flavors.
 
 For details of the changes applied since 24.04, refer to the following changelogs:
 
@@ -1185,10 +1185,10 @@ New GCE images will be built and published shortly after release to disable this
 
 * We have identified an issue with apparmor profiles on Confidential VM images available under the `cvm` plan of the offer `ubuntu-24_04-lts`. For example, the `rsyslog` service will fail to start on VMs launched from this plan. This is being investigated and a new image with a fix will be published shortly.
 
-(24-04-official-flavours)=
-## Official flavours
+(24-04-official-flavors)=
+## Official flavors
 
-Find the release notes for the official flavours at the following links:
+Find the release notes for the official flavors at the following links:
 
 * [Edubuntu Release Notes](https://discourse.ubuntu.com/t/edubuntu-24-04-lts-released/44455/)
 * [Kubuntu Release Notes](https://wiki.ubuntu.com/NobleNumbat/ReleaseNotes/Kubuntu)

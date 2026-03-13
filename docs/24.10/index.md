@@ -5,7 +5,7 @@ tocdepth: 3
 (ubuntu-24.10-release-notes)=
 # Ubuntu 24.10 release notes
 
-These release notes for **Ubuntu 24.10** (Oracular Oriole) provide an overview of the release and document the known issues with Ubuntu and its flavours.
+These release notes for **Ubuntu 24.10** (Oracular Oriole) provide an overview of the release and document the known issues with Ubuntu and its flavors.
 
 :::{toctree}
 :maxdepth: 1
@@ -651,10 +651,10 @@ Nothing yet.
 
 Nothing yet.
 
-(24-10-official-flavours)=
-## Official flavours
+(24-10-official-flavors)=
+## Official flavors
 
-Find the release notes for the official flavours at the following links:
+Find the release notes for the official flavors at the following links:
 
 * [Edubuntu Release Notes](https://discourse.ubuntu.com/t/edubuntu-24-10-released/48647)
 * [Kubuntu Release Notes](https://kubuntu.org/news/kubuntu-24-10-oracular-oriole-released/)

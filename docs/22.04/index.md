@@ -5,7 +5,7 @@ tocdepth: 3
 (ubuntu-22.04-lts-release-notes)=
 # Ubuntu 22.04 LTS release notes
 
-These release notes for **Ubuntu 22.04 LTS** (Jammy Jellyfish) provide an overview of the release and document the known issues with Ubuntu and its flavours.
+These release notes for **Ubuntu 22.04 LTS** (Jammy Jellyfish) provide an overview of the release and document the known issues with Ubuntu and its flavors.
 
 For details of the changes applied since 20.04, refer to the following posts:
 
@@ -30,7 +30,7 @@ Release schedule <schedule>
 
 ## Support lifespan
 
-Maintenance updates will be provided for 5 years until [April 2027](https://wiki.ubuntu.com/Releases) for Ubuntu Desktop, Ubuntu Server, Ubuntu Cloud, and Ubuntu Core. All the remaining flavours will be supported for 3 years. Additional security support is available with [ESM (Extended Security Maintenance).](https://ubuntu.com/security/esm)
+Maintenance updates will be provided for 5 years until [April 2027](https://wiki.ubuntu.com/Releases) for Ubuntu Desktop, Ubuntu Server, Ubuntu Cloud, and Ubuntu Core. All the remaining flavors will be supported for 3 years. Additional security support is available with [ESM (Extended Security Maintenance).](https://ubuntu.com/security/esm)
 
 (heading--get-ubuntu-22-04-lts)=
 ## Get Ubuntu 22.04 LTS
@@ -95,7 +95,7 @@ Ubuntu 22.04 LTS ships multiple optimized kernels on per-product basis:
 * Ubuntu Server defaults to a non-rolling LTS kernel v5.15 (`linux-generic`)
 * Ubuntu Cloud and Devices use optimized kernels in collaboration with partners (v5.15+ with additional backports and features)
 
-Additional optimized and certified kernel flavours will become available in Ubuntu 22.04 LTS in due course.
+Additional optimized and certified kernel flavors will become available in Ubuntu 22.04 LTS in due course.
 
 #### UDP disabled for NFS mounts
 Since Ubuntu 20.10 ("Groovy Gorilla"), the kernel option `CONFIG_NFS_DISABLE_UDP_SUPPORT=y` is set and this disables using UDP as the transport for NFS mounts, regardless of NFS version.
@@ -116,7 +116,7 @@ In addition to OpenJDK 11, OpenJDK 18 is now provided (but not used for package 
 Ruby 💎 was updated from v2.7.4 to v3.0.
 
 ### systemd v249.11
-The init system was updated to systemd v249, using a solid .11 patchlevel for the LTS. Please refer to the upstream [changelog](https://github.com/systemd/systemd/releases/tag/v249) for more information about the individual features. We've enabled the userspace OOMD service and are shipping the `systemd-oomd` package by default on the "Ubuntu Desktop" flavour, to avoid overloaded systems and the need of the kernel's OOM killer to kick in. The OOMD status can be checked using `oomctl`.
+The init system was updated to systemd v249, using a solid .11 patchlevel for the LTS. Please refer to the upstream [changelog](https://github.com/systemd/systemd/releases/tag/v249) for more information about the individual features. We've enabled the userspace OOMD service and are shipping the `systemd-oomd` package by default on the "Ubuntu Desktop" flavor, to avoid overloaded systems and the need of the kernel's OOM killer to kick in. The OOMD status can be checked using `oomctl`.
 
 ### OpenSSL 3.0
 
@@ -586,7 +586,7 @@ Ubuntu 22.04 LTS is available on ARM in many public clouds - Azure, AWS, Oracle 
 
 Ubuntu 22.04 LTS adds linux-restricted-modules of NVIDIA drivers on ARM64. Users on ARM64 can now use `ubuntu-drivers` tool to install and configure NVIDIA drivers from the Ubuntu Archive.
 
-linux-generic-64k kernel flavour with 64K pages support is now avalable as a GA LTS kernel. It was first introduced in 20.10 release, and has been available as an HWE kernel since 20.04.2 LTS.
+linux-generic-64k kernel flavor with 64K pages support is now avalable as a GA LTS kernel. It was first introduced in 20.10 release, and has been available as an HWE kernel since 20.04.2 LTS.
 
 
 #### ppc64el
@@ -718,10 +718,10 @@ This is being tracked in [~~bug #1934997~~](https://bugs.launchpad.net/ubuntu/+s
 
 No known issues yet.
 
-(22-04-official-flavours)=
-## Official flavours
+(22-04-official-flavors)=
+## Official flavors
 
-The release notes for the official flavours can be found at the following links:
+The release notes for the official flavors can be found at the following links:
 
 * [Kubuntu Release Notes](https://wiki.ubuntu.com/JammyJellyfish/ReleaseNotes/Kubuntu)
 * [Lubuntu Release Notes](https://discourse.lubuntu.me/t/lubuntu-22-04-lts-jammy-jellyfish-release-notes/3179)

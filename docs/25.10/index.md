@@ -5,7 +5,7 @@ tocdepth: 3
 (ubuntu-25.10-release-notes)=
 # Ubuntu 25.10 release notes
 
-These release notes for **Ubuntu 25.10** (Questing Quokka) provide an overview of the release and document the known issues with Ubuntu and its flavours.
+These release notes for **Ubuntu 25.10** (Questing Quokka) provide an overview of the release and document the known issues with Ubuntu and its flavors.
 
 :::{toctree}
 :maxdepth: 1
@@ -721,10 +721,10 @@ Nothing yet.
 
     One may proceed and complete the upgrade, but at the end of the process the system needs to be manually rebooted. The bug is tracked here: [LP: #2126934](https://launchpad.net/bugs/2126934)
 
-(25-10-official-flavours)=
-## Official flavours
+(25-10-official-flavors)=
+## Official flavors
 
-Find the release notes for the official flavours at the following links:
+Find the release notes for the official flavors at the following links:
 
 * [Edubuntu Release Notes](https://discourse.ubuntu.com/t/edubuntu-25-10-released/)
 * [Kubuntu Release Notes](https://wiki.ubuntu.com/QuestingQuokka/ReleaseNotes/Kubuntu)

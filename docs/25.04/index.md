@@ -5,7 +5,7 @@ tocdepth: 3
 (ubuntu-25.04-release-notes)=
 # Ubuntu 25.04 release notes
 
-These release notes for **Ubuntu 25.04** (Plucky Puffin) provide an overview of the release and document the known issues with Ubuntu and its flavours.
+These release notes for **Ubuntu 25.04** (Plucky Puffin) provide an overview of the release and document the known issues with Ubuntu and its flavors.
 
 :::{toctree}
 :maxdepth: 1
@@ -919,10 +919,10 @@ Nothing yet.
 
 Nothing yet.
 
-(25-04-official-flavours)=
-## Official flavours
+(25-04-official-flavors)=
+## Official flavors
 
-Find the release notes for the official flavours at the following links:
+Find the release notes for the official flavors at the following links:
 
 * [Edubuntu Release Notes](https://discourse.ubuntu.com/t/edubuntu-25-04-released)
 * [Kubuntu Release Notes](https://wiki.ubuntu.com/PluckyPuffin/ReleaseNotes/Kubuntu)

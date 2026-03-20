@@ -372,7 +372,7 @@ The following provides an overview of selected and significant s390x-specific en
 
 On the IBM Z (s390s) architecture, the architectural level set (ALS) was raised to build for IBM Z generation z15 (LinuxONE Emperor III) with the `march=z15` and `mtune=z16` compiler options ([LP: #2126577](https://launchpad.net/bugs/2126577)). This brings performance improvements on the later generations
 
-On IBM Z generations z14 (LinuxONE II) or older, see {ref}`ibm-z14-support-removed`.
+See also {ref}`ibm-z14-support-removed`.
 
 With every new Ubuntu Server release the `s390-tools` package was gradually upgraded to its latest available release v2.41 ([LP: #2141945](https://launchpad.net/bugs/2141945)), that now:
 

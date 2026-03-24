@@ -431,17 +431,14 @@ Finally several packages were updated to their latest upstream version to pick u
 
 * `cgroupfs` is now mounted with `nsdelegate,memory_recursiveprot,memory_hugetlb_accounting`
 
-#### systemd v259.5
+#### systemd 259.5
 
-For a complete list of changes, please see the [v259 changelog](https://github.com/systemd/systemd/releases/tag/v259). Below are some important highlights:
+The `systemd` service manager has been updated to version 259. For a complete list of changes, see the [changelog](https://github.com/systemd/systemd/releases/tag/v259).
 
-* systemd v259 **no longer supports cgroup v1 ('legacy' and 'hybrid') hierachies**. This means that:
-  * Ubuntu installations running cgroup v1 will not be allowed to upgrade to Ubuntu 26.04 LTS.
-  * Ubuntu 26.04 LTS container workloads will not run on a host booted with cgroup v1.
-  * Ubuntu 26.04 LTS hosts do not support container workloads that require cgroup v1 (for example, Ubuntu < 18.04 LTS).
-  * This change was made in systemd v258. See the [v258 changelog](https://github.com/systemd/systemd/releases/tag/v259) for more information.
-* Ubuntu 26.04 LTS is the **last release that support will System V service scripts compatibility in systemd**.
-  * systemd [v260 has already dropped support](https://github.com/systemd/systemd/releases/tag/v260), so this change will take effect in Ubuntu 26.10.
+Also, refer to the removed and deprecated functionality:
+
+* {ref}`cgroup-v1-removed`
+* {ref}`system-v-scripts-deprecated`
 
 #### Netplan v1.1.2 🌐
 
@@ -546,6 +543,17 @@ IBM Z generation z14 (LinuxONE II) is still supported by Ubuntu Server 24.04 LTS
 
 ### Common changes
 
+(cgroup-v1-removed)=
+#### `cgroup` v1 support has been removed
+
+`systemd` version 259 no longer supports `cgroup` v1 (`legacy` and `hybrid`) hierarchies. As a result:
+
+  * Ubuntu installations running `cgroup` v1 will not be allowed to upgrade to Ubuntu 26.04 LTS.
+  * Ubuntu 26.04 LTS container workloads will not run on a host booted with `cgroup` v1.
+  * Ubuntu 26.04 LTS hosts do not support container workloads that require `cgroup` v1: for example, Ubuntu earlier than 18.04 LTS.
+
+This change was made in `systemd` version 258. See the [changelog](https://github.com/systemd/systemd/releases/tag/v258) for more information.
+
 #### Removable media are mounted under `/run/media`
 
 In previous Ubuntu releases, removable media were mounted under the `/media` directory. Starting with Ubuntu 26.04 LTS, `/run/media` is now the mount directory instead. This has several benefits:
@@ -584,9 +592,16 @@ Other breaking changes and new features can be seen in the [full upstream change
 ### Security deprecations
 
 ### Hardware support deprecations
+-->
 
 ### Common deprecations
--->
+
+(system-v-scripts-deprecated)=
+#### Legacy System V service scripts are deprecated
+
+Ubuntu 26.04 LTS is the last release that supports System V service scripts compatibility in `systemd`. Migrate your legacy System V scripts to native `systemd` unit files.
+
+`systemd` version 260 [has already dropped support](https://github.com/systemd/systemd/releases/tag/v260), so this change will take effect in Ubuntu 26.10.
 
 ## Bug fixes
 

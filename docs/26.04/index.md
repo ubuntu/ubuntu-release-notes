@@ -529,12 +529,9 @@ The Linux kernel has been updated from version 6.8 to 7.0.
 
 The `systemd` service manager has been updated from version 255 to 259.
 
-* Support for System V service scripts has been removed. Use native `systemd` unit files instead of legacy System V scripts.
+* Ubuntu 26.04 LTS is the last release that supports System V service scripts compatibility in `systemd`. Migrate your legacy System V scripts to native `systemd` unit files.
 
-    :::{versionremoved} 26.04
-    :::
-
-* Support for `cgroup` version 1 ('legacy' and 'hybrid' hierarchies) has been removed.
+* Support for `cgroup` version 1 (`legacy` and `hybrid` hierarchies) has been removed. For details, see {ref}`cgroup-v1-removed`.
 
     :::{versionremoved} 26.04
     :::

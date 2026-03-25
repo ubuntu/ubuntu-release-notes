@@ -53,6 +53,8 @@ Kerberos has been configured to observe the `/etc/krb5.conf.d/` directory by def
 
 MIT Kerberos and Heimdal are both supported, but use different orderings for the include directive. MIT Kerberos uses alphanumerical order, while Heimdal uses the unpredictable order of the `readdir()` system call ([LP: #2140967](https://bugs.launchpad.net/ubuntu/+source/heimdal/+bug/2140967))
 
+MIT Kerberos no longer includes the arcfour-hmac-md5 and the des3-cbc-sha1 algorithms in its default encryption algorithm list. They are weak, deprecated algorithms. Before, krb5 would include them in its default algorithm lists when users do not specify a list with algorithms to be used. Note that we did not remove support for those algorithms. Instead we just dropped them from the default list that the client will try in case the user do not specify any algorithms in their configuration file in the `permitted_enctypes` directive in the `libdefaults` section in `/etc/krb5.conf`.
+
 #### `multipath-tools` 0.12.2
 
 Updated from version 0.11.1 to 0.12.2. See the 0.12 series in the [upstream changelog](https://github.com/opensvc/multipath-tools/blob/0.12.2/NEWS.md).

@@ -93,7 +93,9 @@ The Terminal app is now provided by [Ptyxis](https://gitlab.gnome.org/chergert/p
 :::{versionchanged} 25.10
 :::
 
-The Ubuntu Desktop session now runs only on the Wayland back end. The [Ubuntu on X\.org session is no longer available](https://discourse.ubuntu.com/t/ubuntu-25-10-drops-support-for-gnome-on-xorg/62538) because GNOME Shell can no longer run as an X\.org session.
+The "Ubuntu Desktop" session now runs only on the Wayland back end, because GNOME Shell can [no longer run as an X\.org session](https://discourse.ubuntu.com/t/ubuntu-25-10-drops-support-for-gnome-on-xorg/62538).
+X\.org programs can still be run through Xwayland.
+Other sessions (such as [`i3`](https://i3wm.org/), [KDE X11](https://kde.org/), [XFCE](https://www.xfce.org/), [MATE](https://mate-desktop.org/), ...) can be launched using an X\.org session.
 
 Machines using Nvidia graphics now also fully support Wayland.
 

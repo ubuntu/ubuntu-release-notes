@@ -532,7 +532,9 @@ The creation of the swap file on the desktop images is now handled by [`cloud-in
 :::{versionchanged} 25.10
 :::
 
-The RISC-V version of Ubuntu only supports hardware that implements the RVA23S64 ISA profile. You can't run Ubuntu 26.04 LTS on systems that don't satisfy this requirement. Ubuntu 24.04 LTS continues to support boards with RVA20 processor cores. At release time, the only supported "hardware" is QEMU with `-cpu rva23s64` CPU profile.
+The RISC-V version of Ubuntu 26.04 LTS only supports hardware that implements the RVA23S64 ISA profile. You can't run Ubuntu 26.04 LTS on systems that don't satisfy this requirement. Ubuntu 24.04 LTS continues to support boards with the earlier RVA20 processor cores.
+
+As of April 2026, no RVA23S64 hardware is available yet. The only supported RISC-V platform is the QEMU virtualization with the `-cpu rva23s64` CPU profile.
 
 #### IBM Z requirements raised to z15
 :::{versionchanged} 26.04

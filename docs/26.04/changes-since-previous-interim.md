@@ -635,6 +635,8 @@ Django was updated to LTS version 5.2.9. For more information, see the [Django 5
 
 OpenSSH was updated to version 10.2, which is a bugfix release on top of 10.1 present in the Ubuntu Questing 25.10 release.
 
+As per RFC 8732, gss-group14-sha1- and gss-gex-sha1- are considered deprecated algorithms and should not be used. Therefore, we dropped those deprecated algorithms from the Ubuntu GSS-API support patch. This does not mean those algorithms are no longer supported. Instead, they were removed from the default list that the client or the server will try for GSS key exchange in case the user does not specify any algorithms in their configuration file.
+
 #### Dovecot 2.4.2
 
 Updated to 2.4.2. See the [upstream announcement](https://dovecot.org/mailman3/archives/list/dovecot@dovecot.org/thread/XTMMPVQ3QKQMYDZ3CZZCXPNHN7OXKS3L/).

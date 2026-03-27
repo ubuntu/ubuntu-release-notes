@@ -267,7 +267,7 @@ For a list of all changes and fixes, please check the [upstream releases page](h
 * https://sssd.io/release-notes/sssd-2.11.0.html
 * https://sssd.io/release-notes/sssd-2.12.0.html
 
-#### Colored output with `strace` 6.19
+### Colored output with `strace` 6.19
 
 ```{include} /reuse/26.04/strace-6.19.txt
 ```

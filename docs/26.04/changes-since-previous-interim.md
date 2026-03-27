@@ -287,7 +287,7 @@ The MySQL and MariaDB servers are mutually exclusive on Ubuntu for now.
 
 MySQL’s current LTS version 8.4 is provided in Ubuntu 26.04, starting with version 8.4.8. Future security fixes will be provided by 8.4.x version updates. For more information see the [upstream release notes](https://dev.mysql.com/doc/relnotes/mysql/8.4/en/).
 
-#### MySQL iShell
+#### MySQL Shell
 
 MySQL Shell was updated to the latest LTS version, 8.4.8, to match MySQL’s version. See the [upstream release notes](https://dev.mysql.com/doc/relnotes/mysql-shell/8.4/en/) for more information.
 

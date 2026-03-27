@@ -27,16 +27,22 @@ Release schedule <schedule>
 
 Ubuntu 26.04 LTS is designated as a long-term support release. This means it will continue to receive security updates and critical bug fixes for five years. Ubuntu 26.04 LTS will be supported until April 2031.
 
-With an Ubuntu Pro subscription, access to ESM (Expanded Security Maintenance) updates will be available for ten years. 
+With an Ubuntu Pro subscription, access to ESM (Expanded Security Maintenance) updates will be available for ten years.
 
 See our {ref}`release-policy-and-schedule`.
 
 ## Requirements and compatibility
 
-Ubuntu 26.04 LTS requires a 2 GHz dual-core processor or better, a minimum of 6GB RAM and 25 GB of free hard drive space.
+Ubuntu Desktop 26.04 LTS requires a 2 GHz dual-core processor or better, a minimum of 6GB RAM and 25 GB of free hard drive space.
 
-You need either a USB port or a DVD drive for the installer media. An internet connection enables you to access more software and updates but you can install Ubuntu without it.
+Requirements for Ubuntu Server 26.04 LTS [scale with your specific use case](https://ubuntu.com/server/docs/reference/installation/system-requirements/),
+starting as low as 1.5 GB RAM and 4 GB of hard drive space.
 
+For ISO-based installs, you will need a USB port or DVD drive for the installation media.
+Alternatively, Ubuntu Server is also available as pre-built images for cloud, virtualized,
+and bare-metal environments, which utilize their own deployment mechanisms.
+
+While an internet connection is recommended for updates and additional software, it is not required for the initial installation.
 
 ## Changes since your version of Ubuntu
 

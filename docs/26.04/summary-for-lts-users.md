@@ -257,8 +257,15 @@ For a list of all changes and fixes, please check the [upstream releases page](h
 
 ### SSSD
 
-```{include} /reuse/26.04/sssd-2.12.txt
+```{include} /reuse/26.04/sssd-2.12-features.txt
 ```
+
+```{include} /reuse/26.04/sssd-2.12-changes.txt
+```
+
+* https://sssd.io/release-notes/sssd-2.10.0.html
+* https://sssd.io/release-notes/sssd-2.11.0.html
+* https://sssd.io/release-notes/sssd-2.12.0.html
 
 #### Colored output with `strace` 6.19
 

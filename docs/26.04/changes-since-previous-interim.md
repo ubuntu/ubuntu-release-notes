@@ -92,8 +92,15 @@ New features and important changes in 4.23:
 (26.04-sssd-2.12)=
 #### SSSD
 
-```{include} /reuse/26.04/sssd-2.12.txt
+```{include} /reuse/26.04/sssd-2.12-features.txt
 ```
+
+See also {ref}`26.04-sssd-changes`.
+
+Other changes of importance are listed upstream:
+
+* https://sssd.io/release-notes/sssd-2.11.0.html
+* https://sssd.io/release-notes/sssd-2.12.0.html
 
 #### Squid
 
@@ -517,11 +524,18 @@ The `blkmapd` and `nfs-blkmap` services have been removed. From the `NEWS` file:
 >
 > Users of pNFS are advised to move to the revised SCSI/NVMe layouts  that are safe to use and don't require the use of blkmapd.
 
-#### SSSD
+(26.04-sssd-changes)=
+#### Breaking changes in SSSD
 
-Please see above {ref}`for the changes to the user handling <26.04-sssd-2.12>`
+```{include} /reuse/26.04/sssd-2.12-changes.txt
+```
 
-#### PHP
+Other changes of importance are listed upstream:
+
+* https://sssd.io/release-notes/sssd-2.11.0.html
+* https://sssd.io/release-notes/sssd-2.12.0.html
+
+#### Breaking changes in PHP
 
 * It is no longer possible to use `array` and `callable` as class alias names in `class_alias()`.
 

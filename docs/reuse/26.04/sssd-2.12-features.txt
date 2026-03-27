@@ -1,0 +1,1 @@
+SSSD has been updated to version 2.12.

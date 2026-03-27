@@ -1,23 +1,23 @@
 Squid was updated to upstream version 7.2. Coming from version 6, the main new options are:
 
-* Add tls_key_log directive to log TLS master keys.
+* Add `tls_key_log` directive to log TLS master keys.
 
-* Add key-extras format to external ACL helpers to pass transaction details.
+* Add `key-extras` format to external ACL helpers to pass transaction details.
 
-* Add doh_query directive to send DNS queries over HTTPS.
+* Add `doh_query` directive to send DNS queries over HTTPS.
 
-* Add cache_peer option tls-client-cert-switch to select client certificates dynamically.
+* Add `cache_peer` option `tls-client-cert-switch` to select client certificates dynamically.
 
 Several bugfixes for crash scenarios are also included in this major release.
 
-Some directives and options were removed/deprecated:
+Some directives and options were removed:
 
-* Removed client_delay_access directive.
+* Removed `client_delay_access` directive.
 
-* Removed ftp_epsv directive.
+* Removed `ftp_epsv` directive.
 
-* Removed cache_peer option no-netdb-exchange.
+* Removed `cache_peer` option `no-netdb-exchange`.
 
-* Removed client_persistent_connections and server_persistent_connections directives.
+* Removed `client_persistent_connections` and `server_persistent_connections` directives.
 
 For a list of all changes and fixes, please check the [upstream releases page](https://github.com/squid-cache/squid/releases).

@@ -3,6 +3,21 @@
 
 <!-- migrated from https://discourse.ubuntu.com/t/resolute-raccoon-release-schedule/47198 -->
 
+:::{timeline}
+:reversed:
+
+- start: 2026-02-19
+  name: "[Feature Freeze](https://wiki.ubuntu.com/FeatureFreeze), Debian Import Freeze"
+- start: 2026-03-26
+  name: Beta (mandatory)
+- start: 2026-04-23
+  name: "[Final Release](https://wiki.ubuntu.com/FinalRelease)"
+---
+**{{dtrange}}**
+
+{{e.name}}
+:::
+
 | Week | Date (Thursday) | 26.04 events |
 |----|----|----|
 | **October 2025** |  |  |

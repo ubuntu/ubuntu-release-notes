@@ -30,3 +30,6 @@ sphinx-sitemap
 # Vale dependencies
 rst2html
 vale
+
+# Added specifically for the release notes
+sphinx-timeline

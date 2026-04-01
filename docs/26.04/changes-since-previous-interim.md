@@ -21,7 +21,7 @@ The GNOME desktop environment has been updated to version 50.
 
 #### Added graphical Ubuntu Insights management controls to Settings
 
-Graphical controls to finely control Ubuntu Insights consent states as well as to preview reports have been added to Settings. They can be found under *Privacy & Securit* within the *Telemetry* panel, which also replaces the *Diagnostics* panel.
+Graphical controls to finely control Ubuntu Insights consent states as well as to preview reports have been added to Settings. They can be found under *Privacy & Security* within the *Telemetry* panel, which also replaces the *Diagnostics* panel.
 
 #### Prompt for Ubuntu Insights consent on release upgrades
 

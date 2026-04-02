@@ -281,7 +281,8 @@ Further details on new features and bug fixes are available in the upstream chan
 
 #### DocumentDB
 
-DocumentDB is now available in Ubuntu, starting with version 0.108-0. It is a powerful, scalable, MongoDB compatible open-source document database built for modern applications, built on PostgreSQL. For more information see [documentdb.io](https://documentdb.io/).
+```{include} /reuse/26.04/documentdb-0.108-0-features.txt
+```
 
 #### MariaDB is fully supported
 
@@ -308,15 +309,13 @@ Percona Toolkit was updated to the latest version, 3.7.1, and now includes addit
 
 #### PostgreSQL
 
-PostgreSQL was updated to version 18. This new version improves performance for workloads of all sizes through a new I/O subsystem that has demonstrated up to 3× performance improvements when reading from storage, and also increases the number of queries that can use indexes. This release makes major-version upgrades less disruptive, accelerating upgrade times and reducing the time required to reach expected performance after an upgrade completes. Developers also benefit from PostgreSQL 18 features, including virtual generated columns that compute values at query time, and the database-friendly `uuidv7()` function that provides better indexing and read performance for UUIDs. PostgreSQL 18 makes it easier to integrate with single-sign on (SSO) systems with support for OAuth 2.0 authentication.
-
-For further information, check the [upstream release announcement](https://www.postgresql.org/about/news/postgresql-18-released-3142/) and the [upstream release notes](https://www.postgresql.org/docs/18/release-18.html).
+```{include} /reuse/26.04/postgresql-18-features.txt
+```
 
 #### Valkey
 
-Valkey was updated to version 9.0, starting with 9.0.3. This includes various features and improvements beyond 8.x, such as atomic slot migrations and hash field expiration.
-
-For more information on the new version, see the [Valkey 9 blog post](https://valkey.io/blog/introducing-valkey-9/). Release notes are available on the [Valkey project GitHub](https://github.com/valkey-io/valkey/releases).
+```{include} /reuse/26.04/valkey-9.0-features.txt
+```
 
 ### High availability and clustering features
 

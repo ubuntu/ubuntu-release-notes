@@ -761,28 +761,38 @@ Installing `ubuntu-fonts-classic` results in a non-Ubuntu font being displayed (
 
 RabbitMQ is not directly upgradable due to feature flags. To mitigate this, some manual steps are needed. For more information please read <https://discourse.ubuntu.com/t/ubuntu-server-gazette-issue-12-upgrading-rabbitmq-across-ubuntu-releases/77271>.
 
-#### Apache2
+#### Apache2 security hardening breaks the `mod-php` JIT
 
-The Apache2 systemd service unit now sets `MemoryDenyWriteExecute=yes` by default as a security hardening measure. This prevents simultaneously writable and executable memory mappings. However, it breaks PHP's JIT compiler when using `libapache2-mod-php`, producing warnings such as:
+The Apache2 `systemd` service unit now sets the `MemoryDenyWriteExecute=yes` option by default as a security hardening measure. This prevents simultaneously writable and executable memory mappings. However, it breaks PHP's JIT compiler when using the `libapache2-mod-php` module, producing warnings such as the following:
 
-```
+```text
 Warning: preg_match(): Allocation of JIT memory failed, PCRE JIT will be disabled.
 ```
 
-This does not affect `php-fpm` - switching is the recommended solution. If continuing with `mod-php` is necessary, the setting can be overridden by editing the Apache2 systemd unit:
+We recommend that you switch from `mod-php` to the `php-fpm` service, which isn't affected by the change.
 
-```
-sudo systemctl edit apache2
-```
+If you want to continue using `mod-php`, override the setting by editing the Apache2 `systemd` unit:
 
-Uncomment and edit the following line and save:
+1. Open the editor:
 
-```ini
-[Service]
-MemoryDenyWriteExecute=no
-```
+    ```
+    sudo systemctl edit apache2
+    ```
 
-Then restart Apache2 with `sudo systemctl restart apache2`. See [LP: #2144455](https://bugs.launchpad.net/ubuntu-release-notes/+bug/2144455) and the [systemd.exec documentation](https://www.freedesktop.org/software/systemd/man/latest/systemd.exec.html#MemoryDenyWriteExecute=) for more information.
+2. Uncomment and edit the following line and save:
+
+    ```ini
+    [Service]
+    MemoryDenyWriteExecute=no
+    ```
+
+3. Restart Apache2:
+
+    ```bash
+    sudo systemctl restart apache2
+    ```
+
+See [LP: #2144455](https://bugs.launchpad.net/ubuntu-release-notes/+bug/2144455) and the [systemd.exec documentation](https://www.freedesktop.org/software/systemd/man/latest/systemd.exec.html#MemoryDenyWriteExecute=) for more information.
 
 #### Bacula
 

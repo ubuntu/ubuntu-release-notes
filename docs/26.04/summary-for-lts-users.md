@@ -344,6 +344,14 @@ MySQL Shell was updated from major version 8.0 to 8.4 to coincide with MySQL 8.4
 ```{include} /reuse/26.04/valkey-9.0-features.txt
 ```
 
+### High availability and clustering
+
+* Starting with the Oracular release, the **kpartx-boot** package has been discontinued to align with Debian. Originally introduced to support dmraid booting, its functionality is preserved, as the kpartx package now includes everything previously provided by kpartx-boot.
+
+* The **dmraid** package has been removed from Oracular. The rationale for its removal is outlined in https://bugs.launchpad.net/bugs/2073677, primarily due to its removal from Debian unstable and minimal upstream support. If you require this functionality, consider using alternatives like mdadm.
+
+* Pacemaker was updated to version 3. All new features and breaking changes are described in the [upstream release notes](https://projects.clusterlabs.org/w/projects/pacemaker/pacemaker_3.0_changes/).
+
 ## Development
 
 * GCC 🐄 has been updated from version 14 to 15.2, `binutils` from 2.42 to 2.45, and `glibc` from 2.39 to 2.42.

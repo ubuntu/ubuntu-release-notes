@@ -197,6 +197,11 @@ Specific release notes for major version releases since Ubuntu 24.04 LTS (Noble 
 
 A noteworthy change in the packaging of Postfix is that **by default it is no longer installed in a chroot, and only limited chroot support is available from now on**.
 
+### RabbitMQ
+
+```{include} /reuse/26.04/rabbitmq-upgrade.txt
+```
+
 ### Samba
 
 Samba has been updated to the new upstream 4.23 version. Changes since Ubuntu Noble 24.04:

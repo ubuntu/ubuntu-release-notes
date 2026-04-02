@@ -757,9 +757,10 @@ Installing `ubuntu-fonts-classic` results in a non-Ubuntu font being displayed (
 
 ### Server issues
 
-#### rabbitmq-server
+#### RabbitMQ
 
-RabbitMQ is not directly upgradable due to feature flags. To mitigate this, some manual steps are needed. For more information please read <https://discourse.ubuntu.com/t/ubuntu-server-gazette-issue-12-upgrading-rabbitmq-across-ubuntu-releases/77271>.
+```{include} /reuse/26.04/rabbitmq-upgrade.txt
+```
 
 #### Bacula
 

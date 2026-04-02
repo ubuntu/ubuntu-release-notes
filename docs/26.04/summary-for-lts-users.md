@@ -344,6 +344,12 @@ MySQL Shell was updated from major version 8.0 to 8.4 to coincide with MySQL 8.4
 ```{include} /reuse/26.04/valkey-9.0-features.txt
 ```
 
+### Container stacks
+:::{versionadded} 25.10
+:::
+
+For the `containerd` and `runc` packages, we established a pattern to either keep the regular updates to the latest version or to opt for slower, more stable updates throughout the time the release is active. For more please read [Ubuntu Server Gazette - Issue 8 - Containers: Steady paths for agile stacks](https://discourse.ubuntu.com/t/ubuntu-server-gazette-issue-8-containers-steady-paths-for-agile-stacks/68680).
+
 ## Development
 
 * GCC 🐄 has been updated from version 14 to 15.2, `binutils` from 2.42 to 2.45, and `glibc` from 2.39 to 2.42.

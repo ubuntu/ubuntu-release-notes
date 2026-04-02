@@ -763,7 +763,7 @@ RabbitMQ is not directly upgradable due to feature flags. To mitigate this, some
 
 #### Apache2
 
-The Apache2 systemd service unit now sets `MemoryDenyWriteExecute=yes` by default as a security hardening measure. This prevents writable and executable memory mappings. However, it breaks PHP's JIT compiler when using `libapache2-mod-php`, producing warnings such as:
+The Apache2 systemd service unit now sets `MemoryDenyWriteExecute=yes` by default as a security hardening measure. This prevents simultaneously writable and executable memory mappings. However, it breaks PHP's JIT compiler when using `libapache2-mod-php`, producing warnings such as:
 
 ```
 Warning: preg_match(): Allocation of JIT memory failed, PCRE JIT will be disabled.

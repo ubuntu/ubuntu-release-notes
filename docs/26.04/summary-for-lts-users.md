@@ -386,6 +386,20 @@ MySQL Shell was updated from major version 8.0 to 8.4 to coincide with MySQL 8.4
 
 For the `containerd` and `runc` packages, we established a pattern to either keep the regular updates to the latest version or to opt for slower, more stable updates throughout the time the release is active. For more please read [Ubuntu Server Gazette - Issue 8 - Containers: Steady paths for agile stacks](https://discourse.ubuntu.com/t/ubuntu-server-gazette-issue-8-containers-steady-paths-for-agile-stacks/68680).
 
+### High availability and clustering
+
+* The **`kpartx-boot`** package has been discontinued to align with Debian. Originally introduced to support `dmraid` booting, its functionality is preserved, as the `kpartx` package now includes everything previously provided by `kpartx-boot`.
+
+    :::{versionremoved} 24.10
+    :::
+
+* The **`dmraid`** package has been removed. The rationale for its removal is outlined in bug [LP#2073677](https://bugs.launchpad.net/bugs/2073677), primarily due to its removal from Debian unstable and minimal upstream support. If you require this functionality, consider using alternatives like `mdadm`.
+
+    :::{versionremoved} 24.10
+    :::
+
+* Pacemaker was updated to version 3. All new features and breaking changes are described in the [upstream release notes](https://projects.clusterlabs.org/w/projects/pacemaker/pacemaker_3.0_changes/).
+
 ## Development
 
 * GCC 🐄 has been updated from version 14 to 15.2, `binutils` from 2.42 to 2.45, and `glibc` from 2.39 to 2.42.

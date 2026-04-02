@@ -280,6 +280,43 @@ For users coming from HAPRoxy 2, breaking changes include detection of accidenta
 
 You can learn more at [Announcing HAProxy 3.0](https://www.haproxy.com/blog/announcing-haproxy-3-0). A complete list of changes is available in the [upstream changelog](https://www.haproxy.org/download/3.0/src/CHANGELOG).
 
+### DocumentDB
+:::{versionadded} 26.04
+:::
+
+```{include} /reuse/26.04/documentdb-0.108-0-features.txt
+```
+
+### MySQL
+:::{versionadded} 25.04
+:::
+
+MySQL was updated from 8.0 to 8.4 LTS, starting with 8.4.8 in Ubuntu 26.04. This is MySQL's first official long term support release, including various internal improvements, new features, and some important configuration changes.
+
+Upstream release notes are available in the [Mysql 8.4 documentation library](https://dev.mysql.com/doc/relnotes/mysql/8.4/en/). For more information about the transition from MySQL 8.0 to 8.4, see the [MySQL 8.4 overview](https://dev.mysql.com/doc/refman/8.4/en/mysql-nutshell.html).
+
+Due to upstream policy, support for 32-bit MySQL Server has been removed. However, Ubuntu will continue to provide a MySQL client and client library for 8.4 on armhf and i386.
+
+### MySQL Shell
+:::{versionadded} 25.04
+:::
+
+MySQL Shell was updated from major version 8.0 to 8.4 to coencide with MySQL 8.4. It adds support for MySQL 8.4 servers, and provides additional improvements for interacting with MySQL 8.0 servers. For a list of features, see the [MySQL Shell 8.4 documentation](https://dev.mysql.com/doc/mysql-shell/8.4/en/). Release notes for MySQL Shell 8.4 can be found [here](https://dev.mysql.com/doc/relnotes/mysql-shell/8.4/en/).
+
+### PostgreSQL
+:::{versionadded} 26.04
+:::
+
+```{include} /reuse/26.04/postgresql-18-features.txt
+```
+
+### Valkey
+:::{versionadded} 26.04
+:::
+
+```{include} /reuse/26.04/valkey-9.0-features.txt
+```
+
 ## Development
 
 * GCC 🐄 has been updated from version 14 to 15.2, `binutils` from 2.42 to 2.45, and `glibc` from 2.39 to 2.42.

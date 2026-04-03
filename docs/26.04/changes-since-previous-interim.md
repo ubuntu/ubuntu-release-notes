@@ -453,6 +453,17 @@ For further details on the changes in this update, please refer to the upstream 
 * [v2.14.0.1](https://github.com/Azure/WALinuxAgent/releases/tag/v2.14.0.1)
 * [v2.15.0.1](https://github.com/Azure/WALinuxAgent/releases/tag/v2.15.0.1)
 
+`Azure Disk Encryption` (ADE) is scheduled for retirement on September 15, 2028. A number of packages were historically pre-installed on Azure images to allow the enablement of ADE without requiring additional package installations. Due to its impending retirement, Ubuntu on Azure will no longer maintain the enablement of ADE without additional package installations. Accordingly, the following packages have been removed from one or more Ubuntu image-lines on Azure:
+
+`python3-parted`
+: This package is largely unsupported by its maintainers, imposing a potential security risk into the future. Its only known use was for the enablement of ADE. It is no longer pre-installed on any Ubuntu image on Azure.
+
+`python3-six`
+: The only known use of this package was for the enablement of ADE. It is no longer pre-installed on any Ubuntu image on Azure.
+
+`lsscsi`
+: This package was initially introduced to support ADE. It has been removed from all minimal Ubuntu image-lines to maintain the minimal footprint assertion. However, it remains a pre-installed package for all non-minimized Ubuntu image on Azure since it is a valuable debugging tool for individual instances and server deployments.
+
 #### OpenStack 2026.1 Gazpacho
 
 OpenStack has been updated to the [2026.1 Gazpacho](https://releases.openstack.org/gazpacho/index.html) release. Gazpacho is a [SLURP](https://releases.openstack.org/) release, supporting direct upgrades from the previous SLURP release (2025.1 Epoxy). This includes packages for Aodh, Barbican, Ceilometer, Cinder, Designate, Glance, Heat, Horizon, Ironic, Keystone, Magnum, Manila, Masakari, Mistral, Neutron, Nova, Octavia, Placement, Swift, Watcher, and Zaqar.

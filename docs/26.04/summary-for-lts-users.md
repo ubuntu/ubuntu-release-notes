@@ -216,6 +216,12 @@ Updated to 1.4.3 with many new features
 
 For complete details of all changes leading up to 1.4.3, please see the upstream release notes at <https://blog.clamav.net/>.
 
+### Django
+:::{versionadded} 25.10
+:::
+
+Django has been updated to the latest LTS release 5.2 from 4.2, which includes many new features and bug fixes. All Django middleware provided in Ubuntu has also been updated to be compatible with the new version. See the [5.0 release notes](https://docs.djangoproject.com/en/5.2/releases/5.0/) for features and updates added with the major version change and the [5.2 release notes](https://docs.djangoproject.com/en/5.2/releases/5.2/) for the changes made leading up to the LTS release.
+
 ### PHP
 
 PHP was updated to version 8.5. Among other enhancements and bugfixes, the highlighted changes since Ubuntu Noble 24.04 are:

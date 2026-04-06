@@ -131,7 +131,7 @@ In this case, there are several options if you run into problems:
 
 #### More consistent application of openssl and gnutls system configurations
 
-Some libraries do not raise errors when their configuration is not accessible; this could happen when apparmor does not allow access to the configuration files. Due to how widespread openssl and gnutls are, the apparmor rules now grant access to their configuration files by default. Their system-wide configuration will therefore be followed better.
+Some libraries do not raise errors when their configuration is not accessible; this could happen when AppArmor does not allow access to the configuration files. Due to how widespread openssl and gnutls are, the AppArmor rules now grant access to their configuration files by default. Their system-wide configuration will therefore be followed better.
 
 #### Deprecation and disablement of 1024-bit RSA APT repository signing keys
 
@@ -147,7 +147,7 @@ The final APT 2.8.0 release that converts the warning to an error should be publ
 
 #### OpenSSH with reduced dependencies
 
-As per the XZ-utils backdoor, openssh in ubuntu does not depends anymore in libsystemd, reducing the number of dependencies and making it less prone to future security issues.
+As per the XZ-utils backdoor, `openssh` in Ubuntu does not depend anymore on libsystemd, reducing the number of dependencies and making it less prone to future security issues.
 
 #### Package security-hardening improvements
 
@@ -396,7 +396,7 @@ More information on the changes in Apache2 2.4.53 through 2.4.58, now included i
 
 #### Clamav
 
-The clamav anti-virus toolkit saw a 1.0.0 release between Ubuntu 22.04 and now.  Some of the major changes since Ubuntu Jammy include:
+The clamav anti-virus toolkit saw a 1.0.0 release between Ubuntu 22.04 LTS and now.  Some of the major changes since Ubuntu Jammy include:
 * Support for decrypting read-only OLE2-based XLS files that are encrypted with the default password.
 * Overhauled the implementation of the all-match feature. The newer code
 * Added a new callback, cl_engine_set_clcb_file_inspection(), for inspecting file content during a scan at each layer of archive extraction.
@@ -508,7 +508,7 @@ For more information on the changes introduced in Exim4 4.96 and 4.97, please se
 
 #### GlusterFS
 
-The GlusterFS clustering filesystem package was updated to version [11.1](https://lists.gluster.org/pipermail/gluster-devel/2023-February/058414.html). Following this update, some changes were made to the packaging layout of GlusterFS and dependendant packages:
+The GlusterFS clustering filesystem package was updated to version [11.1](https://lists.gluster.org/pipermail/gluster-devel/2023-February/058414.html). Following this update, some changes were made to the packaging layout of GlusterFS and dependent packages:
 
  * GlusterFS upstream no longer supports 32 bit architectures (see [LP: #2052734](https://bugs.launchpad.net/ubuntu/+source/glusterfs/+bug/2052734)). Therefore, there are no armhf packages for GlusterFS in Ubuntu Noble. As a further consequence, other packages that linked or relied on GlusterFS also no longer have that support on the armhf architecture.
 * GlusterFS has been demoted to Universe ([LP: #2045063](https://bugs.launchpad.net/ubuntu/+source/glusterfs/+bug/2045063)).
@@ -579,7 +579,7 @@ The [libvirt](https://libvirt.org) package was updated to version 10.0.0.  Here 
 * Support migration of vTPM state of QEMU VMs on shared storage.
 * Introduce support for `igb` network interface model.
 * Support compression for parallel migration.
-* apparmor: All profiles and abstractions now support local overrides
+* AppArmor: All profiles and abstractions now support local overrides
 * Add Sapphire Rapids CPU model.
 * Support removable attribute for SCSI disk.
 * qemu: Change default machine type for ARM and RISC-V to 'virt'
@@ -599,7 +599,7 @@ For more details, please see [the upstream changelog](https://www.libvirt.org/ne
 
 #### LXD
 
-Keeping with the theme of further streamlining Ubuntu, starting with this release, LXD snap won’t be pre-installed in the Ubuntu server by default. Instead, we will be applying the same logic as with the ubuntu-minimal images, where we use a small script (lxd-installer) to install LXD on first use.
+Keeping with the theme of further streamlining Ubuntu, starting with this release, LXD snap won’t be pre-installed in the Ubuntu server by default. Instead, we will be applying the same logic as with the ubuntu-minimal images, where we use a small script (`lxd-installer`) to install LXD on first use.
 
 LXD 5.21.0 LTS has been released with a number of useful features and a few other operational changes. For more information, please read [the full release announcement](https://discourse.ubuntu.com/t/lxd-5-21-0-lts-has-been-released/42476/1).
 
@@ -639,7 +639,7 @@ For more details, please see [the upstream changelog](https://github.com/net-snm
 
 #### Nginx
 
-The Nginx web server has been updated to version 1.24 in Ubuntu 24.04, marking a major jump from version 1.18 in the previous LTS.  This brings OpenSSL 3.0 compatibility, support for the PCRE2 library, protocol TLSv1.3 enabled by default, Application-Layer Protocol Negotiation (ALPN) support for the stream module, Online Certificate Status Protocol (OCSP) validation of client SSL certificates, and improved HTTP/2 support among other things.
+The Nginx web server has been updated to version 1.24 in Ubuntu 24.04 LTS, marking a major jump from version 1.18 in the previous LTS.  This brings OpenSSL 3.0 compatibility, support for the PCRE2 library, protocol TLSv1.3 enabled by default, Application-Layer Protocol Negotiation (ALPN) support for the stream module, Online Certificate Status Protocol (OCSP) validation of client SSL certificates, and improved HTTP/2 support among other things.
 
 For a complete listing of changes, please see the release notices for Nginx [1.20](https://nginx.org/en/CHANGES-1.20), [1.22](https://nginx.org/en/CHANGES-1.22), and [1.24](https://nginx.org/en/CHANGES-1.24).
 
@@ -650,7 +650,7 @@ The [OpenLDAP ](https://openldap.org) package was updated to version 2.6.7, whic
 
 #### OpenVmTools
 
-open-vm-tools moves to 12.3.5 in Ubuntu 24.04.  Intermediate versions resolved a few critical problems, vunerabilities, and Coverity issues. In addition, it brings support for managing Salt Minion, and for gathering and publishing lists of containers running inside Linux guests.  A tools.conf configuration setting is also available to temporaily direct Linux quiesced snapshots to restore pre open-vm-tools 12.2.0 behavior of ignoring file systems already frozen.
+open-vm-tools moves to 12.3.5 in Ubuntu 24.04 LTS.  Intermediate versions resolved a few critical problems, vulnerabilities, and Coverity issues. In addition, it brings support for managing Salt Minion, and for gathering and publishing lists of containers running inside Linux guests.  A tools.conf configuration setting is also available to temporarily direct Linux quiesced snapshots to restore pre open-vm-tools 12.2.0 behavior of ignoring file systems already frozen.
 
 The announcements for 12.3.5 and other releases since 11.3.5 can be found on the [open-vm-tools Github releases page](https://github.com/vmware/open-vm-tools/releases).
 
@@ -692,9 +692,9 @@ The [PostgreSQL](https://www.postgresql.org) package was updated to version 16.2
 * New regular expressions related functions.
 * New `jsonlog` format to output logs using a defined JSON structure.
 * Users can now perform logical replication from standby instance
-* More sintax from `SQL/JSON` was added, such as `JSON_ARRAY()`, `JSON_ARRAYAGG()`, and `IS JSON`.
+* More syntax from `SQL/JSON` was added, such as `JSON_ARRAY()`, `JSON_ARRAYAGG()`, and `IS JSON`.
 * Users can now express thousands using `_` as a separator (e.g., `5_100_042`)
-* Added suport for non-decimal integer literals, such as `0x1234A`, `0o777`, and `0b0101011`
+* Added support for non-decimal integer literals, such as `0x1234A`, `0o777`, and `0b0101011`
 * Several security-oriented client connection parameters were added, including `require_auth` to specify accepted authentication parameters, and `sslrootcert="system"` to use the trusted certificate authority (CA) store provided by the client's operating system.
 
 For details on the above changes or to get a complete list of changes introduced in PostgreSQL 16, please refer to the [upstream release notes](https://www.postgresql.org/docs/16/release-16.html).
@@ -772,7 +772,7 @@ There are some constants and methods that were already deprecated and now they a
 
 All the above was removed from Ruby 3.2 and cannot be used anymore. For more information, please see [the upstream release announcement](https://www.ruby-lang.org/en/news/2022/12/25/ruby-3-2-0-released/).
 
-#### Runc
+#### `runc`
 
 The runc package was updated to version 1.1.12. It contains bug fixes specially related to the cgroup v2 support, and most importantly, it adds support for riscv64. For more information, please see [the upstream changelog](https://github.com/opencontainers/runc/releases).
 
@@ -781,9 +781,9 @@ For users/developers willing to customize the runc package, the source package i
 #### Samba
 The Samba package has been updated to the 4.19.x series. Here are the upstream release notes for 4.19.0: https://www.samba.org/samba/history/samba-4.19.0.html
 
-Due to the GlusterFS demotion (see [LP: #2045063](https://bugs.launchpad.net/ubuntu/+source/glusterfs/+bug/2045063) and the GlusterFS section of these release notes), the samba packaging had to be changed a bit to accomodate this change.
+Due to the GlusterFS demotion (see [LP: #2045063](https://bugs.launchpad.net/ubuntu/+source/glusterfs/+bug/2045063) and the GlusterFS section of these release notes), the samba packaging had to be changed a bit to accommodate this change.
 
-The GlusterFS VFS modules which were previously shipped in the binay `samba-vfs-modules` package, are now shipped in the new binary package called `samba-vfs-modules-extra`. Specifically, these modules (and their respective manual pages) were moved to `samba-vfs-modules-extra`:
+The GlusterFS VFS modules which were previously shipped in the binary `samba-vfs-modules` package, are now shipped in the new binary package called `samba-vfs-modules-extra`. Specifically, these modules (and their respective manual pages) were moved to `samba-vfs-modules-extra`:
 * `glusterfs.so`
 * `glusterfs_fuse.so`
 
@@ -842,7 +842,7 @@ The [SSSD](https://sssd.io) package was updated to version 2.9.4.  Here are the 
 
 Intel® QAT is a built-in accelerator on 4th Gen and newer Intel® Xeon® Scalable Processors that offloads critical data compression and decompression, encryption and decryption, and public key data encryption tasks from the CPU cores and accelerates those operations to help improve performance and save valuable compute resources.
 
-The components enabled on Ubuntu 24.04 are:
+The components enabled on Ubuntu 24.04 LTS are:
 * qatlib 24.02.0
 This package provides user space libraries that allow access to Intel® QAT devices and expose the Intel® QAT APIs and sample codes.
 For more information, visit the project’s [repo](https://github.com/intel/qatlib?tab=readme-ov-file#features).
@@ -919,14 +919,14 @@ These releases are also provided for Ubuntu 22.04 LTS via the Ubuntu Cloud Archi
     * The decision remove LXD snap seeding was made @ https://bugs.launchpad.net/ubuntu/+source/ubuntu-meta/+bug/2051346 and the decision to stop seeding any snaps was made @ https://bugs.launchpad.net/ubuntu/+source/ubuntu-meta/+bug/2051572
   * The exceptions are AWS and GCE, which have cloud specific snaps preseeded.
 * Upgrading from previous releases
-  * Upgrading to Ubuntu 24.04 using do-release-upgrade will result in one of more interactive prompts. One for grub-pc, which will request you choose the boot device, and if chrony is installed you will also be prompted to choose “on disk config” or “packaged config”. These are expected and do not impact the ability to upgrade.
+  * Upgrading to Ubuntu 24.04 LTS using do-release-upgrade will result in one of more interactive prompts. One for grub-pc, which will request you choose the boot device, and if chrony is installed you will also be prompted to choose “on disk config” or “packaged config”. These are expected and do not impact the ability to upgrade.
 * The footprint of minimal images has been reduced
-  * [Introduced in the 23.10 cycle](https://discourse.ubuntu.com/t/mantic-minotaur-release-notes/35534#minimal-downloadqcow2-cloud-images-42), minimal cloud images now are smaller than the Ubuntu 22.04 minimal images. The package count has dropped from 426 to 288 (difference: 138) resulting in a much smaller image size. For example, download qcow2 images have reduced from 337.19MiB to 226.75MiB (diff: 110.44MiB).
+  * [Introduced in the 23.10 cycle](https://discourse.ubuntu.com/t/mantic-minotaur-release-notes/35534#minimal-downloadqcow2-cloud-images-42), minimal cloud images now are smaller than the Ubuntu 22.04 LTS minimal images. The package count has dropped from 426 to 288 (difference: 138) resulting in a much smaller image size. For example, download qcow2 images have reduced from 337.19MiB to 226.75MiB (diff: 110.44MiB).
   * This was achieved, in part, by reducing the packages installed to only those we feel are required for a functional Ubuntu cloud instance and by removing the installation of ‘Recommends’ packages.
 
 ##### Vagrant
 
-Starting in Ubuntu 24.04, Ubuntu no longer produces Vagrant images. Documentation regarding creating an Ubuntu Base Image from scratch is provided at https://documentation.ubuntu.com/public-images/en/latest/public-images-how-to/build-vagrant-with-bartender/.
+Starting in Ubuntu 24.04 LTS, Ubuntu no longer produces Vagrant images. Documentation regarding creating an Ubuntu Base Image from scratch is provided at https://documentation.ubuntu.com/public-images/en/latest/public-images-how-to/build-vagrant-with-bartender/.
 
 ##### Public Images (cloud-images.ubuntu.com) images
 
@@ -946,7 +946,7 @@ Starting in Ubuntu 24.04, Ubuntu no longer produces Vagrant images. Documentatio
 ##### Microsoft Azure
 
 * Canonical is introducing  a new way of publishing on Azure with Ubuntu 24.04 LTS. All Ubuntu Images for 24.04 LTS will be available under the same offer: ubuntu-24_04-lts. Derivative images, such as the minimized version of Ubuntu server or Ubuntu Pro are available as plans under this main offer.
-* We have identified an issue with apparmor profiles on Confidential VM images available under the `cvm` plan of the offer `ubuntu-24_04-lts`. For example, the `rsyslog` service will fail to start on VMs launched from this plan. This is being investigated and a new image with a fix will be published shortly.
+* We have identified an issue with AppArmor profiles on Confidential VM images available under the `cvm` plan of the offer `ubuntu-24_04-lts`. For example, the `rsyslog` service will fail to start on VMs launched from this plan. This is being investigated and a new image with a fix will be published shortly.
 
 * Users with multic-NIC setup on their instances may experience delays in DNS resolution due to mis-configuration of systemd-resolved. We are currently implementing a solution on cloud-init (https://github.com/canonical/cloud-init/pull/5180). Before the solution lands in cloud-init, users can remedy the misconfiguration by creating the file `/etc/netplan/91-secondary-nics-azure.yaml` with the content:
 
@@ -976,11 +976,11 @@ Users should then reboot the instance for the netplan configuration to take effe
 * GCE: Setting a hostname via cloud-init user-data requires the addition of the create_hostname_file key; see [here](https://documentation.ubuntu.com/gcp/en/latest/google-how-to/gce/set-hostname-using-cloudinit/) for more details.
 * Boot speed improvements: the I/O scheduler has been changed to `none` (from `noop`) to improve i/o performance for the most common disk types ([LP: #2045708](https://bugs.launchpad.net/ubuntu/+source/gce-compute-image-packages/+bug/2045708))
 * A regression has been discovered with the GCP suspend feature with the linux-gcp 6.8 kernel that is being investigated in [LP: #2063315](https://bugs.launchpad.net/ubuntu/+source/linux-gcp/+bug/2063315)
-* Ubuntu 24.04 has introduced a change in the behaviour of the needrestart package - see notes @ [Services restart on unattended-upgrade](https://discourse.ubuntu.com/t/noble-numbat-release-notes/39890#services-restart-on-unattended-upgrade-26) for more information. This results in any google-guest-agent startup scripts being run again on package upgrade or re-install. This is being investigated but it will only be triggered when the google-guest-agent package is re-installed. It can be worked around by setting `NEEDRESTART_SUSPEND=1` prior to any re-install as per the [`needrestart` man pages](https://manpages.ubuntu.com/manpages/noble/man1/needrestart.1.html#environment) or by appending to the `needrestart` configuration `echo "\$nrconf{override_rc}{qr(^google-(shutdown|startup)-scripts\.service$)} = 0;" >> /etc/needrestart/conf.d/google-guest-agent.conf` which will disable this behaviour for any future `google-guest-agent` upgrade or reinstall. New GCE images will be built and published shortly after release to disable this behaviour for the google-guest-agent by default.
+* Ubuntu 24.04 LTS has introduced a change in the behaviour of the needrestart package - see notes @ [Services restart on unattended-upgrade](https://discourse.ubuntu.com/t/noble-numbat-release-notes/39890#services-restart-on-unattended-upgrade-26) for more information. This results in any google-guest-agent startup scripts being run again on package upgrade or re-install. This is being investigated but it will only be triggered when the google-guest-agent package is re-installed. It can be worked around by setting `NEEDRESTART_SUSPEND=1` prior to any re-install as per the [`needrestart` man pages](https://manpages.ubuntu.com/manpages/noble/man1/needrestart.1.html#environment) or by appending to the `needrestart` configuration `echo "\$nrconf{override_rc}{qr(^google-(shutdown|startup)-scripts\.service$)} = 0;" >> /etc/needrestart/conf.d/google-guest-agent.conf` which will disable this behaviour for any future `google-guest-agent` upgrade or reinstall. New GCE images will be built and published shortly after release to disable this behaviour for the google-guest-agent by default.
 
 ##### Oracle
 
-* The uncomplicated Firewall package ufw is no longer installed in Oracle Cloud Ubuntu 24.04+ images. Upgrading from an earlier version of Ubuntu to 24.04 will uninstall ufw. The ufw tool conflicts with system configuration through iptables-persistent and netfilter-persistent as documented by Oracle [here](https://docs.oracle.com/en-us/iaas/Content/Compute/References/bestpracticescompute.htm#Essentia), illustrated further on this [blog](https://blogs.oracle.com/developers/post/enabling-network-traffic-to-ubuntu-images-in-oracle-cloud-infrastructure), and listed as a known [issue](https://docs.oracle.com/en-us/iaas/Content/Compute/known-issues.htm#ufw). If ufw is optionally installed on Ubuntu 24.04+, it will uninstall iptables-persistent and netfilter-persistent, disabling default functionality needed to support iSCSI boot and block devices.
+* The uncomplicated Firewall package ufw is no longer installed in Oracle Cloud Ubuntu 24.04 LTS+ images. Upgrading from an earlier version of Ubuntu to 24.04 will uninstall ufw. The ufw tool conflicts with system configuration through iptables-persistent and netfilter-persistent as documented by Oracle [here](https://docs.oracle.com/en-us/iaas/Content/Compute/References/bestpracticescompute.htm#Essentia), illustrated further on this [blog](https://blogs.oracle.com/developers/post/enabling-network-traffic-to-ubuntu-images-in-oracle-cloud-infrastructure), and listed as a known [issue](https://docs.oracle.com/en-us/iaas/Content/Compute/known-issues.htm#ufw). If ufw is optionally installed on Ubuntu 24.04 LTS+, it will uninstall iptables-persistent and netfilter-persistent, disabling default functionality needed to support iSCSI boot and block devices.
 
 ###### How to report any issues resulting from these changes
 
@@ -1011,14 +1011,14 @@ From 24.04 (noble), we will no longer be producing 32-bit (armhf) images for the
 To add armhf as a foreign architecture to an arm64 image, use the following commands:
 
 ```
-$ sudo dpkg --add-architecture armhf
-$ sudo apt update
+sudo dpkg --add-architecture armhf
+sudo apt update
 ```
 
 Thereafter, to install an armhf package:
 
 ```
-$ sudo apt install SOME-PACKAGE:armhf
+sudo apt install SOME-PACKAGE:armhf
 ```
 
 Please note, there will be no armhf kernels (primarily because the Pi 5 does not support 32-bit kernels), and users who are currently on armhf images *will not* be able to upgrade directly to noble.
@@ -1038,7 +1038,7 @@ The new arm64+largemem ISO includes a kernel with 64k page size. A larger page s
 * With the upgrade to GDB 15, support for IBM z16 was introduced ([LP: #1982336](https://launchpad.net/bugs/1982336)).
 * The Glasgow Haskell Compiler was upgraded to version 9.4.7 that is new enough to enable the LLVM backend to allow performance improvements ([LP: #1913302](https://launchpad.net/bugs/1913302)).
 * IBM Z specific improvements also landed in the KVM virtualization stack with the introduction of virtual CPU topology ([LP: #1983223](https://launchpad.net/bugs/1983223)) and enhancement of the dynamic CPU topology for KVM guests ([LP: #2049703](https://launchpad.net/bugs/2049703)), as well as the implementation for nested guest shadow event counters ([LP: #2027926](https://launchpad.net/bugs/2027926)). For more details see the qemu and libvirt sections above.
-* Another big area of s390x improvments is cryptography, with the upgrade to opencryptoki v2.23 ([LP: #2050023](https://launchpad.net/bugs/2050023)), there is now support in PKCS #11 3.0 for AES_XTS ([LP: #2025924](https://launchpad.net/bugs/2025924)) and EP11 token support for FIPS 2021-session bound EP11 keys ([LP: #2050014](https://launchpad.net/bugs/2050014)).
+* Another big area of s390x improvements is cryptography, with the upgrade to opencryptoki v2.23 ([LP: #2050023](https://launchpad.net/bugs/2050023)), there is now support in PKCS #11 3.0 for AES_XTS ([LP: #2025924](https://launchpad.net/bugs/2025924)) and EP11 token support for FIPS 2021-session bound EP11 keys ([LP: #2050014](https://launchpad.net/bugs/2050014)).
 * Furthermore libica was updated to v4.3.0 ([LP: #2050024](https://launchpad.net/bugs/2050024)), the openssl-ibmca package to v2.4.1 and the openssl-pkcs11-sign-provider package was made available in v1.0.1 ([LP: 2003668)](https://launchpad.net/bugs/003668),) including fork support ([LP: #2050015](https://launchpad.net/bugs/2050015)).
 * And finally several s390x-specific libraries were bumped to their latest version, like qclib to 2.4.1 ([LP: #2050028](https://launchpad.net/bugs/2050028)) and libzpc to v1.2.0 ([LP: #2050031](https://launchpad.net/bugs/2050031)).
 
@@ -1055,7 +1055,7 @@ Note: KVM virtualization continues to be supported on POWER9 bare-metal / OPAL b
 
 #### RISC-V
 
-Ubuntu 24.04 is the first LTS release for the StarFive VisionFive 2 board.
+Ubuntu 24.04 LTS is the first LTS release for the StarFive VisionFive 2 board.
 For an overview of Canonical supported boards see https://ubuntu.com/download/risc-v/canonical-built.
 
 The RISC-V Ubuntu userland is compatible with all RVA20 hardware.
@@ -1109,7 +1109,7 @@ In 24.04.4:
 ### Ubuntu Server
 
 #### freeradius
-The [freeradius](https://launchpad.net/ubuntu/+source/freeradius) package will be accidentally removed by the release upgrade tool on upgrades from Ubuntu 22.04 to Ubuntu 24.04. The removal is reported in the upgrade summary before any action is taken, but might be missed.
+The [freeradius](https://launchpad.net/ubuntu/+source/freeradius) package will be accidentally removed by the release upgrade tool on upgrades from Ubuntu 22.04 LTS to Ubuntu 24.04 LTS. The removal is reported in the upgrade summary before any action is taken, but might be missed.
 This is being tracked in [LP: #2114224](https://bugs.launchpad.net/ubuntu/+source/freeradius/+bug/2114224).
 
 #### Installer
@@ -1136,21 +1136,27 @@ Therefore, only users who have taken those steps and upgrade to Noble, will be a
 Due to the Ubuntu 24.04 LTS `time_t` change from 32bits to 64bits in the armhf architecture, to fix the [Year 2038 problem](https://discourse.ubuntu.com/t/ubuntu-24-04-lts-noble-numbat-release-notes/39890#year-2038-support-for-the-armhf-architecture) mentioned elsewhere in these Release Notes, the `rrd` databases produced by `rrdtool` in armhf in Ubuntu releases before Noble are not binary compatible with `rrdtool` in Ubuntu 24.04 LTS and later.
 
 If such `rrd` files are attempted to be read by `rrdtool` from Ubuntu 24.04 LTS or later, it will fail with an error that can be similar to this:
+
 ```
 ERROR: 'database-file.rrd' is too small (should be 1032 bytes)
 ```
+
 This essentially prevents the database from being opened, read, or written to.
 
 To correctly upgrade such systems, each `rrd` database needs to be dumped into xml using the tool from the system before the upgrade, and restored into `rrd` from that xml on the upgraded system. This is a manual process and there is no automated tooling for this available at the moment.
 
 To dump a `rrd` file into xml:
+
 ```
-$ rrdtool dump file.rrd > file.xml
+rrdtool dump file.rrd > file.xml
 ```
+
 To later restore it on the new upgraded system:
+
 ```
-$ rrdtool restore file.xml file.rrd
+rrdtool restore file.xml file.rrd
 ```
+
 For more details, please see the [rrddump](https://manpages.ubuntu.com/manpages/noble/man1/rrddump.1.html) and [rrdrestore](https://manpages.ubuntu.com/manpages/noble/man1/rrdrestore.1.html) manpages.
 
 #### Raspberry Pi
@@ -1178,12 +1184,12 @@ For more details, please see the [rrddump](https://manpages.ubuntu.com/manpages/
 
 #### Google Compute Platform 
 
-* Ubuntu 24.04 has introduced a change in the behaviour of the needrestart package - see notes @ [Services restart on unattended-upgrade](https://discourse.ubuntu.com/t/noble-numbat-release-notes/39890#services-restart-on-unattended-upgrade-26) for more information. This results in any google-guest-agent startup scripts being run again on package upgrade or re-install. This is being investigated but it will only be triggered when the google-guest-agent package is re-installed. It can be worked around by setting `NEEDRESTART_SUSPEND=1` prior to any re-install as per the [`needrestart` man pages](https://manpages.ubuntu.com/manpages/noble/man1/needrestart.1.html#environment) or by appending to the `needrestart` configuration `echo "\$nrconf{override_rc}{qr(^google-(shutdown|startup)-scripts\.service$)} = 0;" >> /etc/needrestart/conf.d/google-guest-agent.conf` which will disable this behaviour for any future `google-guest-agent` upgrade or reinstall.
+* Ubuntu 24.04 LTS has introduced a change in the behaviour of the needrestart package - see notes @ [Services restart on unattended-upgrade](https://discourse.ubuntu.com/t/noble-numbat-release-notes/39890#services-restart-on-unattended-upgrade-26) for more information. This results in any google-guest-agent startup scripts being run again on package upgrade or re-install. This is being investigated but it will only be triggered when the google-guest-agent package is re-installed. It can be worked around by setting `NEEDRESTART_SUSPEND=1` prior to any re-install as per the [`needrestart` man pages](https://manpages.ubuntu.com/manpages/noble/man1/needrestart.1.html#environment) or by appending to the `needrestart` configuration `echo "\$nrconf{override_rc}{qr(^google-(shutdown|startup)-scripts\.service$)} = 0;" >> /etc/needrestart/conf.d/google-guest-agent.conf` which will disable this behaviour for any future `google-guest-agent` upgrade or reinstall.
 New GCE images will be built and published shortly after release to disable this behaviour for the google-guest-agent by default.
 
 #### Microsoft Azure
 
-* We have identified an issue with apparmor profiles on Confidential VM images available under the `cvm` plan of the offer `ubuntu-24_04-lts`. For example, the `rsyslog` service will fail to start on VMs launched from this plan. This is being investigated and a new image with a fix will be published shortly.
+* We have identified an issue with AppArmor profiles on Confidential VM images available under the `cvm` plan of the offer `ubuntu-24_04-lts`. For example, the `rsyslog` service will fail to start on VMs launched from this plan. This is being investigated and a new image with a fix will be published shortly.
 
 (24-04-official-flavors)=
 ## Official flavors

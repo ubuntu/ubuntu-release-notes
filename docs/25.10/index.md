@@ -23,6 +23,7 @@ Ubuntu 25.10 will be supported for 9 months until July 2026. If you need long te
 Upgrades to 25.10 are expected to be enabled on or before Nov 3.
 
 Current blockers:
+
 * [LP#2125535](https://bugs.launchpad.net/ubuntu/+source/rust-coreutils/+bug/2125535)
 * [LP#2127970](https://bugs.launchpad.net/ubuntu/+source/rust-coreutils/+bug/2127970)
 
@@ -230,7 +231,7 @@ Apache 2 has been upgraded to version 2.4.64. This new release includes several 
 * Mod_http2 was updated to version 2.0.32, which includes a new directive `H2MaxHeaderBlockLen` to set the limit on response header sizes.
 * Mod_proxy now reuses ProxyRemote connections when possible.
 
-For more details, see the [upsteam release notes](https://www.apachelounge.com/Changelog-2.4.html).
+For more details, see the [upstream release notes](https://www.apachelounge.com/Changelog-2.4.html).
 
 #### Bacula
 
@@ -345,7 +346,7 @@ The [libvirt ](https://libvirt.org) package was upgraded to version 11.6.0. Here
 * Introduce virtio-mem `<memory/>` model for s390 guests
 
 For more details, please see [the upstream changelog ](https://libvirt.org/news.html#v11-4-0-2025-06-02).
-Additionally in Ubuntu, the **default URI choice** behavior was modified slightly: In the past Ubuntu enforced the `qemu:///system` URI by overriding `LIBVIRT_DEFAULT_URI` in `/etc/profile.d/libvirt-uri.sh`. Starting with Ubuntu 25.10, we're dropping that `profile.d` script in favour of a fallback mechanism, which still **perserves the default beahvior** as `qemu:///system` for privileged and non-privileged users, but allows to override that default choice by setting `LIBVIRT_DEFAULT_URI` manually or changing the `uri_default` parameter in `/etc/libvirt/libvirt.conf` or `~/.config/libvirt/libvirt.conf` (for non-privileged users) respectively.
+Additionally in Ubuntu, the **default URI choice** behavior was modified slightly: In the past Ubuntu enforced the `qemu:///system` URI by overriding `LIBVIRT_DEFAULT_URI` in `/etc/profile.d/libvirt-uri.sh`. Starting with Ubuntu 25.10, we're dropping that `profile.d` script in favour of a fallback mechanism, which still **preserves the default behavior** as `qemu:///system` for privileged and non-privileged users, but allows to override that default choice by setting `LIBVIRT_DEFAULT_URI` manually or changing the `uri_default` parameter in `/etc/libvirt/libvirt.conf` or `~/.config/libvirt/libvirt.conf` (for non-privileged users) respectively.
 
 #### MySQL
 
@@ -415,8 +416,8 @@ The [QEMU](https://qemu.org/) package was updated to version 10.1.0. Here are th
 * 32 bit hosts never could never provide the atomicity requirements of 64-bit guests. From 10.0, QEMU has disabled configuration of 64-bit guests on 32-bit hosts.
 
 It is important to note that very old machine types have been deprecated for a while and now finally have been removed upstream and in Ubuntu.
-* x86 dropped every type <= 2.5 which translates to anything <=xenial. That implies that you can migrate your older guests e.g. from trusty up to 24.04 LTS (noble) or 25.04 (plucky). The former giving another 4 + 5  +5 (basic, pro, legacy) years of support. But then after way more than a decade, guests would need to be [bumped to a newer machine type which is generally recommended regularly](https://documentation.ubuntu.com/server/explanation/virtualisation/upgrading-the-machine-type-of-your-vm/).
-* On s390x the cleanup was a bit more agressive - with <=4.1 and thereby <=eoan gone. This is a slightly shorter timeline, but still all the 5+5+5 years of support of an Ubuntu LTS plus the 4 years between focal and noble and thereby quite a long time until you need to consider updating your guest to a newer machine type.
+* x86 dropped every type <= 2.5 which translates to anything <=xenial. That implies that you can migrate your older guests e.g. from trusty up to 24.04 LTS (Noble Numbat) or 25.04 (Plucky Puffin). The former giving another 4 + 5  +5 (basic, pro, legacy) years of support. But then after way more than a decade, guests would need to be [bumped to a newer machine type which is generally recommended regularly](https://documentation.ubuntu.com/server/explanation/virtualisation/upgrading-the-machine-type-of-your-vm/).
+* On s390x the cleanup was a bit more aggressive - with <=4.1 and thereby <=eoan gone. This is a slightly shorter timeline, but still all the 5+5+5 years of support of an Ubuntu LTS plus the 4 years between focal and noble and thereby quite a long time until you need to consider updating your guest to a newer machine type.
 * On ppc64 no Ubuntu related machine type was dropped yet, on arm we didn't yet need to introduce them.
 
 For more details, please see related upstream changelogs and the general log on removed features:
@@ -512,7 +513,7 @@ Ubuntu images on Microsoft Azure now include azure-vm-utils package, which provi
 
 * A new layout of the boot partition is introduced to enhance the reliability of the boot process ([LP: #2116266](https://launchpad.net/bugs/2116266)). This will automatically "test" new boot assets written to the boot partition before committing them as the current "known good" set. See the [call for testing](https://discourse.ubuntu.com/t/call-for-testing-a-b-boot-on-raspberry-pi/64173) for more information, or [the blog post](https://waldorf.waveform.org.uk/2025/pull-yourself-up-by-your-bootstraps.html) covering the feature for the full details (including advice on how to opt-out of this feature, where required)
 
-* Please note that, due to the new boot process, the boot firmware on your Pi *must* be up to date. On the Pi 3, 3+, and Zero 2W, the boot firmware is in the image itself, and so is guaranteed to be up to date. On the Pi 5, all boot firmware since release are compatible. However, on the Pi 4 your boot firmware must be dated no earlier than 2022-11-25. To check this, run `sudo rpi-eeprom-update`. If your firmware is dated earlier than this, using Ubuntu 24.04 (noble) or later, run `sudo rpi-eeprom-update -a` and reboot.
+* Please note that, due to the new boot process, the boot firmware on your Pi *must* be up to date. On the Pi 3, 3+, and Zero 2W, the boot firmware is in the image itself, and so is guaranteed to be up to date. On the Pi 5, all boot firmware since release are compatible. However, on the Pi 4 your boot firmware must be dated no earlier than 2022-11-25. To check this, run `sudo rpi-eeprom-update`. If your firmware is dated earlier than this, using Ubuntu 24.04 LTS (Noble Numbat) or later, run `sudo rpi-eeprom-update -a` and reboot.
 
 * The Ubuntu desktop images for Raspberry Pi are now based upon the "desktop-minimal" seed rather than "desktop" ([LP: #2103808](https://launchpad.net/bugs/2103808)). This greatly reduces the default set of applications installed on the images (saving approximately 777MB of space on the uncompressed image, and thus on user's systems). The list of applications removed from the image is:
 
@@ -612,11 +613,11 @@ As is to be expected with any release, there are some significant known bugs tha
         ```
         sudo update-grub
         ```
-* flatpak is failing to install applications due to missing or incorrect apparmor rules in the profile for fusermount3. Please see https://bugs.launchpad.net/ubuntu-release-notes/+bug/2122161 for details.
+* flatpak is failing to install applications due to missing or incorrect AppArmor rules in the profile for fusermount3. Please see https://bugs.launchpad.net/ubuntu-release-notes/+bug/2122161 for details.
 
 ### Linux kernel
 
-* There is an apparmor issue where confined profiles may unexpectedly seem to apply to another process and restrict things like "`<tool> > output.log`" from working inside questing LXD containers. See https://bugs.launchpad.net/ubuntu-release-notes/+bug/2121552 for more details.
+* There is an AppArmor issue where confined profiles may unexpectedly seem to apply to another process and restrict things like "`<tool> > output.log`" from working inside questing LXD containers. See https://bugs.launchpad.net/ubuntu-release-notes/+bug/2121552 for more details.
 
 ### Ubuntu Desktop
 
@@ -653,7 +654,7 @@ Certain version hops may be unsupported due to feature flags, raising questions 
 
 #### Openstack
 
-Currently, Nova Compute is non-functional because of a python3.13 incompatiblity ([LP:#2103413](https://bugs.launchpad.net/ubuntu/+source/nova/+bug/2103413)).
+Currently, Nova Compute is non-functional because of a python3.13 incompatibility ([LP:#2103413](https://bugs.launchpad.net/ubuntu/+source/nova/+bug/2103413)).
 The Openstack team and Upstream work on it and it will be resolved via an SRU later.
 
 The Ubuntu Cloud Archive is not affected by this bug.
@@ -689,7 +690,7 @@ apt:
 
 * Colours appear incorrectly in the Ubuntu App Centre ([LP: #2076919](https://launchpad.net/bugs/2076919))
 
-* On server images, re-authentication to WiFi APs when regulatory domain is set result in dmesg spam to the console ([LP: #2063365](https://launchpad.net/bugs/2063365))
+* On server images, re-authentication to WiFi APs when regulatory domain is set result in `dmesg` spam to the console ([LP: #2063365](https://launchpad.net/bugs/2063365))
 
 * On the Pi Zero 2W, the release image contains a bug in the Bluetooth components of the firmware package. This is due to be fixed in an SRU ([LP: #2127041](https://launchpad.net/bugs/2127041))
 

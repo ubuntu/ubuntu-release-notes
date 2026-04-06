@@ -12,6 +12,7 @@
   name: Beta (mandatory)
 - start: 2026-04-23
   name: "[Final Release](https://wiki.ubuntu.com/FinalRelease)"
+
 ---
 **{{dtrange}}**
 

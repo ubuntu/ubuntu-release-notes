@@ -259,21 +259,21 @@ Django was updated from Noble's 4.2.11 to 4.2.15, which brings several bug fixes
 #### Docker
 The Docker application was updated to version `26.1.3`. Some highlights of this update:
 
-* apparmor: Allow confined runc to kill containers
+* AppArmor: Allow confined runc to kill containers
 * Removal of AuFS, Legacy "overlay", and Device mapper storage drivers
 * Removal of support for interacting with V1 registries
 
 Watch out for deprecation or removal of features in this [upstream page](https://github.com/docker/cli/blob/v26.1.3/docs/deprecated.md).
 
-#### unminimize
+#### `unminimize`
 
-unminimize has been moved to a dedicated package which can be installed with `apt-get install -y unminimize` rather than being available by default in all minimal images.
+`unminimize` has been moved to a dedicated package which can be installed with `apt-get install -y unminimize` rather than being available by default in all minimal images.
 
 #### Exim4
 The Exim4 update in Oracular to 4.98 includes selected fixes from the upstream GIT repository.  This improves handling of new and old format message IDs, fixes certain crashes, refines memory usage for regexes, and avoids recording lookup credentials in the log files.  DKIM DNS record parsing is tightened up related to unexpected whitespace.
 
 #### HAProxy
-The HAProxy package was upgraded to version 2.9.9. This new version introduces performance improvements, better integration, more reliability, and a new reverse-http feature. You can learn more about it at https://www.haproxy.com/blog/announcing-haproxy-2-9.  A complete list of changes is avalilable at https://www.haproxy.org/download/2.9/src/CHANGELOG.
+The HAProxy package was upgraded to version 2.9.9. This new version introduces performance improvements, better integration, more reliability, and a new reverse-http feature. You can learn more about it at https://www.haproxy.com/blog/announcing-haproxy-2-9.  A complete list of changes is available at https://www.haproxy.org/download/2.9/src/CHANGELOG.
 
 #### libvirt
 The [libvirt](https://libvirt.org) package was upgraded to version 10.6.0.  Here are the changes since Ubuntu Noble:
@@ -295,7 +295,7 @@ Version 1.26.0 of NGINX was introduced in Oracular, bringing experimental HTTP/3
 #### OpenLDAP
 The [OpenLDAP](https://openldap.org/) package was updated to version 2.6.8, which brings several bug fixes. For more details, please see [the upstream changelog](https://www.openldap.org/software/release/changes.html).
 
-#### Openssh
+#### OpenSSH
 Starting with 1:9.6p1-3ubuntu17, openssh server no longer reads `~/.pam_environment` of the target system upon login.
 
 In [Linux-PAM version 1.5.0](https://github.com/linux-pam/linux-pam/releases/tag/v1.5.0), the
@@ -317,7 +317,7 @@ Valkey version 7.2.5 is available in Oracular. Since this version is a drop-in r
 Xtrabackup was updated to the next minor version 8.0.35-31. It provides additional arm64 architecture support along with various bug fixes. For more details, see the [upstream release notes](https://docs.percona.com/percona-xtrabackup/8.0/release-notes/8.0/8.0.35-31.0.html).
 
 #### PHP
-PHP was upgraded to version 8.3.9, which is introduces several bug fixes.  You can read mothe about those in the upstream changelog at https://www.php.net/ChangeLog-8.php#8.3.9.
+PHP was upgraded to version 8.3.9, which is introduces several bug fixes.  You can read more about those in the upstream changelog at https://www.php.net/ChangeLog-8.php#8.3.9.
 
 #### PostgreSQL
 PostgreSQL was updated to version 16.4. Users running Ubuntu Noble will realize this version was also included there as part of our PostgreSQL upgrade policies. The new version introduces many bug and security fixes. More details on the changes introduced since Noble are available at https://www.postgresql.org/docs/release/16.4/ and https://www.postgresql.org/docs/release/16.3/
@@ -398,7 +398,7 @@ multipath-tools was updated to 0.9.9. Please visit https://github.com/opensvc/mu
 Starting with the Oracular release, the kpartx-boot package has been discontinued to align with Debian. Originally introduced to support dmraid booting, its functionality is preserved, as the kpartx package now includes everything previously provided by kpartx-boot.
 
 ##### dmraid
-The dmraid package has been removed from Oracular. The rationale for its removal is outlined in https://bugs.launchpad.net/bugs/2073677, primarily due to its removal from Debian unstable and minimal upstream support. If you require this functionality, consider using alternatives like mdadm.
+The dmraid package has been removed from Oracular. The rationale for its removal is outlined in https://bugs.launchpad.net/bugs/2073677, primarily due to its removal from Debian unstable and minimal upstream support. If you require this functionality, consider using alternatives like `mdadm`.
 
 ##### Corosync
 Corosync was upgraded to version 3.1.8. This release contains mostly smaller bugfixes and improvements of Rust bindings. You can learn more about it at https://github.com/corosync/corosync/releases.
@@ -531,18 +531,24 @@ As is to be expected with any release, there are some significant known bugs tha
 
 1. At the GRUB boot menu, press `e` (keep `Shift` pressed during early boot if the menu doesn't show up).
 2. Add `nomodeset` to `linux` line, like the example below:
-```
-linux /casper/vmlinuz nomodeset ---
-```
+
+   ```
+   linux /casper/vmlinuz nomodeset ---
+   ```
+
 3. Press `Ctrl-x` to continue the boot process
 4. After installation is complete, reboot, use `nomodeset` again, like the example below:
-```
-linux /boot/vmlinuz-6.11.0-8-generic nomodeset root=UUID=c5605a23-05ae-4d9d-b65f-e47ba48b7560 ro
-```
+
+   ```
+   linux /boot/vmlinuz-6.11.0-8-generic nomodeset root=UUID=c5605a23-05ae-4d9d-b65f-e47ba48b7560 ro
+   ```
+
 5. Add `nomodeset` to the GRUB config file, `/etc/default/grub`, like the example below:
-```
-GRUB_CMDLINE_LINUX="nomodeset"
-```
+
+   ```
+   GRUB_CMDLINE_LINUX="nomodeset"
+   ```
+
 6. Finally, run `sudo update-grub` to make the change take effect.
 
 
@@ -633,11 +639,11 @@ There is a AppArmor related bug where containers cannot be promptly stopped due 
 
 * On desktop images, on some systems the Wayland desktop option does not appear on first boot. Logging in, then logging out results in the default Wayland option being restored
 
-* On server images, re-authentication to WiFi APs when regulatory domain is set result in dmesg spam to the console ([LP: #2063365](https://launchpad.net/bugs/2063365))
+* On server images, re-authentication to WiFi APs when regulatory domain is set result in `dmesg` spam to the console ([LP: #2063365](https://launchpad.net/bugs/2063365))
 
 #### ARM64 Systems with NVIDIA GPUs
 
-* The current versions of the NVIDIA GPU drivers may cause hangs or crashes ([LP: #2062380](https://launchpad.net/bugs/2062380)). This will be fixed in a future driver update.
+* The current versions of the NVIDIA GPU drivers may cause freezes or crashes ([LP: #2062380](https://launchpad.net/bugs/2062380)). This will be fixed in a future driver update.
 
 #### Google Compute Platform 
 

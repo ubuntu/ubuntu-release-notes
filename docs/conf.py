@@ -229,12 +229,58 @@ linkcheck_ignore = [
     # Rate-limited domains that cause delays
     r"http://www\.gnu\.org/software/.*",
     r"https://github\.com/.*/blob/.*",
+    # Ubuntu wiki (rate-limited)
+    r"https://wiki\.ubuntu\.com/.*",
+    # Rate-blocked or bot-challenged (418 / 5xx responses)
+    r"https?://ceph\.com.*",
+    r"https://dev\.mysql\.com/.*",
+    r"https://blogs\.oracle\.com/.*",
+    r"https://gitlab\.gnome\.org/.*",
+    r"https://discourse\.lubuntu\.me/.*",
+    r"https://downloads\.apache\.org/.*",
+    r"https://www\.freedesktop\.org/.*",
+    # Launchpad: bugs/commits may be private or deleted
+    r"https://bugs\.launchpad\.net/.*",
+    r"https://git\.launchpad\.net/.*",
+    r"https://launchpad\.net/bugs/.*",
+    # Ubuntu manpages site: pages for newer/unreleased series may 404
+    r"https://manpages\.ubuntu\.com/.*",
+    # Ubuntu ESM endpoint (times out from CI)
+    r"http://esm\.ubuntu\.com.*",
+    # Old / dead external pages
+    r"https://release\.gnome\.org/.*",
+    r"https://lubuntu\.me/.*",
+    # Filenames in text incorrectly parsed as URLs by the link checker
+    r"http://[^\s/]+\.(py|sh|mk|in)$",
+    # Dead links in existing content (historical; not worth updating)
+    r"https://github\.com/docker-snap/.*",
+    r"https://github\.com/ipxe/.*",
+    r"https://blog\.thunderbird\.net/.*",
+    # Unreleased / forthcoming Discourse posts
+    r"https://discourse\.ubuntu\.com/t/edubuntu-.*",
+    r"https://discourse\.ubuntu\.com/t/ubuntu-studio-.*",
 ]
 
 
 # A regex list of URLs where anchors are ignored by 'make linkcheck'
 
-linkcheck_anchors_ignore_for_url = [r"https://github\.com/.*"]
+linkcheck_anchors_ignore_for_url = [
+    r"https://github\.com/.*",
+    # Discourse anchor IDs change when posts are edited
+    r"https://discourse\.ubuntu\.com/.*",
+    # GitLab release tag anchors are not standard HTML ids
+    r"https://gitlab\.freedesktop\.org/.*",
+    # Ubuntu documentation anchors may drift between doc versions
+    r"https://documentation\.ubuntu\.com/.*",
+    # Launchpad bug list anchors use non-standard fragment format
+    r"https://launchpad\.net/.*",
+    # External project changelogs with non-stable anchor IDs
+    r"https://chrony-project\.org/.*",
+    # Dovecot docs restructure anchors between versions
+    r"https://doc\.dovecot\.org/.*",
+    # Raspberry Pi docs restructure anchors
+    r"https://www\.raspberrypi\.com/.*",
+]
 
 # give linkcheck multiple tries on failure
 linkcheck_timeout = 15

@@ -190,7 +190,7 @@ For full upstream release notes for all releases, please consult https://www.ope
     apt install chrony
     ```
 
-* NTS (authenticated & encrypted NTP) by default uses Ubuntu project time servers.
+* NTS (authenticated & encrypted NTP) by default uses Ubuntu time servers.
 
 * Ubuntu's NTP servers are defined in a [new snippet](https://discourse.ubuntu.com/t/improving-chrony-time-source-configuration-in-ubuntu/47850) in `/etc/chrony/sources.d/ubuntu-ntp-pools.sources`.
 
@@ -240,7 +240,7 @@ For more details, breaking changes and other features, see the upstream release 
 
 Updated to 2.4.2. Version 2.4 introduced many changes to the Dovecot configuration format!
 
-Coming from Ubuntu 24.04, please follow [dovecot’s 2.3 upgrade documentation](https://doc.dovecot.org/2.4.2/installation/upgrade/2.3-to-2.4.html).
+Coming from Ubuntu 24.04 LTS, please follow [dovecot’s 2.3 upgrade documentation](https://doc.dovecot.org/2.4.2/installation/upgrade/2.3-to-2.4.html).
 
 When you’re coming from other versions, follow [the upgrade overview](https://doc.dovecot.org/2.4.2/installation/upgrade/overview.html).
 
@@ -251,7 +251,7 @@ Specific release notes for major version releases since Ubuntu 24.04 LTS (Noble 
 * 3.9.0: https://www.postfix.org/announcements/postfix-3.9.0.html
 * 3.10.0: https://www.postfix.org/announcements/postfix-3.10.0.html
 
-A noteworthy change in the packaging of Postfix is that **by default it is no longer installed in a chroot, and only limited chroot support is available from now on**.
+A noteworthy change in the packaging of Postfix is that **by default it is no longer installed in a `chroot`, and only limited `chroot` support is available from now on**.
 
 ### RabbitMQ
 
@@ -354,7 +354,7 @@ You can learn more at [Announcing HAProxy 3.0](https://www.haproxy.com/blog/anno
 :::{versionadded} 25.04
 :::
 
-MySQL was updated from 8.0 to 8.4 LTS, starting with 8.4.8 in Ubuntu 26.04. This is MySQL's first official long term support release, including various internal improvements, new features, and some important configuration changes.
+MySQL was updated from 8.0 to 8.4 LTS, starting with 8.4.8 in Ubuntu 26.04 LTS. This is MySQL's first official long term support release, including various internal improvements, new features, and some important configuration changes.
 
 Upstream release notes are available in the [Mysql 8.4 documentation library](https://dev.mysql.com/doc/relnotes/mysql/8.4/en/). For more information about the transition from MySQL 8.0 to 8.4, see the [MySQL 8.4 overview](https://dev.mysql.com/doc/refman/8.4/en/mysql-nutshell.html).
 
@@ -490,7 +490,7 @@ The Active Directory Group Policy client for Ubuntu supports the latest Polkit a
 As part of a profile writing effort to improve overall system security, the AppArmor package now includes many new profiles for applications. This improved sandboxing can help mitigate the impact of any exploit in the confined applications.
 
 :::{dropdown} Report bugs
-These profiles may cause breakage for unanticipated uses of those applications, and we encourage users to file a bug on [Launchpad](https://bugs.launchpad.net/ubuntu/+source/apparmor/+filebug) for AppArmor-induced breakage in common use cases. When AppArmor denies an action, it usually generates a log entry describing the denial, which will help us investigate the bug, but which can also be used to add additional rules for customization or to work around the denials. AppArmor log entries can be read in the auditd logs, if auditd is installed, or in the syslog otherwise. [This page](https://gitlab.com/apparmor/apparmor/-/wikis/denial_quick_guide) describes how the information contained in the denial log can be used to update a local override.
+These profiles may cause breakage for unanticipated uses of those applications, and we encourage users to file a bug on [Launchpad](https://bugs.launchpad.net/ubuntu/+source/apparmor/+filebug) for AppArmor-induced breakage in common use cases. When AppArmor denies an action, it usually generates a log entry describing the denial, which will help us investigate the bug, but which can also be used to add additional rules for customization or to work around the denials. AppArmor log entries can be read in the auditd logs, if auditd is installed, or in the `syslog` otherwise. [This page](https://gitlab.com/apparmor/apparmor/-/wikis/denial_quick_guide) describes how the information contained in the denial log can be used to update a local override.
 :::
 
 ### TPM-backed full-disk encryption
@@ -557,7 +557,7 @@ For Pi 3, 3+, and Zero 2W
 : No action required, the boot firmware is in the image itself.
 
 For Pi 4
-: Your boot firmware *must* be dated no earlier than **2022-11-25**. To check, run `sudo rpi-eeprom-update`. If your firmware is dated earlier, using Ubuntu 24.04 (noble) or later, run `sudo rpi-eeprom-update -a` and reboot.
+: Your boot firmware *must* be dated no earlier than **2022-11-25**. To check, run `sudo rpi-eeprom-update`. If your firmware is dated earlier, using Ubuntu 24.04 LTS (Noble Numbat) or later, run `sudo rpi-eeprom-update -a` and reboot.
 
 For Pi 5
 : No action required, all firmware since release of the platform are compatible.

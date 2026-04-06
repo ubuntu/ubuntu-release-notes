@@ -44,7 +44,7 @@ Systems running TPM/FDE will now prompt for the recovery key before firmware upd
 
 ...
 
-#### sudo-rs
+#### `sudo-rs`
 
 Password feedback is now enabled by default in order to improve the user experience of `sudo`.
 If the previous behavior is preferred, password feedback can be disabled using the following steps:
@@ -291,9 +291,9 @@ Upgrading Windows 11 makes the VM stop working and to fix this issue and ensure 
 
 * `pc-i440fx-questing-v2` Ubuntu 25.10 PC v2 (i440FX + PIIX, + 10.1 machine, 1996)
 
-* `pc-i440fx-noble-v2`   Ubuntu 24.04 PC v2 (i440FX + PIIX, `arch-caps` fix, 1996)
+* `pc-i440fx-noble-v2`   Ubuntu 24.04 LTS PC v2 (i440FX + PIIX, `arch-caps` fix, 1996)
 
-* `pc-q35-noble-v2`      Ubuntu 24.04 PC v2 (Q35 + ICH9, `arch-caps` fix, 2009)
+* `pc-q35-noble-v2`      Ubuntu 24.04 LTS PC v2 (Q35 + ICH9, `arch-caps` fix, 2009)
 
 Other notable new features:
 
@@ -390,7 +390,7 @@ The MySQL and MariaDB servers are mutually exclusive on Ubuntu for now.
 
 #### MySQL
 
-MySQL’s current LTS version 8.4 is provided in Ubuntu 26.04, starting with version 8.4.8. Future security fixes will be provided by 8.4.x version updates. For more information see the [upstream release notes](https://dev.mysql.com/doc/relnotes/mysql/8.4/en/).
+MySQL’s current LTS version 8.4 is provided in Ubuntu 26.04 LTS, starting with version 8.4.8. Future security fixes will be provided by 8.4.x version updates. For more information see the [upstream release notes](https://dev.mysql.com/doc/relnotes/mysql/8.4/en/).
 
 #### MySQL Shell
 
@@ -651,7 +651,7 @@ Other breaking changes and new features can be seen in the [full upstream change
 
 #### Apache 2.4.65
 
-Apache has been updated to upstream version 2.4.65. For more details, see the [upsteam release notes](https://www.apachelounge.com/Changelog-2.4.html).
+Apache has been updated to upstream version 2.4.65. For more details, see the [upstream release notes](https://www.apachelounge.com/Changelog-2.4.html).
 
 #### Nginx 1.28.2
 
@@ -675,7 +675,7 @@ Updated to 2.4.2. See the [upstream announcement](https://dovecot.org/mailman3/a
 
 Postfix was updated to version 3.10.6. See the [upstream announcement](https://www.postfix.org/announcements/postfix-3.10.6.html).
 
-A noteworthy change in the packaging of Postfix is that **by default it is no longer installed in a chroot, and only limited chroot support is available from now on**.
+A noteworthy change in the packaging of Postfix is that **by default it is no longer installed in a `chroot`, and only limited `chroot` support is available from now on**.
 
 #### `unbound` 1.24.2
 
@@ -856,7 +856,7 @@ See [LP: #2144455](https://bugs.launchpad.net/ubuntu-release-notes/+bug/2144455)
 <!--
 #### Openstack
 
-Currently, Nova Compute is non-functional because of a python3.13 incompatiblity ([LP:#2103413](https://bugs.launchpad.net/ubuntu/+source/nova/+bug/2103413)).
+Currently, Nova Compute is non-functional because of a python3.13 incompatibility ([LP:#2103413](https://bugs.launchpad.net/ubuntu/+source/nova/+bug/2103413)).
 The Openstack team and Upstream work on it and it will be resolved via an SRU later.
 
 The Ubuntu Cloud Archive is not affected by this bug.

@@ -26,6 +26,8 @@ allwinner
 amdgpu
 amdnpu
 amdtee
+AMI
+AMIs
 Ancell
 Animalhunters
 Aodh
@@ -83,6 +85,7 @@ Bambina
 Barossa
 Barrington
 Bartek
+baselining
 bashisms
 Battlemage
 Baz
@@ -284,6 +287,7 @@ Enablement
 Enlightenments
 enum
 env
+Eoan
 errno
 ethernet
 ethtool
@@ -291,6 +295,8 @@ Eventlet
 eventlog
 Exim
 exim
+Exoscale
+failover
 fallocate
 Fastmail
 fbdev
@@ -459,6 +465,7 @@ kpartx
 kprobes
 Krackan
 Kria
+kronosnet
 Kubuntu
 Kuku
 kwin
@@ -637,6 +644,8 @@ Numpy
 Nusakan
 Nutanix
 nvdimm
+NVDIMM
+NVDIMMs
 oauth
 oem
 onwards
@@ -662,6 +671,7 @@ overlayroot
 ovmf
 PackageKit
 packagekit
+Panko
 paramiko
 params
 passthrough
@@ -691,6 +701,7 @@ plantuml
 plocate
 plucky's
 Plucky's
+pluggable
 plymouth
 Plymouth
 pmem
@@ -740,6 +751,8 @@ qpdf
 qualcomm
 quicksettings
 Quokka
+RA
+RAs
 rabbitmqctl
 Radeon
 radeonsi
@@ -1021,6 +1034,7 @@ userland
 userns
 userspace
 usrmerge
+Ussuri
 utils
 Utkarsh
 utkarsh
@@ -1046,6 +1060,7 @@ virtio
 virtiofs
 virtiofsd
 virtlogd
+virtualized
 virtqueues
 Vitrage
 VLANs
@@ -1105,6 +1120,7 @@ Xtrabackup's
 Xubuntu
 xwayland
 yaml
+Yaru
 Yoshio
 YouTube
 Zak
@@ -1119,5 +1135,6 @@ zkey
 zlib
 zpool
 zpwr
+Zstack
 Zstd
 zstd

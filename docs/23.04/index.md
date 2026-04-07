@@ -69,7 +69,7 @@ A lot of work has been done during this cycle to improve our [debuginfod service
 
 ### Ruby 
 
-Ruby :gem: was updated from v3.0 to v3.1. More details in its section below.
+Ruby 💎 was updated from v3.0 to v3.1. More details in its section below.
 
 ## Security Improvements 🔒
 
@@ -90,7 +90,7 @@ The ca-certificates package has been updated to the 2.60 version of the Mozilla 
 - [MOK Enrollment](https://wiki.ubuntu.com/UEFI/SecureBoot#MOK_generation_and_signing_process) is not yet supported.  While `ubuntu-drivers` will be run if the "Install third-party software" checkbox is selected, drivers that also required MOK enrollment will need to do so after installation is complete.
 - The legacy installer is [still available](https://cdimage.ubuntu.com/releases/23.04/) in case of issues with the new installer.
 
-### GNOME :footprints:
+### GNOME 👣
 - GNOME has been updated to include new features and fixes from the latest GNOME release, [GNOME 44](https://release.gnome.org/44/)
 
 ### Updated Ubuntu font
@@ -98,10 +98,10 @@ The ca-certificates package has been updated to the 2.60 version of the Mozilla 
 - The Ubuntu font has been updated
 
 ### Updated Applications
--  [Firefox](https://mozilla.org/firefox/releases/) 111 :fire::fox_face:
-- [LibreOffice 7.5.2 ](https://wiki.documentfoundation.org/ReleaseNotes/7.5.2) :books:
+-  [Firefox](https://mozilla.org/firefox/releases/) 111 🔥🦊
+- [LibreOffice 7.5.2 ](https://wiki.documentfoundation.org/ReleaseNotes/7.5.2) 📚
   LibreOffice is now available on RISC-V
-- Thunderbird 102.10 :cloud_with_lightning::bird:
+- Thunderbird 102.10 🌩️🐦
 
 ### Updated Subsystems
 
@@ -489,36 +489,3 @@ The release notes for the official flavours can be found at the following links:
   * [Xubuntu Release Notes](https://wiki.xubuntu.org/releases/23.04/release-notes)
   * [Ubuntu Kylin Release Notes](https://www.ubuntukylin.com/news/ubuntukylin2304-en.html)
   * [Ubuntu Cinnamon Release Notes](https://ubuntucinnamon.org/ubuntu-cinnamon-23-04-lunar-lobster-released/)
-
-## More information
-
-## Reporting bugs
-
-Your comments, bug reports, patches and suggestions will help fix bugs and improve the quality of future releases. Please [report bugs using the tools provided](http://help.ubuntu.com/community/ReportingBugs). If you want to help out with bugs, the [Bug Squad](http://wiki.ubuntu.com/BugSquad) is always looking for help.
-
-## What happens if there is a high or critical priority CVE during release day?
-
-Server, Desktop and Cloud plan to release in lockstep on release day, but there are some exceptions.
-
-In the unlikely event that a critical or high-priority CVE is announced on release day, the release team have agreed on the following plan of action:
-
-* For critical priority CVEs, then the release of Server, Desktop and Cloud will be blocked until new images can be built addressing the CVE. 
-* For high-priority CVEs, the decision to block release will be made on a per product (Server, Desktop and Cloud) basis and will depend on the nature of the CVE, which might result in images not being released on the same day.
-
-This was discussed in the [ubuntu--release mailing list March/April 2023](https://lists.ubuntu.com/archives/ubuntu-release/2023-April/005610.html).
-
-The mailing list thread also confirmed that there is no technical or policy reason why a package can not be pushed to the Updates or Security pocket to address high or critical priority CVEs prior to release.
-
-## Participate in Ubuntu
-
-If you would like to help shape Ubuntu, take a look at the list of ways you can participate at:
-
- * https://community.ubuntu.com/contribute
-
-## More about Ubuntu
-
-You can find out more about Ubuntu on the [Ubuntu website](https://ubuntu.com).
-
-To sign up for future Ubuntu development announcements, please subscribe to Ubuntu's development announcement list at:
-
-  * https://lists.ubuntu.com/mailman/listinfo/ubuntu-devel-announce

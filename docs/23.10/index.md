@@ -57,10 +57,10 @@ The network stack was updated to [Netplan v0.107](https://discourse.ubuntu.com/t
 ## Toolchain Upgrades 🛠️
 
 * GCC was updated to the 13.2.0 release, binutils to 2.41, and glibc to 2.38.
-* Python :snake: now defaults to version 3.11.6, and 3.12.0 is available in the archive.
-* Perl :camel: at version 5.36.0.
+* Python 🐍 now defaults to version 3.11.6, and 3.12.0 is available in the archive.
+* Perl 🐪 at version 5.36.0.
 * LLVM now defaults to version 16, and 17 is available in the archive.
-* Rust :crab: toolchain defaults to version 1.71.
+* Rust 🦀 toolchain defaults to version 1.71.
 
 ### OpenJDK
 
@@ -147,7 +147,7 @@ There are several options if you run into problems:
 
 * There is also a new standalone **Firmware Updater** application. This provides the possibility to update firmware without needing to have a full app store running continuously in the background.
 
-### GNOME :footprints:
+### GNOME 👣
 
 * GNOME has been updated to include new features and fixes from the latest GNOME release, [GNOME 45](https://release.gnome.org/45/).
 * The **GNOME Clocks** application is installed by default.
@@ -158,10 +158,10 @@ There are several options if you run into problems:
 
 ### Updated Applications
 
-* [Firefox](https://mozilla.org/firefox/releases/) 118 :fire::fox_face:
+* [Firefox](https://mozilla.org/firefox/releases/) 118 🔥🦊
   * Firefox is a native [Wayland application](https://discourse.ubuntu.com/t/firefox-snap-with-wayland-enabled-by-default-in-ubuntu-23-10-mantic-minotaur/38660) for this Ubuntu release.
-* [LibreOffice 7.6](https://wiki.documentfoundation.org/ReleaseNotes/7.6) :books:
-* [Thunderbird 115.2 "Supernova"](https://blog.thunderbird.net/2023/07/our-fastest-most-beautiful-release-ever-thunderbird-115-supernova-is-here/) :cloud_with_lightning::bird:
+* [LibreOffice 7.6](https://wiki.documentfoundation.org/ReleaseNotes/7.6) 📚
+* [Thunderbird 115.2 "Supernova"](https://blog.thunderbird.net/2023/07/our-fastest-most-beautiful-release-ever-thunderbird-115-supernova-is-here/) ⛈🐦
 
 ### Updated Subsystems
 

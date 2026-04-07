@@ -322,23 +322,3 @@ The release notes for the official flavours can be found at the following links:
   * [Ubuntu MATE Release Notes](https://ubuntu-mate.org/blog/ubuntu-mate-impish-indri-final-release/)
   * [Ubuntu Studio Release Notes](https://ubuntustudio.org/ubuntu-studio-21-10-release-notes/)
   * [Xubuntu Release Notes](https://wiki.xubuntu.org/releases/21.10/release-notes)
-
-## More information
-
-## Reporting bugs
-
-Your comments, bug reports, patches and suggestions will help fix bugs and improve the quality of future releases. Please [report bugs using the tools provided](http://help.ubuntu.com/community/ReportingBugs). If you want to help out with bugs, the [Bug Squad](http://wiki.ubuntu.com/BugSquad) is always looking for help.
-
-## Participate in Ubuntu
-
-If you would like to help shape Ubuntu, take a look at the list of ways you can participate at:
-
- * https://community.ubuntu.com/contribute
-
-## More about Ubuntu
-
-You can find out more about Ubuntu on the [Ubuntu website](https://www.ubuntu.com).
-
-To sign up for future Ubuntu development announcements, please subscribe to Ubuntu's development announcement list at:
-
-  * https://lists.ubuntu.com/mailman/listinfo/ubuntu-devel-announce

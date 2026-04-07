@@ -53,7 +53,7 @@ Following the recent [announcement](https://lists.ubuntu.com/archives/ubuntu-dev
 - The default audio server is now PipeWire instead of PulseAudio
 - The default image apps now suport the _.webp_ format
 
-### GNOME :footprints:
+### GNOME 👣
 - GNOME has been updated to include new features and fixes from the latest GNOME release, [GNOME 43](https://release.gnome.org/43/)
 - Many apps have been converted to GTK4 and libadwaita for improved performance and upgraded style.
 - The default file manager Nautilus has switched to GTK4. The Nautilus Extensions API has changed which breaks all Nautilus extensions that have not been updated for the new release.
@@ -65,9 +65,9 @@ Following the recent [announcement](https://lists.ubuntu.com/archives/ubuntu-dev
 
 ### Updated Applications
 
-* [Firefox](https://mozilla.org/firefox/releases/) 106 :fire::fox_face:
-* [LibreOffice 7.4 ](https://wiki.documentfoundation.org/ReleaseNotes/7.4) :books:
-* Thunderbird 102 :cloud_with_lightning::bird:
+* [Firefox](https://mozilla.org/firefox/releases/) 106 🔥🦊
+* [LibreOffice 7.4 ](https://wiki.documentfoundation.org/ReleaseNotes/7.4) 📚
+* Thunderbird 102 🌩️🐦
 
 ### Updated Subsystems
 
@@ -313,23 +313,3 @@ The release notes for the official flavours can be found at the following links:
   * [Ubuntu Studio Release Notes](https://ubuntustudio.org/ubuntu-studio-22-10-release-notes/)
   * [Ubuntu Unity Release Notes](https://ubuntuunity.org/blog/ubuntu-unity-22.10/)
   * [Xubuntu Release Notes](https://wiki.xubuntu.org/releases/22.10/release-notes)
-
-## More information
-
-## Reporting bugs
-
-Your comments, bug reports, patches and suggestions will help fix bugs and improve the quality of future releases. Please [report bugs using the tools provided](http://help.ubuntu.com/community/ReportingBugs). If you want to help out with bugs, the [Bug Squad](http://wiki.ubuntu.com/BugSquad) is always looking for help.
-
-## Participate in Ubuntu
-
-If you would like to help shape Ubuntu, take a look at the list of ways you can participate at:
-
- * https://community.ubuntu.com/contribute
-
-## More about Ubuntu
-
-You can find out more about Ubuntu on the [Ubuntu website](https://ubuntu.com).
-
-To sign up for future Ubuntu development announcements, please subscribe to Ubuntu's development announcement list at:
-
-  * https://lists.ubuntu.com/mailman/listinfo/ubuntu-devel-announce

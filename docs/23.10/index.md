@@ -488,33 +488,3 @@ Find the release notes for the official flavours at the following links:
 * [Xubuntu Release Notes](https://wiki.xubuntu.org/releases/23.10/release-notes)
 * [Ubuntu Kylin Release Notes](https://www.ubuntukylin.com/news/ubuntukylin2310-en.html)
 * [Ubuntu Cinnamon Release Notes](https://ubuntucinnamon.org/?p=1247/)
-
-## More information
-
-## Reporting bugs
-
-Your comments, bug reports, patches and suggestions help fix bugs and improve the quality of future releases. Please [report bugs using the tools provided](http://help.ubuntu.com/community/ReportingBugs). If you want to help with bugs, the [Bug Squad](http://wiki.ubuntu.com/BugSquad) is always looking for help.
-
-## What happens if there is a high or critical priority CVE during release day?
-
-Server, Desktop and Cloud plan to release in lockstep on release day, but there are some exceptions.
-
-In the unlikely event that a critical or high-priority CVE is announced on release day, the release team have agreed on the following plan of action:
-
-* For critical priority CVEs, the release of Server, Desktop and Cloud will be blocked until new images can be built addressing the CVE.
-
-* For high-priority CVEs, the decision to block release will be made on a per-product (Server, Desktop and Cloud) basis and will depend on the nature of the CVE, which might result in images not being released on the same day.
-
-This was discussed in the [ubuntu--release mailing list March/April 2023](https://lists.ubuntu.com/archives/ubuntu-release/2023-April/005610.html).
-
-The mailing list thread also confirmed there is no technical or policy reason why a package cannot be pushed to the Updates or Security pocket to address high or critical-priority CVEs prior to the release.
-
-## Participate in Ubuntu
-
-If you would like to help shape Ubuntu, look at the list of ways you can participate at [community.ubuntu.com/contribute](https://community.ubuntu.com/contribute).
-
-## More about Ubuntu
-
-You can find out more about Ubuntu on the [Ubuntu website](https://ubuntu.com).
-
-To sign up for future Ubuntu development announcements, subscribe to Ubuntu's development announcement list at [ubuntu-devel-announce](https://lists.ubuntu.com/mailman/listinfo/ubuntu-devel-announce).

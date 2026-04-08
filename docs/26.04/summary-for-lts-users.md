@@ -411,7 +411,7 @@ For the `containerd` and `runc` packages, we established a pattern to either kee
 * GCC 🐄 has been updated from version 14 to 15.2, `binutils` from 2.42 to 2.45, and `glibc` from 2.39 to 2.42.
 * Python 🐍 has been updated from version 3.12 to 3.13.9, while 3.14 is also available.
 * LLVM 🐉 has been updated from version 18 to 21.
-* Rust 🦀 toolchain has been updated from version 1.75 to 1.88.
+* Rust 🦀 has been updated from version 1.75 to 1.93, while 1.91 and 1.92 are also available.
 * Golang 🐀 has been updated from version 1.22 to 1.25.
 * Zig ⚡ is now available in Ubuntu. It defaults to version 0.14.1.
 * OpenJDK has been updated from version 21 to 25, while LTS versions 8, 11, 17, 21 are also available. OpenJDK 26, and OpenJDK 27 previews are also included.

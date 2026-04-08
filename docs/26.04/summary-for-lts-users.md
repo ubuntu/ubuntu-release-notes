@@ -132,15 +132,15 @@ Improved dual boot user experience, with a focus on BitLocker protected Windows 
 
 The JPEG XL format is now supported without needing to install any additional packages
 
-### Accelerated video encoding and decoding
+### VA-API accelerated video encoding and decoding by default
+
+By default, hardware-accelerated video encoding and decoding are now provided for AMD and Intel users via VA-API.
+
+### Additional media codecs installed when requested during installation
 :::{versionadded} 25.10
 :::
 
-When you enable *Install third-party software for graphics and Wi-Fi hardware and additional media formats* during installation, video encoding and decoding will be hardware-accelerated for supported hardware using the Video Acceleration API (VA-API).
-
-Notably, you can record your screen at the original screen rate. Without VA-API, your screen recording has a reduced frame rate because it's limited by the CPU.
-
-You can also install the library after installation. See [Record the screen](https://documentation.ubuntu.com/desktop/en/latest/how-to/record-the-screen/) in the Ubuntu Desktop documentation.
+The additional packages installed when you enable *Install third-party software for graphics and Wi-Fi hardware and additional media formats* during installation have been updated. The updated package set now includes the non-free AAC codec for supported Bluetooth headsets.
 
 ### New update notifications
 :::{versionadded} 25.10

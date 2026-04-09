@@ -599,7 +599,7 @@ The Ubuntu desktop images for Raspberry Pi are now based upon the `desktop-minim
   - `shotwell` (photo catalogue)
   - `simple-scan` (flat-bed scanner application)
   - `thunderbird` (email client)
-  - `totem` (video player)
+  - `showtime` (video player)
   - `transmission-gtk` (bittorrent client)
 :::
 

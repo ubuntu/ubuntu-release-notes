@@ -327,11 +327,11 @@ You can learn more at [Announcing HAProxy 3.0](https://www.haproxy.com/blog/anno
 
 ### Development
 
-* GCC 🐄 has been updated from version 14 to 15.2, `binutils` from 2.42 to 2.45, and `glibc` from 2.39 to 2.42.
-* Python 🐍 has been updated from version 3.12 to 3.13.9, while 3.14 is also available.
+* GCC 🐄 has been updated from version 14 to 15.2, `binutils` from 2.42 to 2.46, and `glibc` from 2.39 to 2.43.
+* Python 🐍 has been updated from version 3.12 to 3.14.
 * LLVM 🐉 has been updated from version 18 to 21.
-* Rust 🦀 toolchain has been updated from version 1.75 to 1.88.
-* Golang 🐀 has been updated from version 1.22 to 1.25.
+* Rust 🦀 toolchain has been updated from version 1.75 to 1.93.1.
+* Golang 🐀 has been updated from version 1.22 to 1.26.
 * Zig ⚡ is now available in Ubuntu. It defaults to version 0.14.1.
 * Ubuntu Toolchains has a new [homepage](https://ubuntu.com/toolchains).
 

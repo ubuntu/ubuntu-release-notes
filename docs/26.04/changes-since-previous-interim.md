@@ -493,7 +493,62 @@ OpenJDK 25 package is the default and is TCK (Technology Compatibility Kit) cert
 
 ...
 
+#### Rust + cargo-auditable
 
+Rust packages built on Launchpad now have opt-in [cargo-auditable](https://github.com/ubuntu/ubuntu-release-notes) support.
+If enabled, binaries will include JSON-formatted metadata in a header section of the binary expressing the dependencies used to compile the binary.
+If a CVE is discovered in a popular Rust crate, this dependency metadata lets users and sysadmins immediately check if a binary is compromised.
+
+For example, the dependency metadata for {manpage}`sudo-rs(1)` looks like this:
+
+```json
+{
+  "format": 1,
+  "packages": [
+    {
+      "name": "glob",
+      "source": "crates.io",
+      "version": "0.3.2"
+    },
+    {
+      "name": "libc",
+      "source": "crates.io",
+      "version": "0.2.174"
+    },
+    {
+      "name": "log",
+      "source": "crates.io",
+      "version": "0.4.27"
+    },
+    {
+      "dependencies": [0, 1, 2],
+      "name": "sudo-rs",
+      "root": true,
+      "source": "local",
+      "version": "0.2.8"
+    }
+  ]
+}
+```
+
+```{admonition} Pretty printed
+This has been pretty-printed for ease of readability. In real life the data is minified and compressed.
+```
+
+We have enabled cargo-auditable support for a few well-known Rust packages:
+- `alacritty`
+- `bat`
+- `du-dust`
+- `eza`
+- `fd-find`
+- `hyperfine`
+- `ripgrep`
+- `sd`
+- `sudo-rs`
+
+We encourage developers to turn on cargo-auditable support for their own packages!
+
+For more information, including how to opt in, see the [Ubuntu project documentation](https://documentation.ubuntu.com/project/contributors/language-specific/rust/cargo-auditable/).
 
 ## Backwards-incompatible changes
 

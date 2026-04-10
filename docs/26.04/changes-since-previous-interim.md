@@ -294,7 +294,7 @@ HAProxy was updated to the latest upstream LTS release, 3.2, which introduces pe
 
 #### Toolchain upgrades 🛠️
 
-* `glibc` 2.42 now ships non-UTF8 encodings as `libc-gconv-modules-extra`.
+* `glibc` 2.43 now ships non-UTF8 encodings as `libc-gconv-modules-extra`.
 * LLVM 21 is the default LLVM toolchain.
 * Rust 1.93.1 is the default Rust toolchain.
 

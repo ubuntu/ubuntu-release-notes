@@ -520,6 +520,7 @@ The Active Directory Group Policy client for Ubuntu supports the latest Polkit a
 
 ## Cloud
 
+On all cloud providers, `AMD64` based images are now built with `AMD64v3` by default. This effort begins with 26.04 Resolute Racoon images and will continue with future releases.
 
 ## Security
 

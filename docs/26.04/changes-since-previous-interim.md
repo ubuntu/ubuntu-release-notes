@@ -924,6 +924,10 @@ If you want to continue using `mod-php`, override the setting by editing the Apa
 
 See [LP: #2144455](https://bugs.launchpad.net/ubuntu-release-notes/+bug/2144455) and the [systemd.exec documentation](https://www.freedesktop.org/software/systemd/man/latest/systemd.exec.html#MemoryDenyWriteExecute=) for more information.
 
+#### PostgreSQL
+
+As reported in a [Linux mailing list](https://lore.kernel.org/lkml/20260403191942.21410-1-dipiets@amazon.it/) thread, a change introduced in Linux 7.0 may cause a significant throughput and latency regression on PostgreSQL. As discussed in that [same thread](https://lore.kernel.org/lkml/yr3inlzesdb45n6i6lpbimwr7b25kqkn37qzlvvzgad5hfd7ut@xv4cihno76wu/), systems using huge pages are not affected. Hence, ensure your PostgreSQL deployments have huge pages on. Please refer to the PostgreSQL upstream documentation to ensure your system have [huge pages set](https://www.postgresql.org/docs/current/kernel-resources.html#LINUX-HUGE-PAGES), and that the [huge_pages configuration](https://www.postgresql.org/docs/current/runtime-config-resource.html#GUC-HUGE-PAGES) is set to `on`.
+
 <!--
 #### Openstack
 

@@ -253,6 +253,8 @@ There is a new experimental support for `nftables` which can be enabled by setti
 
 The `containerd` image store is now the default for **fresh installs**. This doesn’t apply to daemons configured with `userns-remap` or for users upgrading from a previous [docker.io](http://docker.io) version.
 
+The `docker image ls` command output has changed to use a new view (like `--tree` but collapsed) by default.
+
 For a comprehensive list of changes, please check the [upstream release notes](https://docs.docker.com/engine/release-notes/29/).
 
 #### Virtualization stack

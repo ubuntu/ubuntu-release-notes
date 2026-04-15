@@ -300,6 +300,7 @@ Additionally, Dovecot 2.4 brings new features including support for the ARGON2 p
 
 Notably, support for building for 32-bit architectures has ended, so dovecot will no longer be natively installable on i386 and armhf platforms.
 
+(edk2-25.10)=
 #### EDK2
 
 * Added firmware for Intel ® TDX guests with secure boot capability ([LP#2125123](https://bugs.launchpad.net/ubuntu/+source/edk2/+bug/2125123))

@@ -275,6 +275,7 @@ The Exim4 update in Oracular to 4.98 includes selected fixes from the upstream G
 #### HAProxy
 The HAProxy package was upgraded to version 2.9.9. This new version introduces performance improvements, better integration, more reliability, and a new reverse-http feature. You can learn more about it at https://www.haproxy.com/blog/announcing-haproxy-2-9.  A complete list of changes is available at https://www.haproxy.org/download/2.9/src/CHANGELOG.
 
+(libvirt-24.10)=
 #### libvirt
 The [libvirt](https://libvirt.org) package was upgraded to version 10.6.0.  Here are the changes since Ubuntu Noble:
 

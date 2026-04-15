@@ -485,6 +485,7 @@ PostgreSQL was updated to version 17, which contains several new features and en
 
 For more details, see the [upstream release notes](https://www.postgresql.org/docs/17/release-17.html).
 
+(qemu-25.04)=
 #### QEMU
 
 The [QEMU ](https://qemu.org/) package was updated to version 9.2.0. Here are the changes since Ubuntu Oracular.

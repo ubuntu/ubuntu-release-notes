@@ -437,6 +437,60 @@ MySQL Shell was updated from major version 8.0 to 8.4 to coincide with MySQL 8.4
 
 For the `containerd` and `runc` packages, we established a pattern to either keep the regular updates to the latest version or to opt for slower, more stable updates throughout the time the release is active. For more please read [Ubuntu Server Gazette - Issue 8 - Containers: Steady paths for agile stacks](https://discourse.ubuntu.com/t/ubuntu-server-gazette-issue-8-containers-steady-paths-for-agile-stacks/68680).
 
+### Virtualization stack
+
+A stack as active as that of qemu, libvirt, edk2 and seabios had way too many
+great new features and fixes to list them all. The upgrades between each
+interim release like {ref}`libvirt@24.10 <libvirt-24.10>`,
+{ref}`qemu@25.10 <qemu-25.04>` or {ref}`edk2@25.10 <edk2-25.10>`
+are already so huge they can only cover a selected high level summary.
+Each version adds various new emulated instructions, new cpu types and
+virtualized platforms which would is beyond the scope of this.
+Here are just a few to motivate you to check out all the other
+per-release changes and the related upstream annoucments.
+
+:::{versionadded} 26.04
+:::
+
+* libvirt: improved firmware selection
+* libvirt Add more statistics for block devices on QEMU domains
+* libvirt: Add support for NUMA affinity of PCI devices
+* libvirt+qemu: Support NVIDIA Multi-Instance GPU (MIG) configurations
+* qemu: Hyper-V host model mode
+* qemu: The HPET device does not take the big QEMU lock anymore.
+* qemu: QEMU now supports loading multiple x509 cert+key identities (for transition to post-quantum cryptography)
+
+* The virt stack as a whole added a hardware enablement model.
+
+:::{versionadded} 25.10
+:::
+
+* libvirt: ppc64 POWER11 processor support
+* libvirt: Allow control over QEMU TLS priority strings
+* libvirt: Add support for NVMe disks
+* libvirt: add support for AMD IOMMU device
+* libvirt+qemu+edk2: Support for Intel TDX
+* qemu: Support for the [RVA23 Profile](https://riscv.org/blog/risc-v-rva23-a-major-milestone/)
+* qemu: Support for s390x generation 17 mainframe CPUs
+* qemu: `virtio-scsi` has gained true multiqueue support
+
+:::{versionadded} 25.04
+:::
+
+* libvirt: Zero block detection for non-shared-storage migration
+* libvirt: Add support for versioned qemu CPU models
+* libvirt+qemu+edk2: Support for AMD `SEV-SNP`
+* qemu: Support RISC-V privilege 1.13 spec
+* qemu: Arm KVM-based VMs can now support MTE
+
+:::{versionadded} 24.10
+:::
+
+* qemu: `virtio-blk` device has gained true multiqueue support where different queues of a single disk can be processed by different I/O threads. This can improve scalability in cases where the guest submitted enough I/O to saturate the host CPU running a single I/O thread processing the virtio-blk requests. Multiple I/O threads can be configured using the new iothread-vq-mapping property.
+* qemu: can emulate various new RISC-V instructions like the Zacas, B, Zaamo, Zalrsc, Ztso extensions
+* libvirt: Now supports clusters in CPU topology.
+* libvirt: Introduces dynamicMemslots attribute for virtio-mem
+
 ### High availability and clustering
 
 * The **`kpartx-boot`** package has been discontinued to align with Debian. Originally introduced to support `dmraid` booting, its functionality is preserved, as the `kpartx` package now includes everything previously provided by `kpartx-boot`.

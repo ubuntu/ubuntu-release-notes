@@ -52,6 +52,11 @@ The Image Viewer app is now provided by [Loupe](https://apps.gnome.org/Loupe/) i
 
 The Terminal app is now provided by [Ptyxis](https://gitlab.gnome.org/chergert/ptyxis/-/blob/main/README.md?ref_type=heads) instead of GNOME Terminal.
 
+### New system monitor
+
+```{include} /reuse/26.04/gnome-resources.txt
+```
+
 ### New default video player
 
 The default video player is now [Showtime](https://apps.gnome.org/Showtime/), replacing Totem.

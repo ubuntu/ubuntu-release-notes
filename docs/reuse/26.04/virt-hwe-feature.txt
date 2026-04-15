@@ -1,0 +1,12 @@
+The Ubuntu Resolute release introduces a new Hardware Enablement (HWE) virtualization stack,
+which will be continuously updated to align with the latest upstream versions delivered in
+upcoming interim releases. This virtualization stack is delivered in lockstep with the HWE
+kernel—though this is not a strict requirement—helping to ensure strong compatibility
+between kernel-level hardware enablement and userspace virtualization components.
+
+This hwe stacks is composed of the following source packages:
+ - qemu-hwe
+ - libvirt-hwe
+ - seabios-hwe
+ - edk2-hwe
+

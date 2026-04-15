@@ -257,9 +257,10 @@ For a comprehensive list of changes, please check the [upstream release notes](h
 
 #### Virtualization stack
 
-The virtualization stack got various updates and to provide more flexibility an additional
-hardware enablement option was added that will in addition allow to switch to the
-virtualization stack of the following interim releases while otherwise staying on the LTS.
+```{include} /reuse/26.04/virt-hwe-feature.txt
+```
+
+In addition, the virtualization stack got following updates since Ubuntu Questing 25.10:
 
 #### libvirt
 

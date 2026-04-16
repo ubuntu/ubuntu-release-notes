@@ -480,9 +480,7 @@ GraalVM Community Edition for JDK versions 21, 24 and 25 is now available as a [
 
 ### .NET 10
 
-.NET has been updated from version 8 to 10.
-
-We have also expanded .NET support to the IBM Power platform, further broadening the platform’s reach.
+.NET 10 is now available in the Ubuntu archive for the `amd64`, `arm64`, `s390x`, and `ppc64el` architectures.
 
 ### .NET snap
 :::{versionadded} 24.10

@@ -974,6 +974,12 @@ On systems booting via U-Boot, U-Boot should be updated to the current Plucky ve
 
 * Network interfaces left unconfigured at install time are assumed to be configured via dhcp4. If this doesn’t happen (for example, because the interface is physically not connected) the boot process will block and wait for a few minutes ([LP: #2063331](https://bugs.launchpad.net/subiquity/+bug/2063331)). This can be fixed by removing the extra interfaces from `/etc/netplan/50-cloud-init.conf` or by marking them as `optional: true`. Cloud-init is disabled on systems installed from ISO images, so settings will persist.
 
+### Cloud issues
+
+#### Google cloud
+
+On first boot, 26.04 images may be slowed by up to 30s due to an outstanding issue with `cloud-init` and `systemd` [(LP: #2148619)](https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/2148619)
+
 ## Official flavors
 
 Find the release notes for the official flavors at the following links:

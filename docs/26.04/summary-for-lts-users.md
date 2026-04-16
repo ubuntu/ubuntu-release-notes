@@ -710,7 +710,7 @@ Since `rust-coreutils` are not necessarily fully compatible yet, we continue to 
 
 ### Linux kernel 7.0
 
-The Linux kernel has been updated from version 6.8 to 7.0.
+For users running the GA generic stack, the Linux kernel has been updated from version 6.8 to 7.0. For users running the Hardware Enablement (HWE) stack, the Linux kernel has been updated from version 6.17 (25.10 backport) to 7.0.
 
 * Crash dumps are now [enabled by default](https://documentation.ubuntu.com/server/how-to/software/kernel-crash-dump/#kdump-enabled-by-default) for desktop and server installations.
 
@@ -726,6 +726,47 @@ The Linux kernel has been updated from version 6.8 to 7.0.
 
     :::{versionadded} 25.04
     :::
+
+* The RISC-V kernel supports only architectures compliant with the RVA23S64 ISA profile.
+
+    :::{versionadded} 25.10
+    :::
+
+* Because the RISC-V RVA23 profile requires newer instruction sets, most first-generation RISC-V development boards are incompatible with Ubuntu 26.04. Users of older hardware are encouraged to remain on Ubuntu 24.04 LTS.
+
+    :::{versionremoved} 25.10
+    :::
+
+* `linux-generic` for arm64 provides via `stubble` broader compatibility for arm64 desktop platforms that utilize UEFI for booting ([LP: #2121352](https://bugs.launchpad.net/ubuntu/+source/linux-signed/+bug/2121352)).
+
+    :::{versionadded} 25.10
+    :::
+
+* Upstream Linux kernel 7.0 delivers improved support for Intel® Core™ Ultra Series 3 processors (codenamed Panther Lake), introducing targeted optimizations for Intel Xe3 integrated graphics and the integrated NPU (Neural Processing Unit).
+
+    :::{versionadded} 26.04
+    :::
+
+* Integrated IgH EtherCAT Master module and Generic driver ([LP: #2138621](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2138621)). These modules provide real-time performance for industrial EtherCAT networks.
+
+    :::{versionadded} 26.04
+    :::
+
+* The real-time linux kernel is available in the main archive (outside of Ubuntu Pro) in 26.04. Following the `PREEMPT_RT` patches being upstreamed, the 26.04 release of the real-time kernel is available for free for anyone to use.
+
+    :::{versionadded} 26.04
+    :::
+
+* Kernel Livepatch now supports the ARM64 architecture.
+
+    :::{versionadded} 26.04
+    :::
+
+* DOCA-OFED 26.01 kernel modules are available for the Ubuntu generic and select derivative kernels.
+
+    :::{versionadded} 26.04
+    :::
+
 
 ### `systemd` 259
 

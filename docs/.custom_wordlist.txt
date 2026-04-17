@@ -285,6 +285,7 @@ Emulex
 enablement
 Enablement
 Enlightenments
+Entra
 enum
 env
 Eoan

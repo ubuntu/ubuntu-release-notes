@@ -995,7 +995,7 @@ Find the release notes for the official flavors at the following links:
 * [Ubuntu Budgie Release Notes](https://ubuntubudgie.org/blog/ubuntu-budgie-2604-lts-release-notes/)
 * [Ubuntu MATE Release Notes](https://ubuntu-mate.org/blog/ubuntu-mate-p-p-release-notes/)
 * [Ubuntu Studio Release Notes](https://discourse.ubuntu.com/t/ubuntu-studio-26.04-release-notes/)
+* [Xubuntu Release Notes](https://xubuntu.org/releasedocs/26.04/release-notes/)
 * [Ubuntu Unity Release Notes](https://ubuntuunity.org/posts/ubuntu-unity-2604-release-notes/)
-* [Xubuntu Release Notes](https://wiki.xubuntu.org/releases/25.04/release-notes)
 * [Ubuntu Kylin Release Notes](https://ubuntukylin.com/news/ubuntukylin2504-en.html)
 * [Ubuntu Cinnamon Release Notes](https://ubuntucinnamon.org/?p=1348)

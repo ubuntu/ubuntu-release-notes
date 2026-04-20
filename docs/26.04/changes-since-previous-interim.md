@@ -122,6 +122,11 @@ Cryptography libraries have been updated to recent versions:
 
 The GNOME desktop environment has been updated to version 50.
 
+#### Resources replaces System Monitor
+
+```{include} /reuse/26.04/gnome-resources.txt
+```
+
 #### GStreamer 1.28
 
 The GStreamer multimedia framework has been updated to [version 1.28](https://gstreamer.freedesktop.org/releases/1.28/).
@@ -253,6 +258,8 @@ There is a new experimental support for `nftables` which can be enabled by setti
 
 The `containerd` image store is now the default for **fresh installs**. This doesn’t apply to daemons configured with `userns-remap` or for users upgrading from a previous [docker.io](http://docker.io) version.
 
+The `docker image ls` command output has changed to use a new view (like `--tree` but collapsed) by default.
+
 For a comprehensive list of changes, please check the [upstream release notes](https://docs.docker.com/engine/release-notes/29/).
 
 #### Virtualization stack
@@ -320,8 +327,6 @@ Other notable new features:
 * RISC-V
 
   * Add `riscv64` to `FirmwareArchitecture`
-
-  * Update OpenSBI to v1.8.1
 
   * Implement MonitorDef HMP API
 
@@ -676,6 +681,12 @@ The `oracledb` and `zabbixagent` agents were replaced by the `oracle` and `zabbi
 `lsscsi`
 : This package was initially introduced to support ADE. It has been removed from all minimal Ubuntu image-lines to maintain the minimal footprint assertion. However, it remains a pre-installed package for all non-minimized Ubuntu images on Azure since it is a valuable debugging tool for individual instances and server deployments.
 
+#### Google Cloud
+
+As all `AMD64` images are now built with `AMD64v3` the following CPU platforms (available on `N1` machine types only) are no longer supported:
+* Intel Ivy Bridge
+* Intel Sandy Bridge
+
 <!--
 ### Development changes
 
@@ -942,6 +953,10 @@ If you want to continue using `mod-php`, override the setting by editing the Apa
 
 See [LP: #2144455](https://bugs.launchpad.net/ubuntu-release-notes/+bug/2144455) and the [systemd.exec documentation](https://www.freedesktop.org/software/systemd/man/latest/systemd.exec.html#MemoryDenyWriteExecute=) for more information.
 
+#### PostgreSQL
+
+As reported in a [Linux mailing list](https://lore.kernel.org/lkml/20260403191942.21410-1-dipiets@amazon.it/) thread, a change introduced in Linux 7.0 may cause a significant throughput and latency regression on PostgreSQL. As discussed in that [same thread](https://lore.kernel.org/lkml/yr3inlzesdb45n6i6lpbimwr7b25kqkn37qzlvvzgad5hfd7ut@xv4cihno76wu/), systems using huge pages are not affected. Hence, ensure your PostgreSQL deployments have huge pages on. Please refer to the PostgreSQL upstream documentation to ensure your system have [huge pages set](https://www.postgresql.org/docs/current/kernel-resources.html#LINUX-HUGE-PAGES), and that the [huge_pages configuration](https://www.postgresql.org/docs/current/runtime-config-resource.html#GUC-HUGE-PAGES) is set to `on`.
+
 <!--
 #### Openstack
 
@@ -964,6 +979,12 @@ On systems booting via U-Boot, U-Boot should be updated to the current Plucky ve
 
 * Network interfaces left unconfigured at install time are assumed to be configured via dhcp4. If this doesn’t happen (for example, because the interface is physically not connected) the boot process will block and wait for a few minutes ([LP: #2063331](https://bugs.launchpad.net/subiquity/+bug/2063331)). This can be fixed by removing the extra interfaces from `/etc/netplan/50-cloud-init.conf` or by marking them as `optional: true`. Cloud-init is disabled on systems installed from ISO images, so settings will persist.
 
+### Cloud issues
+
+#### Google cloud
+
+On first boot, 26.04 images may be slowed by up to 30s due to an outstanding issue with `cloud-init` and `systemd` [(LP: #2148619)](https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/2148619)
+
 ## Official flavors
 
 Find the release notes for the official flavors at the following links:
@@ -974,7 +995,7 @@ Find the release notes for the official flavors at the following links:
 * [Ubuntu Budgie Release Notes](https://ubuntubudgie.org/blog/ubuntu-budgie-2604-lts-release-notes/)
 * [Ubuntu MATE Release Notes](https://ubuntu-mate.org/blog/ubuntu-mate-p-p-release-notes/)
 * [Ubuntu Studio Release Notes](https://discourse.ubuntu.com/t/ubuntu-studio-26.04-release-notes/)
-* [Ubuntu Unity Release Notes](https://ubuntuunity.org/posts/ubuntu-unity-2504-released/)
 * [Xubuntu Release Notes](https://xubuntu.org/releasedocs/26.04/release-notes/)
+* [Ubuntu Unity Release Notes](https://ubuntuunity.org/posts/ubuntu-unity-2604-release-notes/)
 * [Ubuntu Kylin Release Notes](https://ubuntukylin.com/news/ubuntukylin2504-en.html)
 * [Ubuntu Cinnamon Release Notes](https://ubuntucinnamon.org/?p=1348)

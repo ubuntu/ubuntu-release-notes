@@ -52,6 +52,11 @@ The Image Viewer app is now provided by [Loupe](https://apps.gnome.org/Loupe/) i
 
 The Terminal app is now provided by [Ptyxis](https://gitlab.gnome.org/chergert/ptyxis/-/blob/main/README.md?ref_type=heads) instead of GNOME Terminal.
 
+### New system monitor
+
+```{include} /reuse/26.04/gnome-resources.txt
+```
+
 ### New default video player
 
 The default video player is now [Showtime](https://apps.gnome.org/Showtime/), replacing Totem.
@@ -440,6 +445,50 @@ For the `containerd` and `runc` packages, we established a pattern to either kee
 
 * Pacemaker was updated to version 3. All new features and breaking changes are described in the [upstream release notes](https://projects.clusterlabs.org/w/projects/pacemaker/pacemaker_3.0_changes/).
 
+## WSL
+
+### Ubuntu Insights
+
+[Ubuntu Insights](https://github.com/ubuntu/ubuntu-insights) is introduced as a successor to [Ubuntu Report](https://github.com/ubuntu/ubuntu-report), providing enhanced user control over the submission of non-personally identifying system metrics to Canonical. This opt-in metrics collection is now integrated into Ubuntu on WSL. 
+
+Users initializing a WSL instance for the first time will be prompted for system metrics collection consent. This consent is persisted on the Windows host, eliminating repeated prompts for subsequent WSL instance setups. Consent management is also available on an individual per-instance basis.
+
+ For additional information on data collection for Ubuntu on WSL, refer to the [documentation](https://documentation.ubuntu.com/wsl/latest/explanation/data-collection/).
+
+### Chrony
+
+:::{versionchanged} 25.10
+:::
+
+Ubuntu on WSL follows the platform-wide migration from `systemd-timesyncd` to `chrony` for network time synchronization that was implemented during the 25.10 cycle. Further details on this change in the WSL context are provided in the [documentation on time synchronization within WSL](https://documentation.ubuntu.com/wsl/latest/explanation/time-sync/).
+
+### systemd-binfmt.service
+
+:::{versionchanged} 25.10 
+:::
+
+`Binfmt` miscellaneous registrations are integral to Windows binary interoperability within WSL. Previously, the `systemd-binfmt.service` unit was disabled to mitigate against various potential issues. As of WSL 2.5.7, this system override is no longer necessary because the platform now incorporates a robust fix utilizing `systemd generators`.
+
+Users relying on `systemd-binfmt.service` to apply new registrations when installing packages, for example, will now find it works without compromising the binary interoperability. To learn more, please check out [our docs about `binfmt`](https://documentation.ubuntu.com/wsl/stable/explanation/binfmt/).
+
+### User setup
+
+:::{versionchanged} 25.10
+:::
+
+Enhancements were implemented for Windows username processing during the initial WSL instance setup:
+
+* Addressed an issue that resulted in the erroneous removal of uppercase letters from the Windows username before generating the suggested Linux username. See [LP: \#2122047](https://bugs.launchpad.net/ubuntu/+source/wsl-setup/+bug/2122047).
+* Resolved failures occurring when the Windows username included non-ASCII characters. See [LP: \#2118617](https://bugs.launchpad.net/ubuntu/+source/wsl-setup/+bug/2118617).
+
+### Ubuntu Pro for WSL version 1.0 released
+
+**Ubuntu Pro for WSL** is a dedicated Windows application that streamlines the management of Ubuntu Pro subscriptions across WSL instances. 
+
+For individual users, it eliminates the necessity of manually attaching each new Ubuntu instance to Ubuntu Pro for access to security benefits. For enterprise deployments, the application provides automated Pro-attachment and registration with Landscape, facilitating large-scale device fleet management. 
+
+Documentation and download resources are available in [the documentation](https://documentation.ubuntu.com/wsl/stable/tutorials/getting-started-with-up4w) and [the download page](https://ubuntu.com/wsl/organizations).
+
 ## Development
 
 * GCC 🐄 has been updated from version 14 to 15.2, `binutils` from 2.42 to 2.45, and `glibc` from 2.39 to 2.42.
@@ -520,6 +569,15 @@ The Active Directory Group Policy client for Ubuntu supports the latest Polkit a
 
 ## Cloud
 
+On all cloud providers, `AMD64` based images are now built with `AMD64v3` by default. This effort begins with 26.04 Resolute Racoon images and will continue with future releases.
+
+### Google Cloud
+
+All Resolute 26.04 images are now built with `AMD64v3` by default. However, this means that the following CPU platforms available on `N1` machine types are no longer supported:
+* Intel Ivy Bridge
+* Intel Sandy Bridge
+
+Automatic in-place upgrades to Ubuntu Pro will be fixed in [ubuntu-pro-client](https://github.com/canonical/ubuntu-pro-client/pull/3532) (to be included in the next point release)
 
 ## Security
 

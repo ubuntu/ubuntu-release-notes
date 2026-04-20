@@ -269,6 +269,7 @@ linkcheck_ignore = [
     r"https://github\.com/systemd/.*",
     r"https://ubuntustudio\.org/ubuntu-studio-.*-release-notes/",
     r"https://www.monitoring-plugins\.org/news/.*",
+    r"https://kernelnewbies\.org/",
 ]
 
 

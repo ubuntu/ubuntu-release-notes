@@ -1,3 +1,10 @@
 The [Resources](https://apps.gnome.org/Resources/) app now replaces the System Monitor app and the Power Statistics app in the GNOME environment.
 
-Resources enable you to monitor the utilization of your system resources, including the CPU, memory, GPU, network and storage and power usage. The app is written in the Rust programming language. It comes with a modern and accessible interface based on GTK 4 and `libadwaita`.
+Resources enable you to monitor the utilization of your system resources, including the CPU, memory, GPU, network and storage and power usage. Compared to System Monitor, it comes with the following enhancements:
+
+* It groups processes into apps.
+* It tracks GPU usage, including video encoder and decoder usage.
+* It tracks Neural Processing Unit (NPU) usage.
+* It tracks hardware statistics like CPU, GPU and memory clock frequency.
+* It features a modern and accessible interface based on GTK 4 and `libadwaita`.
+* The app is written in the Rust programming language.

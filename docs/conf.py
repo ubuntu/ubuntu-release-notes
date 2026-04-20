@@ -261,6 +261,13 @@ linkcheck_ignore = [
     # Unreleased / forthcoming Discourse posts
     r"https://discourse\.ubuntu\.com/t/edubuntu-.*",
     r"https://discourse\.ubuntu\.com/t/ubuntu-studio-.*",
+    # Various, probably rate-limited
+    r"https://thekelleys.org.uk/gitweb/.*",
+    r"https://git.openldap.org/.*",
+    r"https://github.com/canonical/.*",
+    r"https://github.com/systemd/.*",
+    r"https://ubuntustudio.org/ubuntu-studio-.*-release-notes/",
+    r"https://www.monitoring-plugins.org/news/.*",
 ]
 
 

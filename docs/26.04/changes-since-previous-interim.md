@@ -849,8 +849,6 @@ PMDK sees some hardware-specific failures in its test suite, which may make the 
 
 * With the removal of the `crda` package in 22.04, the method of setting the WiFi regulatory domain (editing `/etc/default/crda`) no longer operates. On server images, use the `regulatory-domain` option in the Netplan configuration. On desktop images, append `cfg80211.ieee80211_regdom=GB` (substituting `GB` for the relevant country code) to the kernel command line in the `cmdline.txt` file on the boot partition  ([LP: #1951586](https://launchpad.net/bugs/1951586)).
 
-* Colors appear incorrectly in the Ubuntu App Center ([LP: #2076919](https://launchpad.net/bugs/2076919))
-
 * On server images, re-authentication to WiFi APs when regulatory domain is set result in `dmesg` spam to the console ([LP: #2063365](https://launchpad.net/bugs/2063365))
 
 #### Netboot installs

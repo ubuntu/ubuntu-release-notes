@@ -63,7 +63,9 @@ Also, refer to the removed and deprecated functionality:
 
 #### TPM/FDE
 
-...
+TPM-backed Full Disk Encryption (FDE) has been improved for Ubuntu 26.04, with a more robust and user-friendly experience on supported hardware. The installer now provides better guidance and readiness checks, PIN support is fully integrated, and user messaging across the system has been refined. Security has also been strengthened, including recovery key prompts during sensitive operations like firmware updates, and expanded test coverage improves overall reliability.
+
+Some limitations remain: hardware eligibility detection may be inaccurate in some cases, keyboard layout at boot may not match user settings, and post-install management of PINs/passphrases is still limited. Disk re-encryption, broader driver support (beyond Nvidia), and advanced administrative tooling are not yet available, and certain hardware configurations may require firmware adjustments to work with TPM/FDE.
 
 #### Ubuntu Insights integration with the release upgrader
 

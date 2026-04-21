@@ -61,9 +61,17 @@ Also, refer to the removed and deprecated functionality:
 * {ref}`cgroup-v1-removed`
 * {ref}`system-v-scripts-deprecated`
 
-#### TPM/FDE
+#### TPM-backed full-disk encryption
 
-...
+TPM-backed Full Disk Encryption (TPM/FDE) has been improved for Ubuntu 26.04, with a more robust and user-friendly experience on supported hardware:
+
+- The installer now provides better guidance and readiness checks.
+- PIN support is fully integrated.
+- User messaging across the system has been refined.
+- Security has been strengthened, including recovery key prompts during sensitive operations like firmware updates.
+- Expanded test coverage improves overall reliability.
+
+Some limitations remain: see {ref}`resolute-tpm-fde-limitations`.
 
 #### Ubuntu Insights integration with the release upgrader
 
@@ -894,6 +902,7 @@ OEM installs are not supported yet. ([LP: #2048473](https://launchpad.net/bugs/2
 
 GTK 4 apps (including the desktop wallpaper) do not display correctly with VirtualBox or VMWare with 3D Acceleration ([LP: #2061118](https://launchpad.net/bugs/2061118)).
 
+(resolute-tpm-fde-limitations)=
 #### Limitations of TPM-backed full disk encryption
 
 TPM-backed full disk encryption (TPM/FDE) has been introduced to enhance data security. The following are its known issues and limitations as of the Ubuntu 26.04.0 LTS release:

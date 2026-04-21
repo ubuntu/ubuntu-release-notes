@@ -600,16 +600,16 @@ These profiles may cause breakage for unanticipated uses of those applications, 
 :::
 
 ### TPM-backed full-disk encryption
-:::{versionadded} 25.10
-:::
 
-New [TPM-backed disk encryption](https://canonical-ubuntu-desktop-documentation.readthedocs-hosted.com/en/latest/explanation/hardware-backed-disk-encryption/) is available for Ubuntu Desktop. Its features include:
+You can now secure your Ubuntu Desktop installation using TPM-backed full-disk encryption (TPM/FDE).
 
-* Passphrase support and management
-* Regeneration of the recovery key
-* Better integration with firmware updates
+With TPM/FDE, the encryption keys for your disk are automatically generated and stored safely in your computer’s Trusted Platform Module (TPM). Your disk unlocks automatically at boot when the TPM verifies that your system hasn't been tampered with. Optionally, you can add a PIN or passphrase for an extra layer of security.
 
-For details, see [Hardware-backed disk encryption](https://documentation.ubuntu.com/desktop/en/latest/explanation/hardware-backed-disk-encryption/) in the Ubuntu Desktop documentation.
+For a complete description of TPM/FDE features, refer to [Hardware-backed disk encryption](https://documentation.ubuntu.com/desktop/en/26.04/explanation/hardware-backed-disk-encryption/) in the Ubuntu Desktop documentation.
+
+You can enable TPM/FDE during the Ubuntu installation. See [Encrypt your disk with TPM](https://documentation.ubuntu.com/desktop/en/26.04/how-to/encrypt-your-disk-with-tpm/).
+
+Some limitations remain: see {ref}`resolute-tpm-fde-limitations`.
 
 ### Post-quantum cryptography support
 :::{versionadded} 25.10

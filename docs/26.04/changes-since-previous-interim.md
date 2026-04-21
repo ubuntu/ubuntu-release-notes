@@ -525,7 +525,7 @@ For the full list of [upstream release highlights](https://releases.openstack.or
 
 #### Toolchain upgrades 🛠️
 
-* `glibc` 2.42 now ships non-UTF8 encodings as `libc-gconv-modules-extra`.
+* `glibc` is now at [version 2.43](https://sourceware.org/pipermail/libc-alpha/2026-January/174374.html) which includes ISO C23 changes.
 * LLVM 21 is the default LLVM toolchain.
 * Rust 1.93.1 is the default Rust toolchain.
 

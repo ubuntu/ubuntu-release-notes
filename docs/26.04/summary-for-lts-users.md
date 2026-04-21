@@ -497,7 +497,7 @@ Documentation and download resources are available in [the documentation](https:
 
 ## Development
 
-* GCC 🐄 has been updated from version 14 to 15.2, `binutils` from 2.42 to 2.45, and `glibc` from 2.39 to 2.42.
+* GCC 🐄 has been updated from version 14 to 15.2, `binutils` from 2.42 to 2.46, and `glibc` from 2.39 to 2.43.
 * Python 🐍 has been updated from version 3.12 to 3.13.9, while 3.14 is also available.
 * LLVM 🐉 has been updated from version 18 to 21.
 * Rust 🦀 has been updated from version 1.75 to 1.93, while 1.91 and 1.92 are also available.

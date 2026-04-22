@@ -860,12 +860,6 @@ Some particular hardware (e.g. Thinkpad x201) might have issues ([general freeze
 
 6. Finally, run `sudo update-grub` to make the change take effect.
 
-<!--
-#### PPC64EL
-
-PMDK sees some hardware-specific failures in its test suite, which may make the software partially or fully inoperable on the ppc64el architecture. ([LP: #2061913](https://bugs.launchpad.net/ubuntu/+source/pmdk/+bug/2061913/))
--->
-
 #### Raspberry Pi
 
 * The new `gnome-initial-setup` has issues preventing it from working properly:
@@ -993,15 +987,6 @@ See [LP: #2144455](https://bugs.launchpad.net/ubuntu-release-notes/+bug/2144455)
 #### PostgreSQL
 
 As reported in a [Linux mailing list](https://lore.kernel.org/lkml/20260403191942.21410-1-dipiets@amazon.it/) thread, a change introduced in Linux 7.0 may cause a significant throughput and latency regression on PostgreSQL. As discussed in that [same thread](https://lore.kernel.org/lkml/yr3inlzesdb45n6i6lpbimwr7b25kqkn37qzlvvzgad5hfd7ut@xv4cihno76wu/), systems using huge pages are not affected. Hence, ensure your PostgreSQL deployments have huge pages on. Please refer to the PostgreSQL upstream documentation to ensure your system have [huge pages set](https://www.postgresql.org/docs/current/kernel-resources.html#LINUX-HUGE-PAGES), and that the [huge_pages configuration](https://www.postgresql.org/docs/current/runtime-config-resource.html#GUC-HUGE-PAGES) is set to `on`.
-
-<!--
-#### Openstack
-
-Currently, Nova Compute is non-functional because of a python3.13 incompatibility ([LP:#2103413](https://bugs.launchpad.net/ubuntu/+source/nova/+bug/2103413)).
-The Openstack team and Upstream work on it and it will be resolved via an SRU later.
-
-The Ubuntu Cloud Archive is not affected by this bug.
--->
 
 #### Installer
 

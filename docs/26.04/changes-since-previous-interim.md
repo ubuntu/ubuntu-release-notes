@@ -862,6 +862,15 @@ Resuming from suspend on Nvidia desktops (where Nvidia is the primary GPU so gen
 
 Installing `ubuntu-fonts-classic` results in a non-Ubuntu font being displayed ([LP#2083683](https://bugs.launchpad.net/bugs/2083683)). To resolve this, install `gnome-tweaks` and set ‘Interface Text’ to ‘Ubuntu’.
 
+#### `PreLogin` and `PostSession` scripts are missing
+
+`PreLogin` and `PostSession` scripts have been removed from GNOME as part of the X11 code cleanup. These scripts are used in corporate environments, for example to synchronize the user's home directory on login to a server and logout from a server, or to clean up sensitive data after logout.
+
+To work around the issue, you can reimplement the behavior of the scripts using `pam_exec` or `systemd`.
+
+For details, see [the Ubuntu bug](https://bugs.launchpad.net/ubuntu-release-notes/+bug/2144783) and [the upstream issue](https://gitlab.gnome.org/GNOME/gdm/-/issues/1059).
+
+
 ### Server issues
 
 #### Apache2 security hardening breaks the `mod-php` JIT

@@ -995,8 +995,6 @@ The Ubuntu Cloud Archive is not affected by this bug.
 
 #### Installer
 
-On systems booting via U-Boot, U-Boot should be updated to the current Plucky version before installation as subiquity does not run flash-kernel and grub-update during the installation. So for first boot the device-tree from U-Boot will be used.
-
 * In some situations, it is acceptable to proceed with an offline installation when the mirror is inaccessible. In this scenario, it is advised to use:
 
     ```yaml

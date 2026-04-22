@@ -685,18 +685,52 @@ Dynamic Boost will be active only when the laptop is powered by AC and there is 
 
 For more details refer to [NVIDIA's documentation](https://download.nvidia.com/XFree86/Linux-x86_64/570.133.07/README/dynamicboost.html).
 
-### Support for new Intel® integrated and discrete GPUS
+### Support for new Intel® integrated and discrete GPUs
+
+This release brings full support for the following Intel® Arc™ “Battlemage” and “Celestial” GPUs:
+
+* Integrated:
+  * Intel® Core™ Ultra Xe2 and Xe3
+* Discrete:
+  * Intel® Arc™ 5 B570 and B580
+  * Intel® Arc™ Pro B50, B60, B65, and B70
+
+Moreover, the following features are also included:
+
 :::{versionadded} 25.04
 :::
-
-This release brings full support for Intel® Core™ Ultra Xe2 integrated Intel® Arc™ graphics, and Intel® Arc™ B580 and B570 “Battlemage” discrete GPUs.
-Moreover, the following features are also included:
 
 * Improved GPU and CPU ray tracing rendering performance in applications with Intel Embree support, such as Blender (v4.2+). Ray tracing hardware acceleration on the GPU improves frame rendering by 20-30%, due to a 2-4x speed-up for the ray tracing component.
 * Full hardware accelerated video encoding of AVC, JPEG, HEVC, and AV1 on “Battlemage” devices.
 * Introduction of the new CCS optimization in Intel® Compute Runtime.
 * Enable debugging support for Intel Xe GPUs.
 * oneAPI Level Zero Ray Tracing improves AI/ML workload speeds via Embree on SYCL
+
+:::{versionadded} 25.10
+:::
+
+Via the [Linux kernel](https://launchpad.net/ubuntu/+source/linux) version 6.17
+: - Initial support for Intel’s next-gen client platform codenamed Panther Lake.
+  - Enhanced IOMMU and PCIe subsystem for improved GPU virtualization and passthrough.
+  - Improved multi-GPU configuration support for Intel hardware.
+
+Via [Mesa](https://launchpad.net/ubuntu/+source/mesa) version 25.2.3
+: - `VK_KHR_shader_bfloat16` enabled in Intel ANV Vulkan driver for Battlemage and Panther Lake (GFX125+).
+  - Completed OpenCL 2.0 coarse grain buffer SVM support in Iris driver.
+  - Improved color fast-clear handling and multi-engine surface usage for Intel Vulkan (ANV) driver.
+
+Via [`intel-media-driver`](https://launchpad.net/ubuntu/+source/intel-media-driver) version 25.3.0
+: - Panther Lake Upstream decoding and VP9 encoding support.
+
+Via [`intel-compute-runtime`](https://launchpad.net/ubuntu/+source/intel-compute-runtime) version 25.31
+: - Enabling a Level Zero device unified shared memory (USM) pool as a performance change.
+  - A performance-minded change for Xe2 graphics to ensure Level Zero events are always allocated in the local device memory.
+ 
+Via [`level-zero`](https://launchpad.net/ubuntu/+source/level-zero) version 1.24
+: - Update Level Zero Loader and Headers to support v1.13.1 of L0 Spec
+
+Via [`level-zero-raytracing`](https://launchpad.net/ubuntu/+source/level-zero-gpu-raytracing) version 1.1.0
+: - Ray Tracing Acceleration Structure (RTAS) Extensions
 
 ### Suspend with Nvidia
 :::{versionadded} 25.10

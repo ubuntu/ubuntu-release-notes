@@ -508,11 +508,7 @@ OpenJDK 25 package is the default and is TCK (Technology Compatibility Kit) cert
 
 .NET 10 is available in the Ubuntu archive. Install it with `sudo apt install dotnet10`.
 
-.NET 8 and .NET 9 are also available for 26.04 via the [Backports PPA](https://documentation.ubuntu.com/ubuntu-for-developers/reference/availability/dotnet/#backports-ppa). To install .NET 8 or .NET 9, first add the Backports PPA to your system:
-
-```bash
-sudo add-apt-repository ppa:dotnet/backports
-```
+Application developers may get other .NET releases, such as .NET 8 or .NET 9, via the [Backports PPA](https://launchpad.net/~dotnet/+archive/ubuntu/backports). Note that PPA builds are made available as a best-effort and support is limited to the upstream lifespan of the .NET release.
 
 Alternatively, .NET 8, 9 and 10 are available via the official [.NET snap](https://snapcraft.io/dotnet).
 

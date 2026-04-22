@@ -36,7 +36,7 @@ Systems running TPM/FDE will now prompt for the recovery key before firmware upd
 
 Ubuntu 26.04 LTS is shipping with the Linux kernel 7.0, based on the upstream final release. Some notable features and changes:
 
-* Following the [upstream change](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=9fa7153c31a3), the Rust programming language experiement has been deemed concluded and its support is not flagged as experimental anymore. 
+* Following the [upstream change](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=9fa7153c31a3), the Rust programming language experiment has been deemed concluded and its support is not flagged as experimental anymore. 
 * Upstream Linux kernel 7.0 delivers improved support for Intel® Core™ Ultra Series 3 processors (codenamed Panther Lake), introducing targeted optimizations for Intel Xe3 integrated graphics and the integrated NPU (Neural Processing Unit).
 * `cgroupfs` is now mounted with `nsdelegate,memory_recursiveprot,memory_hugetlb_accounting`.
 * Integrated IgH EtherCAT Master module and Generic driver ([LP: #2138621](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2138621)). These modules provide real-time performance for industrial EtherCAT networks.

@@ -953,7 +953,7 @@ The core utilities of the operating system are now provided by the [`rust-coreut
 
 Because `rust-coreutils` are not fully compatible yet, we continue to provide the classic GNU utilities as well. These are accessed by running `gnu` prefixed to the desired command. For example:
 
-```bash
+```none
 gnuls
 ```
 

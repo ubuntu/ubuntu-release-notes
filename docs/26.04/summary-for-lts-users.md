@@ -618,7 +618,7 @@ OpenJDK 25 package is available and is TCK (Technology Compatibility Kit) certif
 
 ### OpenJDK CRaC
 
-OpenJDK CRaC (Co-ordinated Restore at Checkpoint) packages for versions 25, 21 and 17 are available on AMD64.
+OpenJDK CRaC (Co-ordinated Restore at Checkpoint) packages for versions 25, 21, and 17 are available on AMD64.
 
 ### Spring® snaps
 :::{versionadded} 25.04

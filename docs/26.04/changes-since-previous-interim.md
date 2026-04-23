@@ -1020,7 +1020,7 @@ This issue was also present in Ubuntu 25.10.
 
 #### `rust-coreutils` vulnerabilities
 
-This release includes the following known vulnerabilities. Please review their impact and apply recommended mitigations or updates as needed.
+This release includes the following known vulnerabilities. Please, review their impact and apply recommended mitigations or updates as needed.
 
 * [CVE-2026-35341](https://www.cve.org/CVERecord?id=CVE-2026-35341)
 * [CVE-2026-35344](https://www.cve.org/CVERecord?id=CVE-2026-35344)

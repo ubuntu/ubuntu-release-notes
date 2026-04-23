@@ -573,14 +573,6 @@ Ubuntu 26.04 LTS is shipping with the Linux kernel 7.0, based on the upstream fi
 
 Other features can be found in the [Linux 7.0 upstream changelog](https://kernelnewbies.org/Linux_7.0).
 
-#### Netplan v1.1.2 🌐
-
-...
-
-#### Package Management: APT 3.0
-
-...
-
 #### sudo-rs
 
 Password feedback is now enabled by default in order to improve the user experience of `sudo`.

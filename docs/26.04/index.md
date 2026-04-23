@@ -79,7 +79,7 @@ While an internet connection is recommended for updates and additional software,
 
 Find the release notes for the official flavors at the following links:
 
-* [Edubuntu Release Notes](https://discourse.ubuntu.com/t/edubuntu-26-04-beta-released/)
+* [Edubuntu Release Notes](https://discourse.ubuntu.com/t/edubuntu-26-04-released/)
 * [Kubuntu Release Notes](https://kubuntu.org/news/kubuntu-26-04-release-notes/)
 * [Lubuntu Release Notes](https://lubuntu.me/lubuntu-26-04-lts-released/)
 * [Ubuntu Budgie Release Notes](https://ubuntubudgie.org/blog/ubuntu-budgie-2604-lts-release-notes/)

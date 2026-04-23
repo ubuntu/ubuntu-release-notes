@@ -285,6 +285,11 @@ The Ubuntu installer has received plenty of accessibility fixes for screen reade
 Any consent that you previously granted to Ubuntu Report will not be carried over to Ubuntu Insights.
 :::
 
+### `PreLogin` and `PostSession` scripts have been removed
+
+```{include} /reuse/26.04/session-scripts-removed.txt
+```
+
 
 ## Server
 

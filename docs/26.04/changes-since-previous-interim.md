@@ -29,6 +29,31 @@ For details, see the [upstream release notes](https://release.gnome.org/50/).
 ```{include} /reuse/26.04/gnome-resources.txt
 ```
 
+#### Added a GNOME Shell search provider for snap applications
+
+```{include} /reuse/26.04/snap-search-provider.txt
+```
+
+#### Added a GNOME Shell search provider for web search
+
+```{include} /reuse/26.04/web-search-provider.txt
+```
+
+#### Accessibility improvements and fixes
+
+```{include} /reuse/26.04/gnome-accessibility-improvements.txt
+```
+
+#### Yaru theme updates
+
+```{include} /reuse/26.04/yaru-updates.txt
+```
+
+#### Improved integration with snap applications
+
+```{include} /reuse/26.04/snap-desktop-integration.txt
+```
+
 #### A new color palette in the terminal
 
 The terminal app (Ptyxis) brings a new Ubuntu color palette with accessible color-contrast and a light-theme variant.
@@ -48,6 +73,10 @@ Graphical controls to finely control Ubuntu Insights consent states as well as t
 After a release upgrade, you'll be prompted for consent to collect system information via Ubuntu Insights. This prompt only appears if Ubuntu Insights consent isn't already set or if it's deemed necessary to re-prompt due to any other reason.
 
 This change is part of creating a new release upgrade mode for GNOME Initial Setup.
+
+#### Fingerprint improvements
+
+The [libfprint](https://gitlab.freedesktop.org/libfprint/libfprint/) library now supports drivers using the [Secure Device Connection Protocol](https://github.com/microsoft/SecureDeviceConnectionProtocol) (for [TOD drivers](https://gitlab.freedesktop.org/3v1n0/libfprint/-/releases/v1.95.1+tod1)) and many new devices.
 
 ### Server features
 
@@ -399,6 +428,7 @@ For the full list of [upstream release highlights](https://releases.openstack.or
 * LLVM 21 is the default LLVM toolchain.
 * Rust 1.93.1 is the default Rust toolchain.
 * Zig 0.15.2 is now available, additionally for riscv64.
+* .NET 10 is now available
 
 #### OpenJDK
 
@@ -406,7 +436,27 @@ OpenJDK 25 package is the default and is TCK (Technology Compatibility Kit) cert
 
 #### .NET
 
-...
+.NET 10 is available in the Ubuntu archive. Install it with `sudo apt install dotnet10`.
+
+Application developers may get other .NET releases, such as .NET 8 or .NET 9, via the [Backports PPA](https://launchpad.net/~dotnet/+archive/ubuntu/backports). Note that PPA builds are made available as a best-effort and support is limited to the upstream lifespan of the .NET release.
+
+Alternatively, .NET 8, 9, and 10 are available via the official [.NET snap](https://snapcraft.io/dotnet).
+
+##### NetCoreDbg Snap
+
+NetCoreDbg is now available as a [snap](https://snapcraft.io/netcoredbg), providing a convenient way to install and use the .NET debugger on Ubuntu. NetCoreDbg is a cross-platform debugger for .NET applications, supporting features like breakpoints, stepping, and variable inspection. To install NetCoreDbg via snap, run the following command:
+
+```none
+sudo snap install netcoredbg --classic
+```
+
+##### MSBuild Structured Log Viewer
+
+The MSBuild Structured Log Viewer is now available as a [snap](https://snapcraft.io/msbuild-structured-log-viewer). This tool allows developers to visualize and troubleshoot build processes by providing insights into the build execution from MSBuild binary log files. To install the MSBuild Structured Log Viewer via snap, run the following command:
+
+```none
+sudo snap install msbuild-structured-log-viewer
+```
 
 #### Rust + cargo-auditable
 
@@ -622,6 +672,11 @@ The GNOME Online Accounts (GOA) service has removed Google Drive integration. As
 The feature was removed because the `libgdata` library, which enabled the integration, has been unmaintained and posed a security risk.
 
 You can still access Google Drive through your web browser.
+
+#### `PreLogin` and `PostSession` scripts have been removed
+
+```{include} /reuse/26.04/session-scripts-removed.txt
+```
 
 ### Server changes
 
@@ -904,14 +959,6 @@ For other known issues, see [FDE specific bug reports](https://bugs.launchpad.ne
 
 Installing `ubuntu-fonts-classic` results in a non-Ubuntu font being displayed ([LP#2083683](https://bugs.launchpad.net/bugs/2083683)). To resolve this, install `gnome-tweaks` and set ‘Interface Text’ to ‘Ubuntu’.
 
-#### `PreLogin` and `PostSession` scripts are missing
-
-`PreLogin` and `PostSession` scripts have been removed from GNOME as part of the X11 code cleanup. These scripts are used in corporate environments, for example to synchronize the user's home directory on login to a server and logout from a server, or to clean up sensitive data after logout.
-
-To work around the issue, you can reimplement the behavior of the scripts using `pam_exec` or `systemd`.
-
-For details, see [the Ubuntu bug](https://bugs.launchpad.net/ubuntu-release-notes/+bug/2144783) and [the upstream issue](https://gitlab.gnome.org/GNOME/gdm/-/issues/1059).
-
 
 ### Server issues
 
@@ -1040,3 +1087,45 @@ There is also a possibility of more open permissions being set for the directori
 See the Ubuntu bug at [LP: #2138215](https://bugs.launchpad.net/ubuntu/+source/acl/+bug/2138215) and the upstream bug at [Issue #11036](https://github.com/uutils/coreutils/issues/11036).
 
 This issue was also present in Ubuntu 25.10.
+
+#### `rust-coreutils` vulnerabilities
+
+This release includes the following known vulnerabilities. Please, review their impact and apply recommended mitigations or updates as needed.
+
+* [CVE-2026-35341](https://www.cve.org/CVERecord?id=CVE-2026-35341)
+* [CVE-2026-35344](https://www.cve.org/CVERecord?id=CVE-2026-35344)
+* [CVE-2026-35345](https://www.cve.org/CVERecord?id=CVE-2026-35345)
+* [CVE-2026-35348](https://www.cve.org/CVERecord?id=CVE-2026-35348)
+* [CVE-2026-35350](https://www.cve.org/CVERecord?id=CVE-2026-35350)
+* [CVE-2026-35351](https://www.cve.org/CVERecord?id=CVE-2026-35351)
+* [CVE-2026-35352](https://www.cve.org/CVERecord?id=CVE-2026-35352)
+* [CVE-2026-35354](https://www.cve.org/CVERecord?id=CVE-2026-35354)
+* [CVE-2026-35357](https://www.cve.org/CVERecord?id=CVE-2026-35357)
+* [CVE-2026-35359](https://www.cve.org/CVERecord?id=CVE-2026-35359)
+* [CVE-2026-35360](https://www.cve.org/CVERecord?id=CVE-2026-35360)
+* [CVE-2026-35363](https://www.cve.org/CVERecord?id=CVE-2026-35363)
+* [CVE-2026-35364](https://www.cve.org/CVERecord?id=CVE-2026-35364)
+* [CVE-2026-35367](https://www.cve.org/CVERecord?id=CVE-2026-35367)
+* [CVE-2026-35368](https://www.cve.org/CVERecord?id=CVE-2026-35368)
+* [CVE-2026-35370](https://www.cve.org/CVERecord?id=CVE-2026-35370)
+* [CVE-2026-35371](https://www.cve.org/CVERecord?id=CVE-2026-35371)
+* [CVE-2026-35373](https://www.cve.org/CVERecord?id=CVE-2026-35373)
+* [CVE-2026-35374](https://www.cve.org/CVERecord?id=CVE-2026-35374)
+* [CVE-2026-35377](https://www.cve.org/CVERecord?id=CVE-2026-35346)
+
+
+## Official flavors
+
+Find the release notes for the official flavors at the following links:
+
+* [Edubuntu Release Notes](https://discourse.ubuntu.com/t/edubuntu-26-04-beta-released/)
+* [Kubuntu Release Notes](https://wiki.ubuntu.com/PluckyPuffin/ReleaseNotes/Kubuntu)
+* [Lubuntu Release Notes](https://lubuntu.me/lubuntu-25-04-p-p-released/)
+* [Ubuntu Budgie Release Notes](https://ubuntubudgie.org/blog/ubuntu-budgie-2604-lts-release-notes/)
+* [Ubuntu MATE Release Notes](https://ubuntu-mate.org/blog/ubuntu-mate-p-p-release-notes/)
+* [Ubuntu Studio Release Notes](https://discourse.ubuntu.com/t/ubuntu-studio-26.04-release-notes/)
+* [Xubuntu Release Notes](https://xubuntu.org/releasedocs/26.04/release-notes/)
+* [Ubuntu Unity Release Notes](https://ubuntuunity.org/posts/ubuntu-unity-2604-release-notes/)
+* [Ubuntu Kylin Release Notes](https://ubuntukylin.com/news/ubuntukylin2604-en.html)
+* [Ubuntu Cinnamon Release Notes](https://ubuntucinnamon.org/?p=1348)
+

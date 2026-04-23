@@ -50,19 +50,23 @@ Week | Date (Thursday) | 24.04 events
 45 | August 29 | [24.04.1 Point Release ](https://wiki.ubuntu.com/PointReleaseProcess)
 ... | ... | 
 **February 2025** |
-67 | February 06 | 
-68 | February 13 | [24.04.2 Point Release ](https://wiki.ubuntu.com/PointReleaseProcess)
-69 | February 20 | 
-70 | February 27 | 
+68 | February 06 |
+69 | February 13 | [24.04.2 Point Release ](https://wiki.ubuntu.com/PointReleaseProcess)
+70 | February 20 |
+71 | February 27 |
 |... |  | |
 |**August 2025** |  | |
-|93 | August 07 | [24.04.3 Point Release ](https://wiki.ubuntu.com/PointReleaseProcess)|
-|94 | August 14 | |
-|95 | August 21 | |
-|96 | August 28 | |
+|94 | August 07 | [24.04.3 Point Release ](https://wiki.ubuntu.com/PointReleaseProcess)|
+|95 | August 14 | |
+|96 | August 21 | |
+|97 | August 28 | |
 |... | ||
 |**February 2026**| ||
-|110 | February 12 | [24.04.4 Point Release ](https://wiki.ubuntu.com/PointReleaseProcess)|
+|121 | February 12 | [24.04.4 Point Release ](https://wiki.ubuntu.com/PointReleaseProcess)|
+|... | ||
+|**August 2026**| ||
+|149 | August 27 | [24.04.5 Point Release ](https://wiki.ubuntu.com/PointReleaseProcess)|
+|... | ||
 
 ## Planned and potentially disruptive archive-wide activities
 

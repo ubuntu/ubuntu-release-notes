@@ -1,0 +1,3 @@
+The GNOME Shell global search gained the ability to search for the available snap applications that match the search criteria.
+
+This feature can be disabled in the Search panel of the Settings app.

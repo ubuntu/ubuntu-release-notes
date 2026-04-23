@@ -57,6 +57,9 @@
 | 26 | April 09 | [Kernel Freeze](https://wiki.ubuntu.com/KernelFreeze), [Non Language Pack Translation Deadline](https://wiki.ubuntu.com/NonLanguagePackTranslationDeadline) |
 | 27 | April 16 | [Final Freeze](https://wiki.ubuntu.com/FinalFreeze), [Release Candidate](https://wiki.ubuntu.com/ReleaseCandidate), [Language Pack Translation Deadline](https://wiki.ubuntu.com/LanguagePackTranslationDeadline) |
 | 28 | April 23 | [Final Release](https://wiki.ubuntu.com/FinalRelease) |
+|... | ||
+| **July 2026**| ||
+| 39 | July 9 | [26.04.1 Point Release ](https://wiki.ubuntu.com/PointReleaseProcess)]
 
 ## Planned and potentially disruptive archive-wide activities
 

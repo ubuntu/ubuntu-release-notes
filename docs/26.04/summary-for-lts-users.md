@@ -951,7 +951,7 @@ See [Ubuntu Server Docs](https://documentation.ubuntu.com/server/how-to/security
 
 The core utilities of the operating system are now provided by the [`rust-coreutils`](https://launchpad.net/ubuntu/+source/rust-coreutils) package. Among other things, this brings significant performance improvements, such as in the `base64` tool.
 
-Since `rust-coreutils` are not necessarily fully compatible yet, we continue to provide the classic GNU utilities as well. These are accessed by running `gnu` prefixed to the desired command. For example:
+Because `rust-coreutils` are not fully compatible yet, we continue to provide the classic GNU utilities as well. These are accessed by running `gnu` prefixed to the desired command. For example:
 
 ```bash
 gnuls

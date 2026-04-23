@@ -91,4 +91,4 @@ Find the release notes for the official flavors at the following links:
 * [Xubuntu Release Notes](https://xubuntu.org/releasedocs/26.04/release-notes/)
 * [Ubuntu Unity Release Notes](https://ubuntuunity.org/posts/ubuntu-unity-2604-release-notes/)
 * [Ubuntu Kylin Release Notes](https://ubuntukylin.com/news/ubuntukylin2504-en.html)
-* [Ubuntu Cinnamon Release Notes](https://ubuntucinnamon.org/?p=1348)
+* [Ubuntu Cinnamon Release Notes](https://ubuntucinnamon.org/ubuntu-cinnamon-26-04-lts-resolute-raccoon-release-notes/)

@@ -1003,12 +1003,16 @@ gnuls
 Alternatively, you can switch between the two sets of utilities by running the following commands:
 
 To switch to GNU coreutils:
-: ```none
+:  
+
+  ```none
   sudo apt install coreutils-from-gnu --allow-remove-essential
   ```
 
 To switch back to rust-coreutils:
-: ```none
+:  
+
+  ```none
   sudo apt install coreutils-from-uutils --allow-remove-essential
   ```
 

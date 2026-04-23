@@ -224,7 +224,7 @@ For a list of all changes and fixes, please check the [upstream releases page](h
 
 - The temporary directory has now been changed from `/tmp` to `/var/tmp`. This follows the change in `systemd-tmpfiles` and the cleaning of `/var/tmp`, and it aligns with other distributions.
 - Additional plugins include `aws` and `spyre`.
-- The openstack plugins have all been improved to obfuscate passwords more effectively and consistent.
+- The OpenStack plugins have all been improved to obfuscate passwords more effectively and consistently.
 - Many other plugins have also been updated.
 
 For more information see the [4.10.1](https://github.com/sosreport/sos/releases/tag/4.10.1) and [4.10.2](https://github.com/sosreport/sos/releases/tag/4.10.2) upstream release notes.

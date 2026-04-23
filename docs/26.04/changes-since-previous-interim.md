@@ -74,6 +74,15 @@ This change is part of creating a new release upgrade mode for GNOME Initial Set
 
 The [libfprint](https://gitlab.freedesktop.org/libfprint/libfprint/) library now supports drivers using the [Secure Device Connection Protocol](https://github.com/microsoft/SecureDeviceConnectionProtocol) (for [TOD drivers](https://gitlab.freedesktop.org/3v1n0/libfprint/-/releases/v1.95.1+tod1)) and many new devices.
 
+#### Sandboxed image loading
+
+Many applications in Ubuntu use the `gdk-pixbuf` library to load image files. In previous release, `gdk-pixbuf` used built-in parsers for image data. With this release, `gdk-pixbuf` switches to using the [`glycin`](https://gnome.pages.gitlab.gnome.org/glycin/) image parser instead.
+
+`glycin` provides significant security benefits thanks to sandboxed image loading. Being written in the Rust programming language, it prevents certain categories of security issues that were common in the previous `gdk-pixbuf` image parsers.
+
+This switch happens seamlessly for the majority of around 700 packages in Ubuntu that rely on `gdk-pixbuf`.
+
+
 ### Server features
 
 #### Chrony 4.8

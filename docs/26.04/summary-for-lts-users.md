@@ -616,6 +616,10 @@ Documentation and download resources are available in [the documentation](https:
 
 OpenJDK 25 package is available and is TCK (Technology Compatibility Kit) certified on AMD64, ARM64, S390X, PPC64EL. The Java TCK is the most comprehensive test suite that covers all aspects of Java SE specification including language features, libraries and APIs. This guarantees interoperability and conformance to standard. OpenJDK 21 and 17 are also TCK certified.
 
+### OpenJDK CRaC
+
+OpenJDK CRaC (Co-ordinated Restore at Checkpoint) packages for versions 25, 21 and 17 are available on AMD64.
+
 ### Spring® snaps
 :::{versionadded} 25.04
 :::
@@ -628,7 +632,7 @@ Developers can now quickly build Ubuntu ROCK images for their Java applications 
 :::{versionadded} 25.04
 :::
 
-GraalVM Community Edition for JDK versions 21, 24 and 25 is now available as a [snap](https://snapcraft.io/graalvm-jdk). Java developers now have a choice to build and deploy their applications with standard OpenJDK, with OpenJDK-CRaC or as a GraalVM native image.
+GraalVM Community Edition for JDK versions 21, 24 and 25 is now available as a [snap](https://snapcraft.io/graalvm-jdk). Java developers now have a choice to build and deploy their applications with standard OpenJDK, with OpenJDK CRaC or as a GraalVM native image.
 
 
 ### .NET 10

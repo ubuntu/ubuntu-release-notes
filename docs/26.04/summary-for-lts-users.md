@@ -967,9 +967,8 @@ sudo apt install coreutils-from-gnu --allow-remove-essential
 sudo apt install coreutils-from-uutils --allow-remove-essential
 ```
 
-Because of unresolved bugs, `cp`, `mp`, and `rm` are still from GNU in
-`rust-coreutils`.
-Please see for more information https://discourse.ubuntu.com/t/an-update-on-rust-coreutils/80773
+Because of unresolved bugs, `cp`, `mp`, and `rm` are still from GNU in `rust-coreutils`.
+For more information please see: https://discourse.ubuntu.com/t/an-update-on-rust-coreutils/80773
 
 
 ### Architecture variants and `amd64v3`

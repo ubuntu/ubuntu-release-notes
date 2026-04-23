@@ -957,7 +957,7 @@ Because `rust-coreutils` are not fully compatible yet, we continue to provide th
 gnuls
 ```
 
-Alternatively, you can switch between the two sets of utilities by running the following command:
+Alternatively, you can switch between the two sets of utilities by running the following commands:
 
 ```bash
 # To switch to GNU coreutils

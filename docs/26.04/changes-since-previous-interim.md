@@ -1018,6 +1018,31 @@ See the Ubuntu bug at [LP: #2138215](https://bugs.launchpad.net/ubuntu/+source/a
 
 This issue was also present in Ubuntu 25.10.
 
+#### `rust-coreutils` vulnerabilities
+
+This release includes the following known vulnerabilities. Please review their impact and apply recommended mitigations or updates as needed.
+
+* [CVE-2026-35341](https://www.cve.org/CVERecord?id=CVE-2026-35341)
+* [CVE-2026-35344](https://www.cve.org/CVERecord?id=CVE-2026-35344)
+* [CVE-2026-35345](https://www.cve.org/CVERecord?id=CVE-2026-35345)
+* [CVE-2026-35348](https://www.cve.org/CVERecord?id=CVE-2026-35348)
+* [CVE-2026-35350](https://www.cve.org/CVERecord?id=CVE-2026-35350)
+* [CVE-2026-35351](https://www.cve.org/CVERecord?id=CVE-2026-35351)
+* [CVE-2026-35352](https://www.cve.org/CVERecord?id=CVE-2026-35352)
+* [CVE-2026-35354](https://www.cve.org/CVERecord?id=CVE-2026-35354)
+* [CVE-2026-35357](https://www.cve.org/CVERecord?id=CVE-2026-35357)
+* [CVE-2026-35359](https://www.cve.org/CVERecord?id=CVE-2026-35359)
+* [CVE-2026-35360](https://www.cve.org/CVERecord?id=CVE-2026-35360)
+* [CVE-2026-35363](https://www.cve.org/CVERecord?id=CVE-2026-35363)
+* [CVE-2026-35364](https://www.cve.org/CVERecord?id=CVE-2026-35364)
+* [CVE-2026-35367](https://www.cve.org/CVERecord?id=CVE-2026-35367)
+* [CVE-2026-35368](https://www.cve.org/CVERecord?id=CVE-2026-35368)
+* [CVE-2026-35370](https://www.cve.org/CVERecord?id=CVE-2026-35370)
+* [CVE-2026-35371](https://www.cve.org/CVERecord?id=CVE-2026-35371)
+* [CVE-2026-35373](https://www.cve.org/CVERecord?id=CVE-2026-35373)
+* [CVE-2026-35374](https://www.cve.org/CVERecord?id=CVE-2026-35374)
+* [CVE-2026-35377](https://www.cve.org/CVERecord?id=CVE-2026-35346)
+
 
 ## Official flavors
 

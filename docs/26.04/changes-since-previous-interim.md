@@ -398,6 +398,7 @@ For the full list of [upstream release highlights](https://releases.openstack.or
 * `glibc` is now at [version 2.43](https://sourceware.org/pipermail/libc-alpha/2026-January/174374.html), which includes ISO C23 changes.
 * LLVM 21 is the default LLVM toolchain.
 * Rust 1.93.1 is the default Rust toolchain.
+* Zig 0.15.2 is now available, additionally for riscv64.
 
 #### OpenJDK
 

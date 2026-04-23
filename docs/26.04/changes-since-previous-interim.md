@@ -742,6 +742,10 @@ The Manila V1 API and the Manila shell utility have been removed.
 
 For details, see the Manila [release highlights](https://releases.openstack.org/gazpacho/highlights#manila) and [release notes](https://docs.openstack.org/releasenotes/manila/2026.1.html).
 
+#### Installer
+
+The Subiquity installer has been updated. Please see the [Subiquity 26.04 release notes](https://github.com/canonical/subiquity/releases/26.04) on GitHub.
+
 ### System changes
 
 (cgroup-v1-removed)=

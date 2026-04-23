@@ -959,13 +959,15 @@ gnuls
 
 Alternatively, you can switch between the two sets of utilities by running the following commands:
 
-```bash
-# To switch to GNU coreutils
-sudo apt install coreutils-from-gnu --allow-remove-essential
+To switch to GNU coreutils:
+: ```none
+  sudo apt install coreutils-from-gnu --allow-remove-essential
+  ```
 
-# To switch back to rust-coreutils
-sudo apt install coreutils-from-uutils --allow-remove-essential
-```
+To switch back to rust-coreutils:
+: ```none
+  sudo apt install coreutils-from-uutils --allow-remove-essential
+  ```
 
 Because of unresolved bugs, `cp`, `mp`, and `rm` are still from GNU in `rust-coreutils`.
 For more information please see: https://discourse.ubuntu.com/t/an-update-on-rust-coreutils/80773

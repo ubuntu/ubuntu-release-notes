@@ -220,7 +220,7 @@ For a list of all changes and fixes, please check the [upstream releases page](h
 
 #### SoS (`sosreport`)
 
-`sos` was updated to version 4.10.2. Key updates below
+`sos` was updated to version 4.10.2. Key updates include:
 
 - The temporary directory has now been changed from `/tmp` to `/var/tmp`. This follows changed in systemd-tmpfiles and the cleaning of `/var/tmp`, this aligns with other distros.
 - Additional plugins include `aws` and `spyre`.

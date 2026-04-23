@@ -1,0 +1,1 @@
+The [Yaru theme](https://github.com/ubuntu/yaru) has moved closer to the looks of the upstream GNOME theme. It has also received many icon updates.

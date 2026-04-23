@@ -74,11 +74,47 @@ The GNOME desktop environment has been updated to version 50. Notable changes si
 :::
 
 * You can now set an application to start automatically after login in {menuselection}`Settings --> Apps`.
-* Fractional scaling factors are now optimized so as to minimize blur.
+* Fractional scaling is now enabled by default. Fractional scaling factors have been optimized so as to minimize blur.
 * The default monospace font size has been reduced to match the default user interface font size. The monospace font is used in terminals and similar applications.
 * The [Sysprof](https://apps.gnome.org/Sysprof/) app is installed by default as a new system utility. This makes it easier to discover performance issues in your apps.
 
 For details, see the upstream release notes: [GNOME 47](https://release.gnome.org/47/), [GNOME 48](https://release.gnome.org/48/), [GNOME 49](https://release.gnome.org/49/) and [GNOME 50](https://release.gnome.org/50/).
+
+### Added a GNOME Shell search provider for snap applications
+:::{versionadded} 26.04
+:::
+
+```{include} /reuse/26.04/snap-search-provider.txt
+```
+
+### Added a GNOME Shell search provider for web search
+:::{versionadded} 26.04
+:::
+
+```{include} /reuse/26.04/web-search-provider.txt
+```
+
+### Accessibility improvements and fixes
+:::{versionadded} 26.04
+:::
+
+```{include} /reuse/26.04/gnome-accessibility-improvements.txt
+```
+
+### Yaru theme updates
+:::{versionadded} 26.04
+:::
+
+```{include} /reuse/26.04/yaru-updates.txt
+```
+
+### Improved integration with snap applications
+:::{versionadded} 26.04
+:::
+
+```{include} /reuse/26.04/snap-desktop-integration.txt
+```
+
 
 ### New document viewer
 :::{versionchanged} 25.04
@@ -248,6 +284,13 @@ The Ubuntu installer has received plenty of accessibility fixes for screen reade
 :::{note}
 Any consent that you previously granted to Ubuntu Report will not be carried over to Ubuntu Insights.
 :::
+
+### `PreLogin` and `PostSession` scripts have been removed
+:::{versionremoved} 26.04
+:::
+
+```{include} /reuse/26.04/session-scripts-removed.txt
+```
 
 
 ## Server

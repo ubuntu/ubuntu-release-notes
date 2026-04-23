@@ -77,3 +77,18 @@ Alternatively, Ubuntu Server is also available as pre-built images for cloud, vi
 and bare-metal environments, which utilize their own deployment mechanisms.
 
 While an internet connection is recommended for updates and additional software, it is not required for the initial installation.
+
+
+## Official flavors
+
+Find the release notes for the official flavors at the following links:
+
+* [Edubuntu Release Notes](https://discourse.ubuntu.com/t/edubuntu-26-04-beta-released/)
+* [Kubuntu Release Notes](https://kubuntu.org/news/kubuntu-26-04-release-notes/)
+* [Lubuntu Release Notes](https://lubuntu.me/lubuntu-26-04-lts-released/)
+* [Ubuntu Budgie Release Notes](https://ubuntubudgie.org/blog/ubuntu-budgie-2604-lts-release-notes/)
+* [Ubuntu Studio Release Notes](https://discourse.ubuntu.com/t/ubuntu-studio-26.04-release-notes/)
+* [Xubuntu Release Notes](https://xubuntu.org/releasedocs/26.04/release-notes/)
+* [Ubuntu Unity Release Notes](https://ubuntuunity.org/posts/ubuntu-unity-2604-release-notes/)
+* [Ubuntu Kylin Release Notes](https://ubuntukylin.com/news/ubuntukylin2604-en.html)
+* [Ubuntu Cinnamon Release Notes](https://ubuntucinnamon.org/ubuntu-cinnamon-26-04-lts-resolute-raccoon-release-notes/)

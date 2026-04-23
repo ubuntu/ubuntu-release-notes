@@ -29,6 +29,31 @@ For details, see the [upstream release notes](https://release.gnome.org/50/).
 ```{include} /reuse/26.04/gnome-resources.txt
 ```
 
+#### Added a GNOME Shell search provider for snap applications
+
+```{include} /reuse/26.04/snap-search-provider.txt
+```
+
+#### Added a GNOME Shell search provider for web search
+
+```{include} /reuse/26.04/web-search-provider.txt
+```
+
+#### Accessibility improvements and fixes
+
+```{include} /reuse/26.04/gnome-accessibility-improvements.txt
+```
+
+#### Yaru theme updates
+
+```{include} /reuse/26.04/yaru-updates.txt
+```
+
+#### Improved integration with snap applications
+
+```{include} /reuse/26.04/snap-desktop-integration.txt
+```
+
 #### A new color palette in the terminal
 
 The terminal app (Ptyxis) brings a new Ubuntu color palette with accessible color-contrast and a light-theme variant.
@@ -48,6 +73,10 @@ Graphical controls to finely control Ubuntu Insights consent states as well as t
 After a release upgrade, you'll be prompted for consent to collect system information via Ubuntu Insights. This prompt only appears if Ubuntu Insights consent isn't already set or if it's deemed necessary to re-prompt due to any other reason.
 
 This change is part of creating a new release upgrade mode for GNOME Initial Setup.
+
+#### Fingerprint improvements
+
+The [libfprint](https://gitlab.freedesktop.org/libfprint/libfprint/) library now supports drivers using the [Secure Device Connection Protocol](https://github.com/microsoft/SecureDeviceConnectionProtocol) (for [TOD drivers](https://gitlab.freedesktop.org/3v1n0/libfprint/-/releases/v1.95.1+tod1)) and many new devices.
 
 ### Server features
 
@@ -410,9 +439,12 @@ OpenJDK 25 package is the default and is TCK (Technology Compatibility Kit) cert
 #### Rust + cargo-auditable
 
 Rust packages built on Launchpad now have opt-in [cargo-auditable](https://github.com/ubuntu/ubuntu-release-notes) support.
+
 If enabled, binaries will include JSON-formatted metadata in a header section of the binary expressing the dependencies used to compile the binary.
+
 If a CVE is discovered in a popular Rust crate, this dependency metadata lets users and sysadmins immediately check if a binary is compromised.
 
+::::{dropdown} Example
 For example, the dependency metadata for {manpage}`sudo-rs(1)` looks like this:
 
 ```json
@@ -445,9 +477,10 @@ For example, the dependency metadata for {manpage}`sudo-rs(1)` looks like this:
 }
 ```
 
-```{admonition} Pretty printed
+:::{note}
 This has been pretty-printed for ease of readability. In real life the data is minified and compressed.
-```
+:::
+::::
 
 We have enabled cargo-auditable support for a few well-known Rust packages:
 - `alacritty`
@@ -618,6 +651,11 @@ The feature was removed because the `libgdata` library, which enabled the integr
 
 You can still access Google Drive through your web browser.
 
+#### `PreLogin` and `PostSession` scripts have been removed
+
+```{include} /reuse/26.04/session-scripts-removed.txt
+```
+
 ### Server changes
 
 #### TLS 1.0 and 1.1 disabled in Apache
@@ -763,6 +801,22 @@ Ubuntu 26.04 LTS is the last release that supports System V service scripts comp
 
 ## Bug fixes
 
+### Desktop fixes
+
+#### Resuming from suspend on Nvidia
+
+Previously, resuming from suspend with an Nvidia GPU exhibited visual corruption and freezes using the default Wayland session. This happened on systems where Nvidia was the primary GPU, which were generally desktop and not laptops. With this release, the bug has been fixed and resuming causes no visual corruption or freezes.
+
+For details, see [LP#1876632](https://bugs.launchpad.net/bugs/1876632).
+
+#### The installer is now usable with the screen reader
+
+Previously, the Ubuntu Desktop installer failed to announce key information when using the screen reader. This often prevented blind users from completing the installation.
+
+With this release, various accessibility issues in the installer have been fixed. As a result, it's now possible to install Ubuntu Desktop while using the screen reader.
+
+For details, see [LP#2061015](https://bugs.launchpad.net/ubuntu-desktop-provision/+bug/2061015) and [LP#2036962](https://bugs.launchpad.net/ubuntu-desktop-provision/+bug/2036962).
+
 ### Server fixes
 
 #### Apache 2.4.65
@@ -838,9 +892,15 @@ As is to be expected with any release, there are some significant known bugs tha
 
 The Live Session of the new Ubuntu Desktop installer is not localized. It is still possible to perform a non-English installation using the new installer, but internet access at install time is required to download the language packs. ([LP: #2013329](https://bugs.launchpad.net/ubuntu-release-notes/+bug/2013329))
 
-#### Screen reader support
+#### The screen reader is difficult to enable during installation
 
-Screen reader support is present with the new desktop installer, but is incomplete ([LP: #2061015](https://launchpad.net/bugs/2061015), [LP: #2061018](https://launchpad.net/bugs/2061018), [LP: #2036962](https://launchpad.net/bugs/2036962), [LP: #2061021](https://launchpad.net/bugs/2061021))
+For users who rely on the screen reader, it's difficult to navigate the accessibility page of the installer while the screen reader is still disabled.
+
+To enable the screen reader immediately, press the {kbd}`Super+Alt+S` shortcut.
+
+:::{note}
+On PCs, the {kbd}`Super` key is usually labeled as the {kbd}`Windows` key, while on Apple hardware, it's the {kbd}`Command` key.
+:::
 
 #### OEM installs
 
@@ -873,21 +933,9 @@ TPM-backed full disk encryption (TPM/FDE) has been introduced to enhance data se
 
 For other known issues, see [FDE specific bug reports](https://bugs.launchpad.net/bugs/+bugs?field.searchtext=&orderby=-importance&field.status%3Alist=NEW&field.status%3Alist=CONFIRMED&field.status%3Alist=TRIAGED&field.status%3Alist=INPROGRESS&field.status%3Alist=FIXCOMMITTED&field.status%3Alist=INCOMPLETE_WITH_RESPONSE&field.status%3Alist=INCOMPLETE_WITHOUT_RESPONSE&assignee_option=any&field.assignee=&field.bug_reporter=&field.bug_commenter=&field.subscriber=&field.tag=fde&field.tags_combinator=ANY&field.status_upstream-empty-marker=1&field.has_cve.used=&field.omit_dupes.used=&field.omit_dupes=on&field.affects_me.used=&field.has_patch.used=&field.has_branches.used=&field.has_branches=on&field.has_no_branches.used=&field.has_no_branches=on&field.has_blueprints.used=&field.has_blueprints=on&field.has_no_blueprints.used=&field.has_no_blueprints=on&search=Search).
 
-#### Resuming from suspend on Nvidia
-
-Resuming from suspend on Nvidia desktops (where Nvidia is the primary GPU so generally not laptops)  will exhibit visual corruption and freezes using the default Wayland session  ([LP#1876632](https://bugs.launchpad.net/bugs/1876632)). If you need suspend/resume support then the simplest solution is to select ‘Ubuntu on Xorg’ at the login screen.
-
 #### Classic fonts
 
 Installing `ubuntu-fonts-classic` results in a non-Ubuntu font being displayed ([LP#2083683](https://bugs.launchpad.net/bugs/2083683)). To resolve this, install `gnome-tweaks` and set ‘Interface Text’ to ‘Ubuntu’.
-
-#### `PreLogin` and `PostSession` scripts are missing
-
-`PreLogin` and `PostSession` scripts have been removed from GNOME as part of the X11 code cleanup. These scripts are used in corporate environments, for example to synchronize the user's home directory on login to a server and logout from a server, or to clean up sensitive data after logout.
-
-To work around the issue, you can reimplement the behavior of the scripts using `pam_exec` or `systemd`.
-
-For details, see [the Ubuntu bug](https://bugs.launchpad.net/ubuntu-release-notes/+bug/2144783) and [the upstream issue](https://gitlab.gnome.org/GNOME/gdm/-/issues/1059).
 
 
 ### Server issues
@@ -1058,3 +1106,4 @@ Find the release notes for the official flavors at the following links:
 * [Ubuntu Unity Release Notes](https://ubuntuunity.org/posts/ubuntu-unity-2604-release-notes/)
 * [Ubuntu Kylin Release Notes](https://ubuntukylin.com/news/ubuntukylin2604-en.html)
 * [Ubuntu Cinnamon Release Notes](https://ubuntucinnamon.org/?p=1348)
+

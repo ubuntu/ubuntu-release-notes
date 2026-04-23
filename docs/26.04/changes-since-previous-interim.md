@@ -410,9 +410,12 @@ OpenJDK 25 package is the default and is TCK (Technology Compatibility Kit) cert
 #### Rust + cargo-auditable
 
 Rust packages built on Launchpad now have opt-in [cargo-auditable](https://github.com/ubuntu/ubuntu-release-notes) support.
+
 If enabled, binaries will include JSON-formatted metadata in a header section of the binary expressing the dependencies used to compile the binary.
+
 If a CVE is discovered in a popular Rust crate, this dependency metadata lets users and sysadmins immediately check if a binary is compromised.
 
+::::{dropdown} Example
 For example, the dependency metadata for {manpage}`sudo-rs(1)` looks like this:
 
 ```json
@@ -445,9 +448,10 @@ For example, the dependency metadata for {manpage}`sudo-rs(1)` looks like this:
 }
 ```
 
-```{admonition} Pretty printed
+:::{note}
 This has been pretty-printed for ease of readability. In real life the data is minified and compressed.
-```
+:::
+::::
 
 We have enabled cargo-auditable support for a few well-known Rust packages:
 - `alacritty`

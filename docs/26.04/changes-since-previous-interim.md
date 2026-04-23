@@ -222,7 +222,7 @@ For a list of all changes and fixes, please check the [upstream releases page](h
 
 `sos` was updated to version 4.10.2. Key updates include:
 
-- The temporary directory has now been changed from `/tmp` to `/var/tmp`. This follows changed in systemd-tmpfiles and the cleaning of `/var/tmp`, this aligns with other distros.
+- The temporary directory has now been changed from `/tmp` to `/var/tmp`. This follows the change in `systemd-tmpfiles` and the cleaning of `/var/tmp`, and it aligns with other distributions.
 - Additional plugins include `aws` and `spyre`.
 - The openstack plugins have all been improved to obfuscate passwords more effectively and consistent.
 - Many other plugins have also been updated.

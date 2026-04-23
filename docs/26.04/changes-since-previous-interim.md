@@ -7,10 +7,6 @@ tocdepth: 3
 
 If you're upgrading to Ubuntu 26.04 LTS from the previous interim release, Ubuntu 25.10 (Questing Quokka), the following changes apply to you.
 
-:::{warning}
-Ubuntu 26.04 LTS is currently in development, scheduled to be released in April 2026. See the {ref}`release schedule <resolute-raccoon-schedule>`.
-:::
-
 ## New features and improvements
 
 ### Desktop features

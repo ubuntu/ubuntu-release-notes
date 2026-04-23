@@ -9,6 +9,7 @@ Release notes contain specific upgrade instructions for that particular release.
 :maxdepth: 2
 :caption: Supported LTS releases
 
+26.04 LTS (Resolute Raccoon) <26.04/index>
 24.04 LTS (Noble Numbat) <24.04/index>
 22.04 LTS (Jammy Jellyfish) <22.04/index>
 :::
@@ -26,7 +27,7 @@ Release notes contain specific upgrade instructions for that particular release.
 :maxdepth: 2
 :caption: Currently in development
 
-26.04 LTS (Resolute Raccoon) <26.04/index>
+26.10 (Stonking Stingray) <26.10/index>
 :::
 
 :::{toctree}
@@ -47,14 +48,10 @@ Contribute to release notes <contribute>
 
 ## LTS releases
 
-<!--
-Still in development:
-
 ### 26.04 LTS (Resolute Raccoon)
 
 * {ref}`ubuntu-26.04-lts-release-notes`
 * {ref}`resolute-raccoon-schedule`
--->
 
 ### 24.04 LTS (Noble Numbat)
 
@@ -84,7 +81,7 @@ Still in development:
 (release-policy-and-schedule)=
 ## Release policy and schedule
 
-Ubuntu releases a new version every six months. Releases of Ubuntu get a development codename (‘Questing Quokka’) and are versioned by the year and month of delivery – for example, Ubuntu 25.10 was released in October 2025.
+Ubuntu releases a new version every six months. Releases of Ubuntu get a development codename (‘Resolute Raccoon’) and are versioned by the year and month of delivery – for example, Ubuntu 26.04 was released in April 2026.
 
 Each version includes the latest features, updates, and security patches during its supported lifecycle.
 

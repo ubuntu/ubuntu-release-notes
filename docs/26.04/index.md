@@ -10,10 +10,6 @@ tocdepth: 3
 
 These release notes cover new features and changes in Ubuntu 26.04 LTS (Resolute Raccoon).
 
-:::{warning}
-Ubuntu 26.04 LTS is currently in development, scheduled to be released in April 2026. See the {ref}`release schedule <resolute-raccoon-schedule>`.
-:::
-
 :::{toctree}
 :hidden:
 :maxdepth: 2

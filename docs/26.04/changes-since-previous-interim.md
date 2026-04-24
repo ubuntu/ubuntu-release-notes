@@ -646,160 +646,18 @@ Cryptography libraries have been updated to recent versions:
 
 #### The DPC++ compiler and related packages are now available
 
-Intel's open-source oneAPI DPC++ compiler for building [SYCL](https://www.khronos.org/sycl/) code is now available in the Ubuntu Archive. The compiler runtime includes adapters for running on Intel GPU hardware.
-
-The following related packages are also now available from the Ubuntu archive:
-
-* DPC++ library (oneDPL), which provides a high-productivity API for developers
-* Deep Neural Network Library (oneDNN) built with the `dpclang-6` compiler for running on Intel GPUs
-
-These tools provide support for AI workloads on Intel GPU hardware. Note that users need to be in the `render` group in order to leverage Intel GPUs with these packages.
-
-To install the compiler and the library, use the following commands:
-
-```bash
-sudo apt install dpclang-6
-sudo apt install onedpl-headers
+```{include} /reuse/26.04/dpc-compiler.txt
 ```
-
-To install the oneDNN development package and the oneDNN runtime, use the following commands:
-
-```bash
-sudo apt install libdnnl-sycl-dev
-sudo apt install libdnnl-sycl3
-```
-
-Additional components from Intel's oneAPI stack will be added to the Ubuntu archive in the future.
 
 #### The NVIDIA CUDA toolkit is now available
 
-Application developers and system administrators can now install the NVIDIA CUDA parallel computing platform from the Ubuntu Archives.
-
-For application developers targeting Ubuntu systems, this new distribution model means they can simply declare the CUDA runtime, while Ubuntu manages its installation and compatibility across a wide range of supported NVIDIA hardware. This ensures that CUDA will be more accessible and integrated into a widely-used and trusted Linux distribution.
-
-To install CUDA, use the following command:
-
-```bash
-sudo apt install cuda-toolkit
+```{include} /reuse/26.04/cuda-support.txt
 ```
-
-To learn more, see [Canonical announces it will support and distribute NVIDIA CUDA in Ubuntu](https://canonical.com/blog/canonical-announces-it-will-support-and-distribute-nvidia-cuda-in-ubuntu).
 
 #### The AMD ROCm libraries are now available
 
-The Ubuntu Universe repository now includes AMD ROCm software version 7.1.0. These libraries provide back-end infrastructure to support AI training and inference on AMD GPU hardware, as well as machine learning and high performance computing functionality.
-
-The ROCm libraries are regularly tested in Canonical's CI/CD processes. In addition to `autopkgtests`, several user-space applications are also tested including `llama.cpp`, `pytorch`, Blender and Lemonade Server.
-
-:::{dropdown} Supported hardware
-Currently only some hardware architectures are supported and integrated in Canonical's CI/CD tests but others will be added over time:
-
-| GFX ISA    | Hardware Family | CI Status |
-|---|---|---|
-| `gfx908`    | Instinct™ MI-100 | YES |
-| `gfx90a`    | Instinct MI-210, MI-250  | |
-| `gfx942`    | Instinct MI-300, MI-325  | |
-| `gfx1030`  | Navi21 / Radeon™  RX6900 Series, Pro V620 | |
-| `gfx1100`  | Navi31 / Radeon RX7900 Series | |
-| `gfx1101`  | Navi32 / Radeon RX7700 Series | |
-| `gfx1151`  | Strix Halo / Ryzen AI MAX 300 Series (Radeon 8040S, 8050S, 8060S) | YES |
-| `gfx1200`  | Navi48 / Radeon RX9060 | | 
-| `gfx1201` | Navi44 / Radeon RX 9070XT, AI PRO R9700 | YES | 
-:::
-
-::::{dropdown} ROCm libraries
-The following individual ROCm libraries included, listed by source package name:
-
-:::{hlist}
-:columns: 3
-
-- `amdsmi`
-- `hipblas`
-- `hipblas-common`
-- `hipblaslt`
-- `hipcub`
-- `hipfft`
-- `hipify`
-- `hiprand`
-- `hipsolver`
-- `hipsparse`
-- `miopen`
-- `pkg-rocm-tools`
-- `rccl`
-- `rocblas`
-- `rocalution`
-- `rocm-cmake`
-- `rocm-core`
-- `rocdbgapi`
-- `rocfft`
-- `rocm-hipamd`
-- `rocminfo`
-- `rocm-llvm`
-- `rocm-smi-lib`
-- `rocprim`
-- `rocr-runtime`
-- `rocrand`
-- `rocsolver`
-- `rocsparse`
-- `rocthrust`
-- `roctracer`
-:::
-::::
-
-:::{dropdown} Install the ROCm software stack
-Two meta-packages are available, depending on your use case and needs. In most scenarios, you don't have to install these packages directly: the individual libraries can be installed as dependencies of end-user applications as needed.
-
-- Installs the complete ROCm software stack, including binaries and header files:
-
-    ```bash
-    apt install rocm
-    ```
-
-    This is a large set of packages that is most suitable for benchmarking, testing or other scenarios where the full suite of functionality is required and installation size is not a concern.
-
-- Installs only the development libraries and header files for developing ROCm-enabled applications:
-
-    ```bash
-    apt install rocm-dev
-    ```
-
-:::
-
-:::{dropdown} Install the Lemonade Server
-Lemonade Server is a local inference server that includes comprehensive support for AMD GPU, NPU, and CPU hardware and standards-compliant APIs for front-end applications to use, similar to Ollama.
-
-Install the back end:
-
-- Using snap:
-
-    ```bash
-    snap install lemonade-server
-    ```
-
-- Using Deb:
-
-    ```bash
-    apt install lemonade-server
-    ```
-
-Install the Lemonade front-end application:
-
-- Using snap:
-
-    ```bash
-    snap install lemonade-desktop
-    ```
-
-- Using Deb:
-
-    ```bash
-    apt install lemonade-desktop
-    ```
-
-For details, see the Lemonade Server home page: <https://lemonade-server.ai/>.
-:::
-
-For more information on ROCm, see [ROCm 7.1.0 release notes](https://rocm.docs.amd.com/en/docs-7.1.0/about/release-notes.html).
+```{include} /reuse/26.04/rocm-support.txt
+```
 
 
 ## Backwards-incompatible changes

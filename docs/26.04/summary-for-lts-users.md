@@ -824,6 +824,31 @@ If a CVE is discovered in a popular Rust crate, this dependency metadata lets us
 
 For details, see the [Ubuntu project documentation](https://documentation.ubuntu.com/project/contributors/language-specific/rust/cargo-auditable/).
 
+
+## AI/ML support
+
+### The DPC++ compiler and related packages are now available
+:::{versionadded} 26.04
+:::
+
+```{include} /reuse/26.04/dpc-compiler.txt
+```
+
+### The NVIDIA CUDA toolkit is now available
+:::{versionadded} 26.04
+:::
+
+```{include} /reuse/26.04/cuda-support.txt
+```
+
+### The AMD ROCm libraries are now available
+:::{versionadded} 26.04
+:::
+
+```{include} /reuse/26.04/rocm-support.txt
+```
+
+
 ## Hardware support
 
 ### NVIDIA Dynamic Boost

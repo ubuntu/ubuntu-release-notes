@@ -1,0 +1,164 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu release
+# notes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu release notes \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-13 02:01+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../26.04/index.md:17
+msgid "Summary for LTS users"
+msgstr ""
+
+#: ../../26.04/index.md:17
+msgid "Changes since 25.10"
+msgstr ""
+
+#: ../../26.04/index.md:17
+msgid "Release schedule"
+msgstr ""
+
+#: ../../26.04/index.md:6 bcd40810eb1644b09c59608ef38bfa38
+msgid "Ubuntu 26.04 LTS release notes"
+msgstr ""
+
+#: ../../26.04/index.md:8 73c0ce58f3a64747b3f5a82d794fb008
+msgid "23 April 2026"
+msgstr ""
+
+#: ../../26.04/index.md:11 78ac5da426d0470e9cf79339c17885b7
+msgid ""
+"These release notes cover new features and changes in Ubuntu 26.04 LTS "
+"(Resolute Raccoon)."
+msgstr ""
+
+#: ../../26.04/index.md:14 54075724dc074398a651d6a8e4e8f5aa
+#, python-brace-format
+msgid ""
+"Ubuntu 26.04 LTS is currently in development, scheduled to be released in"
+" April 2026. See the {ref}`release schedule <resolute-raccoon-schedule>`."
+msgstr ""
+
+#: ../../26.04/index.md:26 c9d0b3fe2f264c04bead9111a1e278b7
+msgid "Changes since your version of Ubuntu"
+msgstr ""
+
+#: ../../26.04/index.md:28 99e628eb09d04f63b9364572c2b41c65
+msgid ""
+"The majority of Ubuntu users upgrade every two years, following LTS "
+"releases. Other users prefer the more frequent interim releases that come"
+" out every six months."
+msgstr ""
+
+#: ../../26.04/index.md:30 aa2d368f04db4557909a3ba43df414ff
+msgid "Find the news that are relevant to your system:"
+msgstr ""
+
+#: ../../26.04/index.md:38 204bb0744a6946908d33d2ae699f0bb5
+msgid "For Ubuntu LTS users"
+msgstr ""
+
+#: ../../26.04/index.md:40 59873d044de042db96a6a8d4783ed5f7
+msgid ""
+"If you're upgrading **from Ubuntu 24.04 LTS (Noble Numbat)**, read an "
+"overview of the major changes between the two LTS releases."
+msgstr ""
+
+#: ../../26.04/index.md:47 64c438f8cbe74aacadd10979f350cceb
+msgid "For Ubuntu interim users"
+msgstr ""
+
+#: ../../26.04/index.md:49 f4d86c3804b04d928a134e08669a79a1
+msgid ""
+"If you're upgrading **from Ubuntu 25.10 (Questing Quokka)**, read a "
+"detailed list of changes since the previous interim release."
+msgstr ""
+
+#: ../../26.04/index.md:53 da3f0747e671406982b60bcbf5434d5a
+msgid "Upgrading from older releases"
+msgstr ""
+
+#: ../../26.04/index.md:56 4522a53b18464d30943392f479a8bde2
+msgid ""
+"If you're currently using an older Ubuntu LTS or interim release, such as"
+" Ubuntu 22.04 LTS or 25.04, you must first upgrade to either Ubuntu 24.04"
+" LTS or 25.10 before you can proceed to 26.04 LTS."
+msgstr ""
+
+#: ../../26.04/index.md:59 c6a027319d5f4cce85e2b3f98553743b
+msgid "Support lifespan"
+msgstr ""
+
+#: ../../26.04/index.md:61 44369ccf10024e60945f3b77b156e12a
+msgid ""
+"Ubuntu 26.04 LTS is designated as a long-term support release. This means"
+" it will continue to receive security updates and critical bug fixes for "
+"five years. Ubuntu 26.04 LTS will be supported until April 2031."
+msgstr ""
+
+#: ../../26.04/index.md:63 16b1e0ab0e204d9790d4b6e90c71ff4c
+msgid ""
+"With an Ubuntu Pro subscription, access to ESM (Expanded Security "
+"Maintenance) updates will be available for ten years."
+msgstr ""
+
+#: ../../26.04/index.md:65 f47294e40047421187e66c1835ed4826
+#, python-brace-format
+msgid "See our {ref}`release-policy-and-schedule`."
+msgstr ""
+
+#: ../../26.04/index.md:67 3310219115cb4aad84f5a3109b2fc6d3
+msgid "Requirements and compatibility"
+msgstr ""
+
+#: ../../26.04/index.md:69 8ad67e6d4673424ab9bc20aaf1120edb
+msgid ""
+"Ubuntu Desktop 26.04 LTS requires a 2 GHz dual-core processor or better, "
+"a minimum of 6 GB RAM and 25 GB of free storage space for a comfortable "
+"experience."
+msgstr ""
+
+#: ../../26.04/index.md:71 2b9a77bdb3884107bc7cc841c26090f3
+msgid ""
+"Although it's possible to install Ubuntu Desktop on systems with lower "
+"specifications, we recommend using an [Ubuntu "
+"flavor](https://ubuntu.com/desktop/flavors) instead in that case. For "
+"example, you can install [Xubuntu](https://xubuntu.org/) or "
+"[Lubuntu](https://lubuntu.me/) on systems with 2 GB RAM or more."
+msgstr ""
+
+#: ../../26.04/index.md:73 21ed049059b94810844912de9599583d
+msgid ""
+"Requirements for Ubuntu Server 26.04 LTS [scale with your specific use "
+"case](https://ubuntu.com/server/docs/reference/installation/system-"
+"requirements/), starting as low as 1.5 GB RAM and 4 GB of storage space."
+msgstr ""
+
+#: ../../26.04/index.md:75 d216f9439067467cbe240443fbaed041
+msgid ""
+"For ISO-based installs, you will need a USB port or DVD drive for the "
+"installation media. Alternatively, Ubuntu Server is also available as "
+"pre-built images for cloud, virtualized, and bare-metal environments, "
+"which utilize their own deployment mechanisms."
+msgstr ""
+
+#: ../../26.04/index.md:79 22dc8bc9146640d58d6dec0ce1b6f743
+msgid ""
+"While an internet connection is recommended for updates and additional "
+"software, it is not required for the initial installation."
+msgstr ""
+

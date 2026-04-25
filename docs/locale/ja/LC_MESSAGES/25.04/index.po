@@ -1,0 +1,3210 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu release
+# notes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu release notes \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-13 02:01+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../25.04/index.md:10
+msgid "Release schedule"
+msgstr ""
+
+#: ../../25.04/index.md:6 2ba0d8a4e82248559f98fe6dc6afe569
+msgid "Ubuntu 25.04 release notes"
+msgstr ""
+
+#: ../../25.04/index.md:8 300690df4f874836ad4114a2e351e280
+msgid ""
+"These release notes for **Ubuntu 25.04** (Plucky Puffin) provide an "
+"overview of the release and document the known issues with Ubuntu and its"
+" flavors."
+msgstr ""
+
+#: ../../25.04/index.md:17 0abef773feb8469f8b92f4d47487ef09
+msgid "Dedication"
+msgstr ""
+
+#: ../../25.04/index.md:19 61746697360f457f89e0335eb2405767
+#, python-brace-format
+msgid ""
+"Subscribers to the `ubuntu-{devel-}announce` mailing list and long term "
+"participants in the Ubuntu community will have come across Steve "
+"Langasek's work. Steve, known in the community as vorlon, was a long-term"
+" member of the Release team (along with being a member of Archive Admin, "
+"Techboard, SRU team, and so on) and a colleague to many of us at "
+"Canonical. As a member of the Release team, Steve was responsible for "
+"devising many of the processes, policies, and tools which we use today, "
+"and teaching his fellow members the ropes. [Steve passed away on 1st "
+"January 2025](https://discourse.ubuntu.com/t/remembering-and-thanking-"
+"steve-langasek/52665) after being unwell for quite some time. The Ubuntu "
+"Release Team dedicates 25.04 “Plucky Puffin” to our colleague and friend,"
+" Steve Langasek. He is missed and will live in our hearts forever. Thank "
+"you for everything, Steve."
+msgstr ""
+
+#: ../../25.04/index.md:21 ../../25.04/index.md:37
+#: 0912cb8f102742d7b706de61308e566c 587399e23be24052bc703b4aca26c5bb
+msgid "Upgrades"
+msgstr ""
+
+#: ../../25.04/index.md:23 649e59b6f58a4522af4d384b33f33caa
+msgid ""
+"We've identified two issues in the `ubuntu-release-upgrader` affecting "
+"upgrades to Ubuntu 25.04 \"Plucky Puffin\":"
+msgstr ""
+
+#: ../../25.04/index.md:25 ecc5620437c74e9398406cfc80b4c122
+msgid ""
+"[Handling of Qt dependencies](https://bugs.launchpad.net/ubuntu/+source"
+"/ubuntu-release-upgrader/+bug/2095535)"
+msgstr ""
+
+#: ../../25.04/index.md:26 66ff8ab2329b4741bb360402e6e97aff
+msgid ""
+"[Removal of foreign packages from disabled "
+"sources](https://bugs.launchpad.net/ubuntu/+source/ubuntu-release-"
+"upgrader/+bug/2107657)"
+msgstr ""
+
+#: ../../25.04/index.md:28 9c6480393bde45a1a66052b9c07deda4
+msgid ""
+"As a result, upgrades to Ubuntu 25.04 have been temporarily suspended "
+"while these issues are being addressed."
+msgstr ""
+
+#: ../../25.04/index.md:30 f493275e36b642f49d2f7a8440256fb9
+msgid ""
+"The necessary updates are already in the pipeline, and we expect to re-"
+"enable upgrades very soon. Thank you for your patience."
+msgstr ""
+
+#: ../../25.04/index.md:33 3c38187c3beb4fa782137227a8dc0b91
+msgid "Support lifespan"
+msgstr ""
+
+#: ../../25.04/index.md:35 5676dea6bbeb410787360ff568963884
+msgid ""
+"Ubuntu 25.04 will be supported for 9 months until January 2026. If you "
+"need long term support, we recommend you use [Ubuntu 24.04.2 "
+"LTS](https://ubuntu.com/download) which is supported until at least 2029."
+msgstr ""
+
+#: ../../25.04/index.md:39 207ef0974d4741e0893d9b3794311e6f
+msgid ""
+"Upgrades to to Ubuntu 25.04 will refresh seeded snaps to the appropriate "
+"snap channels, regardless of what was being tracked before. Snaps that "
+"are newly-seeded will be installed during the upgrade. In particular, the"
+" following snaps will be installed or refreshed on upgrade:"
+msgstr ""
+
+#: ../../25.04/index.md:41 e3918a4474244f1bb08178d93a1f1db7
+msgid "Early upgrades may wish to perform these updates manually."
+msgstr ""
+
+#: ../../25.04/index.md:44 472e66c2c7af431c931c39c59c6bca23
+msgid "New features in 25.04"
+msgstr ""
+
+#: ../../25.04/index.md:46 dcf961fbc95a466eb4c045f264c000df
+msgid "Updated Packages"
+msgstr ""
+
+#: ../../25.04/index.md:48 7f06b22e0da94fd891f8356886eeb73e
+msgid "Linux kernel 6.14🐧"
+msgstr ""
+
+#: ../../25.04/index.md:50 96ea9ae6cd6f439091fb189ffd1a7eb2
+msgid ""
+"This release delivers the latest Linux kernel, following Canonical’s new "
+"policy. Kernel developers can now make use of a [new scheduling "
+"system](https://canonical.com/blog/crafting-new-linux-schedulers-with-"
+"sched-ext-rust-and-ubuntu), \"sched_ext\", which provides a mechanism to "
+"implement scheduling policies as eBPF programs. This enables developers "
+"to defer scheduling decisions to standard user-space programs and "
+"implement fully functional hot-swappable Linux schedulers, using any "
+"language, tool, library, or resource accessible in user-space."
+msgstr ""
+
+#: ../../25.04/index.md:52 230dc0d652134d138084633f9218a236
+msgid ""
+"A new NTSYNC driver that emulates WinNT sync primitives is also "
+"available, delivering better performance potential for Windows games "
+"running on Wine and Proton (Steam Play)."
+msgstr ""
+
+#: ../../25.04/index.md:54 5dfcff3755054bbe81f78e4c55ae401b
+msgid ""
+"The \"bpftools\" and linux-perf tools have been decoupled from the kernel"
+" version, making dependency management easier for developers working with"
+" containers. These tools are now shipped in their own packages."
+msgstr ""
+
+#: ../../25.04/index.md:56 7363a4a88e20451f9fc3338638a2cdd8
+msgid ""
+"Other features can be found in the [Linux 6.14 "
+"upstream](https://kernelnewbies.org/Linux_6.14) changelog."
+msgstr ""
+
+#: ../../25.04/index.md:58 bd5385266e774646922f4ca36e129d41
+msgid ""
+"After the generic kernel grew the ability to [tune responsiveness at boot"
+" time](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2051342), the"
+" linux-lowlatency binary package has been retired in favour of a "
+"combination of linux-generic and a new userspace `lowlatency-kernel` "
+"package, responsible of tuning the grub cmdline."
+msgstr ""
+
+#: ../../25.04/index.md:60 e6585983260d433d9a16f3e6c3a9ede0
+msgid "systemd v257.4"
+msgstr ""
+
+#: ../../25.04/index.md:62 4165f8fbf071409ead6e3fbaeaccd469
+msgid ""
+"The init system was updated to systemd v257.4. See the [upstream "
+"changelog ](https://github.com/systemd/systemd/releases/tag/v257) for "
+"more information about individual features. To highlight a few things:"
+msgstr ""
+
+#: ../../25.04/index.md:64 6801f11f75434d2bbede72d8441e4e5c
+msgid ""
+"In Ubuntu, systemd is no longer built with utmp support. Among other "
+"things, this means that systemd's default "
+"`/usr/lib/tmpfiles.d/systemd.conf` no longer creates `/run/utmp`. There "
+"is currently this known bug ([LP: "
+"#2103489](https://launchpad.net/bugs/2103489)) in Ubuntu 25.04, that "
+"prevents 'who' from properly working and requires a coreutils rebuild."
+msgstr ""
+
+#: ../../25.04/index.md:67 08148e8ed1c54093a2c77f6c4b762a96
+msgid ""
+"The complete removal of support for cgroup v1 ('legacy' and 'hybrid' "
+"hierarchies) is scheduled for v258."
+msgstr ""
+
+#: ../../25.04/index.md:70 b65cce2abeda46e8a90d44bfc9434c73
+msgid ""
+"Support for System V service scripts is deprecated and will be removed in"
+" v258. Please make sure to update your software *now* to include a native"
+" systemd unit file instead of a legacy System V script to retain "
+"compatibility with future systemd releases."
+msgstr ""
+
+#: ../../25.04/index.md:75 a5096d1a826c4311af4ea3a37f41090b
+msgid "Netplan v1.1.2 🌐"
+msgstr ""
+
+#: ../../25.04/index.md:76 a987754921314e5ba86f004d025bc23b
+msgid ""
+"Adding support for **wpa-psk-sha256** WiFis and allowing to configure "
+"**routing-policy** on the NetworkManager backend (LP: "
+"[#2086544](https://launchpad.net/bugs/2086544)). Additionally, the "
+"version shipped in Ubuntu enables [new "
+"functionality](https://github.com/systemd/systemd/pull/34640) in "
+"**systemd-networkd-wait-online** to wait for DNS servers to be configured"
+" and reachable, before [considering an interface to be "
+"online](https://discourse.ubuntu.com/t/spec-definition-of-an-online-"
+"system/27838)."
+msgstr ""
+
+#: ../../25.04/index.md:78 cf6a165dbe8743afb260270029e3b408
+msgid "Toolchain Upgrades 🛠️"
+msgstr ""
+
+#: ../../25.04/index.md:80 48567963a09a41fb9a2ea69d60397bf3
+msgid ""
+"GCC 🐄 a snapshot of the upcoming GCC 15, binutils updated to 2.44, and "
+"glibc to 2.41."
+msgstr ""
+
+#: ../../25.04/index.md:81 80f04b1d31f74e74a542f85070fc5c22
+msgid "Python 🐍 is updated to 3.13.3"
+msgstr ""
+
+#: ../../25.04/index.md:82 8ea89ad6137946869afe69bd1cd863b4
+msgid "LLVM 🐉 now defaults to version 20"
+msgstr ""
+
+#: ../../25.04/index.md:83 e5246ccea6be4b63b39a0c2fb43c9c3d
+msgid "Rust 🦀 toolchain defaults to version 1.84"
+msgstr ""
+
+#: ../../25.04/index.md:84 6c2faf661c86416498439eadbd9c1f0c
+msgid "Golang 🐀 is updated to 1.24"
+msgstr ""
+
+#: ../../25.04/index.md:85 f40a9fead34c4ff19601617b903eca33
+msgid "OpenJDK ☕ versions 24 GA and 25 early access snapshot are now available"
+msgstr ""
+
+#: ../../25.04/index.md:87 43a73d19072e44e1858a884588954ece
+msgid "OpenJDK"
+msgstr ""
+
+#: ../../25.04/index.md:89 d50daf5b87f64dfdb9f3660a9bda49b9
+msgid ""
+"OpenJDK 21 is still the default. OpenJDK 24 is included as an optional "
+"OpenJDK. An early access snapshot of OpenJDK 25 is also included. Support"
+" for OpenJDK LTS versions 17, 11 and 8 is being maintained. OpenJDK with "
+"CRaC versions 17 and 21 also continue to be supported."
+msgstr ""
+
+#: ../../25.04/index.md:91 f6cd084c9afe4edab2d3b178bf4222fc
+msgid ""
+"We are excited to announce the [devpack-for-spring](https://snapcraft.io"
+"/devpack-for-spring) snap and a set of Spring® [content "
+"snaps](https://snapcraft.io/devpack-for-spring-manifest) that will serve "
+"as development tools for Spring® projects. Developers can now quickly "
+"build Ubuntu ROCK images for their Java applications using the [Gradle "
+"and Maven plugins for Rockcraft](https://github.com/rockcrafters/java-"
+"rockcraft-plugins)."
+msgstr ""
+
+#: ../../25.04/index.md:93 dc1fc8a6a0af4dbfb16c7e956df67dac
+msgid ""
+"Additionally, GraalVM Community Edition for JDK versions 21, 24 and 25ea "
+"is now available as a [snap](https://snapcraft.io/graalvm-jdk). Java "
+"developers now have a choice to build and deploy their applications with "
+"standard OpenJDK, with OpenJDK-CRaC or as a GraalVM native image."
+msgstr ""
+
+#: ../../25.04/index.md:95 8ddd67afb53948949cabe8f1573e3fc8
+msgid ".NET"
+msgstr ""
+
+#: ../../25.04/index.md:97 f662c092f6b644eea838fcead4b4f937
+msgid ".NET versions 8 and 9 continue to be supported."
+msgstr ""
+
+#: ../../25.04/index.md:99 d00bfeb47348451eb2f12946edb9d7a2
+msgid ""
+"The [dotnet](https://snapcraft.io/dotnet) snap is updated to include .NET"
+" version 9. The [powershell-preview](https://snapcraft.io/powershell-"
+"preview) snap has been updated to build from source."
+msgstr ""
+
+#: ../../25.04/index.md:101 2acdc271ea73468cbee5e8241aed27ec
+msgid "Default configuration changes ⚙️"
+msgstr ""
+
+#: ../../25.04/index.md:103 49181997f0e349f69a7cbaafb03161ed
+msgid "AppArmor profiles"
+msgstr ""
+
+#: ../../25.04/index.md:105 466b0027fd80402f854bed851adb41f7
+msgid "AppArmor profile writing effort"
+msgstr ""
+
+#: ../../25.04/index.md:107 c6d1331ce5de492a9355564275c72070
+msgid ""
+"As part of a profile writing effort to improve overall system security, "
+"the AppArmor package now includes many new profiles for applications. "
+"This improved sandboxing can help mitigate the impact of any exploit in "
+"the confined applications. However, these profiles may cause breakage for"
+" unanticipated uses of those applications, and we encourage users to file"
+" a bug on "
+"[Launchpad](https://bugs.launchpad.net/ubuntu/+source/apparmor/+filebug) "
+"for AppArmor-induced breakage in common use cases. When AppArmor denies "
+"an action, it usually generates a log entry describing the denial, which "
+"will help us investigate the bug, but which can also be used to add "
+"additional rules for customization or to work around the denials. "
+"AppArmor log entries can be read in the auditd logs, if auditd is "
+"installed, or in the `syslog` otherwise. [This "
+"page](https://gitlab.com/apparmor/apparmor/-/wikis/denial_quick_guide) "
+"describes how the information contained in the denial log can be used to "
+"update a local override."
+msgstr ""
+
+#: ../../25.04/index.md:109 440f951a380d4b5bbf4ab8a242d8d607
+msgid "AppArmor profile for `bwrap`"
+msgstr ""
+
+#: ../../25.04/index.md:111 fdd3c014df9f4b7fb0095107ca24b6f9
+msgid ""
+"AppArmor now comes with a `bwrap` profile (`bwrap-userns-restrict`) that "
+"allows it to create user namespaces and set up sandboxing, before "
+"transitioning to a tighter profile that denies capabilities for the "
+"processes running inside the `bwrap` sandbox. The addition of this "
+"profile should unblock more use cases for `bwrap` while allowing a "
+"reduction in the kernel attack surface opened up by unprivileged user "
+"namespaces. However, this profile still restricts unprivileged userns "
+"creation and capability usage even when `bwrap` (and its sandboxed "
+"application) are run as a privileged user, so such use cases may not be "
+"fully supported yet."
+msgstr ""
+
+#: ../../25.04/index.md:113 20991d54a24f41b7bf8566ef7f62dc86
+msgid "AppArmor profile removals"
+msgstr ""
+
+#: ../../25.04/index.md:115 0f982561eb184fa7ba48c93cf6ec591a
+msgid ""
+"As part of [hardening improvements around AppArmor user namespace "
+"mediation](https://discourse.ubuntu.com/t/understanding-apparmor-user-"
+"namespace-restriction/58007), profiles for busybox and nautilus that "
+"directly allowed them access to user namespaces have been removed. As a "
+"result, the busybox unshare function can no longer be used to create "
+"unprivileged user namespaces. Nautilus' use of user namespaces should "
+"still work due to the new `bwrap-users-restrict` profile, but regressions"
+" are possible if there are bugs in the `bwrap` profile."
+msgstr ""
+
+#: ../../25.04/index.md:117 9f7567ee435746b4a2be6f999b0767ac
+msgid "tzdata"
+msgstr ""
+
+#: ../../25.04/index.md:119 bb23f193d73d41f39ef22f616afa5e51
+msgid ""
+"Previously, the tzdata package in Ubuntu used the `/etc/timezone` file to"
+" configure the system's timezone. This method is not supported by systemd"
+" and certain desktop environments, which instead only change the "
+"`/etc/localtime` symlink to point to a file in `/usr/share/zoneinfo`."
+msgstr ""
+
+#: ../../25.04/index.md:121 61049d1c5ed44034851f8b6345da24f5
+msgid ""
+"For this reason, starting with version 2024b-5, the tzdata package no "
+"longer automatically creates the `/etc/timezone` file, but still updates "
+"it if it exists. In the next Ubuntu 25.10 release, the `/etc/timezone` "
+"file will be automatically removed and support for it in the maintainer "
+"scripts will be completely dropped."
+msgstr ""
+
+#: ../../25.04/index.md:123 ../../25.04/index.md:824
+#: 0679106dc5654bb4af51002c9e03d935 820d53fcf36c4917b1711bb0ba2afe21
+msgid "Ubuntu Desktop"
+msgstr ""
+
+#: ../../25.04/index.md:125 fc14952fdee345639b552dc07d7c1315
+msgid "New ARM64 Desktop Image"
+msgstr ""
+
+#: ../../25.04/index.md:126 3a0546e2c6d94e29925a7a3bcfb73e5e
+msgid ""
+"There is now also an official generic arm64 desktop ISO targeting VMs, "
+"ACPI + EFI platforms and Snapdragon based WoA devices."
+msgstr ""
+
+#: ../../25.04/index.md:127 ../../25.04/index.md:720
+#: 23e2fc4bc7d74f7aae347307f81a8e05 d1609cd6dbf949bb8dddabc979f40941
+msgid ""
+"Initial hardware enablement work for the Snapdragon X Elite platform is "
+"included in the desktop ISO"
+msgstr ""
+
+#: ../../25.04/index.md:129 3b2f1595ef114ba0806f3085b23a84a8
+msgid "Installer and Upgrades"
+msgstr ""
+
+#: ../../25.04/index.md:131 b068889fdb7a42b2bfc28dfa37b27d71
+msgid "Added the option to replace an existing Ubuntu installation"
+msgstr ""
+
+#: ../../25.04/index.md:132 e86046f482584891a774352690e7fcb0
+msgid ""
+"Improved dual boot UX (with a focus on BitLocker protected Windows "
+"systems):"
+msgstr ""
+
+#: ../../25.04/index.md:133 2b3c052439334fd3bfb6669953dde951
+msgid ""
+"Added the option to install Ubuntu alongside existing BitLocker "
+"partitions if enough unallocated  space (or a sufficiently large and "
+"resizable partition) is available"
+msgstr ""
+
+#: ../../25.04/index.md:134 ff33a3eb68d14a0486a7e8cf19e31042
+msgid ""
+"Made encrypted installations and other 'advanced options' available for "
+"dual boot scenarios"
+msgstr ""
+
+#: ../../25.04/index.md:136 056074b5564746cdbcc10de09a415a17
+msgid "Enterprise"
+msgstr ""
+
+#: ../../25.04/index.md:138 c3279efea5134fdfbd7799d215f7ca99
+msgid ""
+"[authd](https://github.com/ubuntu/authd): Ubuntu's cloud authentication "
+"solution:"
+msgstr ""
+
+#: ../../25.04/index.md:139 b4e781e9156844f1a8124e20b64a433b
+msgid "Many fixes and improvements to the EntraID provider"
+msgstr ""
+
+#: ../../25.04/index.md:140 179c7b145b374d1bb1d29511243153f1
+msgid "New Google provider"
+msgstr ""
+
+#: ../../25.04/index.md:141 e5f7d343086b4f5c9397512878a46ab0
+msgid ""
+"New [authd "
+"documentation](https://documentation.ubuntu.com/authd/en/stable/)"
+msgstr ""
+
+#: ../../25.04/index.md:143 2f62f075e84b49489e5383e8835fbfe7
+msgid ""
+"New [ADSys Release](https://github.com/ubuntu/adsys): the Active "
+"Directory Group Policy client for Ubuntu, supports the latest Polkit and "
+"comes with improvements and bug fixes to certificates enrolment."
+msgstr ""
+
+#: ../../25.04/index.md:145 6527d99975754f578d222059dbebf00a
+msgid "GNOME 👣"
+msgstr ""
+
+#: ../../25.04/index.md:147 f0d29aadd6774ca58cc0e2a8ba505350
+msgid ""
+"GNOME has been updated to include new features and fixes from the latest "
+"GNOME release, [GNOME 48](https://release.gnome.org/48/)"
+msgstr ""
+
+#: ../../25.04/index.md:148 986c5b655492486187174c9f89960463
+msgid ""
+"GNOME 48 now includes the [triple "
+"buffering](https://discourse.ubuntu.com/t/triple-"
+"buffering-a-debrief/56314) feature from Ubuntu"
+msgstr ""
+
+#: ../../25.04/index.md:150 c1cdb8c6350b4a0bb2a49013799cb3fe
+msgid "Default app changes"
+msgstr ""
+
+#: ../../25.04/index.md:152 6da2fbc191934554b87d5c12d9b32494
+msgid ""
+"The **Document Viewer** app for viewing PDFs is now provided by Papers "
+"instead of Evince. Papers started with the Evince codebase but it has "
+"been updated to use GTK4 and partially rewritten in Rust."
+msgstr ""
+
+#: ../../25.04/index.md:153 7dd578038d5c4aac8724abfcd81eca3b
+msgid ""
+"**`xdg-terminal-exec`** is installed by default making it easier to "
+"switch a user's default terminal for the Ctrl+Alt+T keyboard shortcut and"
+" for opening terminal apps ([LP: "
+"#2107326](https://launchpad.net/bugs/2107326))"
+msgstr ""
+
+#: ../../25.04/index.md:154 a40a8e5b42e945d4be76e9baaf907cee
+msgid ""
+"**Geolocation** services are now backed by "
+"[BeaconDB](https://beacondb.net/) after Mozilla Location Services was "
+"retired last year"
+msgstr ""
+
+#: ../../25.04/index.md:155 5a7b137c5f114dcb86dc225ad8804e04
+msgid ""
+"The **JPEG XL** format is now supported without needing to install any "
+"additional packages"
+msgstr ""
+
+#: ../../25.04/index.md:157 21f9a33731304ba89f9320884ede0ccd
+msgid "Updated Applications"
+msgstr ""
+
+#: ../../25.04/index.md:159 b0ae4e141841492894c245d8f2e78d8d
+msgid "[Firefox](https://mozilla.org/firefox/releases/) 137 🔥🦊"
+msgstr ""
+
+#: ../../25.04/index.md:160 546b09ed6a3a4c50a739fb3adc512a50
+msgid ""
+"[LibreOffice 25.2](https://wiki.documentfoundation.org/ReleaseNotes/25.2)"
+" 📚"
+msgstr ""
+
+#: ../../25.04/index.md:161 f2f344d404fa43309c5c350b8ebce965
+msgid ""
+"[Thunderbird 128 \"Supernova\"](https://blog.thunderbird.net/2023/07/our-"
+"fastest-most-beautiful-release-ever-thunderbird-XY-supernova-is-here/) "
+"🌩️🐦"
+msgstr ""
+
+#: ../../25.04/index.md:162 0c3a158f2fbf43e7bb9d9604934f6106
+msgid ""
+"[GNU Image Manipulation Program "
+"3.0](https://www.gimp.org/news/2025/03/16/gimp-3-0-released/) 🖼️ is "
+"available for install"
+msgstr ""
+
+#: ../../25.04/index.md:163 edd217ad06b44f6d9eb1e8ca13f06921
+msgid ""
+"The `fish` shell has always been known for its smart and user-friendly "
+"interface, making command-line interactions more intuitive and efficient."
+" With the release of version 4, `fish` has undergone a significant "
+"transformation, rewritten entirely in Rust."
+msgstr ""
+
+#: ../../25.04/index.md:165 7437ec13f810404d94465beec0d0ba08
+msgid ""
+"This change brings a on one side the values of the ecosystem like "
+"enhanced performance and improved stability, while on the other side is "
+"not compromising on the feature set. The upstream community had a great "
+"[blog about the rust port](https://fishshell.com/blog/rustport/), which "
+"we recommend reading if you are curious."
+msgstr ""
+
+#: ../../25.04/index.md:167 4e79f5371945409ca8be27dd98458cbb
+msgid ""
+"As shells go, this is about your taste and preferences: if you have not "
+"been trying [fish](https://fishshell.com/) before, consider to try it out"
+" now and experience its features for yourself."
+msgstr ""
+
+#: ../../25.04/index.md:169 0fdb0da1720d4cfabd87494e0a6722de
+msgid "Updated Subsystems"
+msgstr ""
+
+#: ../../25.04/index.md:171 18f69301e76b4ea9ba233ef5b5e931f6
+msgid ""
+"[BlueZ "
+"5.79](https://git.kernel.org/pub/scm/bluetooth/bluez.git/tree/ChangeLog?id=5.79)"
+" 💙"
+msgstr ""
+
+#: ../../25.04/index.md:172 61a91fdab9cd4b2588eeb5141c33e6ac
+msgid "[Cairo 1.18.4](https://cairographics.org/news/cairo-1.18.4/) 🐫"
+msgstr ""
+
+#: ../../25.04/index.md:173 fa8f88588bde495baf722a217211bc90
+msgid ""
+"[NetworkManager "
+"1.52](https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/blob/nm-1-52/NEWS)"
+" 🖧"
+msgstr ""
+
+#: ../../25.04/index.md:174 8582926e1a1c4d7195266e1fea5a701c
+msgid ""
+"[Pipewire "
+"1.2.7](https://gitlab.freedesktop.org/pipewire/pipewire/-/blob/1.2.7/NEWS)"
+" 🔊"
+msgstr ""
+
+#: ../../25.04/index.md:175 219b03d842874690bdf7cb364e9e451b
+msgid ""
+"[Poppler "
+"25.03](https://gitlab.freedesktop.org/poppler/poppler/-/blob/poppler-25.03.0/NEWS)"
+" 📝"
+msgstr ""
+
+#: ../../25.04/index.md:176 096dc8b0a780462dad5c9081c5dd6955
+msgid ""
+"[xdg-desktop-portal 1.20](https://github.com/flatpak/xdg-desktop-"
+"portal/blob/1.20.0/NEWS.md) ⛩️"
+msgstr ""
+
+#: ../../25.04/index.md:177 fbead2c197264c559e91764a9119570c
+msgid "[Nvidia 570](https://www.nvidia.com/en-us/drivers/details/242273/) 👁️"
+msgstr ""
+
+#: ../../25.04/index.md:178 b593d9bba4624852b754b5464ae30b83
+msgid ""
+"The `libva` library is now available in the *Main* repository component. "
+"The library implements VA-API (Video Acceleration API) for hardware video"
+" decoding and encoding. Applications can now use VA-API out of box. "
+"Notably, you can record your screen at the original screen rate. Without "
+"VA-API, your screen recording has a reduced frame rate because it's "
+"limited by the CPU. To use VA-API, enable third-party drivers during "
+"Ubuntu installation. You can also install the library after installation:"
+msgstr ""
+
+#: ../../25.04/index.md:184 ce37f4b7a3604de4b998d24a556a4bad
+msgid "Gaming"
+msgstr ""
+
+#: ../../25.04/index.md:185 6ebf624c38f345c3bb6ac5c1f5a1fd27
+msgid "NVIDIA Dynamic Boost"
+msgstr ""
+
+#: ../../25.04/index.md:186 f399d4141fb9414c85f66283fb0449a7
+msgid ""
+"This release enabled NVIDIA Dynamic Boost by default on supported laptops"
+" with NVIDIA GPUs."
+msgstr ""
+
+#: ../../25.04/index.md:188 15444471ca744382a613682d1881e3df
+msgid ""
+"NVIDIA Dynamic Boost is a feature of the NVIDIA drivers that dynamically "
+"shifts power between CPU and GPU depending on the workload on the system."
+" While gaming, this allows extracting more performance by granting more "
+"power to the GPU."
+msgstr ""
+
+#: ../../25.04/index.md:190 aff876b3b5554f68a41b61d57aa9975e
+msgid ""
+"Dynamic Boost will be active only when the laptop is powered by AC and "
+"there is enough load on the GPU. It will not be engaged when the system "
+"is running on battery."
+msgstr ""
+
+#: ../../25.04/index.md:192 d3ea3bc16124410a81bf44479775cfd8
+msgid ""
+"For more details refer to [NVIDIA's "
+"documentation](https://download.nvidia.com/XFree86/Linux-x86_64/570.133.07/README/dynamicboost.html)."
+msgstr ""
+
+#: ../../25.04/index.md:194 77e7ac2d5b7f47a6b5d0f7cfa442e1b1
+msgid "Support for new Intel® integrated and discrete GPUS"
+msgstr ""
+
+#: ../../25.04/index.md:195 0448aa99d67943fd94bd45454d4fbe3c
+msgid ""
+"This release brings full support for Intel® Core™ Ultra Xe2 integrated "
+"Intel® Arc™ graphics, and Intel® Arc™ B580 and B570 “Battlemage” discrete"
+" GPUs.  Moreover, the following features are also included:"
+msgstr ""
+
+#: ../../25.04/index.md:197 662c82faf7674972ae5f3e2a628d06ea
+msgid ""
+"Improved GPU and CPU ray tracing rendering performance in applications "
+"with Intel Embree support, such as Blender (v4.2+). Ray tracing hardware "
+"acceleration on the GPU improves frame rendering by 20-30%, due to a 2-4x"
+" speed-up for the ray tracing component."
+msgstr ""
+
+#: ../../25.04/index.md:198 8ed6dfa911da4392993e371ba44b990a
+msgid ""
+"Full hardware accelerated video encoding of AVC, JPEG, HEVC, and AV1 on "
+"“Battlemage” devices."
+msgstr ""
+
+#: ../../25.04/index.md:199 8d156cb1e71a403792075059b279bfaa
+msgid "Introduction of the new CCS optimization in Intel® Compute Runtime."
+msgstr ""
+
+#: ../../25.04/index.md:200 007a7d6e7a59456fbbe2fdbad8392464
+msgid "Enable debugging support for Intel Xe GPUs."
+msgstr ""
+
+#: ../../25.04/index.md:201 863c80bec9f847a3a9a4a462e1e897a9
+msgid ""
+"oneAPI Level Zero Ray Tracing improves AI/ML workload speeds via Embree "
+"on SYCL"
+msgstr ""
+
+#: ../../25.04/index.md:203 f31e9ea41d7d4e2696cead5715d52dd1
+msgid "Ubuntu Foundations"
+msgstr ""
+
+#: ../../25.04/index.md:205 fb9ead0beaf949ab9a992a400fdaacaf
+msgid "Cryptography"
+msgstr ""
+
+#: ../../25.04/index.md:207 129c8cfdfd6f414ab63e4d577eb2ad2a
+msgid "Libraries"
+msgstr ""
+
+#: ../../25.04/index.md:208 1a9ce2278b524e609d425997ee5936e8
+msgid ""
+"OpenSSL has been updated to "
+"[3.4.1](https://github.com/openssl/openssl/blob/openssl-3.4.0/NEWS.md) "
+"and GnuTLS has been updated to "
+"[3.8.9](https://gitlab.com/gnutls/gnutls/-/blob/master/NEWS). In "
+"addition, patches from their git stable branches have been added in order"
+" to include as many fixes as possible starting with release day."
+msgstr ""
+
+#: ../../25.04/index.md:211 e3f8bdf83dbb4aae9180cc78e7411efa
+msgid "Package Management: APT 3.0"
+msgstr ""
+
+#: ../../25.04/index.md:213 01587cff54e047049279bfbdaf18d66d
+msgid "APT has been updated to 3.0."
+msgstr ""
+
+#: ../../25.04/index.md:215 6aaf996e25dd4e958b5f379ce3c53588
+msgid ""
+"The new dependency solver is now automatically used if the classic solver"
+" cannot find a solution to either find a solution or add more context to "
+"the failure, and in other cases to [evaluate its "
+"performance](https://discourse.ubuntu.com/t/evaluating-the-new-apt-"
+"solver-in-25-04/55618)."
+msgstr ""
+
+#: ../../25.04/index.md:217 f6e0dc08fd8a475f986ab7ef456a477e
+msgid ""
+"APT has switched from GnuTLS and gcrypt to the OpenSSL library for TLS "
+"connections and file hashing, which should improve compatibility and "
+"reduces the footprint of minimal installations."
+msgstr ""
+
+#: ../../25.04/index.md:219 35aee7e315b3464f8a2c09bf9e367bd4
+msgid ""
+"An automatic pager has been added to `apt(8)` for commands such as show "
+"and list, similar to `git log` and `journalctl`."
+msgstr ""
+
+#: ../../25.04/index.md:221 9089a4ae0f8c473a9168232b6be509f5
+msgid ""
+"The `apt-key` command has been removed. Signature verification now makes "
+"direct use of `gpgv`. Some packages and system administration scripts may"
+" need adjustment for managing keys directly, advice can be found in the "
+"`apt-secure(8)` manual page."
+msgstr ""
+
+#: ../../25.04/index.md:223 ../../25.04/index.md:840
+#: b60fdab15cf748ae8d52134f73b9a500 e7ec6fb17bde4e8289566fc4d7d29e6b
+msgid "Ubuntu Server"
+msgstr ""
+
+#: ../../25.04/index.md:225 75be05c5f0b14320bf0827d2644c01aa
+msgid "Apache2"
+msgstr ""
+
+#: ../../25.04/index.md:227 0cb771108957492d82a5d370fb0bade7
+msgid "mod_md: update to version 2.4.31"
+msgstr ""
+
+#: ../../25.04/index.md:228 e169089a8ece42b591eb94091fa80c8e
+msgid "Improved behavior waiting for ACME server to verify domains."
+msgstr ""
+
+#: ../../25.04/index.md:229 4d9e3e3dc5b84ee6aba7ebb20460f89b
+msgid ""
+"Fix certificate retrieval on ACME renewal to not require a 'Location:' "
+"header returned by the ACME CA. This was the way it was done in ACME "
+"before it became an IETF standard. Let's Encrypt still supports this, but"
+" other CAs do not."
+msgstr ""
+
+#: ../../25.04/index.md:230 4444472dd2da4f2c991669a21977cc0e
+msgid ""
+"When the server starts, it looks for new, staged certificates to "
+"activate. If the staged set of files in `md/staging/<domain>` is messed "
+"up, this could prevent further renewals to happen. Now, when the staging "
+"set is present, but could not be activated due to an error, purge the "
+"whole directory."
+msgstr ""
+
+#: ../../25.04/index.md:231 ca0a9dc5250c4151afb7208b489e87a8
+msgid "Restore compatibility with OpenSSL < 1.1."
+msgstr ""
+
+#: ../../25.04/index.md:232 b1badaa5654d42b9a002d0ac7acf153f
+msgid ""
+"Add the ldap-search option to mod_authnz_ldap, allowing authorization to "
+"be based on arbitrary expressions that do not include the username."
+msgstr ""
+
+#: ../../25.04/index.md:233 4d848bbc40434a62b3709a6e71db6d1c
+msgid ""
+"mod_ssl: Restore support for loading PKCS#11 keys via ENGINE without "
+"\"SSLCryptoDevice\" configured."
+msgstr ""
+
+#: ../../25.04/index.md:234 cb567750265b45fab3a814efcf4b84f7
+msgid ""
+"http: Remove support for Request-Range header sent by Navigator 2-3 and "
+"MSIE 3."
+msgstr ""
+
+#: ../../25.04/index.md:235 0de0612ed0e24c9bb8b64be5f927a02a
+msgid ""
+"mod_rewrite: Don't require [UNC] flag to preserve a leading // added by "
+"applying the perdir prefix to the substitution."
+msgstr ""
+
+#: ../../25.04/index.md:236 b98d91a0c98a46e2ab6835045ad0221b
+msgid ""
+"mod_proxy: Avoid AH01059 parsing error for SetHandler \"unix:\" URLs in "
+"`<Location>` (incomplete fix in 2.4.62)."
+msgstr ""
+
+#: ../../25.04/index.md:237 81dada6880b14599a3bc1bf13d43d5a8
+msgid ""
+"mod_tls: removed the experimental module. It now is available standalone "
+"from https://github.com/icing/mod_tls. The rustls provided API is not "
+"stable and does not align with the httpd release cycle."
+msgstr ""
+
+#: ../../25.04/index.md:238 a33a6317069343a89010a693eff02ede
+msgid "mod_rewrite: Better question mark tracking to avoid UnsafeAllow3F."
+msgstr ""
+
+#: ../../25.04/index.md:239 a3175a449f9a4d09ac6464210a902fc5
+msgid ""
+"mod_http2: Return connection monitoring to the event MPM when blocking on"
+" client updates."
+msgstr ""
+
+#: ../../25.04/index.md:241 5dc42ab176444805bb3e536b3d2ee30c
+msgid "Clamav"
+msgstr ""
+
+#: ../../25.04/index.md:243 54c638bec9454d7b93a855d0f4fa254a
+msgid ""
+"ClamAV was updated from 1.3 in Ubuntu 24.10, to version 1.4.2 in 25.04. "
+"This brings a number of fixes, along with the following noteworthy "
+"changes from the Clamav 1.4.0 feature release:"
+msgstr ""
+
+#: ../../25.04/index.md:247 7071cfc247e6432d980827dfc181ec36
+msgid ""
+"Added support for extracting ALZ archives. The new ClamAV file type for "
+"ALZ archives is CL_TYPE_ALZ. Added a DCONF (Dynamic CONFiguration) option"
+" to enable or disable ALZ archive support, via ClamAV .cfg "
+"\"signatures\"."
+msgstr ""
+
+#: ../../25.04/index.md:248 684e9c8079db4f4db34954bd64d39619
+msgid ""
+"Added support for extracting LHA/LZH archives. The new ClamAV file type "
+"for LHA/LZH archives is CL_TYPE_LHA_LZH. Added a DCONF option to enable "
+"or disable LHA/LZH archive support."
+msgstr ""
+
+#: ../../25.04/index.md:249 c6163730436f496f8f14932a6992dc22
+msgid ""
+"Added the ability to disable image fuzzy hashing, if needed. For context,"
+" image fuzzy hashing is a detection mechanism useful for identifying "
+"malware by matching images included with the malware or phishing "
+"email/document."
+msgstr ""
+
+#: ../../25.04/index.md:250 0996cae6821d42e0ab7eb88a7e65759b
+msgid "Added a DCONF option to enable or disable image fuzzy hashing support."
+msgstr ""
+
+#: ../../25.04/index.md:251 fa92367ea82247a3bee2198baa20c049
+msgid "Fixed an unaligned pointer dereference issue on select architectures."
+msgstr ""
+
+#: ../../25.04/index.md:253 28a71a842eb3499394219eebb5004f77
+msgid ""
+"For complete details of all changes leading up to 1.4.2, please see the "
+"upstream release notes at:  https://blog.clamav.net/"
+msgstr ""
+
+#: ../../25.04/index.md:256 c31f09dd7532498ca695aa939d181682
+msgid "Chrony"
+msgstr ""
+
+#: ../../25.04/index.md:258 f85dbfb0c4a84ee4b0514b2ce2dba784
+msgid ""
+"Starting with version [4.5-3ubuntu4]( "
+"https://launchpad.net/ubuntu/+source/chrony/4.5-3ubuntu4), chrony will "
+"ship with a default configuration set to use Ubuntu NTS servers by "
+"default."
+msgstr ""
+
+#: ../../25.04/index.md:260 b5e04915f6b64409810add093368a074
+msgid "The two main changes are:"
+msgstr ""
+
+#: ../../25.04/index.md:262 91ac65fd025d42fabeeb041c8c4805ba
+msgid ""
+"NTS/KE uses a separate port (4460/tcp) to negotiate security parameters, "
+"which are then used via the normal NTP port (123/udp). This is a new "
+"deployment, running on different IP addresses than the service without "
+"NTS."
+msgstr ""
+
+#: ../../25.04/index.md:264 0495425240954eaeade4cc0402db8797
+msgid ""
+"A new CA is installed in `/etc/chrony/nts-bootstrap-ubuntu.crt` that is "
+"used specifically for the Ubuntu NTS bootstrap server, needed for when "
+"the clock is too far off. This is added to certificate set ID \"1\", and "
+"defined via `/etc/chrony/conf.d/ubuntu-nts.conf`. There is also a staging"
+" CA shipped with the package, but it's not referred to anywhere and is "
+"just there as a convenience for testing the staging servers."
+msgstr ""
+
+#: ../../25.04/index.md:266 1d23560021d4493b8bf970a7fe8e1d7d
+msgid ""
+"If your network does not allow access to the Ubuntu NTS servers and the "
+"required ports, and the new configuration is in place, chrony will not be"
+" able to adjust this system's clock. To revert to NTP, just edit the "
+"configuration file in `/etc/chrony/sources.d/ubuntu-ntp-pools.sources` "
+"and revert to using the listed NTP servers in favor of the NTS ones. Or "
+"revert to your previous copy of that configuration file."
+msgstr ""
+
+#: ../../25.04/index.md:268 13460dd92e9643729eef8ea186679d38
+msgid ""
+"For other changes introduced in version 4.6.1, please refer to the "
+"[upstream release notes](https://chrony-"
+"project.org/news.html#_8_oct_2024_chrony_4_6_1_released)."
+msgstr ""
+
+#: ../../25.04/index.md:270 7abfcf74b8c34897bad655aafcc7b82a
+msgid "cloud-init v. 25.1.1"
+msgstr ""
+
+#: ../../25.04/index.md:272 16403b01ca0a415a97c676627637d251
+msgid "Notable features beyond v. 24.3 present in Oracular:"
+msgstr ""
+
+#: ../../25.04/index.md:273 9c59fd7578b74018914d29bd3e7968e8
+msgid ""
+"oracle: [add true single stack ipv6 support](https://github.com/canonical"
+"/cloud-init/pull/5785)"
+msgstr ""
+
+#: ../../25.04/index.md:274 f74f8763126c4ecca48e41dba75294ab
+msgid ""
+"networkd: [Support RequiredForOnline option](https://github.com/canonical"
+"/cloud-init/pull/5852)"
+msgstr ""
+
+#: ../../25.04/index.md:275 31aefd097da24704b20fc43adf9f1ed5
+msgid ""
+"smartos: [Add addrconf IPv6 support](https://github.com/canonical/cloud-"
+"init/pull/5831)"
+msgstr ""
+
+#: ../../25.04/index.md:276 5a862b7ee43f4f578d28eebe0707d984
+msgid ""
+"networkd: Conditionally remove networkd online dependency on Ubuntu "
+"(#5772)-"
+msgstr ""
+
+#: ../../25.04/index.md:277 4dea4ddf60394817ba11e43b90402a72
+msgid ""
+"security: [Ensure random passwords contain multiple character "
+"types](https://github.com/canonical/cloud-init/pull/5815)"
+msgstr ""
+
+#: ../../25.04/index.md:278 3954792f9025447abdd8d3c4eff0b4b6
+msgid "Enable new datasource for CloudCIX platform"
+msgstr ""
+
+#: ../../25.04/index.md:279 4476e2164ecb4108a07f465708bb4ba7
+msgid "vmware:"
+msgstr ""
+
+#: ../../25.04/index.md:280 9bdf4fc18caa4dc39a71831f1517f60a
+msgid ""
+"Move DS VMware to be in front of DS OVF "
+"([#5912](https://github.com/canonical/cloud-init/pull/5912))"
+msgstr ""
+
+#: ../../25.04/index.md:281 15d7616915fd4e669026bf8fb31c343c
+msgid ""
+"Convert imc network config to v2 ([#5937](https://github.com/canonical"
+"/cloud-init/pull/5937))"
+msgstr ""
+
+#: ../../25.04/index.md:282 6a11dd4bc57447659b5c34398a6848e3
+msgid ""
+"Identify Samsung Cloud Platform as OpenStack "
+"([#5924](https://github.com/canonical/cloud-init/pull/5924))"
+msgstr ""
+
+#: ../../25.04/index.md:283 d225473c1ac546d982fd4cb0ff9dbe8b
+msgid ""
+"aliyun: support crawl metadata at once "
+"([#5942](https://github.com/canonical/cloud-init/pull/5942)) "
+"[jinkangkang]"
+msgstr ""
+
+#: ../../25.04/index.md:285 42bdbcc8c7294668b6fc836c2afa2845
+msgid ""
+"For the full list of changes, please see the upstream [release "
+"notes](https://github.com/canonical/cloud-init/releases)"
+msgstr ""
+
+#: ../../25.04/index.md:287 ca9306078f3942b3b5dacb7f139423e7
+msgid "Breaking changes:"
+msgstr ""
+
+#: ../../25.04/index.md:288 2bd67297b1ce4808927bba793fa67a30
+msgid ""
+"To avoid installing unnecessary debian package dependencies on all "
+"images, cloud-init debian package now creates separate binaries:"
+msgstr ""
+
+#: ../../25.04/index.md:289 6fcd8e77a014479d9f19f08dca638a7a
+msgid ""
+"`cloud-init-base`: installs all debian package `Depends:` common to all "
+"cloud platforms"
+msgstr ""
+
+#: ../../25.04/index.md:290 a23e51a14c464d91adca088a91ad8175
+msgid ""
+"separate `cloud-init-<cloudname>` metapackage defining cloud-specific "
+"package dependencies for platforms such as CloudSigma, SmartOs."
+msgstr ""
+
+#: ../../25.04/index.md:292 e01fa47265a8437c98b7a93a27db5e84
+msgid ""
+"Seeding the `cloud-init` metapackage in Plucky and later will continue to"
+" install all package dependencies previously provided by the `cloud-init`"
+" package on Noble and Oracular."
+msgstr ""
+
+#: ../../25.04/index.md:296 9baaaec4f01b4210bc13511ceb40d2a8
+msgid "Containerd"
+msgstr ""
+
+#: ../../25.04/index.md:298 8b781fc0196548599501c26481cbdeba
+msgid ""
+"The containerd (src:containerd-app) package was updated to version 2.0.2."
+" Version 2 includes the stabilization of new features added in the last "
+"1.x release as well as the removal of features which were deprecated in "
+"1.x, meaning you should expect breaking changes here."
+msgstr ""
+
+#: ../../25.04/index.md:300 d41748807b194f00859d1d9509a78609
+msgid ""
+"For further details on such changes, please refer to [the upstream "
+"release "
+"notes](https://github.com/containerd/containerd/blob/main/docs/containerd-2.0.md)."
+msgstr ""
+
+#: ../../25.04/index.md:307 6b1a25ac770c415b876a3dd0c7021187
+msgid "runc"
+msgstr ""
+
+#: ../../25.04/index.md:309 86a2f412f2cf432fa202fb3d50d6351a
+msgid ""
+"runc (src:runc-app) was updated to upstream version 1.2.5. This new "
+"version includes several fixes and changes including"
+msgstr ""
+
+#: ../../25.04/index.md:311 856d09a0a8284f859e6a69a70f041573
+msgid ""
+"When using cgroups v2, allow to set or update memory limit to "
+"\"unlimited\" and swap limit to a specific value."
+msgstr ""
+
+#: ../../25.04/index.md:312 7a729d3b43ed4f64bc35ce6a5f14c005
+msgid ""
+"Mount options on bind-mounts that clear a mount flag are now always "
+"applied. Previously, if a user requested a bind-mount with only clearing "
+"options (such as `rw,exec,dev`) the options would be ignored and the "
+"original bind-mount options would be set."
+msgstr ""
+
+#: ../../25.04/index.md:313 e52e2d6cf17741ef9b3c3f60ba2af6a0
+msgid ""
+"Container configurations using bind-mounts with superblock mount flags "
+"(i.e. filesystem-specific mount flags, referred to as \"data\" in "
+"`mount(2)`, as opposed to VFS generic mount flags like `MS_NODEV`) will "
+"now return an error."
+msgstr ""
+
+#: ../../25.04/index.md:314 4ca45e5412bc4416ba6f4423af17b7fe
+msgid ""
+"Fix CVE-2024-45310, a low-severity attack that allowed maliciously "
+"configured containers to create empty files and directories on the host."
+msgstr ""
+
+#: ../../25.04/index.md:315 07083f9288344358916cbc17ee28962b
+msgid "`runc features` is no longer experimental."
+msgstr ""
+
+#: ../../25.04/index.md:316 a87f9fdc1f994dc9a79e9bbe767e9fe3
+msgid ""
+"`runc` option `--criu` is now ignored (with a warning), and the option "
+"will be removed entirely in a future release."
+msgstr ""
+
+#: ../../25.04/index.md:317 eb8c88cdad8f47229accf410946deb15
+msgid ""
+"`runc kill` option `-a` is now deprecated. Previously, it had to be "
+"specified to kill a container (with SIGKILL) which does not have its own "
+"private PID namespace (so that runc would send SIGKILL to all processes)."
+" Now, this is done automatically."
+msgstr ""
+
+#: ../../25.04/index.md:318 39ef85f6745d408888dc081daea6c96d
+msgid ""
+"runc now supports id-mapped mounts for bind-mounts (with no restrictions "
+"on the mapping used for each mount)."
+msgstr ""
+
+#: ../../25.04/index.md:319 22fb41a19cf3482c93745fe8d1efdd44
+msgid ""
+"runc will now use `cgroup.kill` if available to kill all processes in a "
+"container (such as when doing `runc kill`)."
+msgstr ""
+
+#: ../../25.04/index.md:321 9872b512e58e4d68965e697035f43b13
+msgid ""
+"For a complete list of changes and more details on the ones above, refer "
+"to the [upstream "
+"changelog](https://github.com/opencontainers/runc/blob/main/CHANGELOG.md)."
+msgstr ""
+
+#: ../../25.04/index.md:323 ../../25.04/index.md:881
+#: b6afbb02e30f4fb0b39b5d59b334a947 cc3bb0751b004272b0c7d2a933d3184e
+msgid "Docker"
+msgstr ""
+
+#: ../../25.04/index.md:325 4f83e8efbd4e480b911e2b4ca2e7e198
+msgid ""
+"The docker.io (src:docker.io-app) package was updated to version 27.5.1. "
+"Some highlights of this version include:"
+msgstr ""
+
+#: ../../25.04/index.md:327 89015ce5ce6645a39009a6a12d7d9114
+msgid ""
+"`docker image ls` now supports `--tree` flag that shows a multiplatform-"
+"aware image list."
+msgstr ""
+
+#: ../../25.04/index.md:328 e1eba9406dd44aaebba69c9ff2f782b6
+msgid ""
+"The `Aliases` field returned by `docker inspect` contains the container "
+"short ID once the container is started. This behavior was removed. Now, "
+"the `Aliases` field only contains the aliases set through the `docker "
+"container create` and `docker run` flag `--network-alias`. A new field "
+"`DNSNames` containing the container name (if one was specified), the "
+"hostname, the network aliases, as well as the container short ID, has "
+"been introduced in v25.0 and should be used instead of the `Aliases` "
+"field."
+msgstr ""
+
+#: ../../25.04/index.md:329 f814138a867746adba05479f310e00b9
+msgid ""
+"Add `--platform` flag to `docker image push` and improve the default "
+"behavior when not all platforms of the multi-platform image are available"
+" locally."
+msgstr ""
+
+#: ../../25.04/index.md:330 92f43c1002be43f6867ea56e6a026329
+msgid "Several improvements to IPv6 network configuration."
+msgstr ""
+
+#: ../../25.04/index.md:331 583ecfc80abe45bc81fe0b0efc4dcded
+msgid ""
+"`ip6tables` is no longer experimental. You may remove the `experimental` "
+"configuration option and continue to use IPv6, if it is not required by "
+"any other features."
+msgstr ""
+
+#: ../../25.04/index.md:332 69a0bd22c29942e5bfde288697ecc247
+msgid "`ip6tables` is now enabled for Linux bridge networks by default."
+msgstr ""
+
+#: ../../25.04/index.md:334 377ca083f32147ff8bdd0093aa558ae6
+msgid ""
+"Watch out for deprecation or removal of features in this [upstream "
+"page](https://github.com/docker/cli/blob/v27.5.1/docs/deprecated.md)"
+msgstr ""
+
+#: ../../25.04/index.md:336 894e85ecd9034ec4835adedc363b6830
+msgid ""
+"**docker-buildx:** docker-buildx was updated to version 0.20.1. This "
+"version introduces new features such as"
+msgstr ""
+
+#: ../../25.04/index.md:338 398aa54d82a7437c9b686cd4e0be2e87
+msgid ""
+"New `--call` option allows setting evaluation method for a build, "
+"replacing the previous experimental `--print` flag."
+msgstr ""
+
+#: ../../25.04/index.md:339 aebabdced3f54d79b00c0a09ceacea1e
+msgid ""
+"Build command now ensures that multi-node builds use the same build "
+"reference for each node."
+msgstr ""
+
+#: ../../25.04/index.md:340 2cfac7b01893437e898362471f090f84
+msgid "Several improvements for the `bake` command."
+msgstr ""
+
+#: ../../25.04/index.md:341 0b0741bbeb06404d8fa6a5febc73f1a6
+msgid ""
+"New `buildx history` command has been added that allows working with "
+"build records of completed and running builds."
+msgstr ""
+
+#: ../../25.04/index.md:343 1c39cdd6015a4693ad958d20c92cda9a
+msgid ""
+"**docker-compose-v2:** docker-compose-v2 was updated to version 2.33.0. "
+"This version introduces several fixes and new features such as"
+msgstr ""
+
+#: ../../25.04/index.md:345 2f1aeea3a7ef46ab9a1c1b15b58f51fa
+msgid ""
+"A new `--environment` flag to `config` command to output the resolved "
+"environment variables used for interpolation."
+msgstr ""
+
+#: ../../25.04/index.md:346 8f5812ef6c624c60b6235248ff37d833
+msgid ""
+"A new `--prune` option to the docker-compose `watch` command to ensure "
+"that dangling images are pruned automatically when rebuilding."
+msgstr ""
+
+#: ../../25.04/index.md:347 5fc9e091dee74d3fa43a86c9d23f9184
+msgid "Support to bake was added."
+msgstr ""
+
+#: ../../25.04/index.md:354 f94a1213b2f44ed588416456615c7a22
+msgid "HAProxy"
+msgstr ""
+
+#: ../../25.04/index.md:355 5eaac3a7b61745d28e0cfe1ba7e7c077
+msgid ""
+"The HAProxy package was upgraded to version 3.0.7. This new version "
+"introduces performance improvements for Lua scripts and stick tables, "
+"support for virtual ACL and map files, limiting glitchy HTTP/2 "
+"connections, and persistent stats after a reload. **Breaking changes** "
+"include detection of accidental multiple commands sent to the Runtime "
+"API, rejecting the `enabled` keyword for dynamic servers, stricter "
+"parsing of non-standard URIs and renaming of `tune.ssl.ocsp-update` to "
+"`tune.ocsp-update`. You can learn more about it at "
+"[https://www.haproxy.com/blog/announcing-"
+"haproxy-3-0](https://www.haproxy.com/blog/announcing-haproxy-3-0). A "
+"complete list of changes is available at "
+"[https://www.haproxy.org/download/3.0/src/CHANGELOG](https://www.haproxy.org/download/3.0/src/CHANGELOG)."
+msgstr ""
+
+#: ../../25.04/index.md:358 97e5ae578202403f9aa42b2cea52d22f
+msgid "`freeradius`"
+msgstr ""
+
+#: ../../25.04/index.md:360 aee7801dd27f42b8b092c6ae6b8412e5
+msgid ""
+"`freeradius` 3.2.7+dfsg-1ubuntu1 drops `radlast`. This is due to "
+"`radlast` calling `last`, which is no longer available in Ubuntu. These "
+"use `wtmp` 32 bit files, which are not 2038 compliant. Upstream source "
+"has dropped `radlast` and other tools in [an upstream "
+"commit](https://github.com/FreeRADIUS/freeradius-"
+"server/commit/b0f4123c84a0aeaa6fc393fd5e6fdaa0e0a86eaf). These were "
+"originally made optional, and later removed entirely. Information in [lp:"
+" "
+"2096611](https://bugs.launchpad.net/ubuntu/+source/freeradius/+bug/2096611)"
+msgstr ""
+
+#: ../../25.04/index.md:362 ../../25.04/index.md:846
+#: ae49ff85f61e4d079ed7f06c8c95c269 ddf67f3a8bf544bface4122c925ce031
+msgid "libvirt"
+msgstr ""
+
+#: ../../25.04/index.md:364 85b9e31cb9e24093864073fe5d658dcd
+msgid ""
+"The [libvirt ](https://libvirt.org) package was upgraded to version "
+"10.10.0. Here are the changes since Ubuntu Oracular:"
+msgstr ""
+
+#: ../../25.04/index.md:366 5e1183ea9aa64392968b2e3336a29db2
+msgid ""
+"network: make networks with `<forward mode='open'/>` more useful.  It is "
+"now permissible to have a `<forward mode='open'>` network that has no IP "
+"address assigned to the host's port of the bridge. This is the only way "
+"to create a libvirt network where guests are unreachable from the host "
+"(and vice versa) and also 0 firewall rules are added on the host."
+msgstr ""
+
+#: ../../25.04/index.md:369 fe67f34326dc40ed9f6e0fbf78905ec5
+msgid ""
+"It is now also possible for a `<forward mode='open'/>` network to use the"
+" `zone` attribute of `<bridge>` to set the firewalld zone of the bridge "
+"interface (normally it would not be set, as is done with other forward "
+"modes)."
+msgstr ""
+
+#: ../../25.04/index.md:371 6e73dac10f3242cf86acea4199984a6d
+msgid "qemu: zero block detection for non-shared-storage migration"
+msgstr ""
+
+#: ../../25.04/index.md:373 b9dd416244914a1ab49edadfe979a332
+msgid ""
+"Users can now request that all-zero blocks are not transferred when "
+"migrating non-shared disk data without actually enabling zero detection "
+"on the disk itself. This allows sparsifying images during migration where"
+" the source has no access to the allocation state of blocks at the cost "
+"of CPU overhead."
+msgstr ""
+
+#: ../../25.04/index.md:375 bfaa4d6ffa4a49fcb87022bbe6285387
+msgid ""
+"This feature is available via the `--migrate-disks-detect-zeroes` option "
+"for `virsh migrate` or `VIR_MIGRATE_PARAM_MIGRATE_DISKS_DETECT_ZEROES` "
+"migration parameter. See the documentation for caveats."
+msgstr ""
+
+#: ../../25.04/index.md:377 9dcc43bc00074d0eb8e31de4dd28758f
+msgid "qemu: internal snapshot improvements"
+msgstr ""
+
+#: ../../25.04/index.md:379 69ec95aee7054cdab7e04460a9f8ad06
+msgid ""
+"The qemu internal snapshot handling code was updated to use modern "
+"commands which avoid the problems the old ones had, preventing use of "
+"internal snapshots on VMs with UEFI NVRAM. Internal snapshots of VMs "
+"using UEFI are now possible provided that the NVRAM is in `qcow2` format."
+msgstr ""
+
+#: ../../25.04/index.md:381 dc9100ae4f8e4ca5ab47a2577ab23d36
+msgid "qemu: add multi boot device support on s390x"
+msgstr ""
+
+#: ../../25.04/index.md:383 fa8fad41e60c4555b3b75c6ab6610d29
+msgid ""
+"For classical mainframe guests (i.e. LPAR or z/VM installations), you "
+"always have to explicitly specify the disk where you want to boot from "
+"(or \"IPL\" from, in s390x-speak -- IPL means \"Initial Program Load\")."
+msgstr ""
+
+#: ../../25.04/index.md:385 f4d8824972614fed984636dede198422
+msgid ""
+"In the past QEMU only used the first device in the boot order to IPL "
+"from. With the new multi boot device support on s390x that is available "
+"with QEMU version 9.2 and newer, this limitation is lifted. If the IPL "
+"fails for the first device with the lowest boot index, the device with "
+"the second lowest boot index will be tried and so on until IPL is "
+"successful or there are no remaining boot devices to try."
+msgstr ""
+
+#: ../../25.04/index.md:387 c2bc0ce8faf24d1c9430072b67c430fc
+msgid ""
+"Limitation: The s390x BIOS will try to IPL up to 8 total devices, any "
+"number of which may be disks or network devices."
+msgstr ""
+
+#: ../../25.04/index.md:389 ffb73416ee5f4dd687c6a66d8a966316
+msgid "qemu: Add support for versioned CPU models"
+msgstr ""
+
+#: ../../25.04/index.md:391 bb97453635a4465ba57327c10231fa5e
+msgid ""
+"Updates to QEMU CPU models with `-vN` suffix can now be used in libvirt "
+"just like any other CPU model."
+msgstr ""
+
+#: ../../25.04/index.md:393 735c3382c66d4699b5244e7652e89123
+msgid "qemu: Automatically add IOMMU when needed"
+msgstr ""
+
+#: ../../25.04/index.md:395 b8c4cf1e165b4911a22d04def0428bb4
+msgid ""
+"When domain of `qemu` or `kvm` type have more than 255 vCPUs, IOMMU with "
+"EIM mode is required. Starting with this release libvirt automatically "
+"adds one (or turns on the EIM mode if there's IOMMU without it)."
+msgstr ""
+
+#: ../../25.04/index.md:397 84d7fda8723e4a7ca6baf81288820991
+msgid ""
+"In 10.5 (thereby oracular) already support for `SEV-SNP` was introduced "
+"as another type of `<launchSecurity/>`. Its support is reported in both "
+"domain capabilities and virt-host-validate. Now also the qemu version in "
+"the release is ready to provide that."
+msgstr ""
+
+#: ../../25.04/index.md:399 44ec08ad8b3d4e49a4a865e1b55f8570
+msgid ""
+"The Debian (and consequently the Ubuntu) libvirt package has been "
+"significantly redesigned. To quote its NEWS file:"
+msgstr ""
+
+#: ../../25.04/index.md:401 caa00ddfc15140d99ff1054b9ebb1b85
+msgid ""
+"All the various drivers and storage backends come in their own separate "
+"binary packages now, which makes it possible to install exactly as many "
+"or as few as desired."
+msgstr ""
+
+#: ../../25.04/index.md:403 6550947d4fa14845bbb4cb44aa80e3a5
+msgid ""
+"The system-wide configuration for the libvirtd daemon is no longer "
+"shipped separately from the daemon itself, as was the case until now. The"
+" `libvirt-daemon-system` package still exists, but it's now simply a "
+"convenient way to install the \"typical\" libvirt deployment consisting "
+"of all the components needed to run a QEMU-based hypervisor."
+msgstr ""
+
+#: ../../25.04/index.md:405 37815333e8ae4797857715032a3b94d8
+msgid ""
+"For more details, please see [the upstream changelog "
+"](https://www.libvirt.org/news.html#v10-10-0-2024-12-02)."
+msgstr ""
+
+#: ../../25.04/index.md:407 e07a6f8bbb894fc78cce727b03d27588
+msgid "Monitoring Plugins"
+msgstr ""
+
+#: ../../25.04/index.md:409 34b5c2111d754d91a9e34f068ed1da7f
+msgid ""
+"Monitoring-plugins is upgraded to the 2.4.0 release in Plucky Penguin. "
+"While primarily a bugfix release, this includes a few minor enhancements:"
+msgstr ""
+
+#: ../../25.04/index.md:411 5068150200c74810863c68c8b01a2ec0
+msgid "Add new test function for percentage expressions"
+msgstr ""
+
+#: ../../25.04/index.md:412 bc307a4ab81c44d78099e580429e7c4a
+msgid "check_ups: output ups.realpower if supported"
+msgstr ""
+
+#: ../../25.04/index.md:413 30738d21430c42ccb1d8c81ce46a72f4
+msgid "check_curl: add haproxy protocol option"
+msgstr ""
+
+#: ../../25.04/index.md:414 d917488de1b94ad38dcacd6cb3e30ea4
+msgid "check_disk: increase alert precision"
+msgstr ""
+
+#: ../../25.04/index.md:415 678ed35c07f848129a176cc82aa31f2b
+msgid "check_ircd: IPv6 support"
+msgstr ""
+
+#: ../../25.04/index.md:416 01c130b5b9284674b067405611bf3133
+msgid "check_nwstat: adds percentage used space"
+msgstr ""
+
+#: ../../25.04/index.md:417 4c2caac09dd34bcdad5bd69605fb4caf
+msgid "check_swap: Possibility to run check_swap without thresholds"
+msgstr ""
+
+#: ../../25.04/index.md:418 1e02bed1e7634b3d8f316ff6a49eb97e
+msgid "check_ups: additional alarm conditions"
+msgstr ""
+
+#: ../../25.04/index.md:420 565c47d74344464faded54b535abad9d
+msgid ""
+"For the full list of changes, please see the upstream [release "
+"notes](https://github.com/monitoring-plugins/monitoring-plugins/releases)"
+msgstr ""
+
+#: ../../25.04/index.md:423 083ee0e65a6a468db35ede0ca9014134
+msgid "Nginx"
+msgstr ""
+
+#: ../../25.04/index.md:425 70f4707d15304a5bb83f00221a2c2244
+msgid ""
+"The upgrade from Oracular's 1.26.0 to Plucky's 1.26.3 brings a handful of"
+" bug fixes, along with security fixes (already backported to the Oracular"
+" version).  There are no feature changes this release."
+msgstr ""
+
+#: ../../25.04/index.md:427 d42effd08e3f4590895b0c0de400e751
+msgid "OpenLDAP"
+msgstr ""
+
+#: ../../25.04/index.md:429 111462a1e65746259e861fadeab80cc1
+msgid ""
+"The 2.6.9 release is a bugfix-only release with improvements to libldap, "
+"slapd, and slapo subcomponents.  For the full list of changes please see "
+"the [release "
+"notes](https://www.openldap.org/software/release/changes.html)."
+msgstr ""
+
+#: ../../25.04/index.md:431 2296bb8670454dcfa0e487ba0082700a
+msgid "OpenSSH"
+msgstr ""
+
+#: ../../25.04/index.md:433 e5efa26a2b2b4ea3a92b130a05ad8448
+msgid ""
+"OpenSSH was updated to version 9.9. Here are some highlights since 9.7, "
+"last shipped in Ubuntu 24.10:"
+msgstr ""
+
+#: ../../25.04/index.md:435 1d50691378f6402cbb542e2948aecb93
+msgid ""
+"new `PerSourcePenalties` option that will penalise client addresses that "
+"for some reason do not complete authentication. New in version 9.8."
+msgstr ""
+
+#: ../../25.04/index.md:436 b4dc74d916b243dcaf82cef9f80dd2be
+msgid ""
+"support for a new hybrid post-quantum key exchange algorithm, called "
+"\"mlkem768x25519-sha256\". Described in "
+"https://datatracker.ietf.org/doc/html/draft-kampanakis-curdle-ssh-pq-"
+"ke-03, it's available by default. New in version 9.8."
+msgstr ""
+
+#: ../../25.04/index.md:437 0d14aa6bfada4863a8f9e97941ca2df9
+msgid ""
+"new match option `invalid-user`, which can be used when the target "
+"username is not valid"
+msgstr ""
+
+#: ../../25.04/index.md:438 239ecc31c44748f59853878c2e240ee3
+msgid ""
+"prevent private keys from being included in core dump files for most of "
+"their lifespans. New in version 9.8."
+msgstr ""
+
+#: ../../25.04/index.md:439 34e45cdccbbf41a8bc58629402a4488b
+msgid ""
+"and more For a detailed list of the changes since 9.7, please consult the"
+" upstream release notes at https://www.openssh.com/releasenotes.html."
+msgstr ""
+
+#: ../../25.04/index.md:442 daef3703ec1c41ce8beb7bf287988698
+msgid ""
+"In terms of Ubuntu and Debian packaging, here are the most important "
+"changes:"
+msgstr ""
+
+#: ../../25.04/index.md:443 e8f5bfccf3f94e01a5f804788f9433eb
+msgid ""
+"New `sshd.service` alias to `ssh.service`. Both names can now be used in "
+"`systemctl` commands."
+msgstr ""
+
+#: ../../25.04/index.md:444 503a1bfbd48d4dc5bf49cb5174976cf3
+msgid ""
+"New binary packages called `openssh-client-gssapi` and `openssh-server-"
+"gssapi` . This is in preparation for a future split of the GSSAPI "
+"authentication mechanism into separate packages in the near future. For "
+"now, they just pull in their non-gssapi counterparts, if installed. See "
+"https://lists.debian.org/debian-devel/2024/04/msg00044.html for the "
+"detailed plan."
+msgstr ""
+
+#: ../../25.04/index.md:445 6ccfedae8dcd4fd087f575371ec7fa07
+msgid "Host DSA keys are no longer generated."
+msgstr ""
+
+#: ../../25.04/index.md:447 19bb59be84c74a26a4a106aea4cd52d3
+msgid "Valkey"
+msgstr ""
+
+#: ../../25.04/index.md:449 40f09e1f8f65464e971b9eeff01625af
+msgid ""
+"Valkey was updated to version 8, starting with 8.0.2. This includes "
+"significant performance and reliability improvements, without any "
+"backwards-incompatible changes to commands and responses. For more "
+"information on the new version, see the [Valkey 8 blog "
+"post](https://valkey.io/blog/valkey-8-0-0-rc1/). Release notes are "
+"available on the [Valkey project GitHub](https://github.com/valkey-"
+"io/valkey/releases/tag/8.0.2)."
+msgstr ""
+
+#: ../../25.04/index.md:452 0495d820f9864d6eabdb4043a980f3a9
+msgid "MySQL"
+msgstr ""
+
+#: ../../25.04/index.md:454 dbc00e87ead3492895fb014ff8afdde4
+msgid ""
+"MySQL was updated from 8.0 to 8.4 LTS, starting with 8.4.4. This is "
+"MySQL's first official long term support release, including various "
+"internal improvements, new features, and some important configuration "
+"changes."
+msgstr ""
+
+#: ../../25.04/index.md:456 fc679ca7b1dd403ab9ea8e8c87356772
+msgid ""
+"Upstream release notes are now available in the [Mysql 8.4 documentation "
+"library](https://dev.mysql.com/doc/relnotes/mysql/8.4/en/). For more "
+"information about the transition from MySQL 8.0 to 8.4, see the [MySQL "
+"8.4 overview](https://dev.mysql.com/doc/refman/8.4/en/mysql-"
+"nutshell.html)."
+msgstr ""
+
+#: ../../25.04/index.md:458 36465d5df5514e4ba2c1b31608c92666
+msgid ""
+"Due to upstream policy, support for 32-bit MySQL Server has been removed."
+" However, Ubuntu will continue to provide a MySQL client and client "
+"library for 8.4."
+msgstr ""
+
+#: ../../25.04/index.md:461 e31fdbb6edd44c4a97c4d5e41cc48ee5
+msgid "MySQL Shell"
+msgstr ""
+
+#: ../../25.04/index.md:463 7c9afc139f934a94bbe6700e1c70cd94
+msgid ""
+"MySQL Shell was updated from 8.0.38 to 8.4.4 to coincide with MySQL 8.4. "
+"It adds support for MySQL 8.4 servers, and provides additional "
+"improvements for interacting with MySQL 8.0 servers. For a list of "
+"features, see the [MySQL Shell 8.4 "
+"documentation](https://dev.mysql.com/doc/mysql-shell/8.4/en/). Release "
+"notes for MySQL Shell 8.4 can be found "
+"[here](https://dev.mysql.com/doc/relnotes/mysql-shell/8.4/en/)."
+msgstr ""
+
+#: ../../25.04/index.md:466 fadc69fd3d794a45a1265d830932366a
+msgid "Percona Xtrabackup"
+msgstr ""
+
+#: ../../25.04/index.md:468 4f258099e5794cb682d77e83cc9c3b09
+msgid ""
+"Percona-Xtrabackup was updated from the 8.0 track to 8.4 with 8.4.0-1, "
+"also to coincide with the release of MySQL 8.4. This version provides "
+"changes to match MySQL 8.4, along with support for the `keyring_vault` "
+"component. For more information see the [upstream release "
+"notes](https://docs.percona.com/percona-xtrabackup/8.4/release-"
+"notes/8.4.0-1.html)."
+msgstr ""
+
+#: ../../25.04/index.md:471 e19b194343b4469e97729c58da88aced
+msgid "PHP"
+msgstr ""
+
+#: ../../25.04/index.md:473 70363816a8ff40378eeea2fd95e54d68
+msgid ""
+"PHP was updated to version 8.4. This is a major update of the languages "
+"including new features such as property hooks, asymmetric visibility, an "
+"updated DOM API, and more."
+msgstr ""
+
+#: ../../25.04/index.md:475 95b5615a0f0e4a5f84fd3ffcc5fc3c46
+msgid ""
+"For more details see the [upstream release "
+"notes](https://www.php.net/releases/8.4/en.php)."
+msgstr ""
+
+#: ../../25.04/index.md:477 4248639a0bbc4cd1a3c7cad4a8b96843
+msgid "PostgreSQL"
+msgstr ""
+
+#: ../../25.04/index.md:479 baae5e07196b4452b8dbd1dd25ed278b
+msgid ""
+"PostgreSQL was updated to version 17, which contains several new features"
+" and enhancements, including"
+msgstr ""
+
+#: ../../25.04/index.md:481 1a2eadca908040a590fddcbef72e0f26
+msgid ""
+"A new memory management system for `VACUUM`, which reduces memory "
+"consumption and can improve overall vacuuming performance;"
+msgstr ""
+
+#: ../../25.04/index.md:482 3ef9ac15c1c048a893528e9cbeddb1dd
+msgid ""
+"New SQL/JSON capabilities, including constructors, identity functions, "
+"and the `JSON_TABLE()` function, which converts JSON data into a table "
+"representation;"
+msgstr ""
+
+#: ../../25.04/index.md:483 6bca57073ae0497db4f90d220cb84c27
+msgid ""
+"Various query performance improvements and Logical replication "
+"enhancements; and"
+msgstr ""
+
+#: ../../25.04/index.md:484 b518101c946441179a3b59f104ba4323
+msgid ""
+"A new client-side connection option, `sslnegotiation=direct`], that "
+"performs a direct TLS handshake to avoid a round-trip negotiation."
+msgstr ""
+
+#: ../../25.04/index.md:486 f46fc866945e4733902bf8d4bb094ffd
+msgid ""
+"For more details, see the [upstream release "
+"notes](https://www.postgresql.org/docs/17/release-17.html)."
+msgstr ""
+
+#: ../../25.04/index.md:488 4a6c7f012905429ab66ccf952eeeb5f5
+msgid "QEMU"
+msgstr ""
+
+#: ../../25.04/index.md:490 7d4572f35ba54358b3e3e690b4c2dd88
+msgid ""
+"The [QEMU ](https://qemu.org/) package was updated to version 9.2.0. Here"
+" are the changes since Ubuntu Oracular."
+msgstr ""
+
+#: ../../25.04/index.md:492 c226e11472714238ba1fb31504ccaf83
+msgid ""
+"The `scsi` property of `virtio-blk` devices has been removed. SCSI "
+"command passthrough had never been present on `virtio-blk` 1.0 devices, "
+"and is now removed from legacy devices as well. Use `virtio-scsi` "
+"instead."
+msgstr ""
+
+#: ../../25.04/index.md:493 c051932028bd4dfba90a377f42ab3626
+msgid ""
+"The `block migration` options to the migrate commands (`blk` and `inc` "
+"for QMP, `-b`/`-i` for the human monitor) have been removed; guest "
+"management software such as libvirt is able to perform block migration "
+"more efficiently using block jobs and NBD devices."
+msgstr ""
+
+#: ../../25.04/index.md:494 d199f54aa7fe48d9b66f79d30c6ef9b2
+msgid ""
+"The `compress` migration capability has been removed; `multifd` migration"
+" is able to do compression and can be used instead."
+msgstr ""
+
+#: ../../25.04/index.md:495 8e60f2e89a944fbfb3fd5812ecfe5557
+msgid ""
+"The `proxy` backend for 9pfs, and the `virtfs-proxy-helper` program, have"
+" been removed. Use the `local` backend driver or `virtio-fs` instead."
+msgstr ""
+
+#: ../../25.04/index.md:497 12a8792947564e098e5209b86637b8ed
+msgid "x86"
+msgstr ""
+
+#: ../../25.04/index.md:498 3b99e7041a0845e58f84fca010e6212a
+msgid ""
+"Support for AMD SEV-SNP using the \"-object sev-snp-guest\" command line "
+"option in QEMU 9.1 followed by fixups for related virtio handling in QEMU"
+" 9.2."
+msgstr ""
+
+#: ../../25.04/index.md:499 8c7f10054c13410999fcaa73d05ab2c1
+msgid ""
+"As usual new named CPU models and detection of their related CPU "
+"features, this time new variants of Icelake-Server, Cascadelake-Server, "
+"GraniteRapids, and SapphireRapids"
+msgstr ""
+
+#: ../../25.04/index.md:501 523ede77e2fe4d709062d982ef364d6a
+msgid "ARM"
+msgstr ""
+
+#: ../../25.04/index.md:502 c4a9c67dbcbf41b2b72e2db25d566a85
+msgid ""
+"New CPU architectural features emulated:   `FEAT_NMI`   `FEAT_CSV2_3`   "
+"`FEAT_ETS2`   `FEAT_Spec_FPACC`   `FEAT_WFxT`   `FEAT_Debugv8p8`   "
+"`FEAT_EBF16`   `FEAT_CMOW`"
+msgstr ""
+
+#: ../../25.04/index.md:511 7bdb8c9478e7435689abf3d651b7574b
+msgid ""
+"The `max` CPU and any new CPU types will default to a 1GHz generic timer "
+"frequency rather than the old 62.5MHz (this is architecturally required "
+"from ARMv8.6 onwards)."
+msgstr ""
+
+#: ../../25.04/index.md:512 d46cd8f878d14dcda618d65686c6f6e8
+msgid "KVM-based VMs can now support MTE (if the host CPU has MTE support)."
+msgstr ""
+
+#: ../../25.04/index.md:515 ../../25.04/index.md:775
+#: ca7a2d226bee41009eefa709124e23d2 e02d5b6f724c4276b7ce5dc6caf26e56
+msgid "RISC-V"
+msgstr ""
+
+#: ../../25.04/index.md:516 995d86a705234482bf70b56e3242cb60
+msgid "Support RISC-V privilege 1.13 spec."
+msgstr ""
+
+#: ../../25.04/index.md:517 3c4ce878ac5b4a7f88a3f3d2f6fc7f80
+msgid "Implement SBI debug console (`DBCN`) calls for KVM."
+msgstr ""
+
+#: ../../25.04/index.md:518 cbe2b794c36848439c1ee9340a810ac1
+msgid "Add support for `Zve32x` extension."
+msgstr ""
+
+#: ../../25.04/index.md:519 14038e0828b34d7683b2ef357caa15ae
+msgid "Add support for `Zve64x` extension."
+msgstr ""
+
+#: ../../25.04/index.md:520 57188ec36e5544cbbf6311db51f2f722
+msgid "Add `th.sxstatus` CSR emulation."
+msgstr ""
+
+#: ../../25.04/index.md:521 4c99d6d370b44c3cb27129207fd28ce2
+msgid "Remove experimental prefix from `B` extension."
+msgstr ""
+
+#: ../../25.04/index.md:522 9be6e94e9f6447cba9cda7dbdd3b8712
+msgid "Support the `zimop`, `zcmop`, `zama16b` and `zabha` extensions."
+msgstr ""
+
+#: ../../25.04/index.md:523 1ec060f4867f476ebf45c77818e99fec
+msgid "Add decode support for `Zawrs` extension."
+msgstr ""
+
+#: ../../25.04/index.md:524 1eb28dc7d7d74eddbbb1f2af741d1e85
+msgid "Add `smcntrpmf` extension support."
+msgstr ""
+
+#: ../../25.04/index.md:525 5bc5911cbaca49de9692420405147b5b
+msgid "Support 64-bit addresses for `initrd`."
+msgstr ""
+
+#: ../../25.04/index.md:526 2ad40234953345cdaaa74ed44371b950
+msgid "QEMU support for KVM Guest Debug on RISC-V."
+msgstr ""
+
+#: ../../25.04/index.md:527 0c0cc0bd005b42a8b956f790f7dd7591
+msgid "Add `fcsr` register to QEMU log as a part of F extension."
+msgstr ""
+
+#: ../../25.04/index.md:528 5a84adaa67c842979f35744282e92a82
+msgid "Add `Svvptc` extension support."
+msgstr ""
+
+#: ../../25.04/index.md:529 476bad35cbcf46a0b7e12fb6821d08ff
+msgid "Support for control flow integrity extensions."
+msgstr ""
+
+#: ../../25.04/index.md:530 59fb93b7c5b94d159df577ebab03e18a
+msgid "Support for the IOMMU with the virt machine."
+msgstr ""
+
+#: ../../25.04/index.md:532 ../../25.04/index.md:885
+#: 6d78c9b11225428292aae3619d1eb383 996bab37b18f4bdaa26fcf7656b38778
+msgid "s390x"
+msgstr ""
+
+#: ../../25.04/index.md:533 34ba9874cbbd4fdaa14c862974b78303
+msgid "New architectural features emulated: `FMAF` `IMA` `VIS3` `VIS4`"
+msgstr ""
+
+#: ../../25.04/index.md:538 1ad47338028c43ab9cad79abac611044
+msgid ""
+"No new cpu types with these features are added, yet, but one may enable "
+"them manually with `-cpu <type>,+<feature>`."
+msgstr ""
+
+#: ../../25.04/index.md:539 01d41b5f647c46e1944a868204e3b590
+msgid ""
+"The `s390-ccw` guest firmware now supports booting from other devices in "
+"case the previous ones fail."
+msgstr ""
+
+#: ../../25.04/index.md:541 e0c8db87ac9f428aa73ed180f38cb3b0
+msgid "For more details, please see related upstream changelogs:"
+msgstr ""
+
+#: ../../25.04/index.md:543 30e1cd66efb04e4390ddf64e9ad92643
+msgid "[9.1](https://wiki.qemu.org/ChangeLog/9.1)"
+msgstr ""
+
+#: ../../25.04/index.md:544 2acf6bed740948ab8e2dd1956e243b3e
+msgid "[9.2](https://wiki.qemu.org/ChangeLog/9.2)"
+msgstr ""
+
+#: ../../25.04/index.md:547 a4b4deca7c1f47d192848a9e1c439e8c
+msgid "Samba"
+msgstr ""
+
+#: ../../25.04/index.md:549 2c1b1a75a3e54e388844a4b6f6ae3d0d
+msgid "Samba was updated to series 4.21.x. Here are some of the highlights:"
+msgstr ""
+
+#: ../../25.04/index.md:551 66cfa442be3f4064bc598731f65e34f0
+msgid "LDAP TLS/SASL channel binding support"
+msgstr ""
+
+#: ../../25.04/index.md:552 4534f351d931470989f30fa4e682b43e
+msgid "Group Managed Service Accounts"
+msgstr ""
+
+#: ../../25.04/index.md:553 31f93a3da7bd474292a2f91dd76bd5c2
+msgid "Samba can now claim Functional Level 2012R2 support"
+msgstr ""
+
+#: ../../25.04/index.md:554 ab96ffb1eafa4aea84d281efae31f7b8
+msgid "Some Samba public libraries made private by default"
+msgstr ""
+
+#: ../../25.04/index.md:555 4672d3c5e3e042fa9cb97694a48c9b77
+msgid "Samba AD will rotate expired passwords on smartcard-required accounts"
+msgstr ""
+
+#: ../../25.04/index.md:556 843bd4b90e6e42eaa87e7a077030d8b3
+msgid "Automatic keytab update after machine password change"
+msgstr ""
+
+#: ../../25.04/index.md:557 c1192e636513464d96e1e222bb53ffc1
+msgid "and more"
+msgstr ""
+
+#: ../../25.04/index.md:559 50ba09929b4e46c794ddc0d7ab087899
+msgid ""
+"For a more detailed explanation, please refer to the upstream release "
+"notes at https://www.samba.org/samba/history/samba-4.21.0.html"
+msgstr ""
+
+#: ../../25.04/index.md:561 ac7511b1253e425ca4ca8b4257974882
+msgid "samba on i386"
+msgstr ""
+
+#: ../../25.04/index.md:563 59222eb042774256acbe8700f1dda8fb
+msgid ""
+"Samba version 4.21.x added a dependency to the `python3-samba` package: "
+"`python3-cryptography`. Unfortunately, `python3-cryptography` was last "
+"built for i386 for Ubuntu Bionic 18.04, and is no longer available for "
+"that architecture, making this new dependency unsatisfiable."
+msgstr ""
+
+#: ../../25.04/index.md:565 d137a05a55a44c0689fc0be5040279db
+msgid ""
+"For Ubuntu Plucky, it was decided to not build `python3-samba` for i386. "
+"Please see [LP: "
+"#2099895](https://bugs.launchpad.net/ubuntu/+source/samba/+bug/2099895) "
+"for details. The main consequence is that the `samba-tool` script (part "
+"of that package) is no longer available for i386."
+msgstr ""
+
+#: ../../25.04/index.md:567 abc209bcb87a4f8db271df8a6f7ff902
+msgid "Upgrading an AD/DC from previous Ubuntu releases"
+msgstr ""
+
+#: ../../25.04/index.md:569 82e17039b7074aca9abd6a723fae895c
+msgid ""
+"If you have deployed a Samba Active Directory Domain Controller WITHOUT "
+"having installed the `samba-ad-dc` package, you should install it before "
+"doing a release upgrade to Ubuntu Plucky Puffin 25.04. If `samba-ad-dc` "
+"is not installed prior to the release upgrade, the Active Directory "
+"Domain Controller functionality will not work on the upgraded system due "
+"to many missing components."
+msgstr ""
+
+#: ../../25.04/index.md:571 b40d9204eff14bdd879a5800b98642a9
+msgid ""
+"See [LP: "
+"#2101838](https://bugs.launchpad.net/ubuntu/+source/samba/+bug/2101838) "
+"for more information."
+msgstr ""
+
+#: ../../25.04/index.md:574 7613abe45e024fb7b2b1f5dd308d5edc
+msgid "Squid"
+msgstr ""
+
+#: ../../25.04/index.md:576 bd52b7b2533e4b2fae65f28f5404defe
+msgid ""
+"Squid 6.13 is a stable release consisting mainly of bugfixes and "
+"cleanups.  One functional change of note is that `ext_time_quota_acl` no "
+"longer supports the -l option.  For the complete list of changes, see the"
+" [v6.13 change list](https://github.com/squid-cache/squid/releases)."
+msgstr ""
+
+#: ../../25.04/index.md:578 5b03d4357d66437789d1c09320520c1b
+msgid "SSSD"
+msgstr ""
+
+#: ../../25.04/index.md:580 02b66d39bbcf45159bf4415be8bd24ad
+msgid "SSSD has been updated to 2.10.1 and these are the highlights:"
+msgstr ""
+
+#: ../../25.04/index.md:582 8a9520ab03f9427a8f20a494d5dbb9e3
+msgid ""
+"unprivileged service user: there is initial support for running `sssd` "
+"with less privileges, but in Debian/Ubuntu the main daemons still run "
+"under root. Filesystem capabilities had to be added to many binary "
+"helpers, though:"
+msgstr ""
+
+#: ../../25.04/index.md:583 a0e2c3949552465b88bd7a760710e7a7
+msgid "`sssd_pam`: *cap_dac_read_search*"
+msgstr ""
+
+#: ../../25.04/index.md:584 3db1fcdec64043edb2ab635441fa1f49
+msgid "`selinux_child`: *cap_setuid*, *cap_setgid*"
+msgstr ""
+
+#: ../../25.04/index.md:585 23be0a13afef471785a42c4c6198813c
+msgid "`ldap_child`: *cap_dac_read_search*"
+msgstr ""
+
+#: ../../25.04/index.md:586 f458849033594108b90940a3fb75f21f
+msgid ""
+"`krb5_child`: *cap_dac_read_search*, *cap_setuid*, *cap_setgid* This "
+"should all be transparent."
+msgstr ""
+
+#: ../../25.04/index.md:588 2090ca19fd1240eda90b01ec1a6c9ea5
+msgid ""
+"The `sssctl cache-upgrade` command was removed. SSSD will do automatic "
+"cache upgrades at startup if needed."
+msgstr ""
+
+#: ../../25.04/index.md:589 682a842b62ba42b19472ba48e501f9a1
+msgid "Default `ldap_id_use_start_tls` value changed from `false` to `true`."
+msgstr ""
+
+#: ../../25.04/index.md:590 94886fca4e8b49368878f4d83857bc0a
+msgid "Obsolete `config_file_version` option was removed."
+msgstr ""
+
+#: ../../25.04/index.md:591 593ab3d8383a48379cc1d102e3f814f5
+msgid "Option `reconnection_retries` was removed."
+msgstr ""
+
+#: ../../25.04/index.md:593 d5189a9d0e7841899925e41a23a0d62d
+msgid ""
+"For more details and other changes, please refer to the upstream release "
+"notes at https://sssd.io/release-notes/sssd-2.10.0.html."
+msgstr ""
+
+#: ../../25.04/index.md:595 a57d6002a8f24bcd9918a3f9f848f4a3
+msgid "Intel® QuickAssist Technology (Intel® QAT)"
+msgstr ""
+
+#: ../../25.04/index.md:597 c346982fa0ef4e28b5bf6a614d49f032
+msgid ""
+"Intel® QAT components have been updated to their most recent versions. "
+"Those are:"
+msgstr ""
+
+#: ../../25.04/index.md:598 9cea9e92fe7049369b6367467c691512
+msgid ""
+"qatlib : 24.09.0 For more information, visit the project’s "
+"[repo](https://github.com/intel/qatlib?tab=readme-ov-file#features)."
+msgstr ""
+
+#: ../../25.04/index.md:600 3af0903b1be04464af9dec64110df165
+msgid ""
+"qatengine : 1.8.1 For more information, visit the project’s "
+"[repo](https://github.com/intel/QAT_Engine/blob/master/docs/features.md)."
+msgstr ""
+
+#: ../../25.04/index.md:602 8a9a6f04a6eb4803911337bd97ef5001
+msgid ""
+"qatzip : 1.2.1 For more information, visit the project’s "
+"[repo](https://github.com/intel/QATzip?tab=readme-ov-file#features)."
+msgstr ""
+
+#: ../../25.04/index.md:604 bfa52ddfeae54684a1c318094719aac3
+msgid ""
+"ipp-crypto : 1:1.0.0 For more information, visit the project’s "
+"[repo](https://github.com/intel/ipp-crypto)."
+msgstr ""
+
+#: ../../25.04/index.md:607 37563d5df96b474198f94d09543ce42f
+msgid "Subiquity"
+msgstr ""
+
+#: ../../25.04/index.md:609 af62dc653dd7443fa237285e20cd51ba
+msgid ""
+"Please see the [25.04 Release "
+"Notes](https://github.com/canonical/subiquity/releases/tag/25.04) post on"
+" GitHub."
+msgstr ""
+
+#: ../../25.04/index.md:611 da312cadbf2245d5baec2df8493f9986
+msgid "thin-provisioning-tools"
+msgstr ""
+
+#: ../../25.04/index.md:613 65fa9c9095bc42728fdb14d9b66610ac
+msgid ""
+"The thin-provisioning tools package was updated to version 1.1.0, which "
+"was fully re-written in rust from scratch."
+msgstr ""
+
+#: ../../25.04/index.md:615 9675c1c7752942d0937cc6e65c1df68a
+msgid ""
+"See the [upstream changelog](https://github.com/jthornber/thin-"
+"provisioning-tools/blob/v1.1.0/CHANGES) for more details."
+msgstr ""
+
+#: ../../25.04/index.md:617 b324eee169fc43ac921f5d0e8d50d055
+msgid "Ubuntu HA/Clustering"
+msgstr ""
+
+#: ../../25.04/index.md:620 f33e2f579b2d4ebf9e0c3763725e29f9
+msgid "fence-agents"
+msgstr ""
+
+#: ../../25.04/index.md:622 ecad970e82a04e828b1f8b983298f9f4
+msgid ""
+"fence-agents was updated to version 4.16.0, which introduces bug fixes "
+"and a new fence-agents-nutanix-ahv which adds support for Nutanix AHV "
+"Cluster."
+msgstr ""
+
+#: ../../25.04/index.md:624 1a4723299d7f41f1ad7a84683c4d9f74
+msgid "resource-agents"
+msgstr ""
+
+#: ../../25.04/index.md:626 5f0c9ef3029945329dee361d5b33f0c9
+msgid ""
+"fence-agents was updated to version 4.16.0, which introduces bug fixes "
+"and improvements, including support for the asure aznfs filesystem."
+msgstr ""
+
+#: ../../25.04/index.md:628 4718218af9644ac29bed83f0b2bcfc26
+msgid "sos (sosreport)"
+msgstr ""
+
+#: ../../25.04/index.md:630 86c794449c5f476c8a0bc1236e66120c
+msgid ""
+"The `sosreport` package was renamed to `sos` with the upgrade to 4.9.0 "
+"from 4.8.0."
+msgstr ""
+
+#: ../../25.04/index.md:632 ddde57b00e484683b2c811947512bcd7
+msgid ""
+"The rename follows upstream name change in 2020 and the removal of "
+"`sosreport` and `sos-collector` commands."
+msgstr ""
+
+#: ../../25.04/index.md:633 bce0069ac79b42e29d05dda23f862425
+msgid ""
+"The `sosreport` package will remain as a transitional package that will "
+"carry the `sosreport` and `sos-collector` command for a few revisions of "
+"Ubuntu."
+msgstr ""
+
+#: ../../25.04/index.md:634 21ae573cc7a44c18b34a2b0fc13bce78
+msgid ""
+"`sos upload` is a new sub command, that allows you to upload a collected "
+"`sos` or a file to a vendor primarily Canonical or RedHat See [man "
+"pages](https://manpages.ubuntu.com/manpages/plucky/en/man1/sos-"
+"upload.1.html) for more details."
+msgstr ""
+
+#: ../../25.04/index.md:635 3be13ce791cb4a7287285d2bb6f4d7a5
+msgid ""
+"Further details on the changes between 4.8.0 and 4.9.0 can be viewed "
+"[upstream release notes](https://github.com/sosreport/sos/releases)"
+msgstr ""
+
+#: ../../25.04/index.md:637 65f9d12849aa43f2965d1bed569b2ae8
+msgid "Ubuntu WSL"
+msgstr ""
+
+#: ../../25.04/index.md:639 670e9aa6dcfe4491a47acb00d329c1e6
+msgid ""
+"WSL images publication has moved to "
+"[cdimage.ubuntu.com](https://cdimage.ubuntu.com/ubuntu-wsl/) (previously "
+"on cloud-images.ubuntu.com)"
+msgstr ""
+
+#: ../../25.04/index.md:641 c5910ec329eb4affbd0c84f96306b6a1
+msgid "OpenStack"
+msgstr ""
+
+#: ../../25.04/index.md:643 309128259e3342e282cc88d75eb2a8dd
+msgid ""
+"OpenStack has been updated to the [2025.1 "
+"(Epoxy)](https://releases.openstack.org/epoxy/) release. This includes "
+"packages for Aodh, Barbican, Ceilometer, Cinder, Designate, Glance, Heat,"
+" Horizon, Ironic, Keystone, Magnum, Manila, Masakari, Mistral, Neutron, "
+"Nova, Octavia, Swift, Vitrage, Watcher and Zaqar."
+msgstr ""
+
+#: ../../25.04/index.md:645 888bf70150d34811a51f4668240e9db2
+msgid ""
+"This release is also provided for Ubuntu 24.04 LTS via the Ubuntu Cloud "
+"Archive."
+msgstr ""
+
+#: ../../25.04/index.md:647 26164785b24247e2992c5f42c974f248
+msgid "Ceph"
+msgstr ""
+
+#: ../../25.04/index.md:649 55312ec8e9414b279ee5becca7631c5c
+msgid "Open vSwitch (OVS) and Open Virtual Network (OVN)"
+msgstr ""
+
+#: ../../25.04/index.md:651 1d32e1b986394c4da2b564fe2d66f62b
+msgid "OVS was updated to version 3.5.0, and OVN to 25.03.0."
+msgstr ""
+
+#: ../../25.04/index.md:653 eeb4fab089dc47aeb802b9d4ee5c1efd
+msgid "Common to both projects are changes in SSL/TLS support:"
+msgstr ""
+
+#: ../../25.04/index.md:654 abc13d4e354d4955b6610122110df5cb
+msgid "Protocols can be specified as ranges, e.g `TLSv1.2+` or `TLSv1.2-TLSv1.3`."
+msgstr ""
+
+#: ../../25.04/index.md:656 233649b00cb446698d0df0203d4c1a86
+msgid ""
+"Explicit support for configuring `TLSv1.3` protocol and accompanying "
+"ciphersuites. TLSv1.3 was supported in earlier versions only when "
+"protocols option was not set."
+msgstr ""
+
+#: ../../25.04/index.md:658 c8272e074fbf4b62b9081e2fc5882686
+msgid ""
+"Support for TLSv1 and TLSv1.1 is deprecated and will be removed in the "
+"next release."
+msgstr ""
+
+#: ../../25.04/index.md:660 26cb552616ec40b8b00b1b02553fada5
+msgid "OVS:"
+msgstr ""
+
+#: ../../25.04/index.md:661 8d0056e1abb943028dc34c63129fe65f
+msgid "DPDK 24.11.1 support."
+msgstr ""
+
+#: ../../25.04/index.md:663 850786863f9244b1914f4d9db9fbe80e
+msgid ""
+"New tool called `ovs-flowviz` capable of visualizing OpenFlow and "
+"datapath flow dumps."
+msgstr ""
+
+#: ../../25.04/index.md:665 31149008647c4a088df0eeb3a681080f
+msgid ""
+"Prefix tracking is enabled by default for both IPv4 and IPv6, allowing to"
+" significantly reduce amount of datapath flows generated from mixed "
+"IPv4+IPv6 flow tables."
+msgstr ""
+
+#: ../../25.04/index.md:667 a227d7f9914c4dceb143105451c66607
+msgid ""
+"Userspace datapath TSO now includes support for VXLAN, Geneve and GRE "
+"tunneled packets."
+msgstr ""
+
+#: ../../25.04/index.md:669 0528860c3b9c465b864d2b40536057bf
+msgid ""
+"TC offload now supports matching on tunnel flags as well as setting the "
+"Don't Fragment (DF) flag in `encap` action."
+msgstr ""
+
+#: ../../25.04/index.md:671 5ecba3b594494f8982375e30d91e2315
+msgid "Various improvements in `ovs-ctl` for handling IPSec configuration."
+msgstr ""
+
+#: ../../25.04/index.md:673 f0a27bffeda44fa6b054b79d579e8077
+msgid "OVN:"
+msgstr ""
+
+#: ../../25.04/index.md:674 6de155622efc47cdb7da9601933a5964
+msgid ""
+"Dynamic routing support allows the `ovn-controller` to exchange routing "
+"information with a routing protocol daemon.  The `dynamic-routing-"
+"redistribute` option controls what routes are redistributed including "
+"`lb` and `nat` options which can be used for resource location.  When "
+"used together with the routing protocol redirect feature, a routing "
+"protocol daemon can speak using a Logical Router Port (LRP) IP "
+"implemented in the OVS datapath, facilitating accelerated networking."
+msgstr ""
+
+#: ../../25.04/index.md:676 c11047a169a04f20b08b5abfb99d25d0
+msgid ""
+"Support was added for routing IPv4 packets over IPv6 networks as well as "
+"the ability to create LRPs without specifying an IPv4 address.  When used"
+" together with the new dynamic routing features and a suitable routing "
+"protocol daemon, this can be used to configure BGP unnumbered peering."
+msgstr ""
+
+#: ../../25.04/index.md:678 a975aec98e0c4e0bb3e5a69e8a4d9dee
+msgid ""
+"New Logical Switch Port (LSP) type `switch` to directly connect two "
+"logical switches, which can be used to construct multi-stage clos "
+"topology for logical switches."
+msgstr ""
+
+#: ../../25.04/index.md:680 18bdb0c4eb27409abfd3e6d04db3b4b9
+msgid ""
+"New Transit Router concept for use with OVN Interconnect which may "
+"improve traffic flow between AZs for some configurations."
+msgstr ""
+
+#: ../../25.04/index.md:682 b95fdebba278485285deff70cc330338
+msgid ""
+"New ACL option `persist-established` that allows for established "
+"connections to bypass ACL matching."
+msgstr ""
+
+#: ../../25.04/index.md:684 41b3adf4ce564b3aac7693e9eeaeaafa
+msgid ""
+"Logical router policies can now be arranged in chains, using the new "
+"`jump`, `chain` and `jump_chain` actions."
+msgstr ""
+
+#: ../../25.04/index.md:686 32886b55514a458590bf36450df5ece0
+msgid ""
+"Support for STT tunnels is deprecated and will be removed in the next "
+"release."
+msgstr ""
+
+#: ../../25.04/index.md:689 769b32e19a084579b4af6f931b894108
+msgid "GRUB2"
+msgstr ""
+
+#: ../../25.04/index.md:691 131884bfa7094070a9dbdbd7aa061e36
+msgid ""
+"The cd-boot-images-* packages are no longer used in the build process of "
+"plucky ISOs and were removed from the archive. Instead the ISO build "
+"processes uses the shim, grub2 and u-boot packages directly, streamlining"
+" the build process and reducing maintenance burden."
+msgstr ""
+
+#: ../../25.04/index.md:693 451863caa387488bb4edd8dc365b5b76
+msgid ""
+"Also there was about [27 CVE fixes](https://git.launchpad.net/~ubuntu-"
+"core-"
+"dev/grub/+git/ubuntu/commit/?id=0ac81e083f719a990a0f905e0b80238eda00b2fc)"
+" in grub2 release for Plucky!"
+msgstr ""
+
+#: ../../25.04/index.md:695 49c85f0b1d5b4b258b3ffccfa1266500
+msgid "Platforms"
+msgstr ""
+
+#: ../../25.04/index.md:697 3707e89050294d188f1c74ee72d6d7ea
+msgid "Public Cloud / Cloud images"
+msgstr ""
+
+#: ../../25.04/index.md:699 c643847a88214a65b35ca9b5d014cc49
+msgid ""
+"`UseDomains=true` is set in `/etc/systemd/networkd.conf.d/50-cloudimg-"
+"settings.conf` to restore the pre-Oracular behavior of adding search "
+"domains from DHCP responses to `/etc/resolv.conf`. The new default "
+"behavior introduced in Oracular broke some common use cases and it is too"
+" strict for cloud environments where there's usually no risk of a "
+"malicious DHCP server on the network ([LP: "
+"#2106729](https://bugs.launchpad.net/cloud-images/+bug/2106729))."
+msgstr ""
+
+#: ../../25.04/index.md:701 5680d78546b743d191f1ac4f91deb5b7
+msgid "How to report any issues resulting from these changes"
+msgstr ""
+
+#: ../../25.04/index.md:703 77317939293b407e8281ed52113ca240
+msgid ""
+"If you notice any unexpected changes or bugs in the minimal images, "
+"create a new bug in [cloud-images](https://bugs.launchpad.net/cloud-"
+"images)."
+msgstr ""
+
+#: ../../25.04/index.md:705 66b99e2fdcea4171ac7f77cf3b7357cc
+msgid "Raspberry Pi 🍓"
+msgstr ""
+
+#: ../../25.04/index.md:707 1ea89cbc4c1147d2af884ac473f8084d
+msgid ""
+"Camera support is now included with libcamera 0.4 and libpisp ([LP: "
+"#2038669](https://launchpad.net/bugs/2038669))"
+msgstr ""
+
+#: ../../25.04/index.md:709 08193e0dafd04c88b328a928dd5d5480
+msgid ""
+"The desktop now uses [gnome-initial-"
+"setup](https://launchpad.net/ubuntu/+source/gnome-initial-setup) as the "
+"first time setup guide. This runs directly under Wayland, and is much "
+"quicker than the legacy ubiquity installer. Please see the known issues "
+"section below before reporting bugs against gnome-initial-setup as it is "
+"possible you are running into something being worked on"
+msgstr ""
+
+#: ../../25.04/index.md:711 17b590baeb5043a39a000d8829b1427b
+msgid ""
+"The above change also means cloud-init is now useable on the Raspberry Pi"
+" desktop images; this can be used to automate initial user creation, "
+"package installation, customization, etc."
+msgstr ""
+
+#: ../../25.04/index.md:713 ec95940f193a4507929dfedc4271ca34
+msgid ""
+"The legacy libraspberry-bin utilities have been replaced with [raspi-"
+"utils](https://launchpad.net/ubuntu/+source/raspi-utils)"
+msgstr ""
+
+#: ../../25.04/index.md:715 db0ac8cf98cf4250961442f86c9de3ae
+msgid ""
+"nbd-client is now seeded in the Raspberry Pi images, making it simple to "
+"network boot your Pi with these images"
+msgstr ""
+
+#: ../../25.04/index.md:717 46536781785d46a5a699521d0697b08f
+msgid "arm64"
+msgstr ""
+
+#: ../../25.04/index.md:719 c8e21694e9d44a069bb446158f87f243
+msgid ""
+"In addition to arm64 server ISO there is now also an official generic "
+"arm64 desktop ISO targeting VMs, ACPI + EFI platforms and Snapdragon "
+"based WoA devices."
+msgstr ""
+
+#: ../../25.04/index.md:722 a173592b04e4456280f8fac16dd18ffd
+msgid ""
+"IBM Z and LinuxONE (s390x) "
+"![image|32x32](upload://dZM0RRlelqCcZc6RhqJGMW8DMZr.png)"
+msgstr ""
+
+#: ../../25.04/index.md:722 05201d6d761242fc9a95bd1dfb2da508
+msgid "image|32x32"
+msgstr ""
+
+#: ../../25.04/index.md:724 3347cc12fb704f77b84a2ef6aafe14fb
+msgid ""
+"The key package, 's390-tools', was step-by-step upgraded to latest "
+"version v2.37.0 ([LP: #2096789](https://launchpad.net/bugs/2096789), via "
+"[LP: #2091549](https://launchpad.net/bugs/2091549)), that covers the "
+"removal of scsi_logging_level, since it's now in sg3_utils ([LP: "
+"#2098500](https://launchpad.net/bugs/2098500)), the new pvimg and with "
+"that the rewritten genprotimg tool in Rust ([LP: "
+"#2098046](https://launchpad.net/bugs/2098046)), with it's new info "
+"command ([LP: #2098047](https://launchpad.net/bugs/2098047)), to display "
+"of encrypted & unencrypted Secure Execution (SE) image information, "
+"validations in genprotimg, if an SE image can run on particular host "
+"([LP: #2097576](https://launchpad.net/bugs/2097576)), supporting "
+"unencrypted SE images by exposing the resp. SE header flag ([LP: "
+"#2098045](https://launchpad.net/bugs/2098045)), supporting extended "
+"attestation for SE ([LP: #2097535](https://launchpad.net/bugs/2097535)) "
+"and support for retrievable secrets in SE guests ([LP: "
+"#2097533](https://launchpad.net/bugs/2097533) and kernel [LP: "
+"#2097534](https://launchpad.net/bugs/2097534))."
+msgstr ""
+
+#: ../../25.04/index.md:726 8a00b634cb7f4b42a68a3bf08c15b5d7
+msgid ""
+"Further enhancements based on the new 6.14 kernel are support for kprobes"
+" without stop machine ([LP: "
+"#2100329](https://launchpad.net/bugs/2100329)), providing topology-map "
+"information to userspace ([LP: "
+"#2098392](https://launchpad.net/bugs/2098392)), PCHID per port toleration"
+" ([LP: #2095480](https://launchpad.net/bugs/2095480)) and the new option "
+"to display available host key hashes for SE, aka Query Host-key hash UVC "
+"([LP: #2101108](https://launchpad.net/bugs/2101108))."
+msgstr ""
+
+#: ../../25.04/index.md:728 21aa63cf78c04654bab768b6da0cbe6c
+msgid ""
+"Improvements in the area of zPCI came on top, with enhanced RAS and Call "
+"Home support ([LP: #2095413](https://launchpad.net/bugs/2095413)), the "
+"new option of optics monitoring for PF in access mode (s390-tools: [LP: "
+"#2095429](https://launchpad.net/bugs/2095429), kernel: [LP: "
+"#2095427](https://launchpad.net/bugs/2095427)), the promiscuous mode "
+"exploitation for new VFs ([LP: "
+"#2096791](https://launchpad.net/bugs/2096791)) and base work in the "
+"kernel for CPU-MF counters in support for new IBM Z hardware ([LP: "
+"#2101111](https://launchpad.net/bugs/2101111))."
+msgstr ""
+
+#: ../../25.04/index.md:730 6fcb258c491842f18b03f7c932d058aa
+msgid ""
+"So support of new hardware is another significant area of work - starting"
+" with new IBM Z hardware base support in the kernel ([LP: "
+"#2100303](https://launchpad.net/bugs/2100303)) PAI/NNPA was updated for "
+"new IBM Z hardware ([LP: #2100302](https://launchpad.net/bugs/2100302)) "
+"and a new CPU model for new IBM Z hardware (kernel: [LP: "
+"#2097523](https://launchpad.net/bugs/2097523) and qemu: [LP: "
+"#2097521](https://launchpad.net/bugs/2097521)). Also user space "
+"components were enabled for new IBM Z hardware, like for gdb v16.2 ([LP: "
+"#2095361](https://launchpad.net/bugs/2095361)), valgrind v3.24 ([LP: "
+"#2095363](https://launchpad.net/bugs/2095363)), binutils v2.44 ([LP: "
+"#2095372](https://launchpad.net/bugs/2095372)), libzdnn v1.1.1 for "
+"exploiting new AI hardware ([LP: "
+"#2095373](https://launchpad.net/bugs/2095373)) - and the smc-tool update "
+"to latest v1.8.4 ([LP: #2095005](https://launchpad.net/bugs/2095005))."
+msgstr ""
+
+#: ../../25.04/index.md:733 d23f202977ba4d969a34f607ec4a705c
+msgid "Several dedicated new features were added, like:"
+msgstr ""
+
+#: ../../25.04/index.md:734 f9c4a308388a4f28b7c0c3224eb63af4
+msgid ""
+"the cpacfinfo tool to provide CPACF (on-chip crypto co-processor) "
+"information (kernel: [LP: #2096894](https://launchpad.net/bugs/2096894), "
+"s390-tools: [LP: #2096896](https://launchpad.net/bugs/2096896))"
+msgstr ""
+
+#: ../../25.04/index.md:735 d17809b840b743ba9a921171334f53fb
+msgid ""
+"the zpwr tool, for LPAR level power consumption reporting (kernel: [LP: "
+"#2098391](https://launchpad.net/bugs/2098391), s390-tools: [LP: "
+"#2098358](https://launchpad.net/bugs/2098358))"
+msgstr ""
+
+#: ../../25.04/index.md:736 15111092cd964872954eea470c415732
+msgid ""
+"the chpstat tool, for additional channel measurements (kernel: [LP: "
+"#2095483](https://launchpad.net/bugs/2095483), s390-tools [LP: "
+"#2095485](https://launchpad.net/bugs/2095485))"
+msgstr ""
+
+#: ../../25.04/index.md:737 411eb4df56144177b5bb9b1075af28c6
+msgid ""
+"full boot order support in KVM (qemu: [LP: "
+"#2049698](https://launchpad.net/bugs/2049698), libvirt: [LP: "
+"#2051239](https://launchpad.net/bugs/2051239))"
+msgstr ""
+
+#: ../../25.04/index.md:738 cc20439637e745d08b7da1fa5e9e0699
+msgid ""
+"enablement of virtio-mem support (kernel: [LP: "
+"#2097883](https://launchpad.net/bugs/2097883), qemu: [LP: "
+"#2097884](https://launchpad.net/bugs/2097884) and libvirt: [LP: "
+"#2097886](https://launchpad.net/bugs/2097886)) and"
+msgstr ""
+
+#: ../../25.04/index.md:739 7a8751bffee341f3bf6c7d26a8dc8992
+msgid ""
+"enablement of dynamic updates of vfio-ap mediated (crypto) devices for "
+"management applications (kernel: [LP: "
+"#2097489](https://launchpad.net/bugs/2097489), s390-tools: [LP: "
+"#2097488](https://launchpad.net/bugs/2097488), libvirt: [LP: "
+"#2097487](https://launchpad.net/bugs/2097487) and mdevctl: [LP: "
+"#2097486](https://launchpad.net/bugs/2097486))"
+msgstr ""
+
+#: ../../25.04/index.md:741 9c25f688dbad40e292cc63ac59b53802
+msgid ""
+"While mentioning cryptography, there are many more enhancements in this "
+"area, like in kernel crypto support:"
+msgstr ""
+
+#: ../../25.04/index.md:742 6ca80c0a98bc4d8c912cff37dd0fc5bf
+msgid "for MSA 10 XTS ([LP: #2096809](https://launchpad.net/bugs/2096809))"
+msgstr ""
+
+#: ../../25.04/index.md:743 ecb005e65d8848f697c79990576c08f6
+msgid "for MSA 11 HMAC ([LP: #2096812](https://launchpad.net/bugs/2096812))"
+msgstr ""
+
+#: ../../25.04/index.md:744 f1ba556590714a8391fc49d7db9b455e
+msgid "for for MSA 12 (SHA3) ([LP: #2100946](https://launchpad.net/bugs/2100946))"
+msgstr ""
+
+#: ../../25.04/index.md:745 44897def59be45f3985dec3fb64080a1
+msgid ""
+"for PAES support for MSA 10 XTS ([LP: "
+"#2100935](https://launchpad.net/bugs/2100935)) but also:"
+msgstr ""
+
+#: ../../25.04/index.md:747 b5e856ba0d5e435cbc5039fb16289ed3
+msgid ""
+"of MSA 10 and MSA 11 in cpacfstats ([LP: "
+"#2096890](https://launchpad.net/bugs/2096890))"
+msgstr ""
+
+#: ../../25.04/index.md:748 91248e2a5a2c441db625416596bf8cc8
+msgid ""
+"for zkey key for dm-crypt with XTS keys ([LP: "
+"#2096892](https://launchpad.net/bugs/2096892))"
+msgstr ""
+
+#: ../../25.04/index.md:749 dcbe2256100d418d879300ca383a8648
+msgid ""
+"for pkey, protected XTS and HMAC keys ([LP: "
+"#2100936](https://launchpad.net/bugs/2100936)) and support"
+msgstr ""
+
+#: ../../25.04/index.md:750 33e9414c40f941b89a3f8c30e7cf000e
+msgid ""
+"for SE retrieved protected keys ([LP: "
+"#2097543](https://launchpad.net/bugs/2097543))"
+msgstr ""
+
+#: ../../25.04/index.md:752 a422fb6536184fdaad4ff3561bac0a2e
+msgid "This partially also requires updates in openSSL:"
+msgstr ""
+
+#: ../../25.04/index.md:753 b92caa3e91304217b5850725abea0ed4
+msgid ""
+"for MSA 10 XTS support ([LP: "
+"#2096810](https://launchpad.net/bugs/2096810))"
+msgstr ""
+
+#: ../../25.04/index.md:754 984f3c3934094997898c0b35785f7104
+msgid ""
+"for MSA 11 HMAC support ([LP: "
+"#2096811](https://launchpad.net/bugs/2096811)) and support"
+msgstr ""
+
+#: ../../25.04/index.md:755 bb3627e030be47f7a38449c85cdde2da
+msgid "for MSA 12 (SHA3) ([LP: #2096949](https://launchpad.net/bugs/2096949))"
+msgstr ""
+
+#: ../../25.04/index.md:757 4004988a583742e0abdec5725ce66bf8
+msgid ""
+"In addition openCryptoki was upgraded to the latest v3.24 ([LP: "
+"#2095337](https://launchpad.net/bugs/2095337)), that includes support "
+"for:"
+msgstr ""
+
+#: ../../25.04/index.md:758 befa4ac66ca94a0d9df5871ad3f05172
+msgid "CCA token SHA3 ([LP: #2096950](https://launchpad.net/bugs/2096950))"
+msgstr ""
+
+#: ../../25.04/index.md:759 bfbda8d2becb4c719a68c2421e8e8ccf
+msgid ""
+"CCA token RSA OAEP v2.1 ([LP: "
+"#2096951](https://launchpad.net/bugs/2096951))"
+msgstr ""
+
+#: ../../25.04/index.md:760 cdc8403f20f24c71b4ab27b2e770e118
+msgid "CCA token cipher keys ([LP: #2097111](https://launchpad.net/bugs/2097111))"
+msgstr ""
+
+#: ../../25.04/index.md:761 afb9b83f92c241b2bf80896a9b46c314
+msgid ""
+"CCA token of Dilithium ([LP: "
+"#2096897](https://launchpad.net/bugs/2096897)) and support of"
+msgstr ""
+
+#: ../../25.04/index.md:762 a5c6560adf1948d69dc4d997f7004c61
+msgid ""
+"CKM_RSA_AES_KEY_WRAP for cca, ica and soft tokens ([LP: "
+"#2097110](https://launchpad.net/bugs/2097110))"
+msgstr ""
+
+#: ../../25.04/index.md:764 21075fbf8410422588baac2753638f5d
+msgid "Finally further cryptography-related packages were updated, like:"
+msgstr ""
+
+#: ../../25.04/index.md:765 69bfb4f30adc463084b362a624cd81b2
+msgid ""
+"p11-kit v0.25.5, to update IBM specific mechanisms (up to IBM z16) ([LP: "
+"#2098092](https://launchpad.net/bugs/2098092))"
+msgstr ""
+
+#: ../../25.04/index.md:766 3443c0f2f28a468ea7e9bf17d741ede1
+msgid ""
+"libica, to latest v4.4.0 ([LP: "
+"#2095409](https://launchpad.net/bugs/2095409))"
+msgstr ""
+
+#: ../../25.04/index.md:767 724458e86bb64b189b7d56df693f240e
+msgid ""
+"libzpc v1.3.0, to support protected key derived from SE retrievable "
+"secrets ([LP: #2097545](https://launchpad.net/bugs/2097545))"
+msgstr ""
+
+#: ../../25.04/index.md:769 a9989d89ed104c8a901eac4a87a89283
+msgid "IBM POWER (ppc64el)"
+msgstr ""
+
+#: ../../25.04/index.md:771 cfddc570b9f94247a3e8a6bbbd7602dd
+msgid ""
+"The powerpc-utils package was upgraded to the latest available version  "
+"1.3.13 ([LP: #2096946](https://launchpad.net/bugs/2096946))."
+msgstr ""
+
+#: ../../25.04/index.md:773 6f036d36afd74a04b76fd171f441eb1a
+msgid ""
+"The new package 'secvarctl' was added ([LP: "
+"#2064345](https://launchpad.net/bugs/2064345)), that allows to handle "
+"secureboot artifacts and key management on ppc64el."
+msgstr ""
+
+#: ../../25.04/index.md:777 2447610171924eac81a22b869c677713
+msgid "Provide a single pre-installed image for all JH7110 boards."
+msgstr ""
+
+#: ../../25.04/index.md:778 0f89ebaa0da1425090fb64285d2ccb79
+msgid "Support Pine64 Star64"
+msgstr ""
+
+#: ../../25.04/index.md:782 f5f5930fba8c4622900d8e9460f5fa8e
+msgid "Known Issues"
+msgstr ""
+
+#: ../../25.04/index.md:784 f1724da9c06a41ed926f8a134c8a4a64
+msgid ""
+"As is to be expected with any release, there are some significant known "
+"bugs that users may encounter with this release of Ubuntu. The ones we "
+"know about at this point (and some of the workarounds) are documented "
+"here, so you don't need to spend time reporting these bugs again:"
+msgstr ""
+
+#: ../../25.04/index.md:786 1c84fd8c018a455fb32390b34385cba0
+msgid "General"
+msgstr ""
+
+#: ../../25.04/index.md:788 b2c3607cf10c4eeaa1d418b12e7a385e
+msgid ""
+"There is a bug ([LP: #2104316](https://bugs.launchpad.net/ubuntu-power-"
+"systems/+bug/2104297)) in the *beta* images that prevents netboot "
+"installs in some scenarios."
+msgstr ""
+
+#: ../../25.04/index.md:789 d9c7f4abb0954df0a78c92529f0f3596
+msgid ""
+"It has been reported that cloud-init may fails to upgrade properly in the"
+" Oracular to Plucky upgrade path, see [LP: "
+"#2104316](https://bugs.launchpad.net/ubuntu-power-systems/+bug/2104297)."
+msgstr ""
+
+#: ../../25.04/index.md:790 6a7bead3b7504c9b9ae35137dac005fe
+msgid ""
+"The Live Session of the new Ubuntu Desktop installer is not localized. It"
+" is still possible to perform a non-English installation using the new "
+"installer, but internet access at install time is required to download "
+"the language packs. ([LP: #2013329](https://bugs.launchpad.net/ubuntu-"
+"release-notes/+bug/2013329))"
+msgstr ""
+
+#: ../../25.04/index.md:791 a82f1d2fbdbc4321b3759cbae379c577
+msgid ""
+"ZFS with Encryption on Ubuntu 24.10 will [fail to activate the cryptoswap"
+" "
+"partition](https://bugs.launchpad.net/ubuntu/+source/subiquity/+bug/2084089)."
+"  This affects both new installs and upgrades.  We expect to address this"
+" post-release with an archive update."
+msgstr ""
+
+#: ../../25.04/index.md:792 9ddf36b073cb4756b969ff00076e2e71
+msgid ""
+"Some particular hardware (e.g. Thinkpad x201) might have issues ([general"
+" freeze](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2084055), "
+"[`desktop-security-center` not launching](https://github.com/canonical"
+"/desktop-security-center/issues/81)), when booted without `nomodeset` "
+"(Safe graphics). Follow these steps if you encounter such an issue:"
+msgstr ""
+
+#: ../../25.04/index.md:794 9d03cab19d4e4c728f93d2fbfa305e9e
+msgid ""
+"At the GRUB boot menu, press `e` (keep `Shift` pressed during early boot "
+"if the menu doesn't show up)."
+msgstr ""
+
+#: ../../25.04/index.md:795 a321a45348a44ee4b7d64f7c9d773f8a
+msgid "Add `nomodeset` to `linux` line, like the example below:"
+msgstr ""
+
+#: ../../25.04/index.md:801 4e6aa57858e84a64acc928bd323b9f70
+msgid "Press `Ctrl-x` to continue the boot process"
+msgstr ""
+
+#: ../../25.04/index.md:802 b8cce59320074afbaa55f955ddbd1799
+msgid ""
+"After installation is complete, reboot, use `nomodeset` again, like the "
+"example below:"
+msgstr ""
+
+#: ../../25.04/index.md:808 4a84381ca7994dac94f4a51daf48e68c
+msgid ""
+"Add `nomodeset` to the GRUB config file, `/etc/default/grub`, like the "
+"example below:"
+msgstr ""
+
+#: ../../25.04/index.md:814 0061d13c7dc842d389e672c5a42e862d
+msgid "Finally, run `sudo update-grub` to make the change take effect."
+msgstr ""
+
+#: ../../25.04/index.md:817 67a73bc40a784c75973972552f256c58
+msgid "Linux kernel"
+msgstr ""
+
+#: ../../25.04/index.md:819 31afdce4d0514b9db4b3b61c1f09300a
+msgid ""
+"A bug prevents the IO scheduler from being reset to \"none\" ([LP: "
+"#2083845](https://bugs.launchpad.net/bugs/2083845)): the fix is already "
+"in v6.11.2, and will be part of the first SRU kernel."
+msgstr ""
+
+#: ../../25.04/index.md:820 5cea5577bd4a46a886d7fd825f43e5ca
+msgid ""
+"Support for FAN networking has been dropped in the 6.11 release kernel. "
+"It will be re-introduced in the next 6.11 kernel update shortly."
+msgstr ""
+
+#: ../../25.04/index.md:821 1add8b76eff34c50b7b7c10f51b69be9
+msgid ""
+"ZFS may cause kernel freezes during the 25.10 upgrades, rendering the "
+"upgrade unable to complete, due to a bug in the interaction between newer"
+" ZFS userspace utilities with older kernel modules. ([LP: "
+"#2110891](https://bugs.launchpad.net/ubuntu/+source/ubuntu-release-"
+"upgrader/+bug/2110891))"
+msgstr ""
+
+#: ../../25.04/index.md:826 56dbfe6173a0417c8104801115bc85b7
+msgid ""
+"Screen reader support is present with the new desktop installer, but is "
+"incomplete ([LP: #2061015](https://launchpad.net/bugs/2061015), [LP: "
+"#2061018](https://launchpad.net/bugs/2061018), [LP: "
+"#2036962](https://launchpad.net/bugs/2036962), [LP: "
+"#2061021](https://launchpad.net/bugs/2061021))"
+msgstr ""
+
+#: ../../25.04/index.md:828 420ee8b8074e43ac9f64398a2e6d8a43
+msgid ""
+"OEM installs are not supported yet ([LP: "
+"#2048473](https://launchpad.net/bugs/2048473))"
+msgstr ""
+
+#: ../../25.04/index.md:830 43518577a0af482496cdf4c80cc378f7
+msgid ""
+"GTK4 apps (including the desktop wallpaper) do not display correctly with"
+" VirtualBox or VMWare with 3D Acceleration ([LP: "
+"#2061118](https://launchpad.net/bugs/2061118))."
+msgstr ""
+
+#: ../../25.04/index.md:832 eb35950ae2dc4c629d414097eda74399
+msgid ""
+"**Incompatibility between TPM-backed Full Disk Encryption and Absolute:**"
+" TPM-backed Full Disk Encryption (FDE) has been introduced to enhance "
+"data security. However, it's important to note that this feature is "
+"incompatible with Absolute (formerly Computrace) security software. If "
+"Absolute is enabled on your system, the machine will not boot post-"
+"installation when TPM-backed FDE is also enabled. Therefore, disabling "
+"Absolute from the BIOS is recommended to avoid booting issues."
+msgstr ""
+
+#: ../../25.04/index.md:833 505b36e9bbcc47a784897b698fe82f39
+msgid ""
+"**Hardware-Specific Kernel Module Requirements for TPM-backed Full Disk "
+"Encryption:** TPM-backed Full Disk Encryption (FDE) requires a specific "
+"kernel snap which may not include certain kernel modules necessary for "
+"some hardware functionalities. A notable example is the `vmd` module "
+"required for NVMe RAID configurations. In scenarios where such specific "
+"kernel modules are indispensable, the hardware feature may need to be "
+"disabled in the BIOS (such as RAID) to ensure the continued availability "
+"of the affected hardware post-installation. If disabling in the BIOS is "
+"not an option, the related hardware will not be available post-"
+"installation with TPM-backed FDE enabled."
+msgstr ""
+
+#: ../../25.04/index.md:834 14ecdd0d98da413cb3c649ea647e03c3
+msgid ""
+"[FDE specific bug "
+"reports](https://bugs.launchpad.net/bugs/+bugs?field.searchtext=&orderby=-importance&field.status%3Alist=NEW&field.status%3Alist=CONFIRMED&field.status%3Alist=TRIAGED&field.status%3Alist=INPROGRESS&field.status%3Alist=FIXCOMMITTED&field.status%3Alist=INCOMPLETE_WITH_RESPONSE&field.status%3Alist=INCOMPLETE_WITHOUT_RESPONSE&assignee_option=any&field.assignee=&field.bug_reporter=&field.bug_commenter=&field.subscriber=&field.tag=fde&field.tags_combinator=ANY&field"
+".status_upstream-empty-"
+"marker=1&field.has_cve.used=&field.omit_dupes.used=&field.omit_dupes=on&field.affects_me.used=&field.has_patch.used=&field.has_branches.used=&field.has_branches=on&field.has_no_branches.used=&field.has_no_branches=on&field.has_blueprints.used=&field.has_blueprints=on&field.has_no_blueprints.used=&field.has_no_blueprints=on&search=Search)."
+msgstr ""
+
+#: ../../25.04/index.md:836 95ef657d9b9649ba8c8cbfba5b588482
+msgid ""
+"Resuming from suspend on Nvidia desktops (where Nvidia is the primary GPU"
+" so generally not laptops)  will exhibit visual corruption and freezes "
+"using the default Wayland session  "
+"([LP#1876632](https://bugs.launchpad.net/bugs/1876632)). If you need "
+"suspend/resume support then the simplest solution is to select 'Ubuntu on"
+" Xorg' at the login screen."
+msgstr ""
+
+#: ../../25.04/index.md:838 9376a59014a04d48a24a5854ecdb61fc
+msgid ""
+"Installing `ubuntu-fonts-classic` results in a non-Ubuntu font being "
+"displayed ([LP#2083683](https://bugs.launchpad.net/bugs/2083683)). To "
+"resolve this, install `gnome-tweaks` and set ‘Interface Text’ to "
+"‘Ubuntu’."
+msgstr ""
+
+#: ../../25.04/index.md:842 f5f2dabe8aca451a80ede48106b5b5b3
+msgid "rabbitmq-server"
+msgstr ""
+
+#: ../../25.04/index.md:844 e030951f03f3444498c6213feeff98f1
+msgid ""
+"Certain version hops may be unsupported due to feature flags, raising "
+"questions about how Ubuntu will maintain this package moving forward. We "
+"are currently exploring the use of snaps as a potential solution to "
+"enable smoother upgrades. For more information please read "
+"https://bugs.launchpad.net/bugs/2074309."
+msgstr ""
+
+#: ../../25.04/index.md:848 8870a0cc71df41118476968bbe76ba0a
+msgid ""
+"Libvirt provides the default network on install, in a nested installation"
+" it modified the configuration to not conflict with the one already "
+"provided by the first level host. There is an "
+"[issue](https://bugs.launchpad.net/ubuntu-release-notes/+bug/2107448) "
+"where the file it needs to modify is not yet present when it needs to "
+"modify it. That will be fixed via an SRU, but until then it can be worked"
+" around by installing `libvirt-daemon-config-network` before installing "
+"the other libvirt components that are needed in that nested environment."
+msgstr ""
+
+#: ../../25.04/index.md:850 f1e32016e8824ecdb863d613773b460a
+msgid "Openstack"
+msgstr ""
+
+#: ../../25.04/index.md:852 450f92b971f643afb6c976b33371d353
+msgid ""
+"Currently, Nova Compute is non-functional because of a python3.13 "
+"incompatibility "
+"([LP:#2103413](https://bugs.launchpad.net/ubuntu/+source/nova/+bug/2103413))."
+" The Openstack team and Upstream work on it and it will be resolved via "
+"an SRU later."
+msgstr ""
+
+#: ../../25.04/index.md:855 a4a980e101d04f698c77dca327e75b65
+msgid "The Ubuntu Cloud Archive is not affected by this bug."
+msgstr ""
+
+#: ../../25.04/index.md:857 c23ca969fc3942bba18c647d70b62fb0
+msgid "Installer"
+msgstr ""
+
+#: ../../25.04/index.md:859 db10960296f34e7497f3936752a7c0a1
+msgid ""
+"On systems booting via U-Boot, U-Boot should be updated to the current "
+"Plucky version before installation as subiquity does not run flash-kernel"
+" and grub-update during the installation. So for first boot the device-"
+"tree from U-Boot will be used."
+msgstr ""
+
+#: ../../25.04/index.md:861 2fdc08c9030f4842bca5637ddaaca3eb
+msgid ""
+"In some situations, it is acceptable to proceed with an offline "
+"installation when the mirror is inaccessible. In this scenario, it is "
+"advised to use:"
+msgstr ""
+
+#: ../../25.04/index.md:868 a1d1b82a87c74e35af62fc4f15ebf157
+msgid ""
+"Network interfaces left unconfigured at install time are assumed to be "
+"configured via dhcp4. If this doesn't happen (for example, because the "
+"interface is physically not connected) the boot process will block and "
+"wait for a few minutes ([LP: "
+"#2063331](https://bugs.launchpad.net/subiquity/+bug/2063331)). This can "
+"be fixed by removing the extra interfaces from `/etc/netplan/50-cloud-"
+"init.conf` or by marking them as `optional: true`. Cloud-init is disabled"
+" on systems installed from ISO images, so settings will persist."
+msgstr ""
+
+#: ../../25.04/index.md:870 d71969cea3894beab71cec0f81dcbfdd
+msgid "samba apparmor profile"
+msgstr ""
+
+#: ../../25.04/index.md:872 c5ec2b28934742e7ab2572f8dab3fffc
+msgid ""
+"Due to [bug LP: "
+"#2063079](https://bugs.launchpad.net/ubuntu/+source/samba/+bug/2063079), "
+"the samba `smbd.service` unit file is no longer calling out to the helper"
+" script to dynamically create apparmor profile snippets according to the "
+"existing shares."
+msgstr ""
+
+#: ../../25.04/index.md:874 eb1b56553ca844d7b40bcfa09eb53bfe
+msgid ""
+"By default, the `smbd` service from samba is not confined. To be affected"
+" by this bug, users have to:"
+msgstr ""
+
+#: ../../25.04/index.md:875 c869122db01943acb66be1578e9e70bb
+msgid "install the optional `apparmor-profiles` package"
+msgstr ""
+
+#: ../../25.04/index.md:876 afa76b5913564f9ba1155d861365eb33
+msgid "switch the `smbd` profile confinement from `complain` to `enforce`"
+msgstr ""
+
+#: ../../25.04/index.md:878 72ea031ab1754af59fb3c6d01ce3b128
+msgid ""
+"Therefore, only users who have taken those steps and upgrade to Noble, "
+"will be affected by this bug. An SRU to fix it will be done shortly after"
+" release."
+msgstr ""
+
+#: ../../25.04/index.md:883 3b4aeee9c3af4663842387cf1cf1e860
+msgid ""
+"There is a AppArmor related bug where containers cannot be promptly "
+"stopped due to the recently added AppArmor profile for `runc`. The "
+"containers are always killed with `SIGKILL` due to the denials when "
+"trying to receive a signal. More details about this bug can be found "
+"[here](https://bugs.launchpad.net/ubuntu/+source/docker.io/+bug/2063099),"
+" and a workaround is described "
+"[here](https://bugs.launchpad.net/ubuntu/+source/docker.io/+bug/2063099/comments/4)."
+msgstr ""
+
+#: ../../25.04/index.md:887 c8e1f64406ce4f949c9b902de084d241
+msgid ""
+"Plucky provides better AppArmor isolation for the tools in util-linux "
+"which is great, but it was found that on s390x this might break usage of "
+"lsblk. Fixes will soon be provided via bug "
+"[2107402](https://bugs.launchpad.net/ubuntu/+source/apparmor/+bug/2107402)"
+" and bug "
+"[2107455](https://bugs.launchpad.net/ubuntu/+source/apparmor/+bug/2107455)."
+" Until then the effect will be that lsblk on s390x will show no devices "
+"or in s390x based containers segfault. Until the SRU is available that "
+"can be mitigated by disabling the related AppArmor profile via `aa-"
+"disable lsblk`."
+msgstr ""
+
+#: ../../25.04/index.md:889 a9aa888144804bd2b68e8835ea4f3f53
+msgid "ppc64el"
+msgstr ""
+
+#: ../../25.04/index.md:891 d106bdb5dd1f43afa0a71f6da0ec5931
+msgid ""
+"Ubuntu Server for IBM Power installation using SAN disks ([LP: "
+"#2107523](https://bugs.launchpad.net/bugs/2107523/), [LP: "
+"#2080474](https://bugs.launchpad.net/bugs/2080474/)) will fail in case "
+"disks have existing configurations. A potential workaround is to wipe "
+"(wipefs) the disks first (using the installer shell) and then restart the"
+" installation with a clean disk."
+msgstr ""
+
+#: ../../25.04/index.md:892 4b6d5c6d7aeb46b080bdc7f65b57bac4
+msgid ""
+"PMDK sees some hardware-specific failures in its test suite, which may "
+"make the software partially or fully inoperable on the ppc64el "
+"architecture. ([LP: "
+"#2061913](https://bugs.launchpad.net/ubuntu/+source/pmdk/+bug/2061913/))"
+msgstr ""
+
+#: ../../25.04/index.md:893 88f093e2fa814fe993bddc3e99fabc6b
+msgid ""
+"For interfaces attached via 'virsh attach-interface' to be reflected and "
+"visible in a ppc64el KVM guest running inside a PowerVM LPAR a reboot is "
+"required (regardless if option '--live' got used or not) ([LP: "
+"#2111231](https://bugs.launchpad.net/bugs/2111231))."
+msgstr ""
+
+#: ../../25.04/index.md:895 4edc98114ca742d4b1ffd96f51e5888b
+msgid "Raspberry Pi"
+msgstr ""
+
+#: ../../25.04/index.md:897 668e001384b24a228a015421d208802a
+msgid "The new gnome-initial-setup has some teething issues:"
+msgstr ""
+
+#: ../../25.04/index.md:898 b68c4a5f13b843128928fccfec4e4efa
+msgid ""
+"Time zone input dropdown can \"wobble\" ([LP: "
+"#2084611](https://launchpad.net/bugs/2084611))"
+msgstr ""
+
+#: ../../25.04/index.md:899 bb58c285bec34175917614766509913a
+msgid ""
+"The localization of the application fails ([LP: "
+"#2104148](https://launchpad.net/bugs/2104148))"
+msgstr ""
+
+#: ../../25.04/index.md:900 04decaddbc1b4337baf2bbf218e63d4d
+msgid ""
+"The hostname change is mandatory ([LP: "
+"#2093132](https://launchpad.net/bugs/2093132))"
+msgstr ""
+
+#: ../../25.04/index.md:902 e045e0d53d50449ab4071191c5ef6c4d
+msgid ""
+"During boot on the server image, if your `cloud-init` configuration (in "
+"`user-data` on the boot partition) relies upon networking (importing SSH "
+"keys, installing packages, etc.) you *must* ensure that at least one "
+"network interface is required (`optional: false`) in `network-config` on "
+"the boot partition. This is due to netplan changes to the wait-online "
+"service (~~[LP: #2060311](https://launchpad.net/bugs/2060311)~~)"
+msgstr ""
+
+#: ../../25.04/index.md:904 ab742facae1247e1a0764024e5aca938
+msgid ""
+"The seeded totem video player will not prompt users to install missing "
+"codecs when attempting to play a video requiring them ([LP: "
+"#2060730](https://launchpad.net/bugs/2060730))"
+msgstr ""
+
+#: ../../25.04/index.md:906 98d5c4299f7848b19d4a5f561b72bcc0
+msgid ""
+"With the removal of the `crda` package in 22.04, the method of setting "
+"the wifi regulatory domain (editing `/etc/default/crda`) no longer "
+"operates. On server images, use the `regulatory-domain` option in the "
+"Netplan configuration. On desktop images, append "
+"`cfg80211.ieee80211_regdom=GB` (substituting `GB` for the relevant "
+"country code) to the kernel command line in the `cmdline.txt` file on the"
+" boot partition  ([LP: #1951586](https://launchpad.net/bugs/1951586))."
+msgstr ""
+
+#: ../../25.04/index.md:908 8f22a963e9eb484186c1b87bb2c12ac1
+msgid ""
+"The power LED on the Raspberry Pi 2B, 3B, 3A+, 3B+, and Zero 2W currently"
+" goes off and stays off once the Ubuntu kernel starts booting ([LP: "
+"#2060942](https://launchpad.net/bugs/2060942))"
+msgstr ""
+
+#: ../../25.04/index.md:910 ab70a0e8dedf4ee88749d8291fae20fd
+msgid ""
+"Colours appear incorrectly in the Ubuntu App Centre ([LP: "
+"#2076919](https://launchpad.net/bugs/2076919))"
+msgstr ""
+
+#: ../../25.04/index.md:912 c84e52bec381460c8d752180b6cfead4
+msgid ""
+"On server images, re-authentication to WiFi APs when regulatory domain is"
+" set result in dmesg spam to the console ([LP: "
+"#2063365](https://launchpad.net/bugs/2063365))"
+msgstr ""
+
+#: ../../25.04/index.md:914 a409fdd28d5c4edbad9b0fdc16e63f1b
+msgid ""
+"The default audio output on the Raspberry Pi 4 is \"Analogue Output - "
+"Built-in Audio\" instead of \"HDMI/Displayport\", so you might be "
+"confused after the first boot when you hear no sound even after moving "
+"the volume slider. You can change the audio output to HDMI in the "
+"settings, which persists in subsequent boots. ([LP: "
+"#1993347](https://bugs.launchpad.net/ubuntu/+source/pipewire/+bug/1993347))"
+msgstr ""
+
+#: ../../25.04/index.md:916 d03fcfbdd5bf4af4b66fa4039899c1fc
+msgid "Google Compute Platform"
+msgstr ""
+
+#: ../../25.04/index.md:918 ../../25.04/index.md:926
+#: 7dea97f3d0b54211bf8579dfe87713ed a6309a9acc964712849eda7347614b91
+msgid "Nothing yet."
+msgstr ""
+
+#: ../../25.04/index.md:920 b6300978d18e454c86204639e2c94104
+msgid "Microsoft Azure"
+msgstr ""
+
+#: ../../25.04/index.md:922 5b74064ff61c4827aaf6351b46c0da5c
+msgid ""
+"The current version of walinuxagent relies on python3-legacycrypt for "
+"password changing functionality but it cannot be made a dependency due to"
+" a component mismatch ([LP: "
+"#2106484](https://launchpad.net/bugs/2106484))."
+msgstr ""
+
+#: ../../25.04/index.md:924 d1a99a5f2b874e83bef319d47ce3a623
+msgid "s390X"
+msgstr ""
+
+#: ../../25.04/index.md:929 a3eb46ec909c4585aff3bd3600a72097
+msgid "Official flavors"
+msgstr ""
+
+#: ../../25.04/index.md:931 ddc115d5352a48edad8f7ba8a937adb1
+msgid "Find the release notes for the official flavors at the following links:"
+msgstr ""
+
+#: ../../25.04/index.md:933 c91493b6b3864aa4b1df73358233c385
+msgid ""
+"[Edubuntu Release "
+"Notes](https://discourse.ubuntu.com/t/edubuntu-25-04-released)"
+msgstr ""
+
+#: ../../25.04/index.md:934 30807f8635924dd183204239a102b2d7
+msgid ""
+"[Kubuntu Release "
+"Notes](https://wiki.ubuntu.com/PluckyPuffin/ReleaseNotes/Kubuntu)"
+msgstr ""
+
+#: ../../25.04/index.md:935 eb63e7701adb4754af0f9503ff505ef8
+msgid "[Lubuntu Release Notes](https://lubuntu.me/plucky-released/)"
+msgstr ""
+
+#: ../../25.04/index.md:936 4e96008f2751481682a6bdbb69b06104
+msgid ""
+"[Ubuntu Budgie Release Notes](https://ubuntubudgie.org/2025/04/ubuntu-"
+"budgie-25-04-release-notes/)"
+msgstr ""
+
+#: ../../25.04/index.md:937 6338e904eecd4abb9b903bf9f42eda73
+msgid ""
+"[Ubuntu MATE Release Notes](https://ubuntu-mate.org/blog/ubuntu-mate-p-p"
+"-release-notes/)"
+msgstr ""
+
+#: ../../25.04/index.md:938 b0f4327cb13f455eb20f07f53cd8fe00
+msgid ""
+"[Ubuntu Studio Release Notes](https://discourse.ubuntu.com/t/ubuntu-"
+"studio-25-04-release-notes/)"
+msgstr ""
+
+#: ../../25.04/index.md:939 b994eb98f6df46369e52d4d4230644d7
+msgid ""
+"[Ubuntu Unity Release Notes](https://ubuntuunity.org/posts/ubuntu-"
+"unity-2504-released/)"
+msgstr ""
+
+#: ../../25.04/index.md:940 d754958f2e75457c93aabac79a1d27d9
+msgid ""
+"[Xubuntu Release Notes](https://wiki.xubuntu.org/releases/25.04/release-"
+"notes)"
+msgstr ""
+
+#: ../../25.04/index.md:941 86ae9e1b4c2e4a0b857de1055c63cef9
+msgid ""
+"[Ubuntu Kylin Release "
+"Notes](https://ubuntukylin.com/news/ubuntukylin2504-en.html)"
+msgstr ""
+
+#: ../../25.04/index.md:942 2842fbb5a99444a690281f7213d60046
+msgid "[Ubuntu Cinnamon Release Notes](https://ubuntucinnamon.org/?p=1348)"
+msgstr ""
+
+#: ../../25.04/index.md:946 8501569c40a542069441009466f4f004
+msgid "More information"
+msgstr ""
+
+#: ../../25.04/index.md:948 10a4a53b6f0c4b3cb9a80a54b765f4c5
+#, python-brace-format
+msgid ""
+"Refer to {ref}`release-policy-and-schedule` and {ref}`project-and-"
+"community`."
+msgstr ""
+

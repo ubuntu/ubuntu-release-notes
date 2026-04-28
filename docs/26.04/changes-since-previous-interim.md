@@ -1025,32 +1025,6 @@ On first boot, 26.04 images may be slowed by up to 30s due to an outstanding iss
 
 ### System issues
 
-#### Hardware requiring `nomodeset`
-
-Some particular hardware (e.g. Thinkpad x201) might have issues ([general freeze](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2084055), [`desktop-security-center` not launching](https://github.com/canonical/desktop-security-center/issues/81)), when booted without `nomodeset` (Safe graphics). Follow these steps if you encounter such an issue:
-
-1. At the GRUB boot menu, press `e` (keep `Shift` pressed during early boot if the menu doesn’t show up).
-2. Add `nomodeset` to `linux` line, like the example below:
-
-    ```text
-    linux /casper/vmlinuz nomodeset ---
-    ```
-
-3. Press {kbd}`Ctrl-x` to continue the boot process
-4. After installation is complete, reboot, use `nomodeset` again, like the example below:
-
-    ```text
-    linux /boot/vmlinuz-6.11.0-8-generic nomodeset root=UUID=c5605a23-05ae-4d9d-b65f-e47ba48b7560 ro
-    ```
-
-5. Add `nomodeset` to the GRUB config file, `/etc/default/grub`, like the example below:
-
-    ```text
-    GRUB_CMDLINE_LINUX="nomodeset"
-    ```
-
-6. Finally, run `sudo update-grub` to make the change take effect.
-
 #### Raspberry Pi
 
 * The new `gnome-initial-setup` has issues preventing it from working properly:
@@ -1080,22 +1054,6 @@ To work around the issue, ensure that the root partition is specified as the las
 - 1st partition: `/boot`
 - 2nd partition: `swap`
 - 3rd partition: `/` (`root`)
-
-#### Netboot installs
-
-There is a bug ([LP: #2104316](https://bugs.launchpad.net/ubuntu-power-systems/+bug/2104297)) in the *beta* images that prevents netboot installs in some scenarios.
-
-#### cloud-init upgrade
-
-It has been reported that cloud-init may fail to upgrade properly in the Oracular to Plucky upgrade path, see [LP: #2104316](https://bugs.launchpad.net/ubuntu-power-systems/+bug/2104297).
-
-#### I/O scheduler
-
-A bug prevents the I/O scheduler from being reset to “none” ([LP: #2083845](https://bugs.launchpad.net/bugs/2083845)): the fix is already in Linux v6.11.2, and will be part of the first SRU kernel.
-
-#### FAN networking
-
-Support for FAN networking has been dropped in the 6.11 release kernel. It will be re-introduced in the next 6.11 kernel update shortly.
 
 #### POSIX ACL inheritance with `mkdir`
 

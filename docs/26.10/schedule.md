@@ -24,7 +24,7 @@ Week | Date (Thursday) | 26.10 events
 13 | July 23 | 
 14 | July 30 | 
 **August 2026** |
-15 | August 06 | 
+15 | August 06 | Expected Glibc 2.44 merge 
 16 | August 13 | 
 17 | August 20 | [Feature Freeze](https://wiki.ubuntu.com/FeatureFreeze), Debian Import Freeze
 18 | August 27 | Ubuntu Testing Week (optional)

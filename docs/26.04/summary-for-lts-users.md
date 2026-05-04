@@ -997,7 +997,7 @@ As of April 2026, no RVA23S64 hardware is available yet. The only supported RISC
 :::{versionchanged} 26.04
 :::
 
-On the IBM Z (s390s) architecture, Ubuntu 26.04 LTS now requires the z15 architectural level at minimum. As a result, you can't install Ubuntu 26.04 LTS on IBM Z generation z14 (LinuxONE II) or older.
+On the IBM Z (s390x) architecture, Ubuntu 26.04 LTS now requires the z15 architectural level at minimum. As a result, you can't install Ubuntu 26.04 LTS on IBM Z generation z14 (LinuxONE II) or older.
 
 The performance on IBM Z generation z15 (LinuxONE III) and newer has improved.
 

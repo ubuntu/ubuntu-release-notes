@@ -335,9 +335,7 @@ Further details on new features and bug fixes are available in the upstream chan
 MariaDB was updated to the latest LTS version 11.8.6.
 For more information on the MariaDB LTS, see the [upstream release notes](https://mariadb.com/docs/release-notes/community-server/11.8).
 
-Starting with 26.04, MariaDB will now be provided with [full support in Ubuntu main](https://bugs.launchpad.net/ubuntu/+source/mariadb/+bug/2122095).
-
-MariaDB was updated to the latest LTS version 11.8.6. For more information on the MariaDB LTS, [see the upstream release notes](https://mariadb.com/docs/release-notes/community-server/11.8).
+Starting with 26.04, MariaDB is provided with [full support in Ubuntu _main_](https://bugs.launchpad.net/ubuntu/+source/mariadb/+bug/2122095), with security enhancements including an AppArmor profile tailored for Ubuntu and hardened systemd service.
 
 The MySQL and MariaDB servers are mutually exclusive on Ubuntu for now.
 

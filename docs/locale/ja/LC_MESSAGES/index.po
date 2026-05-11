@@ -1,0 +1,375 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu release
+# notes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu release notes \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-13 02:01+0900\n"
+"PO-Revision-Date: 2025-04-13 02:01+0900\n"
+"Last-Translator: Mitsuya Shibata <mty.shibata@gmail.com>\n"
+"Language: ja\n"
+"Language-Team: Ubuntu Japanese Team <ubuntu-jp@ubuntu.com>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../index.md:7 ../../index.md:59 33900ee4109b46e89971daab5c0e5fcf
+msgid "24.04 LTS (Noble Numbat)"
+msgstr "24.04 LTS（Noble Numbat）"
+
+#: ../../index.md:7 ../../index.md:68 a86d8502b45a4cd98b266637f9fe7230
+msgid "22.04 LTS (Jammy Jellyfish)"
+msgstr "22.04 LTS（Jammy Jellyfish）"
+
+#: ../../index.md:7
+msgid "Supported LTS releases"
+msgstr "サポート中のLTSリリース"
+
+#: ../../index.md:16 ../../index.md:80 b7be201c353048f0b2db547556d1d61b
+msgid "25.10 (Questing Quokka)"
+msgstr "25.10（Questing Quokka）"
+
+#: ../../index.md:16
+msgid "Supported interim releases"
+msgstr "サポート中の中間（interim）リリース"
+
+#: ../../index.md:24
+msgid "26.04 LTS (Resolute Raccoon)"
+msgstr "26.04 LTS（Resolute Raccoon）"
+
+#: ../../index.md:24
+msgid "Currently in development"
+msgstr "現在開発中"
+
+#: ../../index.md:32
+msgid "Future releases"
+msgstr "将来リリース予定"
+
+#: ../../index.md:32
+msgid "Older releases"
+msgstr "古いリリース"
+
+#: ../../index.md:32
+msgid "Other releases"
+msgstr "その他のリリース"
+
+#: ../../index.md:41
+msgid "Contribute to release notes"
+msgstr "リリースノートに貢献するには"
+
+#: ../../index.md:1 1ed2cde11d3743e59f46531747bdd19c
+msgid "Ubuntu release notes"
+msgstr "Ubuntuリリースノート"
+
+#: ../../index.md:3 41de6d9a0cc24f00bfafad8bb6fcdb80
+msgid ""
+"Release notes for Ubuntu, summarizing new features, bug fixes and "
+"backwards-incompatible changes in each version."
+msgstr ""
+"Ubuntuのリリースノートでは、それぞれのリリースにおける新機能や不具合修正、非互換な変更点などをまとめています。"
+
+#: ../../index.md:5 a3bab2a443be4d3788dcce1a3b465402
+msgid ""
+"Release notes contain specific upgrade instructions for that particular "
+"release. See also the general guidance on how to prepare for, and "
+"perform, an upgrade: [Ubuntu "
+"Desktop](https://documentation.ubuntu.com/desktop/en/latest/how-to"
+"/upgrade-ubuntu-desktop/) or [Ubuntu "
+"Server](https://ubuntu.com/server/docs/how-to/software/upgrade-your-"
+"release/)."
+msgstr ""
+"リリースノートには、個々のリリースにおけるアップグレード手順を記載しています。"
+"アップグレードの準備や実行に関する一般的なガイドについては、"
+"[Ubuntu Desktop](https://documentation.ubuntu.com/desktop/en/latest/how-to/upgrade-ubuntu-desktop/)や"
+"[Ubuntu Server](https://ubuntu.com/server/docs/how-to/software/upgrade-your-release/)を参照してください。"
+
+#: ../../index.md:48 061da2c23bbf4abeb97e6f3d17ba3a4f
+msgid "LTS releases"
+msgstr "LTSリリース"
+
+#: ../../index.md:61 972a735e6fbf488d888c772260aaca05
+#, python-brace-format
+msgid "{ref}`changes-in-ubuntu-24.04.4`"
+msgstr "{ref}`changes-in-ubuntu-24.04.4`"
+
+#: ../../index.md:62 a28a5efd46ee449ba90ae2a8c755d201
+#, python-brace-format
+msgid "{ref}`changes-in-ubuntu-24.04.3`"
+msgstr "{ref}`changes-in-ubuntu-24.04.3`"
+
+#: ../../index.md:63 94b2cf8b0b584ab1aed68221cc0fce7b
+#, python-brace-format
+msgid "{ref}`changes-in-ubuntu-24.04.2`"
+msgstr "{ref}`changes-in-ubuntu-24.04.2`"
+
+#: ../../index.md:64 06c74abbeda644dab16edb779a8b7abc
+#, python-brace-format
+msgid "{ref}`changes-in-ubuntu-24.04.1`"
+msgstr "{ref}`changes-in-ubuntu-24.04.1`"
+
+#: ../../index.md:65 2a57829abdb84216b944057935515e4c
+#, python-brace-format
+msgid "{ref}`ubuntu-24.04-lts-release-notes`"
+msgstr "{ref}`ubuntu-24.04-lts-release-notes`"
+
+#: ../../index.md:66 3109da44cbc74040be8159bf6250bae3
+#, python-brace-format
+msgid "{ref}`noble-numbat-schedule`"
+msgstr "{ref}`noble-numbat-schedule`"
+
+#: ../../index.md:70 bb1625584a31479596f898d12fa223a4
+#, python-brace-format
+msgid "{ref}`changes-in-ubuntu-22.04.5`"
+msgstr "{ref}`changes-in-ubuntu-22.04.5`"
+
+#: ../../index.md:71 0314a2bf199f40ca8e652b9a980dea03
+#, python-brace-format
+msgid "{ref}`changes-in-ubuntu-22.04.4`"
+msgstr "{ref}`changes-in-ubuntu-22.04.4`"
+
+#: ../../index.md:72 9b8a31c65be44f19aefda66188f40f4d
+#, python-brace-format
+msgid "{ref}`changes-in-ubuntu-22.04.3`"
+msgstr "{ref}`changes-in-ubuntu-22.04.3`"
+
+#: ../../index.md:73 1d419e27be2447e4b34893f95826f244
+#, python-brace-format
+msgid "{ref}`changes-in-ubuntu-22.04.2`"
+msgstr "{ref}`changes-in-ubuntu-22.04.2`"
+
+#: ../../index.md:74 44f2904e6be14855acbc3c5a814729d4
+#, python-brace-format
+msgid "{ref}`changes-in-ubuntu-22.04.1`"
+msgstr "{ref}`changes-in-ubuntu-22.04.1`"
+
+#: ../../index.md:75 b2344c51726e4ae98b5648659bd74ad7
+#, python-brace-format
+msgid "{ref}`ubuntu-22.04-lts-release-notes`"
+msgstr "{ref}`ubuntu-22.04-lts-release-notes`"
+
+#: ../../index.md:76 2aae1c83047e45b192bb5beedb3c45da
+#, python-brace-format
+msgid "{ref}`jammy-jellyfish-schedule`"
+msgstr "{ref}`jammy-jellyfish-schedule`"
+
+#: ../../index.md:78 ../../index.md:93 582ee9c1b0104ed8baf2221cd090ff5e
+#: c77832f5ebc742e8a750c1225cb11cd5
+msgid "Interim releases"
+msgstr "中間（Interim）リリース"
+
+#: ../../index.md:82 c8d00fe46f0940599ec6f51703a1e30d
+#, python-brace-format
+msgid "{ref}`ubuntu-25.10-release-notes`"
+msgstr ""
+
+#: ../../index.md:85 040bdcb70316431999842dc08b14a0d9
+msgid "Release policy and schedule"
+msgstr "リリースポリシーとスケジュール"
+
+#: ../../index.md:87 dea879a905a6405abd519ed7a769158b
+msgid ""
+"Ubuntu releases a new version every six months. Releases of Ubuntu get a "
+"development codename (‘Questing Quokka’) and are versioned by the year "
+"and month of delivery – for example, Ubuntu 25.10 was released in October"
+" 2025."
+msgstr ""
+"Ubuntuは6ヶ月ごとにリリースを行います。Ubuntuのリリースは開発コードネーム"
+"（「Questing Quokka」）とリリース年と月に基づいたバージョンが付けられます。"
+"具体的にはUbuntu 25.10は、2025年の10月にリリースされました。"
+
+#: ../../index.md:89 673510a8416f414da333e1b881fb0786
+msgid ""
+"Each version includes the latest features, updates, and security patches "
+"during its supported lifecycle."
+msgstr ""
+"それぞれのバージョンには、最新の機能や更新、そのサポート期間におけるセキュリティパッチが提供されます。"
+
+#: ../../index.md:91 923377cbf4fb4671a3351046cff65de3
+msgid ""
+"For details, see [Ubuntu release cycle](https://ubuntu.com/about/release-"
+"cycle)."
+msgstr ""
+"詳細は[Ubuntu release cycle](https://ubuntu.com/about/release-cycle)を参照してください。"
+
+#: ../../index.md:95 17396abaca644f74a107ba9b3e51605e
+msgid ""
+"Ubuntu’s interim releases are designed for users and teams who move fast "
+"and need access to the latest kernels, languages, and toolchains. They "
+"provide cutting-edge features and hardware support every six months, but "
+"with only 9 months of updates. For long-term stability, production "
+"environments should use the LTS version, while interim releases suit "
+"those prioritizing speed and rapid feature testing."
+msgstr ""
+"Ubuntuの中間リリースは、素早く更新し、最新のカーネル、言語、ツールチェーンへのアクセスを必要とするユーザーやチームのために設計されています。"
+"これは6ヶ月ごとに最先端の機能とハードウェアサポートを提供しますが、更新期間は9ヶ月のみとなります。"
+"長期的な安定性が求められる本番環境ではLTSを利用すべきであり、中間リリースは速度や迅速な機能テストを優先する場合に適しています。"
+
+#: ../../index.md:97 4542544bfdaf4538b7e5ff1357cfa3a9
+msgid "Long-term support (LTS)"
+msgstr "長期サポート（LTS）"
+
+#: ../../index.md:99 446cc195bb7f494eb38dcf7872998425
+msgid ""
+"LTS are released every two years and receive 5 years of standard security"
+" maintenance."
+msgstr ""
+"LTSは2年ごとにリリースし、5年間のセキュリティメンテナンスアップデートを受けられます。"
+
+#: ../../index.md:101 d7ccf6b17a4f45b59c7123eb44eead29
+msgid ""
+"LTS releases are the go-to choice for users who value stability and "
+"extended support. These versions are security maintained for 5 years with"
+" CVE patches for packages in the Main repository. They are recommended "
+"for production environments, enterprises, and long-term projects."
+msgstr ""
+"LTSリリースは、安定性と長期的なサポートを重視するユーザーにとって最適な選択肢です。"
+"これらのバージョンは、mainリポジトリ内のパッケージに対するCVEパッチを含め、5年間セキュリティメンテナンスが提供されます。"
+"本番環境やエンタープライズ、長期プロジェクトなどでの利用に適しています。"
+
+
+#: ../../index.md:103 ce477a70337b4d1db0bca04c17f06eec
+msgid "Security vulnerability policy on release day"
+msgstr "リリース当日におけるセキュリティ脆弱性のポリシー"
+
+#: ../../index.md:105 8fd438cddecb497ebc38dec9e0781467
+msgid ""
+"What happens if there is a high- or critical-priority Common "
+"Vulnerability and Exposure (CVE) during release day?"
+msgstr ""
+"リリース当日に、重要度の高いもしくは緊急性のあるCommon Vulnerability and Exposure（CVE）が発行された場合はどうなるのでしょうか？"
+
+#: ../../index.md:107 f05158b9d8cb4662a6ec5d21a8240aab
+msgid ""
+"Server, Desktop and Cloud plan to release in lockstep on release day, but"
+" there are some exceptions."
+msgstr ""
+"サーバー、デスクトップおよびクラウドは、リリース当日に足並みを揃えてリリースする予定です。ただし、いくつかの例外があります。"
+
+#: ../../index.md:109 bb9aa1492bd6441bb70ecea994a9200f
+msgid ""
+"In the unlikely event that a critical- or high-priority CVE is announced "
+"on release day, the release team have agreed on the following plan of "
+"action:"
+msgstr ""
+"リリース日に緊急性があるか重要度の高いCVEがアナウンスされた場合、"
+"リリースチームは次の対応を行うこと合意しています："
+
+#: ../../index.md:111 09d1af0b92e24b55b748e97c648a5b30
+msgid ""
+"For critical priority CVEs, the release of Server, Desktop and Cloud will"
+" be blocked until new images can be built addressing the CVE."
+msgstr ""
+"緊急性がある（criticalな）CVEの場合、サーバー・デスクトップ・クラウドのリリースは、"
+"その脆弱性が解消された新しいイメージがビルドされるまで停止します。"
+
+#: ../../index.md:113 b41f75b735854e2db21534e86f1a740c
+msgid ""
+"For high-priority CVEs, the decision to block release will be made on a "
+"per-product (Server, Desktop and Cloud) basis and will depend on the "
+"nature of the CVE, which might result in images not being released on the"
+" same day."
+msgstr ""
+"重要度の高い（high-priorityな）CVEの場合、そのCVEの状態に依存して、"
+"リリースを停止するかどうかをプロダクト（サーバー・デスクトップ・クラウド）ごとに判断します。"
+"結果的に、同じ日にすべてのイメージがリリースされないこともあります。"
+
+#: ../../index.md:115 77ce520212234d00bc214516b060501b
+msgid ""
+"This was discussed in the [`ubuntu–release` mailing list March/April "
+"2023](https://lists.ubuntu.com/archives/ubuntu-"
+"release/2023-April/005610.html)."
+msgstr ""
+"これは[`ubuntu–release`メーリングリストの2023年3月から4月にかけて](https://lists.ubuntu.com/archives/ubuntu-release/2023-April/005610.html)議論されました。"
+
+
+#: ../../index.md:117 777218d1b94e4e55ac52c88841cd43d3
+msgid ""
+"The mailing list thread also confirmed there is no technical or policy "
+"reason why a package cannot be pushed to the Updates or Security pocket "
+"to address high or critical-priority CVEs prior to the release."
+msgstr ""
+"また、このメーリングリストのスレッドでは、重要度の高いまたは緊急性のあるCVEに対応するにあたって、"
+"リリース前にUpdatesまたはSecurityポケットへパッケージをプッシュできない技術的またはポリシー上の理由はないことも確認されています。"
+
+#: ../../index.md:121 60e749c2bc064690b558678e0ff9b65f
+msgid "Project and community"
+msgstr "プロジェクトとコミュニティ"
+
+#: ../../index.md:123 284c9760b67d4233bcabdb18ded89d62
+msgid ""
+"Ubuntu is an open source project that warmly welcomes community projects,"
+" contributions, suggestions, fixes and constructive feedback."
+msgstr ""
+"Ubuntuはオープンソースプロジェクトであり、コミュティプロジェクトや貢献、"
+"提案、修正、建設的なフィードバックを歓迎しています。"
+
+#: ../../index.md:125 a6f134a9971a4ead9b507247a84cb456
+msgid ""
+"You can find out more about Ubuntu on the [Ubuntu "
+"website](https://ubuntu.com/)."
+msgstr ""
+"Ubuntuについては[Ubuntuのウェブサイト](https://ubuntu.com/)を確認してください。"
+
+
+#: ../../index.md:127 3eafd8022d494af4aad42be1c529e7b2
+msgid "Report bugs"
+msgstr "不具合の報告"
+
+#: ../../index.md:129 0749ec22967249dc96eaecf29cd7cf2d
+msgid ""
+"Your comments, bug reports, patches and suggestions help fix bugs and "
+"improve the quality of future releases. Please [report bugs using the "
+"tools provided](http://help.ubuntu.com/community/ReportingBugs). If you "
+"want to help with bugs, the [Bug Squad](http://wiki.ubuntu.com/BugSquad) "
+"is always looking for help."
+msgstr ""
+"あなたのコメントや不具合報告・パッチの投稿・提案は、不具合の修正や将来のリリース品質の改善につながります。"
+"[ツールを用いて不具合の報告をお願いします](http://help.ubuntu.com/community/ReportingBugs)。"
+"不具合について貢献したいのであれば、[Bug Squad](http://wiki.ubuntu.com/BugSquad)のページも参考になるでしょう。"
+
+#: ../../index.md:131 7b78afa9d2aa4aa7913b1c459bc36d82
+msgid "Get involved"
+msgstr "参加するには"
+
+#: ../../index.md:133 e9b20b356d7e4d2583158fe0e100c7a8
+msgid ""
+"[Sign up for future Ubuntu development "
+"announcements](https://lists.ubuntu.com/mailman/listinfo/ubuntu-devel-"
+"announce)"
+msgstr ""
+"[Ubuntuの開発アナウンス用メーリングリストに登録してください](https://lists.ubuntu.com/mailman/listinfo/ubuntu-devel-announce)。"
+
+#: ../../index.md:134 a3ee9004bc304ce2a95159582f3d85ff
+msgid "[Get support](https://ubuntu.com/support/community-support)"
+msgstr "[サポートを得るには](https://ubuntu.com/support/community-support)"
+
+#: ../../index.md:135 041487690bbd4a86a75ae3c8226370f7
+msgid "[Join our Discourse forum](https://discourse.ubuntu.com)"
+msgstr "[Discourseフォーラムに参加する](https://discourse.ubuntu.com)"
+
+#: ../../index.md:136 9c08ca0956af439592cbe5add9125b53
+msgid "[Join our online chat on Matrix](https://matrix.to/#/#release:ubuntu.com)"
+msgstr "[Matrix上のオンラインチャットに参加する](https://matrix.to/#/#release:ubuntu.com)"
+
+#: ../../index.md:137 b3f50123ee1e477285566aa9d7016624
+msgid ""
+"If you'd like to help shape Ubuntu, look at the list of ways you can "
+"participate at community.ubuntu.com/contribute."
+msgstr ""
+"Ubuntuを改善したいと考えているのであれば、 community.ubuntu.com/contribute 内で参加できそうなものがないかも探してみてください。"
+
+#: ../../index.md:139 6a501f7c9d7a4f0a912569ff5bb29606
+msgid "Governance and policies"
+msgstr "ガバナンスとポリシー"
+
+#: ../../index.md:141 4e50f8c63a2341cdbd373a8f797f703d
+msgid "[Code of conduct](https://ubuntu.com/community/code-of-conduct)"
+msgstr "[Code of conduct](https://ubuntu.com/community/code-of-conduct)"
+

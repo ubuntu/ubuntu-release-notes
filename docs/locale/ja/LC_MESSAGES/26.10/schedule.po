@@ -1,0 +1,493 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu release
+# notes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu release notes \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-13 02:01+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../26.10/schedule.md:2 a63e7677a4434cc4bd9441dcccd48c23
+msgid "Ubuntu S S Release Schedule"
+msgstr ""
+
+#: ../../26.10/schedule.md c88921be152f425e80ccbf3430ee8c6e
+#: d744616c350d4eb3bc5e41ac57885674
+msgid "Week"
+msgstr ""
+
+#: ../../26.10/schedule.md 103b32ae152e4afab474fbf152d5dcb3
+#: 16ac1e59a67b426bbfec8b6ab9f595b7
+msgid "Date (Thursday)"
+msgstr ""
+
+#: ../../26.10/schedule.md bfcca7737c7c4832ae2d791f3443425b
+msgid "26.10 events"
+msgstr ""
+
+#: ../../26.10/schedule.md 18e7d88fa58e470ca1c29af64d91fe99
+#: 55f35943c02b4becbd5a720e50a621e1
+msgid "**April 2026**"
+msgstr ""
+
+#: ../../26.10/schedule.md d5e4ed70d7cc47c097bcab425d52d96a
+#: eab1e8abc3ef4cbd831ca46fab105d05
+msgid "1"
+msgstr ""
+
+#: ../../26.10/schedule.md 1276453cfd5e4ed6b8197342c55fc593
+#: 4771e60425f7447098560b6cdc1a3a78
+msgid "April 30"
+msgstr ""
+
+#: ../../26.10/schedule.md b0b25a4c12e24c7785bb7c119f1a256a
+msgid "Toolchain Uploaded"
+msgstr ""
+
+#: ../../26.10/schedule.md 26529fa65d7a4caaa61e2e71e4c3d45f
+#: 28ce19b696dd41188a83c08da6e8a71e
+msgid "**May 2026**"
+msgstr ""
+
+#: ../../26.10/schedule.md 6b3047ff54fa4def91c9a9cb84c16f03
+#: cf73b9d57d8543b8afcf7f697be52622
+msgid "2"
+msgstr ""
+
+#: ../../26.10/schedule.md 031cd52afa534ddc8aec8960e2949096
+#: cfd35b2ebd654645ac45ff50fe8a128e
+msgid "May 07"
+msgstr ""
+
+#: ../../26.10/schedule.md 089b7de4de3c47008b386f06fe832816
+#: 6acf0711128841cc9b895bb1012a0c99
+msgid "3"
+msgstr ""
+
+#: ../../26.10/schedule.md 9f1a2cc605f24ba48ab8d740a2a44d30
+#: ae51aaef0ce4428b8e6004add1077fad
+msgid "May 14"
+msgstr ""
+
+#: ../../26.10/schedule.md 32b80f424ff24a98bf674108e829e90b
+#: 8bf07de9dcc84c10b357a5696208d975
+msgid "4"
+msgstr ""
+
+#: ../../26.10/schedule.md 89541a25da3440f3b89394aace5b06c4
+#: aa22fc494d814581b6c5b6414eae9f46
+msgid "May 21"
+msgstr ""
+
+#: ../../26.10/schedule.md 8c334219b28344f3a8b3b26183a16ae0
+#: e55263da69d84f4f8d832d43b1cadff6
+msgid "5"
+msgstr ""
+
+#: ../../26.10/schedule.md 01a72769da204add90ed34da9a1fcf19
+#: 359812e691c24ee0afa83ffbe75a34ba
+msgid "May 28"
+msgstr ""
+
+#: ../../26.10/schedule.md 17565bf064674e7e94a3a50b33e6dc64
+#: f322b6ba8d4b48d09144bd6f0f0ee701
+msgid "**June 2026**"
+msgstr ""
+
+#: ../../26.10/schedule.md 917b7bd9f5f0453aa421a5ae64af7f1d
+#: f3b056263d5d403c877d07d205e0d09d
+msgid "6"
+msgstr ""
+
+#: ../../26.10/schedule.md be5d89c6c44348408954f64301be59d7
+#: febe407682e04d899836a8c4b7036b17
+msgid "June 04"
+msgstr ""
+
+#: ../../26.10/schedule.md 72304e2572804013986526f5169e9083
+#: a5e258eb0dac4eb088b97e064246ea02
+msgid "7"
+msgstr ""
+
+#: ../../26.10/schedule.md 1e44157d1a0948bc98d243d9c80a637b
+#: 84a053550b754c4cbf65ba7095da51a5
+msgid "June 11"
+msgstr ""
+
+#: ../../26.10/schedule.md 2a5a3ff5b4f7452aafa7b3bc53f6af16
+#: adc588760c774812b52ad15675209e46
+msgid "8"
+msgstr ""
+
+#: ../../26.10/schedule.md 484964a25c234f7c90b9d30e63f751bf
+#: 496e96ca950a4d85a2b1a5d6fa31fd4a
+msgid "June 18"
+msgstr ""
+
+#: ../../26.10/schedule.md 756db176253f40739738490a95431759
+#: f79b736a914e49bf9063f97e2a40d76e
+msgid "9"
+msgstr ""
+
+#: ../../26.10/schedule.md 1829565b5cb54059ae32ca42c32dbeb5
+#: e86d25cdfea34b8386e85d322dd7ed59
+msgid "June 25"
+msgstr ""
+
+#: ../../26.10/schedule.md 07c126dbea7446feab5c1f0c5f67e89d
+#: e21c2f0242674a98880599f254fd391f
+msgid "**July 2026**"
+msgstr ""
+
+#: ../../26.10/schedule.md 44666027fc534c6ebf4a763e4d3696c4
+#: e1ac2afa87084791be0400653ea5c82c
+msgid "10"
+msgstr ""
+
+#: ../../26.10/schedule.md 7b5a9d2a51184105bfd7b5943e373140
+#: d93d572b2e9347fcb2383a47d2267b8c
+msgid "July 02"
+msgstr ""
+
+#: ../../26.10/schedule.md 20bc7bf838f341f3962a93b89fd4085e
+#: 6bd0c6b4847e4064911dd46648358c7f
+msgid "Ubuntu Testing Week (optional)"
+msgstr ""
+
+#: ../../26.10/schedule.md 8cd842e0792f479996d1a1f9ee2b6d41
+#: b1778c318d0c4cb582e006b2c0e69202
+msgid "11"
+msgstr ""
+
+#: ../../26.10/schedule.md 206026cb39f847d58452488db1b57efb
+#: 5fa64a22cbf747d6ad48e620ae24c677
+msgid "July 09"
+msgstr ""
+
+#: ../../26.10/schedule.md 6ff554a8e0974f34b3a39cac223c50c0
+#: 7e45ea6485c84a53a58967547be3ad56
+msgid "12"
+msgstr ""
+
+#: ../../26.10/schedule.md 2cc3c24e59e6460882fa0590599c9043
+#: 526e3a8c4e994e3dbeb2a961f45e57af
+msgid "July 16"
+msgstr ""
+
+#: ../../26.10/schedule.md 441794f043aa4f02ba32971e91f3dfdd
+#: 861e153b8317411698c106e311e216a7
+msgid "13"
+msgstr ""
+
+#: ../../26.10/schedule.md 8827c5176b2348ce8c71e691d7fac1b9
+#: fd5da5a9fd92403d8bfd04b392522436
+msgid "July 23"
+msgstr ""
+
+#: ../../26.10/schedule.md 8bf79dc5ee494707b8996eb7eef21bb8
+#: cc8542a4abc1430c9779d35ae4e43a6f
+msgid "14"
+msgstr ""
+
+#: ../../26.10/schedule.md 23b8632e96df4519804150ef008dd65b
+#: 50410563f8a4413c95ec0543940c9a4c
+msgid "July 30"
+msgstr ""
+
+#: ../../26.10/schedule.md b944a7b97ce84e78b138e61204e368de
+#: e7d01681b7de40968b377f5ef7d4d2bb
+msgid "**August 2026**"
+msgstr ""
+
+#: ../../26.10/schedule.md b0cec464a0134833900235e49744ca79
+#: dd7fcf4e2e8b4d77b647a9afcf5ef1ee
+msgid "15"
+msgstr ""
+
+#: ../../26.10/schedule.md 3c4a88227e464cc38db91c0650298b5b
+#: 91f12d74484b4576b4f7427207e1b0bf
+msgid "August 06"
+msgstr ""
+
+#: ../../26.10/schedule.md 6ad51ce13e42462d8b0a2b4b630fd57d
+#: 83d0e107df2b426a852a1cb74d0f1def
+msgid "16"
+msgstr ""
+
+#: ../../26.10/schedule.md 49acbc665e9e4d67a4c790c4a8196d06
+#: bfcbd1ccaba54d809d50b2738420fc04
+msgid "August 13"
+msgstr ""
+
+#: ../../26.10/schedule.md 6d4e35e3467a4deb929b786e70f488a0
+#: b0fa96cf951b4def92c8c4e2beea6574
+msgid "17"
+msgstr ""
+
+#: ../../26.10/schedule.md 98ea934488cf45f18a534cf6fe4e72f3
+#: aaa9927d75f149c586886f2062d12559
+msgid "August 20"
+msgstr ""
+
+#: ../../26.10/schedule.md f4fa10f7418541d290f1ba91367cb576
+msgid ""
+"[Feature Freeze](https://wiki.ubuntu.com/FeatureFreeze), Debian Import "
+"Freeze"
+msgstr ""
+
+#: ../../26.10/schedule.md 2fd9d66c47a14b9783b5cfd952b853a0
+#: 43389db1243a497990888db4cb22fbed
+msgid "18"
+msgstr ""
+
+#: ../../26.10/schedule.md 75a8dd09fc4c42a4b0b0250d84e02250
+#: 8988cb3835294474954fcd6b1ea9ef11
+msgid "August 27"
+msgstr ""
+
+#: ../../26.10/schedule.md 26eefa9646b043a9b7d8bd40b14035db
+#: 8096e884a83941ba88fd81240a31a8e5
+msgid "**September 2026**"
+msgstr ""
+
+#: ../../26.10/schedule.md 638f7bf0bf454cb7bcc490004878cdf4
+#: 6d29c939114e43daba509beb7eb2ca6a
+msgid "19"
+msgstr ""
+
+#: ../../26.10/schedule.md 1803f794d2a9472b97261d67e50e1363
+#: a1807c5ed7c045b6a720836e05ad0dc7
+msgid "September 03"
+msgstr ""
+
+#: ../../26.10/schedule.md 7d62b8a8f036430182d6bc6cec9cc830
+#: aad1d110281246419835c88e086c6945
+msgid "20"
+msgstr ""
+
+#: ../../26.10/schedule.md 0eff9ef29d9246e089f79758dc120742
+#: a31831d89f944df8bb7e87f0b76071bc
+msgid "September 10"
+msgstr ""
+
+#: ../../26.10/schedule.md f315e37c58c841ca9ebf483c67e8b389
+msgid "[User Interface Freeze](https://wiki.ubuntu.com/UserInterfaceFreeze)"
+msgstr ""
+
+#: ../../26.10/schedule.md 88816b72fe5848a2befc4b90a996cc2c
+#: 98092d451ecb4d1a9a8e7b27e22a9292
+msgid "21"
+msgstr ""
+
+#: ../../26.10/schedule.md 0e488fed8ad24eca9552d36fbcc73e7a
+#: 325e1c1fa49946a2ac88d61a3e875299
+msgid "September 17"
+msgstr ""
+
+#: ../../26.10/schedule.md d499b976ab8f4bd3ae667a036a323b8c
+msgid ""
+"[Documentation String "
+"Freeze](https://wiki.ubuntu.com/DocumentationStringFreeze), [Kernel "
+"Feature Freeze](https://wiki.ubuntu.com/KernelFeatureFreeze)"
+msgstr ""
+
+#: ../../26.10/schedule.md d20843a4ef4b4e8c97f23d40401461b6
+#: de3975672b0f4c7aba719afbac724c81
+msgid "22"
+msgstr ""
+
+#: ../../26.10/schedule.md 207005bd3cd24f38a6977e54d598a098
+msgid "September 21 (Monday)"
+msgstr ""
+
+#: ../../26.10/schedule.md f13878a6fc8542dfb043d99ab3bb58ef
+msgid ""
+"[Beta Freeze](https://wiki.ubuntu.com/BetaFreeze), [Hardware Enablement "
+"Freeze](https://wiki.ubuntu.com/HardwareEnablementFreeze)"
+msgstr ""
+
+#: ../../26.10/schedule.md 019a9b47b42c4381a6e0aee18fe4987f
+msgid "⠀"
+msgstr ""
+
+#: ../../26.10/schedule.md 9795a2e1656c4251afd718ea04ac1f26
+#: a449d2d194d347f8bcb37fbc17a32608
+msgid "September 24"
+msgstr ""
+
+#: ../../26.10/schedule.md aeef3490e6884bb9801db3a582403b1c
+msgid "Beta (mandatory)"
+msgstr ""
+
+#: ../../26.10/schedule.md 01911e08544245ca80a70d91d5cda144
+#: af0485492c2a467193d590cbdac19a53
+msgid "**October 2026**"
+msgstr ""
+
+#: ../../26.10/schedule.md 0a7e39b66e6a46aba53dc0e8e0d78b5c
+#: 62aef0df733944fdbcbd881bf6d28d94
+msgid "23"
+msgstr ""
+
+#: ../../26.10/schedule.md ad2b151efec5475481b03fb03a2bf133
+#: fd2521b0a5d0463dbc73ce70a78e7ae0
+msgid "October 01"
+msgstr ""
+
+#: ../../26.10/schedule.md 3faf934f66b6417d979e80de059748e4
+msgid ""
+"[Kernel Freeze](https://wiki.ubuntu.com/KernelFreeze), [Non Language Pack"
+" Translation "
+"Deadline](https://wiki.ubuntu.com/NonLanguagePackTranslationDeadline)"
+msgstr ""
+
+#: ../../26.10/schedule.md 7f92545b75e5420fa6829fcf2c63e48c
+#: d00293fc68ce48058e5b2469e14154e4
+msgid "24"
+msgstr ""
+
+#: ../../26.10/schedule.md 0a770562330f4b1cb9fe88b2e0fca818
+#: ecb9256b76fb44f78cfde40789e1ba73
+msgid "October 08"
+msgstr ""
+
+#: ../../26.10/schedule.md e6598e6e147f42ceaa0b80159f0fd02a
+msgid ""
+"[Final Freeze](https://wiki.ubuntu.com/FinalFreeze), [Release "
+"Candidate](https://wiki.ubuntu.com/ReleaseCandidate), [Language Pack "
+"Translation "
+"Deadline](https://wiki.ubuntu.com/LanguagePackTranslationDeadline)"
+msgstr ""
+
+#: ../../26.10/schedule.md 2d27e5a6c6ce45fc983b4cc8d705d749
+#: 7810ce5f435e4d3ba8e355f13c7bfeb5
+msgid "25"
+msgstr ""
+
+#: ../../26.10/schedule.md af5f192440ab465cba8ea04ac39a478a
+#: bf913d1948ef47b5928f99995753f0d3
+msgid "October 15"
+msgstr ""
+
+#: ../../26.10/schedule.md 3a27d227f77a463fad153cc875af188e
+msgid "[Final Release](https://wiki.ubuntu.com/FinalRelease)"
+msgstr ""
+
+#: ../../26.10/schedule.md:43 1eb5e0df9d1940419126692f3eab93af
+msgid "Planned and potentially disruptive archive-wide activities"
+msgstr ""
+
+#: ../../26.10/schedule.md:45 187c6d393851481e8f410f4bf327530d
+msgid ""
+"If you're planning a change that might have a disruptive effect on the "
+"archive - e.g. transitions or switches of important defaults (such as "
+"compiler versions) - list it here."
+msgstr ""
+
+#: ../../26.10/schedule.md 4ff4115e0dee4656bac01601f849ab0d
+msgid "Planned activity"
+msgstr ""
+
+#: ../../26.10/schedule.md:82 510baefdb7dd430caa8bcc24376c7e61
+msgid "Ubuntu S S Release Task Signup Sheet"
+msgstr ""
+
+#: ../../26.10/schedule.md:84 c1cde72fcd834825aca64f9797e5561c
+msgid "This signup sheet is to be used for planning release milestone tasks."
+msgstr ""
+
+#: ../../26.10/schedule.md:86 5620fde50aaa418a8175a6d172452b75
+msgid ""
+"The Alpha and Beta 1 milestones have been replaced with [Testing "
+"Weeks](https://lists.ubuntu.com/archives/ubuntu-"
+"release/2018-April/004434.html), which are organized ad hoc at this "
+"point."
+msgstr ""
+
+#: ../../26.10/schedule.md 5360eb4ef5e943afb5179b49bcaed810
+msgid "Milestone"
+msgstr ""
+
+#: ../../26.10/schedule.md 423bbaea6fe54891b87770ae87f4d2da
+msgid "Date"
+msgstr ""
+
+#: ../../26.10/schedule.md ff22f321cd694f3baf30a3d012d9d64c
+msgid "Image (Nusakan) Engineering"
+msgstr ""
+
+#: ../../26.10/schedule.md 24b254b7b6484e8a9d061cff54627e5e
+msgid "Checklist Tracking"
+msgstr ""
+
+#: ../../26.10/schedule.md 6cbe3acd2a5944c29a4fe5987d038c59
+msgid "Announcement Email"
+msgstr ""
+
+#: ../../26.10/schedule.md 03fc6e1296ca4a5ea615f84dde890df3
+msgid "Feature Freeze"
+msgstr ""
+
+#: ../../26.10/schedule.md 7293fb4621ea453595a06f19f88570c3
+#: 75f2099a046749bc806812d8a1eacd54 9c7a4fab34134d9199bd4af9cc4308cf
+#: ee37166fbff94225ac84a554a40c9564 f79e2b0b96a14e4b87eb02421831014d
+msgid "n/a"
+msgstr ""
+
+#: ../../26.10/schedule.md 7eacff01391147418aa8a528f97abb3e
+msgid "UI Freeze"
+msgstr ""
+
+#: ../../26.10/schedule.md 61274347d50f4477b317a259a3240532
+msgid "Doc String Freeze"
+msgstr ""
+
+#: ../../26.10/schedule.md 1554d26b563d42eb9c23c28497f4e332
+msgid "26.10 Beta"
+msgstr ""
+
+#: ../../26.10/schedule.md 944134b85d6b461e8d8c9e49a41a9d8e
+msgid "Final Freeze"
+msgstr ""
+
+#: ../../26.10/schedule.md 573dbb11a19c453babd487814872d6ce
+msgid "26.10 Release"
+msgstr ""
+
+#: ../../26.10/schedule.md c9c80c27dc2c47e1bf13d86a63b2585a
+msgid "October 15 2026"
+msgstr ""
+
+#: ../../26.10/schedule.md:97 afd0a1dd739b4b7cb19d0f1bcd42224d
+msgid ""
+"When the archive is frozen, all members of the release team are expected "
+"to participate in bug fix reviews."
+msgstr ""
+
+#: ../../26.10/schedule.md:99 c2133fa5a239432788bc283bf060c8a9
+msgid ""
+"After [Feature Freeze](https://wiki.ubuntu.com/FeatureFreeze), all "
+"members of the release team are expected to participate in Feature Freeze"
+" Exception reviews in their particular area of expertise."
+msgstr ""
+
+#: ../../26.10/schedule.md:101 4d847d06b3304b97a84acbdd3f1e8d61
+msgid ""
+"After [Final Beta](https://wiki.ubuntu.com/FinalBetaRelease), all members"
+" of the release team are expected to participate in Bug fix reviews in "
+"their particular area of expertise."
+msgstr ""
+

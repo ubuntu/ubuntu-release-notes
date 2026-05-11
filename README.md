@@ -23,3 +23,25 @@ cd docs
 ```bash
 make run
 ```
+
+### Translating the documentation
+
+To translate the documentation, you first need to update the translation template files to match the latest source documents.
+
+Run the following command:
+
+```bash
+cd docs
+make update-po DOCS_LANG=ja
+```
+
+This will generate or update `.po` files under the `locale/<lang>/` directory (for example, `locale/ja/LC_MESSAGES/`).
+
+If new `.po` files are created, make sure to add them to Git:
+
+```bash
+git add locale/
+git commit -m "Add new translation files"
+```
+
+After that, edit the `.po` files to add or update translations.

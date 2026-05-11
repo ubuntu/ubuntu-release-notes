@@ -1,0 +1,2064 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu release
+# notes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu release notes \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-13 02:01+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../26.04/summary-for-lts-users.md:6 47f7bbe8f6b24a8a90d85c0813e50936
+msgid "Ubuntu 26.04 LTS summary"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:8 41f1ff562c12455bb2b2392c9a52ffd7
+msgid ""
+"If you’re upgrading **from Ubuntu 24.04 LTS (Noble Numbat)**, you receive"
+" the changes that happened in all the interim releases between Ubuntu "
+"24.04 LTS and 26.04 LTS, as well as the most recent changes since Ubuntu "
+"25.10."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:10 6fffb859297e43c1af337b61a6a6396f
+#, python-brace-format
+msgid ""
+"For details, see the complete interim release notes: {ref}`24.10 "
+"<ubuntu-24.10-release-notes>`, {ref}`25.04 <ubuntu-25.04-release-notes>` "
+"and {ref}`25.10 <ubuntu-25.10-release-notes>`. Finally, review the latest"
+" {ref}`ubuntu-26.04-lts-changes-since-25.10`."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:12 957523735670415599db1b5f89ee4999
+msgid "The following is an overview of the major changes."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:14 5da9bdfd5291489391558767e8fb4a70
+msgid "Desktop"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:16 dadab1b4099b4ecfa6e4f489eb2d5cca
+msgid "Updated applications"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:18 34cd928eb7664bce8f36391b9e7c7207
+msgid ""
+"Firefox 🔥🦊 has been updated [to version 149](https://www.firefox.com/en-"
+"US/firefox/148.0/releasenotes/) / [150](https://www.firefox.com/en-"
+"US/firefox/148.0/releasenotes/)."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:19 2c2e6955968d48d9859b4d7dd917c98c
+msgid ""
+"LibreOffice 📚 has been updated from version 24.2 [to "
+"25.8](https://wiki.documentfoundation.org/ReleaseNotes/25.8)."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:20 67d33c4762fe494ea08c4662fe93f750
+msgid ""
+"Thunderbird 🌩️🐦 has been updated [to version 140 "
+"\"Eclipse\"](https://blog.thunderbird.net/2025/07/welcome-to-"
+"thunderbird-140-eclipse/)."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:21 54673e4f67e4416899743f7784b88186
+msgid ""
+"GNU Image Manipulation Program 🖼️ has received a major update from "
+"version 2.10 [to "
+"3.0](https://www.gimp.org/news/2025/03/16/gimp-3-0-released/)."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:23 340498dc81c44bbbb6be876b874299fd
+msgid "GNOME 50"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:25 c1029c72f70a411eb782177d54a6cd77
+msgid ""
+"The GNOME desktop environment has been updated from version 46 to 50. "
+"Major highlights:"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:27 d20125b74989436296b34c9ec802c3e8
+#, python-brace-format
+msgid ""
+"You can now set an application to start automatically after login in "
+"{menuselection}`Settings --> Apps`."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:28 21560493283b4448865e24e343204fd5
+msgid "Fractional scaling factors are now optimized so as to minimize blur."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:29 0870a7a767e44c548f1f9aefc96664c4
+msgid ""
+"The default monospace font size has been reduced to match the default "
+"user interface font size. The monospace font is used in terminals and "
+"similar applications."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:30 534c45e026244249bb5074b916d998bc
+msgid ""
+"The [Sysprof](https://apps.gnome.org/Sysprof/) app is installed by "
+"default as a new system utility. This makes it easier to discover "
+"performance issues in your apps."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:35 7cdebc62968c4d3f9473dffe94041b64
+msgid ""
+"For details, see the upstream release notes: [GNOME "
+"47](https://release.gnome.org/47/), [GNOME "
+"48](https://release.gnome.org/48/), [GNOME "
+"49](https://release.gnome.org/49/) and [GNOME "
+"50](https://release.gnome.org/50/)."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:37 542dbab2c65e4bbebbd95aa1c4db4af5
+msgid "New document viewer"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:41 314f53f2b6684fd092f32f2edb0f66b5
+msgid ""
+"The Document Viewer app for viewing PDFs is now provided by Papers "
+"instead of Evince. Papers started with the Evince codebase but it has "
+"been updated to use GTK4 and partially rewritten in Rust."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:43 c936d370ed0e4d9eafcc99f54742cfad
+msgid "New image viewer"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:47 48e4a541b11849af9debc261d65efa5f
+msgid ""
+"The Image Viewer app is now provided by "
+"[Loupe](https://apps.gnome.org/Loupe/) instead of Eye of GNOME (EOG). "
+"Loupe is written in Rust and powered by the "
+"[Glycin](https://gitlab.gnome.org/GNOME/glycin) library."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:49 6ff097682f3946d0908ab918494d4e02
+msgid "New terminal emulator"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:53 5b421510d3ea41d3b35736794cc3b678
+msgid ""
+"The Terminal app is now provided by "
+"[Ptyxis](https://gitlab.gnome.org/chergert/ptyxis/-/blob/main/README.md?ref_type=heads)"
+" instead of GNOME Terminal."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:55 4ac2bf384d08409f8a2447fce44f892c
+msgid "New default video player"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:57 2779aebcb93847599a5c21e378056c30
+msgid ""
+"The default video player is now "
+"[Showtime](https://apps.gnome.org/Showtime/), replacing Totem."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:59 139c1b19b0354c81a510cabbf37e0f34
+msgid "New video and audio thumbnailers"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:61 eba9db04b9194432abd5d54093d4759d
+msgid ""
+"Previously, video and audio thumbnails were generated by the Totem video "
+"thumbnailer. Now, the [`gst-thumbnailers`](https://salsa.debian.org"
+"/gnome-team/gst-thumbnailers) project handles the same functionality."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:63 8daca7218a6c4ab287eca2b3481a7ad1
+msgid ""
+"The new thumbnailers are written using the Rust GStreamer bindings and "
+"rely on the [Glycin](https://gitlab.gnome.org/GNOME/glycin) library for "
+"image handling. They do a better job at finding \"interesting\" frames "
+"than the previous Totem thumbnailers."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:65 5be9d62ec7784acc9f1dfeabc2f33570
+msgid "Tracker Miners updated to LocalSearch"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:67 310e87f0f77a4bafbbea6db685747310
+msgid ""
+"The Tracker Miners indexer has been renamed to LocalSearch. See the "
+"[upstream announcement](https://blogs.gnome.org/carlosg/2024/07/14"
+"/goodbye-tracker-hello-tinysparql-and-localsearch/). Ubuntu 26.04 LTS "
+"ships a substantial update of this tool from version 3.8.2 to 3.11."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:69 9f2a1d63a02b4e6ca6c7b741ce29bf2b
+#, python-brace-format
+msgid ""
+"For LocalSearch to be able to index audio files, video files, ISO files "
+"and certain zip-compressed office files, you need to select "
+"{guilabel}`Install third-party software for graphics and Wi-Fi hardware "
+"and additional media formats` during the Ubuntu installation. You can "
+"also install the extractors manually after installation with the "
+"following command:"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:75 902b57318b1f4639b3dd1d8537f99df8
+msgid "Wayland session"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:79 9c16726fcad0422eb96e96646117d665
+msgid ""
+"The *Ubuntu Desktop* session now runs only on the Wayland back end, "
+"because GNOME Shell can [no longer run as an X\\.org "
+"session](https://discourse.ubuntu.com/t/ubuntu-25-10-drops-support-for-"
+"gnome-on-xorg/62538)."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:81 d8427af7c73644259fa1c10d3532779f
+msgid ""
+"You can still run applications developed for X\\.org through the XWayland"
+" compatibility layer."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:83 0f82375e7f954f49a9e6b4a8b9445c74
+msgid ""
+"Other desktop sessions, such as [KDE on X11](https://kde.org/), "
+"[Xfce](https://www.xfce.org/), [MATE](https://mate-desktop.org/), "
+"[`i3`](https://i3wm.org/) and many others, can still be launched using an"
+" X\\.org session."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:85 198da4ffb9524866926392addb2fa414
+msgid "Machines using Nvidia graphics now fully support Wayland."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:87 8c22f59b719e4d9a95e8ce54050ebc3e
+msgid "Software & Updates app"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:89 55b4cbdfd5654486b502cf69371a44e4
+msgid ""
+"Ubuntu Desktop no longer includes the Software & Updates settings app by "
+"default. For more details, see [the Discourse "
+"announcement](https://discourse.ubuntu.com/t/why-we-re-saying-goodbye-to-"
+"software-updates/76783)."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:91 7b3a2ed67bb640b5ae076edc0eca8cba
+msgid ""
+"The app is still available in the Ubuntu repository and it's been updated"
+" to use the GTK 4 toolkit."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:93 bb0c5affe15b448bb7e42720924851a0
+msgid "You can install the app manually with the following command:"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:99 fd17785624284539a0a17c3f2fcd1841
+msgid "App Center enhancements"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:103 f169bbe48f6f471ca07d6082f8a6ec29
+msgid "The App Center now includes improvements, including:"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:105 f348c10b093740328c7eb612a0c8c744
+msgid "Installs in progress"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:106 92e4188ebed345caac6ad97eec271341
+msgid "Improved self-update handling"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:107 fd03b1a7d9b3401cb2b8a6a6fa875958
+msgid "Messaging for running snaps"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:108 4b4536dfea31442ab06cd7baaaaa3911
+msgid "Direct uninstall of snaps from the manage page"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:109 2cb283612bb9409d84bf16d03169b997
+msgid "Scrolling support for touch screens"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:110 7a93e0a6cd4d47a1bb7d570b76c0abf8
+msgid "Third party Deb installation"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:112 59e326c5081b46a8aca84a7ecd696125
+msgid "Security Center"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:116 b9bb4404a4a64c368e2ce8cc316c31fc
+msgid ""
+"A new Security Center is included. It features the ability to easily "
+"enable or disable a new experimental [permissions "
+"prompting](https://discourse.ubuntu.com/t/ubuntu-desktop-s-24-10-dev-"
+"cycle-part-5-introducing-permissions-prompting/47963/1) feature for Home "
+"directory permissions."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:118 3d1c1cdec5984298803df06faeb7adc9
+msgid "Permission prompting"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:122 8573cee603e74b338eeb1c0c1228bfa6
+msgid ""
+"Prompting is also supported by an additional seeded snap, `prompting-"
+"client`, for permissions prompt handling."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:124 cf7af1863d8e4d34ad750cd1ae910d69
+msgid "Better power optimization"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:128 2a9d4e366b6f4c209726ab1b523414b0
+msgid ""
+"Power Profiles Manager [has been improved and "
+"optimized](https://gitlab.freedesktop.org/upower/power-profiles-"
+"daemon/-/releases/#0.23) to support better newer hardware features "
+"(especially AMD), can now support multiple optimization drivers and is "
+"now battery-aware to automatically increase the optimization levels when "
+"running on battery only."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:130 13e1d3d899a84c3db58b6a990f3c8851
+msgid "Performance improvements in Windows games"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:134 a3f2abdf33004ed892f39c97b74b319f
+msgid ""
+"A new NTSYNC driver that emulates WinNT sync primitives is available, "
+"delivering better performance potential for Windows games running on Wine"
+" and Proton (Steam Play)."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:136 86e08bfb33e842a39ba94632385b82c2
+msgid "New ARM64 Desktop image"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:140 3479f6ad0b6b44cc9654faabcbff0450
+msgid ""
+"There is now an official generic ARM64 Desktop ISO targeting VMs, ACPI + "
+"EFI platforms and Snapdragon based WoA devices."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:142 663bb84f7cb94aef90bd5930f3cafea5
+msgid ""
+"Initial hardware enablement work for the Snapdragon X Elite platform is "
+"included in the Desktop ISO."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:144 d924533f7b57456f9b84636657e2e69b
+msgid "Dual boot enhancements"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:148 e5ad98e446604269a261e441e476a2be
+msgid ""
+"Improved dual boot user experience, with a focus on BitLocker protected "
+"Windows systems:"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:150 1f17f4bf0a224a5ebaee6eaca58cf576
+msgid ""
+"Added the option to install Ubuntu alongside existing BitLocker "
+"partitions if enough unallocated  space (or a sufficiently large and "
+"resizable partition) is available"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:151 2847fbc5ba784e73b14dd535c2cf1fa6
+msgid ""
+"Made encrypted installations and other 'advanced options' available for "
+"dual boot scenarios"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:153 097cfe308b8549f5a0762ee6d9d88799
+msgid "JPEG XL support"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:157 60853b1352414ecd84cbf8c1c504e7ee
+msgid ""
+"The JPEG XL format is now supported without needing to install any "
+"additional packages"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:159 bd1692f0ce0042a3b0160f0d8a8fb07f
+msgid "VA-API accelerated video encoding and decoding by default"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:161 589f781b588c4a54a19c94638d8507e1
+msgid ""
+"By default, hardware-accelerated video encoding and decoding are now "
+"provided for AMD and Intel users via the Video Acceleration API (VA-API)."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:163 7160c0d6526d4c7a94ecb5bf115beb5d
+msgid "Updated optional media codecs"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:167 9e21b63c74f44c38979d84ab0d7bdb22
+msgid ""
+"The additional packages that you can enable during the Ubuntu "
+"installation have been updated. The updated package set now includes the "
+"non-free AAC codec for supported Bluetooth headsets."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:169 3e178e7574dd437ca655868a55bfe569
+#, python-brace-format
+msgid ""
+"To install these codecs, select {guilabel}`Install third-party software "
+"for graphics and Wi-Fi hardware and additional media formats` in the "
+"Ubuntu installer."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:171 705cd13b64eb4effb57cf942fa09a029
+msgid "New update notifications"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:175 bea54ce39c1f4e80a62da96dbf9f1695
+msgid ""
+"When system updates are available, the Software Updater window no longer "
+"pops up unprompted, stealing the keyboard focus. Instead, a notification "
+"shows up with options to open the Software Updater or to install all "
+"updates directly."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:177 cc49617a9c994678969036d620ed9bf6
+msgid ""
+"An icon in the system tray reminds you that updates are available even "
+"after dismissing the notification. It also provides a quick way to apply "
+"all the updates or inspect them in the Software Updater."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:179 f363d9d21d794f62b201557ce2e1b6dd
+msgid "Installer accessibility"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:183 fb7e20449a3246009c5a07f636943361
+msgid ""
+"The Ubuntu installer has received plenty of accessibility fixes for "
+"screen reader users."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:185 3fa6735ee1374730bf10969e840d7ac2
+msgid "Ubuntu Insights"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:189 7d6bd168280c49af8cd947df0d0940c7
+msgid ""
+"[Ubuntu Insights](https://github.com/ubuntu/ubuntu-insights) is being "
+"developed as a replacement for [Ubuntu Report](https://github.com/ubuntu"
+"/ubuntu-report) and gives you more control over the non-personally "
+"identifying system metrics that you choose to share with Canonical. The "
+"metrics collection is opt-in."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:192 29d6bc9d70654ae7839e12005008678c
+msgid ""
+"Any consent that you previously granted to Ubuntu Report will not be "
+"carried over to Ubuntu Insights."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:196 62dc1dfa01bf44799b04c04d7f789a8e
+msgid "Server"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:199 69e79b9d7990459fb1a0856d586f0c54
+msgid "OpenSSH"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:201 a29b6c1029854b4b8969eff1e26e13a1
+msgid ""
+"The upgrade from Ubuntu 24.04 LTS, which had OpenSSH 1:9.6p1, to OpenSSH "
+"1:10.2p1 includes major changes. Note the following:"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:203 f00e9a6d256b4d24a608bb7296e99807
+msgid "Deprecation warning for SHA1 SSHFP DNS records"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:204 229ac815f78d497aa5b8c6b264284a1e
+msgid ""
+"Add a warning when the connection negotiates a non-post quantum key "
+"agreement algorithm."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:205 766ec4a98e334a9f8948314a79f9f693
+msgid "Removes support for the weak DSA signature algorithm."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:206 bf5e1b496b174fae9ec5e9ca101baae1
+msgid ""
+"New `PerSourcePenalties` option that will penalise client addresses that "
+"for some reason do not complete authentication. New in version 9.8."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:207 d296a0bdc61a4fbe8de7fcb1498a68f1
+msgid ""
+"Support for a new hybrid post-quantum key exchange algorithm, called "
+"“mlkem768x25519-sha256”. Described in "
+"https://datatracker.ietf.org/doc/html/draft-kampanakis-curdle-ssh-pq-"
+"ke-03, it’s available by default. New in version 9.8."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:208 b5106a42db8f44259a564b3d1ce9df32
+msgid ""
+"New match option invalid-user, which can be used when the target username"
+" is not valid"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:209 044b4dbfa6774375bbbd5f570d095bfa
+msgid ""
+"New `sshd.service` alias to `ssh.service`. Both names can now be used in "
+"`systemctl` commands."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:210 5043b9ee7b38418e892cab49bcf593cb
+msgid ""
+"New binary packages called `openssh-client-gssapi` and `openssh-server-"
+"gssapi`. This is in preparation for a future split of the GSSAPI "
+"authentication mechanism into separate packages in the near future. For "
+"now, they just pull in their non-gssapi counterparts, if installed. See "
+"https://lists.debian.org/debian-devel/2024/04/msg00044.html for the "
+"detailed plan."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:211 90f1b9c7f975490da68091ec9959a69d
+msgid "Host DSA keys are no longer generated."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:212 f129ebdfe4f94502851916aadfc581e6
+msgid ""
+"Starting with 1:9.6p1-3ubuntu17, openssh server no longer reads "
+"`~/.pam_environment` of the target system upon login. See [LP: "
+"#2059859](https://bugs.launchpad.net/ubuntu/+source/openssh/+bug/2059859/)"
+" for details."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:214 1908bac3ba8f446da997ebbcbf5174d1
+msgid ""
+"For full upstream release notes for all releases, please consult "
+"https://www.openssh.org/releasenotes.html"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:216 0259fbd69c504041a1876b0bb3403824
+msgid "Chrony"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:218 3abc387de5d34585a082e6b3570f3109
+msgid ""
+"Chrony is now used as the default time daemon replacing `systemd-"
+"timesyncd` for new installations."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:220 2af0fa1a9b2440a7b4cafc88015c8209
+msgid ""
+"To migrate existing systems after the upgrade to Ubuntu 26.04 LTS, use "
+"the following commands:"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:227 560800a7c1c14a9abbc67ffe75f3d355
+msgid "NTS (authenticated & encrypted NTP) by default uses Ubuntu time servers."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:229 2631a2ec4add48a59f58ec7a72cb4e81
+msgid ""
+"Ubuntu's NTP servers are defined in a [new "
+"snippet](https://discourse.ubuntu.com/t/improving-chrony-time-source-"
+"configuration-in-ubuntu/47850) in `/etc/chrony/sources.d/ubuntu-ntp-"
+"pools.sources`."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:231 0d5ed7a46dbd4a82aea42ba20fd80d72
+msgid ""
+"If you edited `/etc/chrony/chrony.conf`, ensure that the servers defined "
+"in `/etc/chrony/sources.d/ubuntu-ntp-pools.sources` are not used twice."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:233 c4c7a009af4d4f8f8249347d2d875bfd
+msgid ""
+"Specific release notes since Chrony version 4.5, which was found in "
+"Ubuntu 24.04 LTS, are at <https://chrony-"
+"project.org/news.html#_27_aug_2025_chrony_4_8_released>."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:235 1952c665109c4228bc2f93efd5238732
+msgid "ClamAV"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:237 468d4b005f5f4298a5f853a077c01c98
+msgid "Updated to 1.4.3 with many new features"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:239 ba054538338a4dbd8942102513c4c65c
+msgid "Scanning attachments found in Microsoft OneNote section files"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:240 5dd6c0ffe11c44849240c7e1004aa16f
+msgid "Extracting Universal Disk Format (UDF) partitions"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:241 8911525a5f53479198385a3f4980b864
+msgid "Extracting embedded images in HTML CSS `<style>` blocks"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:242 96052857ff1d475da0be6321a759f10b
+msgid "Extracting `alz` and `lha`/`lzh` archives"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:243 94f2bcdc2261434eaacfc54815fdecc3
+msgid "Toggle for image fuzzy hashing"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:244 1554553d9b6e4bb0829a8db38af7a12d
+msgid "Improvements for VBA extraction in office documents"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:245 44cea170966f4076b64a21fc2ffcd72f
+msgid "Custom clean file cache size with `--cache-size` (uses more RAM)"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:246 a76e6bb9e24945389e6807948a1df6eb
+msgid "A `systemd.timer` unit for running `freshclam`"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:247 17da65efdd47458ba362eea3ece86eed
+msgid "Better limit handling for large files"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:248 8cb3ed05e2654ecf8a2c3294effa89b8
+msgid "Client certificates for authentication to a private Freshclam mirror"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:249 ddc4366aec36467396f4ff0a2d6d6792
+msgid "Virus database minimal age"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:251 0607f56589b44acd907d464a719cd461
+msgid ""
+"For complete details of all changes leading up to 1.4.3, please see the "
+"upstream release notes at <https://blog.clamav.net/>."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:253 99cd7f8363e54ad4b6c84c2f40550b9a
+msgid "Django"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:257 dd45beb6cfcf407da69b51a087d0fba2
+msgid ""
+"Django has been updated to the latest LTS release 5.2 from 4.2, which "
+"includes many new features and bug fixes. All Django middleware provided "
+"in Ubuntu has also been updated to be compatible with the new version. "
+"See the [5.0 release "
+"notes](https://docs.djangoproject.com/en/5.2/releases/5.0/) for features "
+"and updates added with the major version change and the [5.2 release "
+"notes](https://docs.djangoproject.com/en/5.2/releases/5.2/) for the "
+"changes made leading up to the LTS release."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:259 22eb068a1f4b457c855b8c3b25db526e
+msgid "PHP"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:261 44f73bc0ae5f432ab3427fd92a78c7c5
+msgid ""
+"PHP was updated to version 8.5. Among other enhancements and bugfixes, "
+"the highlighted changes since Ubuntu Noble 24.04 are:"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:263 5875ff53bc7c49b9891eb4492010d20b
+msgid "Property hooks"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:264 ebc03cca40b64b36a94fb1036f664064
+msgid "Asymmetric visibility"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:265 4a2440a6b9c74115a78f7d46eddf6629
+msgid "Updated DOM API"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:266 433f0eab5109491cbdb979d919dc2e9f
+msgid "A new URI Extension"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:267 fbef2b6a552b423f8bd77c94be9f6864
+msgid "The Pipe Operator"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:268 dfcf597521134457814fd6c47a463ca7
+msgid "Clone With functionality"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:269 f4b41578622846bc9912c88d4fe1998b
+msgid "The `#[\\NoDiscard]` Attribute"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:270 9f7c459b10614798b9da810ecaf623a8
+msgid "Closures and First-Class Callables in Constant Expressions"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:271 39cbb9516f7a4395be5a9f1f7b575766
+msgid "Persistent `cURL` Share Handles"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:272 48c1a9ffa08d49b9b3c2bec2dbe3b7bd
+msgid "`array_first()` and `array_last()` functions"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:274 33173546c13942b8920399e416cf8967
+msgid ""
+"For more details, breaking changes and other features, see the upstream "
+"release notes:"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:276 e7fd8817d1844ed8a31d2d48ff93b906
+msgid "[PHP 8.4](https://www.php.net/releases/8.4/en.php)"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:277 a98f1f791b8e4ca1ada677d96b1123f5
+msgid "[PHP 8.5](https://www.php.net/releases/8.5/en.php)"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:279 5094ef106c9a4772acb0d93396fb1bcc
+msgid "Dovecot"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:281 d35176731b234ec3958ce87c82e2d896
+msgid ""
+"Updated to 2.4.2. Version 2.4 introduced many changes to the Dovecot "
+"configuration format!"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:283 2a52cd1693fe4006a0b4c7d85f45361b
+msgid ""
+"Coming from Ubuntu 24.04 LTS, please follow [dovecot’s 2.3 upgrade "
+"documentation](https://doc.dovecot.org/2.4.2/installation/upgrade/2.3-to-2.4.html)."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:285 01f5c34aca39445d83671f75a6f3e8df
+msgid ""
+"When you’re coming from other versions, follow [the upgrade "
+"overview](https://doc.dovecot.org/2.4.2/installation/upgrade/overview.html)."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:287 e87b8d87a6614c6b990bf55d92936a46
+msgid "Postfix"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:289 b5e852714ba341ce9856b7d4ccbc654a
+msgid ""
+"Specific release notes for major version releases since Ubuntu 24.04 LTS "
+"(Noble Numbat) are:"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:291 3bba7e85033645aab52822b64a6ef91f
+msgid "3.9.0: https://www.postfix.org/announcements/postfix-3.9.0.html"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:292 4fc50d7eb80e47d897906672970c9751
+msgid "3.10.0: https://www.postfix.org/announcements/postfix-3.10.0.html"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:294 da6ef9610ba7482f9b9c431e6e0cde37
+msgid ""
+"A noteworthy change in the packaging of Postfix is that **by default it "
+"is no longer installed in a `chroot`, and only limited `chroot` support "
+"is available from now on**."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:296 6b4c5bdb977747e3882caf597b6c2404
+msgid "RabbitMQ"
+msgstr ""
+
+#: ../../reuse/26.04/rabbitmq-upgrade.txt:2 5d2736c4b6d14e27ba0029513036a160
+msgid ""
+"RabbitMQ is not directly upgradable due to feature flags. To mitigate "
+"this, some manual steps are needed. For more information please read "
+"<https://discourse.ubuntu.com/t/ubuntu-server-gazette-issue-12-upgrading-"
+"rabbitmq-across-ubuntu-releases/77271>."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:301 5ecff433b04244e3b281662c20bad6fd
+msgid "Samba"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:303 f2031285ce5a40978f5f6759ccee83a3
+msgid ""
+"Samba has been updated to the new upstream 4.23 version. Changes since "
+"Ubuntu Noble 24.04:"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:305 d7f08476123b4d81b4a44a12d0a75792
+msgid "SMB3 Unix Extensions enabled by default"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:306 3d1207d8cd844122b49f3cfdc42b2040
+msgid ""
+"NetBios is disabled by default in the configuration file "
+"/etc/samba/smb.conf for fresh installs"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:307 23b3419e16d44641a30bba4d84a9131c
+msgid "SMB3 Directory Leases"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:308 8cbfa28c90894a1d89e3b369eb3cd1bc
+msgid "Netlogon Ping over LDAP and LDAPS"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:309 343e666ecafc4ce4b3059c5539f1ec31
+msgid "Experimental Himmelblaud Authentication in Samba"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:310 e4a0a671f0734f96ba1b8f14fe8439ab
+msgid "AD DC schema upgrade and provision performance improvements"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:311 9001940357f245069b4f3590fdb4ada7
+msgid ""
+"LDAP TLS/SASL [channel binding "
+"support](https://www.samba.org/samba/history/samba-4.20.3.html)"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:312 b2fb9d08766f4d6caea6080fdab928ff
+msgid "Group Managed Service Accounts"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:313 ac8b70bc1ec1430cbd508305ea25897f
+msgid "Samba can now claim Functional Level 2012R2 support"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:314 d5ee46355b09481585b5d2383385f364
+msgid "Some Samba public libraries made private by default"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:315 c0d6ede681bf44ea862f7de4bc7823b1
+msgid "Samba AD will rotate expired passwords on smartcard-required accounts"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:316 53ffb9c25bf9410a9a0d57ec60b21e37
+msgid "Automatic keytab update after machine password change"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:318 8e6834edf7ee4103bdd9bf4ef97aa153
+msgid "Removed features:"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:320 7fde0bef7f5e46d4936962197e11e461
+msgid "`nmbd proxy logon`"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:321 b5f6a84a1e24445cb801b75bbb395483
+msgid "`cldap port`"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:322 bfabf45f894b4675986a1ca39a414bed
+msgid "`fruit:posix_rename`"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:324 9ff7769eb9994dd5ae13a837800e1580
+msgid "Packaging changes when upgrading from Ubuntu Noble 24.04:"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:326 e213d6662a9c4f50a6d6a69c270dce19
+msgid ""
+"samba-vfs-modules: the VFS modules from this package were moved to the "
+"samba package, with the exception of the Ceph module, which got its own "
+"package: samba-vfs-ceph. The samba-vfs-modules package is now just a "
+"transitional package, and it can be safely removed after the release "
+"upgrade."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:327 bae693f07bc5444a9d9b1b7f0e46cd5a
+msgid ""
+"samba-vfs-modules-extra: this package used to contain the GlusterFS VFS "
+"module. This module was moved to a new package called samba-vfs-"
+"glusterfs, and samba-vfs-modules-extra became a transitional package. It "
+"can also be safely removed after the release upgrade."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:328 d7b3cafc4cf44294bf825c1ea27eee84
+msgid "The dumpmscat binary is no longer built"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:330 fc75bb3b10f74d6ba9671c33a02595fe
+msgid "Samba upstream release notes since Ubuntu 24.04 LTS (Noble Numbat):"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:332 597871a5861242628f4bc8744feba837
+msgid "[https://www.samba.org/samba/history/samba-4.20.0.html](https://www.samba.org/samba/history/samba-4.20.0.html)"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:333 47d1aeb6b09543b38342292636c56cee
+msgid "[https://www.samba.org/samba/history/samba-4.21.0.html](https://www.samba.org/samba/history/samba-4.21.0.html)"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:334 44fec79b461845bdbec90225cd954864
+msgid "[https://www.samba.org/samba/history/samba-4.22.0.html](https://www.samba.org/samba/history/samba-4.22.0.html)"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:335 38993e1e7a614577acab7478b746c531
+msgid "[https://www.samba.org/samba/history/samba-4.23.0.html](https://www.samba.org/samba/history/samba-4.23.0.html)"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:337 9544355ffc974b6cb3e0c50608a8c238
+msgid "Samba on i386"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:339 19b93bc55e444272b8f7bcd6ab84435c
+msgid ""
+"Samba version 4.21.x added a dependency to the python3-samba package: "
+"python3-cryptography. Unfortunately, python3-cryptography was last built "
+"for i386 for Ubuntu Bionic 18.04, and is no longer available for that "
+"architecture, making this new dependency unsatisfiable."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:341 cdfa06759c8e46428150f6bc881615c9
+msgid ""
+"For Ubuntu Plucky 25.04 and later, the python3-samba package is no longer"
+" built for i386. Please see [LP: "
+"#2099895](https://bugs.launchpad.net/ubuntu/+source/samba/+bug/2099895) "
+"for details. The main consequence is that the samba-tool script (part of "
+"that package) is no longer available for i386."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:343 e5cb9f8aa7c84442a9aaa0e63a328b05
+msgid "Upgrading an AD/DC from previous Ubuntu releases"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:345 67dbdf5c4fe842b7b82b051cec1f6d53
+msgid ""
+"If you have deployed a Samba Active Directory Domain Controller *without*"
+" having installed the `samba-ad-dc` package, you should install it before"
+" doing a release upgrade to Ubuntu 26.04 LTS (Resolute Raccoon). If "
+"`samba-ad-dc` is not installed prior to the release upgrade, the Active "
+"Directory Domain Controller functionality will not work on the upgraded "
+"system due to many missing components."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:347 e6cd72270448465cb37115e79591b9de
+msgid ""
+"See [LP: "
+"#2101838](https://bugs.launchpad.net/ubuntu/+source/samba/+bug/2101838) "
+"for more information"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:349 7eca5643809445acab9d56bbe76dd3e0
+msgid "Squid"
+msgstr ""
+
+#: ../../reuse/26.04/squid-7.2-features.txt:2 fd9661b7c4584c3682059051671c7e6b
+msgid ""
+"Squid was updated to upstream version 7.2. Coming from version 6, the "
+"main new options are:"
+msgstr ""
+
+#: ../../reuse/26.04/squid-7.2-features.txt:4 546d5b53b5f9446297406a27139b8b67
+msgid "Add `tls_key_log` directive to log TLS master keys."
+msgstr ""
+
+#: ../../reuse/26.04/squid-7.2-features.txt:6 80e80b37358d4729b4d3a0df3161cf96
+msgid ""
+"Add `key-extras` format to external ACL helpers to pass transaction "
+"details."
+msgstr ""
+
+#: ../../reuse/26.04/squid-7.2-features.txt:8 d280ae869eb3446ca238f5eabec57505
+msgid "Add `doh_query` directive to send DNS queries over HTTPS."
+msgstr ""
+
+#: ../../reuse/26.04/squid-7.2-features.txt:10 050f7a48d781455ea6c5de833eab88bc
+msgid ""
+"Add `cache_peer` option `tls-client-cert-switch` to select client "
+"certificates dynamically."
+msgstr ""
+
+#: ../../reuse/26.04/squid-7.2-features.txt:12 ae188960cd7e463683a3df4c39695ba9
+msgid ""
+"Several bugfixes for crash scenarios are also included in this major "
+"release."
+msgstr ""
+
+#: ../../reuse/26.04/squid-7.2-removals.txt:2 99ac4b372ee14375a69f3b77e437450d
+msgid "Some directives and options were removed in Squid 7.2:"
+msgstr ""
+
+#: ../../reuse/26.04/squid-7.2-removals.txt:4 75feb185af3c453ea1cb59fc1cab50f9
+msgid "Removed `client_delay_access` directive."
+msgstr ""
+
+#: ../../reuse/26.04/squid-7.2-removals.txt:6 54e09ffc147149718edda88092d205aa
+msgid "Removed `ftp_epsv` directive."
+msgstr ""
+
+#: ../../reuse/26.04/squid-7.2-removals.txt:8 4d08df61fdd34949b70c4ce6864c13a5
+msgid "Removed `cache_peer` option `no-netdb-exchange`."
+msgstr ""
+
+#: ../../reuse/26.04/squid-7.2-removals.txt:10 31a76e7681cf434b9525a2611e1fbdac
+msgid ""
+"Removed `client_persistent_connections` and "
+"`server_persistent_connections` directives."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:357 b83484fa6ea740638d2e5dea5b4613af
+msgid ""
+"For a list of all changes and fixes, please check the [upstream releases "
+"page](https://github.com/squid-cache/squid/releases)."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:359 358039c8d0af4b02940f1de2231f35da
+msgid "SSSD"
+msgstr ""
+
+#: ../../reuse/26.04/sssd-2.12-features.txt:2 9fdfc21aea4145b09ab789c349812f12
+msgid "SSSD has been updated to version 2.12."
+msgstr ""
+
+#: ../../reuse/26.04/sssd-2.12-changes.txt:2 48708513721e4006a7e3c2b0d531c9fc
+msgid ""
+"SSSD now runs under user `sssd` (instead of `root`). Make sure that "
+"`sssd` can still access secrets or integrations from its new user."
+msgstr ""
+
+#: ../../reuse/26.04/sssd-2.12-changes.txt:4 c9272b6df34a469aa0e68bb266f8422e
+msgid ""
+"The implicit files provider and domain was removed: see "
+"<https://sssd.io/docs/files-provider-deprecation.html>."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:367 9865940c95f64e02886b2ee3263ef970
+msgid "https://sssd.io/release-notes/sssd-2.10.0.html"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:368 7442957762304e3ea891116b80c46f5f
+msgid "https://sssd.io/release-notes/sssd-2.11.0.html"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:369 8a40bc9d24e54ba9837440bbf4ad5996
+msgid "https://sssd.io/release-notes/sssd-2.12.0.html"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:371 7b072f26763246de8ed8e02f375a2ae0
+msgid "strace"
+msgstr ""
+
+#: ../../reuse/26.04/strace-6.19.txt:2 3e53ff7e193d4722b539a42ce85206c2
+msgid ""
+"[`strace`](https://strace.io/) now supports colored output (configurable "
+"with `--color=...`, `STRACE_COLORS=...` and `NO_COLOR=1`)."
+msgstr ""
+
+#: ../../reuse/26.04/strace-6.19.txt:4 0be6a880434146c4940d32a81649546f
+msgid "![Sample colored output](/images/strace-color.png)"
+msgstr ""
+
+#: ../../reuse/26.04/strace-6.19.txt:4 e6f01770a3ee41fe870520edf3c53dd7
+msgid "Sample colored output"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:376 0d44fec81b4844169a4dbf05c786ed16
+msgid "HAProxy"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:380 ff590a25884d4339bcf41f0cebbe5f2c
+msgid ""
+"HAProxy was updated to the latest upstream LTS release, 3.2, which "
+"introduces performance and efficiency improvements, faster and more "
+"reliable QUIC protocol support, and more. For further details on this new"
+" release, please check the HAProxy 3.2 [upstream "
+"announcement](https://www.mail-"
+"archive.com/haproxy@formilux.org/msg45917.html)."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:382 47c3b55f80ed433bbcfc99e9b8029b4d
+msgid ""
+"For users coming from HAProxy 2, breaking changes include detection of "
+"accidental multiple commands sent to the Runtime API, rejecting the "
+"enabled keyword for dynamic servers, stricter parsing of non-standard "
+"URIs and renaming of `tune.ssl.ocsp-update` to `tune.ocsp-update`."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:384 88679e8454ec42c295520d5a1ca632ce
+msgid ""
+"You can learn more at [Announcing HAProxy "
+"3.0](https://www.haproxy.com/blog/announcing-haproxy-3-0). A complete "
+"list of changes is available in the [upstream "
+"changelog](https://www.haproxy.org/download/3.0/src/CHANGELOG)."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:386 e330e45708c3405581f9f4ed22b25513
+msgid "DocumentDB"
+msgstr ""
+
+#: ../../reuse/26.04/documentdb-0.108-0-features.txt:2
+#: f7a86e50abcf441d953bf54b5d1f77eb
+msgid ""
+"DocumentDB is now available in Ubuntu, starting with version 0.108-0. It "
+"is a powerful, scalable, MongoDB compatible open-source document database"
+" built for modern applications, built on PostgreSQL. For more information"
+" see [documentdb.io](https://documentdb.io/)."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:393 80a508b94cf24c60a696f6f19ec0f1b5
+msgid "MySQL"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:397 e0ceed44840c4fae8e770109d94ca849
+msgid ""
+"MySQL was updated from 8.0 to 8.4 LTS, starting with 8.4.8 in Ubuntu "
+"26.04 LTS. This is MySQL's first official long term support release, "
+"including various internal improvements, new features, and some important"
+" configuration changes."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:399 c7736152a65b471c9f8a049a5bba2d27
+msgid ""
+"Upstream release notes are available in the [Mysql 8.4 documentation "
+"library](https://dev.mysql.com/doc/relnotes/mysql/8.4/en/). For more "
+"information about the transition from MySQL 8.0 to 8.4, see the [MySQL "
+"8.4 overview](https://dev.mysql.com/doc/refman/8.4/en/mysql-"
+"nutshell.html)."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:401 b98650fcfa524fcaa35ae3a0e3dd899d
+msgid ""
+"Due to upstream policy, support for 32-bit MySQL Server has been removed."
+" However, Ubuntu will continue to provide a MySQL client and client "
+"library for 8.4 on armhf and i386."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:403 90ac3c84841f4351a349ccefc734c9a9
+msgid "MySQL Shell"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:407 c8f5051f35bf48e3bba82781dd0e46df
+msgid ""
+"MySQL Shell was updated from major version 8.0 to 8.4 to coincide with "
+"MySQL 8.4. It adds support for MySQL 8.4 servers, and provides additional"
+" improvements for interacting with MySQL 8.0 servers. For a list of "
+"features, see the [MySQL Shell 8.4 "
+"documentation](https://dev.mysql.com/doc/mysql-shell/8.4/en/). Release "
+"notes for MySQL Shell 8.4 can be found "
+"[here](https://dev.mysql.com/doc/relnotes/mysql-shell/8.4/en/)."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:409 4d4069e83b814ddd90a35350770d0fc5
+msgid "PostgreSQL"
+msgstr ""
+
+#: ../../reuse/26.04/postgresql-18-features.txt:2
+#: 4f96d2b24b704f98bff3a7c4c2b05d5e
+msgid ""
+"PostgreSQL was updated to version 18. This new version improves "
+"performance for workloads of all sizes through a new I/O subsystem that "
+"has demonstrated up to 3× performance improvements when reading from "
+"storage, and also increases the number of queries that can use indexes. "
+"This release makes major-version upgrades less disruptive, accelerating "
+"upgrade times and reducing the time required to reach expected "
+"performance after an upgrade completes. Developers also benefit from "
+"PostgreSQL 18 features, including virtual generated columns that compute "
+"values at query time, and the database-friendly `uuidv7()` function that "
+"provides better indexing and read performance for UUIDs. PostgreSQL 18 "
+"makes it easier to integrate with single-sign on (SSO) systems with "
+"support for OAuth 2.0 authentication."
+msgstr ""
+
+#: ../../reuse/26.04/postgresql-18-features.txt:4
+#: 9482a18ea07b4b08ba4f23c833298dff
+msgid ""
+"For further information, check the [upstream release "
+"announcement](https://www.postgresql.org/about/news/postgresql-18-released-3142/)"
+" and the [upstream release "
+"notes](https://www.postgresql.org/docs/18/release-18.html)."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:416 e3fd51596a69438fa089f4c935ac118d
+msgid "Valkey"
+msgstr ""
+
+#: ../../reuse/26.04/valkey-9.0-features.txt:2 b568e9bde8924521bcdd2beb16bc2079
+msgid ""
+"Valkey was updated to version 9.0, starting with 9.0.3. This includes "
+"various features and improvements beyond 8.x, such as atomic slot "
+"migrations and hash field expiration."
+msgstr ""
+
+#: ../../reuse/26.04/valkey-9.0-features.txt:4 51db1a9bbaae4c6896870c3c43da0192
+msgid ""
+"For more information on the new version, see the [Valkey 9 blog "
+"post](https://valkey.io/blog/introducing-valkey-9/). Release notes are "
+"available on the [Valkey project GitHub](https://github.com/valkey-"
+"io/valkey/releases)."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:423 02c0bcdb35504c0da4d466178af427bc
+msgid "Container stacks"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:427 78e97d6f6ef64a6da2d08054cf6243c4
+msgid ""
+"For the `containerd` and `runc` packages, we established a pattern to "
+"either keep the regular updates to the latest version or to opt for "
+"slower, more stable updates throughout the time the release is active. "
+"For more please read [Ubuntu Server Gazette - Issue 8 - Containers: "
+"Steady paths for agile stacks](https://discourse.ubuntu.com/t/ubuntu-"
+"server-gazette-issue-8-containers-steady-paths-for-agile-stacks/68680)."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:429 3e0dc306c8a8401a9318491622cd98d5
+msgid "High availability and clustering"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:431 33ad4e92d5004dd2a832495de914e82a
+msgid ""
+"The **`kpartx-boot`** package has been discontinued to align with Debian."
+" Originally introduced to support `dmraid` booting, its functionality is "
+"preserved, as the `kpartx` package now includes everything previously "
+"provided by `kpartx-boot`."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:436 0e05ec839e69452bb394fb832b90e3d8
+msgid ""
+"The **`dmraid`** package has been removed. The rationale for its removal "
+"is outlined in bug [LP#2073677](https://bugs.launchpad.net/bugs/2073677),"
+" primarily due to its removal from Debian unstable and minimal upstream "
+"support. If you require this functionality, consider using alternatives "
+"like `mdadm`."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:441 86b0e630f5884e65a2b40f64ce706fa9
+msgid ""
+"Pacemaker was updated to version 3. All new features and breaking changes"
+" are described in the [upstream release "
+"notes](https://projects.clusterlabs.org/w/projects/pacemaker/pacemaker_3.0_changes/)."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:443 e7662d3bb53149fea0653df291f1c7a6
+msgid "Development"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:445 56a6a453950b4520a526dea1105f4b77
+msgid ""
+"GCC 🐄 has been updated from version 14 to 15.2, `binutils` from 2.42 to "
+"2.45, and `glibc` from 2.39 to 2.42."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:446 b5d89de36145439c82a536e96dfe4c50
+msgid ""
+"Python 🐍 has been updated from version 3.12 to 3.13.9, while 3.14 is also"
+" available."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:447 55c62a4559b14a9aa3a71582354fb20b
+msgid "LLVM 🐉 has been updated from version 18 to 21."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:448 581849b049c3442a926595e7de3f48a1
+msgid ""
+"Rust 🦀 has been updated from version 1.75 to 1.93, while 1.91 and 1.92 "
+"are also available."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:449 6c847e737f0d40b29830bc814138b782
+msgid "Golang 🐀 has been updated from version 1.22 to 1.25."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:450 1c0edd0d0aaa444aa4811e37547a1c1e
+msgid "Zig ⚡ is now available in Ubuntu. It defaults to version 0.14.1."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:451 5707b6af66954bde9e6207b39e95eb5d
+msgid ""
+"OpenJDK has been updated from version 21 to 25, while LTS versions 8, 11,"
+" 17, 21 are also available. OpenJDK 26, and OpenJDK 27 previews are also "
+"included."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:452 412182deacdd4d10ada6f80eea8d7152
+msgid "Ubuntu Toolchains has a new [homepage](https://ubuntu.com/toolchains)."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:454 bd5d981feae640cab898cbb02a6c4c0d
+msgid "OpenJDK 25 and TCK certification"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:458 2eb82edf04844d7eac572f65718bf06f
+msgid ""
+"OpenJDK 25 package is available and is TCK (Technology Compatibility Kit)"
+" certified on AMD64, ARM64, S390X, PPC64EL. The Java TCK is the most "
+"comprehensive test suite that covers all aspects of Java SE specification"
+" including language features, libraries and APIs. This guarantees "
+"interoperability and conformance to standard."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:460 bfe45abf9f244fb9a50f944ba6f5e9d1
+msgid "OpenJDK 21 and TCK certification"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:464 e8beb0163fee48daba5b76e3c4fdeec0
+msgid ""
+"OpenJDK 21 and OpenJDK 17 packages are now TCK (Technology Compatibility "
+"Kit) certified on AMD64, ARM64, s390x, ppc64el. The Java TCK is the most "
+"comprehensive test suite that covers all aspects of Java SE specification"
+" including language features, libraries and APIs. This guarantees "
+"interoperability and conformance to standard."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:466 a6d383dcc47341e39f206bdbf785c3d3
+msgid "Spring® snaps"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:470 ec67b69d451844879969aacfb746e966
+msgid ""
+"We are excited to announce the [devpack-for-spring](https://snapcraft.io"
+"/devpack-for-spring) snap and a set of Spring® [content "
+"snaps](https://snapcraft.io/devpack-for-spring-manifest) that will serve "
+"as development tools for Spring® projects."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:472 ced41d74bece4f88bc35c7774221f23b
+msgid ""
+"Developers can now quickly build Ubuntu ROCK images for their Java "
+"applications using the [Gradle and Maven plugins for "
+"Rockcraft](https://github.com/rockcrafters/java-rockcraft-plugins)."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:474 3b13bfa3c2a34339a39865f557d1b96f
+msgid "GraalVM snap"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:478 4741a79a078d4ff58a31465938674329
+msgid ""
+"GraalVM Community Edition for JDK versions 21, 24 and 25 is now available"
+" as a [snap](https://snapcraft.io/graalvm-jdk). Java developers now have "
+"a choice to build and deploy their applications with standard OpenJDK, "
+"with OpenJDK-CRaC or as a GraalVM native image."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:481 cc833f425d1f4a949d4af4a3def5467c
+msgid ".NET 10"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:483 ba9e4d06dbcc48a3a295c6fd46f0c839
+msgid ".NET has been updated from version 8 to 10."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:485 bc419747523348b88e1987c84279c8cc
+msgid ""
+"We have also expanded .NET support to the IBM Power platform, further "
+"broadening the platform’s reach."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:487 86d5335574d742a7ac0ff1bc82f27036
+msgid ".NET snap"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:491 57628a1856fa4cc29d7b2fd7976120de
+msgid ""
+"We are excited to introduce the new and improved [.NET "
+"Snap](https://snapcraft.io/dotnet), allowing developers to seamlessly "
+"install any supported version of .NET on any Ubuntu system."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:493 4720e3a7d30444b5ac6964f53df078cd
+msgid "PowerShell snap on more architectures"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:497 d4f2d8168db242fb86de1b011e341466
+msgid ""
+"Support for the PowerShell snap has been expanded to include the `arm64`,"
+" `s390x`, and `ppc64el` architectures, broadening its availability across"
+" platforms."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:500 870f73ab3d6e4118b44ddb20c685cba9
+msgid "Enterprise"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:502 e0fbbe16589845c18d8303f64a9df1fd
+msgid "Updated `authd`"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:504 e60660cb44ea4266950d6e2b0793594f
+msgid ""
+"[authd](https://github.com/ubuntu/authd), Ubuntu's cloud authentication "
+"solution, has been updated:"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:506 60c90f8d50b14bf99c79d4f1cab513aa
+msgid "Many fixes and improvements to the EntraID provider"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:507 62fef7098517419ca5a2a170dec7be74
+msgid "New Google provider"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:508 a874f5e798b1416b8ef5e5f4acac1a2f
+msgid "Supports device registration with EntraID"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:509 7616cebeadb3440dafbd0c1393e813e2
+msgid "authctl is a new command line tool to manage authd"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:510 97cd9d67833a4fcbbc3971dfb4f6a69c
+msgid "Many improvements and important bug fixes such as UID/GID handling"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:512 b1f6913cbcce47a09bad59e49baa07bc
+msgid "New `authd` documentation"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:514 d77f6a7966214f8e87086fd04d2b4433
+msgid ""
+"New [authd "
+"documentation](https://documentation.ubuntu.com/authd/en/stable/) has "
+"been published."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:516 44e8fcf9d8084b1c9c38c73212bfe011
+msgid "Updated ADSys"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:518 cec610c5c5f54773b4aa671e46beee98
+msgid ""
+"The Active Directory Group Policy client for Ubuntu supports the latest "
+"Polkit and comes with improvements and bug fixes to certificates "
+"enrollment."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:521 1bf7b5c17553424c913876ccff647ce5
+msgid "Cloud"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:524 74a0c81fe77c4b4080a6f0a7040ddd15
+msgid "Security"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:526 1fd03cf7ba064305a894fd125a0e33fb
+msgid "New AppArmor sandboxing profiles"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:530 5a51339d2a5849238ebc31492656e270
+msgid ""
+"As part of a profile writing effort to improve overall system security, "
+"the AppArmor package now includes many new profiles for applications. "
+"This improved sandboxing can help mitigate the impact of any exploit in "
+"the confined applications."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md 6167cbfaffee4f7e81db6d11fb4ac33e
+msgid "Report bugs"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:533 0f1f72075a174f5eaad6a71d924c8895
+msgid ""
+"These profiles may cause breakage for unanticipated uses of those "
+"applications, and we encourage users to file a bug on "
+"[Launchpad](https://bugs.launchpad.net/ubuntu/+source/apparmor/+filebug) "
+"for AppArmor-induced breakage in common use cases. When AppArmor denies "
+"an action, it usually generates a log entry describing the denial, which "
+"will help us investigate the bug, but which can also be used to add "
+"additional rules for customization or to work around the denials. "
+"AppArmor log entries can be read in the auditd logs, if auditd is "
+"installed, or in the `syslog` otherwise. [This "
+"page](https://gitlab.com/apparmor/apparmor/-/wikis/denial_quick_guide) "
+"describes how the information contained in the denial log can be used to "
+"update a local override."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:536 5eff1b3ba0634b68875ebe61c16605dc
+msgid "TPM-backed full-disk encryption"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:540 da39f6c7390744809dc81e14d79665ae
+msgid ""
+"New [TPM-backed disk encryption](https://canonical-ubuntu-desktop-"
+"documentation.readthedocs-hosted.com/en/latest/explanation/hardware-"
+"backed-disk-encryption/) is available for Ubuntu Desktop. Its features "
+"include:"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:542 531d79d2f4b74f9c9befdb36238ef580
+msgid "Passphrase support and management"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:543 a471bc38bbfa4876bc324a93379785fb
+msgid "Regeneration of the recovery key"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:544 4f5e2e45922745b9a532d5195bd95ce1
+msgid "Better integration with firmware updates"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:546 b914ababc4444bc8b6b5752a4dc93788
+msgid ""
+"For details, see [Hardware-backed disk "
+"encryption](https://documentation.ubuntu.com/desktop/en/latest/explanation"
+"/hardware-backed-disk-encryption/) in the Ubuntu Desktop documentation."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:548 4810e746e35946878b03b7d37084bd84
+msgid "cargo-auditable"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:552 54e6a6a8a44c48a7acb8fb6d703359ce
+msgid ""
+"Rust packages built on Launchpad now have opt-in support for [cargo-"
+"auditable](https://github.com/ubuntu/ubuntu-release-notes). If enabled, "
+"binaries will include JSON-formatted metadata in a header section of the "
+"binary expressing the dependencies used to compile the binary. If a CVE "
+"is discovered in a popular Rust crate, this dependency metadata lets "
+"users and sysadmins immediately check if a binary is compromised."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:556 a9e89368bb6d410cadc09b220fb2ecc5
+msgid ""
+"For details, see the [Ubuntu project "
+"documentation](https://documentation.ubuntu.com/project/contributors"
+"/language-specific/rust/cargo-auditable/)."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:558 c404b50763d44e80857743d5e85c889a
+msgid "Hardware support"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:560 6b474690128c4e9997392d8f40d931f7
+msgid "NVIDIA Dynamic Boost"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:564 e35b2f5b52484bddb29dacf82df213ce
+msgid ""
+"This release enabled NVIDIA Dynamic Boost by default on supported laptops"
+" with NVIDIA GPUs."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:566 6a6513bcbf3142eca93a4cb85304f38e
+msgid ""
+"NVIDIA Dynamic Boost is a feature of the NVIDIA drivers that dynamically "
+"shifts power between CPU and GPU depending on the workload on the system."
+" While gaming, this allows extracting more performance by granting more "
+"power to the GPU."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:568 b42fce3b0dba4605af9c041756b45414
+msgid ""
+"Dynamic Boost will be active only when the laptop is powered by AC and "
+"there is enough load on the GPU. It will not be engaged when the system "
+"is running on battery."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:570 8cbe8d80aacd43d6904ba1d616a73db0
+msgid ""
+"For more details refer to [NVIDIA's "
+"documentation](https://download.nvidia.com/XFree86/Linux-x86_64/570.133.07/README/dynamicboost.html)."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:572 0be6f14c531e47d981051f9b31962bcc
+msgid "Support for new Intel® integrated and discrete GPUS"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:576 9ffba88454b5482d905825690156d216
+msgid ""
+"This release brings full support for Intel® Core™ Ultra Xe2 integrated "
+"Intel® Arc™ graphics, and Intel® Arc™ B580 and B570 “Battlemage” discrete"
+" GPUs. Moreover, the following features are also included:"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:579 f6cec648cec747bebb6f7cdced2c80f0
+msgid ""
+"Improved GPU and CPU ray tracing rendering performance in applications "
+"with Intel Embree support, such as Blender (v4.2+). Ray tracing hardware "
+"acceleration on the GPU improves frame rendering by 20-30%, due to a 2-4x"
+" speed-up for the ray tracing component."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:580 613e4a49e537489dba739c47fac3aab5
+msgid ""
+"Full hardware accelerated video encoding of AVC, JPEG, HEVC, and AV1 on "
+"“Battlemage” devices."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:581 4d960b4c0572468899b11beb0d87c109
+msgid "Introduction of the new CCS optimization in Intel® Compute Runtime."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:582 03bd7667c8f947378e3a178341ae1975
+msgid "Enable debugging support for Intel Xe GPUs."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:583 a178c7939fb941f393fabad21da042e3
+msgid ""
+"oneAPI Level Zero Ray Tracing improves AI/ML workload speeds via Embree "
+"on SYCL"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:585 db1195850e724e95b4b0ef97ac4e1de9
+msgid "Suspend with Nvidia"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:589 fdcec3c423164d36902e28afa5fea8fd
+msgid ""
+"Suspend-resume support is now enabled in the proprietary Nvidia driver so"
+" as to prevent corruption and freezes when waking an Nvidia desktop."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:591 f5a4ff188ae3438faacde7029cf16f81
+msgid "ARM desktop platforms"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:595 64852304119046119f683f6a49e85de8
+msgid ""
+"The `linux-generic` kernel for ARM64 provides broader compatibility for "
+"ARM64 desktop platforms that utilize UEFI for booting "
+"([LP#2121352](https://bugs.launchpad.net/ubuntu/+source/linux-"
+"signed/+bug/2121352))."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:597 b596a345948d4501b7af34ae47a0d6db
+msgid "A new boot layout for Raspberry Pi"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:601 ac8ca435a8bf4580a017a46bb55fc8f6
+#, python-brace-format
+msgid ""
+"A new layout of the boot partition is introduced to enhance the "
+"reliability of the boot process ([LP: "
+"#2116266](https://launchpad.net/bugs/2116266)). This will automatically "
+"\"test\" new boot assets written to the boot partition before committing "
+"them as the current \"known good\" set. See the [call for "
+"testing](https://discourse.ubuntu.com/t/call-for-testing-a-b-boot-on-"
+"raspberry-pi/64173) for more information, or [the blog "
+"post](https://waldorf.waveform.org.uk/2025/pull-yourself-up-by-your-"
+"bootstraps.html) covering the feature for the full details (including "
+"advice on how to opt-out of this feature, where required). The {manpage"
+"}`piboot-try(1)` man-page may also be consulted for advanced operations."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:604 cc6770502eab450a828aa9ccbfb519a7
+msgid ""
+"Please note that, due to the new boot process, the boot firmware on your "
+"Pi *must* be up to date."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:606 dbd233ff717443b4b8b5acb56d84f450
+msgid "For Pi 3, 3+, and Zero 2W"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:607 7cbdb2ac7a8346399b292c8c98b214c2
+msgid "No action required, the boot firmware is in the image itself."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:609 609d4cb0a4a24be3a0eb4d9fa01907be
+msgid "For Pi 4"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:610 38f0497a4f6e47c19b03784059a43c35
+msgid ""
+"Your boot firmware *must* be dated no earlier than **2022-11-25**. To "
+"check, run `sudo rpi-eeprom-update`. If your firmware is dated earlier, "
+"using Ubuntu 24.04 LTS (Noble Numbat) or later, run `sudo rpi-eeprom-"
+"update -a` and reboot."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:612 f42ffa2454f54cdcb8fe9b81e1159dd4
+msgid "For Pi 5"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:613 c13f2401ab2748c99f5977152a164ba1
+msgid ""
+"No action required, all firmware since release of the platform are "
+"compatible."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:616 9aaadb143ca940f1a32ed2f7402f05c0
+msgid "Raspberry Pi is based on the minimal image"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:620 bb8a4afc74ce48c883cf30c339752fdb
+msgid ""
+"The Ubuntu desktop images for Raspberry Pi are now based upon the "
+"`desktop-minimal` seed rather than `desktop` ([LP: "
+"#2103808](https://launchpad.net/bugs/2103808)). This greatly reduces the "
+"default set of applications installed on the images (saving approximately"
+" 777MB of space on the uncompressed image, and thus on user's systems)."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md f75cf057b9084019a9eb8a05e2934b02
+msgid "The list of applications removed from the image"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:624 dd5a93464cc34f25952ae70ad14ef37d
+msgid "`deja-dup` (backup service)"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:625 2509994beae5442483fc4e0e2237e174
+msgid "`file-roller` (archive handler)"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:626 979e3e25e5e544ed98fcbb7a1bc24b2f
+msgid "`gnome-calendar`"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:627 57820d4e165c4e679cc33571a9ed0c76
+msgid "`gnome-snapshot` (camera application)"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:628 f153bfdc6fec46d79649e6a6b65854d2
+msgid "`libreoffice-*`"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:629 e2ef9747c54b40c691f6c20e3de75f80
+msgid "`remmina` (remote desktop client)"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:630 5c7fe523799246888aff93304d0eff23
+msgid "`rhythmbox` (music player)"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:631 cc70bd34d5fd457e83f6506a95fd8764
+msgid "`shotwell` (photo catalogue)"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:632 343e8cef112d4dd8bb0600f282bc0f00
+msgid "`simple-scan` (flat-bed scanner application)"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:633 fa502ef3e8fd41018558157e41991fdb
+msgid "`thunderbird` (email client)"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:634 f3194f37687f4b07828c22e4b551cc9a
+msgid "`showtime` (video player)"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:635 205434f04c444d1dbd3f7f5a4d88e572
+msgid "`transmission-gtk` (bittorrent client)"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:638 4d7f8606ed524ba9a249a3aad9148f33
+msgid ""
+"The applications mentioned above will *not* be automatically removed for "
+"upgraders as the `ubuntu-desktop` meta-package remains manually installed"
+" in this circumstance. If you wish to remove these applications (in "
+"bulk), you may do so with:"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:647 eb6d4881a8894eac8f986951a5701ce9
+msgid ""
+"If you wish to keep specific applications, simply \"install\" them with "
+"`apt` first. This marks them as \"manually installed\", excluding them "
+"from automatic removal."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:649 99b1a7f5c4374d3194aa371c4e5376f6
+msgid "Swap is created with `cloud-init` on Raspberry Pi"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:653 43a38a3c544c4294bb19d039a3c2f1a6
+msgid ""
+"The creation of the swap file on the desktop images is now handled by "
+"[`cloud-init`](https://cloudinit.readthedocs.io/en/latest/) ([LP: "
+"#2116275](https://launchpad.net/bugs/2116275)). You may customize the "
+"size of the swap file by editing `user-data` on the boot partition prior "
+"to first boot (commented examples are included in the image)."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:655 b888f09402014b8a8bb91c88932bc1cf
+msgid "New RISC-V requirements"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:659 8ce60d477cd64f3dbc03131ca23d901d
+msgid ""
+"The RISC-V version of Ubuntu 26.04 LTS only supports hardware that "
+"implements the RVA23S64 ISA profile. You can't run Ubuntu 26.04 LTS on "
+"systems that don't satisfy this requirement. Ubuntu 24.04 LTS continues "
+"to support boards with the earlier RVA20 processor cores."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:661 a0caf303f20b456daf784f6d18970e1d
+msgid ""
+"As of April 2026, no RVA23S64 hardware is available yet. The only "
+"supported RISC-V platform is the QEMU virtualization with the `-cpu "
+"rva23s64` CPU profile."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:663 4cb6eb4331144663bca835f535365157
+msgid "IBM Z requirements raised to z15"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:667 842f62ca20c14f16a7ec7c705727ad14
+msgid ""
+"On the IBM Z (s390s) architecture, Ubuntu 26.04 LTS now requires the z15 "
+"architectural level at minimum. As a result, you can't install Ubuntu "
+"26.04 LTS on IBM Z generation z14 (LinuxONE II) or older."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:669 a0c194807121457fbdadcdd736868ae1
+msgid ""
+"The performance on IBM Z generation z15 (LinuxONE III) and newer has "
+"improved."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:671 df6b389ff136401b9cc146d51b313da0
+msgid "For more information, refer to the following release notes:"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:673 c92a855b23714081a18d1bf65c542dab
+#, python-brace-format
+msgid "{ref}`ibm-z15-level`"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:674 dee7c69c7e4a43229214f3ee1ce37cd9
+#, python-brace-format
+msgid "{ref}`ibm-z14-support-removed`"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:676 61bb78119c53411cbb9aaea2f0740b02
+msgid "Common changes"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:678 794fa247027d45a4a7e4008cf1970435
+msgid "`sudo-rs`"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:682 c5563ed4fe054221be1b78adb1885488
+msgid "The `sudo-rs` tool is now the default `sudo` provider."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:684 f1f67430e4184b58b6d0c2e9aa8545ea
+msgid ""
+"The `sudo` tool (the original `sudo` maintained by Todd C. Miller) has "
+"been renamed to `sudo.ws`. Additionally, the `sudo-ldap` package has been"
+" removed: please switch to using LDAP authentication via PAM."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:686 c031b349e6144740ab4b308ef15198d4
+msgid ""
+"See [Ubuntu Server Docs](https://documentation.ubuntu.com/server/how-"
+"to/security/user-management/#sudo-rs) for configuring your default `sudo`"
+" provider and for the differences between `sudo-rs` and `sudo.ws`."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:689 e634b4505c684a48a620d88690de02a7
+msgid "`rust-coreutils`"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:693 42325e3664ab43d7a138a91f72a96443
+msgid ""
+"The core utilities of the operating system are now provided by the "
+"[`rust-coreutils`](https://launchpad.net/ubuntu/+source/rust-coreutils) "
+"package. Among other things, this brings significant performance "
+"improvements, such as in the `base64` tool."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:695 2d199f51199a43749f9de04cd89a8c6e
+msgid ""
+"Since `rust-coreutils` are not necessarily fully compatible yet, we "
+"continue to provide the classic GNU utilities as well. You can switch "
+"back and forth between them."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:698 aca40fae86894a43b8b6d7ea61f6aada
+msgid "Linux kernel 7.0"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:700 0816e6dedae24016b7eba602c45c4331
+msgid "The Linux kernel has been updated from version 6.8 to 7.0."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:702 891b6b01ec0b4cf58e452b267e6c6693
+msgid ""
+"Crash dumps are now [enabled by "
+"default](https://documentation.ubuntu.com/server/how-to/software/kernel-"
+"crash-dump/#kdump-enabled-by-default) for desktop and server "
+"installations."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:707 4330b6f1bfa44b9b8a5dbf00d979b45a
+msgid ""
+"Kernel developers can now make use of a [new scheduling "
+"system](https://canonical.com/blog/crafting-new-linux-schedulers-with-"
+"sched-ext-rust-and-ubuntu), `sched_ext`, which provides a mechanism to "
+"implement scheduling policies as eBPF programs. This enables developers "
+"to defer scheduling decisions to standard user-space programs and "
+"implement fully functional hot-swappable Linux schedulers, using any "
+"language, tool, library, or resource accessible in user-space."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:712 8ecfe6b31adf48d3b1706c250749d113
+msgid ""
+"After the generic kernel gained the ability to [tune responsiveness at "
+"boot time](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2051342),"
+" the `linux-lowlatency` binary package has been retired in favor of a "
+"combination of `linux-generic` and a new user-space `lowlatency-kernel` "
+"package, responsible of tuning the GRUB command line."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:717 598d392e601746d798a09913d82d2b36
+msgid "`systemd` 259"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:719 2df0063f597141058aa7ff0e53167df7
+msgid "The `systemd` service manager has been updated from version 255 to 259."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:721 bc7ece6c5174465aa5a89d184c0abaad
+msgid ""
+"Ubuntu 26.04 LTS is the last release that supports System V service "
+"scripts compatibility in `systemd`. Migrate your legacy System V scripts "
+"to native `systemd` unit files."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:723 dc9fe621a01b44ea8d7a81abb6f8990e
+#, python-brace-format
+msgid ""
+"Support for `cgroup` version 1 (`legacy` and `hybrid` hierarchies) has "
+"been removed. For details, see {ref}`cgroup-v1-removed`."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:728 faba3bef23e94c98b8da169571c8b058
+msgid ""
+"Ubuntu now comes with the upstream `tmp.mount` unit by default. As a "
+"result, the `/tmp` directory is now a `tmpfs` file system by default."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:733 66479a68500b45f5a16f3c97f8e6b267
+msgid "Netplan 1.2"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:735 63e80d24a690419596ffb15294402887
+msgid "The Netplan network manager has been updated from version 1.0 to 1.2."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:737 bba30f1855714dd7b5f203312eaff173
+msgid ""
+"Netplan introduces a custom `systemd-networkd-wait-online` logic, waiting"
+" for link-local addresses and one routable interface, as described in the"
+" [specification](https://discourse.ubuntu.com/t/spec-definition-of-an-"
+"online-system/27838)."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:742 d8606c35fd0e4467a1b76ebc2f81bd45
+msgid ""
+"Besides improvements to the `embedded-switch-mode` setting for SR-IOV "
+"devices, Netplan introduces a parser flag to skip broken configurations "
+"and fixes for ProtonVPN and Microsoft Azure Linux."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:747 fdffb03a998946f19ea15dcb5c83cec5
+msgid ""
+"Adding support for `wpa-psk-sha256` WiFis and allowing to configure "
+"**routing-policy** on the NetworkManager backend (LP: "
+"[#2086544](https://launchpad.net/bugs/2086544))."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:752 c1aa7906a8c4462e9ee55a8a91f6d6c6
+msgid "Adds support non-standard OVS setups, e.g. inside snap environments."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:757 4b368d22e25346f285cb9e0b75e5af3a
+msgid "Package Management: APT 3"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:759 6129b49bc7f04088b10f3d8d59709f73
+msgid "APT has been updated from version 2.7 to 3.1."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:761 b515d3eebc2146e5bf702124f71953b2
+msgid ""
+"The new dependency solver is now automatically used if the classic solver"
+" cannot find a solution to either find a solution or add more context to "
+"the failure, and in other cases to [evaluate its "
+"performance](https://discourse.ubuntu.com/t/evaluating-the-new-apt-"
+"solver-in-25-04/55618)."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:763 757f9d67f5ba4dbca64942a18a0bd341
+msgid ""
+"APT has switched from GnuTLS and gcrypt to the OpenSSL library for TLS "
+"connections and file hashing, which should improve compatibility and "
+"reduces the footprint of minimal installations."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:765 0e602c5c313a4d02ae3c90601f5997ae
+msgid ""
+"An automatic pager has been added to `apt(8)` for commands such as show "
+"and list, similar to `git log` and `journalctl`."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:767 8125b7e438ff47dabe39a71b3125cca2
+msgid ""
+"The `apt-key` command has been removed. Signature verification now makes "
+"direct use of `gpgv`. Some packages and system administration scripts may"
+" need adjustment for managing keys directly, advice can be found in the "
+"`apt-secure(8)` manual page."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:769 a403d57171f44504931d2f9312850a4b
+msgid "Dracut"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:773 4c8dad1976334278b6f1ebac32530aae
+msgid ""
+"Ubuntu now uses Dracut as its default initial ramdisk infrastructure, "
+"replacing `initramfs-tools`. Dracut uses `systemd` in the initial ramdisk"
+" and supports new features like Bluetooth and NVM Express over Fabrics "
+"(NVMe-oF)."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:775 d1bc7ee7f3544c90962d647ddbd95fd1
+msgid ""
+"The original `initramfs-tools` remains supported and you can switch "
+"between the two implementations if required."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:777 2da5d494f7894e91a144d4fb581e0327
+msgid ""
+"For details about the switch, see [the "
+"specification](https://discourse.ubuntu.com/t/spec-switch-to-"
+"dracut/54776)."
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:780 31c4b07ef0ae49aba25e828139a610cf
+msgid "More details"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:782 b20ba741bf834e8d9d5764b188464777
+msgid ""
+"For a complete list of changes in Ubuntu 26.04 LTS, refer to the "
+"following documents, depending on the Ubuntu release that you're "
+"upgrading from:"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:784 1a6175672aa240cb84567ce21d0999d2
+#, python-brace-format
+msgid "{ref}`ubuntu-24.10-release-notes`"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:785 349347de02004865aaa5fb46b1f02442
+#, python-brace-format
+msgid "{ref}`ubuntu-25.04-release-notes`"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:786 1845beae9bc6420c9f69e491c28255a0
+#, python-brace-format
+msgid "{ref}`ubuntu-25.10-release-notes`"
+msgstr ""
+
+#: ../../26.04/summary-for-lts-users.md:787 f2ca78f724604299a8e0c19467b1b5dc
+#, python-brace-format
+msgid "{ref}`ubuntu-26.04-lts-changes-since-25.10`"
+msgstr ""
+

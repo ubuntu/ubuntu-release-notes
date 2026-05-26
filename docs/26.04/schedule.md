@@ -59,7 +59,7 @@
 | 28 | April 23 | [Final Release](https://wiki.ubuntu.com/FinalRelease) |
 |... | ||
 | **July 2026**| ||
-| 39 | July 9 | [26.04.1 Point Release ](https://wiki.ubuntu.com/PointReleaseProcess)]
+| 39 | July 9 | [26.04.1 Point Release ](https://wiki.ubuntu.com/PointReleaseProcess) |
 
 ## Planned and potentially disruptive archive-wide activities
 

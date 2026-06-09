@@ -23,7 +23,7 @@ Release schedule <schedule>
 
 The majority of Ubuntu users upgrade every two years, following LTS releases. Other users prefer the more frequent interim releases that come out every six months.
 
-Find the news that are relevant to your system:
+Find the news relevant to your system:
 
 ::::{grid} 1 1 2 2
 

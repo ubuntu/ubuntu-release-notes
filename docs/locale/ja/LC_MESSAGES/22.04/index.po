@@ -1,0 +1,2670 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu release
+# notes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu release notes \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-13 02:01+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../22.04/index.md:12
+msgid "22.04.5"
+msgstr ""
+
+#: ../../22.04/index.md:12
+msgid "22.04.4"
+msgstr ""
+
+#: ../../22.04/index.md:12
+msgid "22.04.3"
+msgstr ""
+
+#: ../../22.04/index.md:12
+msgid "22.04.2"
+msgstr ""
+
+#: ../../22.04/index.md:12
+msgid "22.04.1"
+msgstr ""
+
+#: ../../22.04/index.md:24
+msgid "Release schedule"
+msgstr ""
+
+#: ../../22.04/index.md:6 57c4baaf35e448d28af90285f8dc476a
+msgid "Ubuntu 22.04 LTS release notes"
+msgstr ""
+
+#: ../../22.04/index.md:8 49f17d079e174041ba56f9460504d07f
+msgid ""
+"These release notes for **Ubuntu 22.04 LTS** (Jammy Jellyfish) provide an"
+" overview of the release and document the known issues with Ubuntu and "
+"its flavors."
+msgstr ""
+
+#: ../../22.04/index.md:10 facc242318a54bf19fa05811a81ef50a
+msgid ""
+"For details of the changes applied since 20.04, refer to the following "
+"posts:"
+msgstr ""
+
+#: ../../22.04/index.md:22 9ce772e73b1646eba6ca7803ceeda2dc
+msgid ""
+"For the release schedule of Ubuntu 22.04 LTS and its point releases, "
+"refer to:"
+msgstr ""
+
+#: ../../22.04/index.md:31 50d10d6e67b04604bfc29d75e739f785
+msgid "Support lifespan"
+msgstr ""
+
+#: ../../22.04/index.md:33 cde51ed17d9148b88a0b0728d8e94fe6
+msgid ""
+"Maintenance updates will be provided for 5 years until [April "
+"2027](https://wiki.ubuntu.com/Releases) for Ubuntu Desktop, Ubuntu "
+"Server, Ubuntu Cloud, and Ubuntu Core. All the remaining flavors will be "
+"supported for 3 years. Additional security support is available with [ESM"
+" (Extended Security Maintenance).](https://ubuntu.com/security/esm)"
+msgstr ""
+
+#: ../../22.04/index.md:36 ffe90076de70499396370ede64c34498
+msgid "Get Ubuntu 22.04 LTS"
+msgstr ""
+
+#: ../../22.04/index.md:38 78a81ebfe95a4443a5d1ff28c0c393e3
+msgid "Images can be downloaded from a location near you."
+msgstr ""
+
+#: ../../22.04/index.md:40 6c370847a67d4227af6f129cca2d3e26
+msgid "You can download ISOs and flashable images from:"
+msgstr ""
+
+#: ../../22.04/index.md:42 af03096ee7cf47bbaf9fd28114fd7ed4
+msgid ""
+"[Ubuntu Desktop and Server for 64-bit x86 (AMD64) "
+"](http://releases.ubuntu.com/22.04/)"
+msgstr ""
+
+#: ../../22.04/index.md:43 685b6906309a4139bc9e9c0f985a4bd4
+msgid ""
+"[Less Frequently Downloaded Ubuntu "
+"Images](http://cdimage.ubuntu.com/ubuntu/releases/22.04/release/)"
+msgstr ""
+
+#: ../../22.04/index.md:44 d722ab23fac8496a83a36350b9ecda54
+msgid ""
+"[Ubuntu Cloud Images](http://cloud-"
+"images.ubuntu.com/daily/server/jammy/current/)"
+msgstr ""
+
+#: ../../22.04/index.md:45 9f282334d1284d9da69e60b366436650
+msgid "[Lubuntu](http://cdimage.ubuntu.com/lubuntu/releases/22.04/release/)"
+msgstr ""
+
+#: ../../22.04/index.md:46 f3c99e18c22e40a999c95021f489af13
+msgid "[Kubuntu](http://cdimage.ubuntu.com/kubuntu/releases/22.04/release/)"
+msgstr ""
+
+#: ../../22.04/index.md:47 fc03f20db7ba4e19b6920f4d662e0ca5
+msgid ""
+"[Ubuntu Budgie](http://cdimage.ubuntu.com/ubuntu-"
+"budgie/releases/22.04/release/)"
+msgstr ""
+
+#: ../../22.04/index.md:48 885ff1c53bdd43b5ba2b06a1ddaffdbc
+msgid ""
+"[Ubuntu "
+"Kylin](http://cdimage.ubuntu.com/ubuntukylin/releases/22.04/release/)"
+msgstr ""
+
+#: ../../22.04/index.md:49 d59e54745d5b4901a9bd6d9039ed78de
+msgid ""
+"[Ubuntu MATE](http://cdimage.ubuntu.com/ubuntu-"
+"mate/releases/22.04/release/)"
+msgstr ""
+
+#: ../../22.04/index.md:50 c1741506f62d4ffdb2dd957789d5a0b5
+msgid ""
+"[Ubuntu "
+"Studio](http://cdimage.ubuntu.com/ubuntustudio/releases/22.04/release/)"
+msgstr ""
+
+#: ../../22.04/index.md:51 241e385ae99144329508303985b90250
+msgid "[Xubuntu](http://cdimage.ubuntu.com/xubuntu/releases/22.04/release/)"
+msgstr ""
+
+#: ../../22.04/index.md:54 3f249689e5694c1488ed4b4a2fd92d43
+msgid "Upgrading from Ubuntu 21.10"
+msgstr ""
+
+#: ../../22.04/index.md:56 0a264db8e0d44e38a96460f5646194f2
+msgid "To upgrade on a desktop system:"
+msgstr ""
+
+#: ../../22.04/index.md:58 37b9cbbac00b482293102f508775cd96
+msgid "Open the \"Software & Updates\" Setting in System Settings."
+msgstr ""
+
+#: ../../22.04/index.md:59 12e1e07765b94703aaf65e2a37247825
+msgid "Select the 3rd Tab called \"Updates\"."
+msgstr ""
+
+#: ../../22.04/index.md:60 bf74674574fa4916988c386d46ac2bee
+msgid ""
+"Set the \"Notify me of a new Ubuntu version\" dropdown menu to \"For any "
+"new version\"."
+msgstr ""
+
+#: ../../22.04/index.md:61 aba07b8a71184255af06c392e373777d
+#, python-brace-format
+msgid "Press {kbd}`Alt+F2` and type in `update-manager -c` into the command box."
+msgstr ""
+
+#: ../../22.04/index.md:62 852f8d2f02aa47b3b5b5a29abb862b1a
+msgid ""
+"Update Manager should open up and tell you: **\"New distribution release "
+"'22.04' is available.\"**"
+msgstr ""
+
+#: ../../22.04/index.md:63 8378787f0dca49fea632754543a995c0
+msgid ""
+"If not you can also use `/usr/lib/ubuntu-release-upgrader/check-new-"
+"release-gtk`"
+msgstr ""
+
+#: ../../22.04/index.md:64 0d4edc1ffff54f9c92ee20765626e75c
+msgid "Click Upgrade and follow the on-screen instructions."
+msgstr ""
+
+#: ../../22.04/index.md:66 77d3e287dfc54ed99e2a3e84b7884843
+msgid "To upgrade on a server system:"
+msgstr ""
+
+#: ../../22.04/index.md:68 4400c4134f444c07aab45793f5230699
+msgid ""
+"Make sure the Prompt line in `/etc/update-manager/release-upgrades` is "
+"set to normal."
+msgstr ""
+
+#: ../../22.04/index.md:69 dbac6b54e8f348acb310bbb571e59882
+msgid "Launch the upgrade tool with the command `sudo do-release-upgrade`."
+msgstr ""
+
+#: ../../22.04/index.md:70 8174077a510a4b6583848693d7d168e0
+msgid "Follow the on-screen instructions."
+msgstr ""
+
+#: ../../22.04/index.md:72 2bd1d20788ef4c79bbcb65b677d6cfb1
+msgid ""
+"Note that the server upgrade will use GNU screen and automatically re-"
+"attach in case of dropped connection problems."
+msgstr ""
+
+#: ../../22.04/index.md:74 edea4c4e36f441f2bd1fe528cd4e8625
+msgid ""
+"There are no offline upgrade options for Ubuntu Desktop and Ubuntu "
+"Server. Please ensure you have network connectivity to one of the "
+"official mirrors or to a locally accessible mirror and follow the "
+"instructions above."
+msgstr ""
+
+#: ../../22.04/index.md:77 32057efcfd6f4cc1acdcc84720a63c33
+msgid "Changes since 20.04 LTS"
+msgstr ""
+
+#: ../../22.04/index.md:79 aa686e8da3b2412d880329a3f7d53de1
+msgid ""
+"If you’re upgrading from Ubuntu 20.04 LTS to 22.04 LTS, you get all the "
+"changes that happened in the six months since Ubuntu 21.10, as well as "
+"the changes in all the interim releases between 20.04 LTS and 22.04 LTS."
+msgstr ""
+
+#: ../../22.04/index.md:81 7b682cb8bf9d4e5eb961acda727d3f4f
+msgid ""
+"For details, see the complete interim release notes: "
+"[20.10](https://discourse.ubuntu.com/t/groovy-gorilla-release-"
+"notes/15533), [21.04](https://discourse.ubuntu.com/t/hirsute-hippo-"
+"release-notes/19221) and [21.10](https://discourse.ubuntu.com/t/impish-"
+"indri-release-notes/21951). Finally, review the following changes since "
+"Ubuntu 21.10."
+msgstr ""
+
+#: ../../22.04/index.md:85 727cb991db294d1bbd396fe6207fc75b
+msgid "New features in 22.04 LTS"
+msgstr ""
+
+#: ../../22.04/index.md:87 cb1c4ea72ad647298cb14e17a3052c9e
+msgid "Updated Packages"
+msgstr ""
+
+#: ../../22.04/index.md:89 9b3e1762f28d469799abf67bf7cd8447
+msgid "Linux kernel 🐧"
+msgstr ""
+
+#: ../../22.04/index.md:91 8e28c0e4d2b04fa588d2d36f2086fa29
+msgid "Ubuntu 22.04 LTS ships multiple optimized kernels on per-product basis:"
+msgstr ""
+
+#: ../../22.04/index.md:93 876af81cec68435a8c5bb9960ffcbf27
+msgid ""
+"Ubuntu Desktop will automatically opt-into "
+"[v5.17](https://kernelnewbies.org/Linux_5.17) kernel on the latest "
+"generations of certified devices (`linux-oem-22.04`)"
+msgstr ""
+
+#: ../../22.04/index.md:94 bf01125f8259408db3a05613d8c3ad6d
+msgid ""
+"Ubuntu Desktop uses a rolling HWE kernel (`linux-hwe-22.04`) on all other"
+" generations of hardware. The rolling HWE kernel is based on the "
+"[v5.15](https://kernelnewbies.org/Linux_5.15) kernel for 22.04.0 and "
+"22.04.1 point releases"
+msgstr ""
+
+#: ../../22.04/index.md:95 30ea7e4cef10412ea06c4839cece1bcd
+msgid "Ubuntu Server defaults to a non-rolling LTS kernel v5.15 (`linux-generic`)"
+msgstr ""
+
+#: ../../22.04/index.md:96 11ab9a568c324ff090d7dc76cfe78881
+msgid ""
+"Ubuntu Cloud and Devices use optimized kernels in collaboration with "
+"partners (v5.15+ with additional backports and features)"
+msgstr ""
+
+#: ../../22.04/index.md:98 c9546eea5f7b48839a920e6ee37448f3
+msgid ""
+"Additional optimized and certified kernel flavors will become available "
+"in Ubuntu 22.04 LTS in due course."
+msgstr ""
+
+#: ../../22.04/index.md:100 b288391633c145f9892e3bf3e34d94c6
+msgid "UDP disabled for NFS mounts"
+msgstr ""
+
+#: ../../22.04/index.md:101 afdd56801feb4ceeae46f771e9ff11b4
+msgid ""
+"Since Ubuntu 20.10 (Groovy Gorilla), the kernel option "
+"`CONFIG_NFS_DISABLE_UDP_SUPPORT=y` is set and this disables using UDP as "
+"the transport for NFS mounts, regardless of NFS version."
+msgstr ""
+
+#: ../../22.04/index.md:103 804e7d4df1214aff910b8186170cdc4a
+msgid "In practice, if you try to use `udp`, you will get this error:"
+msgstr ""
+
+#: ../../22.04/index.md:111 7cf50e0937404da9a3b9ef703386b789
+msgid "Toolchain Upgrades 🛠️"
+msgstr ""
+
+#: ../../22.04/index.md:113 2fbe27326ae442929b6b6464cde2ea98
+msgid ""
+"GCC was updated to the 11.2.0 release, `binutils` to 2.38, and `glibc` to"
+" 2.35. Python 🐍 now ships at version 3.10.4, Perl 🐪 at version 5.34.0. "
+"LLVM now defaults to version 14. golang defaults to version 1.18.x. "
+"`rustc` defaults to version 1.58."
+msgstr ""
+
+#: ../../22.04/index.md:115 5fbe32f24e7a4c82b8a4f93f531cbb91
+msgid ""
+"In addition to OpenJDK 11, OpenJDK 18 is now provided (but not used for "
+"package builds)."
+msgstr ""
+
+#: ../../22.04/index.md:117 48bee0fb40f1402fa054fc7306b2af3f
+msgid "Ruby 💎 was updated from v2.7.4 to v3.0."
+msgstr ""
+
+#: ../../22.04/index.md:119 a6a66bc273094c2990d50b3f921f8f40
+msgid "systemd v249.11"
+msgstr ""
+
+#: ../../22.04/index.md:120 3bd6c12a64794bdaaedd318a6a9698a5
+msgid ""
+"The init system was updated to systemd v249, using a solid .11 patchlevel"
+" for the LTS. Please refer to the upstream "
+"[changelog](https://github.com/systemd/systemd/releases/tag/v249) for "
+"more information about the individual features. We've enabled the "
+"userspace OOMD service and are shipping the `systemd-oomd` package by "
+"default on the \"Ubuntu Desktop\" flavor, to avoid overloaded systems and"
+" the need of the kernel's OOM killer to kick in. The OOMD status can be "
+"checked using `oomctl`."
+msgstr ""
+
+#: ../../22.04/index.md:122 d28a743d2c4c4f96935c943b30768fae
+msgid "OpenSSL 3.0"
+msgstr ""
+
+#: ../../22.04/index.md:124 6f5237941571407482aafdb9607ad43f
+msgid ""
+"We've upgraded the OpenSSL library to the new 3.0 version, which disables"
+" a lot of legacy algorithms by default, as detailed in their [migration "
+"guide](https://www.openssl.org/docs/manmaster/man7/migration_guide.html)."
+" In particular, certificates using SHA1 or MD5 as hash algorithms are now"
+" invalid under the default security level."
+msgstr ""
+
+#: ../../22.04/index.md:126 6bd282afca5c4060b4a720ddeba46d0e
+msgid ""
+"In addition to the upstream deprecations, please note that since Ubuntu "
+"20.04 LTS (Focal Fossa), the security level 2 (which is the default) "
+"disables the (D)TLS protocols below 1.2 (included)."
+msgstr ""
+
+#: ../../22.04/index.md:128 5eb654570ea04f1ba979890820f4c676
+msgid ""
+"Since the new version has an API bump, third-party packages that depend "
+"on libssl1.1 will need to be rebuilt to instead depend on libssl3, as the"
+" older ABI isn't provided anymore."
+msgstr ""
+
+#: ../../22.04/index.md:130 20fc79e7cd1946a691b8d67d4da9da51
+msgid "plocate"
+msgstr ""
+
+#: ../../22.04/index.md:132 5617ae86a9754146afc569317c97f52f
+msgid ""
+"plocate is now the default `locate` implementation, replacing mlocate. "
+"The mlocate package is now a transitional package and will install "
+"plocate. plocate is largely argument-compatible with mlocate, but some "
+"incompatibilities do exist. For details, see the [manual for "
+"plocate](https://manpages.ubuntu.com/manpages/jammy/en/man1/plocate.1.html)."
+msgstr ""
+
+#: ../../22.04/index.md:134 36a24d4669cc4474af1931a4e4a9be14
+msgid "Security Improvements 🔒"
+msgstr ""
+
+#: ../../22.04/index.md:136 146b5b32c1554a4db0bd166cf61fbf1c
+msgid ""
+"nftables is now the default backend for the firewall. All applications on"
+" the system must agree on whether they will use the legacy `xtables` "
+"backend or the newer `nftables` backend. [Bug "
+"1968608](https://bugs.launchpad.net/bugs/1968608) provides some context "
+"that may be helpful. [Docker may not be ready for the new `nftables` "
+"backend](https://github.com/docker-snap/docker-snap/issues/68)."
+msgstr ""
+
+#: ../../22.04/index.md:138 ac9ed413911f465bb3acd315b002d3f8
+msgid ""
+"`ssh-rsa` is now [disabled by default in "
+"OpenSSH](https://www.openssh.com/txt/release-8.8). See [bug "
+"1961833](https://bugs.launchpad.net/ubuntu/+source/openssh/+bug/1961833) "
+"to learn how to selectively re-enable it if necessary.  If you are "
+"upgrading a system remotely over SSH, you should check that you are not "
+"relying on this to ensure that you will retain access after the upgrade."
+msgstr ""
+
+#: ../../22.04/index.md:140 d498e03778d64847b9e3bd33e5283450
+msgid ""
+"`scp` offers a [`-s` command line "
+"option](http://manpages.ubuntu.com/manpages/jammy/en/man1/scp.1.html) to "
+"use [sftp mode rather than scp "
+"mode](https://www.openssh.com/txt/release-8.9) when handling remote "
+"filenames. This new, safer, behaviour will eventually become the default."
+msgstr ""
+
+#: ../../22.04/index.md:142 ../../22.04/index.md:671
+#: 08ee401377d94c9fb4f3e6c0376f0957 b2c44022ebdb4e8fbdfb008021e8b78f
+msgid "Ubuntu Desktop"
+msgstr ""
+
+#: ../../22.04/index.md:144 20b7558613b746a995bafda3c1af4fe3
+msgid ""
+"Ubuntu now offers [10 color choices](https://discourse.ubuntu.com/t/yaru-"
+"accent-colors-are-coming-to-jammy/27200) each in dark and light styles"
+msgstr ""
+
+#: ../../22.04/index.md:145 c25ccfa91bc743afbe0b1592c7046c22
+msgid "Firefox is now only provided in Ubuntu as a snap. Some benefits include"
+msgstr ""
+
+#: ../../22.04/index.md:146 746ec7e15d6449fea52195c60483d8f1
+msgid "Directly maintained by Mozilla"
+msgstr ""
+
+#: ../../22.04/index.md:147 d6af5039b5a74c3381076548f379f8f4
+msgid "More maintainable for the entire Ubuntu LTS lifecycle"
+msgstr ""
+
+#: ../../22.04/index.md:148 fb370b9c5ead45a5a408913325ad3821
+msgid "… Which means faster access to the newest Firefox versions"
+msgstr ""
+
+#: ../../22.04/index.md:149 a72c5172128b4d45ab9824eb107d7db0
+msgid ""
+"Easily switch to a different Firefox flavor with snap channels including "
+"`esr/stable`, `latest/candidate`, `latest/beta`, and `latest/edge`"
+msgstr ""
+
+#: ../../22.04/index.md:150 a9b3d0c88b7c4d19b003f918b9513ba9
+msgid "Sandboxed for improved security hardening for this critical app"
+msgstr ""
+
+#: ../../22.04/index.md:151 ae49ec0b840a45e1997093c4ff4bf69f
+msgid ""
+"Improved in 22.04.1: Firefox startup speed is [significantly "
+"faster](https://ubuntu.com/blog/improving-firefox-snap-performance-"
+"part-3) now compared to the original Ubuntu 22.04 LTS release."
+msgstr ""
+
+#: ../../22.04/index.md:152 32646405a8f148e5a7c8485427b8ccce
+msgid ""
+"Desktop icons are shown in the bottom right by default but this can be "
+"changed through new settings added to the Appearance panel of the "
+"Settings app."
+msgstr ""
+
+#: ../../22.04/index.md:153 318e5dc94f6849049c77f8f11c004dc4
+msgid "Also there are new settings to control the Dock look and behavior"
+msgstr ""
+
+#: ../../22.04/index.md:154 cfe24a412bc0442c89cf81d26c99523b
+msgid "Dock devices and filemanager integration has been improved"
+msgstr ""
+
+#: ../../22.04/index.md:156 79fc5c63322548468cc45758d1720263
+msgid "GNOME 👣"
+msgstr ""
+
+#: ../../22.04/index.md:158 45ee260214c041748db0beb0438e6191
+msgid ""
+"GNOME has been updated to include new features and fixes from [GNOME "
+"41](https://release.gnome.org/41/) and [GNOME "
+"42](https://release.gnome.org/42/)"
+msgstr ""
+
+#: ../../22.04/index.md:159 62c3175f530c48b1854ee8d3402c109d
+msgid ""
+"Several apps are still at their 41 version numbers to provide a more "
+"time-tested experience for the LTS desktop by mostly avoiding libadwaita."
+msgstr ""
+
+#: ../../22.04/index.md:160 1edebaa52b914fa29cb1a3086468cfb6
+msgid ""
+"The new cross-desktop [dark "
+"style](https://discourse.ubuntu.com/t/ubuntu-22-04-lts-dark-style-"
+"changes/27206) preference is supported."
+msgstr ""
+
+#: ../../22.04/index.md:161 ac6ef0aecdbb4fa795580dce471a627f
+msgid ""
+"GNOME Shell and mutter have lots of performance improvements including "
+"the triple buffering patch."
+msgstr ""
+
+#: ../../22.04/index.md:162 5ed5a6351f284e9d805d8218c7a7a3bf
+msgid ""
+"The default session for most systems that don't have an Nvidia desktop "
+"graphics card is now Wayland. If you need a non-Wayland session, you can "
+"choose the *Ubuntu on Xorg* session by clicking the gear button after "
+"selecting your name on the login screen."
+msgstr ""
+
+#: ../../22.04/index.md:163 11d18130682243659c0550e32da681d3
+msgid "Hardware with privacy screen support is now supported"
+msgstr ""
+
+#: ../../22.04/index.md:164 ae55e6154be24d0185e27d6984216abe
+msgid ""
+"RDP is now available for sharing your desktop remotely. Legacy VNC is "
+"still available, but it is strongly recommended to use RDP for better "
+"security, privacy, and performance. If you were previously using VNC, "
+"you'll need to manually re-enable desktop sharing in the Settings app and"
+" get your new login information."
+msgstr ""
+
+#: ../../22.04/index.md:166 8a732831c65f4973b081d359e1609924
+msgid "Updated Applications"
+msgstr ""
+
+#: ../../22.04/index.md:168 f59ae3a0c9c14659ae509f35404b2c9d
+msgid "Firefox 103 🔥🦊"
+msgstr ""
+
+#: ../../22.04/index.md:169 2202ed29d0f0413f83bf6a36cc59f673
+msgid "[LibreOffice 7.3](https://wiki.documentfoundation.org/ReleaseNotes/7.3) 📚"
+msgstr ""
+
+#: ../../22.04/index.md:170 8770567f71224d74a27bf1a5e0bbdd9b
+msgid "Thunderbird 91 🌩️🐦"
+msgstr ""
+
+#: ../../22.04/index.md:172 b75e0627e8bb41b3b3482e37c3060ad3
+msgid "Updated Subsystems"
+msgstr ""
+
+#: ../../22.04/index.md:174 998565876f1b483b892b7286a3713d7d
+msgid ""
+"[BlueZ "
+"5.63](https://git.kernel.org/pub/scm/bluetooth/bluez.git/tree/ChangeLog?id=5.63)"
+msgstr ""
+
+#: ../../22.04/index.md:175 1658141f332c475e99399605742603da
+msgid "[CUPS 2.4](https://github.com/OpenPrinting/cups/blob/v2.4.1/CHANGES.md)"
+msgstr ""
+
+#: ../../22.04/index.md:176 1370986ce14d451aad85a0f96e35662a
+msgid ""
+"[NetworkManager "
+"1.36](https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/blob/nm-1-36/NEWS)"
+msgstr ""
+
+#: ../../22.04/index.md:177 c6d719e83a714404947f472fefb501d5
+msgid "[Mesa 22](https://docs.mesa3d.org/relnotes/22.0.0.html)"
+msgstr ""
+
+#: ../../22.04/index.md:178 3935d16eed6847bda891e47602e1205b
+msgid ""
+"[Poppler "
+"22.02](https://gitlab.freedesktop.org/poppler/poppler/-/blob/poppler-22.02.0/NEWS)"
+msgstr ""
+
+#: ../../22.04/index.md:179 9f99df3a0dfc4d5ebb099a355f79eeae
+msgid ""
+"[PulseAudio "
+"16](https://www.freedesktop.org/wiki/Software/PulseAudio/Notes/16.0/)"
+msgstr ""
+
+#: ../../22.04/index.md:180 55220afa80954ea7aaf6056c3f94de0b
+msgid ""
+"[xdg-desktop-portal 1.14](https://github.com/flatpak/xdg-desktop-"
+"portal/blob/1.14.2/NEWS)"
+msgstr ""
+
+#: ../../22.04/index.md:182 ../../22.04/index.md:684
+#: 3f47b240e76146e38a3f048007fa6096 d01e7c1162874e479eb4f5eb9c20cfba
+msgid "Ubuntu Server"
+msgstr ""
+
+#: ../../22.04/index.md:184 b734ead3dae54a62ac63691b0dc74b3e
+msgid "Ubuntu HA/Clustering"
+msgstr ""
+
+#: ../../22.04/index.md:186 fb825c7934e14a548381c4a6dbe8b88b
+msgid "Corosync"
+msgstr ""
+
+#: ../../22.04/index.md:188 c0d912c059a1490982abef025ef5198e
+msgid "It was updated to version 3.16 which includes some new features:"
+msgstr ""
+
+#: ../../22.04/index.md:190 89e8293b71494e0c8882901812e70eda
+msgid ""
+"Support for changing crypto configuration during runtime. This includes "
+"turning cryptography on or off, changing *crypto_cipher* and "
+"*crypto_hash* and also changing of crypto key."
+msgstr ""
+
+#: ../../22.04/index.md:191 1a44c1a5652c4a7d9723365f03233340
+msgid "Default token timeout was changed from 1 seconds to 3 seconds."
+msgstr ""
+
+#: ../../22.04/index.md:192 73fc7d2980d9421b9fc8a8346de00634
+msgid ""
+"Run *corosync -v* to get the list of supported crypto and compression "
+"models which can be used in corosync.conf"
+msgstr ""
+
+#: ../../22.04/index.md:193 0a4b7cb287644f4a98a37046b8e9deac
+msgid "Cgroup v2 support."
+msgstr ""
+
+#: ../../22.04/index.md:195 de3346ff5d8046af849f4599c5a580dc
+msgid ""
+"For the complete list of changes please refer to the [upstream release "
+"notes](https://github.com/corosync/corosync/releases)."
+msgstr ""
+
+#: ../../22.04/index.md:197 de5219e932fc4e99836edf9e8e4b4078
+msgid "Pacemaker"
+msgstr ""
+
+#: ../../22.04/index.md:199 cda127bdd9914e4295de94d8fea039c3
+msgid "It was updated to version 2.1.2 which includes some new features:"
+msgstr ""
+
+#: ../../22.04/index.md:201 12f7a3701044412391119da454ee22a1
+msgid ""
+"Add a new feature *priority-fencing-delay*. Optionally derive the "
+"priority of a node from the resource-priorities of the resources it is "
+"running."
+msgstr ""
+
+#: ../../22.04/index.md:202 d507d2b99df74a919ab4e5d8559d2431
+msgid ""
+"Add *on-fail=demot*e and *no-quorum-policy=demote* recovery policies for "
+"promoted resources."
+msgstr ""
+
+#: ../../22.04/index.md:203 a21dc7bca7f24ebf999511b16f5b45e8
+msgid "support for OCF Resource Agent API 1.1 standard."
+msgstr ""
+
+#: ../../22.04/index.md:204 66d4db51981f4526a3b3610e9a55fe7f
+msgid "Many improvements in *crm_mon* and *crm_resource*."
+msgstr ""
+
+#: ../../22.04/index.md:206 34d2bc3832254d339c5327f056feb51c
+msgid ""
+"For the complete list of changes please refer to the [upstream release "
+"notes](https://github.com/ClusterLabs/pacemaker/releases)."
+msgstr ""
+
+#: ../../22.04/index.md:208 a9bc91673be24be7b6d15b6193239f8d
+msgid ""
+"A notable difference from the version in Ubuntu Focal 20.04 is that the "
+"default configuration file does not define the node name as node1 "
+"anymore, now the output of uname -n is used as the default node name."
+msgstr ""
+
+#: ../../22.04/index.md:210 984d727fd4704283a90ce08bce34164a
+msgid "Resource agents"
+msgstr ""
+
+#: ../../22.04/index.md:212 82f0d68dbad04ef6b0525245477c5f60
+msgid ""
+"It was updated to version 4.7.0. Check the list of changes since Ubuntu "
+"Focal 20.04 [here](https://github.com/ClusterLabs/resource-"
+"agents/blob/main/ChangeLog#L95-L219)."
+msgstr ""
+
+#: ../../22.04/index.md:214 2e6b30b7367d46f88bb76f8f4153350f
+msgid ""
+"The agents are now separated in two packages: resource-agents-base and "
+"resource-agents-extra. The resource-agents-base package contains the "
+"agents which are curated by the Ubuntu Server team, which means that "
+"automated tests are running in a continuous integration system to "
+"guarantee the quality of those agents. The resource-agents package is now"
+" a metapackage which depends on both resource-agents-base and resource-"
+"agents-extra. Please note that the resource-agents package will be "
+"removed in future releases; we recommend that you do not rely on its "
+"existence."
+msgstr ""
+
+#: ../../22.04/index.md:216 c8009aa1a8fe4befb6a8b24263a0851f
+msgid "Fence agents"
+msgstr ""
+
+#: ../../22.04/index.md:218 0919889152fc4950a6d75b193ae22e53
+msgid "It was updated to version 4.7.1."
+msgstr ""
+
+#: ../../22.04/index.md:220 d5944e68ed8348c18282da6490682be1
+msgid ""
+"The agents are now separated in two packages: fence-agents-base and "
+"fence-agents-extra. The fence-agents-base package contains the agents "
+"which are curated by the Ubuntu Server team, which means that automated "
+"tests are running in a continuous integration system to guarantee the "
+"quality of those agents. The fence-agents package is now a metapackage "
+"which depends on both fence-agents-base and fence-agents-extra. Please "
+"note that fence-agents will be removed in releases; we recommend that you"
+" do not rely on its existence."
+msgstr ""
+
+#: ../../22.04/index.md:222 47114cbd3a3d4627a1eb412b50eb0dce
+msgid "Containers runtime"
+msgstr ""
+
+#: ../../22.04/index.md:224 b9a907da3c9b475fa45c5ae29a94c888
+msgid "containerd"
+msgstr ""
+
+#: ../../22.04/index.md:226 d735d7ddf0a94f2c8545a5dce9f6b401
+msgid "It was updated to version 1.5.9. Some interesting changes are:"
+msgstr ""
+
+#: ../../22.04/index.md:228 937f4f17536e4c828265683b8f02cc92
+msgid "Update pull to handle of non-https urls in descriptors"
+msgstr ""
+
+#: ../../22.04/index.md:229 a87f83e5878f493896cbde1c5b21c76e
+msgid "Install AppArmor parser for arm64 and update seccomp to 2.5.1"
+msgstr ""
+
+#: ../../22.04/index.md:230 a3f6d9dc1e3f4e8da2398af006b27c62
+msgid ""
+"Add support for *clone3* syscall to fix issue with certain images when "
+"seccomp is enabled"
+msgstr ""
+
+#: ../../22.04/index.md:231 42b45451a43f402981ced52257ea4cee
+msgid "Add image config labels in CRI container creation"
+msgstr ""
+
+#: ../../22.04/index.md:233 2e25b3575f0c401a91cf69ef9617f2d8
+msgid ""
+"For the complete list of changes please refer to the [upstream release "
+"page](https://github.com/containerd/containerd/releases)."
+msgstr ""
+
+#: ../../22.04/index.md:235 10d9a6395fce4faba7d2785661c43cda
+msgid "`runc`"
+msgstr ""
+
+#: ../../22.04/index.md:237 e4dffaea974e4ac9be3b98909e0d4bea
+msgid ""
+"It was updated to version 1.1.0. There are many improvements and bug "
+"fixes which can be found in the [upstream release "
+"page](https://github.com/opencontainers/runc/releases). Some deprecations"
+" and removals which might impact the upgrade are presented below:"
+msgstr ""
+
+#: ../../22.04/index.md:239 012e761003374ebeb1aa132340ae9543
+msgid "Deprecation"
+msgstr ""
+
+#: ../../22.04/index.md:241 fc11d03f33314720a5e844fa92a32c05
+msgid ""
+"runc run/start now warns if a new container cgroup is non-empty or "
+"frozen; this warning will become an error in `runc` 1.2"
+msgstr ""
+
+#: ../../22.04/index.md:243 90e9bf2d449e4db29bf02bd69a2334c4
+msgid "Removals"
+msgstr ""
+
+#: ../../22.04/index.md:245 0f6d2586ee944e51ba4dedd3b9d96049
+msgid ""
+"cgroup.GetHugePageSizes has been removed entirely, and been replaced with"
+" cgroup.HugePageSizes which is more efficient"
+msgstr ""
+
+#: ../../22.04/index.md:246 7bd2bbbe29324b38bcef88c96ae486d3
+msgid ""
+"intelrdt.GetIntelRdtPath has been removed. Users who were using this "
+"function to get the intelrdt root should use the new intelrdt.Root "
+"instead."
+msgstr ""
+
+#: ../../22.04/index.md:248 c78db54998a844e390214a1e7780e4ca
+msgid "Ruby 3.0"
+msgstr ""
+
+#: ../../22.04/index.md:250 730f01033f8b417c998abdbc3d69285e
+msgid ""
+"The default Ruby interpreter was updated to version 3.0, whose goal is "
+"performance, concurrency, and Typing. To have a broad overview about the "
+"cool features and improvements check out the [Ruby 3.0 Release "
+"Announcement](https://www.ruby-"
+"lang.org/en/news/2020/12/25/ruby-3-0-0-released/)."
+msgstr ""
+
+#: ../../22.04/index.md:252 fd21fe0083424bea87f7f834e4c32268
+msgid ""
+"Users coming from previous Ubuntu releases ( Ubuntu Focal 20.04 onward) "
+"will be moving from Ruby 2.7 to 3.0. In this case the [Ruby 2.7 Release "
+"Announcement](https://www.ruby-"
+"lang.org/en/news/2019/12/25/ruby-2-7-0-released/) might be useful as "
+"well. An important thing to keep in mind is that the following libraries "
+"are not bundled anymore in Ruby:"
+msgstr ""
+
+#: ../../22.04/index.md:254 855f71b5dde64399ae4275db6f5fbfdd
+msgid "sdbm"
+msgstr ""
+
+#: ../../22.04/index.md:255 f08a4cb6b89f45b7afde519d97f9f155
+msgid "webrick"
+msgstr ""
+
+#: ../../22.04/index.md:256 68142671cd8b4b4f980736011c410964
+msgid "net-telnet"
+msgstr ""
+
+#: ../../22.04/index.md:257 c31603a978fb460ba448733aa6999deb
+msgid "xmlrpc"
+msgstr ""
+
+#: ../../22.04/index.md:259 718d76b78e354167ba0f7d17aed19f87
+msgid "If you need these libraries, please install them separately."
+msgstr ""
+
+#: ../../22.04/index.md:261 5293a47d905445c28174d7e851752e97
+msgid ""
+"Please pay attention to the Other Notable Changes since 2.7 section in "
+"the Ruby 3.0 Release announcement when migrating your application to Ruby"
+" 3.0."
+msgstr ""
+
+#: ../../22.04/index.md:263 78fa013ffd494791ba78cd7bc65996b7
+msgid "PHP now defaults to version 8.1.2"
+msgstr ""
+
+#: ../../22.04/index.md:265 83d20020d6084a8996febd6619f25351
+msgid ""
+"PHP 8.1 contains many new features:  Enumerations allow defining custom "
+"types limited to a specific set of possible values, like using consts but"
+" with better type checking. Readonly properties prevent their value to be"
+" changed after initialization.  With first-class callable syntax, static "
+"analysis is easier to perform on PHP code, and allows creating anonymous "
+"functions such as Closures.  Intersection types allow specifying function"
+" parameters that must satisfy multiple type constraints; much like a "
+"union type expresses an A|B type relationship, intersection types allow "
+"expressing A&B types.  Many other new features, such as fibers, final "
+"class constraints, never return values, explicit octal numeral notation, "
+"use of new inside initializers, and more will allow writing tighter, more"
+" expressive PHP code."
+msgstr ""
+
+#: ../../22.04/index.md:267 60d68664a9804ab59465c1fbbc875bb2
+#, python-format
+msgid ""
+"PHP 8.1 also received significant attention to performance, with a 23% "
+"speedup for the Symfony Demo test, and a 3.5% speedup for WordPress, as "
+"compared with PHP 8.0.  A few of the performance-related features "
+"included in PHP 8.1 include an inheritance cache, fast class name "
+"resolution, and various optimizations to timelib, ext/date, SPL file-"
+"system interators, serialize/unserialize, and several heavily used "
+"internal functions."
+msgstr ""
+
+#: ../../22.04/index.md:269 8edf1d793b774cc0b9f0fc46bac35aaf
+msgid ""
+"Users of PHP 7.4 should note that version 8 removes a [number of "
+"deprecated "
+"functionalities](https://wiki.php.net/rfc/deprecations_php_7_4) and when "
+"upgrading should be prepared to make the appropriate changes to their "
+"applications."
+msgstr ""
+
+#: ../../22.04/index.md:271 4113016fd0cc481a9da454d619ece1b3
+msgid "OpenLDAP 2.5.x series"
+msgstr ""
+
+#: ../../22.04/index.md:273 a4a2c82f655c49deb0f08eef97bb6cf5
+msgid ""
+"If you are updating from Ubuntu Focal 20.04, you will encounter a new "
+"major OpenLDAP release on Ubuntu Jammy 22.04: version 2.5.11.  This "
+"release brings several changes, new features and deprecations/removals. A"
+" non-exhaustive list of things to be aware of during the upgrade process "
+"is:"
+msgstr ""
+
+#: ../../22.04/index.md:275 677329afaa1e4fb2bd8199297472500c
+msgid ""
+"The shell (`slapd-shell`), the BDB and the HDB backends have all been "
+"removed."
+msgstr ""
+
+#: ../../22.04/index.md:276 1d9c0ed5050d4c55bbb53a2076d6d6b2
+msgid ""
+"The `ppolicy` module now provides its own built-in schema. The external "
+"`ppolicy` schema has been removed."
+msgstr ""
+
+#: ../../22.04/index.md:277 07caa506290b40e2abbf17f5ad9f0eec
+msgid "The `nssov` module has been removed."
+msgstr ""
+
+#: ../../22.04/index.md:279 caa964103e0243b4a6a1a4786a65cf78
+msgid ""
+"In certain situations, it is possible that the post-installation scripts "
+"will **not** be able to successfully migrate your current installation to"
+" new formats (e.g., when you are using an old backend like BDB/HDB). If "
+"this happens, you will be notified about the failure and the `slapd` "
+"server will **not** be (re)started; you will then have to take manual "
+"action in order to migrate your data and start the service. Please look "
+"at the [README.Debian "
+"](https://git.launchpad.net/ubuntu/+source/openldap/tree/debian/slapd.README.Debian?h=ubuntu"
+"/impish-devel) file (under `/usr/share/doc/slapd/`) for more information."
+msgstr ""
+
+#: ../../22.04/index.md:281 bbca09df62c9468f95d4cf4aa0a76a63
+msgid "BIND 9.18"
+msgstr ""
+
+#: ../../22.04/index.md:283 a712dbe78f8b4255a92596eab37c9e11
+msgid ""
+"BIND 9 has been updated to [version "
+"9.18.1](https://bind9.readthedocs.io/en/v9_18_1/notes.html). This new "
+"version includes"
+msgstr ""
+
+#: ../../22.04/index.md:285 85fb6af3528d41bca30b39414f1b13b6
+msgid "Support for DNS over TLS (DoT) and DNS over HTTPS (DoH)."
+msgstr ""
+
+#: ../../22.04/index.md:286 9ab5f61f685b44cbb39716582a9e2f69
+msgid ""
+"`named` now supports zone transfers over TLS (XFR-over-TLS, XoT) for both"
+" incoming and outgoing zone transfers."
+msgstr ""
+
+#: ../../22.04/index.md:287 6a2e3cbaba2a4d48a8f8282cc7230ca5
+msgid "`dig` is now able to send DoT queries."
+msgstr ""
+
+#: ../../22.04/index.md:289 d795e6183966477fba2fc859354de5ee
+msgid ""
+"Users upgrading from previous versions should be aware of the following "
+"changes:"
+msgstr ""
+
+#: ../../22.04/index.md:291 34fe0eb23435444686a3be09894ba3ac
+msgid ""
+"The binary files which are neither daemons nor administrative programs "
+"have been moved from `/usr/sbin` to `/usr/bin`."
+msgstr ""
+
+#: ../../22.04/index.md:292 e38251b932fb4e6883513dde7cd6837d
+msgid ""
+"Support for the map zone file format has been removed. Users relying on "
+"such zone file format should convert their zones to use the raw format "
+"and change configurations accordingly before upgrading."
+msgstr ""
+
+#: ../../22.04/index.md:293 a45f205da1c140fcbf476b4cd77b340a
+msgid ""
+"Several obsolete, non-working configuration options have been removed and"
+" are now treated as configuration failures when present. A complete list "
+"of such configurations is available in the [upstream release "
+"notes](https://bind9.readthedocs.io/en/v9_18_1/notes.html#removed-"
+"features)."
+msgstr ""
+
+#: ../../22.04/index.md:295 af82809449ea4cf387112f4291045fdd
+msgid "Apache has been updated to 2.4.52 from 2.4.48"
+msgstr ""
+
+#: ../../22.04/index.md:297 03a7a76938074ed0b1849c1a68999776
+msgid ""
+"OpenSSL support is improved to support OpenSSL v3.  mod_ssl also received"
+" various refinements for outgoing connection behaviors, backwards "
+"compatibility, and wireshark logging."
+msgstr ""
+
+#: ../../22.04/index.md:298 f2acf76c5a1e42e1a7d420204d4f54a3
+msgid ""
+"mod_md adds support for ACME External Account Binding (EAB) along with a "
+"host of other enhancements and fixes."
+msgstr ""
+
+#: ../../22.04/index.md:299 9cf6625d95be4f6fb19c6b8631b86610
+msgid ""
+"Numerous fixes, including better hostname and UDS URI checking and "
+"handling, status code responses, and so on."
+msgstr ""
+
+#: ../../22.04/index.md:302 cb264b342c4f4b8c895ac50bce4bad24
+msgid "PostgreSQL 14"
+msgstr ""
+
+#: ../../22.04/index.md:304 745df9a0c2884389b4184a53804c0f8c
+msgid "PostgreSQL has been updated to version 14.2."
+msgstr ""
+
+#: ../../22.04/index.md:306 19bf6470421046d3b2f9640b02309a71
+msgid "This update contains many new features and enhancements, including:"
+msgstr ""
+
+#: ../../22.04/index.md:308 c008806c703942b2a9e999fcae27984a
+msgid "Stored procedures can now return data via OUT parameters."
+msgstr ""
+
+#: ../../22.04/index.md:309 b51785a6b2ca4bd28b634a0037817215
+msgid ""
+"The SQL-standard SEARCH and CYCLE options for common table expressions "
+"have been implemented."
+msgstr ""
+
+#: ../../22.04/index.md:310 82c624345cd24b5198a8179a1153c4c9
+msgid ""
+"Subscripting can now be applied to any data type for which it is a useful"
+" notation, not only arrays. In this release, the jsonb and hstore types "
+"have gained subscripting operators."
+msgstr ""
+
+#: ../../22.04/index.md:311 a6b8fa31406c4cfcafb9a0ba994b41c8
+msgid ""
+"Range types have been extended by adding multiranges, allowing "
+"representation of noncontiguous data ranges."
+msgstr ""
+
+#: ../../22.04/index.md:312 ec83c65fb5234eceb172b8be64263a9f
+msgid ""
+"Numerous performance improvements have been made for parallel queries, "
+"heavily-concurrent workloads, partitioned tables, logical replication, "
+"and vacuuming."
+msgstr ""
+
+#: ../../22.04/index.md:313 44c9aa7bfbdb413b84ebd2c72794bf6d
+msgid "B-tree index updates are managed more efficiently, reducing index bloat."
+msgstr ""
+
+#: ../../22.04/index.md:314 218ae7bd9b6a4d8f9570caef0e2d9514
+msgid ""
+"VACUUM automatically becomes more aggressive, and skips inessential "
+"cleanup, if the database starts to approach a transaction ID wraparound "
+"condition."
+msgstr ""
+
+#: ../../22.04/index.md:315 a1fba7bce8dd4532a8ed5e7bba06c04d
+msgid ""
+"Extended statistics can now be collected on expressions, allowing better "
+"planning results for complex queries."
+msgstr ""
+
+#: ../../22.04/index.md:316 a3ee7188c19f4384a42cce6a8316c017
+msgid ""
+"libpq now has the ability to pipeline multiple queries, which can boost "
+"throughput over high-latency connections."
+msgstr ""
+
+#: ../../22.04/index.md:318 fa33609cb9854146b47ebc3b6c4c0e6b
+msgid ""
+"These and a long list of further enhancements as well as bug fixes can be"
+" found in the release notes of "
+"[v14](https://www.postgresql.org/docs/14/release-14.html), "
+"[v14.1](https://www.postgresql.org/docs/release/14.1/), and "
+"[v14.2](https://www.postgresql.org/docs/release/14.2/)."
+msgstr ""
+
+#: ../../22.04/index.md:320 402248c067d94557be772a50bdf3e003
+msgid "Django 3.2.12"
+msgstr ""
+
+#: ../../22.04/index.md:322 12128b7717034939bddc583a81a06f9f
+msgid ""
+"Django was updated from the previous LTS version 2.2 to the new LTS "
+"version 3.2."
+msgstr ""
+
+#: ../../22.04/index.md:324 35dcc3c94e194052bd93888177033cd8
+msgid "The update contains many new features and bug fixes such as:"
+msgstr ""
+
+#: ../../22.04/index.md:326 b836d9d0fff3445b8a527e224eefece4
+msgid "Automatic AppConfig discovery"
+msgstr ""
+
+#: ../../22.04/index.md:327 edb24cace16141e1b3c4ff1d02d50c30
+msgid "Type customization of auto-created primary keys"
+msgstr ""
+
+#: ../../22.04/index.md:328 69f2c5aef26d4ef5b1be4da3683c71fe
+msgid "Functional indexes"
+msgstr ""
+
+#: ../../22.04/index.md:329 d12981d026ca40949e6b7e1a48857db2
+msgid "Asynchronous views and middleware support"
+msgstr ""
+
+#: ../../22.04/index.md:330 0ec93cc861eb4980b34537afd700cc99
+msgid "JSONField for all supported database backends"
+msgstr ""
+
+#: ../../22.04/index.md:331 be4b426fb8e24b1497d379c8853e69f2
+msgid ""
+"And various further major and minor features, see the see the [release "
+"notes](https://docs.djangoproject.com/en/4.0/releases/3.2/) for more"
+msgstr ""
+
+#: ../../22.04/index.md:333 9e07e7a86d80425798d21637fc8000b6
+msgid ""
+"Users upgrading from previous versions should be aware of the following "
+"backwards incompatibilities:"
+msgstr ""
+
+#: ../../22.04/index.md:335 87169b7b8d644671833d5195da589260
+msgid "Changes have been made to:"
+msgstr ""
+
+#: ../../22.04/index.md:336 1b3bed118d84484991c5289a9781affc
+msgid "The Database backend API"
+msgstr ""
+
+#: ../../22.04/index.md:337 affd6a4b515c481abcafe93b10b9466c
+msgid "django.contrib.admin"
+msgstr ""
+
+#: ../../22.04/index.md:338 d1f46eefb2754e4ab7befd213285fc59
+msgid "AbstractUser.first_name max_length - changed to 150"
+msgstr ""
+
+#: ../../22.04/index.md:339 39592a48a25240d180e20e3a430479fe
+msgid "Model.save() when providing a default for the primary key"
+msgstr ""
+
+#: ../../22.04/index.md:340 3e87cb4287c54c76876cace88a7dc084
+msgid "Along with various minor module changes"
+msgstr ""
+
+#: ../../22.04/index.md:342 a66b5ee9296c4fb68cf330931aa225f4
+msgid ""
+"For additional information, especially since an upgrade would be from the"
+" former v2.2 LTS to v3.2 LTS do not only check the Django project release"
+" notes of [3.2](https://docs.djangoproject.com/en/4.0/releases/3.2/) but "
+"also [3.1](https://docs.djangoproject.com/en/4.0/releases/3.1) and "
+"[3.0](https://docs.djangoproject.com/en/4.0/releases/3.0) as well as the "
+"various minor releases included up to 3.2.12 that is in Ubuntu 22.04 LTS."
+msgstr ""
+
+#: ../../22.04/index.md:344 1b05b04767cc4db09d076172fe617820
+msgid "MySQL 8.0"
+msgstr ""
+
+#: ../../22.04/index.md:346 1f68cd52b458452c9504b12260b7d160
+msgid ""
+"MySQL has been updated to version 8.0.28 in Jammy Jellyfish alongside "
+"Focal Fossa and Impish Indri. It contains new features such as:"
+msgstr ""
+
+#: ../../22.04/index.md:349 c76a96d5b7504ac1927ec5a462867c07
+msgid "The audit_log_disable system"
+msgstr ""
+
+#: ../../22.04/index.md:350 9fa3ef804c2a430ab5a483d53248a208
+msgid "Data type updates"
+msgstr ""
+
+#: ../../22.04/index.md:351 54152c7492774a2e86932f1bef5ec498
+msgid "The CPU_TIME statement metric"
+msgstr ""
+
+#: ../../22.04/index.md:353 d71ae1bf38384f9fb47e0202572e8bb5
+msgid ""
+"See the [8.0.28 upstream release "
+"notes](https://dev.mysql.com/doc/relnotes/mysql/8.0/en/news-8-0-28.html) "
+"for more information."
+msgstr ""
+
+#: ../../22.04/index.md:356 1de111bee82f4ffe87d6b7c3cd48b979
+msgid "NFS server"
+msgstr ""
+
+#: ../../22.04/index.md:357 441c081c972742d99377e8f457be05a4
+msgid ""
+"The NFS server and client packages have finally been updated to the "
+"latest upstream version."
+msgstr ""
+
+#: ../../22.04/index.md:359 9ed6dd434e664266a737ed1f918c6b31
+msgid ""
+"All NFS services now read their configuration from `/etc/nfs.conf` and "
+"`/etc/nfs.conf.d/*.conf`, which is an INI-style configuration file, where"
+" each section is about one daemon or aspect of the NFS service. The old "
+"`/etc/defaults/nfs-*` configuration files are still left around, but are "
+"unused."
+msgstr ""
+
+#: ../../22.04/index.md:361 c12484ea5f3c4417ba6ec03e29abdbd4
+msgid ""
+"During upgrade, a conversion script is run if the package detects that "
+"the `/etc/default/nfs-*` files have been changed. This script is "
+"`/usr/share/nfs-common/nfsconvert.py` and it will read the options from "
+"`/etc/defaults/nfs-*` and generate `/etc/nfs.conf.d/local.conf`, which "
+"overrides the defaults in `/etc/nfs.conf`."
+msgstr ""
+
+#: ../../22.04/index.md:363 0cd666cce22742e5a0410074c87c193b
+msgid ""
+"If the conversion script fails for some reason, the package installation "
+"or upgrade will fail, and the issue will have to be resolved. Please "
+"[file a bug against `nfs-utils` in "
+"Launchpad](https://bugs.launchpad.net/ubuntu/+source/nfs-utils/+filebug) "
+"if you encounter such a scenario."
+msgstr ""
+
+#: ../../22.04/index.md:365 875f0a3589904cb9998fdc479a73f513
+msgid ""
+"A new tool called `nfsconf(8)` can be used to query the configuration "
+"settings of `/etc/nfs.conf` and `/etc/nfs.conf.d/*.conf`."
+msgstr ""
+
+#: ../../22.04/index.md:367 4679a38bcf9b4760aa7c74fb89ef5fd7
+msgid "Samba server"
+msgstr ""
+
+#: ../../22.04/index.md:368 525e366916914b75a0c8f775e47736b1
+msgid ""
+"Samba was updated to 4.15.5, which brings some noteworthy changes. Please"
+" see the [upstream release notes for "
+"details](https://www.samba.org/samba/history/samba-4.15.0.html), but here"
+" are some highlights:"
+msgstr ""
+
+#: ../../22.04/index.md:370 ad1beec7b7264006b969b08bc9f57f3d
+msgid ""
+"The development SMB versions SMB2_22, SMB2_24 and SMB3_10 are no longer "
+"recognized. SMB2_22 and SMB2_24 should be replaced by SMB3_00, and "
+"SMB3_10 should be replaced by SMB3_11"
+msgstr ""
+
+#: ../../22.04/index.md:371 17a6e5c96e174e01b323118185055670
+msgid "server multi channel support is no longer experimental"
+msgstr ""
+
+#: ../../22.04/index.md:372 3aa6ad454ded4825bb338f8dcc5a8b9a
+msgid ""
+"command-line options in all CLI tooling are now using a common parser, "
+"and unknown options which might have been ignored in the past, will now "
+"be rejected. See the [upstream release "
+"notes](https://www.samba.org/samba/history/samba-4.15.0.html) for "
+"details."
+msgstr ""
+
+#: ../../22.04/index.md:373 dcb2919fba964e199ebdd3f4cd1cf602
+msgid ""
+"many `/etc/samba/smb.conf` parameters were changed, some removed. Please "
+"see the [upstream release "
+"notes](https://www.samba.org/samba/history/samba-4.15.0.html) for "
+"details."
+msgstr ""
+
+#: ../../22.04/index.md:374 b1e058090f6f4e7db6cef17028dbceaa
+msgid ""
+"the CTDB package was adjusted to work with the new NFS server version "
+"shipped in this Ubuntu 22.04 LTS"
+msgstr ""
+
+#: ../../22.04/index.md:375 087d6d3cf3b3471491ed0dc353d046d5
+msgid "`findsmb(1)` was removed"
+msgstr ""
+
+#: ../../22.04/index.md:376 4ed31fe9c9ab4183b82e38933c2273eb
+msgid ""
+"[glusterfs support "
+"enabled](https://bugs.launchpad.net/ubuntu/+source/samba/+bug/1894618) in"
+" the Ubuntu packaging. This was possible because [glusterfs was promoted "
+"to "
+"Main](https://bugs.launchpad.net/ubuntu/+source/glusterfs/+bug/1950321) "
+"during the 22.04 LTS development cycle, which allowed us to enable the "
+"glusterfs vfs module. This module is now present in the `samba-vfs-"
+"modules` package."
+msgstr ""
+
+#: ../../22.04/index.md:378 42b03c3f6df342fe8ce4dd457db0b5c0
+msgid "Quagga replaced with frr"
+msgstr ""
+
+#: ../../22.04/index.md:379 e865cfb6de424917b79276cd0393b3d5
+msgid ""
+"`quagga` was removed from Ubuntu 22.04 LTS and replaced by FRRouting "
+"(`frr`, https://frrouting.org/)."
+msgstr ""
+
+#: ../../22.04/index.md:381 5d1720d8b0c54e81aa9ff8aa8120e90d
+msgid "Chrony time synchronization"
+msgstr ""
+
+#: ../../22.04/index.md:383 3dece058e20d41e4aabd4f7a0eace458
+msgid "Chrony has been updated to version 4.2 which includes"
+msgstr ""
+
+#: ../../22.04/index.md:385 a6c2b44349884d3fb12f7985716adc7d
+msgid "Add support for AES-CMAC and hash functions in GnuTLS"
+msgstr ""
+
+#: ../../22.04/index.md:386 8593c9f6001c4d7eb2fb368a44ad8ef3
+msgid ""
+"Improve server interleaved mode to be more reliable and support multiple "
+"clients behind NAT"
+msgstr ""
+
+#: ../../22.04/index.md:387 75526b26904845a483e530afb5cb6df7
+msgid "Add statistics about interleaved mode to serverstats report"
+msgstr ""
+
+#: ../../22.04/index.md:388 a2e297dc6aa14e1c8a1285d19d58dcfe
+msgid "Adds and enabled further hardening options to the chrony service"
+msgstr ""
+
+#: ../../22.04/index.md:389 178c9b63c29845d8870a20b69465fe8c
+msgid "Allow reading timemaster created configurations"
+msgstr ""
+
+#: ../../22.04/index.md:390 2bf6261cdbc74216b2cbdd15372984f3
+msgid ""
+"For more details read the upstream [release "
+"notes](https://chrony.tuxfamily.org/news.html)"
+msgstr ""
+
+#: ../../22.04/index.md:392 c88584b714754886a245941bc4f59e4f
+msgid "Virtualization"
+msgstr ""
+
+#: ../../22.04/index.md:394 7608dcfb21db4763bdcecf3fdddb02b9
+msgid ""
+"As usual the release notes can only list a few bigger and more noteworthy"
+" changes and packages while underneath many more components have been "
+"updated as well. For an even more complete picture please have a look at "
+"the changelogs of packages and upstream releases of the respective "
+"components."
+msgstr ""
+
+#: ../../22.04/index.md:398 c551a35b6edb4784893ee134376d9250
+msgid "qemu"
+msgstr ""
+
+#: ../../22.04/index.md:400 ad2e45edda004a72a182abf28e77c50f
+msgid ""
+"Qemu was updated to version v6.2.0 which brings many major and minor "
+"improvements. Among others this version includes:"
+msgstr ""
+
+#: ../../22.04/index.md:402 7f5e2615bbdd4fc2bf745d2ff519a853
+msgid ""
+"fuse3 based non-root way to [export image "
+"files](https://www.qemu.org/2021/08/22/fuse-blkexport/)"
+msgstr ""
+
+#: ../../22.04/index.md:403 118b5da0a25b435e8732d77c7f9624dd
+msgid "Jack support for low latency audio"
+msgstr ""
+
+#: ../../22.04/index.md:404 85e33e6b7bb742f7b3131103cabc634b
+msgid "Massively improved RISC-V support"
+msgstr ""
+
+#: ../../22.04/index.md:405 8c448a3ff37c466ab95245ea8cd70a26
+msgid "Many fixes for the emulation of AMD virtualization extensions"
+msgstr ""
+
+#: ../../22.04/index.md:406 0ac9c12e51014f30a79605cc3a43bfa6
+msgid "Improved Power10 support"
+msgstr ""
+
+#: ../../22.04/index.md:407 918b17f6cfd24f59a5c66203ff20337d
+msgid ""
+"More devices for the microvm build (`virtio-gpu`, `vhost-user-gpu`, "
+"`virtio-input-host` and `vhost_user_input`)"
+msgstr ""
+
+#: ../../22.04/index.md:408 d8b063f180984fb4aa39d1b4d9892823
+msgid "Allow to remove the additional drivers of `qemu-block-extra`"
+msgstr ""
+
+#: ../../22.04/index.md:409 de115ece051a40caa6804e362a560b77
+msgid "Most common qemu features are now separate modules"
+msgstr ""
+
+#: ../../22.04/index.md:410 6ed708c625dc4132b88e74a036372886
+msgid ""
+"s390x got improved storage key emulation (e.g. fixed address handling, "
+"lazy storage key enablement for TCG, ...)"
+msgstr ""
+
+#: ../../22.04/index.md:411 7d89a03246ef4302b6b5b946471d5349
+msgid ""
+"See the upstream changelog for version "
+"[6.1](https://wiki.qemu.org/ChangeLog/6.1) and "
+"[6.2](https://wiki.qemu.org/ChangeLog/6.2) for an overview of the many "
+"further improvements. These also contain a list of suggested alternatives"
+" for removed, deprecated and incompatible features."
+msgstr ""
+
+#: ../../22.04/index.md:413 0c5b43123fda4f94bc366dc68431afc0
+msgid "libvirt"
+msgstr ""
+
+#: ../../22.04/index.md:415 834637365f184a90bcf2ca732ebad2ca
+msgid ""
+"Following the regular releases of libvirt version v8.0.0 is now provided "
+"in Ubunt 22.04 which includes:"
+msgstr ""
+
+#: ../../22.04/index.md:417 08e38cab6a2b4314ad4eab22c8907089
+msgid "Support hotplug and hotunplug for virtiofs"
+msgstr ""
+
+#: ../../22.04/index.md:418 4ec39d650be04cad8f3e206ae43064a5
+msgid "Introduce virtio-mem `<memory/>` model"
+msgstr ""
+
+#: ../../22.04/index.md:419 7d06603c59794386ac1a0a985b203a8d
+msgid "qemu: Support librbd encryption"
+msgstr ""
+
+#: ../../22.04/index.md:420 3eecee1966dd4863a1e97557015702fb
+msgid "qemu: Add new API to inject a launch secret in a domain"
+msgstr ""
+
+#: ../../22.04/index.md:421 6b218f2968cb489d8809a73abc3b3af7
+msgid "enhanced swtpm integration (see swtpm below for more)"
+msgstr ""
+
+#: ../../22.04/index.md:422 6b372dd71b8940938c31cf72e5eb6fbe
+msgid ""
+"See the upstream [Changelogs](https://libvirt.org/news.html) for the many"
+" further improvements and fixes since version 7.6 that was in [Ubuntu "
+"21.10](https://discourse.ubuntu.com/t/impish-indri-release-notes/21951)."
+msgstr ""
+
+#: ../../22.04/index.md:424 efd3b6dbbd91411f9067932cc2da0325
+msgid "virt-manager"
+msgstr ""
+
+#: ../../22.04/index.md:426 ae59f41a9dd4475ca6b40c362b9b5c40
+msgid ""
+"The new version 4.0.0 of virt-manager is the most recent update after "
+"almost 1.5 years without a new upstream version) providing a list of new "
+"features:"
+msgstr ""
+
+#: ../../22.04/index.md:428 8ddd8c0fff1847faa5591f4efddb780b
+msgid "shared memory configuration in the UI"
+msgstr ""
+
+#: ../../22.04/index.md:429 44dfced111ae47c7a0147165a2e34e1b
+msgid "virtiofs filesystem driver UI option"
+msgstr ""
+
+#: ../../22.04/index.md:430 1a778a3a20194854bfa5045125a96968
+msgid "enable a TPM by default when UEFI is used"
+msgstr ""
+
+#: ../../22.04/index.md:431 d60d38e2cc0f4b2c8fca82ef80999e25
+msgid "Use cpu host-passthrough by default on qemu x86"
+msgstr ""
+
+#: ../../22.04/index.md:432 a468229525084ff584ac900bd8796fa8
+msgid "use `virtio-gpu` video for most modern distros"
+msgstr ""
+
+#: ../../22.04/index.md:433 40bae1e8a7274d7a9b8d898ce9678c58
+msgid ""
+"More details can be found on the [news page](https://github.com/virt-"
+"manager/virt-manager/blob/main/NEWS.md) and individual commits on the "
+"[projects website](https://github.com/virt-manager/virt-manager)"
+msgstr ""
+
+#: ../../22.04/index.md:435 3c977d5d8a0142a7a021a0aaac01211e
+msgid "dpdk"
+msgstr ""
+
+#: ../../22.04/index.md:437 82b493f7b294456dad4a736d21ccc488
+msgid ""
+"Following the yearly flow of upstream DPDK LTS releases Ubuntu 22.04 LTS "
+"contains the most recent DPDK LTS 21.11. That contains various new device"
+" drivers, fixes and optimizations. Even the rather huge [release "
+"notes](http://doc.dpdk.org/guides/rel_notes/release_21_11.html) is just "
+"about 21.11 itself. Compared to the former DPDK LTS 20.11 that shipped "
+"with Ubuntu 21.10 you'd also want to read the DPDK release notes of "
+"[21.02](http://doc.dpdk.org/guides/rel_notes/release_21_02.html), "
+"[21.05](http://doc.dpdk.org/guides/rel_notes/release_21_05.html) and "
+"[21.08](http://doc.dpdk.org/guides/rel_notes/release_21_08.html)."
+msgstr ""
+
+#: ../../22.04/index.md:440 aca7fb1973ab4207ae4035833d48c41b
+msgid "openvswitch"
+msgstr ""
+
+#: ../../22.04/index.md:442 b0df8b9f035d4d82a8a848e5fa8bdce8
+msgid ""
+"The new version 2.17.0 of openvswitch is in Ubuntu 22.04 LTS and provides"
+" a general update including the following changes:"
+msgstr ""
+
+#: ../../22.04/index.md:444 a8b8073797a04829bf74282de7f0ea9d
+msgid "Various features that ease the use of a userspace datapath."
+msgstr ""
+
+#: ../../22.04/index.md:445 fa06eb74f10f4f8bb016e88a240d533b
+msgid ""
+"Performance improvements for the OVSDB and clustered OVSDB which is "
+"heavily used in OVN deployments."
+msgstr ""
+
+#: ../../22.04/index.md:446 d8878726ce2748bd904392eadb5cfb96
+msgid "Brings compatibility with DPDK 21.11 (see above)."
+msgstr ""
+
+#: ../../22.04/index.md:447 18954a8b5da341b3a82fc283f5a023df
+msgid ""
+"[The OVS News](https://www.openvswitch.org/releases/NEWS-2.17.0.txt) page"
+" holds more details about the new version."
+msgstr ""
+
+#: ../../22.04/index.md:449 3925e7af59b4424391f27f55c0392e52
+msgid "swtpm"
+msgstr ""
+
+#: ../../22.04/index.md:451 c0731522c45447e2ab1d0bb992f63a97
+msgid ""
+"The `swtpm` as well as `libtpms` package is now available and supported "
+"in Ubuntu 22.04 LTS."
+msgstr ""
+
+#: ../../22.04/index.md:453 6b7faca138fd48ef9bf3ffeb0d33dbad
+msgid ""
+"`swtpm` provides TPM emulators with different front-end interfaces to "
+"libtpms. TPM emulators provide socket interfaces (TCP/IP and unix) and "
+"the Linux CUSE interface for the creation of multiple native /dev/vtpm* "
+"devices.."
+msgstr ""
+
+#: ../../22.04/index.md:455 999b525e0f68437292ec559646fd8eee
+msgid ""
+"A common use case for `swtpm` is to use it as virtual TPM for virtual "
+"machine and container use cases. This is particular important for guest "
+"operating systems that consider TPM support mandatory."
+msgstr ""
+
+#: ../../22.04/index.md:458 1689aa6d167a40c3a254f0ff1bb6820e
+msgid ""
+"See the [upstream wiki](https://github.com/stefanberger/swtpm/wiki) for "
+"more details."
+msgstr ""
+
+#: ../../22.04/index.md:460 8f93690507b248348752ea4d617dbe0a
+msgid "Squid"
+msgstr ""
+
+#: ../../22.04/index.md:462 9463092c35e34e94968513ae95858d36
+msgid ""
+"The `squid` package links against the GnuTLS library.  If you would like "
+"to use OpenSSL, you can install the new `squid-openssl` package."
+msgstr ""
+
+#: ../../22.04/index.md:464 e6c7a8eb8bab4f55b4f21f73be9f3a44
+msgid "cloud-init"
+msgstr ""
+
+#: ../../22.04/index.md:466 a321cda1910041a588374679164c6fd4
+msgid ""
+"Version 22.1 of cloud-init has been released to 22.04, 21.10, 20.04 and "
+"18.04."
+msgstr ""
+
+#: ../../22.04/index.md:468 e2ca09ea560a4fdf857bb87210b7f9c3
+msgid "Notable features introduced since the last LTS release:"
+msgstr ""
+
+#: ../../22.04/index.md:470 c563606a25b14f7cb85a18bee91c5895
+msgid "Clouds and datasources"
+msgstr ""
+
+#: ../../22.04/index.md:471 b5b6a8a79b6d4cd18de35970892e1757
+msgid ""
+"Add LXD datasource in Jammy which reads dynamic instance data from LXD "
+"socket and applies config changes across reboot"
+msgstr ""
+
+#: ../../22.04/index.md:472 4ba5b7ff30cd495d949b29c98a09e835
+msgid "Added a native VMWare datasource"
+msgstr ""
+
+#: ../../22.04/index.md:473 2651da6e98d8443f865628ac8cca1b46
+msgid "OpenStack and ConfigDrive now support vendor_data2 config overrides"
+msgstr ""
+
+#: ../../22.04/index.md:474 8d527f578fe04188bf02384776856241
+msgid ""
+"Azure boot speed improvements, network config validation and SSH key "
+"handling"
+msgstr ""
+
+#: ../../22.04/index.md:475 876a7ae753d94e05b7de21b80d466f71
+msgid "GCE detected earlier in boot"
+msgstr ""
+
+#: ../../22.04/index.md:476 d3fd55ff2c6a4286825ce08f8e60b152
+msgid "Config Modules"
+msgstr ""
+
+#: ../../22.04/index.md:477 84b049ced6eb4339b9b3a30294a2344c
+msgid ""
+"Add [opt-in hotplug network support via user-"
+"data](https://cloudinit.readthedocs.io/en/latest/topics/modules.html"
+"#install-hotplug) for OpenStack and ConfigDrive"
+msgstr ""
+
+#: ../../22.04/index.md:478 374da069ebe04acebfe009f8979a8977
+msgid "Add deferred write_files config to emit files later in boot"
+msgstr ""
+
+#: ../../22.04/index.md:479 ../../22.04/index.md:493
+#: 085bab9502b0461da292939d93061624 2ebfb939d51442ba962b1e60dda44dd6
+msgid "Usability"
+msgstr ""
+
+#: ../../22.04/index.md:480 a70155355005455f981f7b77f71b6226
+msgid ""
+"Schema validation of `#cloud-config` userdata to annotate specific errors"
+" in user-provided configuration"
+msgstr ""
+
+#: ../../22.04/index.md:482 24ed5986307c4355b9b130f258b2161a
+msgid "ubuntu-advantage-tools"
+msgstr ""
+
+#: ../../22.04/index.md:484 ebed3e41fbae40b9a92e902bcf367186
+msgid "Ubuntu-advantage-tools version 27.8 is released with Jammy."
+msgstr ""
+
+#: ../../22.04/index.md:486 8c160025dea54912b95fe6170b2bc3d7
+msgid "Notable improvements introduced in this cycle:"
+msgstr ""
+
+#: ../../22.04/index.md:487 544a51b563c54462a67781510a2c28fb
+msgid "Service offerings:"
+msgstr ""
+
+#: ../../22.04/index.md:488 ad01c424ff77481a9446cd983d946c29
+msgid "Ubuntu Pro and Ubuntu Pro FIPS images on Azure, GCP and AWS"
+msgstr ""
+
+#: ../../22.04/index.md:489 7d45daf152f3400ab8a46955a854800d
+msgid "GCP support to add Ubuntu Advantage licenses to existing VMs"
+msgstr ""
+
+#: ../../22.04/index.md:490 e9cb816598404227953f8c0ce908f8b5
+msgid "AWS support for IPv6 IMDS"
+msgstr ""
+
+#: ../../22.04/index.md:491 5477eb3199634bbdb4509b233d3b4aab
+msgid "CIS benchmarks packaged as part of Ubuntu Security Guide (USG)"
+msgstr ""
+
+#: ../../22.04/index.md:492 9e0601639e8e495c856ac5c1b495dad2
+msgid ""
+"[Beta real-time kernel](https://ubuntu.com/blog/real-time-ubuntu-"
+"released) based on 5.15 and PREEMPT_RT patches"
+msgstr ""
+
+#: ../../22.04/index.md:494 87842bbd9f8a4edfacd9a4658b6d7c7e
+msgid ""
+"`ua security-status` provides a detailed view of available and applicable"
+" package updates provided by standard Ubuntu and Extended Security "
+"Maintenance channels"
+msgstr ""
+
+#: ../../22.04/index.md:495 df2901e48eb841018c56304ae457a4a5
+msgid "Enable Desktop installer to validate and attach Ubuntu Advantage tokens"
+msgstr ""
+
+#: ../../22.04/index.md:496 539d11aaf38f462385084b5d51f2777e
+msgid "Support machine-readable output JSON/YAML format for most commands"
+msgstr ""
+
+#: ../../22.04/index.md:497 fe2d40368e394179baee36610e8d954a
+msgid "Configurable auto attach behavior via `ua attach --attach-config`"
+msgstr ""
+
+#: ../../22.04/index.md:499 70401c0f18c74d42a60d633fa7d77890
+msgid "Ubuntu Server Main Promotions"
+msgstr ""
+
+#: ../../22.04/index.md:501 1313d591f7c04519ac305a59d13f8c23
+msgid ""
+"For Ubuntu Server 22.04 LTS, the following source packages were promoted "
+"to main:"
+msgstr ""
+
+#: ../../22.04/index.md:502 4fef3b3f82e94375a3df0d03d8c8404c
+msgid ""
+"[wireguard](https://www.wireguard.com): fast, modern, secure kernel VPN "
+"tunnel"
+msgstr ""
+
+#: ../../22.04/index.md:503 557821f82943447eb48c3831d367990d
+msgid ""
+"[glusterfs](https://www.gluster.org/): cluster file-system capable of "
+"scaling to several peta-bytes"
+msgstr ""
+
+#: ../../22.04/index.md:504 da3a825a51904cc483c11750cc74e3bc
+msgid ""
+"[frr](https://www.frrouting.org/): suite of internet routing protocols "
+"(BGP, OSPF, IS-IS, ...)"
+msgstr ""
+
+#: ../../22.04/index.md:506 f486318b6a0f4a09858193bb0870c7a8
+msgid "LXD was updated to the new 5.0 LTS version"
+msgstr ""
+
+#: ../../22.04/index.md:508 9b796f1d599644a2939f8bdf053db3ed
+msgid ""
+"5.0 LTS significantly steps up LXD’s abilities, especially when operating"
+" in clustered environments. In comparison to LXD 4.0, virtual machines "
+"are now effectively at feature parity with containers, and a lot of "
+"networking options, clustering, and project features were added."
+msgstr ""
+
+#: ../../22.04/index.md:510 db411f2c7813455090f617ddf35edac6
+msgid "Some of the key changes include:"
+msgstr ""
+
+#: ../../22.04/index.md:512 a25a3c20268d457fbc293c63bc485e32
+msgid ""
+"**LXD virtual machines** now come with vTPM support as well as arbitrary "
+"PCI passthrough support. VMs can now be live-migrated and support some "
+"device hotplug and additional storage options."
+msgstr ""
+
+#: ../../22.04/index.md:513 236a6f6fd86948dba9978c00929899db
+msgid ""
+"**Networking** now includes OVN support combined with BGP, DNS, floating "
+"IP and hardware acceleration support."
+msgstr ""
+
+#: ../../22.04/index.md:514 cb1e94720b2b4889a86b51399917d168
+msgid ""
+"**Projects** have grown a number of additional limits and restrictions, "
+"making it easy to safely grant access to various teams and limit their "
+"resource usage."
+msgstr ""
+
+#: ../../22.04/index.md:515 ba57e7e4d2424cb0aae9b850e1db1c7a
+msgid "**LXD-migrate** has been reworked with support for both containers and VMs"
+msgstr ""
+
+#: ../../22.04/index.md:516 66827af1cdff49248ab2a393418627e1
+msgid ""
+"**Cluster** users can now perform easy maintenance through cluster "
+"evacuation, group servers into target groups and get detailed instance "
+"metrics across entire clusters."
+msgstr ""
+
+#: ../../22.04/index.md:518 2e0a4cc4cf13492696a674b299f5b5a9
+msgid ""
+"Additional details and a complete changelog can be found "
+"[here](https://discuss.linuxcontainers.org/t/lxd-5-0-lts-has-been-"
+"released/13723)."
+msgstr ""
+
+#: ../../22.04/index.md:521 a76476ab496945089319cd3662d118b8
+msgid "Ceph"
+msgstr ""
+
+#: ../../22.04/index.md:523 b3b062dd94ca47ceaf1907b142418de0
+msgid ""
+"Ubuntu 22.04 LTS includes the latest release candidate of the Ceph Quincy"
+" release."
+msgstr ""
+
+#: ../../22.04/index.md:525 b32cf2f413c843be824a123d105f593e
+msgid ""
+"Ceph packages will be updated as a [stable release "
+"update](https://bugs.launchpad.net/ubuntu/+source/ceph/+bug/1968318) once"
+" Quincy is released by the Ceph community."
+msgstr ""
+
+#: ../../22.04/index.md:527 5182a97597504de587915f4869f5d50f
+msgid "OpenStack"
+msgstr ""
+
+#: ../../22.04/index.md:529 0e4c20b8528a4999972dc681c74022bc
+msgid ""
+"Ubuntu 22.04 LTS includes the latest OpenStack release, Yoga, including "
+"the following components:"
+msgstr ""
+
+#: ../../22.04/index.md:531 47c096b55eec4cd5aa1ccf2122d859c6
+msgid "OpenStack Identity - Keystone"
+msgstr ""
+
+#: ../../22.04/index.md:532 dd840df5e25244b09cba8d5b1bad4415
+msgid "OpenStack Imaging - Glance"
+msgstr ""
+
+#: ../../22.04/index.md:533 b9b94d1f5af647c4be370537cf53e4f8
+msgid "OpenStack Block Storage - Cinder"
+msgstr ""
+
+#: ../../22.04/index.md:534 ba32f92c1f244be798d076a4f3f77d03
+msgid "OpenStack Compute - Nova"
+msgstr ""
+
+#: ../../22.04/index.md:535 e1f9b5d57a86453296fa6017f2547e8f
+msgid "OpenStack Networking - Neutron"
+msgstr ""
+
+#: ../../22.04/index.md:536 d9ca98749d3f4b6984897da993149ccd
+msgid "OpenStack Telemetry - Ceilometer, Aodh, Gnocchi"
+msgstr ""
+
+#: ../../22.04/index.md:537 4e74ccf4bdf84f47a994c16e100ec998
+msgid "OpenStack Orchestration - Heat"
+msgstr ""
+
+#: ../../22.04/index.md:538 fc91ec7351a746f390df4f49c35ce077
+msgid "OpenStack Dashboard - Horizon"
+msgstr ""
+
+#: ../../22.04/index.md:539 233800aaa2a34f8fb7f90d77dfb4a459
+msgid "OpenStack Object Storage - Swift"
+msgstr ""
+
+#: ../../22.04/index.md:540 33f7b59b224f42b68389d8f5238b03e1
+msgid "OpenStack DNS - Designate"
+msgstr ""
+
+#: ../../22.04/index.md:541 db1e1929f118426ab6c761b439e4d255
+msgid "OpenStack Bare-metal - Ironic"
+msgstr ""
+
+#: ../../22.04/index.md:542 a191067e550a4fd48a0dc73b34c69d07
+msgid "OpenStack Filesystem - Manila"
+msgstr ""
+
+#: ../../22.04/index.md:543 2fa11f81b292492cb96c497d9c29449a
+msgid "OpenStack Key Manager - Barbican"
+msgstr ""
+
+#: ../../22.04/index.md:544 4f5b2d73983c43b3a276acfeccb8d139
+msgid "OpenStack Load Balancer - Octavia"
+msgstr ""
+
+#: ../../22.04/index.md:545 b06f0fdb001546498adef385b53f112c
+msgid "OpenStack Instance HA - Masakari"
+msgstr ""
+
+#: ../../22.04/index.md:547 b5ab749989c84dba84ecb57d06b553d3
+msgid ""
+"Please refer to the [OpenStack Yoga release "
+"notes](https://releases.openstack.org/yoga/) for full details of this "
+"release of OpenStack."
+msgstr ""
+
+#: ../../22.04/index.md:549 9cd396d935054cc694567d370aa3b824
+msgid ""
+"OpenStack Yoga is also provided via the [Ubuntu Cloud "
+"Archive](https://wiki.ubuntu.com/OpenStack/CloudArchive) for OpenStack "
+"Yoga for Ubuntu 20.04 LTS users."
+msgstr ""
+
+#: ../../22.04/index.md:551 acfac46d59ce4e499d912b4e66032eee
+msgid ""
+"WARNING: Upgrading an OpenStack deployment is a non-trivial process and "
+"care should be taken to plan and test upgrade procedures which will be "
+"specific to each OpenStack deployment."
+msgstr ""
+
+#: ../../22.04/index.md:553 7006aa0800c1430eaf399c5f1f2eab41
+msgid ""
+"Make sure you read the [OpenStack Charm Release "
+"Notes](https://docs.openstack.org/charm-guide/latest) for more "
+"information about how to deploy and operate Ubuntu OpenStack using Juju."
+msgstr ""
+
+#: ../../22.04/index.md:555 a0a75cc3b7ba48699f6d028224573205
+msgid "needrestart and unattended operations"
+msgstr ""
+
+#: ../../22.04/index.md:557 d9847b17ab754797ae61d040ddc2c902
+msgid ""
+"[needrestart](https://discourse.ubuntu.com/t/needrestart-for-"
+"servers/21552) was first installed by default in Ubuntu 21.04 and "
+"continues to feature in Ubuntu 22.04 LTS. It helps ensure that services "
+"are correctly restarted when their dependencies receive security updates."
+msgstr ""
+
+#: ../../22.04/index.md:559 341af93e22e94941b97d14290678914a
+msgid ""
+"By default, needrestart will prompt after upgrading packages if restarts "
+"are determined to be required. To suppress this behaviour, you can set "
+"`DEBIAN_FRONTEND=noninteractive` as usual. needrestart will then fall "
+"back to \"list only mode\". It will be necessary to restart services "
+"afterwards, for example by rebooting or invoking `needrestart -ra`."
+msgstr ""
+
+#: ../../22.04/index.md:561 8cf50d4516594c2bbb33f563bd305cf9
+msgid "Phased updates in APT"
+msgstr ""
+
+#: ../../22.04/index.md:562 e3f9f14aeb5d49da8bdaa837b7692cbc
+msgid ""
+"Since 21.04 APT respects phased updates, see the [Phased updates in APT "
+"21.04](https://discourse.ubuntu.com/t/phased-updates-in-apt-"
+"in-21-04/20345) thread for more details."
+msgstr ""
+
+#: ../../22.04/index.md:564 ../../22.04/index.md:699
+#: 9bb45cde844b449cb9b4180cafde2ee0 de15d5188020435a8c94448cb0ebc2a3
+msgid "Platforms"
+msgstr ""
+
+#: ../../22.04/index.md:566 cb894a81bbc34ee0a3e7e53174543a7e
+msgid "Cloud Images ☁️"
+msgstr ""
+
+#: ../../22.04/index.md:568 45bdc860d3224f16bbd0c8c75d21927e
+msgid "AWS"
+msgstr ""
+
+#: ../../22.04/index.md:569 1985250a2d894f3abe298eab192c0c06
+msgid ""
+"AWS amd64 images use now a GPT partition table and setup a ESP partition "
+"to make it possible to use UEFI as boot mode."
+msgstr ""
+
+#: ../../22.04/index.md:571 2927c8b356a04214bcb2390bad0c71ef
+msgid "Oracle"
+msgstr ""
+
+#: ../../22.04/index.md:572 e15449be137d431ea584a7a418691e6d
+msgid ""
+"Jammy Minimal images are available for ARM64 servers on Oracle Cloud "
+"Infrastructure. Note that OCI releases images on a fixed cadence, and "
+"Jammy release to OCI will be slightly delayed."
+msgstr ""
+
+#: ../../22.04/index.md:574 50a67acb815b484dbba488297c8460b0
+msgid "Raspberry Pi 🍓"
+msgstr ""
+
+#: ../../22.04/index.md:576 c95c3b2c15fa4db4bdb5f8920a16351d
+msgid ""
+"The first long-term service (LTS) release of the Ubuntu Desktop for "
+"Raspberry Pi"
+msgstr ""
+
+#: ../../22.04/index.md:577 81e0b1e8f69d4db5b2104464d1b1a58a
+msgid ""
+"Support for several Pi-specific boards and tools have been added to the "
+"archive:"
+msgstr ""
+
+#: ../../22.04/index.md:578 8b352674815448ce92dd4fed58c2b7ae
+msgid ""
+"All variants of the popular Pimoroni [Unicorn "
+"HAT](https://shop.pimoroni.com/products/unicorn-hat?variant=932565325) "
+"are now supported with packaging"
+msgstr ""
+
+#: ../../22.04/index.md:579 4667f1e279204a73bcebe1593f470b2e
+msgid "The official DSI touchscreen is now supported"
+msgstr ""
+
+#: ../../22.04/index.md:580 0bbb9f2090a24cdb826f988589fa3e11
+msgid ""
+"The [rpiboot](https://launchpad.net/ubuntu/+source/rpiboot) package "
+"contains the [rpiboot](https://github.com/raspberrypi/usbboot) utility "
+"for working with Raspberry Pi Compute Modules (and other Pi boot "
+"facilities)"
+msgstr ""
+
+#: ../../22.04/index.md:581 73c04b212f1448668f7642ffacc5bc1a
+msgid ""
+"The [pyboard-rshell](https://launchpad.net/ubuntu/+source/pyboard-rshell)"
+" package contains the [rshell](https://pypi.org/project/rshell/) utility "
+"for working with micro-controller boards supporting MicroPython, "
+"including the Raspberry Pi Pico"
+msgstr ""
+
+#: ../../22.04/index.md:582 9519279541cd4699a5ada84362f089d5
+msgid ""
+"The [rpi-imager](https://launchpad.net/ubuntu/+source/rpi-imager) package"
+" contains the Raspberry Pi imager utility. The equivalent [snap "
+"package](https://snapcraft.io/rpi-imager) has also been updated to "
+"operate on all architectures (and bumped to the current version)"
+msgstr ""
+
+#: ../../22.04/index.md:584 3c145f0a77d2489886843a8b8452b2ae
+msgid "arm64"
+msgstr ""
+
+#: ../../22.04/index.md:586 28ad45bf01c24519b7d5a404042f438d
+msgid ""
+"Ubuntu 22.04 LTS is available on ARM in many public clouds - Azure, AWS, "
+"Oracle Cloud."
+msgstr ""
+
+#: ../../22.04/index.md:588 cf2320d9b9c04f95aad4ef8ebdd423a1
+msgid ""
+"Ubuntu 22.04 LTS adds linux-restricted-modules of NVIDIA drivers on "
+"ARM64. Users on ARM64 can now use `ubuntu-drivers` tool to install and "
+"configure NVIDIA drivers from the Ubuntu Archive."
+msgstr ""
+
+#: ../../22.04/index.md:590 b5c9bab6b8ef454b95e7c1bdbb65804d
+msgid ""
+"linux-generic-64k kernel flavor with 64K pages support is now available "
+"as a GA LTS kernel. It was first introduced in 20.10 release, and has "
+"been available as an HWE kernel since 20.04.2 LTS."
+msgstr ""
+
+#: ../../22.04/index.md:593 c7575469869843a9a11793dd85a1d4ec
+msgid "ppc64el"
+msgstr ""
+
+#: ../../22.04/index.md:595 fcaba0d86ec94988bb0310555ab06b76
+msgid ""
+"Starting with 22.04 LTS, Ubuntu Server for IBM POWER (little endian) is "
+"now compiled for POWER9 processors using '--with-cpu=power9' ([bug "
+"1930086](https://bugs.launchpad.net/bugs/1930086)). Thus Ubuntu Server "
+"22.04 LTS will not run, install or even boot on POWER8 systems anymore, "
+"due to the different instruction set requirements. But Ubuntu Server "
+"20.04 LTS can still be used for POWER8 systems for several years - at "
+"least until end of base support in April 2025. Users running Ubuntu "
+"Server on POWER8 today will be prevented from being upgraded to 22.04 LTS"
+" using ‘do-release-upgrade’, as this will obviously break such systems "
+"([bug 1960255](https://bugs.launchpad.net/bugs/1960255)). In addition, "
+"Ubuntu Server 22.04 LTS is the first Ubuntu release that comes with "
+"official support for POWER10."
+msgstr ""
+
+#: ../../22.04/index.md:601 ../../22.04/index.md:720
+#: 839ebac0abda4a9e8dc4e02e2fd7cff8 fd0188ad0c0547608a26ede49e1a338e
+msgid "s390x"
+msgstr ""
+
+#: ../../22.04/index.md:603 f634c71ec35540e1b0335b9d5762dae2
+msgid ""
+"Starting with Ubuntu Server 20.04 LTS (for IBM Z and LinuxONE), the "
+"minimal architectural level set was raised to z13 (and LinuxONE "
+"Rockhopper / Emperor) - this still applies to Ubuntu Server 22.04 LTS and"
+" support also includes all newer hardware that is in service as of today "
+"(22.04 release date). Support for additional future hardware might be "
+"added later. Ubuntu Server 22.04 LTS can be installed in an LPAR (classic"
+" or DPM mode), as IBM z/VM guest, as KVM virtual machine and in different"
+" container environments, such as LXD, docker or kubernetes."
+msgstr ""
+
+#: ../../22.04/index.md:606 73bc61818f304dc3b2e3d00d9deadabe
+msgid ""
+"IBM Z and LinuxONE / s390x-specific enhancements since 21.10 (partially "
+"not limited to s390x):"
+msgstr ""
+
+#: ../../22.04/index.md:608 a2a4500894114a19954f5dc8ab1dbc9e
+msgid ""
+"Like mentioned above, 22.04 LTS is the first release that picked up "
+"OpenSSL 3, to be precise v3.0.2 ([bug "
+"1905022](https://bugs.launchpad.net/bugs/1905022)), this transition "
+"triggered for compatibility reasons ([bug "
+"1959736](https://bugs.launchpad.net/bugs/1959736)) further updates, that "
+"largely ended up in the renewal of the entire s390x crypto stack, "
+"including:"
+msgstr ""
+
+#: ../../22.04/index.md:609 94a3930659084c71a0c2a8b58faaf665
+msgid ""
+"libica update to finally v4.0.1 ([bug "
+"1959421](https://bugs.launchpad.net/bugs/1959421)), including extend "
+"statistics to reflect security measures ([bug "
+"1959553](https://bugs.launchpad.net/bugs/1959553))"
+msgstr ""
+
+#: ../../22.04/index.md:610 b58f9c98957548d581699fb73ca4931e
+msgid ""
+"openssl-ibmca update ([bug "
+"1958419](https://bugs.launchpad.net/bugs/1958419)) to finally 2.2.2 to "
+"ensure compatibility with libica4 ([bug "
+"1960004](https://bugs.launchpad.net/bugs/1960004))."
+msgstr ""
+
+#: ../../22.04/index.md:611 e472283557a44ba5b18d1eab6210bca7
+msgid ""
+"opencryptoki update to v3.17.0+dfsg+20220202.b40982e (since the planned "
+"release date for 3.18 is post 22.04 GA) (Bug:1959419), including several "
+"(security) fixes and new features like in the key management tool (LP "
+"1959577)."
+msgstr ""
+
+#: ../../22.04/index.md:612 cbbdc69edd22479fa3b6647de82d5637
+msgid ""
+"with that cryptsetup was updated as well ([bug "
+"1959427](https://bugs.launchpad.net/bugs/1959427)) Further updates in the"
+" area of cryptography that are relevant for s390x are:"
+msgstr ""
+
+#: ../../22.04/index.md:614 b61dd8cb73bc482099dcf1ce7cf49c8c
+msgid "the upgrade of libgcrypt(20) to latest v1.9.4"
+msgstr ""
+
+#: ../../22.04/index.md:615 fdf3126c6dc644ceae3e92c0926a15ee
+msgid ""
+"in kernel crypto optimization of chacha20 now using a SIMD implementation"
+" ([bug 1853152](https://bugs.launchpad.net/bugs/1853152))"
+msgstr ""
+
+#: ../../22.04/index.md:616 310cad12072146b6b3c7a09519dd0fa1
+msgid ""
+"zcrypt device driver update for adding exploitation of new IBM Z crypto "
+"hardware ([bug 1959547](https://bugs.launchpad.net/bugs/1959547))"
+msgstr ""
+
+#: ../../22.04/index.md:617 9498348198014847b63d850234c0d09e
+msgid ""
+"and finally the newly packaged IBM Z protected-key crypto library that "
+"provides interfaces for cryptographic primitives ([bug "
+"1932522](https://bugs.launchpad.net/bugs/1932522))"
+msgstr ""
+
+#: ../../22.04/index.md:619 207d3e3ce46f4c0c8c83bfbde46c8e8a
+msgid ""
+"Furthermore new network features were added, like Enhanced HSCI "
+"(HiperSockets Converged Interface) Multi-MAC support for enhancing KVM "
+"setups and z/OS interoperability (kernel LP: 1932137 and s390-tools LP: "
+"1929721). And significant updates in the area of Shared Memory "
+"Communication (SMC), like EID (Enterprise ID) support (kernel LP: "
+"1929060, s390-tools LP: 1929056), SMC statistics support ([bug "
+"1959470](https://bugs.launchpad.net/bugs/1959470)) and SMC-R v2 support "
+"([bug 1929035](https://bugs.launchpad.net/bugs/1929035)) - and with all "
+"that the smc-tools have been upgraded to latest v1.7.0 ([bug "
+"1959428](https://bugs.launchpad.net/bugs/1959428))."
+msgstr ""
+
+#: ../../22.04/index.md:621 a961aa54dfb74407817027e226bfbbd0
+msgid "Several KVM and Secure Execution related new features landed too, like:"
+msgstr ""
+
+#: ../../22.04/index.md:622 63e65b1ae0904b9f87599166a878582a
+msgid ""
+"enablement of storage key checking for intercepted instructions handled "
+"by KVM ([bug 1933176](https://bugs.launchpad.net/bugs/1933176)) and by "
+"user-space ([bug 1933179](https://bugs.launchpad.net/bugs/1933179))"
+msgstr ""
+
+#: ../../22.04/index.md:623 3e4c5464e6d64d68a7fa85fb48627f7e
+msgid ""
+"the 'access register mode' got enabled ([bug "
+"1933178](https://bugs.launchpad.net/bugs/1933178))"
+msgstr ""
+
+#: ../../22.04/index.md:624 0fd4b56d60af4ed19b5d1d965afb596e
+msgid ""
+"allowing long kernel command lines for QEMU ([bug "
+"1959984](https://bugs.launchpad.net/bugs/1959984)) and for Secure "
+"Execution guests ([bug "
+"1959985](https://bugs.launchpad.net/bugs/1959985))."
+msgstr ""
+
+#: ../../22.04/index.md:625 8868927ff40a47beb2102546d88cfb62
+msgid ""
+"enable guest interrupt support via GISA for Secure Execution guests ([bug"
+" 1959977](https://bugs.launchpad.net/bugs/1959977))"
+msgstr ""
+
+#: ../../22.04/index.md:626 efea6a5595e64b1aab1b980b0cf7d1db
+msgid ""
+"support for Secure Execution guest dump encryption with customer keys "
+"([bug 1959965](https://bugs.launchpad.net/bugs/1959965))"
+msgstr ""
+
+#: ../../22.04/index.md:627 ec8f86e0e3c34c68a3f004bcda26a653
+msgid ""
+"and enablement of vfio-ccw and vfio-ap in virt-* tools, especially virt-"
+"manager ([bug 1959976](https://bugs.launchpad.net/bugs/1959976))"
+msgstr ""
+
+#: ../../22.04/index.md:628 a3a5140c21f04629973e614370004531
+msgid ""
+"In addition the KVM_CAP_S390_MEM_OP_EXTENSION capability was raised to "
+"211 ([bug 1963901](https://bugs.launchpad.net/bugs/1963901)) and KVM got "
+"improved SIGP architectural compliance ([bug "
+"1959735](https://bugs.launchpad.net/bugs/1959735))."
+msgstr ""
+
+#: ../../22.04/index.md:630 c5655fed14724fa1b5695c507757db35
+msgid ""
+"The modernized tool-chain was needed in order to add support for new IBM "
+"Z hardware ([bug 1959379](https://bugs.launchpad.net/bugs/1959379)), and "
+"the 22.04 default gcc became v11.2 (12, 10 and 9 are in universe). "
+"Binutils were aligned to gdb ([bug "
+"1959407](https://bugs.launchpad.net/bugs/1959407)) and updated to v2.38 "
+"([bug 1959463](https://bugs.launchpad.net/bugs/1959463)), again for "
+"adding support for new hardware ([bug "
+"1959408](https://bugs.launchpad.net/bugs/1959408)). And LLVM was updated "
+"as well for new hardware support ([bug "
+"1959378](https://bugs.launchpad.net/bugs/1959378)) and to include further"
+" optimizations ([bug 1959406](https://bugs.launchpad.net/bugs/1959406)), "
+"but not only v13 is available, even v14 is the default."
+msgstr ""
+
+#: ../../22.04/index.md:634 ffffc7f3daab459f9eaa6760ab7fc16f
+msgid ""
+"On top new hardware support was added to glibc ([bug "
+"1959385](https://bugs.launchpad.net/bugs/1959385) and LP: 1959383) while "
+"glibc was upgraded to latest v2.35 ([bug "
+"1959429](https://bugs.launchpad.net/bugs/1959429)), which contains "
+"HWCAP_S390_PCI_MIO and HWCAP_S390_SIE ([bug "
+"1959462](https://bugs.launchpad.net/bugs/1959462)). The Perl Compatible "
+"Regular Expression Library PCRE2 was updated to v10.39 and includes "
+"improvements for s390x and full JIT performance ([bug "
+"1959917](https://bugs.launchpad.net/bugs/1959917)). The 'Eigen3' algebra "
+"library contains further optimizations for s390x too ([bug "
+"1884725](https://bugs.launchpad.net/bugs/1884725)) and the query capacity"
+" library and utility for extracting system information 'qclib' was raised"
+" to v2.3.0 ([bug 1959464](https://bugs.launchpad.net/bugs/1959464)). "
+"Finally a brand new low-level IBM Z Deep Neural Network Library (zDNN) "
+"library, that provides an interface for applications making use of Neural"
+" Network Processing Assist Facility (NNPA), got packaged and is now "
+"available ([bug 1959396](https://bugs.launchpad.net/bugs/1959396))."
+msgstr ""
+
+#: ../../22.04/index.md:639 3f74c5e1fc064fb2970e86771ee49c72
+msgid ""
+"A core component of Ubuntu Server for IBM Z is the s390-tools package, "
+"which was upgraded to v2.2.0 ([bug "
+"1959420](https://bugs.launchpad.net/bugs/1959420)) in alignment to "
+"jammy's kernel 5.15, and includes among other features now an environment"
+" block implementation ([bug "
+"1959409](https://bugs.launchpad.net/bugs/1959409)), that is a persistent "
+"configuration information which is evaluated during boot without the need"
+" to rewrite IPL records, an option to auto-activate PCI devices for DPM "
+"system ([bug 1959537](https://bugs.launchpad.net/bugs/1959537)) and the "
+"new multipath re-IPL feature ([bug "
+"1959546](https://bugs.launchpad.net/bugs/1959546))."
+msgstr ""
+
+#: ../../22.04/index.md:641 3f6b5bf9d0bb423f947d738d4514ad77
+msgid ""
+"The kernel received several s390x improvements as well, like kernel based"
+" support for new IBM Z hardware ([bug "
+"1960187](https://bugs.launchpad.net/bugs/1960187)), new CPU-MF Counters "
+"for new hardware ([bug "
+"1960117](https://bugs.launchpad.net/bugs/1960117)), support for long "
+"kernel command lines on s390x ([bug "
+"1960580](https://bugs.launchpad.net/bugs/1960580)), transparent PCI "
+"device recovery support ([bug "
+"1959532](https://bugs.launchpad.net/bugs/1959532)), enhanced user "
+"information on HBA firmware ([bug "
+"1959545](https://bugs.launchpad.net/bugs/1959545)) and as clean-up the "
+"deactivation of the CONFIG_QETH_OSX kernel config option ([bug "
+"1959890](https://bugs.launchpad.net/bugs/1959890))."
+msgstr ""
+
+#: ../../22.04/index.md:643 50c15fe0b3f546fbb93409ca44b44572
+msgid ""
+"The service-call logical processor (SCLP) console interface driver (for "
+"'Operating Systems Messages' line-mode and 'Integrated ASCII console' "
+"VT220) got two new debug features for logging relevant data for all sclp "
+"requests or just for failing sclp requests, which requires kernel ([bug "
+"1960435](https://bugs.launchpad.net/bugs/1960435)) as well as s390-tools "
+"modifications ([bug 1960437](https://bugs.launchpad.net/bugs/1960437))."
+msgstr ""
+
+#: ../../22.04/index.md:645 e7c283837cc44647ad25ae3a81653c88
+msgid "RISC-V"
+msgstr ""
+
+#: ../../22.04/index.md:647 78ba195ea3a14f0292d9498a121f1700
+msgid ""
+"Starting with 22.04 LTS, besides the standard device-specific "
+"preinstalled image, we now also provide a live installer image for the "
+"RISC-V architecture. This can be helpful when wanting to install Ubuntu "
+"on an NVMe drive on an Unmatched board, for instance."
+msgstr ""
+
+#: ../../22.04/index.md:649 d7d69420e70844769155b55e15a47096
+msgid "UEFI and BIOS boot"
+msgstr ""
+
+#: ../../22.04/index.md:651 bd1b15bff5a14d5298a161a422e0aa36
+msgid ""
+"Other operating systems are not displayed in the boot menu anymore, "
+"unless Ubuntu has been installed alongside another operating system. Once"
+" all other operating systems are removed from the machine, detection of "
+"other operating systems is disabled, and to re-enable if after installing"
+" another OS, you will have to delete `/boot/grub/grub.cfg` and "
+"immediately run `update-grub` again."
+msgstr ""
+
+#: ../../22.04/index.md:655 ea8b35d4248e46519050da0e1e47a5d5
+msgid "Known Issues"
+msgstr ""
+
+#: ../../22.04/index.md:657 c814b89076954caeb4c0f241e8abc731
+msgid ""
+"As is to be expected, with any release, there are some significant known "
+"bugs that users may run into with this release of Ubuntu. The ones we "
+"know about at this point (and some of the workarounds), are documented "
+"here so you don’t need to spend time reporting these bugs again:"
+msgstr ""
+
+#: ../../22.04/index.md:659 b943219fa9db4e4a988cde3c43cefe07
+msgid "Linux kernel"
+msgstr ""
+
+#: ../../22.04/index.md:661 e465872b075d482b86d7359b0e05f0b5
+msgid ""
+"The kernel runtime parameter `kernel.task_delayacct` has been [switched "
+"off by "
+"default](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=e4042ad492357fa995921376462b04a025dd53b6)"
+" in 5.14 and later. That saves a small amount of cpu cycles and memory "
+"for a rarely used feature. But if you use any monitoring that needs those"
+" you'd now need to enable this either at boot time via kernel parameter "
+"`delayacct` or at runtime via `sudo sysctl -w kernel.task_delayacct=1` "
+"(There might be a slight delay after activating until statistics are "
+"available)."
+msgstr ""
+
+#: ../../22.04/index.md:663 11aeefc6aa9542d5a4f1939f859dea72
+msgid "System"
+msgstr ""
+
+#: ../../22.04/index.md:664 7a36b5720cab4756a175b36a59b2cc78
+msgid ""
+"systemd / journald now defaults to `zstd` compression and uses the “keyed"
+" hash” feature (upstream default as of v246). Therefore, journal files "
+"written on Ubuntu 22.04 LTS cannot be opened using an older version of "
+"journal (i.e. from a 18.04/20.04/Core20 installation). This will fail "
+"with an error ([~~LP: "
+"#1953744~~](https://bugs.launchpad.net/subiquity/+bug/1953744), "
+"[~~Snapcraft forum~~](https://forum.snapcraft.io/t/accessing-journal-"
+"logs-from-22-04-hosts-when-using-older-base-snap/29627)):"
+msgstr ""
+
+#: ../../22.04/index.md:669 bbbd842e22e448d781c415d1d9456866
+msgid ""
+"Users of grub-customizer could hit [a bug](https://pad.lv/1969353) in the"
+" late stage of the upgrade process leading to the final stage of the "
+"upgrade to fail (autoremoval of packages). A workaround is available [in "
+"the bug's comments](https://bugs.launchpad.net/ubuntu/+source/ubuntu-"
+"release-upgrader/+bug/1969353/comments/6)."
+msgstr ""
+
+#: ../../22.04/index.md:673 2e5e0a11ea6b4ed3a9d4ca3e593608a2
+msgid ""
+"The Ubuntu Desktop images can be slow to boot (taking up to 10 minutes) "
+"when booted from a USB drive on a BIOS system. The issue is being "
+"[investigated](https://bugs.launchpad.net/ubuntu/+source/casper/+bug/1922342),"
+" however once the system is installed this is not an issue."
+msgstr ""
+
+#: ../../22.04/index.md:674 c42562cad7114910bfea46c67817e6d7
+msgid ""
+"The Ubuntu Desktop images can be very slow to boot (taking up to 30 "
+"minutes) when booted from optical media (DVD) on a a BIOS or UEFI system."
+" This is due to an integrity checker being run against the installation "
+"media. A workaround (setting \"fsck.mode=skip\") is documented in [the "
+"relevant "
+"bug](https://bugs.launchpad.net/ubuntu/+source/casper/+bug/1930880)."
+msgstr ""
+
+#: ../../22.04/index.md:675 9e60ec93e641424ea9feb54b799d6887
+msgid ""
+"The Firefox snap does not support the [NativeMessaging "
+"protocol](https://launchpad.net/bugs/1741074) yet but this feature is "
+"planned to be added soon. This means for instance that installing GNOME "
+"Shell extensions from Firefox won't work. As a workaround, you can try "
+"the `gnome-shell-extension-manager` app."
+msgstr ""
+
+#: ../../22.04/index.md:676 dc822261e1ff4c89894405796622be51
+msgid ""
+"Brazilians (and others that need PKCS#11 smartcard support in Firefox) "
+"**should not upgrade to Jammy** until [pkcs#11 support is added to the "
+"firefox "
+"snap](https://bugs.launchpad.net/ubuntu/+source/firefox/+bug/1967632)"
+msgstr ""
+
+#: ../../22.04/index.md:677 dc96f797e92c468db79a5ab4e42cb74f
+msgid ""
+"The GNOME Tweaks app no longer manages GNOME Shell extensions. You can "
+"install `gnome-shell-extension-manager` instead."
+msgstr ""
+
+#: ../../22.04/index.md:678 33c4627d35554e62bd65cb4f159d96cd
+msgid ""
+"To use AppImages, you'll first [need to "
+"run](https://launchpad.net/bugs/1965636) `sudo apt install libfuse2`"
+msgstr ""
+
+#: ../../22.04/index.md:679 302d097449074d64b19af67632f02024
+msgid ""
+"When doing an offline install of Ubuntu Desktop with NVidia hardware "
+"enabled, nvidia-settings [will not be "
+"installed](https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1990535)."
+" You will need to run `sudo apt install nvidia-settings` after enabling "
+"the network."
+msgstr ""
+
+#: ../../22.04/index.md:680 0feffae8c724420cbda71cce8c7ccbe2
+msgid ""
+"When performing an installation with a Broadcom wireless network adapter,"
+" which requires third party drivers, on a system with UEFI and Secure "
+"Boot enabled the driver will not be loaded due to a failure to sign the "
+"driver. A workaround exists in [the "
+"bug](https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/2008120) "
+"tracking this particular issue."
+msgstr ""
+
+#: ../../22.04/index.md:681 1fda96daec4047e698abf265da0b1766
+msgid ""
+"A regression in the 22.04.5 images images prevents the Nvidia drivers to "
+"be correctly installed when the installation is done in offline mode ([LP"
+" "
+"#2080522](https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/2080522))."
+" The drivers are installed correctly when the installer has access to the"
+" Internet."
+msgstr ""
+
+#: ../../22.04/index.md:682 7decdf0bd46245898d21cf080c9336d2
+msgid ""
+"Some Dell, HP, Lenovo systems might not be able finish the installation "
+"offline with Ubuntu Desktop 22.04.5 image due to a bug in the installer "
+"([LP: #2107458](https://bugs.launchpad.net/ubiquity/+bug/2107458)). This "
+"can be worked around by connecting to the internet during installation, "
+"or use [22.04.4 image](https://old-releases.ubuntu.com/releases/jammy/) "
+"to install instead."
+msgstr ""
+
+#: ../../22.04/index.md:686 fdb169a3ab80490ab96ddda17249d6be
+msgid ""
+"Starting with Subiquity 23.04.1 or Ubuntu Server 22.04.3: In some "
+"situations, it is acceptable to proceed with an offline install when the "
+"mirror is inaccessible. In this scenario, it is advised to use:"
+msgstr ""
+
+#: ../../22.04/index.md:693 054d2d0fb8d149f1bd42cd91af3130f0
+msgid ""
+"22.04.3 LTS live-server, which contains cloud-init version "
+"22.2.1-0ubuntu0~22.04.1, is affected by [~~this "
+"bug~~](https://github.com/canonical/cloud-init/issues/4271). The effect "
+"of this is that, when using cloud-init to provide autoinstall data, the "
+"`h` aka `local-hostname` or `i` aka `instance-id` nocloud datastore "
+"arguments should not be used.  For an example of a working configuration,"
+" please see the [autoinstall-"
+"quickstart](https://ubuntu.com/server/docs/install/autoinstall-"
+"quickstart) guide."
+msgstr ""
+
+#: ../../22.04/index.md:695 a9d91a41921a4c7d8b0884b8e2397226
+msgid "Active Directory Integration"
+msgstr ""
+
+#: ../../22.04/index.md:696 95fb5f4722e04753bd7ce10e27c534c1
+msgid ""
+"When logging in on a system joined with an Active Directory domain, "
+"`sssd` (the package responsible for this integration) will try to apply "
+"Group Policies by default. There are cases where if a specific policy is "
+"missing, the login will be denied. This is being tracked in [~~bug "
+"#1934997~~](https://bugs.launchpad.net/ubuntu/+source/sssd/+bug/1934997)."
+" The fix should now be available, otherwise please see [comment "
+"#5](https://bugs.launchpad.net/ubuntu/+source/sssd/+bug/1934997/comments/5)"
+" in that bug report for existing workarounds."
+msgstr ""
+
+#: ../../22.04/index.md:701 c36b71533fd2456bab454de4fbd5acf6
+msgid "Cloud Images"
+msgstr ""
+
+#: ../../22.04/index.md:703 6b420ba4a7fa4e80900f86ae18887148
+msgid "Vagrant"
+msgstr ""
+
+#: ../../22.04/index.md:704 4209a1034a0b4fd2a98e6b56abec9fc3
+msgid ""
+"Ubuntu 22.04 LTS images will fail to launch on Vagrant < 2.216 due to SSH"
+" connection issues. This includes `vagrant` running on older Ubuntu "
+"hosts, as 22.04 LTS is the first Ubuntu release to include vagrant >= "
+"2.2.16.  One workaround is to use an upstream version of `vagrant` on "
+"your system. [Upstream bug, already "
+"fixed.](https://github.com/hashicorp/vagrant/issues/11783).  The Cloud "
+"Team is also working on a more permanent solution: [Public cloud-images "
+"bug](https://bugs.launchpad.net/cloud-images/+bug/1969664)"
+msgstr ""
+
+#: ../../22.04/index.md:706 641d22f9cee94c0f8bf16c700f4774b6
+msgid "Raspberry Pi"
+msgstr ""
+
+#: ../../22.04/index.md:708 32e1f65820da4974b5e7e1bfe3a3b4a5
+msgid ""
+"The Raspberry Pi desktop images have switched to using the Full KMS "
+"graphics drivers. The official Raspberry Pi DSI display does not work "
+"with full KMS enabled. To enable the use of the Raspberry Pi DSI display,"
+" edit the `config.txt` file on your Raspberry Pi's hard drive and change "
+"the line `dtoverlay=vc4-kms-v3d` to `dtoverlay=vc4-fkms-v3d`"
+msgstr ""
+
+#: ../../22.04/index.md:709 18d157161c3143d89dd963daad0a08f5
+msgid ""
+"On the desktop image, the Firefox snap can take some time (several "
+"minutes has been noted) to complete initialization after first login "
+"([bug 1969529](https://launchpad.net/bugs/1969529))"
+msgstr ""
+
+#: ../../22.04/index.md:710 82d9db4b88154c2b940c8d517497c23d
+msgid ""
+"The legacy camera stack (MMAL based) is no longer supported on `arm64`; "
+"[libcamera](https://www.raspberrypi.com/documentation/accessories/camera.html"
+"#libcamera-and-libcamera-apps) is the supported method of using the Pi "
+"Camera Module on the `arm64` architecture (the boot-time configuration "
+"will automatically load overlays for detected modules)"
+msgstr ""
+
+#: ../../22.04/index.md:711 8a5a33fe230541e4b7d3fc16e72c5b0f
+msgid ""
+"After initial user setup on the desktop image, several packages can still"
+" be autoremoved ([~~bug 1925265~~](https://launchpad.net/bugs/1925265)); "
+"run `sudo apt autoremove --purge` to work around this"
+msgstr ""
+
+#: ../../22.04/index.md:712 74a5972e26de4054b144597073740caf
+msgid ""
+"On the desktop image, the wrong audio output device is selected on each "
+"boot. A workaround is available in the bug report ([bug "
+"1877194](https://launchpad.net/bugs/1877194))"
+msgstr ""
+
+#: ../../22.04/index.md:713 331276c4542b42f4bd5b8124194df856
+msgid ""
+"On upgrade from impish server (and possibly earlier releases) to jammy "
+"server, if a `match/driver` section is present in the netplan "
+"configuration, which matches a space-separated list of network drivers "
+"(as the default in impish does), netplan can fail to apply the ethernet "
+"configuration (potentially leading to no connectivity if no other "
+"interfaces are configured) ([~~bug "
+"1970761~~](https://bugs.launchpad.net/ubuntu/+source/ubuntu-release-"
+"upgrader/+bug/1970761))"
+msgstr ""
+
+#: ../../22.04/index.md:714 67ddb7993b304b219cb41dd25f93fc1f
+msgid ""
+"Various kernel modules have been moved from the `linux-modules-raspi` "
+"package in order to reduce the initramfs size. If you find an application"
+" failing due to missing kernel modules, please try the following:"
+msgstr ""
+
+#: ../../22.04/index.md:715 f236e2bbc49f4800a3c114b5d8f345b4
+msgid "`sudo apt install linux-modules-extra-raspi`"
+msgstr ""
+
+#: ../../22.04/index.md:716 d232f03d345a4f4d96912506c433139f
+msgid ""
+"This is currently relevant for users of VLANs where the lack of the "
+"`8021q` module can prevent the ethernet interface from configuring "
+"([~~bug 1973485~~](https://bugs.launchpad.net/ubuntu/+source/linux-"
+"raspi/+bug/1973485))"
+msgstr ""
+
+#: ../../22.04/index.md:717 91cd13660d934929bb0884f31a1c90e2
+msgid ""
+"With the removal of the `crda` package, the method of setting the wifi "
+"regulatory domain (editing `/etc/default/crda`) no longer operates. The "
+"only option to persist this information currently is to add "
+"`cfg80211.ieee80211_regdom=XX` (where `XX` is an [ISO3166-1 "
+"alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) country code, "
+"e.g. `GB` for the United Kingdom, `US` for the United States, etc.) to "
+"the `cmdline.txt` file on the boot partition ([bug "
+"1951586](https://bugs.launchpad.net/netplan/+bug/1951586))"
+msgstr ""
+
+#: ../../22.04/index.md:718 857c7367954f4e5596db7e927696329a
+msgid ""
+"The [Raspberry Pi Compute Module 3](https://www.raspberrypi.com/products"
+"/compute-module-3/) is no longer supported as of the prior release, due "
+"to a lack of storage capacity (the CM3 shipped with 4GB of on-board eMMC "
+"storage, and Ubuntu Server for Raspberry Pi images now exceed this size)."
+" The later [Compute Module 3+](https://www.raspberrypi.com/products"
+"/compute-module-3-plus/) models (for which the smallest storage capacity "
+"was 8GB of eMMC) are still supported."
+msgstr ""
+
+#: ../../22.04/index.md:722 bc2c783de9844c0aadc8e2037520444a
+msgid "No known issues yet."
+msgstr ""
+
+#: ../../22.04/index.md:725 74713b498c694ababe98584d873ded73
+msgid "Official flavors"
+msgstr ""
+
+#: ../../22.04/index.md:727 10074073703347fa86614b8796b2e32f
+msgid ""
+"The release notes for the official flavors can be found at the following "
+"links:"
+msgstr ""
+
+#: ../../22.04/index.md:729 961301f03cd442de830a262a4d07c372
+msgid ""
+"[Kubuntu Release "
+"Notes](https://wiki.ubuntu.com/JammyJellyfish/ReleaseNotes/Kubuntu)"
+msgstr ""
+
+#: ../../22.04/index.md:730 ff35b9eace6f49acadf362ff6e5a7f04
+msgid ""
+"[Lubuntu Release Notes](https://discourse.lubuntu.me/t/lubuntu-22-04-lts-"
+"jammy-jellyfish-release-notes/3179)"
+msgstr ""
+
+#: ../../22.04/index.md:731 d47efaab32774b238e53a446c8276b01
+msgid ""
+"[Ubuntu Budgie Release Notes for 21.10 "
+"upgraders](https://ubuntubudgie.org/2022/03/ubuntu-budgie-22-04-lts-"
+"release-notes/) & [Ubuntu Budgie Release Notes for 20.04 "
+"upgraders](https://ubuntubudgie.org/2022/04/ubuntu-22-04-release-notes-"
+"for-20-04-upgraders/)"
+msgstr ""
+
+#: ../../22.04/index.md:732 0922145d18a54fa1b0987b597ba9889f
+msgid ""
+"[Ubuntu Kylin Release "
+"Notes](https://wiki.ubuntu.com/JammyJellyfish/ReleaseNotes/UbuntuKylin)"
+msgstr ""
+
+#: ../../22.04/index.md:733 1c75c4b375074b029bb3f335641069d2
+msgid ""
+"[Ubuntu MATE Release Notes](https://ubuntu-mate.org/blog/ubuntu-mate-"
+"jammy-jellyfish-release-notes/)"
+msgstr ""
+
+#: ../../22.04/index.md:734 3bed3d6c98cd4efa9d575399b4688ed6
+msgid ""
+"[Ubuntu Studio Release Notes](https://ubuntustudio.org/ubuntu-"
+"studio-22-04-lts-release-notes/)"
+msgstr ""
+
+#: ../../22.04/index.md:735 4133fbd3ee204e048d47cf6ded09906b
+msgid ""
+"[Xubuntu Release Notes](https://wiki.xubuntu.org/releases/22.04/release-"
+"notes)"
+msgstr ""
+
+#: ../../22.04/index.md:738 c79ec18d10f84237879f165556902cc4
+msgid "More information"
+msgstr ""
+
+#: ../../22.04/index.md:740 11eee9e5192042079c8eb74500e4bedb
+#, python-brace-format
+msgid ""
+"Refer to {ref}`release-policy-and-schedule` and {ref}`project-and-"
+"community`."
+msgstr ""
+

@@ -6,6 +6,7 @@
 .sphinx/warnings.txt
 .sphinx/.wordlist.dic
 .sphinx/.doctrees/
+.sphinx/.doctrees-gettext/
 .sphinx/update/
 .sphinx/node_modules/
 
@@ -24,3 +25,4 @@ package*.json
 __pycache__
 .idea/
 .vscode/
+locale/**/*.mo

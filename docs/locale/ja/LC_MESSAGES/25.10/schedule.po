@@ -1,0 +1,510 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu release
+# notes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu release notes \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-13 02:01+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../25.10/schedule.md:2 7e92e6781b9343fb8ddc623fffe1d0d7
+msgid "Ubuntu Questing Quokka Release Schedule"
+msgstr ""
+
+#: ../../25.10/schedule.md 4124aec2db8f41b092a0d95df233a36e
+#: c7f0e91ff11744fa9c45f8c8bc24e2c8 e1a2c36c4942406193ba8d12604722ab
+msgid "Week"
+msgstr ""
+
+#: ../../25.10/schedule.md 0ff87b004ecc4b239f5e5d612be23f95
+#: 55a13263f3ec401ba32555df812fbd02 5d0632582a3546c6855c202dd14fd7d0
+msgid "Date (Thursday)"
+msgstr ""
+
+#: ../../25.10/schedule.md 4b68e710358748f2ab97eb34205633af
+#: def521eff852424dbd577c4fd73d96ba
+msgid "25.10 events"
+msgstr ""
+
+#: ../../25.10/schedule.md 28e6913e0e5144f492d0d539c31f0eac
+#: 5348b1b3af5840ccab5498b8696d4d80 e18855c4f28d4a679b228c0d58c5534c
+msgid "**April 2025**"
+msgstr ""
+
+#: ../../25.10/schedule.md 069142a512444581bb2b6b602bc0e82f
+#: 294b5f7e70da4bf0a5977ec792970e57 8f01b111adc6480a8064107ddb831f54
+msgid "1"
+msgstr ""
+
+#: ../../25.10/schedule.md 8072bc2e6e8248d58edd3b0a83aebff6
+#: a6664d4a4eb24372b263e4e7d1178e7e d76920f1660a4b64a22fbbb93b088432
+msgid "April 24"
+msgstr ""
+
+#: ../../25.10/schedule.md 077fa4d5d95f4d569444f3c40bf6da57
+#: db446be147104b458aaaea80c93b808a
+msgid "Toolchain Uploaded"
+msgstr ""
+
+#: ../../25.10/schedule.md 1a3de0d91e7a49b183475dd4b85d2a5b
+#: 50f72a6c02994ef6904e7d890764fa5c c76ebbf1d0bb4582a3c3d7f6cd5475fc
+msgid "**May 2025**"
+msgstr ""
+
+#: ../../25.10/schedule.md 01a32e5bfd92422b8bc5e9db7d74f2d7
+#: a959082ba18b4998b42404e2413d8048 a9796ae59b0b4f9381935821ac03d0e2
+msgid "2"
+msgstr ""
+
+#: ../../25.10/schedule.md 3783c532e3794a03a91aad4882490215
+#: 63027a6da41e4a7c9c504ec1208feb43 67e4d069a5d54d3895c0936026269a88
+msgid "May 01"
+msgstr ""
+
+#: ../../25.10/schedule.md 588e07f3eda7428584b32914c6348140
+#: 858ca7329b2a41cf832164e4ee49918c ff9517734a4d4c86b5c02eab029e6602
+msgid "3"
+msgstr ""
+
+#: ../../25.10/schedule.md 13d029060b1544b7b4a9545909798cf6
+#: 1c8db1a789e44de2a40bb032e1c9c790 27a61f71cc574b4ea3da831d99d0723a
+msgid "May 08"
+msgstr ""
+
+#: ../../25.10/schedule.md 5cfcf72f633b46538150528fea46df8f
+#: 6c7a622d87c44f859aee534fa47de7e7 ec3ae89dd77345b4b22ac1ab704826b9
+msgid "4"
+msgstr ""
+
+#: ../../25.10/schedule.md cc1fafe7c1b34042852b584834130e9f
+#: cc545512320c4ab89027ba910d95ca85 d370487fd6ec4fc58935390978254ccd
+msgid "May 15"
+msgstr ""
+
+#: ../../25.10/schedule.md 080f2c8a57a14f2eb9fe4f9c5b11d0ec
+#: 7fadbecc0f5843128495324327d9549e fffb9a143b3f4df7afa45d76887bbb4e
+msgid "5"
+msgstr ""
+
+#: ../../25.10/schedule.md 5170002bf63f40f48ebf80a37487310a
+#: 98815974572045ffb6fb22802e32cbb9 d85de95e52c5488a9bed5fcf0a3a8b09
+msgid "May 22"
+msgstr ""
+
+#: ../../25.10/schedule.md 0bf211acb97d4c848818b4bf42e643e1
+#: 5bbe85fa27364bd08ca86c939a822a8d bfa6a1125f124634a28573561f7850d0
+msgid "6"
+msgstr ""
+
+#: ../../25.10/schedule.md 64572c0bb7be4fe896870c81f44387f5
+#: b4fb2b36247f4350a04bfa5a70166fb5 b819da64b1c8495da00d5855459b5c43
+msgid "May 29"
+msgstr ""
+
+#: ../../25.10/schedule.md 95acbb4a2ad94e3fab67d35b57fbbe05
+#: bdf86e04a2cc47498f5f3a390a7a57d4
+msgid "Questing Snapshot 1"
+msgstr ""
+
+#: ../../25.10/schedule.md 4780779ce69547349302f48faa9bae2a
+#: 78f8315e1d5747a8a3915ca1f8773981 e54a24ee51db41c4a09a3c1e470fe0e7
+msgid "**June 2025**"
+msgstr ""
+
+#: ../../25.10/schedule.md 1d513843e422429cb84693d2bf2219c8
+#: 3d44c7519c924e30b09f9416704da3d6 cf78ab90027545b986f56d229efcf8be
+msgid "7"
+msgstr ""
+
+#: ../../25.10/schedule.md bae888e00732449c9cb414e1e3adf0a5
+#: c2a2d21ba10a49279aa95998a9fe633a c3a8b48d0872479cb4853cb93de1c9d4
+msgid "June 05"
+msgstr ""
+
+#: ../../25.10/schedule.md 4abe83701d254b8c8097626064fe64ac
+#: cb28ab7c39224dc6a2b9d5c24de500d4 f12086dc96324c97a29e94b05c1b3874
+msgid "8"
+msgstr ""
+
+#: ../../25.10/schedule.md 2d4ccacfb3d9432ab631086044069e01
+#: 48abe2a2131b445581d9e8a73d945b5e 4bf83db500e0416baa77f210e6e78ee0
+msgid "June 12"
+msgstr ""
+
+#: ../../25.10/schedule.md 3b7a9909bb37401fb47ffc8936325daf
+#: 44fc9177d9d1489fb220130ecff9b9cf de08f4f561bb434fbf92143c992be426
+msgid "9"
+msgstr ""
+
+#: ../../25.10/schedule.md 54ffcb6dcdbc47e3b00c4708e2682cd4
+#: 7e337d1768f4483198e2c4fbe508a1bc 90e53189eeff42bcb08b2362cac65cfe
+msgid "June 19"
+msgstr ""
+
+#: ../../25.10/schedule.md 3157bde0c8d143e7b77a35c0e6d98460
+#: 59488ee514bb432cac186260c90425ba 6a25ce375d9b4156b5021683ffb16b56
+msgid "10"
+msgstr ""
+
+#: ../../25.10/schedule.md 4ec48bb6112841b19528e8facd932b7b
+#: f5e774d3af5d428eb429365bc9e76a1b f9c40b7ee42841d2887e9f4128110022
+msgid "June 26"
+msgstr ""
+
+#: ../../25.10/schedule.md 600f9d38a0b04f0dbfddca66bddb1202
+#: ac6eb865643b4fc3a2b793e2c075839d
+msgid "Questing Snapshot 2"
+msgstr ""
+
+#: ../../25.10/schedule.md 42d34b64a2da4b08b2d57b8a9acf64c0
+#: 593f18b5218a4067a3ccfb384d1dbbbc 85c0b6a87f4c4309a6d92ee98bc1677b
+msgid "**July 2025**"
+msgstr ""
+
+#: ../../25.10/schedule.md 3430795d337c463c8fb60c2d40771211
+#: c3196ea28c214de282aca74549e5e7f4 daa3b3157a8c49ab886b72a44e8be99c
+msgid "11"
+msgstr ""
+
+#: ../../25.10/schedule.md 8d9b317ba05e450bad220b941de77db3
+#: e614e224382746c6a9754dd291bdc9bb f7414354926d4db1bb55bdc8b5c0b323
+msgid "July 03"
+msgstr ""
+
+#: ../../25.10/schedule.md 25dcb075dc9b408ab6cbe19582d60092
+#: 4b60a71f65cd45d19578b2a2253de3e4 b290d4cc534e4871bd5f39f06669e818
+msgid "12"
+msgstr ""
+
+#: ../../25.10/schedule.md 6120f2b0bc834272b72ae30a8c49f0fd
+#: 734ab2da242c4fcd94ba6fe7da710ed5 cefb6455cc9941d09f3b9b98eaf1feac
+msgid "July 10"
+msgstr ""
+
+#: ../../25.10/schedule.md b66da47b17c34ce9acd244600d26731d
+#: d73e9d2f28e44d2eba52df8604de0067 ff2f1ddb8d4e4e6eb281d8feda1a90d9
+msgid "13"
+msgstr ""
+
+#: ../../25.10/schedule.md 42ae0f01ce314c9fb27ed2bfd5f56dc8
+#: 62a40bd8f58b4f3a94cb134b0e9c7168 ac8ee277e3e44c63b9feb80fb48a882b
+msgid "July 17"
+msgstr ""
+
+#: ../../25.10/schedule.md 56c653063ed948eabbb10eee5074d6a6
+#: 8b0949fbe41542bcb7352443200ae462 c3c05450f1fa47c38ef5eeddc4e49073
+msgid "14"
+msgstr ""
+
+#: ../../25.10/schedule.md 17bb01cd0c7a4fa3b0c8c994e4fdeeca
+#: a35287622c0d4d1898732f51e3c70403 dc18fc226cfb4d3db9c8cb56c6503fa9
+msgid "July 24"
+msgstr ""
+
+#: ../../25.10/schedule.md 1a6814fb65ff44c1a8edbcf055d33577
+#: 83f72a6f943d413bb27a06259f102420 d6a5bffc22ce407ea4a8a5b08d86defb
+msgid "15"
+msgstr ""
+
+#: ../../25.10/schedule.md 092a73e8e7e24f90851f5842225e90d7
+#: 5bbc44cb3ef1475896db4e88dead86f9 c9f4668fe8e549eca9b1e902e1f4df31
+msgid "July 31"
+msgstr ""
+
+#: ../../25.10/schedule.md c9f89dd3a38e4f06b2788e81188dd6b2
+#: ed33a300970f487fa5abb3dacbf9773b
+msgid "Questing Snapshot 3"
+msgstr ""
+
+#: ../../25.10/schedule.md 66a90c2b1ec34c4497fe35015bb41e25
+#: 82bdab2d63c64a2697e24ca5b180f7fc 91245a4bd69f4bc4a4b272dc67e49547
+msgid "**August 2025**"
+msgstr ""
+
+#: ../../25.10/schedule.md bb1be42bbdbe4dd38ec5b8ea6ea6bc59
+#: dffad2df8e8f4d11a84f9f20f7cfb566 ece9838160944f01ac98d95009b07597
+msgid "16"
+msgstr ""
+
+#: ../../25.10/schedule.md 30c7108924904adeb1429d856c5885d4
+#: 47b53094fa4144c19d53f2256ea6e8b2
+msgid "August 04"
+msgstr ""
+
+#: ../../25.10/schedule.md 1f990899b57644ee8541ff008bd64d11
+#: cd07fbd287cb4508ac61c8d138b93e4e
+msgid ""
+"[Debian Import Freeze](https://canonical-ubuntu-project.readthedocs-"
+"hosted.com/release-team/freezes/#debian-import-freeze)"
+msgstr ""
+
+#: ../../25.10/schedule.md 3415eafe222749afabd5c67d85792955
+#: 88f57f1d6227474b9cd469170d2d6820 e4631a6aa7d64dfdb32b361c4a9cd433
+msgid "17"
+msgstr ""
+
+#: ../../25.10/schedule.md 52b86d1b750a494b8f6790da2e84a511
+#: a0d20877d863410ea9d0a19dd9e2e826 da5c92a58afb412f9f04d17bbeca482b
+msgid "August 14"
+msgstr ""
+
+#: ../../25.10/schedule.md 05517cb56bac488ab5ec224837d03c7a
+#: 9f118a0531b343229fd3f782d5510fa0
+msgid "[Feature Freeze](https://wiki.ubuntu.com/FeatureFreeze)"
+msgstr ""
+
+#: ../../25.10/schedule.md 4608f8f88f204a4cb1152e5b00da6be4
+#: 461a38de1f43448cb82e5722e1bf8651 8577e17efb4e48b991e9ff9e43a61ec2
+msgid "18"
+msgstr ""
+
+#: ../../25.10/schedule.md 2c1580b0badb4563889f48e86dfad409
+#: 3c74b243833349119a7b6d9fae51fcf7 79720a42a152418191db207383e1a132
+msgid "August 21"
+msgstr ""
+
+#: ../../25.10/schedule.md 23d260fc0d5745138cb42d827c8bf048
+#: c095ab9c1a28467eb4ea5ac1335e2893 ca36de04906a47bfa48907c6da23ef96
+msgid "19"
+msgstr ""
+
+#: ../../25.10/schedule.md 0448dd1ac15d4ae0a6af2765b0b690c3
+#: 4ffd8bb16b014426b65d774b098daf6b d404823713b849aa88779343b29477ae
+msgid "August 28"
+msgstr ""
+
+#: ../../25.10/schedule.md 31812ce21795474cb925b84272156731
+#: 59a8d4db02f44bc9a06ee0a89f7ef71b
+msgid "Questing Snapshot 4"
+msgstr ""
+
+#: ../../25.10/schedule.md 13402b08b3624634be4396eac0ae80f7
+#: 46e16d8268db489fa67ee1a2d22df4d1 a0c882da1dbc423698d1b3c6a8e8fd13
+msgid "**September 2025**"
+msgstr ""
+
+#: ../../25.10/schedule.md 2965acb5e9d54cbe934f9bc4e456904f
+#: db412960b4bb4f3a891d52b547942891 df810f2a6b5b475783f305b9924aa56e
+msgid "20"
+msgstr ""
+
+#: ../../25.10/schedule.md 39e51ab78f0f4b1d95a98fb3cb8893e8
+#: 6f011744d0694e88add0e1eee5b6bf02 e6e62d5d782646038fd6649903a0f8d6
+msgid "September 04"
+msgstr ""
+
+#: ../../25.10/schedule.md 487f46c269914321ae1d50570ad3c9df
+#: ff0fbf02de0f4d4c8d39df27b50c1977
+msgid ""
+"[User Interface Freeze](https://canonical-ubuntu-project.readthedocs-"
+"hosted.com/release-team/freezes/#user-interface-freeze)"
+msgstr ""
+
+#: ../../25.10/schedule.md 6da25287807e439aa9c131ded575e8e3
+#: 80d47a146c35454a93ba620789283bfc f41af4f60d464358b221e47feacad54a
+msgid "21"
+msgstr ""
+
+#: ../../25.10/schedule.md 0b27987b929e496a83a43bbfc2a764c2
+#: b2c845f8d37e4888adf53134b401141d c9c7d4b5943244188374b09ad4ba509d
+msgid "September 11"
+msgstr ""
+
+#: ../../25.10/schedule.md efb11a80c75843ebb3791926716d8a02
+#: f10ff7c81f0c42c4b3694d988ffa4eaf
+msgid ""
+"[Documentation String Freeze](https://canonical-ubuntu-project"
+".readthedocs-hosted.com/release-team/freezes/#documentation-string-"
+"freeze), [Kernel Feature Freeze](https://canonical-ubuntu-project"
+".readthedocs-hosted.com/release-team/freezes/#kernel-feature-freeze)"
+msgstr ""
+
+#: ../../25.10/schedule.md 63d48ebc2cd84c898e568b722472adb0
+#: 7ef2777b5344493c958926a567ea0a91 8607783929444d7989083a78bea4522e
+msgid "22"
+msgstr ""
+
+#: ../../25.10/schedule.md 96398146ddae40e7882e06dd31071e33
+#: e30377b4016c48d69733d0a2aba9e758
+msgid "September 15 (Monday)"
+msgstr ""
+
+#: ../../25.10/schedule.md 591e98abb16240a6a08644a6077adb80
+#: 77d43dcdc32b499aa8ab40798da2cabb
+msgid ""
+"[Beta Freeze](https://canonical-ubuntu-project.readthedocs-hosted.com"
+"/release-team/freezes/#beta-freeze), [Hardware Enablement Freeze](https"
+"://canonical-ubuntu-project.readthedocs-hosted.com/release-team/freezes"
+"/#hardware-enablement-freeze), ISO Testing Week (mandatory)"
+msgstr ""
+
+#: ../../25.10/schedule.md 6f56dbe60e434ca38fdab6840875c9ea
+#: aa5a18f190a94b52b790f2544c058f96
+msgid "⠀"
+msgstr ""
+
+#: ../../25.10/schedule.md 222c0e16d9854d23a683e9e196c20379
+#: 298d24be0a294acfbfad6c29ee936f34 7d413be3a85740d99ef4126a00a931bf
+msgid "September 18"
+msgstr ""
+
+#: ../../25.10/schedule.md 100c8c7c85bc4f889101777bb572cdcb
+#: 458c212c6df0490e83a4fa488f1f533b
+msgid "Questing Beta (mandatory)"
+msgstr ""
+
+#: ../../25.10/schedule.md 97d3f90831514433aa0eabce174e49f1
+#: b2457bd9cb9f48bb826d165bb537a93d bdaff0913214451d959fe1fb4715c150
+msgid "23"
+msgstr ""
+
+#: ../../25.10/schedule.md 3915f551ca1449e8a57ff3c5a958443e
+#: deefb15efc6549769d344dc49e20567a f81544fcb87e429b814dd5f83502e88e
+msgid "September 25"
+msgstr ""
+
+#: ../../25.10/schedule.md 5e5f01277f2646fba3456f79dda80994
+#: ba71e05ab0da45629abe03f45976c32f
+msgid ""
+"[Kernel Freeze](https://canonical-ubuntu-project.readthedocs-hosted.com"
+"/release-team/freezes/#kernel-freeze), [Non Language Pack Translation "
+"Deadline](https://wiki.ubuntu.com/NonLanguagePackTranslationDeadline)"
+msgstr ""
+
+#: ../../25.10/schedule.md 54105883588b4b8eab2cc089aa84d790
+#: 9ce276f5059c4fd985afb9724bbca5ce bb6d865f95cb43228e22debbf45c1b06
+msgid "**October 2025**"
+msgstr ""
+
+#: ../../25.10/schedule.md 1d429b34153742578d245f46b78a9dc0
+#: b8db17fe3c16485f8e973e07dba10301 dbef8c07edef4643a00e7de5a6991798
+msgid "24"
+msgstr ""
+
+#: ../../25.10/schedule.md 14df550e4cc44dc8a73c19cf13dcef47
+#: 208156abbcbb4f3cbfba1f53552f7f4d 72fa2051745443c08b5d9abe96f2c3f8
+msgid "October 02"
+msgstr ""
+
+#: ../../25.10/schedule.md 58f52b45d49b49ebbe50dccbfd4be49a
+#: 80c9ad8fa6414d938488ea712f69f975
+msgid ""
+"[Final Freeze](https://canonical-ubuntu-project.readthedocs-hosted.com"
+"/release-team/freezes/#final-freeze), [Release Candidate](https"
+"://canonical-ubuntu-project.readthedocs-hosted.com/release-team/freezes"
+"/#release-candidate), [Language Pack Translation Deadline](https"
+"://canonical-ubuntu-project.readthedocs-hosted.com/release-team/freezes"
+"/#language-pack-translation-deadline)"
+msgstr ""
+
+#: ../../25.10/schedule.md 06abae9f1bdd48329905a0adb2469795
+#: 381ac273d1ab4a24b0ca335707ca240b ac125b37f6454de7ae4db62f1df00ac6
+msgid "25"
+msgstr ""
+
+#: ../../25.10/schedule.md 0ec44fb206f44579858ad4db3a9a7a71
+#: 6ecc2159c6224f4a90a4fae8ed5963a1 a59405c7cd4b488898a1509d7385a9ad
+msgid "October 09"
+msgstr ""
+
+#: ../../25.10/schedule.md 711a0788cbc94b828a8aec4a22a5abfc
+#: f00bd8f6a7f244c5af0454b134805ec3
+msgid "Questing [Final Release](https://wiki.ubuntu.com/FinalRelease)"
+msgstr ""
+
+#: ../../25.10/schedule.md:41 c72805cf34c54e3ba9968c624874cf1f
+msgid "Planned and potentially disruptive archive-wide activities"
+msgstr ""
+
+#: ../../25.10/schedule.md:43 e9d018fdb9af4a6e97c88825ec3b27fe
+msgid ""
+"If you're planning a change that might have a disruptive effect on the "
+"archive - e.g. transitions or switches of important defaults (such as "
+"compiler versions) - list it here."
+msgstr ""
+
+#: ../../25.10/schedule.md 0d1ca14e0bb6433ba28f07688d47581c
+msgid "Planned activity"
+msgstr ""
+
+#: ../../25.10/schedule.md 8fd5d392aaf248b5b328c66b749cfbad
+msgid "boost1.88"
+msgstr ""
+
+#: ../../25.10/schedule.md 15e89a3a92dc419ab0f09042dc1a0c18
+msgid "libxml2 2.14.x"
+msgstr ""
+
+#: ../../25.10/schedule.md b451d9eadeb34d7da7346d62f322dcf0
+msgid ""
+"binutils 2.45, Chrony/NTS time-daemon ([LP: "
+"#2111342](https://bugs.launchpad.net/ubuntu/+bug/2111342))"
+msgstr ""
+
+#: ../../25.10/schedule.md 07ba309604c64a638b089b534dc46ff5
+msgid ""
+"openssl 3.5.0 ([LP: "
+"#2110006](https://bugs.launchpad.net/ubuntu/+source/openssl/+bug/2110006))"
+msgstr ""
+
+#: ../../25.10/schedule.md 0228c2b635c14b0d99e2d48d86b8e542
+msgid "GCC 15"
+msgstr ""
+
+#: ../../25.10/schedule.md 34e7d30a027f42098f609e6918a3561e
+msgid "August 07"
+msgstr ""
+
+#: ../../25.10/schedule.md 5cad1803ecf54f879aaf796efd939da2
+msgid "[GNOME 49 Beta](https://release.gnome.org/calendar/)"
+msgstr ""
+
+#: ../../25.10/schedule.md 4bc9782b68a247679fb12db58c27fe4b
+msgid "Raise ISA level for riscv64, archive rebuild (@xypron)"
+msgstr ""
+
+#: ../../25.10/schedule.md 85754dcf47774ba694dc6f3e2fc060f4
+msgid "[GNOME 49.0](https://release.gnome.org/calendar/)"
+msgstr ""
+
+#: ../../25.10/schedule.md:81 b5f5a5ecd4dc485cb28f1f9e270ea086
+msgid "Ubuntu Questing Quokka Release Task Signup Sheet"
+msgstr ""
+
+#: ../../25.10/schedule.md:83 8c70ea5290514a32bf97e5aab14b5adc
+msgid "This signup sheet is to be used for planning release milestone tasks."
+msgstr ""
+
+#: ../../25.10/schedule.md:121 d4b03d10e11f4ac0b70d4912bd8c30fe
+msgid ""
+"When the archive is frozen, all members of the release team are expected "
+"to participate in bug fix reviews."
+msgstr ""
+
+#: ../../25.10/schedule.md:123 25b36f012e854bb3a478c4228183edf2
+msgid ""
+"After [Feature Freeze](https://wiki.ubuntu.com/FeatureFreeze), all "
+"members of the Release Team are expected to participate in Feature Freeze"
+" Exception reviews in their particular area of expertise."
+msgstr ""
+
+#: ../../25.10/schedule.md:125 2e1c469231b64e17be1594f426c539aa
+msgid ""
+"After [Final Beta](https://wiki.ubuntu.com/FinalBetaRelease), all members"
+" of the Release Team are expected to participate in bug fix reviews in "
+"their particular area of expertise."
+msgstr ""
+

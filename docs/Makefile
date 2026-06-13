@@ -6,7 +6,8 @@
 # from the environment for the first two.
 
 SPHINX_DIR       ?= .sphinx
-SPHINX_OPTS      ?= -c . -d $(SPHINX_DIR)/.doctrees -j auto
+SPHINX_BASE_OPTS ?= -c . -j auto
+SPHINX_OPTS      ?= $(SPHINX_BASE_OPTS) -d $(SPHINX_DIR)/.doctrees
 SPHINX_BUILD     ?= $(DOCS_VENVDIR)/bin/sphinx-build
 SPHINX_HOST      ?= 127.0.0.1
 SPHINX_PORT      ?= 8000
@@ -21,6 +22,10 @@ VALE_CONFIG      ?= $(SPHINX_DIR)/vale.ini
 PA11Y_CMD        ?= $(SPHINX_DIR)/node_modules/pa11y/bin/pa11y.js --config $(SPHINX_DIR)/pa11y.json
 CONFIRM_SUDO     ?= N
 CHECK_PATH       ?= $(filter-out $(DOCS_VENVDIR),$(wildcard *))
+DOCS_LANG        ?= en
+DOCS_GETTEXTDIR  ?= $(DOCS_BUILDDIR)/gettext
+DOCS_POTDIR      ?= locale/pot
+
 
 # Put it first so that "make" without argument is like "make help".
 help:
@@ -32,6 +37,7 @@ help:
 	@echo "* clean built doc files:                     make clean-doc"
 	@echo "* clean full environment:                    make clean"
 	@echo "* check links:                               make linkcheck"
+	@echo "* refresh PO files manually:                 make update-po DOCS_LANG=en,ja,..."
 	@echo "* check markdown:                            make lint-md"
 	@echo "* check spelling:                            make spelling"
 	@echo "* check spelling (without building again):   make spellcheck"
@@ -46,7 +52,7 @@ help:
 .PHONY: help full-help html epub pdf linkcheck spelling spellcheck woke \
         vale pa11y run serve install pa11y-install   \
         vale-install pdf-prep pdf-prep-force clean clean-doc \
-        update lint-md
+        update lint-md update-po
 
 full-help: $(DOCS_VENVDIR)
 	@. $(DOCS_VENV); $(SPHINX_BUILD) -M help "$(DOCS_SOURCEDIR)" "$(DOCS_BUILDDIR)" $(SPHINX_OPTS) $(O)
@@ -78,14 +84,20 @@ pymarkdownlnt-install: install
 install: $(DOCS_VENVDIR)
 
 run: install
-	. $(DOCS_VENV); $(DOCS_VENVDIR)/bin/sphinx-autobuild -b dirhtml --host $(SPHINX_HOST) --port $(SPHINX_PORT) "$(DOCS_SOURCEDIR)" "$(DOCS_BUILDDIR)" $(SPHINX_OPTS)
+	. $(DOCS_VENV); $(DOCS_VENVDIR)/bin/sphinx-autobuild -b dirhtml --host $(SPHINX_HOST) --port $(SPHINX_PORT) "$(DOCS_SOURCEDIR)" "$(DOCS_BUILDDIR)" $(SPHINX_OPTS) -D language="$(DOCS_LANG)"
 
 # Does not depend on $(DOCS_BUILDDIR) to rebuild properly at every run.
 html: install
-	. $(DOCS_VENV); $(SPHINX_BUILD) --fail-on-warning --keep-going -b dirhtml "$(DOCS_SOURCEDIR)" "$(DOCS_BUILDDIR)" -w $(SPHINX_DIR)/warnings.txt $(SPHINX_OPTS)
+	. $(DOCS_VENV); $(SPHINX_BUILD) --fail-on-warning --keep-going -b dirhtml "$(DOCS_SOURCEDIR)" "$(DOCS_BUILDDIR)" -w $(SPHINX_DIR)/warnings.txt $(SPHINX_OPTS) -D language="$(DOCS_LANG)"
 
 epub: install
 	. $(DOCS_VENV); $(SPHINX_BUILD) -b epub "$(DOCS_SOURCEDIR)" "$(DOCS_BUILDDIR)" -w $(SPHINX_DIR)/warnings.txt $(SPHINX_OPTS)
+
+# Use a separate doctree directory (-d) for the gettext builder,
+# because doctrees are not compatible between different builders.
+update-po: install
+	. $(DOCS_VENV); $(SPHINX_BUILD) -b gettext "$(DOCS_SOURCEDIR)" "$(DOCS_GETTEXTDIR)" -w $(SPHINX_DIR)/warnings.txt $(SPHINX_BASE_OPTS) -d $(SPHINX_DIR)/.doctrees-gettext
+	. $(DOCS_VENV); $(DOCS_VENVDIR)/bin/sphinx-intl update -p "$(DOCS_GETTEXTDIR)" $(foreach lang,$(DOCS_LANG),-l $(lang))
 
 serve: html
 	cd "$(DOCS_BUILDDIR)"; python3 -m http.server --bind $(SPHINX_HOST) $(SPHINX_PORT)
@@ -100,6 +112,7 @@ clean: clean-doc
 clean-doc:
 	git clean -fx "$(DOCS_BUILDDIR)"
 	rm -rf $(SPHINX_DIR)/.doctrees
+	rm -rf $(SPHINX_DIR)/.doctrees-gettext
 
 linkcheck: install
 	. $(DOCS_VENV) ; $(SPHINX_BUILD) -b linkcheck -q "$(DOCS_SOURCEDIR)" "$(DOCS_BUILDDIR)" $(SPHINX_OPTS) || { grep --color -F "[broken]" "$(DOCS_BUILDDIR)/output.txt"; exit 1; }

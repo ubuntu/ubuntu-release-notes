@@ -25,7 +25,7 @@ Week | Date (Thursday) | 26.10 events
 14 | July 30 | 
 **August 2026** |
 15 | August 06 | Expected Glibc 2.44 merge 
-16 | August 13 | 
+16 | August 13 | Expected LLVM default transition
 17 | August 20 | [Feature Freeze](https://wiki.ubuntu.com/FeatureFreeze), Debian Import Freeze
 18 | August 27 | Ubuntu Testing Week (optional)
 **September 2026** |

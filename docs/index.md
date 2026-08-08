@@ -1,4 +1,4 @@
-# Ubuntu release notes
+# Ubuntu release nótese 
 
 Release notes for Ubuntu, summarizing new features, bug fixes and backwards-incompatible changes in each version.
 

@@ -31,6 +31,11 @@ author = "Canonical Ltd."
 # html_title = project + " documentation"
 html_title = project
 
+# Internationalization (i18n)
+language = os.environ.get("READTHEDOCS_LANGUAGE", "en")
+locale_dirs = ["locale/"]
+gettext_compact = False
+gettext_uuid = True
 
 # The year in the copyright statement defaults to the current year, so
 # individual document versions show when they were built.

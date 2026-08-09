@@ -1,0 +1,5214 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu release
+# notes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu release notes \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-13 02:01+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../24.04/4.md:2 13bbd56785fe45689fc60a354ec0a913
+msgid "Changes in Ubuntu 24.04.4"
+msgstr ""
+
+#: ../../24.04/4.md:4 f776c1b8612e41338994c1590a92569b
+msgid ""
+"This is a brief summary of bugs fixed between Ubuntu 24.04.3 and 24.04.4."
+" **This summary covers only changes to packages in *main* and "
+"*restricted*, which account for all packages in the officially-supported "
+"images; there are further changes to various packages in *universe* and "
+"*multiverse*.** Some of these fixes were by Ubuntu developers directly, "
+"while others were by upstream developers and backported to Ubuntu. For "
+"full details, see the individual package changelogs."
+msgstr ""
+
+#: ../../24.04/4.md:12 8ddf824e58e54cd2a78a8def27be9f5a
+msgid ""
+"In addition to the bugs listed below, this update includes all security "
+"updates from the [Ubuntu Security "
+"Notice](https://ubuntu.com/security/notices?order=newest&release=noble&details=)"
+" affecting Ubuntu 24.04.4 LTS that were released up to and including "
+"February 12, 2026."
+msgstr ""
+
+#: ../../24.04/4.md:16 ee0b16de1ce3400da5462633f59869d9
+msgid "Installation bug fixes"
+msgstr ""
+
+#: ../../24.04/4.md:18 4bf53f53ef13482d8d833a71732721cf
+msgid ""
+"Updated CD images are provided with this release, including fixes for "
+"some installation bugs. (Many installation problems are hardware-"
+"specific; for those, see “Hardware support bugs” below.)"
+msgstr ""
+
+#: ../../24.04/4.md 0a1d098782b04ef9bac7014bf91630e3
+#: 0f5d11b89d39450a8d3470fc5a72e9f0 1016f9fe4c9245919f2230ae4ab88017
+#: 13e7a05e0d1d4afd85ae4a91391d3df9 3de10a7367c048e3b13b9f28bc970f98
+#: 463fded7e92e41829f9c8051ca5e4895
+msgid "Source Package"
+msgstr ""
+
+#: ../../24.04/4.md 19c4daf751de4eb590719c11348bb0a2
+#: 2df89b77595748a28fd25b19002f7764 5e0613b4a83049e08085d23dd1760b28
+#: 824a0903b17841b6acb0e8caf7698433 a076856bf80e4ac59c92ce9f4894a82e
+#: c2ab3b5acf7740faaf980c93bc2f320b
+msgid "Bug  #"
+msgstr ""
+
+#: ../../24.04/4.md 31a543286ddc4651b445c59ee2dde9ad
+#: 3ede71227a1347ecb8441c38cb993407 7633a7adac284d67928c043ee165f171
+#: b4e15d1ce0294b7e98c366a1d92df767 d423f6a1b2ec4585b544a9cb837fcb70
+#: e071940b4c9a44acb6863d801afc1429
+msgid "Description"
+msgstr ""
+
+#: ../../24.04/4.md 52e67a3adabe4d248ee8cd01c545fcff
+#: e370ad2be6e64c06abed5e2da9644fe6
+msgid "livecd-rootfs"
+msgstr ""
+
+#: ../../24.04/4.md de8a53ec50ef4ab4a774d331b96c5d84
+msgid "[2116199](https://bugs.launchpad.net/bugs/2116199)"
+msgstr ""
+
+#: ../../24.04/4.md aaea0914d32c4efb86699ef739ee8ae8
+msgid "Add 6.14 kernel apparmor features' preseeds"
+msgstr ""
+
+#: ../../24.04/4.md c52287290f1140248f3920c89c0a2a9d
+msgid "[2069391](https://bugs.launchpad.net/bugs/2069391)"
+msgstr ""
+
+#: ../../24.04/4.md ca044842f38f404c8821acddba167bb9
+msgid "Override cloud-init.service in /etc so as to not invalidate debsums"
+msgstr ""
+
+#: ../../24.04/4.md:25 dc7319581c1b4539ab18360f6d1fffca
+msgid "Upgrade bug fixes"
+msgstr ""
+
+#: ../../24.04/4.md:27 797ea07aa99b45cc87fc194bf47f7c56
+msgid ""
+"These changes fix upgrade issues, smoothing the way for future upgrades "
+"to later releases of Ubuntu (and not only)."
+msgstr ""
+
+#: ../../24.04/4.md fa5d921f5d93465783b85d90abfc90c5
+msgid "ubuntu-release-upgrader"
+msgstr ""
+
+#: ../../24.04/4.md 6c90ac49b4484b758774b953e1a91304
+msgid "[2138637](https://bugs.launchpad.net/bugs/2138637)"
+msgstr ""
+
+#: ../../24.04/4.md 6fe7f2cc5c0440aa83a21293ce98fe96
+msgid "Run pre-build.sh: updating mirrors for point release"
+msgstr ""
+
+#: ../../24.04/4.md:33 d3cd36352f774183a50f201f2dafd205
+msgid "Desktop fixes"
+msgstr ""
+
+#: ../../24.04/4.md:35 3ec36f8d4de847bba290db46b5c4d312
+msgid ""
+"These changes mainly affect desktop installations of Ubuntu and other "
+"Ubuntu-based desktop systems."
+msgstr ""
+
+#: ../../24.04/4.md 83ef839ab3b245ee8688eb3b34706ab5
+msgid "simple-scan"
+msgstr ""
+
+#: ../../24.04/4.md b228d82846834137b4a5198d8006e279
+msgid "[2112619](https://bugs.launchpad.net/bugs/2112619)"
+msgstr ""
+
+#: ../../24.04/4.md c9dbe3d48d7940bea435730cdb6f6175
+msgid ""
+"d/p/lp2112619-postprocessing-fixes.patch: fix postprocessing error "
+"handling and script output"
+msgstr ""
+
+#: ../../24.04/4.md 4d4885ec0d7d44639a75f234ff842a6b
+msgid "wireplumber"
+msgstr ""
+
+#: ../../24.04/4.md 8bb277e1adff4899a64c28bc87ba343c
+msgid "[2122640](https://bugs.launchpad.net/bugs/2122640)"
+msgstr ""
+
+#: ../../24.04/4.md fd0bb26098b041439ffd94be096e3c27
+msgid ""
+"Prevent bluetooth profile switch to output some sound on another device "
+"during the transition"
+msgstr ""
+
+#: ../../24.04/4.md 1d46c2db88dc421db77d86cf179e8a3f
+#: 3b893c58db014a6ea48cf8c3f7779c6b
+msgid "gnome-remote-desktop"
+msgstr ""
+
+#: ../../24.04/4.md 79ad23b0ae7c4d4d9fda3a45ccb18611
+msgid "[2127792](https://bugs.launchpad.net/bugs/2127792)"
+msgstr ""
+
+#: ../../24.04/4.md 17b4dc44279a410abf96073fd5833305
+msgid ""
+"d/p/lp-2127792-fix-nvenc-blackwell.patch: Fix NVENC video streaming on "
+"blackwell GPUs"
+msgstr ""
+
+#: ../../24.04/4.md a35ddb10621c4398aad46448689e9b2a
+msgid "nautilus"
+msgstr ""
+
+#: ../../24.04/4.md 1fb0b3a847c84b6a8362042656102291
+msgid "[2130347](https://bugs.launchpad.net/bugs/2130347)"
+msgstr ""
+
+#: ../../24.04/4.md 16838957ac7c41aea84f36cb35fc3f28
+msgid "Fix trash banner visibility"
+msgstr ""
+
+#: ../../24.04/4.md 9b114a29b5d14dd0acdb099449394b8f
+msgid "gnome-settings-daemon"
+msgstr ""
+
+#: ../../24.04/4.md 2f5bc26147ba4d2c98b9cad8c3a606be
+msgid "[2016914](https://bugs.launchpad.net/bugs/2016914)"
+msgstr ""
+
+#: ../../24.04/4.md b8c336bff25f440193ae7ce0daf83d28
+msgid ""
+"d/p/u/handle-invalid-token.patch: Fix SIGSEGV on start-up when an invalid"
+" token is provided: ."
+msgstr ""
+
+#: ../../24.04/4.md bf588ff31547420b9abbc1fd38d387ff
+msgid "pipewire"
+msgstr ""
+
+#: ../../24.04/4.md 065a5e2e0e624f369a561ac107fc25b9
+msgid "[2131647](https://bugs.launchpad.net/bugs/2131647)"
+msgstr ""
+
+#: ../../24.04/4.md b15e9efdd1b346978f5c26794d4d7a46
+msgid "Fix v4l2oopback devices not work with pipewire"
+msgstr ""
+
+#: ../../24.04/4.md 6702c4df8edc44389a4c0e454d27c227
+#: 841de36e9af44c078a64b1bd09e38ebc
+msgid "[2072130](https://bugs.launchpad.net/bugs/2072130)"
+msgstr ""
+
+#: ../../24.04/4.md 0058209e3d514745a60a474469bd2538
+msgid "Backport headless session persistence"
+msgstr ""
+
+#: ../../24.04/4.md e1511af8db5749beb9f2d60bdbad8018
+msgid "wayland-protocols"
+msgstr ""
+
+#: ../../24.04/4.md 05a5c17c4aca4864b7f256504ed8348d
+#: 6ea680c4499b44b09dbfbc163fc397ae 7fa6e9b01bb3494b9bda550dee2813bb
+#: dadb8343a78f4e0bbc738d71771772e8
+msgid "[2126037](https://bugs.launchpad.net/bugs/2126037)"
+msgstr ""
+
+#: ../../24.04/4.md 5454195759cf4e458a4d673e1434ccc5
+#: 5afbad5c449c454f83f1902b90857b95 cf8f852f38b64f97baa565d15b9e8a13
+#: d5e53fc9234142ffa8885ad360d939e8 fcdbe386442f4175b3a0b687787bf128
+msgid "Backport to noble"
+msgstr ""
+
+#: ../../24.04/4.md a66e4fea0d2049328c7dc07c4c324154
+msgid "software-properties"
+msgstr ""
+
+#: ../../24.04/4.md 5754b54a386d44dfabd72ba61ad0e63b
+msgid "[2111400](https://bugs.launchpad.net/bugs/2111400)"
+msgstr ""
+
+#: ../../24.04/4.md a79b7c7c3a5b4463be7f33e6156b7683
+msgid ""
+"cloudarchive: Enable support for the Flamingo Ubuntu Cloud Archive on "
+"24.04"
+msgstr ""
+
+#: ../../24.04/4.md 0fdeeacc09a44f6e9d54f7868564c6e3
+#: e84f3f6282dd42668c3c1210bca8a823 f79a1f6010d94d9cb3171fe213ee5219
+msgid "gnome-shell-extension-desktop-icons-ng"
+msgstr ""
+
+#: ../../24.04/4.md bb7cd815a2284fef87400f405533304b
+msgid "[2117725](https://bugs.launchpad.net/bugs/2117725)"
+msgstr ""
+
+#: ../../24.04/4.md 3000caccb9e040668f30533387a5c046
+msgid "a11y: Use human name for desktop windows"
+msgstr ""
+
+#: ../../24.04/4.md d8989e9645334371a22847b4d99a8115
+msgid "[2116085](https://bugs.launchpad.net/bugs/2116085)"
+msgstr ""
+
+#: ../../24.04/4.md 1babb1b918264f3dbd1e992126a47a23
+msgid "a11y: Describe the popup in new folder"
+msgstr ""
+
+#: ../../24.04/4.md b1a9f33db8bf49ba8abb9c1d2ca602a9
+#: c35bf26e5a704fa3a7adbfa80c1d8110 d68fb2129f454d4e848646d92e2f6899
+msgid "ubuntu-drivers-common"
+msgstr ""
+
+#: ../../24.04/4.md d2a5030b55ec4f48a807215c27e52dc2
+msgid "[2071829](https://bugs.launchpad.net/bugs/2071829)"
+msgstr ""
+
+#: ../../24.04/4.md 9012130542ce499a98e4872babbcc37d
+msgid "Remove outdated dependency to fix ADT failures"
+msgstr ""
+
+#: ../../24.04/4.md acc814167795423b8efb0dea391e4666
+msgid "[2115537](https://bugs.launchpad.net/bugs/2115537)"
+msgstr ""
+
+#: ../../24.04/4.md 8851f285aedf45bfb008b7188fd3d709
+msgid "Clarify gpgpu flag help text"
+msgstr ""
+
+#: ../../24.04/4.md 08f49b76cfef4f95b106d31625147d9c
+#: 0f903bb4b0a5407cba0f021a68240fa3 1e76fef61d7c489f9ce364f84456e7e5
+#: 266fd0e324664a21bcac12f878b9b43a 9167a1cc2967402d82c0802b276358b4
+#: ba231af6e49441bcbc446f7b07a17373 dfbd8d3ecf0f4280963742515f711661
+msgid "gdm3"
+msgstr ""
+
+#: ../../24.04/4.md 01ec64d65e8743c094164007b20d3e83
+#: e4133736b9054dc1883f3e17426e1977
+msgid "[2124220](https://bugs.launchpad.net/bugs/2124220)"
+msgstr ""
+
+#: ../../24.04/4.md 83483388d2ab4101ac7ccc13650ea300
+msgid "Add hardware matching rule for preferring wayland"
+msgstr ""
+
+#: ../../24.04/4.md 39b1b584a3bc4dbd968e649b3d286fc3
+msgid "[2120413](https://bugs.launchpad.net/bugs/2120413)"
+msgstr ""
+
+#: ../../24.04/4.md 469042b7797b4ec39dc1b583f223480c
+msgid ""
+"Add retry_preferred_display_server_before_fallback.patch to fix the "
+"problem that the existing retry strategy cannot retry the preferred "
+"session when the preferred session accidentally crashes during startup"
+msgstr ""
+
+#: ../../24.04/4.md 40b8712f52084ff6a0f43b0100fddb28
+msgid "[2115451](https://bugs.launchpad.net/bugs/2115451)"
+msgstr ""
+
+#: ../../24.04/4.md 3e55cad2d7da4d579935a94347ebe012
+msgid ""
+"Add local-display-factory-Match-simpledrm-in-a-substring-inst.patch to "
+"ensure the login screen does not start before the real DRM kernel driver "
+"is loaded"
+msgstr ""
+
+#: ../../24.04/4.md 03f7f4da421244c6a721d0ba1c81a412
+msgid "Prefer Wayland if a specific environment variable is set"
+msgstr ""
+
+#: ../../24.04/4.md 4091246ae7f745cb98b74241696225e5
+msgid "wsl-pro-service"
+msgstr ""
+
+#: ../../24.04/4.md 260ce6246c4b41ff90abaccc8a00692b
+msgid "[2106757](https://bugs.launchpad.net/bugs/2106757)"
+msgstr ""
+
+#: ../../24.04/4.md 3c00cc585ad34fa0a44997f7f0198407
+msgid "Upgrade to upstream version 0.1.18: :"
+msgstr ""
+
+#: ../../24.04/4.md 139889bc1e7f4809a721bcf3c82b1ed0
+msgid "adsys"
+msgstr ""
+
+#: ../../24.04/4.md 03dd9b6fdb504b02ae58709bfdebc17a
+msgid "[2125134](https://bugs.launchpad.net/bugs/2125134)"
+msgstr ""
+
+#: ../../24.04/4.md f42867a1666e4456ba47fcd971e41e3f
+msgid "internal/ad/adsys-gpolist: Allow searching GPO list by UserPrincipalName"
+msgstr ""
+
+#: ../../24.04/4.md 2f690349f0ce43d9b6511cde8a4d670a
+msgid "[2129777](https://bugs.launchpad.net/bugs/2129777)"
+msgstr ""
+
+#: ../../24.04/4.md adb6ee725e36497eacee908c96497e02
+msgid "Fix fallback session with auto-login"
+msgstr ""
+
+#: ../../24.04/4.md 06ef162b94ac40de9c4663b7d98fc15a
+#: aaedca9d097d435b9f17a6ca3c97b16b
+msgid "gnome-control-center"
+msgstr ""
+
+#: ../../24.04/4.md 30c480b62a7646c59c55b69cf8db7125
+msgid "[2114995](https://bugs.launchpad.net/bugs/2114995)"
+msgstr ""
+
+#: ../../24.04/4.md 6457536d0e93482c9a5d3bd82c0e7993
+msgid ""
+"Fix accessibility in the Appearance panel: now the name of the stock "
+"backgrounds is pronounced when using a screen reader"
+msgstr ""
+
+#: ../../24.04/4.md 06225263786647559c2b5a178add5574
+msgid "[2115973](https://bugs.launchpad.net/bugs/2115973)"
+msgstr ""
+
+#: ../../24.04/4.md c7d9c43d2496464eb112f3b5ce8afdf2
+msgid "d/p/a11y: several accessibility patches"
+msgstr ""
+
+#: ../../24.04/4.md 2764299d762d48a58055f86ed94e01f3
+#: 498246fc68d84be19ef460f8074bee5e 4c94fd3f8ca74701afced998a26f7009
+#: 79e0fd81190d42abb217183b1ae193d3 a256e5f2594748adb38be7c10b88f4e1
+#: c1c2bdf97f464a80ae543bfba22258eb cb18961c71a24b198531d503619e0b22
+#: f92a62f3fa88487c95270f5b7a8d2d6b
+msgid "gnome-shell"
+msgstr ""
+
+#: ../../24.04/4.md 5ad0c2c57094427293cf5541dcb97e84
+msgid "[2120331](https://bugs.launchpad.net/bugs/2120331)"
+msgstr ""
+
+#: ../../24.04/4.md bf9db844815c4d54b6f7671e4d85a923
+msgid "Fix quicksettings connections to enterprise AP"
+msgstr ""
+
+#: ../../24.04/4.md 8d25d57d43124783975fda305f6a01ef
+msgid "[2120734](https://bugs.launchpad.net/bugs/2120734)"
+msgstr ""
+
+#: ../../24.04/4.md d7026ecd723e4fe3b5a71e4dd629a9b1
+msgid "Update Wi-Fi icons between disconnect and adapter deactivation"
+msgstr ""
+
+#: ../../24.04/4.md 076301bb61d84809bbf2357231387ad2
+msgid "[2121786](https://bugs.launchpad.net/bugs/2121786)"
+msgstr ""
+
+#: ../../24.04/4.md f57800628f8b426da3ad1879a6425eed
+msgid "d/p: Fix memory leak when using a custom theme"
+msgstr ""
+
+#: ../../24.04/4.md 0558e72b7b534fa494f2fb151a0c880c
+#: 1b831ec1f96846de9a7d1aee8d7ad454
+msgid "[2115948](https://bugs.launchpad.net/bugs/2115948)"
+msgstr ""
+
+#: ../../24.04/4.md ece566342ab14163b24272740f2a9065
+msgid "authPrompt: Notify error messages in GDM login/unlock"
+msgstr ""
+
+#: ../../24.04/4.md b3ed164c820941c2b2014e328e0bc28b
+msgid "Fix accessibility issues in Gnome Shell/GDM/Unlock"
+msgstr ""
+
+#: ../../24.04/4.md 3ea7dc243fa543deae61d790bc326406
+msgid "[2125156](https://bugs.launchpad.net/bugs/2125156)"
+msgstr ""
+
+#: ../../24.04/4.md 1dfbb582f77343e29cb428123bf07235
+msgid "Prevent coinstallation of conflicting Nvidia Drivers"
+msgstr ""
+
+#: ../../24.04/4.md 362e6092944d405a8adaa1fbf74c4643
+#: 3ec210afa62d48e3810d1fbb1778b776 585757bb12974372b3376919422ac393
+#: 822de556cbd34909ac8b0a38b189e570 863fe85fad7f43d793f7baf5b3bf34be
+#: ebcc39029d264c2fb0ebd963381e4180 fb8202713513466d939eefd2671627f6
+msgid "mutter"
+msgstr ""
+
+#: ../../24.04/4.md cc22c65d08cc41008af9a89093863393
+msgid "[2130619](https://bugs.launchpad.net/bugs/2130619)"
+msgstr ""
+
+#: ../../24.04/4.md 1b8d39c65628475c8180e8d46fdc0324
+msgid ""
+"Fix possible crash during output changes, introduced in the previous "
+"upload"
+msgstr ""
+
+#: ../../24.04/4.md d11962afdfe4461c8c0966c0eab4ae59
+msgid "[2085423](https://bugs.launchpad.net/bugs/2085423)"
+msgstr ""
+
+#: ../../24.04/4.md f1bb2679c4dc4c1d80f5de669fd8385a
+msgid "d/p: Fix privacy screen enum definitions"
+msgstr ""
+
+#: ../../24.04/4.md 7da32f4a5437459fbef514318a25f00b
+msgid "[2121517](https://bugs.launchpad.net/bugs/2121517)"
+msgstr ""
+
+#: ../../24.04/4.md c65f50eca69a49a7837ed0329fe0146d
+msgid "d/p: Correctly track the current privacy screen state"
+msgstr ""
+
+#: ../../24.04/4.md 8902b78d40fd4612a2580eba6ec89804
+msgid "[2131283](https://bugs.launchpad.net/bugs/2131283)"
+msgstr ""
+
+#: ../../24.04/4.md 9bb3a7b058214bc49ace253e217a8a4f
+msgid "Add Preferring Wayland to Dell Gorgon Point Platform"
+msgstr ""
+
+#: ../../24.04/4.md 617015f644244a39bf7bc3009b18909a
+msgid "[2131690](https://bugs.launchpad.net/bugs/2131690)"
+msgstr ""
+
+#: ../../24.04/4.md fb083cdf543c4dd2bdd165edf2557572
+msgid "Fix grouping icons"
+msgstr ""
+
+#: ../../24.04/4.md e3f4aecccd174424ba611f70a51f4588
+msgid "[1971434](https://bugs.launchpad.net/bugs/1971434)"
+msgstr ""
+
+#: ../../24.04/4.md b2e635732e674e08b8c8b91f35f244b1
+msgid "d/p: Make sure the monitor is powered off when screen blanks"
+msgstr ""
+
+#: ../../24.04/4.md 18d3a97e5e9f4fd9a2f825f681c71833
+msgid "[2133206](https://bugs.launchpad.net/bugs/2133206)"
+msgstr ""
+
+#: ../../24.04/4.md e6bc6b955b964987881370375f8b6ce0
+msgid "d/p: Fix input deadlock when dragging windows with touch on X11"
+msgstr ""
+
+#: ../../24.04/4.md b133ad322ba943f09242736893373a93
+msgid "[2131575](https://bugs.launchpad.net/bugs/2131575)"
+msgstr ""
+
+#: ../../24.04/4.md 8fca66d1c8ce45e985dfc6301be3b5bd
+msgid "d/p: monitor-manager: Improve tiled monitor handling"
+msgstr ""
+
+#: ../../24.04/4.md 746b4b2590d943c1b968deff773d2ed4
+msgid "[2116717](https://bugs.launchpad.net/bugs/2116717)"
+msgstr ""
+
+#: ../../24.04/4.md 2efce712a4774c16a8d4b8d25055d4fb
+msgid "d/p: Never close a notification banner that is about to show"
+msgstr ""
+
+#: ../../24.04/4.md 425872845ab9473bb23ed013bedbfeb5
+msgid "[1991001](https://bugs.launchpad.net/bugs/1991001)"
+msgstr ""
+
+#: ../../24.04/4.md bb1d54ebfbeb4597afc7169f2de76242
+msgid "d/p: Fix magnifier zoom in 'cursor pushes content around' mode"
+msgstr ""
+
+#: ../../24.04/4.md 5208a7e3d86d4ff8a9ccf19b9b3584c0
+msgid "[2135115](https://bugs.launchpad.net/bugs/2135115)"
+msgstr ""
+
+#: ../../24.04/4.md 0720d30acbc843c5ade6ea706a2c7668
+msgid "d/p: Silence warning introduced in the previous upload"
+msgstr ""
+
+#: ../../24.04/4.md 4def87a894234e66836fdf848bcfec0b
+msgid "Backport remote session persistence"
+msgstr ""
+
+#: ../../24.04/4.md d3e62809b046459493ac21cde6629b6b
+msgid "[2127933](https://bugs.launchpad.net/bugs/2127933)"
+msgstr ""
+
+#: ../../24.04/4.md 9363c6b7998e401d8d431344492ec5cb
+msgid ""
+"d/p/lp-2127933-fix-unattended-ethernet-icon.patch: Update indicator icon "
+"on connectivity changes"
+msgstr ""
+
+#: ../../24.04/4.md 05bd77124b9f42ffbd3f84583f365d84
+msgid "wsl-setup"
+msgstr ""
+
+#: ../../24.04/4.md 8f8057985a674e368da43ae04537efb1
+msgid "[2138661](https://bugs.launchpad.net/bugs/2138661)"
+msgstr ""
+
+#: ../../24.04/4.md 52d2e4447f594e248ac93285980400ea
+msgid "Case-fold Windows username before sanitization"
+msgstr ""
+
+#: ../../24.04/4.md:82 7da8cd82118745ada7aa842997e53803
+msgid "Server and Cloud related fixes"
+msgstr ""
+
+#: ../../24.04/4.md:84 48711977a558472691cef9c033e0b5a1
+msgid ""
+"These changes mainly affect installations of Ubuntu on server systems and"
+" clouds."
+msgstr ""
+
+#: ../../24.04/4.md c1259bbb0d9a4e2ab3193e1d5d3f348a
+msgid "samba"
+msgstr ""
+
+#: ../../24.04/4.md bcfc1f8a9bd54da5a9df4342c0437e25
+msgid "[2116098](https://bugs.launchpad.net/bugs/2116098)"
+msgstr ""
+
+#: ../../24.04/4.md d72bc388fb5c41ea8294efdc14b9c76b
+msgid ""
+"Upcoming changes to Windows Server enforce security checks even on "
+"schannel secured NETLOGON connections causing winbind's netlogon dc "
+"discovery calls to fail: :"
+msgstr ""
+
+#: ../../24.04/4.md 52876c10512f4b649eecc824ff2ef63d
+#: c26dad80abdb42a7ad96911d84d2e702
+msgid "heat"
+msgstr ""
+
+#: ../../24.04/4.md 83b8fc67f95347c38df6aa30f7ce6e02
+msgid "[2116890](https://bugs.launchpad.net/bugs/2116890)"
+msgstr ""
+
+#: ../../24.04/4.md cb4a0f6040d34162b5812f347cee290e
+msgid "Fix wrong shebang in loguserdata.py"
+msgstr ""
+
+#: ../../24.04/4.md 5c42d07b1b1349af9a14b3c60fa42b0d
+#: b76102c492644e1e85f480ffa3acb6f6 fc7ebfd8bff645f78d3865d42bbaedf9
+msgid "qemu"
+msgstr ""
+
+#: ../../24.04/4.md 68bcd3ad83314381bef77cc45797807a
+msgid "[2101053](https://bugs.launchpad.net/bugs/2101053)"
+msgstr ""
+
+#: ../../24.04/4.md 4ca70880118c45bba4ebf3c56c379a0f
+msgid ""
+"d/p/u/lp-2101053-pci-acpi-Windows-PCI-Label-Id-bug-workaround.patch: fix "
+"windows virtio network by tolerating a bad acpi call"
+msgstr ""
+
+#: ../../24.04/4.md b4e606b1f6eb44bebc4be5f942edaedc
+msgid "sssd"
+msgstr ""
+
+#: ../../24.04/4.md bb22ddc5719d48c697ad6ed3e3b42a27
+msgid "[2109673](https://bugs.launchpad.net/bugs/2109673)"
+msgstr ""
+
+#: ../../24.04/4.md 41dc4b86b05d4325b5f46d8dba8c7975
+msgid ""
+"Updating apparmor profile for smartcard authentication. Allow access to "
+"sssd configuration directory, pcscd socket and libraries required for "
+"PKCS#11 module initialization"
+msgstr ""
+
+#: ../../24.04/4.md e6d4c0cb55e147f6a7a5166fdd1d29de
+msgid "openvswitch"
+msgstr ""
+
+#: ../../24.04/4.md f8e76d79c667494b8951fd8f016f9f13
+msgid "[2109823](https://bugs.launchpad.net/bugs/2109823)"
+msgstr ""
+
+#: ../../24.04/4.md d6640f8546b446f5af971c9d91eec05e
+msgid "New upstream 3.3.4 release"
+msgstr ""
+
+#: ../../24.04/4.md 60356c70860b4c4fb4a6b5ef0f309f19
+msgid "mysql-8.0"
+msgstr ""
+
+#: ../../24.04/4.md 553a026685434e64b3c955421264e7ec
+msgid "[2120936](https://bugs.launchpad.net/bugs/2120936)"
+msgstr ""
+
+#: ../../24.04/4.md f05ad841da994cfa8bc7d88dbde22920
+msgid "Modify logrotate script to silently exit if mysql service is not active: ."
+msgstr ""
+
+#: ../../24.04/4.md 1cbcb2ff7080416489b72b7ab49ca1b7
+msgid "isc-kea"
+msgstr ""
+
+#: ../../24.04/4.md 87959d314c4a4c0d8116e0cbb524144c
+msgid "[2121327](https://bugs.launchpad.net/bugs/2121327)"
+msgstr ""
+
+#: ../../24.04/4.md 68f543abeed4403b96dd66769859c562
+msgid "d/usr.sbin.kea-lfc: add lock permission to logger_lockfile"
+msgstr ""
+
+#: ../../24.04/4.md 4848a4df438d4933b6a44bee6961104b
+msgid "azure-vm-utils"
+msgstr ""
+
+#: ../../24.04/4.md 983b9a356b304703a60ae03a8d1a1f2e
+msgid "[2116077](https://bugs.launchpad.net/bugs/2116077)"
+msgstr ""
+
+#: ../../24.04/4.md 3bfc524065084fc18e7af0933e3db762
+msgid "Backport from devel, first time in Noble: ."
+msgstr ""
+
+#: ../../24.04/4.md a509861e9b7b41d682bbed23878f491d
+msgid "openvpn"
+msgstr ""
+
+#: ../../24.04/4.md 40ad114387e04b018f72c2349081e8fb
+msgid "[2108860](https://bugs.launchpad.net/bugs/2108860)"
+msgstr ""
+
+#: ../../24.04/4.md cdc0ab845def4b909f71d648baa0dd61
+msgid ""
+"d/p/handle_intentional_route_push_float_ip.patch: Fix floating IP due to "
+"\"route VPN_IP net_gateway\", which can lead to incorrect blocking of a "
+"source IP switch for 60 seconds immediately after connection setup"
+msgstr ""
+
+#: ../../24.04/4.md 7e6a3888c48c47fd97ba1149fb3bcf1a
+msgid "cloud-init"
+msgstr ""
+
+#: ../../24.04/4.md 9ef3b107602f42b587703e93fb4a71d5
+msgid "[2120495](https://bugs.launchpad.net/bugs/2120495)"
+msgstr ""
+
+#: ../../24.04/4.md be446844e19140129ade373f4ae59ec9
+msgid ""
+"Upstream snapshot based on 25.2: . List of changes from upstream can be "
+"found at https://raw.githubusercontent.com/canonical/cloud-"
+"init/25.2/ChangeLog"
+msgstr ""
+
+#: ../../24.04/4.md f1345eb44e5343d19490f5e1270c8071
+msgid "horizon"
+msgstr ""
+
+#: ../../24.04/4.md 354a82de20c24c6a8ef488f0998b166a
+msgid "[2110279](https://bugs.launchpad.net/bugs/2110279)"
+msgstr ""
+
+#: ../../24.04/4.md 59e87e7a88d74402a90d9fe89c1dc7e8
+msgid "New upstream release for OpenStack Caracal"
+msgstr ""
+
+#: ../../24.04/4.md 8a6189508aac4a4c984baf45ccd53710
+msgid "openssh"
+msgstr ""
+
+#: ../../24.04/4.md 229a24ae845b4b3abfa5b489aab2b318
+msgid "[2111226](https://bugs.launchpad.net/bugs/2111226)"
+msgstr ""
+
+#: ../../24.04/4.md 2152d0f18c1e4b65b311608d90758ef3
+msgid "d/p/systemd-socket-activation.patch: allow AF_VSOCK sockets"
+msgstr ""
+
+#: ../../24.04/4.md 5849ec70f99748e591a39af1dc1aa320
+#: 8dd13bbbf5444d1c85b7f8bf67ef072b 9aeaceb2b0a94f349f7ee9053eff0776
+#: f6b38eadf5e24f72961ab4b822035c73
+msgid "nova"
+msgstr ""
+
+#: ../../24.04/4.md 511f214969c4483091e4c5eae30f24de
+msgid "[2091033](https://bugs.launchpad.net/bugs/2091033)"
+msgstr ""
+
+#: ../../24.04/4.md 9165b57d98ef480db04d2f3d541a8af3
+msgid "libvirt: Wrap un-proxied listDevices() and listAllDevices()"
+msgstr ""
+
+#: ../../24.04/4.md ab72097f656b4be0b3b8999179ea6494
+msgid "[2098892](https://bugs.launchpad.net/bugs/2098892)"
+msgstr ""
+
+#: ../../24.04/4.md cc2d0325a1204fef80b2715c6ff97e0b
+msgid "libvirt: Fix regression of listDevices() return type"
+msgstr ""
+
+#: ../../24.04/4.md 6cfc4dcfaf0f49108a26ca66db9d9070
+msgid "[2054446](https://bugs.launchpad.net/bugs/2054446)"
+msgstr ""
+
+#: ../../24.04/4.md e8cb5e9d2ec24f5d98fe45568f961299
+msgid "Fix device type when booting from ISO image"
+msgstr ""
+
+#: ../../24.04/4.md c6e82251fb1b42de86531d9ad5bcdf7a
+#: d91702fa671245b8b21036c37c803861 ed7e200801a647f7a804ed0acbf5ce36
+msgid "libvirt"
+msgstr ""
+
+#: ../../24.04/4.md fa17b2e8da7b4c2d9f78dd8de0a12923
+msgid "[2117467](https://bugs.launchpad.net/bugs/2117467)"
+msgstr ""
+
+#: ../../24.04/4.md f077ae66c2b14af49d8af6442a5ab3e6
+msgid ""
+"d/p/u/lp-2117467-virdevmapper-device-name-for-targets.patch: "
+"virdevmapper: Always use device name for finding targets. This ensures "
+"that all the target devices of a multipath device are added to the "
+"namespace/cgroup of the guest domain. Closes: ."
+msgstr ""
+
+#: ../../24.04/4.md bff70a2ea71149f8a36348170a9b0eef
+msgid "[2120278](https://bugs.launchpad.net/bugs/2120278)"
+msgstr ""
+
+#: ../../24.04/4.md 173d590a748c45c4baf82b148dbb8b8d
+msgid "d/p/u-aa/lp2079869-* : virt-aa-helper: Avoid duplicate when append rule"
+msgstr ""
+
+#: ../../24.04/4.md 154a0857e30d4a878fd19e012f0560d1
+msgid "cinder"
+msgstr ""
+
+#: ../../24.04/4.md 2ae02324ae9543ceb537ee21b7003e55
+msgid "[2121812](https://bugs.launchpad.net/bugs/2121812)"
+msgstr ""
+
+#: ../../24.04/4.md 568ce53fb07f4409b6a0d095e086eabd
+msgid "d/p/lp2121812.patch: Fix defaults for netapp node model"
+msgstr ""
+
+#: ../../24.04/4.md 93efc17ed00441c190dfc0ae070c9196
+msgid "[2095364](https://bugs.launchpad.net/bugs/2095364)"
+msgstr ""
+
+#: ../../24.04/4.md 2b291afa80604229b6fe698cbab4f02b
+msgid ""
+"Fix 500 error when using the /servers/detail endpoint when missing a "
+"request_specs record in the database"
+msgstr ""
+
+#: ../../24.04/4.md 9c17e2aa50e24e8691c61f4146ec95ce
+msgid "dovecot"
+msgstr ""
+
+#: ../../24.04/4.md e66d2bf3708b4aa68ae4b934081018dc
+msgid "[2107773](https://bugs.launchpad.net/bugs/2107773)"
+msgstr ""
+
+#: ../../24.04/4.md 6fdee5e06dfa4598ade73746e28d1383
+msgid "Update PBKDF2 salt length to be FIPS 140-3 compliant: ."
+msgstr ""
+
+#: ../../24.04/4.md 735329854b9b45c6adf78f38c1118e17
+#: 73da56abcdea4ae2ba7e8285a3cc1f4e 7444c5b9df6040a2ba399847be7e767a
+msgid "azure-proxy-agent"
+msgstr ""
+
+#: ../../24.04/4.md e30b2458050d42959ed03e8f2d288b5b
+msgid "[2125930](https://bugs.launchpad.net/bugs/2125930)"
+msgstr ""
+
+#: ../../24.04/4.md b1d251fcbef94ee6934ead1a134afbf7
+msgid ""
+"d/p/fix-systemd-deps-cycle.patch: ensure the service is terminated on "
+"system shutdown"
+msgstr ""
+
+#: ../../24.04/4.md b1826984c18947ebb1a447d23a9e2653
+msgid "[2122345](https://bugs.launchpad.net/bugs/2122345)"
+msgstr ""
+
+#: ../../24.04/4.md 3a7aa7dacb404a23bf75a96c8f466955
+msgid ""
+"d/p/fix-systemd-deps-cycle.patch: fix dependency cycle in the unit file. "
+"Use DefaultDependencies=no to remove the dependency on basic.target"
+msgstr ""
+
+#: ../../24.04/4.md 51e58d44daf9483c8c1960469f32588c
+msgid "[2115197](https://bugs.launchpad.net/bugs/2115197)"
+msgstr ""
+
+#: ../../24.04/4.md 554e4a9c91384728b42582d2e5eb3c43
+msgid "edk2"
+msgstr ""
+
+#: ../../24.04/4.md 84509864b20a449a9c895d90f1df4b54
+msgid "[2122286](https://bugs.launchpad.net/bugs/2122286)"
+msgstr ""
+
+#: ../../24.04/4.md f69c3e5ab75a4e81b6952a78cbf5b8ce
+msgid "d/rules: Build OVMF.amdsev.fd"
+msgstr ""
+
+#: ../../24.04/4.md 188ca16b80974af08dcf1accb7282cad
+#: 3522b3c1b65b455db8196e382244a498 79725952cd6142a0b8058998eedc7041
+#: cd999640066b4d80ab53f92bfb91d211 ef251f09f8b140b383f0db25ea412f20
+msgid "ubuntu-advantage-tools"
+msgstr ""
+
+#: ../../24.04/4.md 0b2e773742ea4bf5a8618282fee0ea8b
+#: 57c642f2ba354983938880e8568852f1
+msgid "[2129712](https://bugs.launchpad.net/bugs/2129712)"
+msgstr ""
+
+#: ../../24.04/4.md a07925d966564cb59adc996f864e54a3
+msgid "Backport 37.1ubuntu0 to noble"
+msgstr ""
+
+#: ../../24.04/4.md b3439b35391745c3ab74495791bdef72
+msgid ""
+"do-release-upgrade: immediately release the APT lock acquired to run the "
+"post-upgrade hook"
+msgstr ""
+
+#: ../../24.04/4.md 80839b152a4940a8a24034c1625964b0
+msgid "[2123870](https://bugs.launchpad.net/bugs/2123870)"
+msgstr ""
+
+#: ../../24.04/4.md 93b5547ba15040b9a29e021658c06f21
+msgid "d/apparmor/ubuntu_pro_[apt_news"
+msgstr ""
+
+#: ../../24.04/4.md 4caedb1a8e4b488a975bc7d0ccd4823d
+msgid "[2125453](https://bugs.launchpad.net/bugs/2125453)"
+msgstr ""
+
+#: ../../24.04/4.md 42b7b5ce9b60470c813a62a7b1ac609d
+msgid "New upstream release 37"
+msgstr ""
+
+#: ../../24.04/4.md dde18412c2834dd89c3afc6940af54d3
+msgid "[2107604](https://bugs.launchpad.net/bugs/2107604)"
+msgstr ""
+
+#: ../../24.04/4.md 76b03d7802c6461b8845676692e72723
+msgid "upgrade-lts-contract"
+msgstr ""
+
+#: ../../24.04/4.md 9a944c4d15754dd0a48baf4f6d52df8d
+msgid "mdevctl"
+msgstr ""
+
+#: ../../24.04/4.md 27889c05506a43b4820ecbc46cb91f5a
+msgid "[2121264](https://bugs.launchpad.net/bugs/2121264)"
+msgstr ""
+
+#: ../../24.04/4.md 96830b5abc2d41f59eef411ddee1dba5
+msgid "d/p/main-binary-already-installed.patch: adjust binary path in udev rules"
+msgstr ""
+
+#: ../../24.04/4.md 6148a73e288a42bf88def8ca0ab16251
+msgid "netplan.io"
+msgstr ""
+
+#: ../../24.04/4.md 4a03a0da8a18457aa289e63e10074c34
+msgid "[2127195](https://bugs.launchpad.net/bugs/2127195)"
+msgstr ""
+
+#: ../../24.04/4.md 37aedbd5280b4ea59a8a9b8ff999dcb2
+msgid "Backport netplan.io 1.1.2-8ubuntu1"
+msgstr ""
+
+#: ../../24.04/4.md 0756585b75174f1e83d05aa0d8849b40
+msgid "[2127492](https://bugs.launchpad.net/bugs/2127492)"
+msgstr ""
+
+#: ../../24.04/4.md 239239b11ec84bb4857cc6b6c8b380df
+msgid "d/p/u-aa/lp2127492-*: apparmor: Allow AMD-SEV device access for AMD-SEV VM"
+msgstr ""
+
+#: ../../24.04/4.md 9bd999ccb1ae42129e34d2623e2f7634
+msgid "[2127974](https://bugs.launchpad.net/bugs/2127974)"
+msgstr ""
+
+#: ../../24.04/4.md 32d7bf5004394925b4d817ed917c76ff
+msgid "smbios: Fix buffer overrun when using path= option"
+msgstr ""
+
+#: ../../24.04/4.md 65c3ba66d78d4eedaab4225636f0fb1a
+msgid "multipath-tools"
+msgstr ""
+
+#: ../../24.04/4.md 2a8f8e32ccd64a20b2e408d32d1c7709
+msgid "[2116901](https://bugs.launchpad.net/bugs/2116901)"
+msgstr ""
+
+#: ../../24.04/4.md 6dad04ff76354d439bf276a38741a492
+msgid "d/p/0005-hpe-msa-gen7-support.patch: add support for HPE MSA gen7 arrays"
+msgstr ""
+
+#: ../../24.04/4.md 1677cfe1db06495390b3b1ea8fe5aa09
+msgid "ceph"
+msgstr ""
+
+#: ../../24.04/4.md 0800ac8eeb024949b8806a42dc4c1a68
+msgid "[2134985](https://bugs.launchpad.net/bugs/2134985)"
+msgstr ""
+
+#: ../../24.04/4.md d92c5da4a96043f3b9929de1eb296e26
+msgid ""
+"d/clean: Remove entries added in 19.2.3 SRU to fix regression in "
+"rendering ceph-mgr-dashboard due to missing JavaScript files"
+msgstr ""
+
+#: ../../24.04/4.md 7c66310e08ed4022ab1a34fe48376825
+msgid "[2097539](https://bugs.launchpad.net/bugs/2097539)"
+msgstr ""
+
+#: ../../24.04/4.md ebd2f39f7dc54cd9b80b8da059a6e824
+msgid "Fix stack update when reauth = trusts: ."
+msgstr ""
+
+#: ../../24.04/4.md 660a201090a940b2bea3e93981ccde98
+msgid "numactl"
+msgstr ""
+
+#: ../../24.04/4.md e3e7517378a94ddaa782270c4faef1cb
+msgid "[2136104](https://bugs.launchpad.net/bugs/2136104)"
+msgstr ""
+
+#: ../../24.04/4.md 52828bdd10c94fd58ceae3eef67ac7a1
+msgid ""
+"d/p/fix-stray-errno.patch: save and restore errno when probing for "
+"SET_PREFERRED_MANY"
+msgstr ""
+
+#: ../../24.04/4.md 09acdff0b3e447bd85e682c482c92bf8
+msgid "keystone"
+msgstr ""
+
+#: ../../24.04/4.md 1b99539ce5464fef99384d8f4211db32
+msgid "[2112477](https://bugs.launchpad.net/bugs/2112477)"
+msgstr ""
+
+#: ../../24.04/4.md f671909f85f64a3cbc043741efe515af
+msgid "Fix query for all users in a group while using AD nested group searches"
+msgstr ""
+
+#: ../../24.04/4.md 4be316600c754a21a89df9bff14a5c25
+#: ae3fab4519c74b64b59bbc5856c3ccc8 c2871504eb2c4973a6bfa8c380d8f704
+msgid "openldap"
+msgstr ""
+
+#: ../../24.04/4.md 23848bb019404f84a92c2ccc45a3595a
+msgid "[2127665](https://bugs.launchpad.net/bugs/2127665)"
+msgstr ""
+
+#: ../../24.04/4.md 842a6807dba544d387a0359b269549a1
+msgid "New upstream version: :"
+msgstr ""
+
+#: ../../24.04/4.md e141f66100ec4e05aa8a440d0cec382e
+msgid "[2125685](https://bugs.launchpad.net/bugs/2125685)"
+msgstr ""
+
+#: ../../24.04/4.md be2bbc9698f74d4d989feb99b8ff07c0
+msgid "pbkdf2 iteration configuration support"
+msgstr ""
+
+#: ../../24.04/4.md 89726e53adbd40b18c907e336bd506d5
+msgid "[2121816](https://bugs.launchpad.net/bugs/2121816)"
+msgstr ""
+
+#: ../../24.04/4.md e3525ddaa1874ed7aa378e902caae20d
+msgid "Enable build of ppm password quality check module"
+msgstr ""
+
+#: ../../24.04/4.md 8517b563f2244d6b960ca47a76f77796
+msgid "frr"
+msgstr ""
+
+#: ../../24.04/4.md 54647563cb6348648293244c053c9e69
+msgid "[2113448](https://bugs.launchpad.net/bugs/2113448)"
+msgstr ""
+
+#: ../../24.04/4.md 5247a8040a194434903dd93d15833606
+msgid ""
+"d/p/lp2113448-evpn-vxlan-macs: fix forgetting learned MACs on redundant "
+"EVPN over VXLAN links"
+msgstr ""
+
+#: ../../24.04/4.md 16ed40663f304ab298e09426e8b3f27d
+msgid "[2131822](https://bugs.launchpad.net/bugs/2131822)"
+msgstr ""
+
+#: ../../24.04/4.md 8a82d731ee364dbb86a4c124dc4d2c64
+msgid "Do not expose arch-caps when not available on AMD CPUs"
+msgstr ""
+
+#: ../../24.04/4.md:132 7a133a1354744f3a9855273133feb652
+msgid "Kernel and Hardware support updates"
+msgstr ""
+
+#: ../../24.04/4.md:134 372925ae08294388863a1492f1e1e032
+msgid ""
+"Considerable work has been done on improving support for many specific "
+"items of hardware."
+msgstr ""
+
+#: ../../24.04/4.md 951d53096f144bb7b264e735e2ada556
+#: c52649edde7e4958aa36e02d85ddc767
+msgid "linux-riscv-6.14"
+msgstr ""
+
+#: ../../24.04/4.md 06027e7829854e02b964922e6853327d
+msgid "[2112578](https://bugs.launchpad.net/bugs/2112578)"
+msgstr ""
+
+#: ../../24.04/4.md 9d8b811344fc433c83241a2de1b67b61
+msgid "riscv64: KVM does not release harts"
+msgstr ""
+
+#: ../../24.04/4.md 70c8cda8774646f1b233bfd71d50ae8d
+#: c752ac1a48984361873995ce62160103
+msgid "linux-nvidia-6.14"
+msgstr ""
+
+#: ../../24.04/4.md 39e2b9ab42bd4646b305309e5462e40f
+#: 880ccdc38330489c97ee8249ef941a37
+msgid "[2105402](https://bugs.launchpad.net/bugs/2105402)"
+msgstr ""
+
+#: ../../24.04/4.md 463c5a64b6604fefa8bcff4368b19bac
+msgid "Plucky fails to boot on (older) Macs"
+msgstr ""
+
+#: ../../24.04/4.md 2118166e40b8439888ee377d2e45a3b3
+#: 229a024dde284461b3e81adde3020fee 321da9abee3240cebd6e11c27e2bf466
+#: 51e73dc0ef334a1e82a7513ba9d5a810 539d0b9080df46678b64ab31ce756a5b
+#: 6873b90841a449efb19b193b129f67dd 6f040be69bfe4bf5ab232bd19e99d8f7
+#: 7fd466fd12504fc4be49ab587a1b0a72 825819572f2c498dab2cab9c021e702e
+#: e6b08e6ba73b4e4f9bd114d5b60d4a1a fa65f03faba34a6d84f92e1b38d09fb9
+msgid "linux-aws"
+msgstr ""
+
+#: ../../24.04/4.md 017571eafe2f4ae7981deb15c66e8662
+#: 93a4cbaa43b84939b05cc1996230d36a a1aaf527d44b45a7902a2f3308e97196
+#: c40e1b22e3a34f30accd95d011b4e8e1
+msgid "[2081030](https://bugs.launchpad.net/bugs/2081030)"
+msgstr ""
+
+#: ../../24.04/4.md 7ca4e053435e4bb0aaf383882ce31aa8
+#: 84aa25f1a1824d74b39e14ea07cf7cf9 9d6aae8c5a2d42e39aa362e8cd402baa
+#: faafb20f11ca4c01a0277d96bfc9fccd
+msgid "Clean up packaging bits"
+msgstr ""
+
+#: ../../24.04/4.md 08a36fe6f2684acdba283c2c860e031a
+#: 0eb8d358d4c24c479902829a645179bd 28b47b8f966a400d81a080ba1a214bc7
+#: 2ac4ca2ad17e4af9bdd98dd3e151cdf0 49ab8c217f9445cbbf3dd6df4ad994cf
+#: 5d28cc626b534346a402b17d1a869482 c37bbf5ee57f4e56a87041a834d3e063
+#: e875224cc46f4e01b04104d2d5293503 e9487d17b8224df78cadaef7d8a81fcc
+#: fede81fcadeb4673ad703179dd96da0b
+msgid "linux-oem-6.14"
+msgstr ""
+
+#: ../../24.04/4.md 89c4a65e199d49a2acb2c0f7fd61e25d
+msgid "[2120350](https://bugs.launchpad.net/bugs/2120350)"
+msgstr ""
+
+#: ../../24.04/4.md 2b1afda3e8ee40e1ad06db420607debd
+msgid "noble/linux-oem-6.14: 6.14.0-1010.10 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md 50a3e4b68dfd46a481b2a9c5b922026f
+msgid "linux-oem-6.11"
+msgstr ""
+
+#: ../../24.04/4.md 686a807b5f8d447bb6cf33014aaf9542
+msgid "[2116646](https://bugs.launchpad.net/bugs/2116646)"
+msgstr ""
+
+#: ../../24.04/4.md 20d5ea6e1e55493786e0ce4bde6beec3
+msgid "noble/linux-oem-6.11: 6.11.0-1027.27 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md 1d874ba3151343f0b6565902c9fc730e
+#: 9c1f8b9aa95b4abfa828e67fc948c366
+msgid "linux-azure-nvidia-6.14"
+msgstr ""
+
+#: ../../24.04/4.md a6a5c5d21f764bc58b6606bae3e282c6
+msgid "[2117629](https://bugs.launchpad.net/bugs/2117629)"
+msgstr ""
+
+#: ../../24.04/4.md 3d77cb449e824481a4c2f9d2a251b5c6
+msgid "noble/linux-azure-nvidia-6.14: 6.14.0-1003.3 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md 1640ba68232c44179bbb3735fc5aee78
+#: 34983cd2a17f409b9cde07aa8b93eb80 518f423394334e8d91c6698a51d3f508
+#: 534dfa7dc74446e0a0b142dc1a5e5e94 6d6026e398794a2ea936e2200b0b072a
+#: 6fa8b0554ad04038b64fb29732fbaa00 8ad40b6e9dbc4518b84e6fedbe137792
+#: aa9fcd632d73424a8648f0c5e564a603 cddbddb8817e43e6972c76dcbf8fdb97
+#: cdfa5f313db0440bb4b5bae9b956bfc2 dbaa34467f584c668023cbacd1d35c33
+#: e5e7600efe7f4e12999b96ed21882fb0 f3af64d99da24281bb42ffb06e5821c1
+#: fe0e1fd120ac45cf97d55066f1794f76
+msgid "linux-gke"
+msgstr ""
+
+#: ../../24.04/4.md 27f580d709b6420698ffa129401c482e
+#: 3f90c1dec7824a4d88dfe9cd3d55e476
+msgid "[2116645](https://bugs.launchpad.net/bugs/2116645)"
+msgstr ""
+
+#: ../../24.04/4.md 4557e572e53a496aace95820fbd1f099
+#: 808949a5ac644458af84260bdd3d05c0
+msgid "noble/linux: 6.8.0-70.70 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md 0fae8f88bca549e19fc633a06cf8d4c2
+#: 97d8e3ac6324496589f9cee6c3db7c9c
+msgid "bluez"
+msgstr ""
+
+#: ../../24.04/4.md 4ab7967578a54085adad5a2e95cfedbd
+msgid "[2119741](https://bugs.launchpad.net/bugs/2119741)"
+msgstr ""
+
+#: ../../24.04/4.md 045111ce355c4ff2bb41ab5048f75053
+msgid ""
+"d/patches: device-Fix-Pair-Method-not-setting-auto_connect.patch to fix "
+"devices not setting autoconnect correctly"
+msgstr ""
+
+#: ../../24.04/4.md 0e5f2ac2818f4795afbf8c9c165824ff
+#: 230da9d91c974cb7b9cbab1c99d6680e 4b1fac9be45341b9921827a6d485fa50
+#: 4bcb6a7249d044b388a47119f7ba37d6 52ad44c0f38948cfab382fd2435bcd5d
+#: 53adf7850b7a4c178263b4bd2ee9d152 5e4e393706964eec83bb9c1838d909a6
+#: 7027f37c9ccd484ba9bb42322683cf88 715b13f839d1494eab91ad2fc3b1961a
+#: 9b32e8273f174b1ea1d5b669a26e66ee cc0522dcb6bc4ac79f546b2f147e21d0
+msgid "linux-gkeop"
+msgstr ""
+
+#: ../../24.04/4.md 54edf4597e0046c89111eb742b496e0e
+msgid "oem-sutton-deon-meta"
+msgstr ""
+
+#: ../../24.04/4.md d20b897bee4246369313119be53ef172
+msgid "[2092164](https://bugs.launchpad.net/bugs/2092164)"
+msgstr ""
+
+#: ../../24.04/4.md d2c41233d648450cb06c323885f7c542
+msgid "Meta package for Sutton Deon"
+msgstr ""
+
+#: ../../24.04/4.md d26f0a2f4bc2465cab9189ea1cb583da
+msgid "oem-sutton-delphi-meta"
+msgstr ""
+
+#: ../../24.04/4.md 817e3baf8ae14099be494ff3015a3e9a
+msgid "[2092163](https://bugs.launchpad.net/bugs/2092163)"
+msgstr ""
+
+#: ../../24.04/4.md c4cfd8c0241447be87f181c70a356b6d
+msgid "Meta package for Sutton Delphi"
+msgstr ""
+
+#: ../../24.04/4.md e0be2e11bf854330a4e6da9c493c1faf
+msgid "oem-sutton-debby-meta"
+msgstr ""
+
+#: ../../24.04/4.md 35f454d2c54c470aafd811220e6a651e
+msgid "[2092162](https://bugs.launchpad.net/bugs/2092162)"
+msgstr ""
+
+#: ../../24.04/4.md b57c4166596a4cf68782e650d9c93537
+msgid "Meta package for Sutton Debby"
+msgstr ""
+
+#: ../../24.04/4.md 7b390f14855e468aaf76f0da77b4eab9
+msgid "oem-sutton-davan-meta"
+msgstr ""
+
+#: ../../24.04/4.md ce87031c28df4ded96a2e4b90a3c794b
+msgid "[2106606](https://bugs.launchpad.net/bugs/2106606)"
+msgstr ""
+
+#: ../../24.04/4.md 5c35ba321ec942f7b8a6ea498005efd5
+msgid "Meta package for Sutton Davan"
+msgstr ""
+
+#: ../../24.04/4.md 64f598a7c28047dd8b0ba229fbe4f372
+msgid "oem-sutton-darwin-meta"
+msgstr ""
+
+#: ../../24.04/4.md 2b030a7d75d74f828ca148b43ceb2ff5
+msgid "[2100412](https://bugs.launchpad.net/bugs/2100412)"
+msgstr ""
+
+#: ../../24.04/4.md d3c046659a35453599b66a989c80523b
+msgid "Meta package for Sutton Darwin"
+msgstr ""
+
+#: ../../24.04/4.md 8bfdec79dd0047f9b5a75e063f2198a9
+msgid "oem-sutton-darsha-meta"
+msgstr ""
+
+#: ../../24.04/4.md 1259dce3bbc743b98750489ca82e099b
+msgid "[2099860](https://bugs.launchpad.net/bugs/2099860)"
+msgstr ""
+
+#: ../../24.04/4.md 94b6dcc7397a48989be5122182345bad
+msgid "Meta package for Sutton Darsha"
+msgstr ""
+
+#: ../../24.04/4.md 575832626e514e15b6b1d28ede62657e
+msgid "oem-sutton-darra-meta"
+msgstr ""
+
+#: ../../24.04/4.md 849cc784956040e89631d8e745c7c323
+msgid "[2102003](https://bugs.launchpad.net/bugs/2102003)"
+msgstr ""
+
+#: ../../24.04/4.md 02b745089eff47b2a4cbb960bbae7405
+msgid "Meta package for Sutton Darra"
+msgstr ""
+
+#: ../../24.04/4.md 44864aac354e4801ac797fe53d0640fd
+msgid "oem-sutton-darko-meta"
+msgstr ""
+
+#: ../../24.04/4.md 5713d3d5275c444faca2f6e397d7ce0d
+msgid "[2093145](https://bugs.launchpad.net/bugs/2093145)"
+msgstr ""
+
+#: ../../24.04/4.md b959724d3d784c21bc05c1c79814297b
+msgid "Meta package for Sutton Darko"
+msgstr ""
+
+#: ../../24.04/4.md a45af2f7cca14f949adac99c7f4d5872
+msgid "oem-sutton-dapper-meta"
+msgstr ""
+
+#: ../../24.04/4.md 7633507b5fec4142aa64730c2e8264da
+msgid "[2100411](https://bugs.launchpad.net/bugs/2100411)"
+msgstr ""
+
+#: ../../24.04/4.md 17d84daac23d4a35b78e526a6b381861
+msgid "Meta package for Sutton Dapper"
+msgstr ""
+
+#: ../../24.04/4.md b8cc9b3733144559b46306c6390fe864
+msgid "oem-sutton-danya-meta"
+msgstr ""
+
+#: ../../24.04/4.md a2b8d430b6c84d3d85edef713127d9f5
+msgid "[2091341](https://bugs.launchpad.net/bugs/2091341)"
+msgstr ""
+
+#: ../../24.04/4.md fe8aa91305754ccf9fabc21c6123c733
+msgid "Meta package for Sutton Danya"
+msgstr ""
+
+#: ../../24.04/4.md 4df77be427554036bac9207bc3123dff
+msgid "oem-sutton-danton-meta"
+msgstr ""
+
+#: ../../24.04/4.md a5efd53ac9a047ad9aed107f898c20f8
+msgid "[2091340](https://bugs.launchpad.net/bugs/2091340)"
+msgstr ""
+
+#: ../../24.04/4.md f8297465424b487bbc159dfdaf72caa9
+msgid "Meta package for Sutton Danton"
+msgstr ""
+
+#: ../../24.04/4.md 85e171f2c1ca42ae8195a3979f15ca78
+msgid "oem-sutton-dannon-meta"
+msgstr ""
+
+#: ../../24.04/4.md 5bfc8893499a4bfcaaab9b830ea40e5f
+msgid "[2092789](https://bugs.launchpad.net/bugs/2092789)"
+msgstr ""
+
+#: ../../24.04/4.md 5c15fe4994fb43baa11db5fa808a2426
+msgid "Meta package for Sutton Dannon"
+msgstr ""
+
+#: ../../24.04/4.md 590ebdafed704f01b4469c61b792ac3a
+msgid "oem-sutton-danik-meta"
+msgstr ""
+
+#: ../../24.04/4.md 7b3a690df0564289a1e58a4aeff0b0af
+msgid "[2089111](https://bugs.launchpad.net/bugs/2089111)"
+msgstr ""
+
+#: ../../24.04/4.md c861f55b136b4f5493f65cdaf672ca2c
+msgid "Meta package for Sutton Danik"
+msgstr ""
+
+#: ../../24.04/4.md 8cb8b3de3e254e0a989d724e0b07990e
+msgid "oem-sutton-daniela-meta"
+msgstr ""
+
+#: ../../24.04/4.md 8826e3e53be343e3bcd10d4f4d645024
+msgid "[2089553](https://bugs.launchpad.net/bugs/2089553)"
+msgstr ""
+
+#: ../../24.04/4.md f1cbc868b99d43daa7e624e62ff18217
+msgid "Meta package for Sutton Daniela"
+msgstr ""
+
+#: ../../24.04/4.md 3b0e172a424a4e05b10a8783b2cd3321
+msgid "oem-sutton-danica-meta"
+msgstr ""
+
+#: ../../24.04/4.md 12c5e6ae98034057a7d4c6b1c500ac4a
+msgid "[2099859](https://bugs.launchpad.net/bugs/2099859)"
+msgstr ""
+
+#: ../../24.04/4.md 640995d1ee104e5aa6fd16033b3826f7
+msgid "Meta package for Sutton Danica"
+msgstr ""
+
+#: ../../24.04/4.md d33d10e5a0fa41088d62c00fe1690aab
+msgid "oem-sutton-dangola-meta"
+msgstr ""
+
+#: ../../24.04/4.md d1749e4a6cd447e08e51e735f730c36f
+msgid "[2092788](https://bugs.launchpad.net/bugs/2092788)"
+msgstr ""
+
+#: ../../24.04/4.md 4e0124b6678d41b98cd6cd6f956adf1a
+msgid "Meta package for Sutton Dangola"
+msgstr ""
+
+#: ../../24.04/4.md 3b2b827da8b94f319df0a7251a7fec13
+msgid "oem-sutton-dancho-meta"
+msgstr ""
+
+#: ../../24.04/4.md 8983844c76664105af41d43252aada89
+msgid "[2100409](https://bugs.launchpad.net/bugs/2100409)"
+msgstr ""
+
+#: ../../24.04/4.md e7d77176fa1247cc9d54b0ea1aaf27c5
+msgid "Meta package for Sutton Dancho"
+msgstr ""
+
+#: ../../24.04/4.md b4d81b4a295f41d8ba5add4a01b70b9f
+msgid "oem-sutton-damian-meta"
+msgstr ""
+
+#: ../../24.04/4.md 075dd8d9da204187b65a99b60b3b174d
+msgid "[2100407](https://bugs.launchpad.net/bugs/2100407)"
+msgstr ""
+
+#: ../../24.04/4.md 0f346a283335435a9a328a4b180f2f83
+msgid "Meta package for Sutton Damian"
+msgstr ""
+
+#: ../../24.04/4.md 6b964481a28f41d6874b6b11be0f9c2c
+msgid "oem-sutton-dalida-meta"
+msgstr ""
+
+#: ../../24.04/4.md ffe9bc2a52df4dff8d08b9d4cce204a8
+msgid "[2100406](https://bugs.launchpad.net/bugs/2100406)"
+msgstr ""
+
+#: ../../24.04/4.md 29d43b13dfb24f94a91596a51e91d53f
+msgid "Meta package for Sutton Dalida"
+msgstr ""
+
+#: ../../24.04/4.md 02db68c418a34ef18d3b7a975b9dc121
+msgid "oem-sutton-dalia-meta"
+msgstr ""
+
+#: ../../24.04/4.md 3caf7e6385de4deb990d036ac0d733f4
+msgid "[2089782](https://bugs.launchpad.net/bugs/2089782)"
+msgstr ""
+
+#: ../../24.04/4.md 044f0d7fb139407095034ebcdea642d7
+msgid "Meta package for Sutton Dalia"
+msgstr ""
+
+#: ../../24.04/4.md d6946396f6394342ad886b99a85938a2
+msgid "oem-sutton-daley-meta"
+msgstr ""
+
+#: ../../24.04/4.md d9e387010e0d4d668fb05de14eae650d
+msgid "[2101930](https://bugs.launchpad.net/bugs/2101930)"
+msgstr ""
+
+#: ../../24.04/4.md ddeddcba52b544439ade33fee5ffc050
+msgid "Meta package for Sutton Daley"
+msgstr ""
+
+#: ../../24.04/4.md 5aa4054fd78442718180e81ed5c1105b
+msgid "oem-sutton-dakota-meta"
+msgstr ""
+
+#: ../../24.04/4.md 511974bfa58a49edaea62f4ac127d22e
+msgid "[2100405](https://bugs.launchpad.net/bugs/2100405)"
+msgstr ""
+
+#: ../../24.04/4.md c9afce34751e42478340708c07d25c95
+msgid "Meta package for Sutton Dakota"
+msgstr ""
+
+#: ../../24.04/4.md 7ab7d9fb59bf47bc92ac9b9996d76204
+msgid "oem-sutton-dakari-meta"
+msgstr ""
+
+#: ../../24.04/4.md c0a1146ba1b447599ecee2b1b88186e5
+msgid "[2100402](https://bugs.launchpad.net/bugs/2100402)"
+msgstr ""
+
+#: ../../24.04/4.md a3682bcf85ba42fc9ccc243caf72cfc4
+msgid "Meta package for Sutton Dakari"
+msgstr ""
+
+#: ../../24.04/4.md 4f20026a78f34194a1157fdbd0e6baed
+msgid "oem-sutton-daiwa-meta"
+msgstr ""
+
+#: ../../24.04/4.md 26bb8dd84b1c4fc1bab755af74d66929
+msgid "[2093144](https://bugs.launchpad.net/bugs/2093144)"
+msgstr ""
+
+#: ../../24.04/4.md ebfc59f3ae6e45ad946a2a7a7e79b571
+msgid "Meta package for Sutton Daiwa"
+msgstr ""
+
+#: ../../24.04/4.md 35a1e36dccf745d28cc79894ecaa07db
+msgid "oem-sutton-daisy-meta"
+msgstr ""
+
+#: ../../24.04/4.md 86c57da97cc84f2db8de2828456e3bc0
+msgid "[2092787](https://bugs.launchpad.net/bugs/2092787)"
+msgstr ""
+
+#: ../../24.04/4.md faaef91d0d2f4552b61f918c9c5f8ecf
+msgid "Meta package for Sutton Daisy"
+msgstr ""
+
+#: ../../24.04/4.md 0b5fc8a949a74d88a2697c698762face
+msgid "oem-sutton-dada-meta"
+msgstr ""
+
+#: ../../24.04/4.md 7aef5956e0da4842a4f2be3bd171fc5f
+msgid "[2091339](https://bugs.launchpad.net/bugs/2091339)"
+msgstr ""
+
+#: ../../24.04/4.md 963c5add809d471e859b107e9f062e53
+msgid "Meta package for Sutton Dada"
+msgstr ""
+
+#: ../../24.04/4.md 69d180055896459cad9a0dbf5f7ddd6b
+msgid "oem-sutton-dacia-meta"
+msgstr ""
+
+#: ../../24.04/4.md dc76e622baa44ca4ba33b55927257c4b
+msgid "[2089108](https://bugs.launchpad.net/bugs/2089108)"
+msgstr ""
+
+#: ../../24.04/4.md 230964bba428427a9c9e6f03194c2794
+msgid "Meta package for Sutton Dacia"
+msgstr ""
+
+#: ../../24.04/4.md 9607b9078db34334bc4555b45f321dfd
+msgid "oem-sutton-cayla-meta"
+msgstr ""
+
+#: ../../24.04/4.md a587571d813743839a197ea2674fbc37
+msgid "[2089107](https://bugs.launchpad.net/bugs/2089107)"
+msgstr ""
+
+#: ../../24.04/4.md d809bfff31d149028ff393d89bf24a1a
+msgid "Meta package for Sutton Cayla"
+msgstr ""
+
+#: ../../24.04/4.md 90a318d9587443cdb0b0b5f54517f991
+msgid "oem-sutton-cason-meta"
+msgstr ""
+
+#: ../../24.04/4.md 6e22ff4d4b2d45e689f2bba117b1a4c0
+msgid "[2089106](https://bugs.launchpad.net/bugs/2089106)"
+msgstr ""
+
+#: ../../24.04/4.md 3bf8b91c05f445159f42d4d7db66afd3
+msgid "Meta package for Sutton Cason"
+msgstr ""
+
+#: ../../24.04/4.md c3fefab3cb3d4b64a2fa9d3d556f442d
+msgid "oem-sutton-calix-meta"
+msgstr ""
+
+#: ../../24.04/4.md e77830751e4542148b56ad2d72fb5798
+msgid "[2089105](https://bugs.launchpad.net/bugs/2089105)"
+msgstr ""
+
+#: ../../24.04/4.md 0ca7b68edd754f02a0e519857b6a8d0c
+msgid "Meta package for Sutton Calix"
+msgstr ""
+
+#: ../../24.04/4.md f15ede0c31524d01a304e118d046bfa9
+msgid "oem-sutton-caley-meta"
+msgstr ""
+
+#: ../../24.04/4.md eff70d38ff024c6482da3e1f954f42a6
+msgid "[2089104](https://bugs.launchpad.net/bugs/2089104)"
+msgstr ""
+
+#: ../../24.04/4.md 418487b221b04e4c9020c2a7d4e2895a
+msgid "Meta package for Sutton Caley"
+msgstr ""
+
+#: ../../24.04/4.md b64af3df27b54dbbba0c4bf8bbfc256c
+msgid "oem-sutton-calanthe-meta"
+msgstr ""
+
+#: ../../24.04/4.md b800869467f54e82a7137bc360b526c2
+msgid "[2047834](https://bugs.launchpad.net/bugs/2047834)"
+msgstr ""
+
+#: ../../24.04/4.md 8303628247cd48998e64eb95a4848c1c
+msgid "Meta package for Sutton Calanthe"
+msgstr ""
+
+#: ../../24.04/4.md 434e36ad2bea4912a8a74c45a3fef56b
+msgid "oem-sutton-baz-meta"
+msgstr ""
+
+#: ../../24.04/4.md 4314e9d3340a4ba29216785279077086
+msgid "[2089552](https://bugs.launchpad.net/bugs/2089552)"
+msgstr ""
+
+#: ../../24.04/4.md 96b76e4eca1146318116cd37db619b54
+msgid "Meta package for Sutton Baz"
+msgstr ""
+
+#: ../../24.04/4.md 8334456d6b0c48bebbb39e1274ceadd4
+msgid "oem-sutton-bast-meta"
+msgstr ""
+
+#: ../../24.04/4.md 5e61b8dc23b44657883618291ab75170
+msgid "[2089115](https://bugs.launchpad.net/bugs/2089115)"
+msgstr ""
+
+#: ../../24.04/4.md 824e762e5969449bbfff3c9a4a23c134
+msgid "Meta package for Sutton Bast"
+msgstr ""
+
+#: ../../24.04/4.md b2c94e3e2a3547c0bde50ce2ae33e78a
+msgid "oem-sutton-bash-meta"
+msgstr ""
+
+#: ../../24.04/4.md 4d9db6d9c215485a9cf0365b8aff8569
+msgid "[2089114](https://bugs.launchpad.net/bugs/2089114)"
+msgstr ""
+
+#: ../../24.04/4.md c774bfbde5d34b039a22b664ab10ecb6
+msgid "Meta package for Sutton Bash"
+msgstr ""
+
+#: ../../24.04/4.md c345b995fa1b40c383894e8728c3baea
+msgid "oem-somerville-boldore-meta"
+msgstr ""
+
+#: ../../24.04/4.md 8936053800364a5ba97cc37e14bfcad1
+msgid "[2089077](https://bugs.launchpad.net/bugs/2089077)"
+msgstr ""
+
+#: ../../24.04/4.md f436276a3201427f8d7a95406f44aaec
+msgid "Meta package for Somerville Boldore"
+msgstr ""
+
+#: ../../24.04/4.md 65adcf72e38140f79b6657f430dcba87
+msgid "oem-somerville-aggron-meta"
+msgstr ""
+
+#: ../../24.04/4.md e046d14f20744ce480a32cbacc15a5ea
+msgid "[2089075](https://bugs.launchpad.net/bugs/2089075)"
+msgstr ""
+
+#: ../../24.04/4.md 53e2e7ace4bc48eb81ce15cfc0de234f
+msgid "Meta package for Somerville Aggron"
+msgstr ""
+
+#: ../../24.04/4.md 9743aab12c64437c9713f24c04638bc1
+msgid "oem-somerville-delcatty-meta"
+msgstr ""
+
+#: ../../24.04/4.md 84ab52e7794741259d783f1ff0cb2fc3
+msgid "[2089080](https://bugs.launchpad.net/bugs/2089080)"
+msgstr ""
+
+#: ../../24.04/4.md 938a021655514fedb6db1c6300d152bb
+msgid "Meta package for Somerville Delcatty"
+msgstr ""
+
+#: ../../24.04/4.md 03b4a28f47f24aa4bfc550345a8680e0
+#: 0a22d05d8c1443abbd2135a1b1bf4848 1711d2a64f5f4376b7c571b6eb124bd5
+#: 18ae18cdcfaf4ca4a6575f0637d15dec 1948890ecedd47eba2f6a78e105afe3f
+#: 1a565918685b4e27995e445bd6650e1e 26112999d2224c0f94c29545d0c0bd4c
+#: 413b475e88ee4c9ca3d5b5c9596d467d 4a37bf831d84419e9a05faad6daef2a4
+#: 4abb85fd9371427c9cfb45da75107e55 4c1454479d5a49bfb7519ababeff5c8e
+#: 50308525521b4056803e8e9ad82cf196 56862417f0fb4926b6fbf0e845446f7a
+#: 5874ca2dab2c49ae93f0100819b3137a 5d8bacab62b0472ebcba65c29d9ee7f5
+#: 638d5761282744bebaa05dac7e7ffaa5 67d6af747d09472f9a4804a6ca058fef
+#: 69a0c91b27c249b9baec4dfd59c51bcf 6b19d893f5fe4a91be90890c33705ec1
+#: 767ab2ed78af489387002a309d45dcb3 79be1c9fbd9d47489899cdf073ce263e
+#: 8b9d392e9fba48b698bb8804f13a9996 9039d737b3c34f928070572de033cb92
+#: 93fe27aa38b846738b46d9214f159baf 9586a6632e42492f9eef1708820035f7
+#: 9bb98f6f3b9149379da8a60a3b21e570 9c52e797cd254c8ca4fc3fb8266f10b3
+#: a6af37360e60458f8f44adb71610635b b84ce589b91041d3b42f91751edd63ff
+#: b8934f6b9f59472b9c96db8913d768a2 bd8e8a3980e343f4be9b70164aa3a1d3
+#: c55212fecce444c480bf59631953fb3d cb3ab9ce0d96478b99ed1f0c8312fcb8
+#: d6fca0741585461fb94f93c7915b5231 ef74fb1910434b798660f687bd562b02
+#: fdc8848c2f8b4649947b673f385797c4
+msgid "linux-firmware"
+msgstr ""
+
+#: ../../24.04/4.md 12dfa0b972704eb89bdf2778dec73c74
+#: 94e58adafc374dafb709b11a6cf86915
+msgid "[2119501](https://bugs.launchpad.net/bugs/2119501)"
+msgstr ""
+
+#: ../../24.04/4.md 6487a82e234745dfb06d349867fb4b51
+#: e95accc8b25d4841ac6dffb0445e2d98
+msgid "[SRU] AMD Image Signal Processing (ISP) firmware update"
+msgstr ""
+
+#: ../../24.04/4.md d43d92fa76324e8bb28bacba642017b9
+msgid "[2110106](https://bugs.launchpad.net/bugs/2110106)"
+msgstr ""
+
+#: ../../24.04/4.md 277b9c177b404c71babb9bd24c2b5a2a
+msgid "Support WiFi 6GHz for Philippines on Intel iwlwifi chips"
+msgstr ""
+
+#: ../../24.04/4.md e8caba34bbed45758d79c2ea0263606d
+msgid "[2117463](https://bugs.launchpad.net/bugs/2117463)"
+msgstr ""
+
+#: ../../24.04/4.md ce00699f72b44be2997da5770c004a0e
+msgid "Update GC 11.5.1 microcode"
+msgstr ""
+
+#: ../../24.04/4.md 06fb83ce4be24d81bc1c9337029ae090
+msgid "[2119210](https://bugs.launchpad.net/bugs/2119210)"
+msgstr ""
+
+#: ../../24.04/4.md 540b93a77ecc4e479565e89f5747e228
+msgid "Navi44 fails to load amdgpu"
+msgstr ""
+
+#: ../../24.04/4.md f1ca89ec60094e219b5407d1f4000059
+msgid "[2118886](https://bugs.launchpad.net/bugs/2118886)"
+msgstr ""
+
+#: ../../24.04/4.md 3594ac55207846d6a5812fc80c63418e
+msgid "Bluetooth firmware is missing for Intel AX203 card"
+msgstr ""
+
+#: ../../24.04/4.md d278306de195458a9c4dff91d9ea1f3d
+msgid "[2119627](https://bugs.launchpad.net/bugs/2119627)"
+msgstr ""
+
+#: ../../24.04/4.md 0c8f6037628141e899f0c97094e2ec7f
+msgid "Update GC 11.5.0 microcode"
+msgstr ""
+
+#: ../../24.04/4.md 20f40a5b8f9c4df3b6813f24cf71c0ec
+#: 30f9d92728324b9db11b83a6ced6bee7 e512a5c9c5d94fd7ae6c1b461ee90e0c
+msgid "nvidia-graphics-drivers-570"
+msgstr ""
+
+#: ../../24.04/4.md 22ea61f0debc40f8a32183dcf359a7e1
+#: 82e46b7113ce4d308f94bcfaf808e840
+msgid "[2117176](https://bugs.launchpad.net/bugs/2117176)"
+msgstr ""
+
+#: ../../24.04/4.md 309489df6b74496c861749fc160ced53
+#: f33a48ef7c944f3faeee5db8ccf5eb89
+msgid "New upstream release 570.172.08"
+msgstr ""
+
+#: ../../24.04/4.md 1318ee984dcd4ce0bcc58e800fcf7d2e
+#: c2e20b690bbb493a8315c1aa130b0a17 f278f846977846d0a121783ba462370e
+msgid "nvidia-graphics-drivers-535-server"
+msgstr ""
+
+#: ../../24.04/4.md 32fb26fa871f4817b1eacc770564cb87
+msgid "[2117177](https://bugs.launchpad.net/bugs/2117177)"
+msgstr ""
+
+#: ../../24.04/4.md db6b2ec609e941a19fc8c82f37249131
+msgid "New upstream release 535.261.03"
+msgstr ""
+
+#: ../../24.04/4.md 2ae964bbe4b34e999558488c718e0de3
+#: 5b4d428b732c442791f5c2502b13766c 761b01a39aa64737b5e1de8b1acc9bd4
+#: bfdca8cb073c49399d0e743fda08444c
+msgid "nvidia-graphics-drivers-570-server"
+msgstr ""
+
+#: ../../24.04/4.md 76c7a0c91e9148bfa0ad5a1899172a74
+#: 90af330500b84234abf9eea551370f06 d13819e288ab49ef9838d44df4ada7fd
+msgid "linux-gcp-6.14"
+msgstr ""
+
+#: ../../24.04/4.md 345f76bd7a784914a771bf08b9e4edf7
+#: 4c3d3465d55e4ebea66ffacfef32d709 633763587f8c409380e4265af60dd53e
+#: aa798a558d774dbfaa760518a7ea8174 cd94e769825d45709c87e330d1652409
+msgid "nvidia-graphics-drivers-580"
+msgstr ""
+
+#: ../../24.04/4.md 60ed40d134d54b7eb331bb71036423cb
+msgid "[2118901](https://bugs.launchpad.net/bugs/2118901)"
+msgstr ""
+
+#: ../../24.04/4.md b03a6c8bdaca4beb9cb038a4c83e0938
+#: d667527e5ef943c8814e28571561be8a
+msgid "New upstream release 580.65.06"
+msgstr ""
+
+#: ../../24.04/4.md 1849375335094aeda0120a6f200b007a
+#: 2b119611c15641bd80ccc30fd77e5785 a1df820b01da4f289519c63d60ebb56a
+#: d41cb78493134f8caa1d8bacf5483442
+msgid "nvidia-graphics-drivers-580-server"
+msgstr ""
+
+#: ../../24.04/4.md 41f23097d60c4a5e899434fd5ea94aec
+msgid "[2118389](https://bugs.launchpad.net/bugs/2118389)"
+msgstr ""
+
+#: ../../24.04/4.md 05b40aeee7614c4ebe115b742c518268
+#: 1689576175b3401b9e35cf56028f697f 2c5cde4cbec541f3bad5319ffde1a615
+#: 31e6da3db5ee4a2883267932e0792cb0 35c43d074c494f4fbd59ec16b213e22d
+#: 4280157202284788ae3ede3b05426ba0 4aa9cd2bd9164f23b0781c2d156657bd
+#: 522c82d32ca94e6e95d1268a6b423bb5 55d80370d2a3485c824c19a76812df58
+#: 6406065e02524efc9592a5c841c22458 68984d27d5804c318c29e74aa1d37ec5
+#: 79cd68974edb45d68aed36d724f51745 82e1dd97b0764ee2a0123a323bb1eb81
+#: 8a4dc5592c074d658eff96d3ff5fc6e6 8c69f0e3e2eb46e9aede2bd80b283583
+#: 8f0f769f20a54deca4d2e0e33fe4fcd3 96cbc7e18b4546ea84463e0e7ff21d6a
+#: a425d3ce2e874fb7857b3272656ee4af d4fbee15bf334cfe8de8128e5b23ea4b
+#: e09def915b9e4c07b27cb465487523bd e17c99d88665488589ae1f309a5125da
+#: e89d25a28beb4320bfce3fcaeccb8eec efb135b7c79e46e2a63450cb3c9b89ad
+msgid "[2118499](https://bugs.launchpad.net/bugs/2118499)"
+msgstr ""
+
+#: ../../24.04/4.md 105379e08a054ebea8959829ecc48b05
+#: 108360cd4a0144ffa0bd3b15e09957ea 1dde90b4f4d54b5b85909b969be2571d
+#: 215d189873594b3f95765ff365dc0e70 2bac70f127b3401ba9569aade9214abb
+#: 447eea2d79e548159de9f742d1c58b70 5dbdac079e4a4c168226e0b61a9c06e3
+#: 5f6474eab6c24503bbe7570c1c4d17c2 72152053c89d46b29b394b4e2b600c0b
+#: 7566978a0c2a4571b95b2754daf2b817 7974ac220b544a4f839d491825b15e0b
+#: 7a4571c2840f48db8ae55d96661f8a28 7ad920068bf240648c30c7e9bffaa55e
+#: 88e472896b7f4f0d99954f9ff9329ed7 98e7869230c64cb1b938afd62fc3ccb5
+#: b4ddff85c6a24d398bd17a0b7ecc17b3 b6050bdc5321456fa5537d96d6bcc0aa
+#: bb15f577b78742a089cd94a27787e82b d1fec6d1b1534cb3be11f6a9205ff255
+#: e0943d675ccc49d29558fb7af1564e86 e2daf1b3c054435eb619db9552b5d03b
+#: e479e64184884298ab18166dfe011fe7 e98fea8345444b03bbe944c6fae1247c
+msgid ""
+"minimal kernel lacks modules for blk disk in arm64 openstack environments"
+" where config_drive is required"
+msgstr ""
+
+#: ../../24.04/4.md 20cedbf1dcc04266a5ba4a1dcf0c2f5b
+msgid "linux-meta-oem-6.14"
+msgstr ""
+
+#: ../../24.04/4.md 2b7071c7474b4e5f8358a160c4794cb6
+msgid "[2122009](https://bugs.launchpad.net/bugs/2122009)"
+msgstr ""
+
+#: ../../24.04/4.md 6bf699281e9c4975910b8d6f0ac85fde
+msgid "Migrate oem-6.11 to oem-6.14"
+msgstr ""
+
+#: ../../24.04/4.md 039918afebe54405b7a50946b88118c8
+#: 0418160a6f6a4cd0be2ea69aaf79b4f1 0a2f4eabd45843fc83d811531ed8010c
+#: 0fdf80c0968a41f49dc240a5ba1dcd74 15f92ba590f44f8d863b3b5b08765c57
+#: 26d82b20a6494220af25745c3b0ec58b 2d269116a4da4a33b5819298f69f1755
+#: 2d53d21d81d54a189b17a01583585ec9 2ddaf93b160d44ea99c86ee44911ac17
+#: 33828416223744cc856ff3b7feb2ad43 34badeafd76e49e0b94f3051e02c96e6
+#: 37b64989e5f0491d9f0daeaf114f4e04 3c300fe5731749b9b38f593131f04009
+#: 3e8bbb3e2ff24748871df3ba9121ea0a 52a25ba7c2334a858b1a173025589bd9
+#: 53a867dee7ac4c19ae71a91c53cf2875 59a3e01e9f6843f8b7b23ca3566c3e12
+#: 5c6a6ae7076646b18c0ac61a9ebc2c55 5e19da8f62534eda98de3bcf897e9b13
+#: 688aff9c66404856949e1a9bf5758e70 6de6d59bf04d4fe18aba8f0b840dc0d4
+#: 7a12d1286ac54afb9941d228b64a2918 9349fea8b3ff40b284c4a6580e397ce6
+#: a505072961964efcb2858e24d13f884a aaa8abc16b8048dbafef9a6f91e42421
+#: ad2a87f41aa14114b1a8cd3c1db76fb2 be9198a704854ea9afa4963353cfd1f1
+#: bf204e7e248f48308d53bf808e1c3811 c7982dae6ea345eda5520d3455d95df1
+#: cb80de385ad841e486cc1aaca8da0e80 d13db1a41f3a49208b52b6bb81441c38
+#: e3b1eed1d6fc46a0b14d6b2843dde9d6 e429018377534c1a96b6a99318698cbb
+#: f4759828ee3e442d912a4d5afaafc42b
+msgid "linux"
+msgstr ""
+
+#: ../../24.04/4.md 0d683df5df6b4de093c53dbd51be27bf
+#: 3e4c74dec58641dc8ff26c040ceb0e2b 42f443ed1f784ce2b51e45c202e113b7
+#: 7fd476d2372548ac98683e282b5ca7d5 8bd59412110e47b69a3752a00effee13
+#: 9513ce1e3b3c4deca3e18f31571e54d0 a62d72ab10f84ca2a005b101352ab25e
+#: bf07b57f3451476da5abbda2494957ad d06f7ae4552643c1a006a26ab7bd26b8
+#: d3f0d89b2d084078bf0eff556ac5317c eb9c5def4f79456bb1fd3bf54282cf64
+msgid "[2121671](https://bugs.launchpad.net/bugs/2121671)"
+msgstr ""
+
+#: ../../24.04/4.md 02118911e792482ca26610c952b5ea30
+#: 11bcfca3ffd44e9597a63dacd7d94cd3 17c416b68c584ef7b5416e7032cd103b
+#: 1f2876c04a154222bc1d5796a31783da 3147d7f2cafc4fe7b0227fec8a7045ad
+#: 34315438bd9a4c64b70a7404ef1832f4 5a751046df9644249475d1ab7dc91987
+#: 6d043cc5c0f44c24a0b2bf94ba22f44d 78834837c67646328bc9b0af38da3b69
+#: 7c4a46d5f1774759a7bd38ee722117c8 e0b993134e1f44989b67d44ca1e72315
+msgid "noble/linux: 6.8.0-81.81 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md 545bdba406c64229baa5a5e0736f1edd
+#: 61f02ead3e804acf8f0c3e427ed0d676 63efbd583ef5416c80aa221c41806c75
+#: 708fe5f4966947b7a99c4e4c4fc2d2b1 78e591dcb9e04224b35feed127d6215e
+#: 7f4ad7a1bfc04c469af12a486c891ad1 90594b95c8934772aa32e865ede6bb71
+#: c0fde89c2bc6488990cf4d6ef06efece c9bbdee9f5de40dcbec94ba5342784c9
+#: d865f2d798b746e2b07b20b54af8e291 e333a980c0104434a7c0373c5a992abf
+msgid "[2117123](https://bugs.launchpad.net/bugs/2117123)"
+msgstr ""
+
+#: ../../24.04/4.md 138e5e9d0ecb453e9dab5f17d8696837
+#: 2899fa53cb064248ba12f4d028cb7495 438e7a27b86b4a3b9cf116d1aad131c1
+#: 47919bca7ae1487c82dc4d4f9f0a8723 52175b49ec5e4d018dae2d3fe0cbfecf
+#: 7a7768d97ffc4b968a5a44584c0635ce 866d236069b847ab948ffa1f88a7aae6
+#: 9882476266a84dd2aa1ac84d3d1a6631 bdcba52765f244c58b2144e2f03fd3b4
+#: c426938cdc674a6d8983775003706e6b ff2493bea08346348e33d793a86426ed
+msgid "rcu: Eliminate deadlocks involving do_exit() and RCU tasks"
+msgstr ""
+
+#: ../../24.04/4.md 0974b4192aad4acc92517fdda35b0583
+#: 1e94c3dabbf54f51b89bdcc7d45ebba3 3f8de0ca99214e748559ada3cebf4e5f
+#: 443a760f88eb431987180b3c43e79481 53652401f30b42ce8a26ae8385f1f79d
+#: 59a0b9d99555487b9656d9476df234bc 5e1ae04c64ab4c19bd510fe8bd4506a8
+#: 685c9802cc3d45ee9d0b9c5516fc60c3 6b8cce56e010420ab70081c4652dd7d4
+#: a785ddfa1c0644c091b4e120a4531e77 d5c7f5b62dc3488fac52bdf4df9348f8
+msgid "[2117716](https://bugs.launchpad.net/bugs/2117716)"
+msgstr ""
+
+#: ../../24.04/4.md 0359a1bf431b42eb826ab48bf3183bf2
+#: 0a5f056449644141a1861856cfd53ae5 2389df49f4194dcb82397caec93a5d57
+#: 26edcead11a54c5eb0a6898bea39fe8e 27bb7be7a8084faf9b01ef1bb527fe68
+#: 4b270895051342ff83670e5a141ef9bb 56bb67a9c920463ab13cd20609d9b90a
+#: ad665943e4e14d709b6fca9eb411d31e d5f6a1066a254f16b15978372296a470
+#: f35288e857094911aa146364d7cca78e f583add6fc46415993c09c65eabc9c8e
+msgid "i915: support ARL-H gpu"
+msgstr ""
+
+#: ../../24.04/4.md 1b4abf40a7a546ac9c2e8742cce69908
+#: 3aff5f0cc084411294d5c4eeb5adbef3 5e1c0338d8374e4c821a372817217e26
+#: 81bc8d4e55f3436eba1350fd1ac67292 9358223be3934a478bd2a892a962d3ce
+#: 992cb9618fb04082a716068453e85b16 9d70e0eda0df44b69868d6953f44d70b
+#: c622c4f3de2e4588be7d095b21f7cba2 d4ffe55964184e6486015ed88bd5dd05
+#: f0121f6c32b0458b905c611c497d6c59 f715884cbad4449d92e07ca8458612a8
+msgid "[2115447](https://bugs.launchpad.net/bugs/2115447)"
+msgstr ""
+
+#: ../../24.04/4.md 257dd136948e4a2cb0649970f88b1959
+#: 43d9fa01810a46c395ce7a733c8bb776 61722a1529c54703b3d74f34a7c67df1
+#: 9429d9730c7a4a498b77c5fca2eed1ac ae0001fbf9224bcf99e34aa0248b4d0a
+#: b31543cddb2741949b968e3d37838aed b81222401d0c442dba7396e157f40dec
+#: b90df8daf64a4ae18c33bdaa98f0826b c69bb68972324a848af4512f32b406c7
+#: dcd479ee1e5e48488924c1d733fa8ac0 e394afb5071e4425b127f94cffbbfd8c
+msgid "Ubuntu 24.04.2: NULL pointer dereference with Ceph and selinux"
+msgstr ""
+
+#: ../../24.04/4.md 0b477260b874482386b18bf515f90a19
+#: 10139291ee664b1ca91314f7842cd830 434bea72b3eb4cb9b2613501c789ce78
+#: 5d5f019ded03427b94449dbe36d41309 785352b379184fc09a502497c7d0d443
+#: 7f7d5eb226354492b69a198cec8d2896 7fc7ee60e6e5441da58f64c6e1456803
+#: 8a02d525bd4c4436850bf48443db536e 955dd949d1f54685ae60e25144b69c5d
+#: a5427943d8e04872a55362868b366f0b fdf1b267b0ce4c3b9a31558a1053a21d
+msgid "[2119458](https://bugs.launchpad.net/bugs/2119458)"
+msgstr ""
+
+#: ../../24.04/4.md 02639b3c965e4081ac1805ec9b13e5f0
+#: 33e68ae6e7014c7487fcb15f85f98e1e 381c2f7792644422b942e07ba1b7d44a
+#: 50b98a782d75446da4c404218202f0b5 5fda9e0cd5964b18a20f006512c7cf33
+#: 81c418da95a14f65b476e2eb930fff29 8411db278e70442bb4a4e9680b0ce65f
+#: 9f7fcbf86692410fa9b51bb1bf2206c4 aaa678b9b8274c399d4ea3021efb0984
+#: ac1d36a49bcd4350850d684996d03aee b9849107c7d344d688cebaf5679b8f8e
+msgid "Noble update: upstream stable patchset 2025-08-04"
+msgstr ""
+
+#: ../../24.04/4.md 09106feed52b4fd1a750148f526f338b
+#: 2fca0d7bf8c146fdbfeee5373bf11d98 30699e9d2178497e886183a2af7dbdca
+#: 4b0976fda5274feca72bbb6edbd86ed8 7114f613fdf04d8ca28246c6130be79e
+#: 7d799743ebfd4f36805c0c29e7355611 82086ee260b24fa19216019a80d94970
+#: a94d6144c22d47c78fe7c9914416560b a9619cbea6ee4a1dbd18d24200197180
+#: b194a566fcc24a44a2489345c452bc15 ee8f8b3437c642d48614d6ee1f4a0336
+msgid "[2118927](https://bugs.launchpad.net/bugs/2118927)"
+msgstr ""
+
+#: ../../24.04/4.md 16182c7e46514941a8b1af7b1eddb15c
+#: 1fcc2ad19e1945a19d839168b32b0f76 34c949e80700437eb8891f8f4f30eeec
+#: 3be19737d5c24282937678144ec30bfa 5dbb5990941f4914a77ccdc433767e0b
+#: 832f6f2052a443638d678091a93dd81c bb92d25dce254f519c9fe2e2ab797270
+#: c5475a00fe6f4536b636ba037164251a d52689c592ce4b48894f6d2c647a51fb
+#: e57a0bfcd5eb49afb377cb7fbbf7a320 ea66295cefae4aedbcf51fd737465fbe
+msgid "Noble update: upstream stable patchset 2025-07-28"
+msgstr ""
+
+#: ../../24.04/4.md 1288dc2523b243be9d04401097d8c953
+#: 37dad9f9fc7c4df7922d64c1c2ad7a66 49a0458e750e46aaaf4c64be036b793d
+#: 56a1e21598674f35a14ed0321ea531e9 872508b04b374e5eb90c0497e491c9de
+#: a31b8760eb86400884044f1290f5b391 a9f2b201a868410d90477f5d1c03e78f
+#: af6e1b41b4d240198d55ae6582801e93 d8a68d67b2eb4a1481e3bd8829f652af
+#: e2c2c7e4fca4413e80692741f1c8acc6 f5f82dd8e2444be8be3f5a8f930c8142
+msgid "[2117533](https://bugs.launchpad.net/bugs/2117533)"
+msgstr ""
+
+#: ../../24.04/4.md 061b4df343604ff088d3b732e3c2be80
+#: 073cd6f60a514bdaaaac952a08c78853 0a6eb1e8f6884f2d800e7e3780667192
+#: 320d044ea6d14440942f0424872f92ad 4c8ac2c002764d0f964d9d39dd5e344f
+#: 56177db4e82d4164b5047f10b003d93b c2acce1aeb8a41ee869af497171b1de8
+#: c5366c967fa144c9b10aa21a20dfac8a e5560a42876d4d0798124072d9a94669
+#: e6802395a3d74261a3cf5bb306f484ad f327e9db912a4461a793ce0ec8f91a97
+msgid "Noble update: upstream stable patchset 2025-07-22"
+msgstr ""
+
+#: ../../24.04/4.md 2284c3b9a10a4c32bc54c7dcf674471f
+#: 3b455aaba7ad4016ab0f709708b4e4a3 618efbff207a4ab98a25c8dd9342126f
+#: 6d74a6c85b4643ac90330edac3628a22 75b3a144884246a3a6f8778873013be7
+#: 77097039100246ec9c0316fa8c6e3e87 8804d755b9d740cc937219478213a1dc
+#: 9b6c6f8161a14777bbb02581aef54efb 9bd8722c55c14775bcac83bee14231c1
+#: f2ce994fa8844b609d12ef6665d33c1e f2ed3adca88b4cef87579b1e6cef6d14
+msgid "[2116878](https://bugs.launchpad.net/bugs/2116878)"
+msgstr ""
+
+#: ../../24.04/4.md 2b2b8bb689ad4cbbbe8f0ab6dffff701
+#: 3bf652504d584d6585fd53f38ae887a8 6b2bd6c073464a4081983d10b87e938c
+#: 855edc60570540e9928b5022650c821a bcf88b2e91ed4549900bf6b6eee549f6
+#: c0a10ea54f7a4f49af7ee5f5c2c2032d c30c42181e184a6cadc8840e7bc31112
+#: d069bbc2212347d6b7b1a58c4bee5bef d5c8c353da994ac29bf3444cf2dffa95
+#: d8c48d9a918c4924820a8ec6e9e68aaf dd26d36751374d12a45cde785e27c086
+msgid "Noble update: upstream stable patchset 2025-07-14"
+msgstr ""
+
+#: ../../24.04/4.md b799f91d71f74089af6b61f26fa26160
+msgid "[2120002](https://bugs.launchpad.net/bugs/2120002)"
+msgstr ""
+
+#: ../../24.04/4.md be65b6a7acc542ca862280f16723cd02
+msgid "noble/linux-aws: 6.8.0-1037.39 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md 06d07949cc1348ee80073be30ad6d5a0
+#: 0a2f37f1d837477da0485d44ebc2fdec 2f33f98bfcdf422ea2ddd921507b3428
+#: 3fc850f72dd74fcca6d7e962b746d25f 57170e902a4540f793bb3b423876d8b7
+#: 8ee9f0d34702460db03737f2d61478c9 bbbd887bbbb34df8b2ef67f21e68ca75
+#: ce1af0de094b4f95ba6fdcc8afd18407 e1a5732e724e4ecdbc1494a875a12fe7
+#: e88e96b8dea94a4083da5cf8b958a3d9
+msgid "linux-gcp"
+msgstr ""
+
+#: ../../24.04/4.md f8f8ff93aab946b2b41a3d07c5a4c561
+msgid "[2120013](https://bugs.launchpad.net/bugs/2120013)"
+msgstr ""
+
+#: ../../24.04/4.md ed8fef0caa554b7298638f21a4b3993e
+msgid "noble/linux-gcp: 6.8.0-1038.40 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md 1665f0b18f6642b588f73321a21c9cf4
+msgid "[2120014](https://bugs.launchpad.net/bugs/2120014)"
+msgstr ""
+
+#: ../../24.04/4.md bff784e5ec9a4cdab85a22b5dbe1c0ce
+msgid "noble/linux-gke: 6.8.0-1034.38 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md 1c28395847fb4ebc8224efe46f64b4f4
+#: 3e28c1dce75e443088392d152ad86b3e
+msgid "[2117098](https://bugs.launchpad.net/bugs/2117098)"
+msgstr ""
+
+#: ../../24.04/4.md 3a3105da69834027a901bb3cf3bba94b
+msgid "Add NVIDIA Grace platform support and 64k page size flavor for noble:gke"
+msgstr ""
+
+#: ../../24.04/4.md 0d5253fe391c4e62b273860094016c44
+msgid "backport arm64 THP improvements from 6.9"
+msgstr ""
+
+#: ../../24.04/4.md 6308f5762d674f34bdf7f3206fef8f97
+msgid "[2120015](https://bugs.launchpad.net/bugs/2120015)"
+msgstr ""
+
+#: ../../24.04/4.md 97412f4bdc064cbbb09bfbbe93978e51
+msgid "noble/linux-gkeop: 6.8.0-1021.23 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md 21f3dafebd8b4db4915ff543c473e922
+#: 26a6c11320a64fc48673ca279e017268 41723b7822cd449cac273f3b290bb173
+#: 47d09e48d2c848fbbd9b097d85b2f2f9 7ad6ba8bbf5141f7901cf4b86545bdd3
+#: 80c39d0944154042885f549a313319cc 93e79b8be9b746c784deb88b4c89b836
+#: a8626fb6708449b181914acb3223e36d d8e1c4d5f0f847078b400b27b604a30c
+#: f0a1c95d289b486599b838f18accf679
+msgid "linux-lowlatency"
+msgstr ""
+
+#: ../../24.04/4.md 3fed59b6c72242a5ba8c9fd6eb102d68
+msgid "[2120021](https://bugs.launchpad.net/bugs/2120021)"
+msgstr ""
+
+#: ../../24.04/4.md c053e5fc9f9345a6952263ef612e6fc0
+msgid "noble/linux-lowlatency: 6.8.0-81.81.1 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md 10f62dfd73064dfa8649b998f84c1ae5
+#: 14ef7b2b53934c0cbadeac6aeadf558b 359ca83c9e66491e90cbf48ddc0c6f40
+#: 558a5b5920734007921c86d58311792d 5e90faf643c84107bd881308c3b6bf75
+#: 62b2b7ac332141f9bc0654ddf25fd4b5 91047a16899f4b1e86cd600ccf63ae0c
+#: b783415036f0447f9759c98e88ab3ad8 d74faf33d1e94f5a9604b68b5b52f6af
+#: e7fbbc2a940946a080b66ea9f2a3466b
+msgid "linux-nvidia"
+msgstr ""
+
+#: ../../24.04/4.md 586a099f5aa745d78ce3216ae9be5515
+#: 5ff1b3d04f7c4eb69ee962ae8709cb5b
+msgid "[2120024](https://bugs.launchpad.net/bugs/2120024)"
+msgstr ""
+
+#: ../../24.04/4.md 26e0c167eab542648aa6077f5f40355e
+#: fc44a527423743a8a907aa08b27184ea
+msgid "noble/linux-nvidia: 6.8.0-1037.40 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md 21d4a6865f4a42318dd0db08f3e7d1e9
+#: 3f50cba045be41fe87b93ae87e04ccfb 3f832984288f4e4bbd12e030aa73c749
+#: 4dc2e47fb9944cd890a16c0a66c23317 59cb66816b8441ada70681bbbbf39059
+#: 625f05c9b1c449ef8a67d4a2d5813f2c 78f9822ce30449c2a3a854090bede281
+#: 8ebb8d1ed3b345dcad98707256520e26 f7a3e0d50c254085ba0c136b1cd1f635
+#: f92c05a2efe64cbc9a37b4d96acd7874 f93c4b19b3864e90adb40643c3bdc7db
+msgid "linux-nvidia-lowlatency"
+msgstr ""
+
+#: ../../24.04/4.md dd7483c3cd4d4d4695ea3cd571d79963
+msgid "[2120022](https://bugs.launchpad.net/bugs/2120022)"
+msgstr ""
+
+#: ../../24.04/4.md 02c8e5e1823a4a978af5e25aa8015036
+msgid "noble/linux-nvidia-lowlatency: 6.8.0-1037.40.1 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md 290e708ebcf048f8888c30d5a94c1d2c
+#: 48bd8eabdc204ee0985a50482917c847
+msgid "firmware-sof"
+msgstr ""
+
+#: ../../24.04/4.md ff49223524cc4ef085a7b45fdb4c13fa
+msgid "[2121849](https://bugs.launchpad.net/bugs/2121849)"
+msgstr ""
+
+#: ../../24.04/4.md 1530a61cec274bf1bb302753ea612434
+msgid "Update the signed ipc4 lib for the Intel LNL platform"
+msgstr ""
+
+#: ../../24.04/4.md 535eaed7e3b5434785fc05aefb050bff
+msgid "[2119516](https://bugs.launchpad.net/bugs/2119516)"
+msgstr ""
+
+#: ../../24.04/4.md 298992dfdd5c431986b0641653a45eb6
+msgid "Add support for Intel Panther Lake sof audio"
+msgstr ""
+
+#: ../../24.04/4.md 3a3f2eb680354d6b95dcfbc5986155ee
+msgid "linux-aws-6.14"
+msgstr ""
+
+#: ../../24.04/4.md 960a65f6eafa4dcba3560c0b639b0268
+msgid "linux-hwe-6.14"
+msgstr ""
+
+#: ../../24.04/4.md 00a7bbf030904d389bd27c54a1a1fa03
+#: 40c5367db9774c60a2126a1c6b0608a8 4250be51f8204a6481ae7b2a53f0950a
+#: 77f68e7ae03c4337bc6ad93843aa5485 83e6153239ea4fc59c7b3c2cbead9f98
+#: 9b79750a4a28447a93c5f1a46d63f639 bdf8b84bf5f6469f97fd3b8109189e56
+#: c3b31762dbc1496aa8ba2c2578e1940b ea10396c4ba94688a83c028ca9a7b593
+#: fe8885b4391047bd8aab7a8edadde7bf
+msgid "linux-ibm"
+msgstr ""
+
+#: ../../24.04/4.md 3bf0a9afc4ae438aa7ba94e6ea1d31c5
+msgid "[2120017](https://bugs.launchpad.net/bugs/2120017)"
+msgstr ""
+
+#: ../../24.04/4.md 86bc2c89dc484e2e9f2b001db87fe2bb
+msgid "noble/linux-ibm: 6.8.0-1035.35 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md c8d0eb5844ac4513b7d5573625f30f11
+msgid "oem-somerville-deerling-meta"
+msgstr ""
+
+#: ../../24.04/4.md c45bd4458248415b84e238316a7ac386
+msgid "[2089078](https://bugs.launchpad.net/bugs/2089078)"
+msgstr ""
+
+#: ../../24.04/4.md 7a4c41f94c1047fc87ae21fe3ecc6e0a
+msgid "Meta package for Somerville Deerling"
+msgstr ""
+
+#: ../../24.04/4.md 92d03a39ea7e4777aded484881ef2178
+msgid "oem-somerville-tauros-meta"
+msgstr ""
+
+#: ../../24.04/4.md 961370a9c7174bd3bc6616e9cd38a97c
+msgid "[2089087](https://bugs.launchpad.net/bugs/2089087)"
+msgstr ""
+
+#: ../../24.04/4.md be080d40471444078cb18d5afe2c5428
+msgid "Meta package for Somerville Tauros"
+msgstr ""
+
+#: ../../24.04/4.md 5247b351a3ee43918ad3886caa89ab3e
+msgid "oem-somerville-tyrogue-meta"
+msgstr ""
+
+#: ../../24.04/4.md 29b40ca6c6084515a589d47799ce98e1
+msgid "[2089090](https://bugs.launchpad.net/bugs/2089090)"
+msgstr ""
+
+#: ../../24.04/4.md adf4aaf517c346808dfdc7f4c9ac02b9
+msgid "Meta package for Somerville Tyrogue"
+msgstr ""
+
+#: ../../24.04/4.md 3a28947c7684457eb2ab7aa3be37ee63
+msgid "oem-somerville-wooper-meta"
+msgstr ""
+
+#: ../../24.04/4.md bd97b191bf1e4066b7a90560a90a7452
+msgid "[2089091](https://bugs.launchpad.net/bugs/2089091)"
+msgstr ""
+
+#: ../../24.04/4.md 50b317e87444418a81e919a5409a253c
+msgid "Meta package for Somerville Wooper"
+msgstr ""
+
+#: ../../24.04/4.md 34773af2a86b460b8568320355c9b5ec
+msgid "linux-oracle-6.14"
+msgstr ""
+
+#: ../../24.04/4.md 1e67fabe251a47a38ec3acc37d613e5e
+msgid "linux-azure-fde-6.14"
+msgstr ""
+
+#: ../../24.04/4.md e519dc923d1b45a68bfef80c2b304020
+msgid "linux-azure-6.14"
+msgstr ""
+
+#: ../../24.04/4.md bb74a18d8c724007bd66281614813332
+msgid "linux-signed-azure-6.14"
+msgstr ""
+
+#: ../../24.04/4.md 2eea1fd06fbc41fe98144c696c73a49b
+#: 669a424c168f4eda83e7ec690043dc08
+msgid "[2027818](https://bugs.launchpad.net/bugs/2027818)"
+msgstr ""
+
+#: ../../24.04/4.md 75d961c202604911bab492b13c31ba97
+#: b1e9899039e140a4a6cadea62caff08a
+msgid ""
+"SIGNEDv5: add ubuntu-core-initrd support to the linux-generate ancillary "
+"package"
+msgstr ""
+
+#: ../../24.04/4.md 06c7c3998bab45caa7ddf51eb22c8b34
+#: 10809fe26394404e86e3124aeb222ede 1c20f3df25064c128dd592f507eb4d4d
+#: 237084eb1ff842b881384b1064d0f282 247671a74b644b14b13c28c99d52451b
+#: 2526a95dcc0f4910b0890e41592747d1 2ff7e483144046ef87f290ed60f5da7c
+#: 46eec96e02574a05bcc4da0d6333772c 4e9115627d3c4f1e9abe4877fe5fb763
+#: 516e2ca119b04cf393743ad55d0a8876 524bf5428af044e79d16fb443d478b9c
+#: 52ccd4c066c54573acc5a7396f6f9aac 697412f65f944312b72f1abdd1dc403c
+#: 724dfce50b834b5586f026f1e7ced27f 7520269de33b4bb9bf45c5dfe377212d
+#: 77cb1c886c0a40f89c0661542c0658d0 78d3ad9024334eefbeffb11e0b9f7a42
+#: 827f5ad5c7e449519297dc24b1db2d71 82f519694a9049a1b88bde7bf71741ed
+#: 83d4158fa9d04e05aed1abb9c03bcdf9 9d79d1e73b5643ffb2755ca9da0eb7a4
+#: b086fbd052e24addb2f026e43459132a b5bb35102db343e9ad83011ea5ac86aa
+#: c35503684afa435599ca37fd7f6d49f9 c7a564fb80804d6b946993aa7882931e
+#: c7ffcf27020f47cab72437e20614c570 d55734f08efb4e8899aa1e202f8b3dd4
+#: e2447cddd48f452da2d92ce90aa6711e e30693bf009f4e7aafe3f4d12bb537e0
+#: e6b9c426ea664a94bfa89bdee9189bea e730b7ca09774f05a52d4747579c35e6
+#: edfd8f8d679c4536b568ad2c02bc474b f68ef8cea8ef4171989ede9f70905132
+#: fa4e1957e3b042898cc20108980c78e6 fd63915d4dc047aca5b7cf3722e8ac31
+#: ff6e95a42ef54eb1b568bf038345d239
+msgid "linux-raspi"
+msgstr ""
+
+#: ../../24.04/4.md dc30762478fa47c4970897ab62dc544b
+msgid "[2120029](https://bugs.launchpad.net/bugs/2120029)"
+msgstr ""
+
+#: ../../24.04/4.md 786efa4f973745069bca2f23d7c1a8bb
+msgid "noble/linux-raspi: 6.8.0-1037.41 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md 22bd800996a947ce86eaf22e34818f64
+#: 29821444952440269bf10d71cb4560ed 41c3518a13954478b975143cd0c805fa
+#: 59346f5f822342189976dc19fab1978f 99f0e7525ca147bf9b141e85bbfb7bc1
+#: ab286c1da11e4aa881f64ef9b9dc63a8 bdc291564cb146268eafb14ab99dbda7
+#: d925cdb234d84d5183ad48f19b3c7c3f f7ff90c027a54bc78804446da9adc5b1
+msgid "linux-azure"
+msgstr ""
+
+#: ../../24.04/4.md 51fdd80d88894b248469a39762969df5
+msgid "[2121207](https://bugs.launchpad.net/bugs/2121207)"
+msgstr ""
+
+#: ../../24.04/4.md 02e49f51fa014a9db8cf037e8f8367a7
+msgid "AMD Krackan point system freeze at black screen while booting up"
+msgstr ""
+
+#: ../../24.04/4.md d44745a0e7d54830852ba1cbb934d80d
+msgid "[2116108](https://bugs.launchpad.net/bugs/2116108)"
+msgstr ""
+
+#: ../../24.04/4.md a7bbdf29a103403d8c9d5200b9813e96
+msgid "[SRU] Add GuC/HuC firmware support for Panther lake"
+msgstr ""
+
+#: ../../24.04/4.md 80234ba41a8c4c748be8f9580be6f89d
+msgid "[2119494](https://bugs.launchpad.net/bugs/2119494)"
+msgstr ""
+
+#: ../../24.04/4.md a5cb841b63d244e79bcfe401dfe6c45c
+msgid "Fix low volume issue on left speaker on Dell Oasis series"
+msgstr ""
+
+#: ../../24.04/4.md 9139d1b6d3704f02bbd6c7bf0107fef0
+msgid "[2121645](https://bugs.launchpad.net/bugs/2121645)"
+msgstr ""
+
+#: ../../24.04/4.md 8f5539cf36b64b0884ae41d8eddc7ba7
+msgid ""
+"Fix incorrect volume issue on left/right channels on Dell Renegade "
+"platform"
+msgstr ""
+
+#: ../../24.04/4.md bb9d396dfd344ad08614c37e04525541
+msgid "[2123814](https://bugs.launchpad.net/bugs/2123814)"
+msgstr ""
+
+#: ../../24.04/4.md 4009d69211774d78b5dc2484bc5a1360
+msgid "[SRU] multiple functions in GUI unusable, stall with AMD Krackan 2"
+msgstr ""
+
+#: ../../24.04/4.md 8a108d1167de4bae83223dc7fe41efb1
+#: c9b8cc3225ea4a278f4d6e8a0837d476
+msgid "[2125755](https://bugs.launchpad.net/bugs/2125755)"
+msgstr ""
+
+#: ../../24.04/4.md 984ddf36815b47ad9f03d9e283aea54f
+#: fa5d1fe46bec4b05826ba08b371b6b5f
+msgid "New upstream release 570.195.03"
+msgstr ""
+
+#: ../../24.04/4.md 003d5cdabb3d47fd97b90b51e74d1e8d
+#: c7e4e05346254a98ba908421d27ab8ae
+msgid "[2125754](https://bugs.launchpad.net/bugs/2125754)"
+msgstr ""
+
+#: ../../24.04/4.md f0d582f81bde4ef2bd3e3267bdd4307c
+#: f25de7dc9b724b0e8d5795802047ae44
+msgid "New upstream release 580.95.05"
+msgstr ""
+
+#: ../../24.04/4.md 5e76a8dc86f1403cb570a32770c54028
+msgid "[1876632](https://bugs.launchpad.net/bugs/1876632)"
+msgstr ""
+
+#: ../../24.04/4.md d8cb18f419bd423882dcef7142f87bec
+msgid "Preserve video memory on suspend/resume"
+msgstr ""
+
+#: ../../24.04/4.md dccd245372524e56972d7d154654e588
+msgid "[2125765](https://bugs.launchpad.net/bugs/2125765)"
+msgstr ""
+
+#: ../../24.04/4.md 9a19d52c675149eba3eda77c3b7ae816
+msgid "New upstream release 535.274.02"
+msgstr ""
+
+#: ../../24.04/4.md e8368b5faba64c808a544cfcb5ae457f
+msgid "nvidia-graphics-drivers-550"
+msgstr ""
+
+#: ../../24.04/4.md 3f216602ff374d38a50aea69bea4be41
+msgid "[2125411](https://bugs.launchpad.net/bugs/2125411)"
+msgstr ""
+
+#: ../../24.04/4.md 6285a679ae5c4f45a4f06c5680da60cc
+msgid "Release transitionals to 580"
+msgstr ""
+
+#: ../../24.04/4.md 682a26a05cc443f0b4436af44fcc85e6
+msgid "[2122382](https://bugs.launchpad.net/bugs/2122382)"
+msgstr ""
+
+#: ../../24.04/4.md 215246d2732b4eadb14ff4b408b3b91b
+msgid ""
+"Improve audio profiles compatibility: d/patches: audio-upgrade-versions-"
+"to-latest-possible-to-qualify.patch d/patches: cleanup-endpoints-when-"
+"devices-been-removed.patch d/patches: profiles-avdtp-Fix-reply-for-bad-"
+"media-transport-for.patch"
+msgstr ""
+
+#: ../../24.04/4.md 35f5693b598c4a6bb159167b6d6f44c3
+#: 3652e4405ea3481c935eaf4b07055fed 4c5989b31e474b668dd2d78de62d65e8
+#: 4e31c5e7680348d0aab893e2c6b0d7db 518d5d49f1e34b6c8d7f6610962d2d0c
+#: 53e9930fa7f7439491cf3ca06d6ee399 5c45efb88ff5499db118fbb6f0122928
+#: 6d74ba06cbcc4350bc651d10149dae46 6e421d9b1f2841d4b59218e337f40bde
+#: 9f0904d8d3e34227a163393ff765a323 bbfd88951adc48dc9ee297738dcf4ecf
+#: bc29aa3528ee45bba22c13fc4af56a4b bc7855f11ab340f8a42fef241be09673
+#: c24aef191d7a46f0b04984106411b586 c5a645c22dab4433ade9569a6a98db26
+#: c867da6b820e4a6fad060f1682bf27c1 de69a50a677b4cdcb3f5d50842d569a5
+#: e3b80ca5bc3448268205085d51de0de7 e7c3d16e979f4cbcbb8be9ac6ab4899e
+#: f30f774e18b34e1b8f4fbb97e950071e
+msgid "linux-oem-6.17"
+msgstr ""
+
+#: ../../24.04/4.md 1332aea6a9824d22bbb9100606445fbc
+msgid "[2127747](https://bugs.launchpad.net/bugs/2127747)"
+msgstr ""
+
+#: ../../24.04/4.md 9c41cf99b5c24faeaa3d5df8e7913fda
+msgid "noble/linux-oem-6.17: 6.17.0-1005.5 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md 11fa7e62ceec4007b91e0db884639e01
+#: 5a22ba226169458999a56ed43176179c 8bd3039bd9ce4e57acc83caa4c57e2c0
+msgid "[2126040](https://bugs.launchpad.net/bugs/2126040)"
+msgstr ""
+
+#: ../../24.04/4.md 07221e0f084147b0b76e708fc07385e0
+#: 76d3f555613c40d9918b7c309c88c3ff ad66bbe54bb44c40a88f6069a4926684
+msgid "questing/linux: 6.17.0-6.6 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md 84999cd83f0c49eab6df88152d04cfc1
+#: af78bff02bbf4ff1bce7f77b21df92ef ce79192be2064c4c857a67fc145f0116
+msgid "[2126948](https://bugs.launchpad.net/bugs/2126948)"
+msgstr ""
+
+#: ../../24.04/4.md 9cba87afb5834309a0dc90c16e6929b3
+#: e8b7aa3330104ab2b259b822f48be5ab ff1afeb2014f4e77b23886e7419c7ba6
+msgid "Questing update: v6.17.1 upstream stable release"
+msgstr ""
+
+#: ../../24.04/4.md 2b8cfbd738404afea8ae255902e8d27f
+#: ab9d78dc473d4e3485f3cda06c225ead c4d8c259c55b4c9985f8c448c746f5d9
+msgid "[1981437](https://bugs.launchpad.net/bugs/1981437)"
+msgstr ""
+
+#: ../../24.04/4.md 99e856fc682a4826b360befb053f6d83
+#: d5f80383b3dc482fb6f424ed84651318 dbb96fb3e7714381b3e979537a53b45c
+msgid "RISC-V kernel config is out of sync with other archs"
+msgstr ""
+
+#: ../../24.04/4.md 9c305857c9414e89b46b404902dc1cb6
+msgid "oem-somerville-jellicent-meta"
+msgstr ""
+
+#: ../../24.04/4.md e2b7fadfff264ada9cb123fa0ef46816
+msgid "[2090856](https://bugs.launchpad.net/bugs/2090856)"
+msgstr ""
+
+#: ../../24.04/4.md f84ce58086a7479aa4344f7520867f3c
+msgid "Meta package for Somerville Jellicent"
+msgstr ""
+
+#: ../../24.04/4.md 7a615d9b2c06481f8b62dcc1f72a6e25
+msgid "oem-somerville-seaking-meta"
+msgstr ""
+
+#: ../../24.04/4.md 44943024a2c349c8869000866d340ea3
+msgid "[2102066](https://bugs.launchpad.net/bugs/2102066)"
+msgstr ""
+
+#: ../../24.04/4.md a0aee28fb6e84677a5e358c4923d69a0
+msgid "Meta package for Somerville Seaking"
+msgstr ""
+
+#: ../../24.04/4.md 80235427fee6488787523a11842046c1
+msgid "oem-somerville-woobat-meta"
+msgstr ""
+
+#: ../../24.04/4.md 2fa2048712ba486db89023aef0eb484a
+msgid "[2089675](https://bugs.launchpad.net/bugs/2089675)"
+msgstr ""
+
+#: ../../24.04/4.md 2edf143a7c9c40f884758367641c99c9
+msgid "Meta package for Somerville Woobat"
+msgstr ""
+
+#: ../../24.04/4.md 049d4a7bbf10492e98e60f107c8d5218
+msgid "egl-wayland"
+msgstr ""
+
+#: ../../24.04/4.md 43165bf91ed444cabdd9c1be8692143b
+msgid "[2117339](https://bugs.launchpad.net/bugs/2117339)"
+msgstr ""
+
+#: ../../24.04/4.md bdbc94116804475bbcab119436109b31
+msgid ""
+"Add d/p/Fix-the-ABI-version-check.patch. Fix OpenGL in NVIDIA Wayland "
+"sessions"
+msgstr ""
+
+#: ../../24.04/4.md 770d0bd60f524020871219c81fcbffc8
+msgid "[2129011](https://bugs.launchpad.net/bugs/2129011)"
+msgstr ""
+
+#: ../../24.04/4.md 498ccb7c11be49b1806314533b4cc834
+msgid "[SRU] eDP showing garbage on GPT1 platforms"
+msgstr ""
+
+#: ../../24.04/4.md 04defda17a23481b8d5a4e3f3934b4fa
+msgid "[2129150](https://bugs.launchpad.net/bugs/2129150)"
+msgstr ""
+
+#: ../../24.04/4.md c7f3fb8777e043c2adde594ab89bc071
+msgid "[SRU] Update GC 11.5.1 firmware to enable MES WA on Strix Halo"
+msgstr ""
+
+#: ../../24.04/4.md cc946f07df284367b8c5a1886026a060
+msgid "[2129172](https://bugs.launchpad.net/bugs/2129172)"
+msgstr ""
+
+#: ../../24.04/4.md 9e664d41d3044281b0bd58f572c42232
+msgid "[SRU] Fix eDP showing garbage on GPT2 platforms"
+msgstr ""
+
+#: ../../24.04/4.md 584a453712d04cbab2d4fd726cbc7cd5
+msgid "[2122659](https://bugs.launchpad.net/bugs/2122659)"
+msgstr ""
+
+#: ../../24.04/4.md 6961f6eae02c4298ae41cfa82c0c2e4a
+msgid "Fix power state transition on navi4x"
+msgstr ""
+
+#: ../../24.04/4.md 0d03ae4a865444abb7c822ce814b2224
+msgid "[2094768](https://bugs.launchpad.net/bugs/2094768)"
+msgstr ""
+
+#: ../../24.04/4.md 226a7c4c73df445a83a34ba10221a859
+msgid "Missing vendor/product/sku specific ISH firmware for Dell laptops"
+msgstr ""
+
+#: ../../24.04/4.md d0431e37b02e4b689e75151d496b269b
+msgid "[2125139](https://bugs.launchpad.net/bugs/2125139)"
+msgstr ""
+
+#: ../../24.04/4.md 624ce3e7108c41bf8eb66b4396ffc18d
+msgid "[SRU] Fix amdgpu loading errors on Navi3x systems"
+msgstr ""
+
+#: ../../24.04/4.md 41d31624a07b4c67bfa51522106ab486
+msgid "[2129976](https://bugs.launchpad.net/bugs/2129976)"
+msgstr ""
+
+#: ../../24.04/4.md 639ab46f72ad43cfbf03af75aa0ea7d7
+msgid "amdtee firmware disappeared in noble"
+msgstr ""
+
+#: ../../24.04/4.md 5d8e56caf35d4dc59535b2abe019091a
+msgid "[2127958](https://bugs.launchpad.net/bugs/2127958)"
+msgstr ""
+
+#: ../../24.04/4.md 77311d751047438985f9d6da34fc4edc
+msgid "To support MT7922 BT and WiFi"
+msgstr ""
+
+#: ../../24.04/4.md f95ad00c98d04ffca15db44711a9cb68
+msgid "[2101850](https://bugs.launchpad.net/bugs/2101850)"
+msgstr ""
+
+#: ../../24.04/4.md 1288594210ae47828061a31c798a3d60
+msgid "Intel IPU7x enablement on PTL"
+msgstr ""
+
+#: ../../24.04/4.md 087439d33b0c435c9869c907110f75ef
+msgid "oem-stella-animalhunters-meta"
+msgstr ""
+
+#: ../../24.04/4.md 4524ce82a38e4ee38151b6c8ed64d76f
+msgid "[2089092](https://bugs.launchpad.net/bugs/2089092)"
+msgstr ""
+
+#: ../../24.04/4.md 062a3f2000d14954a26628b2c234054c
+msgid "Meta package for Stella Animalhunters"
+msgstr ""
+
+#: ../../24.04/4.md 96c61499c36444f99138f1d3bb492497
+msgid "oem-stella-aron-meta"
+msgstr ""
+
+#: ../../24.04/4.md b4321fc3719842fc8abfb147c574d80d
+msgid "[2089093](https://bugs.launchpad.net/bugs/2089093)"
+msgstr ""
+
+#: ../../24.04/4.md 4a2942caa07343738052a492d6c53557
+msgid "Meta package for Stella Aron"
+msgstr ""
+
+#: ../../24.04/4.md 0d5aa11380fb4e8798199e3924773c4e
+msgid "oem-stella-asobo-meta"
+msgstr ""
+
+#: ../../24.04/4.md 22af1e43728a45239829459e069cb16f
+msgid "[2089094](https://bugs.launchpad.net/bugs/2089094)"
+msgstr ""
+
+#: ../../24.04/4.md 860e574dcf4043c792ef5ec76d837be1
+msgid "Meta package for Stella Asobo"
+msgstr ""
+
+#: ../../24.04/4.md 755b35a296104e518e7327212e687769
+msgid "oem-stella-brus-meta"
+msgstr ""
+
+#: ../../24.04/4.md 41a27bf0f8b940cbb31d76cc06a93fa5
+msgid "[2089096](https://bugs.launchpad.net/bugs/2089096)"
+msgstr ""
+
+#: ../../24.04/4.md 21dbb9d2fa1c4792b8eff24f2e1703db
+msgid "Meta package for Stella Brus"
+msgstr ""
+
+#: ../../24.04/4.md fc3316f8776341f5aced454b72e911eb
+msgid "oem-stella-bergmite-meta"
+msgstr ""
+
+#: ../../24.04/4.md 1a185ec3fcad44d29de8ca093d33d2ab
+msgid "[2089095](https://bugs.launchpad.net/bugs/2089095)"
+msgstr ""
+
+#: ../../24.04/4.md d3731234c8d34297806674aa811e234f
+msgid "Meta package for Stella Bergmite"
+msgstr ""
+
+#: ../../24.04/4.md e03787fb6c2c4a9a8556e3df1671921a
+msgid "oem-stella-chippo-meta"
+msgstr ""
+
+#: ../../24.04/4.md 3d09fbf734c54d509285d66c0cff827e
+msgid "[2089549](https://bugs.launchpad.net/bugs/2089549)"
+msgstr ""
+
+#: ../../24.04/4.md 93e87250cb7a4994ae7239f269d75f98
+msgid "Meta package for Stella Chippo"
+msgstr ""
+
+#: ../../24.04/4.md 3033f07a51464d9ca8fb618a09de674f
+msgid "oem-stella-demaon-meta"
+msgstr ""
+
+#: ../../24.04/4.md f6f519db2e9f41d9a99795954438324a
+msgid "[2101005](https://bugs.launchpad.net/bugs/2101005)"
+msgstr ""
+
+#: ../../24.04/4.md 7baf7310c70e4293a354679e6a575604
+msgid "Meta package for Stella Demaon"
+msgstr ""
+
+#: ../../24.04/4.md 26aa564c7fac440293d4822ee668aa8e
+msgid "oem-stella-graveler-meta"
+msgstr ""
+
+#: ../../24.04/4.md d67d7791f29f4a15afbff7803b7463fe
+msgid "[2089097](https://bugs.launchpad.net/bugs/2089097)"
+msgstr ""
+
+#: ../../24.04/4.md e1e5d6b6e56c45c5b792586e64e6793e
+msgid "Meta package for Stella Graveler"
+msgstr ""
+
+#: ../../24.04/4.md b72cbadf3367484294204d359bd59977
+msgid "oem-stella-jaiko-meta"
+msgstr ""
+
+#: ../../24.04/4.md 45a5623a19d84b0f9f74d146530afabf
+msgid "[2089098](https://bugs.launchpad.net/bugs/2089098)"
+msgstr ""
+
+#: ../../24.04/4.md 77e88c15907947cf9ca57fe843dcf162
+msgid "Meta package for Stella Jaiko"
+msgstr ""
+
+#: ../../24.04/4.md c490b730e7074f709022049de0f8c0d1
+msgid "oem-stella-wakuburger-meta"
+msgstr ""
+
+#: ../../24.04/4.md 5ce043a1c95244bf8ef795f37eb7d6a3
+msgid "[2101014](https://bugs.launchpad.net/bugs/2101014)"
+msgstr ""
+
+#: ../../24.04/4.md 71a149e945cf45a4ae83da0024a520b3
+msgid "Meta package for Stella Wakuburger"
+msgstr ""
+
+#: ../../24.04/4.md 9464ba896e4e4f18891a5e4bf25ad2ed
+msgid "oem-stella-wakuwaku-meta"
+msgstr ""
+
+#: ../../24.04/4.md afa0736b18654cf496163388c296c12b
+msgid "[2093798](https://bugs.launchpad.net/bugs/2093798)"
+msgstr ""
+
+#: ../../24.04/4.md f30cc66f4f7b486ebe3f366aa9ce28ae
+msgid "Meta package for Stella Wakuwaku"
+msgstr ""
+
+#: ../../24.04/4.md dfedeb4e0f4e42ad829191a9911b4642
+msgid "oem-stella-yoshio-meta"
+msgstr ""
+
+#: ../../24.04/4.md 0e177e26709641d2b4fb421fa6c644f1
+msgid "[2089102](https://bugs.launchpad.net/bugs/2089102)"
+msgstr ""
+
+#: ../../24.04/4.md d0e60a5a39b3413daaebf5d1904a9e18
+msgid "Meta package for Stella Yoshio"
+msgstr ""
+
+#: ../../24.04/4.md 884ab177b2834af5981a66f45e69764a
+msgid "oem-stella-mangetsu-meta"
+msgstr ""
+
+#: ../../24.04/4.md 3b6b2c42d7dd4217bc1242fd14af3042
+msgid "[2101007](https://bugs.launchpad.net/bugs/2101007)"
+msgstr ""
+
+#: ../../24.04/4.md a9edef07b9244f2ebdd87345db7f55ff
+msgid "Meta package for Stella Mangetsu"
+msgstr ""
+
+#: ../../24.04/4.md e07c6c4d88124e638fd1456a3bb38b86
+msgid "oem-stella-mejina-meta"
+msgstr ""
+
+#: ../../24.04/4.md d587949ca5de4313a86faf2545237f41
+msgid "[2101008](https://bugs.launchpad.net/bugs/2101008)"
+msgstr ""
+
+#: ../../24.04/4.md 24e07f01ceb3488993c92a961f9d9721
+msgid "Meta package for Stella Mejina"
+msgstr ""
+
+#: ../../24.04/4.md 4a30dbe6108345f29c35ff4dc999cf53
+msgid "oem-stella-mii-meta"
+msgstr ""
+
+#: ../../24.04/4.md f348707e880340cab3881415a4546289
+msgid "[2089099](https://bugs.launchpad.net/bugs/2089099)"
+msgstr ""
+
+#: ../../24.04/4.md 2b0ca107703c4263a3903d144b6ab0f8
+msgid "Meta package for Stella Mii"
+msgstr ""
+
+#: ../../24.04/4.md 4c1e6da79f41453da7d23bff90b8f770
+msgid "oem-stella-milk-meta"
+msgstr ""
+
+#: ../../24.04/4.md b97a4505bc3244c0a0a981be768df33e
+msgid "[2090809](https://bugs.launchpad.net/bugs/2090809)"
+msgstr ""
+
+#: ../../24.04/4.md 85ebf1fc8fae4233a2a3beb7eea9fcca
+msgid "Meta package for Stella Milk"
+msgstr ""
+
+#: ../../24.04/4.md f43ddc7a84ef40b18e56bd5d2e9ff325
+msgid "oem-stella-miyoko-meta"
+msgstr ""
+
+#: ../../24.04/4.md 7215d88665dc4388a7faa0569db8248c
+msgid "[2101010](https://bugs.launchpad.net/bugs/2101010)"
+msgstr ""
+
+#: ../../24.04/4.md 7644f65f17e64f8282e803ae861a24b9
+msgid "Meta package for Stella Miyoko"
+msgstr ""
+
+#: ../../24.04/4.md eadbf84a9c9a45b98a1d65553b33a746
+msgid "oem-stella-moa-meta"
+msgstr ""
+
+#: ../../24.04/4.md 81c514df7916439fb103e76930c96fde
+msgid "[2089551](https://bugs.launchpad.net/bugs/2089551)"
+msgstr ""
+
+#: ../../24.04/4.md 6f604fc3d74043138dd424ef2f0b1bc2
+msgid "Meta package for Stella Moa"
+msgstr ""
+
+#: ../../24.04/4.md a574b18d684342a38a2fbcfda93a3ff8
+msgid "oem-stella-morina-meta"
+msgstr ""
+
+#: ../../24.04/4.md 8df49fc253ff4e2097645cb359c8492c
+msgid "[2089100](https://bugs.launchpad.net/bugs/2089100)"
+msgstr ""
+
+#: ../../24.04/4.md 19f008bbc10d4468aff5d8380aee2d44
+msgid "Meta package for Stella Morina"
+msgstr ""
+
+#: ../../24.04/4.md 0a4da0fb80894016a88c03191eca3bb5
+msgid "oem-stella-sensei-meta"
+msgstr ""
+
+#: ../../24.04/4.md fff661573017412cb44061cf88c6b383
+msgid "[2089101](https://bugs.launchpad.net/bugs/2089101)"
+msgstr ""
+
+#: ../../24.04/4.md ad711167ebe54aefa788f4019a416124
+msgid "Meta package for Stella Sensei"
+msgstr ""
+
+#: ../../24.04/4.md dd0ffc5f539a43319c0a1e4558a48181
+msgid "oem-stella-sharmee-meta"
+msgstr ""
+
+#: ../../24.04/4.md d3a56ba76e4446c5a18386dcc868c5b2
+msgid "[2092160](https://bugs.launchpad.net/bugs/2092160)"
+msgstr ""
+
+#: ../../24.04/4.md f2a888a49a0c42efa9ddab754aa53da2
+msgid "Meta package for Stella Sharmee"
+msgstr ""
+
+#: ../../24.04/4.md 9a9a90d7dd414112ac0e80ddb9df4a1a
+msgid "oem-stella-spiana-meta"
+msgstr ""
+
+#: ../../24.04/4.md c2d0aa2f449140c788b50bec6c299ae6
+msgid "[2101012](https://bugs.launchpad.net/bugs/2101012)"
+msgstr ""
+
+#: ../../24.04/4.md fb5b0c91fd0f4a15b3a86528520ace9c
+msgid "Meta package for Stella Spiana"
+msgstr ""
+
+#: ../../24.04/4.md 41fab922a6c84f03a198d708208fd603
+msgid "oem-stella-temujin-meta"
+msgstr ""
+
+#: ../../24.04/4.md a5b378f54b5b430c967f1fe11b8b7b6e
+msgid "[2092786](https://bugs.launchpad.net/bugs/2092786)"
+msgstr ""
+
+#: ../../24.04/4.md 6acaa121ab0d4d458d6196a3bb612ccd
+msgid "Meta package for Stella Temujin"
+msgstr ""
+
+#: ../../24.04/4.md 071c792eec1f4184a96777460898feb1
+msgid "oem-stella-tamako-meta"
+msgstr ""
+
+#: ../../24.04/4.md 5f44ffc2ec854e2681f00c0a508df01b
+msgid "[2102193](https://bugs.launchpad.net/bugs/2102193)"
+msgstr ""
+
+#: ../../24.04/4.md 38edbf1213ef48319abbc1f883f56591
+msgid "Meta package for Stella Tamako"
+msgstr ""
+
+#: ../../24.04/4.md bab628c44f934db3b10a86b29ce11262
+msgid "oem-stella-tragis-meta"
+msgstr ""
+
+#: ../../24.04/4.md 5934614348ed485bae70ca8fec2aaa04
+msgid "[2101013](https://bugs.launchpad.net/bugs/2101013)"
+msgstr ""
+
+#: ../../24.04/4.md 197b00ae236943c38771c97893f5e19c
+msgid "Meta package for Stella Tragis"
+msgstr ""
+
+#: ../../24.04/4.md 426b1ca1390443c1ab50e7da771068a5
+msgid "wireless-regdb"
+msgstr ""
+
+#: ../../24.04/4.md bce584e3413042af8ee53ed0d4eef8a5
+msgid "[2119591](https://bugs.launchpad.net/bugs/2119591)"
+msgstr ""
+
+#: ../../24.04/4.md cf7a82f0c7994a6296f39a6b50a6dc45
+msgid "[2129985](https://bugs.launchpad.net/bugs/2129985)"
+msgstr ""
+
+#: ../../24.04/4.md 666746dc2458486d8e8f2cb426da5b4b
+msgid "noble/linux-oem-6.17: 6.17.0-1006.6 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md c21e67b76cb14b7ebe6ba8e17f9818f2
+msgid "[2116169](https://bugs.launchpad.net/bugs/2116169)"
+msgstr ""
+
+#: ../../24.04/4.md da7035230d4042f690b44a13bf16ea89
+msgid "Support Intel Scorpius Peak, Whale Peak WiFi/Bluetooth"
+msgstr ""
+
+#: ../../24.04/4.md b8a2d4c93d164808beed0525cafec778
+msgid "[2127833](https://bugs.launchpad.net/bugs/2127833)"
+msgstr ""
+
+#: ../../24.04/4.md e4ae6606c1e444d89eb82f9d4d59750d
+msgid "Add support for  WNC WWAN OMAR-H R15 5G module"
+msgstr ""
+
+#: ../../24.04/4.md 111d89a325844c3086d090ecb129f00d
+#: 43a1b197181442cb980ca7fc6a392a54 577d72b38c3041e1aac89c8d7dac4645
+msgid "[2128695](https://bugs.launchpad.net/bugs/2128695)"
+msgstr ""
+
+#: ../../24.04/4.md 5915178fe9b04a7c8f78b75c2b8804ee
+#: 8d7460d9b3bf48728a08161639419275 939b7e8dfeb34ee3820397b970872f1b
+msgid "questing/linux: 6.17.0-7.7 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md 5422db2b96bc4f60a80e34c2f4436d27
+#: 75fe61e9bf5c4fceabb14fe27c887b69 ec3195f23203497aad7e230bf456f725
+msgid "[2106681](https://bugs.launchpad.net/bugs/2106681)"
+msgstr ""
+
+#: ../../24.04/4.md 0cdf5f907f6840a2bb804ec0e2489ab8
+#: 89afbdffdd424f0fb9ebafc9466bae95 e1d0368c47584ac59f66ca6351fe1f4e
+msgid ""
+"Plucky preinstalled server fails to boot on rb3gen2: // Questing "
+"preinstalled server fails to boot on sa8775p boards"
+msgstr ""
+
+#: ../../24.04/4.md c1fb369dd51e4e558d2b0389ebeeba1d
+#: fa22427ea93b4a12abd79c119477ea6d faa5640dcfb7477091ab381e21825f5d
+msgid "[2121347](https://bugs.launchpad.net/bugs/2121347)"
+msgstr ""
+
+#: ../../24.04/4.md 23d621dce28d4741a64b68c2fccd1135
+#: 3916e78bc0d64fddb68bfe9dc17ab08a 41c63e18d29340dc966297796e5379b1
+msgid "Plucky preinstalled server fails to boot on rb3gen2"
+msgstr ""
+
+#: ../../24.04/4.md 3bfe7acb2b13444d91cadfa5b61e4f5e
+msgid "linux-gcp-6.17"
+msgstr ""
+
+#: ../../24.04/4.md f9114cf5055a4c4cbbb19def0517cb4b
+msgid "[2131275](https://bugs.launchpad.net/bugs/2131275)"
+msgstr ""
+
+#: ../../24.04/4.md dce9ff3600ba4b83a190435943fc0397
+msgid "noble/linux-gcp-6.17: 6.17.0-1004.4~24.04.3 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md 9f12d139be4145fd970dc5221c759deb
+msgid "linux-signed-gcp-6.17"
+msgstr ""
+
+#: ../../24.04/4.md 0e2a9f762fd34e819f036363ff78e6c6
+#: 107e7e13fbce44ab9e3d7318e93922a5 22713e88c79d429e970da338b62b7aa2
+#: 2816fa1cd3cf4f83b14881fbc38ada32 2cab515c72b64940956c22d58828d367
+#: 43bb52513a0041049637406839998d3c 615cfdf7075f4302b62efc657f52d91f
+#: 61b546ee38f746e6af201db0c25b9f96 74c3a329a00f41f5bb8e7cccb8480bfb
+#: 7d6eea184b9e47db923788eb842b4372 9d821cbf02644c7d9950014c90509403
+#: abd04f51295640e380410cc7c0524b76 c74584edf69c4f3c9896baf0cabedb01
+#: e8440d64b73542778e3472c453b03f20 ef70ecaa8a424fa4a08cb640460c812c
+msgid "linux-nvidia-6.17"
+msgstr ""
+
+#: ../../24.04/4.md 346af7762fb948e9914dfd804de36798
+msgid "[2131581](https://bugs.launchpad.net/bugs/2131581)"
+msgstr ""
+
+#: ../../24.04/4.md f8590a74f5144ead945c527d774b6df6
+msgid "noble/linux-nvidia-6.17: 6.17.0-1003.3 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md 0d3d81c9c18b413997c24387808d2c18
+#: 665483f7783747018cac7bd2548ca80f a952d093d51544ac812e1ae16c4579cf
+#: df3bd65d4b7f414caed13d45477be0f2
+msgid "[2131154](https://bugs.launchpad.net/bugs/2131154)"
+msgstr ""
+
+#: ../../24.04/4.md 2ad30a2d7d6b437a8fc420b9c09e4f78
+#: 6dfbb9f5ad534c0f9d716fd77f1fe705 b9a0a491fe3d404bb0f7f40a7f141765
+#: bb884bd7e95847c3adb245794847c7e0
+msgid "kexec reports it cannot determine the file type of arm64 kernel images"
+msgstr ""
+
+#: ../../24.04/4.md 67833e7e884e48bdb458bb130ab899cd
+msgid "[2130289](https://bugs.launchpad.net/bugs/2130289)"
+msgstr ""
+
+#: ../../24.04/4.md 4b2c2624db654d85a6617a64df273cdb
+msgid "KVM initialization hitting exception at boot time with kernel 6.17"
+msgstr ""
+
+#: ../../24.04/4.md d564a45c4423465da15d8430a7eb5863
+msgid "[2131047](https://bugs.launchpad.net/bugs/2131047)"
+msgstr ""
+
+#: ../../24.04/4.md b6045263388d4b66b87d280fd21b1855
+msgid "Backport arm64: cpufeature: Add Olympus MIDR to BBML2 allow list"
+msgstr ""
+
+#: ../../24.04/4.md 94e3f836a0a2414aa960b497f5bffe57
+msgid "[2127212](https://bugs.launchpad.net/bugs/2127212)"
+msgstr ""
+
+#: ../../24.04/4.md 833e16b6dcb34a29bc9182854eb34037
+msgid "noble/linux-nvidia-6.17: 6.17.0-1001.1 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md e58763e1c97d4152a9f49a828ddc0be5
+msgid "[2061930](https://bugs.launchpad.net/bugs/2061930)"
+msgstr ""
+
+#: ../../24.04/4.md a28c39d59b624eef9943019c68beb6b6
+msgid ""
+"linux-nvidia-6.5_6.5.0-1014.14 breaks with earlier BIOS release, and "
+"modeset/resolutions are wrong: // Blocklist coresight_etm4x"
+msgstr ""
+
+#: ../../24.04/4.md b9302015e9364a01b8083656d3bf15c7
+msgid "[2060327](https://bugs.launchpad.net/bugs/2060327)"
+msgstr ""
+
+#: ../../24.04/4.md 6a03bc98d0d643d99fdb50c37d757b29
+msgid ""
+"Reapply the linux-nvidia kernel config options from the 5.15 and 6.5 "
+"kernels"
+msgstr ""
+
+#: ../../24.04/4.md 47f4911c640f43c8b9235857bb8f5bb7
+#: 93853fbe77ae4ea0a5cd7a2b6aa706ea 9eb6873335bf45b0aecbb52e40c15839
+msgid "linux-meta"
+msgstr ""
+
+#: ../../24.04/4.md d98530e209e243b4be6e0840578e3fed
+#: ec759b0d72984a188c0dc0743532ae5c f2638da77a5f48cd9ed0016bdc9e4055
+msgid "[2128721](https://bugs.launchpad.net/bugs/2128721)"
+msgstr ""
+
+#: ../../24.04/4.md 4297200eddcf4a6f9154717d97cf3769
+#: 762c7288224a4fe2b3e5cb7cef6d719e 77f3aef0272c46ecaf9c6819da06074d
+msgid "missing transitionals for intel-iotg kernels"
+msgstr ""
+
+#: ../../24.04/4.md 4db624cd42fb4d2cb2cd2088096ea7e8
+msgid "[2134520](https://bugs.launchpad.net/bugs/2134520)"
+msgstr ""
+
+#: ../../24.04/4.md 496904f4d91c406ea02a72023bf22f5e
+msgid "noble/linux-oem-6.14: 6.14.0-1018.18 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md a8b4c06fe8a94c40bddb05ad36127d4d
+#: f402f9efded6495c8fa4b0bbc3cd7936
+msgid "[2134491](https://bugs.launchpad.net/bugs/2134491)"
+msgstr ""
+
+#: ../../24.04/4.md 45cb429bf1ee4402b4205cdcbe68832e
+#: c62c71ceeee345b4b7007c9057f21f06
+msgid "Export CWSR size to userspace"
+msgstr ""
+
+#: ../../24.04/4.md 96618542b00943468bfd85e37368b9f5
+#: b8517bd6b8234ee99801ebdc4c585648
+msgid "[2134488](https://bugs.launchpad.net/bugs/2134488)"
+msgstr ""
+
+#: ../../24.04/4.md 0667a1b4a10f47e6857b312f292cdcb2
+#: fbaf74d3bb9945b8928e91acf02e859f
+msgid "Seamless boot doesn't work on Strix or Strix Halo"
+msgstr ""
+
+#: ../../24.04/4.md 0a6dbdb20d7845a481b0bb1713c722bf
+#: 8546d595b1a84841a501b7246b19f81a
+msgid "[2133922](https://bugs.launchpad.net/bugs/2133922)"
+msgstr ""
+
+#: ../../24.04/4.md 4a9be8d81f7a4f6b9fbad095c39f56d1
+#: 94ca13eef0c84428ab4fd202bad37629
+msgid "Fix speaker mute and mic mute leds on more HP 200 G2a platforms"
+msgstr ""
+
+#: ../../24.04/4.md 2f6c38d42a1a4efb85290e2d186fa5f5
+#: c3ef8019ae1e4ce18f7d93be508907b4
+msgid "[2133144](https://bugs.launchpad.net/bugs/2133144)"
+msgstr ""
+
+#: ../../24.04/4.md 7919cdb3f1fc4ed696a99b0b0f62bcd2
+#: 83776805b2f543b2a0576492bb15ff37
+msgid "Enable RTL ASPM for more new Dell platforms"
+msgstr ""
+
+#: ../../24.04/4.md 26d0afc6096a4f1280fa21b5bf2c0bb3
+#: 5705cc8ff6214d53bf03294e17442f9f
+msgid "[2133143](https://bugs.launchpad.net/bugs/2133143)"
+msgstr ""
+
+#: ../../24.04/4.md ab2fc3f9ac314dd695fe97165932bf48
+#: fd2a8660eec54278a9c839a9709550a1
+msgid "Could not output video from type-c to VGA adapter"
+msgstr ""
+
+#: ../../24.04/4.md 32257a7325fd40b7bcb22f08f5124c38
+msgid "[2134511](https://bugs.launchpad.net/bugs/2134511)"
+msgstr ""
+
+#: ../../24.04/4.md c44513ce191a41d7925996d639e6ee14
+msgid "noble/linux-oem-6.17: 6.17.0-1008.8 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md f8afb82a7c0c44698d25a14f3f1f42f2
+msgid "[2133476](https://bugs.launchpad.net/bugs/2133476)"
+msgstr ""
+
+#: ../../24.04/4.md f20264607dc6439b969d9a07f4180a2a
+msgid "Fix speaker mute and mic mute leds on new HP ZBook platforms"
+msgstr ""
+
+#: ../../24.04/4.md 62746708d609496db9bf5dfd76414549
+#: ae112b6f40654334bf7c41e5cf643259 ccde239683484988b2857ca89ce73a40
+msgid "[2129682](https://bugs.launchpad.net/bugs/2129682)"
+msgstr ""
+
+#: ../../24.04/4.md 066f9df2f5f4403a88075951caeeceb5
+#: 39b61792185e4247a44ce97025b124c1 adf5e48047d94e1486e95c2009246011
+msgid "Fix dependencies between packages"
+msgstr ""
+
+#: ../../24.04/4.md 7fedea73f3e740b5b7c860ea476fe22e
+msgid "[2127969](https://bugs.launchpad.net/bugs/2127969)"
+msgstr ""
+
+#: ../../24.04/4.md b39c1b8f01ca4ac4af16acffd0e73039
+msgid "[SRU] Upgrade Intel xe GUC to v70.49.4 for Intel Panther Lake"
+msgstr ""
+
+#: ../../24.04/4.md bee00fc4a977483c966a301a25d8eccd
+msgid "[2130381](https://bugs.launchpad.net/bugs/2130381)"
+msgstr ""
+
+#: ../../24.04/4.md 8910cb38ac9248018689a57074f11be6
+msgid "[SRU][R/Q/N] mt7925: Support 802.11d and CQM events for roaming"
+msgstr ""
+
+#: ../../24.04/4.md 3f9e517cc74e4c77a2a1a18a09d08c20
+msgid "[2131725](https://bugs.launchpad.net/bugs/2131725)"
+msgstr ""
+
+#: ../../24.04/4.md 36b5539a232b4fb0a3301794cb9d445a
+msgid ""
+"Support for Cirrus Logic audio solution CS42L43 with amplifiers  on new "
+"Dell PTL platform"
+msgstr ""
+
+#: ../../24.04/4.md d0534e96135d43bfb912ad7817ddf122
+msgid "[2133664](https://bugs.launchpad.net/bugs/2133664)"
+msgstr ""
+
+#: ../../24.04/4.md 67132c3bd28847e0b298927f78678bbb
+msgid "Add TI tas2781 support for HP platforms"
+msgstr ""
+
+#: ../../24.04/4.md 7eabe8f0837a418e93177be844bed898
+msgid "[2131936](https://bugs.launchpad.net/bugs/2131936)"
+msgstr ""
+
+#: ../../24.04/4.md fc0248f2256042659fb8983b8ee32e04
+msgid "Update aic100 fw for power issues"
+msgstr ""
+
+#: ../../24.04/4.md 66204d5051f241499feec95545f87313
+msgid "[2133787](https://bugs.launchpad.net/bugs/2133787)"
+msgstr ""
+
+#: ../../24.04/4.md 62e61ee804514d3daf6ae3e96e6fc556
+msgid "Support Qualcomm RB4 graphics firmware"
+msgstr ""
+
+#: ../../24.04/4.md 384b12d558424e218605d6a9947f681a
+msgid "[2133923](https://bugs.launchpad.net/bugs/2133923)"
+msgstr ""
+
+#: ../../24.04/4.md e495b8d5eac1447c89becd851b9883a0
+msgid "Linux-firmware: Add qualcomm serial engine firmware qupv3fw.elf"
+msgstr ""
+
+#: ../../24.04/4.md fbd54c22e3e440d99e5b98c860752535
+msgid "[2136790](https://bugs.launchpad.net/bugs/2136790)"
+msgstr ""
+
+#: ../../24.04/4.md 0cf847742ce14481a0dc3753b74ccf5d
+msgid "noble/linux-oem-6.14: 6.14.0-1019.19 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md 2a3ee1b410e6425da702eb04625443fd
+msgid "alsa-ucm-conf"
+msgstr ""
+
+#: ../../24.04/4.md c26aea7da2f84051821f68f80e3ba6c7
+msgid "[2126737](https://bugs.launchpad.net/bugs/2126737)"
+msgstr ""
+
+#: ../../24.04/4.md 9d7fec38737c4cdd9795cd326b73451e
+msgid ""
+"Fix missing audio support for MediaTek Genio EVK platforms: by creating "
+"the following patches based on upstream commits:"
+msgstr ""
+
+#: ../../24.04/4.md 77818a4f27e5424abd0508ceb6f71475
+msgid "[2136788](https://bugs.launchpad.net/bugs/2136788)"
+msgstr ""
+
+#: ../../24.04/4.md ab518f4cabba41bb856461db86de5ac0
+msgid "noble/linux-oem-6.17: 6.17.0-1009.9 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md 0023ace1f29c44a5bb681d8f0b79f577
+msgid "[2134584](https://bugs.launchpad.net/bugs/2134584)"
+msgstr ""
+
+#: ../../24.04/4.md 441e01701b104296a0ad350686a4d754
+msgid "[SRU] Fix system crash of intel ice ethernet on E810"
+msgstr ""
+
+#: ../../24.04/4.md 22ffc3a175d34a2a98320f796d0b7849
+msgid "[2133482](https://bugs.launchpad.net/bugs/2133482)"
+msgstr ""
+
+#: ../../24.04/4.md 44fb59ed3ad5424189284f96124426b9
+msgid "Enable wireless protocol 802.11d for MTK WiFi mt7925"
+msgstr ""
+
+#: ../../24.04/4.md b058298cebba4ea38a820c23d5a37844
+msgid "linux-aws-6.17"
+msgstr ""
+
+#: ../../24.04/4.md 2049bc0248fc42be80118b15d6e82f25
+msgid "thermald"
+msgstr ""
+
+#: ../../24.04/4.md 72598948cc0942e6949800e0caff7e9a
+msgid "[2122576](https://bugs.launchpad.net/bugs/2122576)"
+msgstr ""
+
+#: ../../24.04/4.md 227e909f9527410bbf52820be3b5198f
+msgid "Add support for Intel Panther Lake platforms"
+msgstr ""
+
+#: ../../24.04/4.md bda205ac5d794246934a7b30bd43fb2e
+msgid "b43-fwcutter"
+msgstr ""
+
+#: ../../24.04/4.md 9ac776e7a84047328c53088ab50a15ef
+msgid "[2138509](https://bugs.launchpad.net/bugs/2138509)"
+msgstr ""
+
+#: ../../24.04/4.md 972934ee452b47ddb8123b305b0d4d4e
+msgid "debian/firmware-b43-installer.postinst: Fix download url to github"
+msgstr ""
+
+#: ../../24.04/4.md f0d343909da3494f963d5e4a397fd3f3
+msgid "nvidia-graphics-drivers-535"
+msgstr ""
+
+#: ../../24.04/4.md 5800d7f963d44a73a90f53ac59c34b30
+#: 70548afc6e994143b37516e80d4c3b06
+msgid "[2138271](https://bugs.launchpad.net/bugs/2138271)"
+msgstr ""
+
+#: ../../24.04/4.md 5829a66538a345fbb92fb1490dfbf172
+msgid "New upstream release 535.288.01"
+msgstr ""
+
+#: ../../24.04/4.md 25de51c33dee48e9820a6f5401e52066
+#: 69664987d4004795bd485c949d198026
+msgid "[2137576](https://bugs.launchpad.net/bugs/2137576)"
+msgstr ""
+
+#: ../../24.04/4.md 791b4483cfdd434f8e73565702c8a741
+msgid "New upstream release 570.211.01 UDA"
+msgstr ""
+
+#: ../../24.04/4.md 43ebbb0c7cdd48968c611f99dfb55604
+#: d6ecd2af606441629982740b214ad743
+msgid "[2138245](https://bugs.launchpad.net/bugs/2138245)"
+msgstr ""
+
+#: ../../24.04/4.md 00d53d38ab884d3a872a0a8add20a615
+msgid "New upstream release 580.126.09"
+msgstr ""
+
+#: ../../24.04/4.md dedd58643c614d2a89842a5b7a6d2ffc
+msgid "New upstream release 535.288.01 ERD17"
+msgstr ""
+
+#: ../../24.04/4.md 0e0d029e7f7945c68e8c7771b349706b
+msgid "New upstream release 570.211.01 ERD"
+msgstr ""
+
+#: ../../24.04/4.md ce2ef97d61bb4632a216b09bb69bc023
+msgid "New upstream release 580.126.09 ERD5"
+msgstr ""
+
+#: ../../24.04/4.md b22957025fa34cab99e881870e640664
+msgid "nvidia-graphics-drivers-590"
+msgstr ""
+
+#: ../../24.04/4.md 97c1f13adf2949169bd32c3b7bf8a724
+#: bad5387295114cc9994b9ff373db5af5
+msgid "[2137575](https://bugs.launchpad.net/bugs/2137575)"
+msgstr ""
+
+#: ../../24.04/4.md 0abccef67287443487d5f6291254d606
+#: ce1524d2978f4ab1b9efe91294bd1420
+msgid "New upstream release 590.48.01"
+msgstr ""
+
+#: ../../24.04/4.md 6f76b2929b2a44c98522f42e940172b3
+msgid "nvidia-graphics-drivers-590-server"
+msgstr ""
+
+#: ../../24.04/4.md dd88146adf91465ea9be63eed69d4e2f
+msgid "[2135079](https://bugs.launchpad.net/bugs/2135079)"
+msgstr ""
+
+#: ../../24.04/4.md 688603a2b35c47808613791223b48e08
+msgid "tas2781: Add more symbol links on SPI devices on HP platforms"
+msgstr ""
+
+#: ../../24.04/4.md 41aee629cd92449a804d66f454c3f4a3
+msgid "[2136743](https://bugs.launchpad.net/bugs/2136743)"
+msgstr ""
+
+#: ../../24.04/4.md ce72ee8864e94f799d96d022263fd891
+msgid "Update Intel IPU7 product signed firmware binary"
+msgstr ""
+
+#: ../../24.04/4.md e9dcdbbf5cd9489e8c77594d6ba06ba4
+msgid "[2136987](https://bugs.launchpad.net/bugs/2136987)"
+msgstr ""
+
+#: ../../24.04/4.md f2c6e9905333490a8ee5aa8c957b7bfe
+msgid "Firmware updates for Intel WIFI core98 software release"
+msgstr ""
+
+#: ../../24.04/4.md f86deaf885a14fdca85ca738fdfd695a
+msgid "[2136991](https://bugs.launchpad.net/bugs/2136991)"
+msgstr ""
+
+#: ../../24.04/4.md 7f550e5f3a24440695826c499e800f93
+msgid "Upgrade Intel xe GUC to v70.55.3 for Intel Panther Lake"
+msgstr ""
+
+#: ../../24.04/4.md 4240cf091b0941d988444f6d4ecd9c98
+msgid "[2137522](https://bugs.launchpad.net/bugs/2137522)"
+msgstr ""
+
+#: ../../24.04/4.md 3eff0349c16f4e12aceade1c06a1c0bd
+msgid "[SRU] iwlwifi: add new fw versions to satisfy 6.17 kernel requirement"
+msgstr ""
+
+#: ../../24.04/4.md 819bbae9b4b843a39259d41243fd6e70
+msgid "[2137181](https://bugs.launchpad.net/bugs/2137181)"
+msgstr ""
+
+#: ../../24.04/4.md fc17d51aaa8e40ceb76af19ce63b34b6
+msgid "Update last Intel VPU fw support for Jammy"
+msgstr ""
+
+#: ../../24.04/4.md 01ea6816eb61440ab72c24d988991c8c
+msgid "[2136894](https://bugs.launchpad.net/bugs/2136894)"
+msgstr ""
+
+#: ../../24.04/4.md 870182f0253f4affb4c14bd82d636b6b
+msgid ""
+"[SRU][R/Q/N] mt7925: Fix invalid reporting of support for EMLSR on MLO "
+"link and add support for Indonesia 6GHz"
+msgstr ""
+
+#: ../../24.04/4.md 2b70c70bac8f44c4bbf5e535a2f3f295
+msgid "[2128240](https://bugs.launchpad.net/bugs/2128240)"
+msgstr ""
+
+#: ../../24.04/4.md c5a76abe926b49f1889ddf7989cefab4
+msgid "Missing firmware for Intel NPU for Intel Panther Lake"
+msgstr ""
+
+#: ../../24.04/4.md 12fbae6b2c5a46cf8a9525b8fba3bbe9
+#: 1a9d72ab53ff428f95fc2f2430ef356c 1c8406d2e9cd45d1b60d09d0d8cc051c
+#: 32e6085d79c34e5ba992d96d0d0cb54c 334fd2f328484d98957c5afedb4eb4ac
+#: 3f8848feb4134536a96d640371569b19 4064915a7a3b4625983905979abb9526
+#: 461c49074a48419a8b757fc683066fa3 4cdaae3876e449c2bee694c936414c70
+#: 553cde7456604a069762b4cfb7431027 588b9cca27a94fb1a3283f69e0f6d414
+#: 5d400fe300be456ea9d3f2977141a4f8 67b519eb28494ef18bed79a61117317a
+#: 6f719c78f539430c9fbf1bee47e25f67 700d7a7756424daebff336f864ac697a
+#: 7af8332d8cdd47ec8209d1e39102fe4d 8e2496fbba3b4796aea032d033727171
+#: 96cfeac3c9be4384afb56e85dd6c3daa 9f569eff82c94780acc3a67d5be40605
+#: abe4f5b08a2b40f5bec96bc44bce9d8c acb0e9e450e74a05935529e8e8149112
+#: afb50edb176141f9924faea84e98c70c b0276b383fb245e2a9bc94785b58c5a0
+#: b44147b5298a4ed094f897494b31a42c d018bf7ef8fc43fea51d1e0de980d094
+#: d2685514fc014dc2b189f7ca13a96c2e e44c2f8635484de7815d87bb76c29888
+#: f05c0a64823e416fa9f90554e1dae02d f6e1763d4d7e4e7f8830a77575d3d910
+#: fe168b950cee4ccca68986e3831bc459
+msgid "linux-oracle-6.17"
+msgstr ""
+
+#: ../../24.04/4.md 4806ece2cbe34092a1793ab6a5c7f06c
+msgid "[2133191](https://bugs.launchpad.net/bugs/2133191)"
+msgstr ""
+
+#: ../../24.04/4.md aa3f9f106e5847209aa81530a893529c
+msgid "noble/linux-oracle-6.17: 6.17.0-1004.4~24.04.2 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md 4ddf4e871bd342c2814e9c7b4d1677ce
+msgid "[2126043](https://bugs.launchpad.net/bugs/2126043)"
+msgstr ""
+
+#: ../../24.04/4.md 09889a994d3c4cfca7116012e163a8da
+msgid "questing/linux-oracle: 6.17.0-1003.3 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md e743d0c2f2f549f080c97f005689425d
+msgid "[2125323](https://bugs.launchpad.net/bugs/2125323)"
+msgstr ""
+
+#: ../../24.04/4.md cae5cb3037e24331a6e4ad4d66dc7629
+msgid "questing/linux-oracle: 6.17.0-1002.2 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md 1173d063f36c4b72b2c89abe3ae03641
+msgid "[2125319](https://bugs.launchpad.net/bugs/2125319)"
+msgstr ""
+
+#: ../../24.04/4.md b2f911c8eba446b19bdfb77480d791e3
+msgid "questing/linux: 6.17.0-5.5 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md 29fb529d8501488cbb8c6fdb9898859e
+msgid "[2122310](https://bugs.launchpad.net/bugs/2122310)"
+msgstr ""
+
+#: ../../24.04/4.md e908ed1810c54e7d8f4e3f101284ee21
+msgid ""
+"[SRU] Failed to create source package: Unmet build dependencies: "
+"bpftool:native"
+msgstr ""
+
+#: ../../24.04/4.md 1379f565d9e04df2aa248b088df8031f
+msgid "[2124257](https://bugs.launchpad.net/bugs/2124257)"
+msgstr ""
+
+#: ../../24.04/4.md f6dc6567fc434543b952246a792a0eae
+msgid ""
+"iproute2 breaking netplan DEP-8 tests in Questing, unexpected \"fan-map\""
+" in JSON output"
+msgstr ""
+
+#: ../../24.04/4.md 0220fd6f751b49959b5f4b5b6eacf7d8
+msgid "[2110092](https://bugs.launchpad.net/bugs/2110092)"
+msgstr ""
+
+#: ../../24.04/4.md a4f19085ee544deab3f087fbbac74828
+msgid "Support AMD Image Signal Processing (ISP) unit V4.0"
+msgstr ""
+
+#: ../../24.04/4.md 6cb23de4bd3f42c1bca76917ad75200d
+msgid "[2121477](https://bugs.launchpad.net/bugs/2121477)"
+msgstr ""
+
+#: ../../24.04/4.md 8d6055f00bd240419bc06b76418f391f
+msgid "25.10 Snapdragon X Elite: Sync concept kernel changes"
+msgstr ""
+
+#: ../../24.04/4.md 6c3dabf0b9ca404296925d4747b38efc
+msgid "[2122647](https://bugs.launchpad.net/bugs/2122647)"
+msgstr ""
+
+#: ../../24.04/4.md f745a52ec3674633b3eaebdade957cd6
+msgid "questing/linux-oracle: 6.17.0-1001.1 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md 9ea509d39325482fa8dfdcadeaf9323e
+msgid "[2122321](https://bugs.launchpad.net/bugs/2122321)"
+msgstr ""
+
+#: ../../24.04/4.md 404dde4b61a74674b10394905859caff
+msgid "questing/linux: 6.17.0-4.4 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md c244d4cf2ae744bfb4ab8438be953857
+msgid "[2115758](https://bugs.launchpad.net/bugs/2115758)"
+msgstr ""
+
+#: ../../24.04/4.md 414c2ec25fc3481b973ec24e5e314e55
+msgid ""
+"initramfs-tools: autopkgtest fails on arm64 with Possible missing "
+"firmware /lib/firmware/apple/dfrmtfw-*.bin for built-in driver apple_z2"
+msgstr ""
+
+#: ../../24.04/4.md 4087ccfffb09483798058c85dedf0d31
+msgid "[2121873](https://bugs.launchpad.net/bugs/2121873)"
+msgstr ""
+
+#: ../../24.04/4.md 31b14ae356dc4b09ac48c39b658f1f85
+msgid "Support TDX host in questing"
+msgstr ""
+
+#: ../../24.04/4.md b9ff88dc5bab4a538ad614216b2ac61e
+msgid "[2121512](https://bugs.launchpad.net/bugs/2121512)"
+msgstr ""
+
+#: ../../24.04/4.md 81806b95ae504759bcb938bf306d7628
+msgid "questing/linux: 6.17.0-3.3 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md 635a970e9e3b4f1980d0c059f6b10199
+msgid "Plucky/Questing fails to boot on (older) Macs"
+msgstr ""
+
+#: ../../24.04/4.md f294bb3ec3c04362b001dac8928be957
+msgid "[2121374](https://bugs.launchpad.net/bugs/2121374)"
+msgstr ""
+
+#: ../../24.04/4.md 4792e48c4d3d4601a05df606731c84ec
+msgid "questing/linux: 6.17.0-2.2 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md 5ad4add124334b08a7d8599ff63c518f
+msgid "[2116138](https://bugs.launchpad.net/bugs/2116138)"
+msgstr ""
+
+#: ../../24.04/4.md 13994fac26cb494587e5492a6ce777fd
+msgid "enable Mediatek media platform drivers on arm64"
+msgstr ""
+
+#: ../../24.04/4.md 6d95b443c8f44d9f89080846ca03083d
+#: de8d119599304a26bc9d064df97d5f4e
+msgid "[2028253](https://bugs.launchpad.net/bugs/2028253)"
+msgstr ""
+
+#: ../../24.04/4.md 4d4c69647e2e49699ae4619267374c7c
+#: 53ecbe17d9e24ccd8bb7dca785a2c44e
+msgid "update apparmor and LSM stacking patch set"
+msgstr ""
+
+#: ../../24.04/4.md 07073ce79f6548e89d9e8a426f34f47e
+msgid "[2102680](https://bugs.launchpad.net/bugs/2102680)"
+msgstr ""
+
+#: ../../24.04/4.md aa2e482623724fa3b96f1b824b7e4969
+msgid ""
+"Installation of AppArmor on a 6.14 kernel produces error message "
+"\"Illegal number: yes\""
+msgstr ""
+
+#: ../../24.04/4.md b0019eca673c4b05ae0d8fce48569f0c
+msgid ""
+"update apparmor and LSM stacking patch set: // [FFe] "
+"apparmor-4.0.0-alpha2 for unprivileged user namespace restrictions in "
+"mantic"
+msgstr ""
+
+#: ../../24.04/4.md 9a8d1e7282904f42b5bb3815182beba8
+msgid "[2032602](https://bugs.launchpad.net/bugs/2032602)"
+msgstr ""
+
+#: ../../24.04/4.md 3568aed4471246638686fa1c5bec49fc
+msgid "[2121054](https://bugs.launchpad.net/bugs/2121054)"
+msgstr ""
+
+#: ../../24.04/4.md 3fdc08f516894e59abd852d60383a1ec
+msgid "questing/linux-unstable: 6.17.0-1.1 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md bbbbcf189883450eb14d09a33841198b
+msgid "[1728366](https://bugs.launchpad.net/bugs/1728366)"
+msgstr ""
+
+#: ../../24.04/4.md 081f8eb2205f41ffaf4c167cbecc96af
+msgid "Enable CONFIG_IPV6_OPTIMISTIC_DAD"
+msgstr ""
+
+#: ../../24.04/4.md 08562c3cc3ef45ba965c9a0b49f59f06
+msgid "[2138288](https://bugs.launchpad.net/bugs/2138288)"
+msgstr ""
+
+#: ../../24.04/4.md 6e6018d3e4d2467c81759670ba1336bb
+msgid "noble/linux-oem-6.14: 6.14.0-1020.20 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md 327ef46b10fb4fd2b5ee91680f756472
+msgid "oem-somerville-remoraid-meta"
+msgstr ""
+
+#: ../../24.04/4.md e953cf69ae1c473285619201c75367d7
+msgid "[2089548](https://bugs.launchpad.net/bugs/2089548)"
+msgstr ""
+
+#: ../../24.04/4.md 69db6806c1a64a03b552cee6c52cd607
+msgid "Meta package for Somerville Remoraid"
+msgstr ""
+
+#: ../../24.04/4.md bf5293db5e394704ad02f1bd33563e0c
+msgid "crash"
+msgstr ""
+
+#: ../../24.04/4.md 4fea2fa8adac4e63882b29586f38f228
+msgid "[2125145](https://bugs.launchpad.net/bugs/2125145)"
+msgstr ""
+
+#: ../../24.04/4.md 7c2dbe1c27a446679f903524dcc329cf
+msgid "Enable crash to open coredumps generated on 6.14 HWE kernels"
+msgstr ""
+
+#: ../../24.04/4.md 125eab8a0c4c4a8a912f8b730d00a97d
+#: 1c0be6310c734ed0a72b53dfcac4489d
+msgid "linux-hwe-6.17"
+msgstr ""
+
+#: ../../24.04/4.md ff8a817bcf8e49ebaab4c1f78faad6b0
+msgid "[2132312](https://bugs.launchpad.net/bugs/2132312)"
+msgstr ""
+
+#: ../../24.04/4.md 4f80de09639445edb7608335ddb6501a
+msgid "noble/linux-hwe-6.17: 6.17.0-9.9~24.04.2 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md 07967e367f3f4e6cbe0500731cadd30b
+#: 725c4514bdc34e2f91f6c87f2d917194
+msgid "linux-riscv-6.17"
+msgstr ""
+
+#: ../../24.04/4.md ad6c51491c5d43e4bc7851fe98156864
+msgid "[2137844](https://bugs.launchpad.net/bugs/2137844)"
+msgstr ""
+
+#: ../../24.04/4.md 3ee520a49d1b4da0b67f0d1f536a4109
+msgid "noble/linux-riscv-6.17: 6.17.0-14.14.1~24.04.1 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md 7d0ffb2e9aec4836b6999f24cb0e37de
+msgid "[2013232](https://bugs.launchpad.net/bugs/2013232)"
+msgstr ""
+
+#: ../../24.04/4.md b32d165d52b144bfa87744cddc54f42f
+msgid "Enable StarFive VisionFive 2 board"
+msgstr ""
+
+#: ../../24.04/4.md 05462f2b10314d53ad11fd898cb601f9
+#: 16c5318a00024ed8a8b586d98ce63ddf
+msgid "[2138307](https://bugs.launchpad.net/bugs/2138307)"
+msgstr ""
+
+#: ../../24.04/4.md 18d9719c71164da7a9bfe8f870598604
+#: 9eff73a772ea49c892a165f72485d9c9
+msgid "noble/linux: 6.8.0-100.100 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md c51251cacc4049e48e0aeebfd1ead031
+#: ee7278fbbdb14f809ec18a08219aff07
+msgid "[2122531](https://bugs.launchpad.net/bugs/2122531)"
+msgstr ""
+
+#: ../../24.04/4.md dbe4e995dd3d4fb7a89fc2124b9920de
+#: fabe1599235044958011e8ad9b0067db
+msgid "Turbo boost stuck disabled on Clevo PD5x_7xSNC_SND_SNE"
+msgstr ""
+
+#: ../../24.04/4.md 5c0a52d2f4234a9a8919e6dc14059301
+#: c7316a6f69db4b10b249d8ac4698ba9b
+msgid "[2138244](https://bugs.launchpad.net/bugs/2138244)"
+msgstr ""
+
+#: ../../24.04/4.md 2cfd98bce7bb442fba486f0bcf974439
+#: 888e3356832a4da69931a14badd8bb1c
+msgid "[noble] write-sealed memfd mappings fail to map read-only"
+msgstr ""
+
+#: ../../24.04/4.md 1fe1c2f7225440948275562421cdb93c
+#: b522e37e3f954bce8995ca6fc0646f70
+msgid "[2137901](https://bugs.launchpad.net/bugs/2137901)"
+msgstr ""
+
+#: ../../24.04/4.md 9fa4bbecb33644b096f643bcb6d50f04
+#: a7fa6df6fb474a449bc17329f832bb70
+msgid "noble/linux: 6.8.0-98.98 -proposed tracker"
+msgstr ""
+
+#: ../../24.04/4.md 18187588db554f128ebbf1b88c3081d7
+#: c12dc8fdeff04bdabc80f193171fa4a5
+msgid "[2137528](https://bugs.launchpad.net/bugs/2137528)"
+msgstr ""
+
+#: ../../24.04/4.md 80f7868d6ef64e79af9be461b998affa
+#: 89c0a420b51142b4bdac805605e37df4
+msgid "TPM timeouts occur on some Infineon TPMs"
+msgstr ""
+
+#: ../../24.04/4.md 04912fb4789045d4996f1a05d178ecf1
+#: dd97cbaca3394efeac5d381eb913232b
+msgid "[2130244](https://bugs.launchpad.net/bugs/2130244)"
+msgstr ""
+
+#: ../../24.04/4.md a85f27b1b45d4ee784e71b8b3025b740
+#: c9f9318266534c2d9e7773e34a37a4fa
+msgid "power: intel_pstate: Fix unchecked MSR"
+msgstr ""
+
+#: ../../24.04/4.md 352f3248d94d44cbae9e4c376f997a2a
+#: d91965b40455447fa9606ee79da646db
+msgid "[2131265](https://bugs.launchpad.net/bugs/2131265)"
+msgstr ""
+
+#: ../../24.04/4.md b6ce4cd0a88e4c0e9a098df7033e3189
+#: f5dff4c76dea4f8f866f992626c02875
+msgid "[SRU] ixgbe: Add support for E610 in Noble"
+msgstr ""
+
+#: ../../24.04/4.md 3811e0c84c7540cfa1aeb31daf38071d
+#: 5c3677f3b63c4e55a49faac6dbc80a10
+msgid "[2135716](https://bugs.launchpad.net/bugs/2135716)"
+msgstr ""
+
+#: ../../24.04/4.md 02321e8a8853400eb390c4276534ba5b
+#: fd59a68fcf3243a6a29b15725e511de8
+msgid "Enabling crypto selftests causes boot stall on 6.8"
+msgstr ""
+
+#: ../../24.04/4.md 6eab76767f6d4ec28e045ffb8843028d
+#: a2bc847e5d344fdda0a5cacefb24c51a
+msgid "[2135261](https://bugs.launchpad.net/bugs/2135261)"
+msgstr ""
+
+#: ../../24.04/4.md ab47e03318284740a53667e86e6a752f
+#: f5d7f4a2b23d4e4bba49dfbc8affeb37
+msgid "Noble update: upstream stable patchset 2025-12-12"
+msgstr ""
+
+#: ../../24.04/4.md 63bd7d6770694588938d176bc3f59246
+#: 6892ec9a655b42069776d3a2bfcd740a
+msgid "[1928890](https://bugs.launchpad.net/bugs/1928890)"
+msgstr ""
+
+#: ../../24.04/4.md 4c3013d2126b46b6a7d53dcc4fb31f19
+#: 55c0f8f150a94dcfa2a77d8c2c430fbf
+msgid ""
+"vrf_route_leaking.sh in net from ubuntu_kernel_selftests linux ADT test "
+"failure with linux/5.11.0-18.19 (Ping received ICMP Packet too big)"
+msgstr ""
+
+#: ../../24.04/4.md 3533dddb83f44f69ad5f131b2bc5b0e0
+#: 93ff8b47fc014d2a896a0ab49ec0fe01
+msgid "[2112357](https://bugs.launchpad.net/bugs/2112357)"
+msgstr ""
+
+#: ../../24.04/4.md 97707721ea63407d9fe9a9f39ceaaa11
+#: ec31e21ba58648cbb2e5f1aa4606d69d
+msgid ""
+"ubuntu_bpf failed to build on Noble ( error: ‘struct prog_test_def’ has "
+"no member named ‘should_tmon’)"
+msgstr ""
+
+#: ../../24.04/4.md 9204fa113de342ce96cf577ca603948c
+#: e87f97406de04b83a4e86cdb8ac9648d
+msgid "[2012859](https://bugs.launchpad.net/bugs/2012859)"
+msgstr ""
+
+#: ../../24.04/4.md 215a9ea69aa34502a2a81ea3ada011a9
+#: e96ce0dcf8664ecc8e96c4927038c02d
+msgid ""
+"fib_tests.sh in ubuntu_kernel_selftests failed with IPv4 mangling tests "
+"Connection check - server side"
+msgstr ""
+
+#: ../../24.04/4.md 5b0d37551fa44647b190324ba85369db
+#: 86b3ecbbec474576b07f8bd5226305bd
+msgid "[2031531](https://bugs.launchpad.net/bugs/2031531)"
+msgstr ""
+
+#: ../../24.04/4.md 8d3e65589ece4b9498132f13ca997f3c
+#: e45c85e658854b8fbf7d536e27ffaa99
+msgid ""
+"net:rtnetlink.sh in ubuntu_kernel_selftests failed with FAIL: address "
+"proto IPv4 / IPv6"
+msgstr ""
+
+#: ../../24.04/4.md a6f2b571a6dd49729c5ddc9ab6158d7b
+#: b310a0f0890244d1a7b384dd546af12f
+msgid "[2136740](https://bugs.launchpad.net/bugs/2136740)"
+msgstr ""
+
+#: ../../24.04/4.md 87ae265e60384a3884ab33d6b3994f39
+#: cb223798ca4040db9c39f335f8869dbb
+msgid "Noble update: upstream stable patchset 2025-12-17"
+msgstr ""
+
+#: ../../24.04/4.md 0e39c1d1b46740408561e4b06f7fe890
+#: 66825268a0574136988eccb7846cc0bd
+msgid "[2136361](https://bugs.launchpad.net/bugs/2136361)"
+msgstr ""
+
+#: ../../24.04/4.md 0abf8b3a06124f2d8ef14fca72c5f85f
+#: 2d4c60e86c484272b829a99fd4245e92
+msgid "Noble update: upstream stable patchset 2025-12-16"
+msgstr ""
+
+#: ../../24.04/4.md 27ceebb39f7c471e8bd468656bc4a400
+#: f5b330c15296401c9e5e30de07b27e59
+msgid "[2136221](https://bugs.launchpad.net/bugs/2136221)"
+msgstr ""
+
+#: ../../24.04/4.md 78c88c5cb86b4434a53ea6dc4d89403a
+#: 7bb7b4c35af642aea71906237670a5f8
+msgid "Noble update: upstream stable patchset 2025-12-15"
+msgstr ""
+
+#: ../../24.04/4.md 2524ebdf7a9f46b2a3d1545572054c26
+#: a297554f1316423a9a33c5c9cfe40a40
+msgid "[2134382](https://bugs.launchpad.net/bugs/2134382)"
+msgstr ""
+
+#: ../../24.04/4.md c8d9abf2413c42e1a1443ac2f843b785
+#: cb472d0d56134fb394aa09fc264841d7
+msgid "Noble update: upstream stable patchset 2025-12-08"
+msgstr ""
+
+#: ../../24.04/4.md 74d06276cfef419190e64a4ab427e8de
+#: 9bd5c46895ac416ea06026ec9b280d6b
+msgid "[2071861](https://bugs.launchpad.net/bugs/2071861)"
+msgstr ""
+
+#: ../../24.04/4.md 30f0ab0216564e4d8838b123c9faf9b3
+#: 8d4f350acdeb479485b9ba963596b4a0
+msgid "ftrace:test.d--event--subsystem-enable.tc fails on some instances"
+msgstr ""
+
+#: ../../24.04/4.md 764fe565827544c9800bb439d417b232
+#: 777f50d18364413c8ba2399e5c1831c0
+msgid "[2134640](https://bugs.launchpad.net/bugs/2134640)"
+msgstr ""
+
+#: ../../24.04/4.md 2e696e5dcb954a99b11816c051d7d12d
+#: a85731494f354bc5a44150c88b74f9c6
+msgid "Noble update: upstream stable patchset 2025-12-11"
+msgstr ""
+
+#: ../../24.04/4.md 8cd78bdef7c54099baf613b85ec95f57
+#: e1d3668402674ed383fad0c5628eac34
+msgid "[2134499](https://bugs.launchpad.net/bugs/2134499)"
+msgstr ""
+
+#: ../../24.04/4.md 1598e7c9026248348b5ea2aa9dda45ea
+#: a182643d1e5945cb804c25c7cd14f88c
+msgid "Noble update: upstream stable patchset 2025-12-09"
+msgstr ""
+
+#: ../../24.04/4.md 7886bf0e2ac543839b1c33de3906d5ab
+#: ca2eb1ebfa234e9b840f0558891e9415
+msgid "[2133786](https://bugs.launchpad.net/bugs/2133786)"
+msgstr ""
+
+#: ../../24.04/4.md 561f5a40cac9483ea85b4d9f7587c378
+#: ba8dd9e8d93e467ebfb9268ed0cf216c
+msgid "Noble update: upstream stable patchset 2025-12-03"
+msgstr ""
+
+#: ../../24.04/4.md 1192ce3602764ef099978a935bb5dd60
+#: 1debbf3febf94e35bd9c23675c3da5ba
+msgid "[2133301](https://bugs.launchpad.net/bugs/2133301)"
+msgstr ""
+
+#: ../../24.04/4.md 9059a8b6b7f44a57b56688432a8f2d72
+#: a5a5c5ac294b4faba3f34b4021d40041
+msgid "Noble update: upstream stable patchset 2025-11-28"
+msgstr ""
+
+#: ../../24.04/4.md 17a0b3cff37b45e0be776de2b5ef2b5a
+#: c9441177e51744b3bcc33dba98cfe516
+msgid "[2127971](https://bugs.launchpad.net/bugs/2127971)"
+msgstr ""
+
+#: ../../24.04/4.md 24d019828fee44f09976a31c06ea9b95
+#: 93a6118e21ed452a8df830de1e7f913c
+msgid ""
+"Ubuntu x86_64 6.8 kernels won't build if CONFIG_FB_HYPERV config option "
+"is enabled"
+msgstr ""
+
+#: ../../24.04/4.md 10391baf52594bf38c1279f93dc91832
+#: 6195fa133e7444e6b920330ade73bd2e
+msgid "[2130344](https://bugs.launchpad.net/bugs/2130344)"
+msgstr ""
+
+#: ../../24.04/4.md c0145f2e3e894f99bda69af213520c7a
+#: ec7b0bdf64d24479ab24b270fbf3e57d
+msgid "Noble update: upstream stable patchset 2025-10-30"
+msgstr ""
+
+#: ../../24.04/4.md 2062b9be25d84e4296b15ca422ea2dba
+#: 4e795eb92f7e4885b5d22503e8999e86
+msgid "[2129559](https://bugs.launchpad.net/bugs/2129559)"
+msgstr ""
+
+#: ../../24.04/4.md 204d446eda3d4c2d877b55146157a2d0
+#: 3008e62c9db548b0b5f7f9d12a15e8fe
+msgid "Noble update: upstream stable patchset 2025-10-22"
+msgstr ""
+
+#: ../../24.04/4.md 441118de9c0d4688b16187f2dcfb8fba
+msgid "linux-firmware-nvidia-tegra"
+msgstr ""
+
+#: ../../24.04/4.md 0c31a43fdbf24161a3b53b849d20a264
+msgid "[2127473](https://bugs.launchpad.net/bugs/2127473)"
+msgstr ""
+
+#: ../../24.04/4.md c12b06ea75e14376a275d7f549ed2bf2
+msgid "Add firmware files for Thor, notably display and bluetooth"
+msgstr ""
+
+#: ../../24.04/4.md 301331c4cadc4e019a1978e296b89230
+msgid "[2059814](https://bugs.launchpad.net/bugs/2059814)"
+msgstr ""
+
+#: ../../24.04/4.md de1d8e6348d4486c889007d23fc63813
+msgid "Enable GDS in the 6.8 based linux-nvidia kernel"
+msgstr ""
+
+#: ../../24.04/4.md cda530fdebcf4da2b1845d179fca4145
+msgid "[2138269](https://bugs.launchpad.net/bugs/2138269)"
+msgstr ""
+
+#: ../../24.04/4.md f86fd9318ef74f94a48ebc3133ebf133
+msgid "Add PCIe Hotplug Driver for CX7 on DGX Spark"
+msgstr ""
+
+#: ../../24.04/4.md:548 d16189fdd94047a2be7d756639d7d775
+msgid "Base platform fixes"
+msgstr ""
+
+#: ../../24.04/4.md:550 a9f8d93b8a49479b92cb57aa0cb9bad6
+msgid ""
+"These changes affect the core fundamental components of all the Ubuntu "
+"flavors."
+msgstr ""
+
+#: ../../24.04/4.md 043b5a3909e94a4ab209683a7aa161d8
+#: 377e3cd1039f41718d597ca8f551deb1 5efa133847324d4d86de4e6563ed2975
+#: 9ea45128f0ad414983412992bb4ff9e9
+msgid "dotnet8"
+msgstr ""
+
+#: ../../24.04/4.md 569fedcdefa14b4eba19d10a213b21ff
+msgid "[2119537](https://bugs.launchpad.net/bugs/2119537)"
+msgstr ""
+
+#: ../../24.04/4.md 1909c8693a8e47c7a2fbcd32063bddd3
+#: 63e3151e1fdb42b6b668a1a6f0d65511 7dda7968705444358526b117d8151e59
+#: 8535bd9350f448f19868abe0f9950d1b abdcaae3398c47d08e42961024ba99b8
+#: dc3e8b814150407dacfffc3a211b6592 fe036d2261a749738d79dd99ab51b3b5
+msgid "New upstream release"
+msgstr ""
+
+#: ../../24.04/4.md 4303ac6d3b32443b9c94b1d156e96991
+#: cc22c8072cad4df79667b21dc0ab6897
+msgid "malcontent"
+msgstr ""
+
+#: ../../24.04/4.md 8c6e3db1cac54903810b9da8bf13b9b4
+msgid "[2116954](https://bugs.launchpad.net/bugs/2116954)"
+msgstr ""
+
+#: ../../24.04/4.md 0010cf7f04c14c7eb8a316d2ea2440cf
+msgid "Fix wrong a11y role in button"
+msgstr ""
+
+#: ../../24.04/4.md 2c0fd767e146413f87a34eecb9cb81c0
+#: e203078408464f258ad7dc28f1c8890f
+msgid "powermgmt-base"
+msgstr ""
+
+#: ../../24.04/4.md 011fe80def15491d80194f1ef92b49a4
+#: e53a078d2ec04856ac798599e742d890
+msgid "[1980991](https://bugs.launchpad.net/bugs/1980991)"
+msgstr ""
+
+#: ../../24.04/4.md 08e929f326b242daa154dbdbefd1dbb0
+msgid ""
+"Fix on_ac_power incorrectly reporting AC state on some machines with USB "
+"type-C ports: ."
+msgstr ""
+
+#: ../../24.04/4.md 471e3044523440c2beeab32ff43bea3b
+msgid "on_ac_power: improve reporting of AC power status in more scenarios"
+msgstr ""
+
+#: ../../24.04/4.md c01702ec39664a178274089adb7a7e87
+msgid "tecla"
+msgstr ""
+
+#: ../../24.04/4.md e7d531113d04418eb7a8f6023103cc84
+msgid "[2116166](https://bugs.launchpad.net/bugs/2116166)"
+msgstr ""
+
+#: ../../24.04/4.md 65c551dfb961404ab2f2ad57f50f1015
+msgid ""
+"a11y: Add accessibility to the keyboard layout by using "
+"`gtk_accessible_announce()` to read the popup with the key combinations"
+msgstr ""
+
+#: ../../24.04/4.md 14d0ff9edb73493ca44616ffdf0f8f06
+msgid "screen-resolution-extra"
+msgstr ""
+
+#: ../../24.04/4.md 6397fae35f394d89a3c584fe89c7a19d
+msgid "[2090974](https://bugs.launchpad.net/bugs/2090974)"
+msgstr ""
+
+#: ../../24.04/4.md b4fb9c300fb445fea47e195a77c555ed
+msgid "Make nvidia-polkit executable"
+msgstr ""
+
+#: ../../24.04/4.md 0971a5c28b9348e1900e32b04111b841
+#: 1f460eb7fef3426094abde814db88860 2e6f3452a38b4f488fe959af445604d1
+#: 6013fdf75cd742ecbf878d2052015466 d0f22aa6595845f6bb9a2ef0f2b2d507
+#: f508272212c548deb636ea84f7e6adf2
+msgid "gtk4"
+msgstr ""
+
+#: ../../24.04/4.md 95c9403c5a85416380e416e0d867b6cb
+msgid "[2105946](https://bugs.launchpad.net/bugs/2105946)"
+msgstr ""
+
+#: ../../24.04/4.md 6aaf98e1ca7b43c4aa6218391324dfc7
+msgid ""
+"d/p/lp2105946-gtklistbase-Do-not-select-invalid-positions.patch: cherry-"
+"pick fix from upstream to fix a crash when pressing the arrow keys in an "
+"empty directory: ."
+msgstr ""
+
+#: ../../24.04/4.md 39633629b34244c18dbd1cee92816d7a
+#: b2449b08133744ee89c429908c4f7102
+msgid "xserver-xorg-video-vesa"
+msgstr ""
+
+#: ../../24.04/4.md e733a15bd72948eeb9f1a7a01b2c0765
+msgid "[2062159](https://bugs.launchpad.net/bugs/2062159)"
+msgstr ""
+
+#: ../../24.04/4.md bfcdd50304b1472c952db02382c4f072
+msgid ""
+"d/p/fix-implicit-declarations.patch: patching the file to fix FTBFS on "
+"multiple platforms: ."
+msgstr ""
+
+#: ../../24.04/4.md 79e11a26b46946918d157bfff7172fcb
+msgid "[2083867](https://bugs.launchpad.net/bugs/2083867)"
+msgstr ""
+
+#: ../../24.04/4.md 9c77bc650e0b4e00972f248bd57a1cbb
+msgid "Rebuild to pick-up debhelper frame-pointer flags: ."
+msgstr ""
+
+#: ../../24.04/4.md 9b3949ae59724b52b1c7053e2effb2ee
+#: db654bde4d00421daa882b54b0b9168a
+msgid "xserver-xorg-video-nouveau"
+msgstr ""
+
+#: ../../24.04/4.md 7435ce988b1a458085c07c4451a2f088
+msgid "[2062144](https://bugs.launchpad.net/bugs/2062144)"
+msgstr ""
+
+#: ../../24.04/4.md ad5e356a9cfa4d53bb84161705a5c956
+msgid ""
+"d/p/nouveau-fixup-driver-for-new-macro-gating.patch: fix implicit "
+"declarations: ."
+msgstr ""
+
+#: ../../24.04/4.md 20c1499796ea488086586f3b88b91130
+msgid "[2083855](https://bugs.launchpad.net/bugs/2083855)"
+msgstr ""
+
+#: ../../24.04/4.md 2a16bfdcaee24440a8f2f535dc707cd5
+msgid "Rebuild to pick-up frame-pointer flags: ."
+msgstr ""
+
+#: ../../24.04/4.md 6204a78245ff425a8ef85eb9c17cfafd
+#: 703ad2d574a5443cb441e03a14f433d8
+msgid "fwupd"
+msgstr ""
+
+#: ../../24.04/4.md 8fac1fd71b5f491fbb769acdda2cfd29
+msgid "[2116567](https://bugs.launchpad.net/bugs/2116567)"
+msgstr ""
+
+#: ../../24.04/4.md fc503c0f57404f66b1aabb52ee8941d2
+msgid "Add Dell SD25TB5 and AIO system MTK scalar IC firmware update"
+msgstr ""
+
+#: ../../24.04/4.md 2b5ddb315f254eccbd6602692f05bb79
+#: c61dc34fc2974f09985e7fae9a6e9359
+msgid "mesa"
+msgstr ""
+
+#: ../../24.04/4.md 2221a1fde140413b8efb3c654def64df
+msgid "[2111265](https://bugs.launchpad.net/bugs/2111265)"
+msgstr ""
+
+#: ../../24.04/4.md f29346a2363f49dbaeaaba5ef82379da
+msgid "Migrate to llvm-20"
+msgstr ""
+
+#: ../../24.04/4.md cf8260c60f074b2586d28f9813ae8db6
+msgid "coreutils"
+msgstr ""
+
+#: ../../24.04/4.md 3c137a111f3e42a2a88ee64298dac1fd
+msgid "[2115274](https://bugs.launchpad.net/bugs/2115274)"
+msgstr ""
+
+#: ../../24.04/4.md 6a818a86e82849478361758fd2bf635b
+msgid ""
+"Avoid returning permission denied errors when running ls -l when reading "
+"file attributes"
+msgstr ""
+
+#: ../../24.04/4.md 1dc28cba55d74fc38199c9d5787670af
+#: 695264deec114614a297ba6e60b7fde1 733d332339824c92b639148ccea5912d
+#: e1ddce6ee84a471ba32f9475385fe71d
+msgid "s390-tools"
+msgstr ""
+
+#: ../../24.04/4.md 2de1e8826c0d43ce8db359e543b99712
+#: 3e57f8a613784635829e53e4009c52f0 4b3b9be30873444a86fcd064ea227c42
+#: a6743f8cfe7a4f2a9789893830e3146f
+msgid "[2103414](https://bugs.launchpad.net/bugs/2103414)"
+msgstr ""
+
+#: ../../24.04/4.md ec18f555b781496a810d46686f7f06d1
+msgid ""
+"Add missing commit/patch d/p/lp-2103414-cpumf-lscpumf-Add-support-for-"
+"IBM-z17-counter-sets.patch that caused a failed verification of "
+"2.31.0-0ubuntu5.2: ."
+msgstr ""
+
+#: ../../24.04/4.md e3a8c4e11ee34e76afe6ff74fbad42c0
+msgid ""
+"Add d/p/lp-2103414-s390-tools-libutil-Add-machine-type-3932.patch and "
+"d/p/lp-2103414-libutil-Add-machine-type-definition-for-z17.patch to "
+"achieve support for IBM z17 (and z16 GA2) hw specific CPU-MF counters: ."
+msgstr ""
+
+#: ../../24.04/4.md 68861528feae4194aab8b19822f88821
+#: fe46abf8dda54342b311511ebdc74880
+msgid "[2078347](https://bugs.launchpad.net/bugs/2078347)"
+msgstr ""
+
+#: ../../24.04/4.md b077feb1004048feb486bc8e1ce3760d
+msgid ""
+"Add d/p/lp-2078347-udev-Introduce-rule-to-set-newly-hotplugged-CPUs.patch"
+" that fixes CPUs from staying offline: ."
+msgstr ""
+
+#: ../../24.04/4.md 6000918e06274ef7bfdbf23081c3cf8f
+#: 88efaeb3a7444e908500baf25629f4f7 9c822e16dff348a3932a8ae8f5465abe
+msgid "[2044104](https://bugs.launchpad.net/bugs/2044104)"
+msgstr ""
+
+#: ../../24.04/4.md 6408ee68f0cb4351b30df0c53ba29bb6
+msgid ""
+"Add d/p/lp-2044104-zdev-option-to-identify-files-created-by-zdev.patch to"
+" avoid rebuild initramfs by chzdev -e if zdev:early=0 set: ."
+msgstr ""
+
+#: ../../24.04/4.md 346d1531328a4149b7e4e2183d23cbec
+#: 466ed94daa7545098c60287d24819469 926e7578eefa41c5a612f4dac711edb8
+#: fd239035d5f54e56af1e448a4ef965cc
+msgid "s390-tools-signed"
+msgstr ""
+
+#: ../../24.04/4.md 1c58f25d8a134f2eb116ddd0ed67240d
+msgid "Rebuild against 2.31.0-0ubuntu5.3"
+msgstr ""
+
+#: ../../24.04/4.md 64c5a17005304a40a5abefa439ac4019
+#: b9473593641c46d3969de89d7448afcd ccd03ede2f53486d9ef050e858d67534
+msgid "Rebuild against 2.31.0-0ubuntu5.2"
+msgstr ""
+
+#: ../../24.04/4.md 4a2d949bad40402ea8bdd948410743a3
+#: cdaea1e3617a49908493782ce60bdfa2
+msgid "systemd-hwe"
+msgstr ""
+
+#: ../../24.04/4.md b0859e35cc4544a6bcc9d233d708e9a8
+msgid "[2121006](https://bugs.launchpad.net/bugs/2121006)"
+msgstr ""
+
+#: ../../24.04/4.md f680d92e188248aea76713d19db21428
+msgid "Fix hardware name for Intel Wireless-AC 9560 on Jasper Lake"
+msgstr ""
+
+#: ../../24.04/4.md d9197441f4d64d66a4a3c02050c385c0
+msgid "dconf"
+msgstr ""
+
+#: ../../24.04/4.md f291a0031bd8485983cf5cf2e5ca12d9
+msgid "[2072586](https://bugs.launchpad.net/bugs/2072586)"
+msgstr ""
+
+#: ../../24.04/4.md f6d1b4dab08343a7becb1e27dfc3a7b3
+msgid ""
+"Restore permissions on database write to prevent restrictive umask from "
+"rendering the db inaccessible"
+msgstr ""
+
+#: ../../24.04/4.md 122e5a75965a4fd4a530979b881216b8
+#: 5f470cafaa7446fb8a2ed6a52e4b9d55 7068b1b623eb492f9213976fde5b8c37
+#: 95065ede856b459e9a5fa194df4cd6ce
+msgid "landscape-client"
+msgstr ""
+
+#: ../../24.04/4.md 86295072a894487a8d5d4a3b7a1b0369
+#: ff7a4db1dd7c4ddf8a016d169eb531d2
+msgid "[2087852](https://bugs.launchpad.net/bugs/2087852)"
+msgstr ""
+
+#: ../../24.04/4.md a8389532551241db868efc13dec80924
+msgid ""
+"d/p/fix-apt-source-file-management.patch: restore .list and .sources "
+"files when a repo profile is disassociated"
+msgstr ""
+
+#: ../../24.04/4.md 92d9e64bb45944c68483c997aac37dae
+msgid "[2099283](https://bugs.launchpad.net/bugs/2099283)"
+msgstr ""
+
+#: ../../24.04/4.md 185c20a75ad84bee82525a25396a419f
+msgid ""
+"d/p/package-reporter-high-cpu.patch: backport fix to reduce CPU usage of "
+"package-reporter by avoiding creating Origin objects from the Python apt "
+"package"
+msgstr ""
+
+#: ../../24.04/4.md 7cd18489e83249939a7b8f024416d734
+msgid ""
+"d/p/2087852-feat-manage-ubuntu-sources-glob.patch: include DEB822 "
+"formatted sources when managing apt sources by regex matching .sources "
+"files"
+msgstr ""
+
+#: ../../24.04/4.md 3941a0dbf6ea4679a62f99bc67a537c0
+msgid "dpkg"
+msgstr ""
+
+#: ../../24.04/4.md 5f1414b681ec4a13915f7c075f71c0aa
+msgid "[2082636](https://bugs.launchpad.net/bugs/2082636)"
+msgstr ""
+
+#: ../../24.04/4.md 4aabd2fb62734d9e840d58408aad5204
+msgid "Add RUSTFLAGS to define frame pointers for Rust toolchain: ."
+msgstr ""
+
+#: ../../24.04/4.md e20c21a8026c435e93a7f9bd50acbb12
+msgid "lftp"
+msgstr ""
+
+#: ../../24.04/4.md 7ffc002e6b2a4a7396a8fbe9822b09c6
+msgid "[2091440](https://bugs.launchpad.net/bugs/2091440)"
+msgstr ""
+
+#: ../../24.04/4.md c19e030cee6e4f569c90bb1dff3f0332
+msgid "d/p/cd-zVM-segfault-fix.patch: fix segfault on z/VM cd"
+msgstr ""
+
+#: ../../24.04/4.md cd7bb7a93fe54ba7a104e6a0fcb73202
+msgid "[2122356](https://bugs.launchpad.net/bugs/2122356)"
+msgstr ""
+
+#: ../../24.04/4.md 0b48a661682b44339a1d4fd82afd3784
+#: 820aa82f68584b93b4f7d7851fc8483f f52f1786aa51444ebd9204f6872f5f45
+msgid "network-manager"
+msgstr ""
+
+#: ../../24.04/4.md 07fd413589d94c4e8c5f93d0a489b22d
+msgid "[2116940](https://bugs.launchpad.net/bugs/2116940)"
+msgstr ""
+
+#: ../../24.04/4.md 591134a1be0242acb739efa13922a566
+msgid "fix nmcli that could not report 6ghz wifi channels correctly"
+msgstr ""
+
+#: ../../24.04/4.md a6b31ef98bd64dbb8f41e1c02a22d267
+msgid "wpa"
+msgstr ""
+
+#: ../../24.04/4.md 71ef17623eb9489ca4a09ccfb829b8ef
+msgid "[2117180](https://bugs.launchpad.net/bugs/2117180)"
+msgstr ""
+
+#: ../../24.04/4.md b4ce4b201ec441acb6c9bcd3d5a7cf41
+msgid "Bump DEFAULT_BSS_MAX_COUNT to 1000"
+msgstr ""
+
+#: ../../24.04/4.md 0d97a1399f7447229daa35f90fd23e1a
+#: 2693a37109db4b3aa9ee6338ebcb47bd 52d2293d2731493a8e0b33ea5a39f0eb
+#: 55ab9e7c33f84227a2e112961ff11984 598e09c5d66b44d3a3344ee613e4428d
+#: 64ee21c6be834c05b60a167ecfe30a5f 65ed20748b5545158e564e2e3d0aa237
+#: 6ab190b95c0b407ca3799487d2dbb2e2 6c12badad81a498aaac8408db010ebe0
+#: 6e74336a356149caaf7398afabd4b9ed 74f7674d50524a529d90742ce8b6697d
+#: 87a77f1fb9a642ca9e40418d6c35bcf4 8ce1ba9069b54cf0a47129d80709d71f
+#: 94658550e6944b6e869da63d44d88d00 97ef6305257840e8829ee754f7597c7e
+#: 9bea3eb017ba44368966f4c67922a516 a0fd0ca698a94f29b654fe1287ede551
+#: a5eed0e46bf84ebabfc12571207b1c1e a8584f07139a4c5c8428b2fd2c686ce8
+#: ab079989f56240b3b46abb26d947ee7b ab44ac30335f414a853b8d317462f57c
+#: aee4bf4644334379b914556af52ea65d b2239cc54faa4b6a9e7c69b2f1768651
+#: bf06b4a1738f4f919eafe39efd67537d c8311ad59f074300920736da7b015f19
+#: cf6628c098da488d82b44fede4e3b84a d2e893e65bc640fd82b3764dd081c921
+#: d90195e9e504407e92752a0f9741f4f5 d91fe34c434b4daf9ac2ca329dfcd9ad
+#: f814ac14d08b498d8b80ca540e97a67c
+msgid "snapd"
+msgstr ""
+
+#: ../../24.04/4.md f8f2e830f45b4fd589b567ea84c68aa0
+msgid "[2118396](https://bugs.launchpad.net/bugs/2118396)"
+msgstr ""
+
+#: ../../24.04/4.md c157ca781dc6467db4d992e5736d7579
+msgid "[2114923](https://bugs.launchpad.net/bugs/2114923)"
+msgstr ""
+
+#: ../../24.04/4.md b5ef16540bad4c778ff644aef6997fa7
+msgid ""
+"snap-confine: add support for host policy for limiting users able to run "
+"snaps: Reject system key mismatch advise when not yet seeded"
+msgstr ""
+
+#: ../../24.04/4.md 8c47ae47105e4f34a276bf5d1d57f115
+msgid "[2112551](https://bugs.launchpad.net/bugs/2112551)"
+msgstr ""
+
+#: ../../24.04/4.md fbcfe0ca754a4c518d7bbaca58a65ce6
+msgid ""
+"Fix bug preventing remodel from core18 to core18 when snapd snap is "
+"unchanged: Make removal of last active revision of a snap equal to snap "
+"remove"
+msgstr ""
+
+#: ../../24.04/4.md 1d7b76788fc944d79831b8c05c874f01
+msgid "[2114779](https://bugs.launchpad.net/bugs/2114779)"
+msgstr ""
+
+#: ../../24.04/4.md 10c4b28cf61c45e4b3c6b3b689614fd8
+msgid ""
+"Fix bug preventing remodel from core18 to core18 when snapd snap is "
+"unchanged: Allow non-gpt in fallback mode to support RPi"
+msgstr ""
+
+#: ../../24.04/4.md 75620e7294494755a926728cb8de5c31
+msgid "[2112544](https://bugs.launchpad.net/bugs/2112544)"
+msgstr ""
+
+#: ../../24.04/4.md a99583c5e8644c4eb27d9131b0dcd4b6
+msgid ""
+"Switch from using core to snapd snap for snap debug connectivity: Fix "
+"offline remodel case where we switched to a channel without an actual "
+"refresh"
+msgstr ""
+
+#: ../../24.04/4.md da61b1e354634c7e8c89eaa561554a1e
+msgid "[2112332](https://bugs.launchpad.net/bugs/2112332)"
+msgstr ""
+
+#: ../../24.04/4.md 32c934f322a74b32a658b07637255f89
+msgid ""
+"Switch from using core to snapd snap for snap debug connectivity: Exclude"
+" snap/snapd/preseeding when generating preseed tarball"
+msgstr ""
+
+#: ../../24.04/4.md f6e5217796514029b79c073235eafa26
+msgid "[1952500](https://bugs.launchpad.net/bugs/1952500)"
+msgstr ""
+
+#: ../../24.04/4.md 6a6871a930534f139a74076d3d313ec1
+msgid ""
+"Switch from using core to snapd snap for snap debug connectivity: Fix "
+"snap command progress reporting"
+msgstr ""
+
+#: ../../24.04/4.md f6f98da8f6a148b6bb51e47eec0b1973
+msgid "[1849346](https://bugs.launchpad.net/bugs/1849346)"
+msgstr ""
+
+#: ../../24.04/4.md 237d597852d44d3a890ff65c6fe581e4
+msgid ""
+"Switch from using core to snapd snap for snap debug connectivity: "
+"Interfaces: kerberos-tickets"
+msgstr ""
+
+#: ../../24.04/4.md 3cfeb65c32cd4a8fb0005ba9000ca242
+msgid "[2098780](https://bugs.launchpad.net/bugs/2098780)"
+msgstr ""
+
+#: ../../24.04/4.md 83945955725e47e6bb9d39c1b1cd227c
+msgid "Interfaces: posix-mq"
+msgstr ""
+
+#: ../../24.04/4.md 7deb32ccc1164a75ae5038ea83cef0cc
+msgid "[2033883](https://bugs.launchpad.net/bugs/2033883)"
+msgstr ""
+
+#: ../../24.04/4.md 27c66d15d3384f6487d39be154bcac84
+msgid "Interfaces: block-devices"
+msgstr ""
+
+#: ../../24.04/4.md e02fd63d7993437e93e3bc482cdd0bc9
+msgid "[2107443](https://bugs.launchpad.net/bugs/2107443)"
+msgstr ""
+
+#: ../../24.04/4.md fac4ec385cce40b39ce1775497abd5f8
+msgid ""
+"Fix a regression during seeding when using early-config: reset SHELL to "
+"/bin/bash in non-classic snaps"
+msgstr ""
+
+#: ../../24.04/4.md 86e61e3f74ba40cd9a9fabe90fd55cb7
+msgid "[2104066](https://bugs.launchpad.net/bugs/2104066)"
+msgstr ""
+
+#: ../../24.04/4.md 4745d99e86c54d42a92b84c2dac1b075
+msgid ""
+"Fix potential validation set deadlock due to bases waiting on snaps: Only"
+" cancel notices requests on stop/shutdown"
+msgstr ""
+
+#: ../../24.04/4.md fc73be5e02fa4f31bf029318d9f105aa
+msgid "[2102456](https://bugs.launchpad.net/bugs/2102456)"
+msgstr ""
+
+#: ../../24.04/4.md a16a7e30c86b43b89b51c3348021ae99
+msgid ""
+"Modify snap-confine AppArmor template to allow all glibc HWCAPS "
+"subdirectories to prevent launch errors: update secboot to bf2f40ea35c4 "
+"and modify snap- bootstrap to remove usage of go templates to reduce size"
+" by 4MB"
+msgstr ""
+
+#: ../../24.04/4.md 85267efb403e45ee9286319f300a5e0a
+msgid "[2106121](https://bugs.launchpad.net/bugs/2106121)"
+msgstr ""
+
+#: ../../24.04/4.md cc55d581290c42bba205c35cf0540379
+msgid ""
+"Fix snap-bootstrap to mount kernel snap from /sysroot/writable/system-"
+"data: fix snap-bootstrap busy loop"
+msgstr ""
+
+#: ../../24.04/4.md 4513b9894ebc4f7f9c98332a1f4b6fcc
+msgid "[2088456](https://bugs.launchpad.net/bugs/2088456)"
+msgstr ""
+
+#: ../../24.04/4.md b2363d082014413499e5699693584bdc
+msgid "Interfaces: opengl"
+msgstr ""
+
+#: ../../24.04/4.md 0a3c7cf9ac8b4aad87dadbc38ff4e4f1
+#: 26990dd8e03c4ac1b7f89cd0bad02467 2dc7801454ce42b1be2ea013d40ffa0f
+#: 4e6c1fe76d864196a1d35a66e3ff9265 79656025d1a1434691b8a2cbc9daa2d9
+#: 8708780f954f443ab9d38b20eeb14dff b8a16d1a48a64a2f9561067dcc58b91f
+#: bbc4a49decc04df7a74291913a6f63cb d4883903056349eaa58e66ed7ac26ec7
+msgid "systemd"
+msgstr ""
+
+#: ../../24.04/4.md d0e1315ab73f4e32b3bcee5db62c3728
+msgid "[2112237](https://bugs.launchpad.net/bugs/2112237)"
+msgstr ""
+
+#: ../../24.04/4.md 94d54f2b1b93497b9783c0fd00963b48
+msgid "initramfs-tools: copy hwdb.bin to initramfs"
+msgstr ""
+
+#: ../../24.04/4.md 3fc4f51d9e534e45a581260ddf2b6e11
+msgid "[2115263](https://bugs.launchpad.net/bugs/2115263)"
+msgstr ""
+
+#: ../../24.04/4.md 3f54c3c978d6446e89968804781fcee5
+msgid "d/t/`tests-in-lxd`: drop patching workaround"
+msgstr ""
+
+#: ../../24.04/4.md 6c5b8d9d59e6482ba92de0a17a473aa9
+msgid ""
+"initramfs-tools: filter out zdev rules in the initramfs hook: Backport "
+"the logic from plucky onward, but adjust the version string for noble."
+msgstr ""
+
+#: ../../24.04/4.md 8de3d25d98f5417893dda9fd4db2e7a7
+msgid "[2115391](https://bugs.launchpad.net/bugs/2115391)"
+msgstr ""
+
+#: ../../24.04/4.md f81cc19432ad4c17b9ced8d060497169
+msgid ""
+"pcrlock: handle measurement logs where hash algs in header. Fix pcrlock "
+"log to function correctly reading the TPM eventlog on hyper-v VMs"
+msgstr ""
+
+#: ../../24.04/4.md 34eaf3c1af804bed9e5a6a40f8fadcdd
+msgid "[2115418](https://bugs.launchpad.net/bugs/2115418)"
+msgstr ""
+
+#: ../../24.04/4.md a8f5b421430d49b387295ab12f462dcd
+msgid ""
+"network/dhcp6: consider the DHCPv6 protocol as finished when conflict "
+"addresses exist"
+msgstr ""
+
+#: ../../24.04/4.md 42da1e5fa2bc46a1b41b813518b156c2
+msgid "[2110585](https://bugs.launchpad.net/bugs/2110585)"
+msgstr ""
+
+#: ../../24.04/4.md ff1fd7eab50a4d79829616a34a0b2d79
+msgid "Drop support for using actual brightness"
+msgstr ""
+
+#: ../../24.04/4.md 216da79c80394d6b893fb0ea3f3638ea
+msgid "tcpdump"
+msgstr ""
+
+#: ../../24.04/4.md d176398c0d674812b3b4db3ea9fde6ff
+msgid "[2071891](https://bugs.launchpad.net/bugs/2071891)"
+msgstr ""
+
+#: ../../24.04/4.md 9dc37d5fa21245748582ee2068169b22
+msgid "Fixes segfault when running as the root user"
+msgstr ""
+
+#: ../../24.04/4.md 6079ec3307b64b5ca01121ccc9189685
+msgid "[2126468](https://bugs.launchpad.net/bugs/2126468)"
+msgstr ""
+
+#: ../../24.04/4.md 0bb3cc3192bb40cfaeff0ec005a8b224
+msgid "hwdb: enable autosuspend for Dell DW5826e WWAN modem"
+msgstr ""
+
+#: ../../24.04/4.md a9c2af12def44e11a1dbb8f8a84d95fe
+msgid "libgtop2"
+msgstr ""
+
+#: ../../24.04/4.md 2439d7971e1047cd828d270efbfeea60
+msgid "[2116763](https://bugs.launchpad.net/bugs/2116763)"
+msgstr ""
+
+#: ../../24.04/4.md 7284a46eda9b4b61ae77fc624c81aefc
+msgid "Expand fields with data from lscpu"
+msgstr ""
+
+#: ../../24.04/4.md f8ed143630a54e8c878de50e96170cdf
+msgid "distro-info-data"
+msgstr ""
+
+#: ../../24.04/4.md 37dfd18412e64b41937da18b468add23
+msgid "[2126961](https://bugs.launchpad.net/bugs/2126961)"
+msgstr ""
+
+#: ../../24.04/4.md 84bd332e40694e4686c54c366fad8f0d
+msgid "Add Ubuntu 26.04 LTS \"Resolute Raccoon\""
+msgstr ""
+
+#: ../../24.04/4.md 9c73b5a0bfa94859a5981520653bcea5
+msgid "nullboot"
+msgstr ""
+
+#: ../../24.04/4.md 77278bd5df294396b37fc540d019045f
+msgid "[2110302](https://bugs.launchpad.net/bugs/2110302)"
+msgstr ""
+
+#: ../../24.04/4.md 5ec164b09240464f8d5f356f5760f5d0
+msgid "New upstream release 0.5.3"
+msgstr ""
+
+#: ../../24.04/4.md c1bfd6e87d7b422fb4bbc40083ccfb77
+msgid "sosreport"
+msgstr ""
+
+#: ../../24.04/4.md 05e18dbbfad145aba6ab0950cf5f5671
+msgid "[2114840](https://bugs.launchpad.net/bugs/2114840)"
+msgstr ""
+
+#: ../../24.04/4.md 82f6821fe5e94a85ab86cf7d35e9a23e
+msgid "New 4.9.2 upstream release"
+msgstr ""
+
+#: ../../24.04/4.md d526ec062e06475ea13a0ca4f6d7fd1a
+msgid "lintian"
+msgstr ""
+
+#: ../../24.04/4.md d56be8e94d814a1396d3fe8260947d67
+msgid "[2127769](https://bugs.launchpad.net/bugs/2127769)"
+msgstr ""
+
+#: ../../24.04/4.md e2264aaaca3c49249b2113e7c2b2c5bc
+msgid "Add 'resolute' to known distro series"
+msgstr ""
+
+#: ../../24.04/4.md 846db53a34f44e84a1345d75e64e5cc2
+msgid "[2124239](https://bugs.launchpad.net/bugs/2124239)"
+msgstr ""
+
+#: ../../24.04/4.md 03286b48822c42e192b553d9d07f6d0c
+msgid "[2122054](https://bugs.launchpad.net/bugs/2122054)"
+msgstr ""
+
+#: ../../24.04/4.md 92d161b55c1a4e80bbf1d6e25f0e965a
+msgid ""
+"Packaging: modify Makefile.am to fix out-of-tree use of 'make hack': Snap"
+" installation: skip snap icon download when running in a cloud or using a"
+" proxy store"
+msgstr ""
+
+#: ../../24.04/4.md 5365144d819a4f1db4ebaf7a0462d815
+msgid "[2117558](https://bugs.launchpad.net/bugs/2117558)"
+msgstr ""
+
+#: ../../24.04/4.md 4085dd90914c41069bb36db3d1daeaf7
+msgid ""
+"Snap installation: use http(s) proxy for icon downloads: snap-confine: "
+"fix error message with /root/snap not accessible"
+msgstr ""
+
+#: ../../24.04/4.md 1ab95f7141e348968f5c19d908f391b1
+msgid "[1916244](https://bugs.launchpad.net/bugs/1916244)"
+msgstr ""
+
+#: ../../24.04/4.md 5e7fe695e0134eefae0390fd4d919bc5
+msgid "core-initrd: remove debian folder: Interfaces: gpio-chardev"
+msgstr ""
+
+#: ../../24.04/4.md ddea3fbde43948e69ad09b3f1aedcbcb
+msgid "[2121238](https://bugs.launchpad.net/bugs/2121238)"
+msgstr ""
+
+#: ../../24.04/4.md 7914eea1c9ba4636ac1521d2d0686e8d
+msgid "Interfaces: content"
+msgstr ""
+
+#: ../../24.04/4.md c12ad97f263d4e09a22d8348071c2370
+msgid "[2117121](https://bugs.launchpad.net/bugs/2117121)"
+msgstr ""
+
+#: ../../24.04/4.md 43ff095f5e7846e3badc6b4a5971cca5
+msgid ""
+"Unhide 'snap help' sign and export-key under Development category: "
+"Cleanly support socket activation for classic snap"
+msgstr ""
+
+#: ../../24.04/4.md 7fa6e587b2d641268a8da3e55f134eaa
+msgid "[2112626](https://bugs.launchpad.net/bugs/2112626)"
+msgstr ""
+
+#: ../../24.04/4.md 09564578de39437bb39cc68ac43034d1
+msgid ""
+"Support 'snap debug api' queries to user session agents: Improve progress"
+" reporting for snap install/refresh"
+msgstr ""
+
+#: ../../24.04/4.md 54dbf26a467646008ca6f654df9819ab
+msgid "[2114704](https://bugs.launchpad.net/bugs/2114704)"
+msgstr ""
+
+#: ../../24.04/4.md d06c79e508904e0fa9bc3dc48b1d77fa
+msgid ""
+"Fix /v2/apps error for root user when user services are present: Extend "
+"output to indicate when snap data snapshot was created during remove"
+msgstr ""
+
+#: ../../24.04/4.md c528d31a3b1e45c9b5c72a4055bc36b2
+msgid "python3-defaults"
+msgstr ""
+
+#: ../../24.04/4.md df487bd26db1416a90897fc830c44463
+msgid "[2127093](https://bugs.launchpad.net/bugs/2127093)"
+msgstr ""
+
+#: ../../24.04/4.md 5aef274a4b524d2e8c93796965e426b9
+msgid "No-change rebuild into -security to fix dep issues"
+msgstr ""
+
+#: ../../24.04/4.md e7ba5b74cc754dd4ad490d2e66b3af81
+msgid "[2128350](https://bugs.launchpad.net/bugs/2128350)"
+msgstr ""
+
+#: ../../24.04/4.md 512a9ccd02da481d9bd2466168599ddf
+msgid "d/p: Fix filtering snaps after snapd 2.72"
+msgstr ""
+
+#: ../../24.04/4.md 2ece634fc04e483198e2a682f33ea8df
+#: 607d586bba8e43829b75eb407387bf3b
+msgid "libdrm"
+msgstr ""
+
+#: ../../24.04/4.md 5a82ff6668e04629a025b58b10e09b8d
+msgid "[2127944](https://bugs.launchpad.net/bugs/2127944)"
+msgstr ""
+
+#: ../../24.04/4.md 188c3140def4470da603664245c488c2
+msgid "patches: Identify APUs from hardware"
+msgstr ""
+
+#: ../../24.04/4.md 01f5fbf177c84aacb70fab4b411dda83
+#: 7ba009f760b14d5882df7614cf48ab1e
+msgid "packagekit"
+msgstr ""
+
+#: ../../24.04/4.md d4660e9ea84f43f493416e1a0d9ad55f
+#: fa5e82f7b74548d491ba44eb3f4a8445
+msgid "[2060730](https://bugs.launchpad.net/bugs/2060730)"
+msgstr ""
+
+#: ../../24.04/4.md 4330bbbfa0c54e6bb8352d94e9c94483
+msgid ""
+"d/p/apt-Handle-gstreamer-64bit-suffix-on-any-architecture.patch: Fix "
+"matching GStreamer capabilities on ARM64 and other architectures"
+msgstr ""
+
+#: ../../24.04/4.md ecbbb121c97141da87ec02e0db33744e
+msgid ""
+"d/p/apt-Fix-matching-gstreamer-pkgs-where-the-only-modifier-i.patch: Fix "
+"matching GStreamer capabilities, which would find no results in some "
+"specific but common edge-cases: ."
+msgstr ""
+
+#: ../../24.04/4.md 4c908195404c4eb4a9b7561fc4dbf6cc
+msgid "[2127925](https://bugs.launchpad.net/bugs/2127925)"
+msgstr ""
+
+#: ../../24.04/4.md 41d4d069c59647d78d3cc4c8fde7dc20
+msgid ""
+"d/p/lp2127925-fix-autoreconnect-blocker.patch: unblock autoreconnect when"
+" a previously failed connection is now successful"
+msgstr ""
+
+#: ../../24.04/4.md 0909db976a3142efbc859164281a988e
+msgid "xdg-dbus-proxy"
+msgstr ""
+
+#: ../../24.04/4.md e64a2ac5d44c4e2db20636f67d6fe553
+msgid "[2083258](https://bugs.launchpad.net/bugs/2083258)"
+msgstr ""
+
+#: ../../24.04/4.md 4f25fe31fa524c8196603de432f1a07a
+msgid "d/p/0001-Fix-GVariant-reference-leaks.patch: Fix GVariant memory leaks"
+msgstr ""
+
+#: ../../24.04/4.md 3631fbcac15242d88c122c77efa8f1b4
+msgid "[2122598](https://bugs.launchpad.net/bugs/2122598)"
+msgstr ""
+
+#: ../../24.04/4.md 446bee4ade394fd8945dd7b3220f1e95
+msgid "Default to the Cairo renderer on s390x"
+msgstr ""
+
+#: ../../24.04/4.md 17d6c53cd2794915988101c4c9f7e82a
+#: 92c58d710aef43c9a071d76640d35b0e c7ea76cecec2465999c8378a5a5cb103
+msgid "gce-compute-image-packages"
+msgstr ""
+
+#: ../../24.04/4.md 5494aa1eb18f4fe8bfd33541cd91658f
+#: fd82006d763743878416331102872c54
+msgid "[2113788](https://bugs.launchpad.net/bugs/2113788)"
+msgstr ""
+
+#: ../../24.04/4.md 420cb93a9bab466b994ac2a45693dd88
+msgid "No change rebuild for Noble: ."
+msgstr ""
+
+#: ../../24.04/4.md 7d482319be774290b84ecaa54685a5a3
+msgid "New upstream version for upstream tag 20250501.00"
+msgstr ""
+
+#: ../../24.04/4.md 42cece44aae944fd8980f122b33df9e4
+msgid "[2112595](https://bugs.launchpad.net/bugs/2112595)"
+msgstr ""
+
+#: ../../24.04/4.md 1281e612975f493bae2dbff52d29a44f
+msgid ""
+"This version fixes: (`Domains=local` is appending `.local` to the FQDN) "
+"as well."
+msgstr ""
+
+#: ../../24.04/4.md 6955e217faad432da7c659fca2d5ba1a
+#: d9e43c5520df49c0a4bf906ef17fe496
+msgid "libinput"
+msgstr ""
+
+#: ../../24.04/4.md 965f915e0b974df99bff37949e4d4a09
+msgid "[2127963](https://bugs.launchpad.net/bugs/2127963)"
+msgstr ""
+
+#: ../../24.04/4.md 05da662ae04c4d79b3334e1375275040
+msgid ""
+"Fix built-in volume button could not change the volume on Dell Pro Rugged"
+" tablet: d/p/0001-quirks-add-quirks-for-Dell-Pro-Rugged-tablets-for-"
+"vo.patch"
+msgstr ""
+
+#: ../../24.04/4.md e20458c2d51c4c8ca15fb0f45018455e
+msgid "[2130298](https://bugs.launchpad.net/bugs/2130298)"
+msgstr ""
+
+#: ../../24.04/4.md 13bbd3c083874477a4dfaefee086d4e2
+msgid ""
+"Add Dell laptop touchpad quirks: d/p/0006-quirks-add-Dell-laptop-"
+"touchpad-quirks.patch d/p/0007-quirks-add-quirks-for-Dell-laptop-with-"
+"Sensel-Touchp.patch"
+msgstr ""
+
+#: ../../24.04/4.md 06b0db97e15545e6800666d1681b0615
+msgid "xserver-xorg-video-amdgpu"
+msgstr ""
+
+#: ../../24.04/4.md 86f17700ac884c0ca06f0525ffbb5cef
+msgid "[2130348](https://bugs.launchpad.net/bugs/2130348)"
+msgstr ""
+
+#: ../../24.04/4.md d3c40fc0f7e743f5b9c57ecce3e8935b
+msgid "Crashes with certain DRM properties"
+msgstr ""
+
+#: ../../24.04/4.md afa1a58cd4684f97a2db3dd1bba18a21
+msgid "glib2.0"
+msgstr ""
+
+#: ../../24.04/4.md 8165311e138f4f289bdea16f3d03d59e
+msgid "[2119581](https://bugs.launchpad.net/bugs/2119581)"
+msgstr ""
+
+#: ../../24.04/4.md 149a2389b3cb4e889fbc9f545966c996
+msgid ""
+"debian/patches: Fix a crash on arg0 matching. This is causing a crash in "
+"tracker if the battery charging state changes while tracker is indexing "
+"files, as tracker-extract-3 will try to emit property changes with a NULL"
+" arg0"
+msgstr ""
+
+#: ../../24.04/4.md 7175682f658c466ba9659a0d3778faee
+msgid "[2120978](https://bugs.launchpad.net/bugs/2120978)"
+msgstr ""
+
+#: ../../24.04/4.md 622be0efdf7e4bb280641723a0a6ff88
+msgid ""
+"Extend `landscape-config`, registration, and computer info messages for "
+"UP4W integration"
+msgstr ""
+
+#: ../../24.04/4.md 660938ee347042a08198fd9d316dc2ff
+msgid "[2051886](https://bugs.launchpad.net/bugs/2051886)"
+msgstr ""
+
+#: ../../24.04/4.md eeb4817f679d4282b983117ffaf75788
+msgid "Fix touchscreen issues on Xorg: , #2119066, #2119065, #2125309)"
+msgstr ""
+
+#: ../../24.04/4.md 1b98d4bca12a42a498b5d6d4384f5f18
+msgid "[2119066](https://bugs.launchpad.net/bugs/2119066)"
+msgstr ""
+
+#: ../../24.04/4.md 6533f5ff2237472a8aee29a230f7ab1e
+#: 9cae5fdbc57e48b491d1bf8a9273c00d a20f889439934b2d91444f07037b52a4
+msgid "Fix touchscreen issues on Xorg"
+msgstr ""
+
+#: ../../24.04/4.md a60b5ed21bbd4d90b6bfc48373120f8e
+msgid "[2119065](https://bugs.launchpad.net/bugs/2119065)"
+msgstr ""
+
+#: ../../24.04/4.md 80faf043e36e4217b12b5b84b24e8d8a
+msgid "[2125309](https://bugs.launchpad.net/bugs/2125309)"
+msgstr ""
+
+#: ../../24.04/4.md a3cf40646a1b4e4f8e5d0ba1c8e9994e
+msgid "apparmor"
+msgstr ""
+
+#: ../../24.04/4.md acfa4dba7d0d4c5994a4f6f25ceb949f
+msgid "[2115234](https://bugs.launchpad.net/bugs/2115234)"
+msgstr ""
+
+#: ../../24.04/4.md 5a9bdcbe03e141e898401301b249312f
+msgid "profiles: make /sys/devices PCI paths hex-aware"
+msgstr ""
+
+#: ../../24.04/4.md f1a4d556388d4bb280a7d46d785b6cf2
+msgid "[2130895](https://bugs.launchpad.net/bugs/2130895)"
+msgstr ""
+
+#: ../../24.04/4.md a792e3ea9ac24fb797106fc613acfefb
+msgid "whoopsie"
+msgstr ""
+
+#: ../../24.04/4.md ee36918fed294ccca032d15c3d2b5e6a
+msgid "[2130649](https://bugs.launchpad.net/bugs/2130649)"
+msgstr ""
+
+#: ../../24.04/4.md d3aabb55942a439fb141ae8b096ffbfe
+msgid "Enable `ShellJournal` and `JournalAll` fields"
+msgstr ""
+
+#: ../../24.04/4.md 76ec7d55d6414c0a923a9f1dd9de613b
+msgid "dhcpcd"
+msgstr ""
+
+#: ../../24.04/4.md e2fc413678d84984a3b140c44a24e5bd
+msgid "[2131252](https://bugs.launchpad.net/bugs/2131252)"
+msgstr ""
+
+#: ../../24.04/4.md 2ea2d16f6a3d40469a3823cbe03e1bda
+msgid "Fix intermittent dumplease failures when parsing stdin"
+msgstr ""
+
+#: ../../24.04/4.md 88f1b49d26d741aa9d3dddb2f4579d2e
+msgid "libmbim"
+msgstr ""
+
+#: ../../24.04/4.md 8beec2232d12452db38c6243131677dc
+msgid "[2121842](https://bugs.launchpad.net/bugs/2121842)"
+msgstr ""
+
+#: ../../24.04/4.md 78e603725c4741e5817dc28a8944d068
+msgid "Add Intel mbim service to send AT command"
+msgstr ""
+
+#: ../../24.04/4.md 36c8ca9f798b41208c50c2018a17ff7e
+msgid "util-linux"
+msgstr ""
+
+#: ../../24.04/4.md d578352ac08d4a399f7196894e878882
+msgid "[2123886](https://bugs.launchpad.net/bugs/2123886)"
+msgstr ""
+
+#: ../../24.04/4.md e65a7afa7fa24cff9bd38f2482023c52
+msgid "Add ARM core support for Vera systems"
+msgstr ""
+
+#: ../../24.04/4.md 43acc0e6ea884fca90d3749e5e0ee8dd
+msgid "opensbi"
+msgstr ""
+
+#: ../../24.04/4.md 2a5bf6f659e04520b75938a03a8e95e0
+msgid "[2121785](https://bugs.launchpad.net/bugs/2121785)"
+msgstr ""
+
+#: ../../24.04/4.md 207260e5a57542a1922c85cb79d54632
+msgid "Backport of 1.7-1 to support StarFive VisionFive 2 Lite"
+msgstr ""
+
+#: ../../24.04/4.md 447a69e7af16457f9f5030436b6f233e
+msgid "[2125405](https://bugs.launchpad.net/bugs/2125405)"
+msgstr ""
+
+#: ../../24.04/4.md 0581851c830d4b6498e74f14af64f813
+msgid "basic: validate timezones in get_timezones()"
+msgstr ""
+
+#: ../../24.04/4.md f63285395ac54210beb26ad274b878b2
+msgid "[2132666](https://bugs.launchpad.net/bugs/2132666)"
+msgstr ""
+
+#: ../../24.04/4.md e7dd906377bd4faeb2609c1bd7353d45
+msgid "ukify: fix insertion of padding in merged sections"
+msgstr ""
+
+#: ../../24.04/4.md 665b0d9688094b28bf52d1808fdfa27e
+msgid "[2130554](https://bugs.launchpad.net/bugs/2130554)"
+msgstr ""
+
+#: ../../24.04/4.md 8521ae53a0aa45e68bf25c286000481a
+msgid "core: downgrade a log message from warning to debug"
+msgstr ""
+
+#: ../../24.04/4.md 469688d8326146e48d962435832272eb
+msgid "[2132084](https://bugs.launchpad.net/bugs/2132084)"
+msgstr ""
+
+#: ../../24.04/4.md 21b31c48af824a1f91215b47adf921ba
+msgid "[2127189](https://bugs.launchpad.net/bugs/2127189)"
+msgstr ""
+
+#: ../../24.04/4.md fbdba8d5f5cf4b238425f2e67f57e528
+msgid ""
+"Prompting: remove polkit authentication when modifying/deleting prompting"
+" rules: Prompting: do not record notices for unchanged rules on snapd "
+"startup"
+msgstr ""
+
+#: ../../24.04/4.md 768cff66cd37496c856b3b3ec7bd51f8
+msgid "[1851490](https://bugs.launchpad.net/bugs/1851490)"
+msgstr ""
+
+#: ../../24.04/4.md 756fc6f8d2c6415da812a42d6574e15b
+msgid ""
+"Avoid race between store download stream and cache cleanup executing in "
+"parallel when invoked by snap download task: Use \"current\" instead of "
+"revision number for icons"
+msgstr ""
+
+#: ../../24.04/4.md 27f84de383a54f088306f402cd244522
+msgid "[2121853](https://bugs.launchpad.net/bugs/2121853)"
+msgstr ""
+
+#: ../../24.04/4.md 1d7529ddd4d242779276db7ddb91deec
+msgid ""
+"Avoid race between store download stream and cache cleanup executing in "
+"parallel when invoked by snap download task: Add snapctl version command"
+msgstr ""
+
+#: ../../24.04/4.md effb03d01d244bd1ac8c928fe233e3bd
+msgid "[2127214](https://bugs.launchpad.net/bugs/2127214)"
+msgstr ""
+
+#: ../../24.04/4.md dc871c1dce42474d964ac81f968adcf6
+msgid ""
+"Avoid race between store download stream and cache cleanup executing in "
+"parallel when invoked by snap download task: Ensure no more than one "
+"partition on disk can match a gadget partition"
+msgstr ""
+
+#: ../../24.04/4.md b36250fc40604d3a88cbb0f4dac257d9
+msgid "[2127244](https://bugs.launchpad.net/bugs/2127244)"
+msgstr ""
+
+#: ../../24.04/4.md e043dedc687146359f1e73e55cbf7e38
+msgid ""
+"Avoid race between store download stream and cache cleanup executing in "
+"parallel when invoked by snap download task: snap-confine: update "
+"AppArmor profile to allow read/write to journal as workaround for snap-"
+"confine fd inheritance prevented by newer AppArmor"
+msgstr ""
+
+#: ../../24.04/4.md c030d17e3af2424d8bfe89874f8594b2
+msgid "[2127766](https://bugs.launchpad.net/bugs/2127766)"
+msgstr ""
+
+#: ../../24.04/4.md 0bbb52906a0b41c5a818403965652954
+msgid ""
+"Avoid race between store download stream and cache cleanup executing in "
+"parallel when invoked by snap download task: Add new tracing mechanism "
+"with independently running strace and shim synchronization"
+msgstr ""
+
+#: ../../24.04/4.md b7335e5e0c114701a9a9673ed0ece134
+msgid "[2128668](https://bugs.launchpad.net/bugs/2128668)"
+msgstr ""
+
+#: ../../24.04/4.md a5047193c5e14f22af30db57c1e2ef29
+msgid "Use iptables instead of nftables as firewall backend, to match UFW"
+msgstr ""
+
+#: ../../24.04/4.md 987e97b0a88a493cad3443c9ad120d03
+msgid "sl-modem"
+msgstr ""
+
+#: ../../24.04/4.md 7adfb74417294777ad7cfc1ae3437f76
+msgid "[2134844](https://bugs.launchpad.net/bugs/2134844)"
+msgstr ""
+
+#: ../../24.04/4.md 1c77fad820cc439bb1e8fdcfc20a980e
+msgid "Support 6.17 kernel"
+msgstr ""
+
+#: ../../24.04/4.md 3a95ddc6220e4512bd0e79b7945d1174
+#: 81156ba0151d4c6cb5edd031853a7b05
+msgid "u-boot"
+msgstr ""
+
+#: ../../24.04/4.md 8c50fa0df353434e96d8ce5699757460
+msgid "[2121690](https://bugs.launchpad.net/bugs/2121690)"
+msgstr ""
+
+#: ../../24.04/4.md 9bf92d7b52d94eb1952b3d2b7fc51d1d
+msgid ""
+"Added patches to support for StarFive VisionFive Lite and Milk-V Mars CM:"
+" :"
+msgstr ""
+
+#: ../../24.04/4.md 6d253493431548dca3222e3aaaa375d7
+msgid "[2091618](https://bugs.launchpad.net/bugs/2091618)"
+msgstr ""
+
+#: ../../24.04/4.md 3ce62eea8a5748df83e9c8def79906ba
+msgid ""
+"d/p/rpi-squashfs.patch: Enable squashfs support on rpi and amd64/arm64 "
+"QEMU builds for internal image testing"
+msgstr ""
+
+#: ../../24.04/4.md 3560e16621eb4a85882079aba86c3177
+msgid "[2131001](https://bugs.launchpad.net/bugs/2131001)"
+msgstr ""
+
+#: ../../24.04/4.md c616228ec07d46c0bd972c14eec1f287
+msgid "Add PS5512 usb firmware update"
+msgstr ""
+
+#: ../../24.04/4.md 3fe3d9320f1447f6ad8368b0611a49c9
+#: 9f484fb58c264bc89bd34b8b3646cc0c
+msgid "qpdf"
+msgstr ""
+
+#: ../../24.04/4.md b587bb71ca1648e4b4ea568efd3b2e04
+msgid "[2129676](https://bugs.launchpad.net/bugs/2129676)"
+msgstr ""
+
+#: ../../24.04/4.md 867ba710eae842bc8876bc77fd433f82
+msgid ""
+"d/p/lp2129676-relax-fips-for-pdfs.patch: Utilize the GNUTLS_FIPS140_LAX "
+"around MD5 initialization"
+msgstr ""
+
+#: ../../24.04/4.md 25c2b74da90045aa848e9131ec8b78cf
+msgid "[2131944](https://bugs.launchpad.net/bugs/2131944)"
+msgstr ""
+
+#: ../../24.04/4.md dba7c972de7b4675aecf6a51845778ca
+msgid ""
+"d/p/lp2131944-fix-failing-tests-on-s390x.patch: Fix failing tests on "
+"s390x due to different error output"
+msgstr ""
+
+#: ../../24.04/4.md 2f4365d737e849eeaa46709c185dfc8a
+msgid "xwayland"
+msgstr ""
+
+#: ../../24.04/4.md f7b2059e1c3a45aa9092e479b7125444
+msgid "xwayland-glamor-gbm-make-wl_drm-optional.diff: Fix glamor with mesa 25.2+"
+msgstr ""
+
+#: ../../24.04/4.md 302e3d8f8aa449b982c7704d452b4a75
+#: 7537f57c2a6e43c2b3d70f09bc8b40be
+msgid "flash-kernel"
+msgstr ""
+
+#: ../../24.04/4.md 9ec244dc2b5448e58a33303cb4200105
+msgid "[2132298](https://bugs.launchpad.net/bugs/2132298)"
+msgstr ""
+
+#: ../../24.04/4.md a9f2711c30cd49b59667755b04e01765
+msgid ""
+"Add StarFive VisionFive 2 Lite, Milk-V Mars CM and Milk-V Mars CM Lite to"
+" database"
+msgstr ""
+
+#: ../../24.04/4.md 84334dc242a243a8b99a585a5713f93b
+msgid "[2134398](https://bugs.launchpad.net/bugs/2134398)"
+msgstr ""
+
+#: ../../24.04/4.md 97674d48e3244869adfd01f982181a7c
+msgid "db/all.db: Removed duplicated entry for Lenovo ThinkPad X13s"
+msgstr ""
+
+#: ../../24.04/4.md e6ecd821000f427aaefb1e47ac7f46fd
+msgid "python-apt"
+msgstr ""
+
+#: ../../24.04/4.md 56c3bab15ace4a2eb7f049cbf788b040
+msgid "[2138617](https://bugs.launchpad.net/bugs/2138617)"
+msgstr ""
+
+#: ../../24.04/4.md 4b278c4e2aa344c5a7650ea60b3f98c7
+msgid "Mirror list update for 24.04.4"
+msgstr ""
+
+#: ../../24.04/4.md 18914a0fd9374f508941bba3cf1eda55
+msgid "[2138326](https://bugs.launchpad.net/bugs/2138326)"
+msgstr ""
+
+#: ../../24.04/4.md 07ec825d8cc4478bb62f58e835d91b01
+msgid "boost1.83"
+msgstr ""
+
+#: ../../24.04/4.md d8d5890d522046f5b6eaa7c101dadf81
+msgid "[2122352](https://bugs.launchpad.net/bugs/2122352)"
+msgstr ""
+
+#: ../../24.04/4.md eb6693ca5a5745cdab5d63bf97ed4ade
+msgid ""
+"Cherry-pick two changes from upstream (#565, #737) to fix a "
+"multiprecision bug"
+msgstr ""
+
+#: ../../24.04/4.md 39bbb8cc3a9e4ab98001c5ec761bce3f
+msgid "devscripts"
+msgstr ""
+
+#: ../../24.04/4.md 49443f73e7b74037b7b558a7141c1e1c
+msgid "[2061609](https://bugs.launchpad.net/bugs/2061609)"
+msgstr ""
+
+#: ../../24.04/4.md e6193a813aca42898dad95290964ce9a
+msgid "Fix Perl warnings in chdist and debcheckout"
+msgstr ""
+
+#: ../../24.04/4.md 5443760380144d7b8037ef5b00bebef7
+msgid "linux-firmware-raspi"
+msgstr ""
+
+#: ../../24.04/4.md 1f2820df64e14b5abd4c788a25972c99
+msgid "[2139343](https://bugs.launchpad.net/bugs/2139343)"
+msgstr ""
+
+#: ../../24.04/4.md 29a552c5a5094fff88ef73ffa0aa3d8a
+msgid "Add missing links for Raspberry Pi 500 wifi firmwares"
+msgstr ""
+
+#: ../../24.04/4.md 931a5cd09d1943988793ec58d77a3315
+msgid "base-files"
+msgstr ""
+
+#: ../../24.04/4.md 1eab586cf590442eb664f1d44f6370de
+msgid "[2140756](https://bugs.launchpad.net/bugs/2140756)"
+msgstr ""
+
+#: ../../24.04/4.md 7bb644e8914547eda7213c35ae238f0d
+#, python-brace-format
+msgid "/etc/issue{,.net}, /etc/{lsb,os}-release: bump version to 24.04.4"
+msgstr ""
+
+#: ../../24.04/4.md 50d6a994dc7b4e43afaa22074a0c9e01
+msgid "initramfs-tools"
+msgstr ""
+
+#: ../../24.04/4.md 96c4381ba9ba4190a3d8412cd75a6eac
+msgid "[2140344](https://bugs.launchpad.net/bugs/2140344)"
+msgstr ""
+
+#: ../../24.04/4.md 637b17c8870848bc8cd3f839059c8cea
+msgid "Add missing USB drivers for StarFive JH7110 SoC"
+msgstr ""
+

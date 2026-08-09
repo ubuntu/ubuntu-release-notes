@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu release
+# notes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu release notes \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-13 02:01+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../26.10/index.md:8
+msgid "Release schedule"
+msgstr ""
+
+#: ../../26.10/index.md:2 2c8c7e420533462aae150252247cb1bb
+msgid "Ubuntu 26.10 release notes"
+msgstr ""
+
+#: ../../26.10/index.md:4 57ff1da2f2b64b0891eafa3a41cc89c4
+msgid "Ubuntu 26.10 (S S) is currently in development."
+msgstr ""
+
+#: ../../26.10/index.md:6 0052e5529d6f44198e5653fe161027c3
+msgid "For the release schedule of Ubuntu 26.10, refer to:"
+msgstr ""
+

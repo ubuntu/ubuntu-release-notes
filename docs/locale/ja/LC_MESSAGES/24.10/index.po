@@ -1,0 +1,2323 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu release
+# notes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu release notes \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-13 02:01+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../24.10/index.md:10
+msgid "Release schedule"
+msgstr ""
+
+#: ../../24.10/index.md:6 197ffd794c8142028aa3fb35d0fbb028
+msgid "Ubuntu 24.10 release notes"
+msgstr ""
+
+#: ../../24.10/index.md:8 0e2c5d8bfadf4f388fab53d1335cfc9b
+msgid ""
+"These release notes for **Ubuntu 24.10** (Oracular Oriole) provide an "
+"overview of the release and document the known issues with Ubuntu and its"
+" flavors."
+msgstr ""
+
+#: ../../24.10/index.md:17 2d96f8a431a34e77b07580bff0f530e6
+msgid "Support lifespan"
+msgstr ""
+
+#: ../../24.10/index.md:19 05cd19372a8e4460b39c74cef16d4b9c
+msgid ""
+"Ubuntu 24.10 will be supported for 9 months until July 2025. If you need "
+"long term support, we recommend you use [Ubuntu 24.04.1 "
+"LTS](https://ubuntu.com/download) which is supported until at least 2029."
+msgstr ""
+
+#: ../../24.10/index.md:21 f72846a18b08498896f0cefffdf117c5
+msgid "Upgrades"
+msgstr ""
+
+#: ../../24.10/index.md:23 35f51ecff67c482caf86cba435723444
+msgid ""
+"Upgrades to to Ubuntu 24.10 will refresh seeded snaps to the appropriate "
+"snap channels, regardless of what was being tracked before. Snaps that "
+"are newly-seeded will be installed during the upgrade. In particular, the"
+" following snaps will be installed or refreshed on upgrade:"
+msgstr ""
+
+#: ../../24.10/index.md:25 2578fc9fe8c94c1a91c7670f961d499e
+msgid "`core24 latest/stable`"
+msgstr ""
+
+#: ../../24.10/index.md:26 49c2fac0888b4d0787ef9023e654c2ab
+msgid "`desktop-security-center 1/stable/ubuntu-24.10`"
+msgstr ""
+
+#: ../../24.10/index.md:27 6e19b58930f24f4db74fc90910ec6a3b
+msgid "`gnome-46-2404 stable/ubuntu-24.10`"
+msgstr ""
+
+#: ../../24.10/index.md:28 33eb4b4eafa14647b0e04d45e8a76302
+msgid "`mesa-2404 stable/ubuntu-24.10`"
+msgstr ""
+
+#: ../../24.10/index.md:29 6926c751f9a44a17a9ed5a902a5729a6
+msgid "`prompting-client 1/stable/ubuntu-24.10`"
+msgstr ""
+
+#: ../../24.10/index.md:30 93ae314f3c10430fafebb8f5bb2609ad
+msgid "`firefox stable/ubuntu-24.10`"
+msgstr ""
+
+#: ../../24.10/index.md:31 69e8a4f43c5f41d1974c244a8fed0e25
+msgid "`thunderbird stable/ubuntu-24.10`"
+msgstr ""
+
+#: ../../24.10/index.md:32 7c85c1af33ee4477bc45d5ee8d386079
+msgid "`snapd-desktop-integration stable/ubuntu-24.10`"
+msgstr ""
+
+#: ../../24.10/index.md:34 fe251c9a167740cebcb5cec89f4b3f45
+msgid "Early upgrades may wish to perform these updates manually."
+msgstr ""
+
+#: ../../24.10/index.md:37 0a039451d1194885ae6ddff12a52d56e
+msgid "New features in 24.10"
+msgstr ""
+
+#: ../../24.10/index.md:39 a3a1184ffe484e55886d0562b7d89483
+msgid "Updated Packages"
+msgstr ""
+
+#: ../../24.10/index.md:41 38dafffde1d44a8882bd9364428bf260
+msgid "OpenSSL 3.3"
+msgstr ""
+
+#: ../../24.10/index.md:43 70c005bcf61040cebdb2e1cd00855d6b
+msgid ""
+"OpenSSL has been updated to version 3.3 with large performance and "
+"scalability improvements compared to openssl 3.0. It is now also loading "
+"configuration dropins from `/etc/ssl/openssl.conf.d` for easier "
+"customisation."
+msgstr ""
+
+#: ../../24.10/index.md:46 8a579eb0cffa48f2a57ba891fa99f734
+msgid "Linux kernel 🐧"
+msgstr ""
+
+#: ../../24.10/index.md:47 06f95f3d2f8f4597853b01b8486d49e7
+msgid ""
+"Ubuntu 24.10 includes the new 6.11 Linux kernel that brings many new "
+"features."
+msgstr ""
+
+#: ../../24.10/index.md:49 d3273e82b501481b93d3c3bebc3ba2e4
+msgid ""
+"Crash dumps are now enabled by default for desktop and server "
+"installations. Please refer to the [Ubuntu Server Kernel crash "
+"dump](https://documentation.ubuntu.com/server/how-to/software/kernel-"
+"crash-dump/#kdump-enabled-by-default) documentation for complete details."
+msgstr ""
+
+#: ../../24.10/index.md:51 7f0e9a640a0c450f9b96fb8fc5169e4e
+msgid ""
+"Detailed changes are reported in the [Oracular Kernel Release "
+"Notes](https://discourse.ubuntu.com/t/introducing-kernel-6-11-for-"
+"the-24-10-oracular-oriole-release/47560) post."
+msgstr ""
+
+#: ../../24.10/index.md:53 13479aaeb8c1450cbed01c17e6a6d333
+msgid "systemd v256.5"
+msgstr ""
+
+#: ../../24.10/index.md:55 f24dc890842441819a646b4e7caa1dfc
+msgid ""
+"The init system was updated to systemd v256.5. See the [upstream "
+"changelog ](https://github.com/systemd/systemd/releases/tag/v256) for "
+"more information about individual features. To highlight a few things:"
+msgstr ""
+
+#: ../../24.10/index.md:57 2fd32a28552f4a66807b4e6b19e3a3f8
+msgid ""
+"Support for cgroup v1 ('legacy' and 'hybrid' hierarchies) is now "
+"considered obsolete and systemd by default will refuse to boot under it. "
+"To forcibly reenable cgroup v1 support, "
+"`SYSTEMD_CGROUP_ENABLE_LEGACY_FORCE=1` must be set on kernel command "
+"line."
+msgstr ""
+
+#: ../../24.10/index.md:63 147f2950a2244372a1382a7472ac32de
+msgid ""
+"Support for System V service scripts is deprecated and will be removed in"
+" a future release. Please make sure to update your software *now* to "
+"include a native systemd unit file instead of a legacy System V script to"
+" retain compatibility with future systemd releases."
+msgstr ""
+
+#: ../../24.10/index.md:68 6d6e7b95158d4c12b58ec61e3d078302
+msgid ""
+"When `sshd` is installed on a system, a new systemd generator, `systemd-"
+"ssh-generator` binds a socket-activated SSH server to local `AF_VSOCK` "
+"and `AF_UNIX` sockets under certain conditions. See the [man "
+"page](https://www.freedesktop.org/software/systemd/man/devel/systemd-ssh-"
+"generator.html#) for more details. Note that this feature is different "
+"and indendent from `sshd-socket-generator` which is shipped in Ubuntu's "
+"`openssh-server` package."
+msgstr ""
+
+#: ../../24.10/index.md:70 f872322279b84785a8d7b22354b2e07e
+msgid ""
+"Ubuntu now ships upstream systemd's `tmp.mount` by default. In effect "
+"this means that `/tmp` is now a `tmpfs` by default."
+msgstr ""
+
+#: ../../24.10/index.md:72 71c970772c0f485d8afca61f63b5a21f
+msgid ""
+"cryptsetup tools such as `systemd-cryptsetup`, `systemd-cryptenroll`, "
+"`systemd-veritysetup`, and more, have been split into a new `systemd-"
+"cryptsetup` package to reduce dependencies pulled in by the main "
+"`systemd` package. This new package is only listed as a `Suggests`, so if"
+" this functionality is used ensure that either `Suggests` are installed "
+"or that it is manually installed."
+msgstr ""
+
+#: ../../24.10/index.md:79 129656ec75cb44afa489ddc8e6f3e4a8
+msgid ""
+"Ubuntu's `systemd-networkd` no longer sets `UseDomains=true` for managed "
+"network interfaces. In effect, this means that search domains configured "
+"in DHCP leases will not be reflected in `/etc/resolv.conf` by default. "
+"This change aligns Ubuntu's default behavior with that of upstream. "
+"System administrators may choose to override this default on a global, or"
+" per-interface basis. See "
+"[`systemd.network`](https://www.freedesktop.org/software/systemd/man/256/systemd.network.html#UseDomains=)"
+" for details."
+msgstr ""
+
+#: ../../24.10/index.md:81 0e6c98ac93a34c3faead9c20f68ec9dc
+msgid "Netplan v1.1 🌐"
+msgstr ""
+
+#: ../../24.10/index.md:82 5fbc82abb99f498bb1b4add87ae5f5d0
+msgid ""
+"The new [version 1.1 of "
+"Netplan](https://github.com/canonical/netplan/releases/tag/1.1) "
+"introduces a custom `systemd-networkd-wait-online` logic, waiting for "
+"link-local addresses and one routable interface, as described in the "
+"https://discourse.ubuntu.com/t/spec-definition-of-an-online-system/27838."
+" Besides improvements to the `embedded-switch-mode` setting for SR-IOV "
+"devices, the introduction of parser flag to skip broken configurations "
+"and fixes for ProtonVPN and Microsoft Azure Linux."
+msgstr ""
+
+#: ../../24.10/index.md:84 e3bef5adcb7940ba93a87f0a23f0a19e
+msgid "Toolchain Upgrades 🛠️"
+msgstr ""
+
+#: ../../24.10/index.md:86 f71ee8c6c77041838080c9b4f87ea38b
+msgid "GCC 🐄 is updated to 14.2, binutils to 2.43.1, and glibc to 2.40."
+msgstr ""
+
+#: ../../24.10/index.md:87 e56608cfbe9844149c62b96880b57136
+msgid "Python 🐍 is updated to 3.12.7"
+msgstr ""
+
+#: ../../24.10/index.md:88 5dc4201eb4f3437f989dbad9e1600200
+msgid "LLVM 🐉 now defaults to version 19"
+msgstr ""
+
+#: ../../24.10/index.md:89 30772056096b4aa890b6e985342d56e7
+msgid "Rust 🦀 toolchain defaults to version 1.80"
+msgstr ""
+
+#: ../../24.10/index.md:90 9cc382fa12054303b006d1e21778ce35
+msgid "Golang 🐀 is updated to 1.23"
+msgstr ""
+
+#: ../../24.10/index.md:91 8f15f5c3e4e94de28c7c6f78efdc46a2
+msgid ".NET 9 🤖 now available, .NET 8 support extended to IBM Power"
+msgstr ""
+
+#: ../../24.10/index.md:92 dc8126610d8a4f26b293e4dba087ce26
+msgid "OpenJDK ☕ versions 23 and 24 (early access snapshot) are now available"
+msgstr ""
+
+#: ../../24.10/index.md:94 6496e23123054cc68bf51bd76fee740c
+msgid "OpenJDK"
+msgstr ""
+
+#: ../../24.10/index.md:96 a331014c96914076b04fa0530afd5054
+msgid ""
+"OpenJDK 21 is still the default. OpenJDK 23 is included as an optional "
+"OpenJDK. An early access snapshot of OpenJDK 24  is also included. "
+"Support for OpenJDK LTS versions 17, 11 and 8 is being maintained."
+msgstr ""
+
+#: ../../24.10/index.md:98 79588f2377f042db8cdf11b127c040aa
+msgid ""
+"OpenJDK 21 and OpenJDK 17 packages are now TCK (Technology Compatibility "
+"Kit) certified on amd64, arm64, s390x, ppc64el and armhf. The Java TCK is"
+" the most comprehensive test suite that covers all aspects of Java SE "
+"specification including language features, libraries and APIs. This "
+"guarantees interoperability and conformance to standard."
+msgstr ""
+
+#: ../../24.10/index.md:100 32130598bdc04465907a660380713350
+msgid ".NET"
+msgstr ""
+
+#: ../../24.10/index.md:102 90395063acc24485a7c08957c8d7c452
+msgid ""
+"With the release of .NET 9, Ubuntu reinforces its commitment to "
+"supporting the .NET community. .NET 9 is fully supported on Ubuntu 24.10 "
+"and is also available for Ubuntu 24.04 LTS (Noble Numbat) and Ubuntu "
+"22.04 LTS (Jammy Jellyfish) through the [.NET Backports "
+"PPA](https://launchpad.net/~dotnet/+archive/ubuntu/backports)."
+msgstr ""
+
+#: ../../24.10/index.md:104 cc293c3f58f44a4ba9e2573d69eb71f6
+msgid ""
+"In addition, we have expanded .NET support to the IBM Power platform for "
+"both .NET 8 and .NET 9, further broadening the platform’s reach."
+msgstr ""
+
+#: ../../24.10/index.md:106 0bef7565c619466cabb8108ed0252801
+msgid ""
+"We are also excited to introduce the new and improved [.NET "
+"Snap](https://snapcraft.io/dotnet), allowing developers to seamlessly "
+"install any supported version of .NET on any Ubuntu system."
+msgstr ""
+
+#: ../../24.10/index.md:109 6efbeb87df7b43769fa5af65ff9d241e
+msgid "Default configuration changes ⚙️"
+msgstr ""
+
+#: ../../24.10/index.md:111 0b60c0a05cd1460a8cd5c6506b8f6a40
+msgid ""
+"As always there are many changes to defaults, mostly by newer versions of"
+" packages. But a few are worth spelling out if your former automation, "
+"configuration and tuning relied on those settings being one or the other "
+"way."
+msgstr ""
+
+#: ../../24.10/index.md:115 ../../24.10/index.md:560
+#: e55fe8d0e4ff4bc1b3970225446ad463 fffb47a3a14e43a6a781a2c87dbd9d7f
+msgid "Ubuntu Desktop"
+msgstr ""
+
+#: ../../24.10/index.md:117 cc8c35c61639497ba69b9ce52ceba517
+msgid "Installer and Upgrades"
+msgstr ""
+
+#: ../../24.10/index.md:119 918310ff2f684168b47ecbf5acef3f70
+msgid "The desktop installer now support local file paths for autoinstall import."
+msgstr ""
+
+#: ../../24.10/index.md:122 44eb7e8bd19d465b989950badacae928
+msgid ""
+"**Power Profiles Manager** [has been improved and "
+"optimized](https://gitlab.freedesktop.org/upower/power-profiles-"
+"daemon/-/releases/#0.23) to support better newer hardware features "
+"(especially AMD), can now support multiple optimization drivers and is "
+"now battery-aware to automatically increase the optimization levels when "
+"running on battery only."
+msgstr ""
+
+#: ../../24.10/index.md:124 578c720bd0634765b34bad771784df99
+msgid ""
+"**fprintd** has been updated and [**libfprint** supports now many other "
+"fingerprint drivers and "
+"devices](https://gitlab.freedesktop.org/libfprint/libfprint/-/releases#v1.94.8)."
+msgstr ""
+
+#: ../../24.10/index.md:126 5cbaf5880b8f43e2842500e4db6b9a31
+msgid "Store"
+msgstr ""
+
+#: ../../24.10/index.md:128 fb3257e10e164863b2aaef6fbcf2d721
+msgid "The App Center now includes improvements to the Manage page including:"
+msgstr ""
+
+#: ../../24.10/index.md:129 d0e98e4fdc634bd98107ee67ed939cf2
+msgid "Installs in progress"
+msgstr ""
+
+#: ../../24.10/index.md:130 c69daf086b154243b26b6e576ad97616
+msgid "Improved self-update handling"
+msgstr ""
+
+#: ../../24.10/index.md:131 50e9d05ea00647cb84087540a9fbf49c
+msgid "Messaging for running snaps"
+msgstr ""
+
+#: ../../24.10/index.md:132 a64ee4688d084db58beff17a42c9c2c4
+msgid "Direct uninstall of snaps from the manage page"
+msgstr ""
+
+#: ../../24.10/index.md:133 71e1fecce5cc49ebbd472fac620d837e
+msgid "Scrolling support for touch screens"
+msgstr ""
+
+#: ../../24.10/index.md:135 f51ca35c49fc4bb1b9051541361c602c
+msgid "Third party deb installation is now also supported."
+msgstr ""
+
+#: ../../24.10/index.md:138 dbdb86c86c5a47ce89dfc73467daa340
+msgid "Security Center"
+msgstr ""
+
+#: ../../24.10/index.md:140 c38c2632dc084cffb0aec1f580e0a815
+msgid ""
+"A new Security Center is included. It features the ability to easily "
+"enable or disable a new experimental [permissions "
+"prompting](https://discourse.ubuntu.com/t/ubuntu-desktop-s-24-10-dev-"
+"cycle-part-5-introducing-permissions-prompting/47963/1) feature for Home "
+"directory permissions."
+msgstr ""
+
+#: ../../24.10/index.md:141 1344a32de0ac4d7ab92cdd0f2c41cf2d
+msgid "More features will be added in future Ubuntu releases."
+msgstr ""
+
+#: ../../24.10/index.md:142 67292bf9cb3d422c9c4ec682c9818883
+msgid ""
+"Prompting is also supported by an additional seeded snap, `prompting-"
+"client`, for permissions prompt handling."
+msgstr ""
+
+#: ../../24.10/index.md:144 7f2e30a7482f4f239d76bd57f2af38f7
+msgid "20th Anniversary Celebration"
+msgstr ""
+
+#: ../../24.10/index.md:145 346f58ad556d4b84987f9819dbccf205
+msgid ""
+"20 years ago, the first version of Ubuntu was released, Ubuntu 4.10 "
+"\"Warty Warthog\". We are celebrating this monumental anniversary with "
+"several temporary flourishes"
+msgstr ""
+
+#: ../../24.10/index.md:146 d6157b96747646ce90521c5272764f65
+msgid ""
+"The return of the original startup sound, which can be disabled via "
+"Settings > Sound"
+msgstr ""
+
+#: ../../24.10/index.md:147 172c567ce24947c2aa6204a2f52ff7ce
+msgid ""
+"A 'Warty' brown accent colour that can be enabled in Settings > "
+"Appearance > Style"
+msgstr ""
+
+#: ../../24.10/index.md:148 aa7c033195cf4ce6b22d84c95035ab6d
+msgid "An anniversary logo"
+msgstr ""
+
+#: ../../24.10/index.md:150 a955113e21c1440e9a23095dc2383699
+msgid "GNOME 👣"
+msgstr ""
+
+#: ../../24.10/index.md:152 6e4e67445e96445181a1a37639b21b02
+msgid ""
+"GNOME has been updated to include new features and fixes from the latest "
+"GNOME release, [GNOME 47](https://release.gnome.org/47/)."
+msgstr ""
+
+#: ../../24.10/index.md:153 3b5e1a21f19b4d7abcd8fb84b4659d02
+msgid ""
+"In GNOME Shell and Mutter, Ubuntu includes additional patches to enhance "
+"stability and performance, which have not yet been merged upstream."
+msgstr ""
+
+#: ../../24.10/index.md:154 b5762851170b447caeb14b20deaf99f1
+msgid ""
+"The Ubuntu dock now visualises snap refreshes and includes better "
+"handling for PWAs installed via the Chromium snap."
+msgstr ""
+
+#: ../../24.10/index.md:156 c0787b59d85545298764ccdd43be3db9
+msgid "Default app changes"
+msgstr ""
+
+#: ../../24.10/index.md:157 580eff6002624b58af17ad1c8935de15
+msgid ""
+"The [Sysprof](https://apps.gnome.org/Sysprof/) app is installed by "
+"default as a new system utility. This makes it easier to discover "
+"performance issues in your apps."
+msgstr ""
+
+#: ../../24.10/index.md:159 e80fff14383d4a2c9eb8f4dbd1b387f4
+msgid "Updated Applications"
+msgstr ""
+
+#: ../../24.10/index.md:161 bbe34ef24c234e60ad758235bd3a5e81
+msgid "[Firefox](https://mozilla.org/firefox/releases/) 130 🔥🦊"
+msgstr ""
+
+#: ../../24.10/index.md:162 435f83f893ea4623847f73034ddf8c0f
+msgid ""
+"[LibreOffice 24.8](https://wiki.documentfoundation.org/ReleaseNotes/24.8)"
+" 📚"
+msgstr ""
+
+#: ../../24.10/index.md:163 081f7b90645c47779c4d7db7c1878254
+msgid ""
+"[Thunderbird 128 \"Supernova\"](https://blog.thunderbird.net/2023/07/our-"
+"fastest-most-beautiful-release-ever-thunderbird-XY-supernova-is-here/) "
+"🌩️🐦"
+msgstr ""
+
+#: ../../24.10/index.md:165 872dc9d7bda24efa89288a9af18dfa77
+msgid "Updated Subsystems"
+msgstr ""
+
+#: ../../24.10/index.md:166 035fa67da0d84129b577416e1da85fcf
+msgid ""
+"[BlueZ "
+"5.77](https://git.kernel.org/pub/scm/bluetooth/bluez.git/tree/ChangeLog?id=5.77)"
+" 💙"
+msgstr ""
+
+#: ../../24.10/index.md:167 8256ce35b76348019935706c45870e65
+msgid "[Cairo 1.18.2](https://cairographics.org/news/cairo-1.18.2/) 👁️⃤"
+msgstr ""
+
+#: ../../24.10/index.md:168 86b7246011a443698ffa41ff298a0c66
+msgid ""
+"[Noto Color Emoji Font 2.047 with Unicode 16 "
+"support](https://blog.emojipedia.org/google-debuts-emoji-16-0-support/) 🥳"
+msgstr ""
+
+#: ../../24.10/index.md:169 d141cedfdd064f26a419d42ff3b1050e
+msgid ""
+"[NetworkManager "
+"1.48](https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/blob/nm-1-48/NEWS)"
+" 🖧"
+msgstr ""
+
+#: ../../24.10/index.md:170 14e6925ef82c47708255b8f3e4cf0793
+msgid ""
+"[Pipewire "
+"1.2.4](https://gitlab.freedesktop.org/pipewire/pipewire/-/blob/1.2.4/NEWS)"
+" 🔊"
+msgstr ""
+
+#: ../../24.10/index.md:171 451afa7d902a4acda22fa63083631734
+msgid ""
+"[Poppler "
+"24.08](https://gitlab.freedesktop.org/poppler/poppler/-/blob/poppler-24.08.0/NEWS)"
+" 📝"
+msgstr ""
+
+#: ../../24.10/index.md:172 6c05138515d34310a0b69412c0bb2edd
+msgid ""
+"[xdg-desktop-portal 1.18](https://github.com/flatpak/xdg-desktop-"
+"portal/blob/1.18.4/NEWS) ⛩️"
+msgstr ""
+
+#: ../../24.10/index.md:174 d0eacfb810e948e4be2d61a89eb51f95
+msgid "Nvidia"
+msgstr ""
+
+#: ../../24.10/index.md:176 ce87554dd9514075bdcb78cad9eb04bd
+msgid ""
+"Ubuntu 24.10 now defaults to Wayland instead of Xorg on machines using "
+"Nvidia graphics. If you require Xorg instead then select 'Ubuntu on Xorg'"
+" from the session menu on the login screen."
+msgstr ""
+
+#: ../../24.10/index.md:178 a46ce0c51f5b40879e1d0046649a8880
+msgid "Ubuntu WSL"
+msgstr ""
+
+#: ../../24.10/index.md:180 62e917be2ff64044b867db2836d70654
+msgid "--"
+msgstr ""
+
+#: ../../24.10/index.md:182 ../../24.10/index.md:582
+#: 762cfea67790477382c94a885f439fd4 dd0a08251a5242489a6b5ef6f2c8da58
+msgid "Ubuntu Server"
+msgstr ""
+
+#: ../../24.10/index.md:184 35e0629be4974500b152b5db676ba18c
+msgid "Apache2"
+msgstr ""
+
+#: ../../24.10/index.md:185 ca62821d139c40438350046fb746a4a7
+msgid ""
+"Apache2 has been updated from Noble's 2.4.58 to the current 2.4.62, and "
+"some of the more noteworthy changes include:"
+msgstr ""
+
+#: ../../24.10/index.md:187 3e4a60a18e324aa88b86c29f99192d1c
+msgid "htpasswd: Add support for passwords using SHA-2."
+msgstr ""
+
+#: ../../24.10/index.md:188 5cf8890893594c5696a34163975ec16f
+msgid "core: Allow mod_env to override system environment vars."
+msgstr ""
+
+#: ../../24.10/index.md:189 6df88cc1cf7c4f41a78bf618816d1f6d
+msgid ""
+"mod_xml2enc: Update check to accept any text/ media type or any XML media"
+" type per RFC 7303, avoiding corruption of Microsoft OOXML formats."
+msgstr ""
+
+#: ../../24.10/index.md:190 68235f5032e5439683184a44e3ea3f0e
+msgid ""
+"mod_ssl: SSLProxyMachineCertificateFile/Path may reference files which "
+"include CA certificates; those CA certs are treated as if configured with"
+" SSLProxyMachineCertificateChainFile."
+msgstr ""
+
+#: ../../24.10/index.md:191 91dc9f8cd74a4ff6b1689bd33d5e047c
+msgid ""
+"mod_ssl: Improve compatibility with OpenSSL 3, including handling when "
+"OPENSSL_NO_ENGINE is set and support for loading certs/keys from pkcs11."
+msgstr ""
+
+#: ../../24.10/index.md:192 23d6eaf202b84633a72c58d9937820c4
+msgid ""
+"mod_proxy: Ignore (and warn about) enablereuse=on for ProxyPassMatch when"
+" some dollar substitution (backreference) happens in the hostname or port"
+" part of the URL."
+msgstr ""
+
+#: ../../24.10/index.md:193 5bcfb668346d4bc1a1153cecf161c533
+msgid ""
+"mod_proxy: Add optional third argument for ProxyRemote, which configures "
+"Basic authentication credentials to pass to the remote proxy."
+msgstr ""
+
+#: ../../24.10/index.md:194 d7a32056e7b3475cb5f88449e8d13e97
+msgid ""
+"mod_md: Certificate renewals are triggerable using OCSP stapling "
+"information."
+msgstr ""
+
+#: ../../24.10/index.md:196 e75e49db6ad74706b898fc0f9e7ad1cc
+msgid ""
+"For more details, please see the [full set of "
+"changes](https://downloads.apache.org/httpd/CHANGES_2.4.59)."
+msgstr ""
+
+#: ../../24.10/index.md:199 f6ae2aeb0f974981bd960e6d434a7e21
+msgid "Clamav"
+msgstr ""
+
+#: ../../24.10/index.md:200 01c0d263288b4e59a44c235339197822
+msgid ""
+"Clamav is updated from version 1.0.5 to 1.3.1 in Oracular, bringing "
+"significant improvements and changes, including:"
+msgstr ""
+
+#: ../../24.10/index.md:202 cd42e0eaecf84aab92521f8b127f223d
+msgid ""
+"Added support for extracting and scanning attachments found in Microsoft "
+"OneNote section files."
+msgstr ""
+
+#: ../../24.10/index.md:203 62c128701c97411abb000a22caa4f586
+msgid "Added support for extracting Universal Disk Format (UDF) partitions."
+msgstr ""
+
+#: ../../24.10/index.md:204 683c50e8788b408c9e38908d45bcb026
+msgid ""
+"Added a --cache-size option to customize the size of ClamAV's clean file "
+"cache, which may improve scan performance at the expense of more RAM."
+msgstr ""
+
+#: ../../24.10/index.md:205 6545963a79754f92a4e7691d6e57bdf5
+msgid ""
+"Introduced a customizable SystemD timer for running Freshclam updates, "
+"without sending Freshclam into the background."
+msgstr ""
+
+#: ../../24.10/index.md:206 779fd79fe12941ab9a7bd48dbd8206f5
+msgid "Refined limit handling for large files"
+msgstr ""
+
+#: ../../24.10/index.md:207 b906940893394a398f7ee1e2c23dfc55
+msgid ""
+"Added ability for Freshclam to use a client certificate PEM file and a "
+"private key PEM file for authentication to a private mirror"
+msgstr ""
+
+#: ../../24.10/index.md:208 274908b196144946931aa8b21880f1ea
+msgid "Added the ability to extract images embedded in HTML CSS `<style>` blocks."
+msgstr ""
+
+#: ../../24.10/index.md:209 884d4672ff75415698096412d0bd59ea
+msgid "Enhancements relating to VBA extraction from office documents"
+msgstr ""
+
+#: ../../24.10/index.md:210 bb5c42f6777a4775bce3fca8715068b0
+msgid ""
+"Added support for aborting on standup if virus database is older than a "
+"configured number of days."
+msgstr ""
+
+#: ../../24.10/index.md:212 f420d3a9d2d044b289543f1d557aa5fd
+msgid ""
+"For a comprehensive listing of changes included since Ubuntu Noble, "
+"please see the changelogs for "
+"[1.1.0](https://blog.clamav.net/2023/05/clamav-110-released.html), "
+"[1.2.0](https://blog.clamav.net/2023/08/clamav-120-feature-version-"
+"and-111-102.html), "
+"[1.3.0](https://blog.clamav.net/2023/11/clamav-130-122-105-released.html),"
+" and [1.3.1](https://blog.clamav.net/2024/04/clamav-131-123-106-patch-"
+"versions.html)."
+msgstr ""
+
+#: ../../24.10/index.md:214 42adf04315894543bf9dc02fa46c3d82
+msgid "Chrony"
+msgstr ""
+
+#: ../../24.10/index.md:215 875a4f3455aa40049b1e3373eb6741e4
+msgid ""
+"The chrony package in Oracular was changed to no longer ship the default "
+"Ubuntu NTP pools in `/etc/chrony/chrony.conf`. A new snippet "
+"configuration file is created in `/etc/chrony/sources.d/ubuntu-ntp-"
+"pools.sources` defining those servers. The motivation for this change is "
+"explained in [LP: "
+"#2048876](https://bugs.launchpad.net/ubuntu/+source/chrony/+bug/2048876)."
+msgstr ""
+
+#: ../../24.10/index.md:217 e8f1fdfb11c3498eb81290b944e8511c
+msgid ""
+"If you changed your `chrony.conf`, an upgrade to this version will stop "
+"at a dpkg config prompt, showing the differences between the installed "
+"file and the new one. If you chose to keep the existing `chrony.conf`, "
+"keep in mind that the Ubuntu NTP pools from `/etc/chrony/sources.d"
+"/ubuntu-ntp-pools.sources` will also be used."
+msgstr ""
+
+#: ../../24.10/index.md:219 a60baacbe05e4ce89b04460b90d753d7
+msgid "@ankushpathak wrote a great post about this change:"
+msgstr ""
+
+#: ../../24.10/index.md:221 79315c7cccb9443a83545d6358ede722
+msgid ""
+"https://discourse.ubuntu.com/t/improving-chrony-time-source-"
+"configuration-in-ubuntu/47850"
+msgstr ""
+
+#: ../../24.10/index.md:223 9bdb7255a27049e5b98b3e33e66faac4
+msgid "cloud-init v. 24.3.1"
+msgstr ""
+
+#: ../../24.10/index.md:224 35c17833b43d43dab3ed561a05d262e5
+msgid "Notable features beyond v. 24.1 present in Noble:"
+msgstr ""
+
+#: ../../24.10/index.md:226 24aff31c87894305be7ef4fa891f7ae0
+msgid ""
+"Bootspeed improvement: support for socket-based shared python process "
+"across cloud-init boot stages ([#5595](https://github.com/canonical"
+"/cloud-init/pull/5595))"
+msgstr ""
+
+#: ../../24.10/index.md:228 2315b6019f774ad5a17c6a02543a139a
+msgid ""
+"NoCloud support for FTP and FTP over TLS "
+"([#4834](https://github.com/canonical/cloud-init/pull/4834))"
+msgstr ""
+
+#: ../../24.10/index.md:229 22a7009479c3484f8197bdd94ac60d8e
+msgid ""
+"Add network-config seed support for nocloud datasource "
+"([#5566](https://github.com/canonical/cloud-init/pull/5566))"
+msgstr ""
+
+#: ../../24.10/index.md:230 d476bad9977b4737962b9ded46363fab
+msgid ""
+"Network v2 schema validation ([#4892](https://github.com/canonical/cloud-"
+"init/pull/4892))"
+msgstr ""
+
+#: ../../24.10/index.md:231 c37fc53dedeb4429880e40d98ab673d3
+msgid ""
+"Add support for disk setup of nvme devices "
+"([#5263](https://github.com/canonical/cloud-init/pull/5263))"
+msgstr ""
+
+#: ../../24.10/index.md:232 a706b85549e148a5963db88bdefa4f07
+msgid ""
+"Support remote URI sources write_files module "
+"([#5505](https://github.com/canonical/cloud-init/pull/5055))"
+msgstr ""
+
+#: ../../24.10/index.md:233 df67560ad8364ed7bc093154b7169892
+msgid ""
+"provide option to set empty passwords and fix password unlock when "
+"lock_passwd: False on Alpine/FreeBSD/OpenBSD/DragonflyBSD "
+"([#5355](https://github.com/canonical/cloud-init/pull/5355))"
+msgstr ""
+
+#: ../../24.10/index.md:235 ac74702f3ebc409c8aa057ae3cf2c695
+msgid ""
+"WSL support multi-part MIME config parts as well as landscape tags for "
+"provisioning ([#5460](https://github.com/canonical/cloud-init/pull/5460),"
+" [#5538](https://github.com/canonical/cloud-init/pull/5538))"
+msgstr ""
+
+#: ../../24.10/index.md:237 581ad8c2ec374ac9a83c60afed1b1540
+msgid ""
+"Added support in cloudinit.features.DEPRECATION_INFO_BOUNDARY allowing "
+"stable downstream images to pin the original MAJOR.MINOR version of "
+"cloud-init released on that image. This avoids introduction of new "
+"deprecation messages (and potential exit 2 from cloud-init status) across"
+" cloud-init version upgrades."
+msgstr ""
+
+#: ../../24.10/index.md:239 28a5085660a54859aac4f6558ec9ab1e
+msgid "Breaking Changes:"
+msgstr ""
+
+#: ../../24.10/index.md:241 fde6b32443bc4520ab16937d98843ce5
+msgid ""
+"Warning issued for systemd environments if cloud-init boot stages are "
+"called by PIDs other than the root process. It is expected that boot "
+"stages are only called by systemd units and not post-production scripts "
+"or tools."
+msgstr ""
+
+#: ../../24.10/index.md:245 183332bcfdd0420fb6e6e5eb8b9e3639
+msgid ""
+"Introduce a [performance optimization by sharing the python environment "
+"and setup costs across all four boot stages with a new cloud-init-"
+"main.service](https://discourse.ubuntu.com/t/announcement-cloud-init-"
+"perfomance-optimization-single-process/47505)"
+msgstr ""
+
+#: ../../24.10/index.md:247 d2267c63f8484d8d914e7aef275ef06f
+msgid "Containerd"
+msgstr ""
+
+#: ../../24.10/index.md:248 8c9bea0f11d54444876093ce8b616013
+msgid ""
+"The Containerd application was updated to version `1.7.19`. Some "
+"highlights of this update:"
+msgstr ""
+
+#: ../../24.10/index.md:250 1826ce98986b4d589efa9bf3dcd3ffa8
+msgid "Remove overlayfs volatile option on temp mounts (#10332)"
+msgstr ""
+
+#: ../../24.10/index.md:251 876838217e5043098438c0b37878a4c7
+msgid ""
+"Update AppArmor template to allow confined runc to kill containers "
+"(#10129)"
+msgstr ""
+
+#: ../../24.10/index.md:252 0a780897ccc842cdad6b4c3b7d8ee697
+msgid "Update AppArmor template to better support rootlesskit (#10116)"
+msgstr ""
+
+#: ../../24.10/index.md:254 69660746df324db5837bd405a4c9ff8b
+msgid ""
+"For more information, check the [upstream release "
+"notes](https://github.com/containerd/containerd/releases)."
+msgstr ""
+
+#: ../../24.10/index.md:256 32b0959f7bd94390917b98ddf81ee4bb
+msgid "Django"
+msgstr ""
+
+#: ../../24.10/index.md:257 15bc491c148b466aa314b65b3ff590e3
+msgid ""
+"Django was updated from Noble's 4.2.11 to 4.2.15, which brings several "
+"bug fixes. For more information, see the upstream changelogs: "
+"[4.2.12](https://docs.djangoproject.com/en/4.2/releases/4.2.12/), "
+"[4.2.13](https://docs.djangoproject.com/en/4.2/releases/4.2.13/), "
+"[4.2.14](https://docs.djangoproject.com/en/4.2/releases/4.2.14/), "
+"[4.2.15](https://docs.djangoproject.com/en/4.2/releases/4.2.15/)"
+msgstr ""
+
+#: ../../24.10/index.md:259 ../../24.10/index.md:608
+#: 92ed731798de4ab3882a17148177d2dc fb591f532c7f435b97feed2ae1dbf40f
+msgid "Docker"
+msgstr ""
+
+#: ../../24.10/index.md:260 fe796d2c2dfe4976a23eb44213c75077
+msgid ""
+"The Docker application was updated to version `26.1.3`. Some highlights "
+"of this update:"
+msgstr ""
+
+#: ../../24.10/index.md:262 d30e5379d7934d24aff601eb1662bbdb
+msgid "AppArmor: Allow confined runc to kill containers"
+msgstr ""
+
+#: ../../24.10/index.md:263 786c92abe82a43be82b37f0efcc0667f
+msgid "Removal of AuFS, Legacy \"overlay\", and Device mapper storage drivers"
+msgstr ""
+
+#: ../../24.10/index.md:264 d403fec550364f3887b1af5376cc4c21
+msgid "Removal of support for interacting with V1 registries"
+msgstr ""
+
+#: ../../24.10/index.md:266 8927295e5f7f4f948a05889678f2c58e
+msgid ""
+"Watch out for deprecation or removal of features in this [upstream "
+"page](https://github.com/docker/cli/blob/v26.1.3/docs/deprecated.md)."
+msgstr ""
+
+#: ../../24.10/index.md:268 505f0aa523534f10b5b519b494ae60ef
+msgid "`unminimize`"
+msgstr ""
+
+#: ../../24.10/index.md:270 84ec793fdd374f9a90b7aa3ae0aba276
+msgid ""
+"`unminimize` has been moved to a dedicated package which can be installed"
+" with `apt-get install -y unminimize` rather than being available by "
+"default in all minimal images."
+msgstr ""
+
+#: ../../24.10/index.md:272 aaa352a71adf456c8cf2c1909586fab9
+msgid "Exim4"
+msgstr ""
+
+#: ../../24.10/index.md:273 b6bf1917287145b1bcfee9685fe456f4
+msgid ""
+"The Exim4 update in Oracular to 4.98 includes selected fixes from the "
+"upstream GIT repository.  This improves handling of new and old format "
+"message IDs, fixes certain crashes, refines memory usage for regexes, and"
+" avoids recording lookup credentials in the log files.  DKIM DNS record "
+"parsing is tightened up related to unexpected whitespace."
+msgstr ""
+
+#: ../../24.10/index.md:275 c4af4be4536943c4b452433836433c4b
+msgid "HAProxy"
+msgstr ""
+
+#: ../../24.10/index.md:276 0e15e2bc71f9480cbef3e12838b848a8
+msgid ""
+"The HAProxy package was upgraded to version 2.9.9. This new version "
+"introduces performance improvements, better integration, more "
+"reliability, and a new reverse-http feature. You can learn more about it "
+"at https://www.haproxy.com/blog/announcing-haproxy-2-9.  A complete list "
+"of changes is available at "
+"https://www.haproxy.org/download/2.9/src/CHANGELOG."
+msgstr ""
+
+#: ../../24.10/index.md:278 8debb93b3bb34717860e5dab49b8c98f
+msgid "libvirt"
+msgstr ""
+
+#: ../../24.10/index.md:279 d525bec9c0cc46f58395f86a7cac3589
+msgid ""
+"The [libvirt](https://libvirt.org) package was upgraded to version "
+"10.6.0.  Here are the changes since Ubuntu Noble:"
+msgstr ""
+
+#: ../../24.10/index.md:281 6fef31e08f3543b39c82b3c177c53097
+msgid "network: Make virtual domains resolvable from the host."
+msgstr ""
+
+#: ../../24.10/index.md:282 3acf7ce655e945caa557e5a40ca675d9
+msgid "qemu: Support clusters in CPU topology."
+msgstr ""
+
+#: ../../24.10/index.md:283 d93b63dcce35478598fb75cc628d7cfd
+msgid "qemu: Introduce `dynamicMemslots` attribute for `virtio-mem`."
+msgstr ""
+
+#: ../../24.10/index.md:284 980ea1c609f9440a8d8897f5ed322412
+msgid "qemu: Support for driver type `mtp` in `<filesystem/>` devices."
+msgstr ""
+
+#: ../../24.10/index.md:285 44af1264ae8e47f788d549e93a777a84
+msgid "qemu: Introduce `virDomainGraphicsReload` API."
+msgstr ""
+
+#: ../../24.10/index.md:286 256f0658ab96460c89400a1a637d9266
+msgid "qemu: Proper support for USB network device."
+msgstr ""
+
+#: ../../24.10/index.md:287 2546fb9d0ac74602a59dd31ccedea967
+msgid "SSH proxy for VM."
+msgstr ""
+
+#: ../../24.10/index.md:288 eec27c5f97ff44978d156ab3e24174c5
+msgid "Introduce `pstore` device."
+msgstr ""
+
+#: ../../24.10/index.md:290 2f907b1353bb499cbc68c3e0d695c51a
+msgid ""
+"For more details, please see [the upstream "
+"changelog](https://www.libvirt.org/news.html)."
+msgstr ""
+
+#: ../../24.10/index.md:292 1e68fb2b4fed4c56a4e6234ad078ea95
+msgid "Nginx"
+msgstr ""
+
+#: ../../24.10/index.md:293 6cd013c0c77c4e91bc757e9ae7ce6fd4
+msgid ""
+"Version 1.26.0 of NGINX was introduced in Oracular, bringing experimental"
+" HTTP/3 support, HTTP/2 on a per-server basis, virtual servers in the "
+"stream module, passing stream connections to listen sockets, and more."
+msgstr ""
+
+#: ../../24.10/index.md:295 a2dcf7d48c99429f80d866010ecf96fc
+msgid "OpenLDAP"
+msgstr ""
+
+#: ../../24.10/index.md:296 151a962388bc45539901ce99512217a5
+msgid ""
+"The [OpenLDAP](https://openldap.org/) package was updated to version "
+"2.6.8, which brings several bug fixes. For more details, please see [the "
+"upstream "
+"changelog](https://www.openldap.org/software/release/changes.html)."
+msgstr ""
+
+#: ../../24.10/index.md:298 e2928d0e01a34289811c25c03261d6ce
+msgid "OpenSSH"
+msgstr ""
+
+#: ../../24.10/index.md:299 d60b576735a74620ab91012ed008a1d6
+msgid ""
+"Starting with 1:9.6p1-3ubuntu17, openssh server no longer reads "
+"`~/.pam_environment` of the target system upon login."
+msgstr ""
+
+#: ../../24.10/index.md:301 00860ca6d04641709c3e5239a75f29dd
+msgid ""
+"In [Linux-PAM version 1.5.0](https://github.com/linux-pam/linux-"
+"pam/releases/tag/v1.5.0), the `pam_env.so` module [has "
+"deprecated](https://github.com/linux-pam/linux-"
+"pam/commit/ecd526743a27157c5210b0ce9867c43a2fa27784) the `user_readenv=1`"
+" parameter due to security concerns, and it will be removed by upstream "
+"in the future."
+msgstr ""
+
+#: ../../24.10/index.md:304 3672697ba99942659ee204c88703e2cf
+msgid ""
+"Following that change, `/etc/pam.d/sshd`'s invocation of `pam_env.so` "
+"[was "
+"changed](https://bugs.launchpad.net/ubuntu/+source/openssh/+bug/2059859/)"
+" to remove the `user_readenv=1` parameter."
+msgstr ""
+
+#: ../../24.10/index.md:306 e3f04c1152e54eb19221319325eaa1c3
+msgid ""
+"Systems that were relying on that behavior need to adapt, possibly via "
+"the openssh `AcceptEnv` (on the server) and `SendEnv` (on the client) "
+"parameters."
+msgstr ""
+
+#: ../../24.10/index.md:308 46eebb606c6d410fa5ffc56cbaec4bf1
+msgid ""
+"Note that the default configuration in `/etc/ssh/sshd_config` and "
+"`/etc/ssh/ssh_config` is already set to send and receive locale "
+"variables, which is one of the scenarios in which `~/.pam_environment` "
+"was used in the past."
+msgstr ""
+
+#: ../../24.10/index.md:310 2ddbf0fad7f442aab490b91557f47ff2
+msgid "OpenVmTools"
+msgstr ""
+
+#: ../../24.10/index.md:311 5e51206d8fac4886afcfaccaa35f9d59
+msgid ""
+"The new version 12.4.5 of open-vm-tools in oracular brings a handful of "
+"bug fixes; for details of these and existing known issues, please see the"
+" upstream release notes for [12.4.0](https://docs.vmware.com/en/VMware-"
+"Tools/12.4/rn/vmware-tools-1240-release-notes/index.html) and "
+"[12.4.5](https://docs.vmware.com/en/VMware-Tools/12.4/rn/vmware-"
+"tools-1245-release-notes/index.html)."
+msgstr ""
+
+#: ../../24.10/index.md:313 cfd0dd6cb29f4f6ba6913e223961f783
+msgid "Valkey"
+msgstr ""
+
+#: ../../24.10/index.md:314 3147ec90ff7a4e998fea10703080b5b9
+msgid ""
+"Valkey version 7.2.5 is available in Oracular. Since this version is a "
+"drop-in replacement for Redis (fully compatible), and with the [recent "
+"changes of Redis' license](https://redis.io/blog/redis-adopts-dual-"
+"source-available-licensing/), a way to migrate configuration and data "
+"from Redis to Valkey is implemented in a form of a new binary package. "
+"The `valkey-redis-compat` binary package will attempt a automatic "
+"configuration and data migration from Redis to Valkey. If you did not "
+"perform any drastic change to the configuration of your Redis service, it"
+" should work straight away.  However, if you performed some substantial "
+"changes or your setup is more complex, the automation may not work. Due "
+"to that, whenever the `valkey-redis-compat` binary package is installed "
+"and the migration is attempted, the file `/etc/valkey/REDIS_MIGRATION` "
+"will be created, and the services will not start automatically. This will"
+" avoid breaking the upgrade due to an incomplete migration. After the "
+"user has checked if the migration is OK, they need to remove the "
+"`/etc/valkey/REDIS_MIGRATION` file, then the Valkey services will be able"
+" to be started again."
+msgstr ""
+
+#: ../../24.10/index.md:316 1fdb2f15d7cc486b8e88e70f6fdfbdae
+msgid "Percona Xtrabackup"
+msgstr ""
+
+#: ../../24.10/index.md:317 a8c64218ea0b42f485028bd548d5e482
+msgid ""
+"Xtrabackup was updated to the next minor version 8.0.35-31. It provides "
+"additional arm64 architecture support along with various bug fixes. For "
+"more details, see the [upstream release notes](https://docs.percona.com"
+"/percona-xtrabackup/8.0/release-notes/8.0/8.0.35-31.0.html)."
+msgstr ""
+
+#: ../../24.10/index.md:319 b4c12235e2194f7e9af2642f56e07e5a
+msgid "PHP"
+msgstr ""
+
+#: ../../24.10/index.md:320 99ccf5c5a43b49aa957f49840bbe1133
+msgid ""
+"PHP was upgraded to version 8.3.9, which is introduces several bug fixes."
+"  You can read more about those in the upstream changelog at "
+"https://www.php.net/ChangeLog-8.php#8.3.9."
+msgstr ""
+
+#: ../../24.10/index.md:322 f4f97d4ff5ba493792b6b61bc2dac33c
+msgid "PostgreSQL"
+msgstr ""
+
+#: ../../24.10/index.md:323 7c68506486c7431683d3469023fd1306
+msgid ""
+"PostgreSQL was updated to version 16.4. Users running Ubuntu Noble will "
+"realize this version was also included there as part of our PostgreSQL "
+"upgrade policies. The new version introduces many bug and security fixes."
+" More details on the changes introduced since Noble are available at "
+"https://www.postgresql.org/docs/release/16.4/ and "
+"https://www.postgresql.org/docs/release/16.3/"
+msgstr ""
+
+#: ../../24.10/index.md:325 b9c302f1402e459a87b0285a99d2f860
+msgid "QEMU"
+msgstr ""
+
+#: ../../24.10/index.md:326 e513c2ed0d6341319ef406e2954c53da
+msgid ""
+"The [QEMU](https://qemu.org/) package was updated to version 9.0.2. Here "
+"are the changes since Ubuntu Noble."
+msgstr ""
+
+#: ../../24.10/index.md:328 eadbf0e7d3644c95bbe2e57f2b88bf90
+msgid ""
+"The behaviour of the `-serial none` option when used together with     "
+"other `-serial` options has been corrected. Previously when `-serial "
+"none` was followed by `-serial something` the `-serial none` was "
+"effectively ignored. Now it controls the existence of the first serial "
+"port, and the following `-serial` option controls the behaviour of the "
+"second serial port; this brings it in to line with how all other cases of"
+" multiple `-serial` options work. If you have a command line that was "
+"accidentally relying on the old behaviour, you can simply delete the "
+"unnecessary `-serial none`."
+msgstr ""
+
+#: ../../24.10/index.md:329 9e1925045a6741ac9d50299d0613a5ae
+msgid "ARM"
+msgstr ""
+
+#: ../../24.10/index.md:330 f533534d326f47189d0b3455f73adf3a
+msgid ""
+"New `raspi4b` board type, the Raspberry Pi 4 Model B. Note that QEMU does"
+" not yet model PCI or ethernet; this will be implemented on a future QEMU"
+" release."
+msgstr ""
+
+#: ../../24.10/index.md:331 ../../24.10/index.md:514
+#: 672d8a383ad745c4b45fe29b53fff4b7 e87a82ffe37f47e1aa2106d883ce90ce
+msgid "RISC-V"
+msgstr ""
+
+#: ../../24.10/index.md:332 d81f5ef60ddb4d7cb4ab299ce9b73f08
+msgid "Add support for `Zacas`, `B`, `Zaamo`, `Zalrsc`, `Ztso` extensions."
+msgstr ""
+
+#: ../../24.10/index.md:333 a7a0b7e0c7284c61b7768459d6859cad
+msgid "Add `amocas.[w,d,q]` instructions."
+msgstr ""
+
+#: ../../24.10/index.md:334 20193e1d77d446ffa24e4737779c0286
+msgid "`RVA22` profiles support."
+msgstr ""
+
+#: ../../24.10/index.md:335 0a56631938294345a0ac33d6ff343900
+msgid "Add RVV CSRs to KVM."
+msgstr ""
+
+#: ../../24.10/index.md:336 86116a8c6aa44716b5395c1f10a50850
+msgid "Implement optional CSR `mcontext` of debug `Sdtrig` extension."
+msgstr ""
+
+#: ../../24.10/index.md:337 066b9a19c73f499f91e2f32c2c6b6c6d
+msgid "Enable `xtheadsync` under user mode."
+msgstr ""
+
+#: ../../24.10/index.md:338 2a9b653cc46d47538062ee2554063fa2
+msgid "Use `zfa` instead of `Zfa`."
+msgstr ""
+
+#: ../../24.10/index.md:339 a5d54bb90d5043b4a252bc1d8fb97317
+msgid "Move ratified/frozen extensions to non-experimental."
+msgstr ""
+
+#: ../../24.10/index.md:340 57efba21da3f4a9d8baf4ee0cc1978a4
+msgid "s390x"
+msgstr ""
+
+#: ../../24.10/index.md:341 e653452fe3d34962987beb9e01895539
+msgid ""
+"Fix access register handling in the emulation of the `LOAD ADDRESS "
+"EXTENDED` (`LAE`) instruction."
+msgstr ""
+
+#: ../../24.10/index.md:342 9809864b9f82494cb3c67484a9837ac2
+msgid "Add emulation of `CVDG`, `CVB`, `CVBY` and `CVBG` instructions."
+msgstr ""
+
+#: ../../24.10/index.md:343 ba53a6ba7d784edca16f08bd34685fb3
+msgid ""
+"The `virtio-blk` device has gained true multiqueue support where "
+"different queues of a single disk can be processed by different I/O "
+"threads. This can improve scalability in cases where the guest submitted "
+"enough I/O to saturate the host CPU running a single I/O thread "
+"processing the `virtio-blk` requests. Multiple I/O threads can be "
+"configured using the new `iothread-vq-mapping` property."
+msgstr ""
+
+#: ../../24.10/index.md:344 fec91af196f1481e93118aba359e2cc1
+msgid ""
+"`usb-storage` doesn't ignore the properties `backend_defaults`, "
+"`logical_block_size`, `physical_block_size`, `min_io_size`, `opt_io_size`"
+" and `discard_granularity` any more."
+msgstr ""
+
+#: ../../24.10/index.md:345 b27663e15a684082a80302db222db0be
+msgid ""
+"Fixed `vhost-vdpa-device` to be compatible with `VDUSE` block exports "
+"again (this was broken in QEMU 8.2.0, in Ubuntu Noble)."
+msgstr ""
+
+#: ../../24.10/index.md:346 d3ceb83bae844e049650692c02ad1b54
+msgid "Introduced an IOMMU interface backend for VFIO devices."
+msgstr ""
+
+#: ../../24.10/index.md:347 e0e8a6f2e017465a9fa99a8a095259c9
+msgid "Introduced a new IOMMUFD backend for ARM, amd64 and s390x platforms."
+msgstr ""
+
+#: ../../24.10/index.md:348 0b67fdfef13f405aa96bbe3ff6de5f3e
+msgid ""
+"The `sm4` cipher algorithm is now supported and can be used with the "
+"`luks` block driver."
+msgstr ""
+
+#: ../../24.10/index.md:349 c06f59f26c72446ea8e0b5bfa6258b78
+msgid ""
+"QEMU 8.2 accidentally allowed for creation of memory backends with sizes "
+"that are not aligned to the (huge) page size. This has been fixed."
+msgstr ""
+
+#: ../../24.10/index.md:350 ab8a8435eb56442585f1ae0fd57a01ee
+msgid ""
+"Fixed migration for SUSPENDED VM, where we used to ignore the `SUSPENDED`"
+" state and kick off the VM even if it was suspended before the migration."
+msgstr ""
+
+#: ../../24.10/index.md:351 ad491435d55542109b81bf73d1255a46
+msgid ""
+"New capability called `mapped-ram`. It allows efficient VM snapshots "
+"save/load by providing both (1) constant size of ultimate VM image rather"
+" than unlimited, and (2) multi-threading support so that save/load of "
+"snapshots can be faster."
+msgstr ""
+
+#: ../../24.10/index.md:353 fe3b146c2f7d486ca42ab0a36e0eaf38
+msgid "For more details, please see related upstream changelogs:"
+msgstr ""
+
+#: ../../24.10/index.md:355 1dee4cd5d593480a8212cb20b69ad053
+msgid "[9.0](https://wiki.qemu.org/ChangeLog/9.0)"
+msgstr ""
+
+#: ../../24.10/index.md:357 f35d2a947f8a422c84f0829f6e6dbbe2
+msgid "Ruby 3.3"
+msgstr ""
+
+#: ../../24.10/index.md:358 970c85e5285d478192b79962c6297574
+msgid ""
+"The default Ruby version is now version 3.3. Some compatibility changes "
+"may arise from the upgrade from version 3.2, they are:"
+msgstr ""
+
+#: ../../24.10/index.md:360 fac93628593b42ba8a6675668a4cca95
+msgid ""
+"`it` calls without arguments in a block with no ordinary parameters are "
+"deprecated. `it` will be a reference to the first block parameter in Ruby"
+" 3.4. [Feature #18980]"
+msgstr ""
+
+#: ../../24.10/index.md:361 d3f1be77a4f244a0ad8ba756f4876fcd
+msgid ""
+"`Regexp::new` now only accepts up to 2 arguments instead of 3. This was "
+"deprecated in Ruby 3.2. [Bug #18797]"
+msgstr ""
+
+#: ../../24.10/index.md:362 032d77f7da7248a48019a4dfabcbcd47
+#, python-brace-format
+msgid ""
+"Environment variable `RUBY_GC_HEAP_INIT_SLOTS` has been deprecated and is"
+" a no-op. Please use environment variables "
+"`RUBY_GC_HEAP_{0,1,2,3,4}_INIT_SLOTS` instead. [Feature #19785]"
+msgstr ""
+
+#: ../../24.10/index.md:364 bcae1eb3886f430194bb8991e759c2bf
+msgid ""
+"For the complete list of changes in this new version, please check the "
+"[upstream release notes](https://www.ruby-"
+"lang.org/en/news/2023/12/25/ruby-3-3-0-released/) out."
+msgstr ""
+
+#: ../../24.10/index.md:366 5f8fa939f7ec49a3bdeea6c60ca24e27
+msgid "Samba"
+msgstr ""
+
+#: ../../24.10/index.md:367 0d88d007502d479bb0a00a8df390b13c
+msgid ""
+"Samba was updated to 4.20.4, and major changes in the 4.20.x series are "
+"documented in the [upstream release "
+"notes](https://www.samba.org/samba/history/samba-4.20.0.html)."
+msgstr ""
+
+#: ../../24.10/index.md:369 1289c677ef2b4221957163d034dd1959
+msgid ""
+"Normally the point releases of samba in a stable series only contain bug "
+"fixes, but this time 4.20.3 added a nice new feature which is LDAP "
+"TLS/SASL channel binding support. Details are shown in the [4.20.3 "
+"release notes](https://www.samba.org/samba/history/samba-4.20.3.html)."
+msgstr ""
+
+#: ../../24.10/index.md:371 b45d40abf9e146988b1afb5c37b66a9a
+msgid "In terms of packaging, the following changes have been done:"
+msgstr ""
+
+#: ../../24.10/index.md:373 3166e8b8f7de49fda55cf053f9ecb74a
+msgid ""
+"`samba-vfs-modules`: the VFS modules from this package were moved to the "
+"`samba` package, with the exception of the Ceph module, which got its own"
+" package: `samba-vfs-ceph`. The `samba-vfs-modules` package is now just a"
+" transitional package, and it can be safely removed after the release "
+"upgrade."
+msgstr ""
+
+#: ../../24.10/index.md:374 7afca91f53684441a1e6ba042035fe26
+msgid ""
+"`samba-vfs-modules-extra`: this package used to contain the GlusterFS VFS"
+" module. This module was moved to a new package called `samba-vfs-"
+"glusterfs`, and `samba-vfs-modules-extra` became a transitional package. "
+"It can also be safely removed after the release upgrade."
+msgstr ""
+
+#: ../../24.10/index.md:376 25b151cef30b4453a92364901cd324dc
+msgid "Squid"
+msgstr ""
+
+#: ../../24.10/index.md:377 5e3df10f50764639997b48d8ca848706
+msgid ""
+"Squid was upgraded to version 6.10. This new version includes several bug"
+" fixes. A complete set of changes together with a comprehensive changelog"
+" is available at https://github.com/squid-"
+"cache/squid/compare/SQUID_6_6..SQUID_6_10."
+msgstr ""
+
+#: ../../24.10/index.md:382 cd8b74e0deb0452580a0b67154624c8a
+msgid "SSSD"
+msgstr ""
+
+#: ../../24.10/index.md:383 6d974c1346c049059d4025d960a7c0c8
+msgid ""
+"The [SSSD](https://sssd.io/) package was updated to version 2.9.5. Here "
+"are the changes since Ubuntu Noble."
+msgstr ""
+
+#: ../../24.10/index.md:385 7ac0c5ac212d4cab868fd018491c4603
+msgid ""
+"Added `failover_primary_timeout` configuration option. This can be used "
+"to configure how often SSSD tries to reconnect to a primary server after "
+"a successful connection to a backup server. This was previously hardcoded"
+" to 31 seconds which is kept as the default value."
+msgstr ""
+
+#: ../../24.10/index.md:387 0f9d942b225146e58086b21c4529bfe4
+msgid ""
+"For more details, please see [the upstream changelog](https://sssd.io"
+"/release-notes/sssd-2.9.5.html)."
+msgstr ""
+
+#: ../../24.10/index.md:389 8c3f0d72fd4c45f2bebf2368c08e0f38
+msgid "Subiquity"
+msgstr ""
+
+#: ../../24.10/index.md:390 dad4231e923b4d069eb5fcb1619bbe22
+msgid ""
+"A new version of the Subiquity server installer has been released. Please"
+" read the full [release notes for "
+"24.04.1](https://github.com/canonical/subiquity/releases/tag/24.04.1) on "
+"GitHub."
+msgstr ""
+
+#: ../../24.10/index.md:392 5122a7509d2f4f7ca754ed505a10d018
+msgid "Ubuntu HA/Clustering"
+msgstr ""
+
+#: ../../24.10/index.md:394 feb6bf538c0f41199cb12fd3019e020e
+msgid "multipath-tools"
+msgstr ""
+
+#: ../../24.10/index.md:395 8cc46d44ebb047cda8b806af45f737fc
+msgid ""
+"multipath-tools was updated to 0.9.9. Please visit "
+"https://github.com/opensvc/multipath-tools/blob/master/NEWS.md for notes "
+"on the changes."
+msgstr ""
+
+#: ../../24.10/index.md:397 30e3ebceaa624de6b03162c3216dfa85
+msgid "kpartx-boot"
+msgstr ""
+
+#: ../../24.10/index.md:398 d4519a843a3b4bca9a3a80683d7177d6
+msgid ""
+"Starting with the Oracular release, the kpartx-boot package has been "
+"discontinued to align with Debian. Originally introduced to support "
+"dmraid booting, its functionality is preserved, as the kpartx package now"
+" includes everything previously provided by kpartx-boot."
+msgstr ""
+
+#: ../../24.10/index.md:400 4ce2f005e71646d78fd14684fc66bc90
+msgid "dmraid"
+msgstr ""
+
+#: ../../24.10/index.md:401 e97d3a49dc054eb9a356d494dcc66fcf
+msgid ""
+"The dmraid package has been removed from Oracular. The rationale for its "
+"removal is outlined in https://bugs.launchpad.net/bugs/2073677, primarily"
+" due to its removal from Debian unstable and minimal upstream support. If"
+" you require this functionality, consider using alternatives like "
+"`mdadm`."
+msgstr ""
+
+#: ../../24.10/index.md:403 4ad1a7bbb8534dacaf60fde1cdf10972
+msgid "Corosync"
+msgstr ""
+
+#: ../../24.10/index.md:404 a255764f074a47a98f022a2cffc9e240
+msgid ""
+"Corosync was upgraded to version 3.1.8. This release contains mostly "
+"smaller bugfixes and improvements of Rust bindings. You can learn more "
+"about it at https://github.com/corosync/corosync/releases."
+msgstr ""
+
+#: ../../24.10/index.md:406 2c98e644c9964197bf9728640b1b175c
+msgid "pacemaker"
+msgstr ""
+
+#: ../../24.10/index.md:407 2c74c718e1a840e3be31b76006d3b15f
+msgid ""
+"Pacemaker was upgraded to version 2.1.8. This release includes a "
+"significant number of bug fixes and a few new features.  It also "
+"deprecates some obscure features and many C APIs in preparation for the "
+"next Pacemaker major release which will drop support for them."
+msgstr ""
+
+#: ../../24.10/index.md:409 da9249caa1f54aa7b2453c7443c0996b
+msgid "fence-agents"
+msgstr ""
+
+#: ../../24.10/index.md:410 248bdebab88d42f59b32421351a817df
+msgid ""
+"fence-agents was upgraded to version 4.15.0. In this release, we are no "
+"longer shipping the transitional fence-agents package. You should now use"
+" either the fence-agents-base package with the agents available in main "
+"or the fence-agents-extra package with the agents in universe (or both, "
+"they are split based on the repository components they are available in)."
+" A complete list of upstream changes for this version is available at "
+"https://lists.clusterlabs.org/pipermail/developers/2024-July/003567.html."
+msgstr ""
+
+#: ../../24.10/index.md:412 2c600d00cad34b8e991b97ae1e69f57d
+msgid "resource-agents"
+msgstr ""
+
+#: ../../24.10/index.md:413 d2c3a7c7d66740b68e2b60876bd6300c
+msgid ""
+"resource-agents was upgraded to version 4.15.1. This new release "
+"introduces several bug fixes and enhancements including two new resource "
+"agents: outscale and powervs-subnet. Details on all changes introduced in"
+" this new version are available at "
+"https://lists.clusterlabs.org/pipermail/developers/2024-July/003570.html "
+"and "
+"https://lists.clusterlabs.org/pipermail/developers/2024-July/003572.html."
+msgstr ""
+
+#: ../../24.10/index.md:415 571fbd32a58d4e4a84aefbaa802354e0
+msgid "OpenStack"
+msgstr ""
+
+#: ../../24.10/index.md:416 cf8f222ef62546c1981aeed612c36497
+msgid ""
+"OpenStack has been updated to the [2024.2 (Dalmatian) "
+"release](https://releases.openstack.org/dalmatian/).  This includes "
+"packages for Aodh, Barbican, Ceilometer, Cinder, Designate, Glance, Heat,"
+" Horizon, Ironic, Keystone, Magnum, Manila, Masakari, Mistral, Neutron, "
+"Nova, Octavia, Swift, Vitrage, Watcher and Zaqar."
+msgstr ""
+
+#: ../../24.10/index.md:418 e0de151b604d4a9da3bd82a0eb713bf4
+msgid ""
+"This release is also provided for Ubuntu 24.04 LTS via the Ubuntu Cloud "
+"Archive."
+msgstr ""
+
+#: ../../24.10/index.md:420 d2af32e24f924387aa88f9562a42573e
+msgid "Ceph"
+msgstr ""
+
+#: ../../24.10/index.md:421 434bfbe08f874b95a5826bf6772295ba
+msgid "[Ceph](http://ceph.com) has been updated to the 19.2.0 (Squid) release."
+msgstr ""
+
+#: ../../24.10/index.md:423 7a67edb1bb1e4518b945b7d0d5bb5ff0
+msgid "Open vSwitch (OVS) and Open Virtual Network (OVN)"
+msgstr ""
+
+#: ../../24.10/index.md:424 415f342ac7f3439f9bb680ef17066ca4
+msgid ""
+"[Open vSwitch](https://www.openvswitch.org/) has been updated to the "
+"3.4.0 release."
+msgstr ""
+
+#: ../../24.10/index.md:426 330f01dbcdbe4ea68faff98a8e2b820a
+msgid ""
+"[Open Virtual Network](https://www.ovn.org/) has been updated to the "
+"24.09 release."
+msgstr ""
+
+#: ../../24.10/index.md:428 d2a5d4fa3c7449b098d954d3e0193e3f
+msgid ""
+"These releases are also provided for Ubuntu 24.04 LTS via the Ubuntu "
+"Cloud Archive."
+msgstr ""
+
+#: ../../24.10/index.md:430 b1406cf1eec7452885d9c09dbaac9268
+msgid "GRUB2"
+msgstr ""
+
+#: ../../24.10/index.md:432 f88ac77fac304fc0b75c395ef7385c77
+msgid ""
+"Chainloading of non-NX compatible versions of Windows 10 from UEFI GRUB2 "
+"might be broken on a limited subset of machines. This is  being actively "
+"investigated but the root cause haven't been found yet. If you are "
+"experiencing this, please see the linked bug for updates "
+"https://bugs.launchpad.net/ubuntu/+source/grub2/+bug/2084104."
+msgstr ""
+
+#: ../../24.10/index.md:435 b31f36a9631049b5a51d0a5888927eef
+msgid "Platforms"
+msgstr ""
+
+#: ../../24.10/index.md:437 2eb67f3060d145dd807a96d5dba0e3ec
+msgid "Public Cloud / Cloud images"
+msgstr ""
+
+#: ../../24.10/index.md:439 d6d40e9133f849d1bacc6e055d3f0eed
+msgid "Public Images (cloud-images.ubuntu.com) images"
+msgstr ""
+
+#: ../../24.10/index.md:441 fff789013995459785dfee39139f7dba
+msgid "Release notes/image diff"
+msgstr ""
+
+#: ../../24.10/index.md:442 dbf3ed726a8a434b8ad190c26995d943
+msgid ""
+"Since 19th April 2024 we have introduced `.image_changelog.json` files to"
+" accompany published images @ https://cloud-images.ubuntu.com/. This is a"
+" JSON document listing all the package additions, removals and changes as"
+" well as noting the changelog entries for the package changes. It also "
+"highlights any CVEs addressed in those package updates. The tool used to "
+"generate these diffs is `ubuntu-cloud-image-changelog` available @ "
+"[github.com/canonical/ubuntu-cloud-image-"
+"changelog](http://github.com/canonical/ubuntu-cloud-image-changelog)"
+msgstr ""
+
+#: ../../24.10/index.md:443 88fc7b704fc04f8fba65e512e3f67780
+msgid ""
+"Diffs are generated between the image being published and the previous "
+"daily image, and also between the image being published and the previous "
+"release image."
+msgstr ""
+
+#: ../../24.10/index.md:444 c50eaa19bf034b66a8d7a35aa9010416
+msgid ""
+"These image diffs have been backported to previous published Ubuntu "
+"release too."
+msgstr ""
+
+#: ../../24.10/index.md:446 ba0afae8807e4facba55f68e8594f009
+msgid "LXD Containers"
+msgstr ""
+
+#: ../../24.10/index.md:448 73486cc2086f4aa5b534aa669aa13178
+msgid ""
+"LXD 24.10 Oracular Oriole containers have a more specific set of "
+"requirements for running due to changes in systemd 256.5. Starting in "
+"Oracular, systemd services (systemd-resolved, systemd-journald) have "
+"migrated to using systemd credentials. This change necessitated changes "
+"in LXD to properly run 24.10 Oracular Oriole containers. This change is "
+"landed in LXD snap channels latest/stable, 5.21/stable, and 5.0/edge. "
+"Release to 5.0/stable is planned in the near future.."
+msgstr ""
+
+#: ../../24.10/index.md:450 298fd3af04a547579844b13b14a3af05
+msgid ""
+"Furthermore, there is a strict requirement in systemd 256.5 on cgroups "
+"v2. This means that the host operating system must be cgroups v2 enabled."
+" For Ubuntu based hosts, this means that Oracular containers launched by "
+"LXD will operate on the following versions:"
+msgstr ""
+
+#: ../../24.10/index.md:452 7c09a752dcbb429abe94f896a4659ef3
+msgid "24.04 Noble , all kernels"
+msgstr ""
+
+#: ../../24.10/index.md:453 2189d126eb0648dd8ae55c0009d0d481
+msgid "22.04 Jammy Jellyfish, all kernels"
+msgstr ""
+
+#: ../../24.10/index.md:454 cce9895e804846afaa2bfbd59146b2bb
+msgid "20.04 Focal Fossa, HWE kernel"
+msgstr ""
+
+#: ../../24.10/index.md:456 231de28283964e1b86177e239201019d
+msgid ""
+"If you are running a Focal based host system, and require running "
+"Oracular containers, you must install the HWE kernel and ensure that "
+"cgroups v2 is enabled. If you are on a system with cgroupsv2 enabled and "
+"running on LXD 5.0/stable, it is possible to boot the containers by "
+"providing the following in your flag in your launch command"
+msgstr ""
+
+#: ../../24.10/index.md:458 63770b559c8149e787c8c5d9764b9dda
+msgid "`-c security.nesting=true`"
+msgstr ""
+
+#: ../../24.10/index.md:460 fb13b38841dd48e4b43103d0dd54c191
+msgid ""
+"The inverse is also true – when running an older container that lacks "
+"cgroup v2 support, you will be unable to launch it on an Oracular host "
+"system. This affects anyone attempting to run older Ubuntu suites, from "
+"18.04 Bionic Beaver and back. Note that these suites are in Extended "
+"Support, and for security reasons should only be used if they are "
+"attached to Ubuntu Pro. If you require running older Ubuntu versions, "
+"running inside a virtual machine of an older Ubuntu will guarantee "
+"compatibility."
+msgstr ""
+
+#: ../../24.10/index.md:462 177c7489c1784061bbefe1e6f77596b2
+msgid ""
+"This only affects containers launched with LXD. It does not affect "
+"virtual machines."
+msgstr ""
+
+#: ../../24.10/index.md:465 e7e0b55ae84240ae87e5d2030b12fe67
+msgid "AWS EC2"
+msgstr ""
+
+#: ../../24.10/index.md:467 abc41072c468468ebe6d26aea951a875
+msgid "`/etc/ec2-version` will only show up on EC2 images"
+msgstr ""
+
+#: ../../24.10/index.md:469 ../../24.10/index.md:652
+#: d267deac55764ab687bbb4c85ea53298 fc7702588bab419692b3d543b3152d7e
+msgid "Microsoft Azure"
+msgstr ""
+
+#: ../../24.10/index.md:471 64c1d001826d427a80520e1852df1797
+msgid ""
+"Canonical introduced a new way of publishing on Azure with Ubuntu 24.04 "
+"LTS, which will continue for 24.10. All Ubuntu Images for 24.10 will be "
+"available under the same offer: `ubuntu-24_10`. Derivative images, such "
+"as the minimized version of Ubuntu server are available as plans under "
+"this main offer."
+msgstr ""
+
+#: ../../24.10/index.md:473 a06abdd293b94748bc874307ac8370ce
+msgid ""
+"Starting in 24.10 (but also backported to 20.04, 22.04 and 24.04) the "
+"values for `net.core.rmem_max` and `net.core.rmem_default` have been "
+"increased to 1048576 (the Ubuntu default is 212992). This change will "
+"apply to all newly published Ubuntu images published on Azure for the "
+"given versions. This increase in the socket receive buffer size was made "
+"to reduce UDP packet loss for some workloads."
+msgstr ""
+
+#: ../../24.10/index.md:475 5f394f44ebc14147a18eb4d09c209763
+msgid "Google"
+msgstr ""
+
+#: ../../24.10/index.md:477 c72b359dd7534ede868eac0fe6365a11
+msgid ""
+"Resume/suspend issue from noble [LP: "
+"#2063315](https://bugs.launchpad.net/ubuntu/+source/linux-"
+"gcp/+bug/2063315) is resolved"
+msgstr ""
+
+#: ../../24.10/index.md:478 4e91389c8fce4af994d9f1054bec467a
+msgid ""
+"TDX support: Ubuntu images now support Confidential VMs with Intel TDX. "
+"This capability is advertised by the presence of “TDX_CAPABLE” guest OS "
+"feature flag in the image metadata. Intel TDX is now also supported on "
+"Ubuntu Jammy and Noble GCE images."
+msgstr ""
+
+#: ../../24.10/index.md:480 62dd5f94d36442c592ab74c09ac63711
+msgid "How to report any issues resulting from these changes"
+msgstr ""
+
+#: ../../24.10/index.md:482 98d70b43dce34181affb606ad0bec011
+msgid ""
+"If you notice any unexpected changes or bugs in the minimal images, "
+"create a new bug in [cloud-images](https://bugs.launchpad.net/cloud-"
+"images)."
+msgstr ""
+
+#: ../../24.10/index.md:484 06427b755d0f4577ae620b5cd842f41e
+msgid "arm64"
+msgstr ""
+
+#: ../../24.10/index.md:486 930bd07ed7a54cecb1e48dea7b454fae
+msgid ""
+"The new arm64+largemem ISO includes a kernel with 64k page size. A larger"
+" page size can increase throughput, but comes at the cost of increased "
+"memory use, making this option more suitable for servers with plenty of "
+"memory. Typical use cases for this ISO include: machine learning, "
+"databases with many large entries, high performance computing."
+msgstr ""
+
+#: ../../24.10/index.md:488 0e4541fd559147a7a81c46371d94debd
+msgid ""
+"IBM Z and LinuxONE "
+"![image|32x32](upload://dZM0RRlelqCcZc6RhqJGMW8DMZr.png)"
+msgstr ""
+
+#: ../../24.10/index.md:488 a8dd677e8664435bb2fca78aaafafd89
+msgid "image|32x32"
+msgstr ""
+
+#: ../../24.10/index.md:490 4a5d83e0ccd64a9fa8d6777774c54510
+msgid ""
+"The key package 's390-tools' was step-by-step upgraded to latest version "
+"v2.34.1 ([LP: #2073786](https://launchpad.net/bugs/2073786)), which incl."
+" lots of updates, new tools and features, especially in the area of "
+"ap_tools/ap-check and libap - the skipped v.2.33 brought on top several "
+"modification in the Rust code and libutil ([LP: "
+"#2067355](https://launchpad.net/bugs/2067355))."
+msgstr ""
+
+#: ../../24.10/index.md:491 a985841bbc5a4682aa43be8d966d5081
+msgid ""
+"On top of the usual upgrade of the tool-chain, valgrind was also upgraded"
+" to it's latest v2.23, which includes support for IBM z16 hardware ([LP: "
+"#1982335](https://launchpad.net/bugs/1982335))."
+msgstr ""
+
+#: ../../24.10/index.md:492 fac2e59a9a6c42df88819ea7a1dc3cdf
+msgid ""
+"With the upgrade of openCryptoki to latest v3.23 ([LP: "
+"#2076450](https://launchpad.net/bugs/2076450)), support of protected keys"
+" for extractable keys (with EP11 tokens) was introduced ([LP: "
+"#2050018](https://launchpad.net/bugs/2050018))."
+msgstr ""
+
+#: ../../24.10/index.md:493 37103b0f0490473daebbdabdac669451
+msgid ""
+"And as usual a lot of s390x-specific packages (or package that are of "
+"special interest for s390x) got upgraded to it's latest version, like:"
+msgstr ""
+
+#: ../../24.10/index.md:494 d8d7117f337d4780b71dd872a49263cf
+msgid "libzpc to v1.2.0 ([LP: #2076444](https://launchpad.net/bugs/2076444))"
+msgstr ""
+
+#: ../../24.10/index.md:495 231b69894ad449dd8ad7591365dca8b5
+msgid "libzdnn to v1.0.1 ([LP: #2076445](https://launchpad.net/bugs/2076445))"
+msgstr ""
+
+#: ../../24.10/index.md:496 de4d33359eed481794f5d8b518c25c39
+msgid "qclib to v2.5.0 ([LP: #2076446](https://launchpad.net/bugs/2076446))"
+msgstr ""
+
+#: ../../24.10/index.md:497 4ce3c01b751b4728864cd35a0a0634a2
+msgid "smc-tools to v1.8.3 ([LP: #2076447](https://launchpad.net/bugs/2076447))"
+msgstr ""
+
+#: ../../24.10/index.md:498 dc005f81d1c44f96933a2edc6f5395b3
+msgid ""
+"openssl-ibmca to v2.4.1 ([LP: "
+"#2076448](https://launchpad.net/bugs/2076448))"
+msgstr ""
+
+#: ../../24.10/index.md:499 afb0e176a7994865acf879c6fc7b8383
+msgid "libica to v4.3.0 ([LP: #2076449](https://launchpad.net/bugs/2076449))"
+msgstr ""
+
+#: ../../24.10/index.md:500 dd33c4ae73434a2ea260f7ecd39d4219
+msgid ""
+"Kernel 6.11 move (via 6.10 code) the kernel image into vmalloc space, "
+"where random physical pages are used to map virtual pages ([LP: "
+"#2072661](https://launchpad.net/bugs/2072661)). Even if kernel 6.11 is "
+"brand new, a patch set from the next kernel for 'Vertical CPU "
+"Polarization Support Stage 2\" that esp. provides improved 'cpu capacity'"
+" support for the Linux scheduler ([LP: "
+"#2072760](https://launchpad.net/bugs/2072760)) was included."
+msgstr ""
+
+#: ../../24.10/index.md:503 c5b7726d0fc84233bac6daef2a9916b4
+msgid "IBM POWER (ppc64el)"
+msgstr ""
+
+#: ../../24.10/index.md:505 03897bfb1156473b8b36384a601eeac6
+msgid ""
+"KVM running in IBM PowerVM LPARs: Ubuntu Server 24.04 has the required "
+"technology enablement and support for running KVM in a PowerVM LPAR. This"
+" technology enables expanded open-source based innovations and solutions "
+"for Ubuntu Server on the IBM Power platform. Below are the firmware and "
+"hardware requirements:"
+msgstr ""
+
+#: ../../24.10/index.md:509 f40d0b5874554ef78717daf8c970f9ca
+msgid "Firmware: FW1060.10"
+msgstr ""
+
+#: ../../24.10/index.md:510 d8fd4104a125492aaea78e63a6efce59
+msgid "Hardware: IBM Power10"
+msgstr ""
+
+#: ../../24.10/index.md:511 1700a082813842af941e526ca2ca7df5
+msgid ""
+"KVM virtualization continues to be supported on POWER9 bare-metal / OPAL "
+"based systems."
+msgstr ""
+
+#: ../../24.10/index.md:512 14a42fcd0f3d496ea42878fd801b32c4
+msgid "Ubuntu 24.10 includes so called 'Book3S HV nestedv2' support and fixes."
+msgstr ""
+
+#: ../../24.10/index.md:516 32cf2448faf544418d62c4daf0b4bfc8
+msgid ""
+"For an overview of supported boards see "
+"https://ubuntu.com/download/risc-v."
+msgstr ""
+
+#: ../../24.10/index.md:518 6ded6053c6084540b99c4c12a7403df0
+msgid "The RISC-V Ubuntu userland is compatible with all RVA20 hardware."
+msgstr ""
+
+#: ../../24.10/index.md:522 39ea05c921184733a605771e7ad26c14
+msgid "Known Issues"
+msgstr ""
+
+#: ../../24.10/index.md:524 abc68064cb004f20abea2e2c401735d2
+msgid ""
+"As is to be expected with any release, there are some significant known "
+"bugs that users may encounter with this release of Ubuntu. The ones we "
+"know about at this point (and some of the workarounds) are documented "
+"here, so you don't need to spend time reporting these bugs again:"
+msgstr ""
+
+#: ../../24.10/index.md:526 34b70a56d8ff474a83c1f144e521d6fc
+msgid "General"
+msgstr ""
+
+#: ../../24.10/index.md:528 7b0dfbed45a844c58292d108c435f252
+msgid ""
+"The Live Session of the new Ubuntu Desktop installer is not localized. It"
+" is still possible to perform a non-English installation using the new "
+"installer, but internet access at install time is required to download "
+"the language packs. ([LP: #2013329](https://bugs.launchpad.net/ubuntu-"
+"release-notes/+bug/2013329))"
+msgstr ""
+
+#: ../../24.10/index.md:529 a969e79385cb4064a5d94fd6ed18a45f
+msgid ""
+"ZFS with Encryption on Ubuntu 24.10 will [fail to activate the cryptoswap"
+" "
+"partition](https://bugs.launchpad.net/ubuntu/+source/subiquity/+bug/2084089)."
+"  This affects both new installs and upgrades.  We expect to address this"
+" post-release with an archive update."
+msgstr ""
+
+#: ../../24.10/index.md:530 a4033738385c47e8a4b68ce2c00ce617
+msgid ""
+"Some particular hardware (e.g. Thinkpad x201) might have issues ([general"
+" freeze](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2084055), "
+"[`desktop-security-center` not launching](https://github.com/canonical"
+"/desktop-security-center/issues/81)), when booted without `nomodeset` "
+"(Safe graphics). Follow these steps if you encounter such an issue:"
+msgstr ""
+
+#: ../../24.10/index.md:532 162178880b214a0eaac03c9eae860cda
+msgid ""
+"At the GRUB boot menu, press `e` (keep `Shift` pressed during early boot "
+"if the menu doesn't show up)."
+msgstr ""
+
+#: ../../24.10/index.md:533 3485d34be4aa446a9feaadce215afce4
+msgid "Add `nomodeset` to `linux` line, like the example below:"
+msgstr ""
+
+#: ../../24.10/index.md:539 5c538bae805c41b1b6f8e76c3d38fa06
+msgid "Press `Ctrl-x` to continue the boot process"
+msgstr ""
+
+#: ../../24.10/index.md:540 ce43d4aad74846f6822a560f86be6c3d
+msgid ""
+"After installation is complete, reboot, use `nomodeset` again, like the "
+"example below:"
+msgstr ""
+
+#: ../../24.10/index.md:546 721ab2c969a045528f8eeced4e05fff2
+msgid ""
+"Add `nomodeset` to the GRUB config file, `/etc/default/grub`, like the "
+"example below:"
+msgstr ""
+
+#: ../../24.10/index.md:552 4f63cd0d41844ccf9dad79dedbcc1de8
+msgid "Finally, run `sudo update-grub` to make the change take effect."
+msgstr ""
+
+#: ../../24.10/index.md:555 8bb65ec55f344457822b0026703213d8
+msgid "Linux kernel"
+msgstr ""
+
+#: ../../24.10/index.md:557 7ef6ef1922a642a4bb099235a1bb5701
+msgid ""
+"A bug prevents the IO scheduler from being reset to \"none\" ([LP: "
+"#2083845](https://bugs.launchpad.net/bugs/2083845)): the fix is already "
+"in v6.11.2, and will be part of the first SRU kernel."
+msgstr ""
+
+#: ../../24.10/index.md:558 b5b6d9b31288428eaa13089a81ff433b
+msgid ""
+"Support for FAN networking has been dropped in the 6.11 release kernel. "
+"It will be re-introduced in the next 6.11 kernel update shortly."
+msgstr ""
+
+#: ../../24.10/index.md:562 49cc8b2726c14f2092e7757cca06314b
+msgid ""
+"Screen reader support is present with the new desktop installer, but is "
+"incomplete ([LP: #2061015](https://launchpad.net/bugs/2061015), [LP: "
+"#2061018](https://launchpad.net/bugs/2061018), [LP: "
+"#2036962](https://launchpad.net/bugs/2036962), [LP: "
+"#2061021](https://launchpad.net/bugs/2061021))"
+msgstr ""
+
+#: ../../24.10/index.md:564 1cefd4deb80c4613adc39e18d951edae
+msgid ""
+"OEM installs are not supported yet ([LP: "
+"#2048473](https://launchpad.net/bugs/2048473))"
+msgstr ""
+
+#: ../../24.10/index.md:566 5773f3b51dcd4eacac4a0f8e4ac585be
+msgid ""
+"Application icons don't use the correct High Contrast theme when High "
+"Contrast is enabled [(LP: #2013107](https://launchpad.net/bugs/2013107))"
+msgstr ""
+
+#: ../../24.10/index.md:568 b171f79754e944e5a401fb1533e24dff
+msgid ""
+"GTK4 apps (including the desktop wallpaper) do not display correctly with"
+" VirtualBox or VMWare with 3D Acceleration ([LP: "
+"#2061118](https://launchpad.net/bugs/2061118))."
+msgstr ""
+
+#: ../../24.10/index.md:570 537ebadb2a90440fa3a05d791125070a
+msgid ""
+"**Incompatibility between TPM-backed Full Disk Encryption and Absolute:**"
+" TPM-backed Full Disk Encryption (FDE) has been introduced to enhance "
+"data security. However, it's important to note that this feature is "
+"incompatible with Absolute (formerly Computrace) security software. If "
+"Absolute is enabled on your system, the machine will not boot post-"
+"installation when TPM-backed FDE is also enabled. Therefore, disabling "
+"Absolute from the BIOS is recommended to avoid booting issues."
+msgstr ""
+
+#: ../../24.10/index.md:571 29473378e58d4e46bcc11dcdb170e5a3
+msgid ""
+"**Hardware-Specific Kernel Module Requirements for TPM-backed Full Disk "
+"Encryption:** TPM-backed Full Disk Encryption (FDE) requires a specific "
+"kernel snap which may not include certain kernel modules necessary for "
+"some hardware functionalities. A notable example is the `vmd` module "
+"required for NVMe RAID configurations. In scenarios where such specific "
+"kernel modules are indispensable, the hardware feature may need to be "
+"disabled in the BIOS (such as RAID) to ensure the continued availability "
+"of the affected hardware post-installation. If disabling in the BIOS is "
+"not an option, the related hardware will not be available post-"
+"installation with TPM-backed FDE enabled."
+msgstr ""
+
+#: ../../24.10/index.md:572 163a10d891294b819812c2a335b10cbc
+msgid ""
+"[FDE specific bug "
+"reports](https://bugs.launchpad.net/bugs/+bugs?field.searchtext=&orderby=-importance&field.status%3Alist=NEW&field.status%3Alist=CONFIRMED&field.status%3Alist=TRIAGED&field.status%3Alist=INPROGRESS&field.status%3Alist=FIXCOMMITTED&field.status%3Alist=INCOMPLETE_WITH_RESPONSE&field.status%3Alist=INCOMPLETE_WITHOUT_RESPONSE&assignee_option=any&field.assignee=&field.bug_reporter=&field.bug_commenter=&field.subscriber=&field.tag=fde&field.tags_combinator=ANY&field"
+".status_upstream-empty-"
+"marker=1&field.has_cve.used=&field.omit_dupes.used=&field.omit_dupes=on&field.affects_me.used=&field.has_patch.used=&field.has_branches.used=&field.has_branches=on&field.has_no_branches.used=&field.has_no_branches=on&field.has_blueprints.used=&field.has_blueprints=on&field.has_no_blueprints.used=&field.has_no_blueprints=on&search=Search)."
+msgstr ""
+
+#: ../../24.10/index.md:574 b18cc21bf53f4655bc2a449a463b7caa
+msgid ""
+"Some Nvidia desktops perform worse in Wayland sessions than Xorg "
+"([LP#2081140](https://bugs.launchpad.net/bugs/2081140)). To work around "
+"this you can select ‘Ubuntu on Xorg’ from the login screen."
+msgstr ""
+
+#: ../../24.10/index.md:576 2260fbe26de34b139c7d51d3d5dc4079
+msgid ""
+"Nvidia hybrid machines that have an external monitor connected to the "
+"discrete GPU (usually via the laptop’s HDMI port) may experience lower "
+"performance on that monitor in Wayland sessions "
+"([LP#2064205](https://bugs.launchpad.net/bugs/2064205)). To work around "
+"this you may:"
+msgstr ""
+
+#: ../../24.10/index.md:577 63ba6458ea1848e09c2719e8ba84f72f
+msgid ""
+"Plug all external monitors into the integrated GPU (such as by USB-C). "
+"The discrete GPU can still be used to launch apps."
+msgstr ""
+
+#: ../../24.10/index.md:578 b74b8516e88041138948942ca5951e5c
+msgid "Or select ‘Ubuntu on Xorg’ from the login screen."
+msgstr ""
+
+#: ../../24.10/index.md:580 b95ef5c393ef4b65a5b2467d0051b2e8
+msgid ""
+"Installing `ubuntu-fonts-classic` results in a non-Ubuntu font being "
+"displayed ([LP#2083683](https://bugs.launchpad.net/bugs/2083683)). To "
+"resolve this, install `gnome-tweaks` and set ‘Interface Text’ to "
+"‘Ubuntu’."
+msgstr ""
+
+#: ../../24.10/index.md:584 5c481dca6c074f91aff0464fad884f6b
+msgid "rabbitmq-server"
+msgstr ""
+
+#: ../../24.10/index.md:585 394d4f215eb0468db4f287d3da166c81
+msgid ""
+"Certain version hops may be unsupported due to feature flags, raising "
+"questions about how Ubuntu will maintain this package moving forward. We "
+"are currently exploring the use of snaps as a potential solution to "
+"enable smoother upgrades. For more information please read "
+"https://bugs.launchpad.net/bugs/2074309."
+msgstr ""
+
+#: ../../24.10/index.md:587 b23ce93fb758484dbf5e2b83d91bd459
+msgid "Installer"
+msgstr ""
+
+#: ../../24.10/index.md:589 7c663b2cb3674655b4dbf2fdb71b0d3e
+msgid ""
+"In some situations, it is acceptable to proceed with an offline "
+"installation when the mirror is inaccessible. In this scenario, it is "
+"advised to use:"
+msgstr ""
+
+#: ../../24.10/index.md:596 ab758def494d447ba69a40ec933623c1
+msgid ""
+"Network interfaces left unconfigured at install time are assumed to be "
+"configured via dhcp4. If this doesn't happen (for example, because the "
+"interface is physically not connected) the boot process will block and "
+"wait for a few minutes ([LP: "
+"#2063331](https://bugs.launchpad.net/subiquity/+bug/2063331)). This can "
+"be fixed by removing the extra interfaces from `/etc/netplan/50-cloud-"
+"init.conf` or by marking them as `optional: true`. Cloud-init is disabled"
+" on systems installed from ISO images, so settings will persist."
+msgstr ""
+
+#: ../../24.10/index.md:598 63c93b3d81fc4cdebfd424717a8dcc20
+msgid "samba apparmor profile"
+msgstr ""
+
+#: ../../24.10/index.md:599 b559b66c1c0347669457695b92db4d5a
+msgid ""
+"Due to [bug LP: "
+"#2063079](https://bugs.launchpad.net/ubuntu/+source/samba/+bug/2063079), "
+"the samba `smbd.service` unit file is no longer calling out to the helper"
+" script to dynamically create apparmor profile snippets according to the "
+"existing shares."
+msgstr ""
+
+#: ../../24.10/index.md:601 e26c8fdc514145318c41d5c1e482b91c
+msgid ""
+"By default, the `smbd` service from samba is not confined. To be affected"
+" by this bug, users have to:"
+msgstr ""
+
+#: ../../24.10/index.md:602 a5f81b26e9714d859d23db9dcf6a1d9e
+msgid "install the optional `apparmor-profiles` package"
+msgstr ""
+
+#: ../../24.10/index.md:603 cd8d771f73b24e9798b976b2d118296c
+msgid "switch the `smbd` profile confinement from `complain` to `enforce`"
+msgstr ""
+
+#: ../../24.10/index.md:605 9251668f6ff74dd0aaf9fef64363905a
+msgid ""
+"Therefore, only users who have taken those steps and upgrade to Noble, "
+"will be affected by this bug. An SRU to fix it will be done shortly after"
+" release."
+msgstr ""
+
+#: ../../24.10/index.md:610 d560421e9627464ba4c79e064528b5ec
+msgid ""
+"There is a AppArmor related bug where containers cannot be promptly "
+"stopped due to the recently added AppArmor profile for `runc`. The "
+"containers are always killed with `SIGKILL` due to the denials when "
+"trying to receive a signal. More details about this bug can be found "
+"[here](https://bugs.launchpad.net/ubuntu/+source/docker.io/+bug/2063099),"
+" and a workaround is described "
+"[here](https://bugs.launchpad.net/ubuntu/+source/docker.io/+bug/2063099/comments/4)."
+msgstr ""
+
+#: ../../24.10/index.md:612 1badfb47e8b540408be25ec3c826e149
+msgid "PPC64EL"
+msgstr ""
+
+#: ../../24.10/index.md:614 df16cb92eb7d4fa5ab400b4ed8c4da39
+msgid ""
+"PMDK sees some hardware-specific failures in its test suite, which may "
+"make the software partially or fully inoperable on the ppc64el "
+"architecture. ([LP: "
+"#2061913](https://bugs.launchpad.net/ubuntu/+source/pmdk/+bug/2061913/))"
+msgstr ""
+
+#: ../../24.10/index.md:616 7029240003f34ac2846f4da798e5f372
+msgid "Raspberry Pi"
+msgstr ""
+
+#: ../../24.10/index.md:618 c4290c16f56b4fda9e444144c6487ea6
+msgid ""
+"Raspberry Pi 500 is missing an entry in the flash-kernel database ([LP: "
+"#2092216](https://launchpad.net/bugs/2092216))"
+msgstr ""
+
+#: ../../24.10/index.md:620 f5493912822c437face8097cffa09776
+msgid ""
+"Raspberry Pi models with the 2712 D0 stepping (at time of release, only "
+"the Pi 5 2GB, but anticipated to become common on other models in "
+"future), are incompatible with the version of mesa used by snaps "
+"(Firefox, Thunderbird, and the Snap Store). This will be corrected post-"
+"release, but users on these models must run `sudo snap refresh` once, "
+"prior to launching these applications ([LP: "
+"#2082072](https://launchpad.net/bugs/2082072))"
+msgstr ""
+
+#: ../../24.10/index.md:622 647a178a17dd43d39d85c2768fc9adc4
+msgid ""
+"During boot on the server image, if your `cloud-init` configuration (in "
+"`user-data` on the boot partition) relies upon networking (importing SSH "
+"keys, installing packages, etc.) you *must* ensure that at least one "
+"network interface is required (`optional: false`) in `network-config` on "
+"the boot partition. This is due to netplan changes to the wait-online "
+"service ([LP: #2060311](https://launchpad.net/bugs/2060311))"
+msgstr ""
+
+#: ../../24.10/index.md:624 ea2bc20cca0a42ffa34e178dace80fc0
+msgid ""
+"The startup sound does not play before the initial setup process, hence "
+"users cannot currently rely on hearing this sound to determine if the "
+"system has booted ([LP: #2060693](https://launchpad.net/bugs/2060693))"
+msgstr ""
+
+#: ../../24.10/index.md:626 b63d9bd5d7184cfeb1c1861b9f8516ae
+msgid ""
+"The seeded totem video player will not prompt users to install missing "
+"codecs when attempting to play a video requiring them ([LP: "
+"#2060730](https://launchpad.net/bugs/2060730))"
+msgstr ""
+
+#: ../../24.10/index.md:628 62b61addc0794344bef389ca25f0ac1e
+msgid ""
+"With some monitors connected to a Raspberry Pi, it is possible that a "
+"monitor powers off after a period of inactivity but then powers back on "
+"and shows a black screen. Investigation into the types of monitors "
+"affected is ongoing in [LP: "
+"#1998716](https://bugs.launchpad.net/ubuntu/+source/mutter/+bug/1998716)."
+msgstr ""
+
+#: ../../24.10/index.md:630 8495a0a2e35d4281803ab3562c741868
+msgid ""
+"With the removal of the `crda` package in 22.04, the method of setting "
+"the wifi regulatory domain (editing `/etc/default/crda`) no longer "
+"operates. On server images, use the `regulatory-domain` option in the "
+"Netplan configuration. On desktop images, append "
+"`cfg80211.ieee80211_regdom=GB` (substituting `GB` for the relevant "
+"country code) to the kernel command line in the `cmdline.txt` file on the"
+" boot partition  ([LP: #1951586](https://launchpad.net/bugs/1951586))."
+msgstr ""
+
+#: ../../24.10/index.md:632 cce2ee673a0742559508ab86d9fcdd10
+msgid ""
+"The power LED on the Raspberry Pi 2B, 3B, 3A+, 3B+, and Zero 2W currently"
+" goes off and stays off once the Ubuntu kernel starts booting ([LP: "
+"#2060942](https://launchpad.net/bugs/2060942))"
+msgstr ""
+
+#: ../../24.10/index.md:634 3a92650e03574fd38114adc7fd253733
+msgid ""
+"libcamera support is currently broken; this will be a priority for next "
+"cycle and fixes will be SRU'd to noble as and when they become available "
+"([LP: "
+"#2038669](https://bugs.launchpad.net/ubuntu/+source/libcamera/+bug/2038669))"
+msgstr ""
+
+#: ../../24.10/index.md:636 b6b9e4511d384f26aaba9b016c495ac2
+msgid ""
+"Colours appear incorrectly in the Ubuntu App Centre ([LP: "
+"#2076919](https://launchpad.net/bugs/2076919))"
+msgstr ""
+
+#: ../../24.10/index.md:638 d2d9a4b694c8455c8f938486067432a4
+msgid ""
+"On desktop images, changes in the home directory result in log spam from "
+"tracker-miner complaining about lack of landlock ([LP: "
+"#2066885](https://launchpad.net/bugs/2066885))"
+msgstr ""
+
+#: ../../24.10/index.md:640 59f6cc29975845c28bcbb9acdcb09dc7
+msgid ""
+"On desktop images, on some systems the Wayland desktop option does not "
+"appear on first boot. Logging in, then logging out results in the default"
+" Wayland option being restored"
+msgstr ""
+
+#: ../../24.10/index.md:642 8c4b4d3563b140a4b4c29697ef67f753
+msgid ""
+"On server images, re-authentication to WiFi APs when regulatory domain is"
+" set result in `dmesg` spam to the console ([LP: "
+"#2063365](https://launchpad.net/bugs/2063365))"
+msgstr ""
+
+#: ../../24.10/index.md:644 8c8ab768646444edb3e7e3a34c739965
+msgid "ARM64 Systems with NVIDIA GPUs"
+msgstr ""
+
+#: ../../24.10/index.md:646 6623d598143043569b2f544d2ed21968
+msgid ""
+"The current versions of the NVIDIA GPU drivers may cause freezes or "
+"crashes ([LP: #2062380](https://launchpad.net/bugs/2062380)). This will "
+"be fixed in a future driver update."
+msgstr ""
+
+#: ../../24.10/index.md:648 4564f873ce7d4dc6ab31a1e1d5f6deec
+msgid "Google Compute Platform"
+msgstr ""
+
+#: ../../24.10/index.md:650 ../../24.10/index.md:654 ../../24.10/index.md:658
+#: 43b2685b22544c28a2c1e2fa78070946 f26ae259a25042b9bfc52a7689c6ca39
+#: ffc21f55bfbf48fb920b73b46cb72b0d
+msgid "Nothing yet."
+msgstr ""
+
+#: ../../24.10/index.md:656 2faaa266dfde42019502d8127e69c251
+msgid "s390X"
+msgstr ""
+
+#: ../../24.10/index.md:661 4e619bc80aed4f10bcf9bef6749246ac
+msgid "Official flavors"
+msgstr ""
+
+#: ../../24.10/index.md:663 a3df507cfe0f4f1c9ff876a982ae9f93
+msgid "Find the release notes for the official flavors at the following links:"
+msgstr ""
+
+#: ../../24.10/index.md:665 bf1a7c113e5948278789ae46ea50db4b
+msgid ""
+"[Edubuntu Release "
+"Notes](https://discourse.ubuntu.com/t/edubuntu-24-10-released/48647)"
+msgstr ""
+
+#: ../../24.10/index.md:666 dbd7497a9f8f4558b2cf04997864333c
+msgid ""
+"[Kubuntu Release Notes](https://kubuntu.org/news/kubuntu-24-10-oracular-"
+"oriole-released/)"
+msgstr ""
+
+#: ../../24.10/index.md:667 d2c8b78f91724a8788f7a4162d70d480
+msgid ""
+"[Lubuntu Release Notes](https://lubuntu.me/lubuntu-24-10-oracular-oriole-"
+"released/)"
+msgstr ""
+
+#: ../../24.10/index.md:668 3aae2dd6113e49aa8d4013dc07507ff1
+msgid ""
+"[Ubuntu Budgie Release Notes](https://ubuntubudgie.org/2024/10/ubuntu-"
+"budgie-24-10-release-notes/)"
+msgstr ""
+
+#: ../../24.10/index.md:669 d67648c2a0dc4534aced679965a01d3e
+msgid ""
+"[Ubuntu MATE Release Notes](https://ubuntu-mate.org/blog/ubuntu-mate-"
+"oracular-oriole-release-notes/)"
+msgstr ""
+
+#: ../../24.10/index.md:670 0d07e4a79c9f48898ce7c9cf124cac79
+msgid ""
+"[Ubuntu Studio Release Notes](https://ubuntustudio.org/ubuntu-"
+"studio-24-10-release-notes/)"
+msgstr ""
+
+#: ../../24.10/index.md:671 80bb861a42114ede8967bf9021f01656
+msgid ""
+"[Ubuntu Unity Release Notes](https://ubuntuunity.org/posts/ubuntu-"
+"unity-2410-released/)"
+msgstr ""
+
+#: ../../24.10/index.md:672 72fd14016b4a46c48a634105945b281c
+msgid ""
+"[Xubuntu Release Notes](https://wiki.xubuntu.org/releases/24.10/release-"
+"notes)"
+msgstr ""
+
+#: ../../24.10/index.md:673 523b54afa1f14f9890fe1a6e8e82f45c
+msgid ""
+"[Ubuntu Kylin Release "
+"Notes](https://ubuntukylin.com/news/ubuntukylin2410-en.html)"
+msgstr ""
+
+#: ../../24.10/index.md:674 c5626677cf8b432a9aa6d44666ebc0ce
+msgid "[Ubuntu Cinnamon Release Notes](https://ubuntucinnamon.org/?p=1348)"
+msgstr ""
+
+#: ../../24.10/index.md:678 4efedf76159b4e20be1541122e41711b
+msgid "More information"
+msgstr ""
+
+#: ../../24.10/index.md:680 bf88b762abe1461cb20afd82284f1ac6
+#, python-brace-format
+msgid ""
+"Refer to {ref}`release-policy-and-schedule` and {ref}`project-and-"
+"community`."
+msgstr ""
+

@@ -500,6 +500,24 @@ Upstream release notes are available in the [Mysql 8.4 documentation library](ht
 
 Due to upstream policy, support for 32-bit MySQL Server has been removed. However, Ubuntu will continue to provide a MySQL client and client library for 8.4 on armhf and i386.
 
+MySQL 8.4 also deprecates the `mysql_native_password` plugin, and accounts authenticated with this method will be **locked out by default**. To avoid this, you have two options:
+
+The recommended option is to swap authentication for each affected user to `caching_sha2_password`. You can do this with the following command.
+
+```
+ALTER USER 'user'@'host' IDENTIFIED WITH caching_sha2_password BY 'password';
+```
+
+Note that this will **fully reset** the user's password to the one entered above, so it will be used for authentication of this user in the future.
+
+If you still require `mysql_native_password`, the other option is to enable it explicitly in your mysqld configuration. To do this, add the following entry under `[mysqld]` to `/etc/mysql/mysql.conf.d/mysqld.cnf`.
+
+```
+mysql_native_password=ON
+```
+
+With this no passwords will need to be reset. However, this method will no longer work in future Ubuntu releases, which will provide MySQL 9.7+.
+
 ### MySQL Shell
 :::{versionadded} 25.04
 :::

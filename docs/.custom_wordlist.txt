@@ -77,6 +77,7 @@ backported
 backporting
 Backporting
 backreference
+Bacula
 Balesego
 Balin
 Balint
@@ -811,6 +812,7 @@ rpiboot
 rpl
 rrddump
 rrdrestore
+rrdtool
 rshell
 rst
 rsync

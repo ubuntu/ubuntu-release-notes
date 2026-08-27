@@ -1064,6 +1064,8 @@ On first boot, 26.04 images may be slowed by up to 30s due to an outstanding iss
 
 #### Raspberry Pi
 
+* On the CM5 particularly, but potentially on other Pi 5 models, there appears to be a significantly larger power draw at boot time. If you experience issues during boot, and are *not* using an official (5A capable) power supply, please try using one before debugging further.
+
 * The new `gnome-initial-setup` has issues preventing it from working properly:
   - Time zone input dropdown can "wobble" ([LP: #2084611](https://launchpad.net/bugs/2084611))
   - The hostname change is mandatory ([LP: #2093132](https://launchpad.net/bugs/2093132))

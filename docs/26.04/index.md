@@ -10,18 +10,18 @@ tocdepth: 3
 
 These release notes cover new features and changes in Ubuntu 26.04 LTS (Resolute Raccoon).
 
-:::{toctree}
-:hidden:
-:maxdepth: 2
-
-Summary for LTS users <summary-for-lts-users>
-Changes since 25.10 <changes-since-previous-interim>
-Release schedule <schedule>
-:::
 
 ## Changes since your version of Ubuntu
 
 The majority of Ubuntu users upgrade every two years, following LTS releases. Other users prefer the more frequent interim releases that come out every six months.
+
+:::{toctree}
+:hidden:
+:maxdepth: 1
+
+Summary for LTS users <summary-for-lts-users>
+Changes since 25.10 <changes-since-previous-interim>
+:::
 
 Find the news relevant to your system:
 
@@ -50,6 +50,16 @@ If you're upgrading **from Ubuntu 25.10 (Questing Quokka)**, read a detailed lis
 :class: note
 
 If you're currently using an older Ubuntu LTS or interim release, such as Ubuntu 22.04 LTS or 25.04, you must first upgrade to either Ubuntu 24.04 LTS or 25.10 before you can proceed to 26.04 LTS.
+:::
+
+### Point releases
+
+For details of the changes applied since 26.04, refer to the following changelogs:
+
+:::{toctree}
+:maxdepth: 1
+
+26.04.1 <1>
 :::
 
 ## Support lifespan
@@ -88,3 +98,10 @@ Find the release notes for the official flavors at the following links:
 * [Ubuntu Unity Release Notes](https://ubuntuunity.org/posts/ubuntu-unity-2604-release-notes/)
 * [Ubuntu Kylin Release Notes](https://ubuntukylin.com/news/ubuntukylin2604-en.html)
 * [Ubuntu Cinnamon Release Notes](https://ubuntucinnamon.org/ubuntu-cinnamon-26-04-lts-resolute-raccoon-release-notes/)
+
+:::{toctree}
+:hidden:
+:maxdepth: 1
+
+Release schedule <schedule>
+:::

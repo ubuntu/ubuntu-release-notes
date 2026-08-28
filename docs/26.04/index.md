@@ -52,7 +52,7 @@ If you're upgrading **from Ubuntu 25.10 (Questing Quokka)**, read a detailed lis
 If you're currently using an older Ubuntu LTS or interim release, such as Ubuntu 22.04 LTS or 25.04, you must first upgrade to either Ubuntu 24.04 LTS or 25.10 before you can proceed to 26.04 LTS.
 :::
 
-### Point releases
+## Point releases
 
 For details of the changes applied since 26.04, refer to the following changelogs:
 

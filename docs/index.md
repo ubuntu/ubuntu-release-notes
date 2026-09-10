@@ -19,7 +19,6 @@ Release notes contain specific upgrade instructions for that particular release.
 :maxdepth: 2
 :caption: Supported interim releases
 
-25.10 (Questing Quokka) <25.10/index>
 :::
 
 :::{toctree}
@@ -74,9 +73,7 @@ Contribute to release notes <contribute>
 
 ## Interim releases
 
-### 25.10 (Questing Quokka)
-
-* {ref}`ubuntu-25.10-release-notes`
+None at the moment.
 
 (release-policy-and-schedule)=
 ## Release policy and schedule

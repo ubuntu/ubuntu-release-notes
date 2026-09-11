@@ -26,6 +26,13 @@ Release schedule <schedule>
 ### Default configuration changes ⚙️
 ### Ubuntu Desktop
 ### Ubuntu Foundations
+
+#### 100% Rust coreutils
+
+The default core utilities now run entirely on the Rust-based `uutils`
+implementation. The remaining GNU utilities (`cp`, `mv`, and `rm`), previously
+retained due to compatibility issues, have now been migrated.
+
 ### Ubuntu Server
 ### OpenStack
 ### Platforms

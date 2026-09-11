@@ -12,6 +12,7 @@ For details of the changes applied since 24.04, refer to the following changelog
 :::{toctree}
 :maxdepth: 1
 
+24.04.5 <5>
 24.04.4 <4>
 24.04.3 <3>
 24.04.2 <2>

@@ -1,0 +1,282 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu release
+# notes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu release notes \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-13 02:01+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../contribute.md:1 ecbfbe8522f84272ba223848a3da758b
+msgid "How to contribute to Ubuntu release notes"
+msgstr ""
+
+#: ../../contribute.md:3 a13d8dd9e6254680a820d95d461f1e23
+msgid ""
+"Ubuntu release notes have recently moved from Discourse to this location."
+" Read more: [New Ubuntu release notes](https://discourse.ubuntu.com/t"
+"/new-ubuntu-release-notes/78722)."
+msgstr ""
+
+#: ../../contribute.md:5 a3af67fc8bf6454d9a79d3afb6240d1f
+msgid "Add a new release note"
+msgstr ""
+
+#: ../../contribute.md:7 9d263643191f4bc299a6cda3b921df7e
+msgid ""
+"Anyone can add or modify release notes using the GitHub interface. The "
+"process is open for community members and Canonical employees."
+msgstr ""
+
+#: ../../contribute.md:9 e841098411074eb28b5534608dbb8d8e
+msgid "Simplified: file an issue"
+msgstr ""
+
+#: ../../contribute.md:11 90b894f6cbce41fb9a981e598b2acf92
+msgid ""
+"The easiest way to submit a release note is to [fill out an issue "
+"form](https://github.com/ubuntu/ubuntu-release-"
+"notes/issues/new?template=add-a-release-note.yml)."
+msgstr ""
+
+#: ../../contribute.md:13 78b51f064df1498bac23234af98c9294
+msgid "There, provide all the requested information about the change in Ubuntu."
+msgstr ""
+
+#: ../../contribute.md:15 ea0085c19e59488e9aeffcadfb5b0a17
+msgid ""
+"After you file the issue, the repository maintainers will review the "
+"information and publish the release note based on it."
+msgstr ""
+
+#: ../../contribute.md:17 92054264f3ca44b6b652567129e7436c
+msgid "More complex: open a pull request"
+msgstr ""
+
+#: ../../contribute.md:19 c31530ab71b64235a134083bb3a25f45
+msgid ""
+"If you want more control over the process, you can propose changes "
+"directly through a pull request:"
+msgstr ""
+
+#: ../../contribute.md:21 5fa6ebd8f75742ad9a6371ca197820cc
+msgid ""
+"[Fork](https://github.com/ubuntu/ubuntu-release-notes/fork) the release "
+"notes repository."
+msgstr ""
+
+#: ../../contribute.md:23 409bfab28b8e4eceadf7dce486e0805a
+msgid "Make changes in your fork."
+msgstr ""
+
+#: ../../contribute.md:25 77e7b03e80ed4afda8b87028418c7634
+msgid ""
+"Every Ubuntu release is represented as a directory under `docs/`, named "
+"after the Ubuntu version: for example, `docs/26.04/` stores Ubuntu 26.04 "
+"LTS (Resolute Raccoon) release notes."
+msgstr ""
+
+#: ../../contribute.md:27 588ca7fd694142348b79176249a1a7ed
+#, python-brace-format
+msgid ""
+"When writing your release note, keep in mind the documentation standards "
+"described in {ref}`contribute-review-release-notes`."
+msgstr ""
+
+#: ../../contribute.md:29 3f1c783fe89c4e2585f85db6fd926ba3
+msgid ""
+"[Create a pull request](https://github.com/ubuntu/ubuntu-release-"
+"notes/pulls) to propose your changes."
+msgstr ""
+
+#: ../../contribute.md:31 798ff31c025d40a5b5c61d1e59fa28a8
+msgid "Let the repository maintainers review and merge your changes."
+msgstr ""
+
+#: ../../contribute.md:34 88c336beddf747b1a77ea5501ef83c7e
+msgid "Review the release notes"
+msgstr ""
+
+#: ../../contribute.md:36 ad22c2c690a74fbf818e5083233a0617
+msgid ""
+"Before each Ubuntu release, every team working on a certain part of "
+"Ubuntu should review their release notes."
+msgstr ""
+
+#: ../../contribute.md:38 fff0997a71134442ae50a92ba0f55bd1
+msgid ""
+"Maintainers should monitor the [issues](https://github.com/ubuntu/ubuntu-"
+"release-notes/issues) and [pull requests](https://github.com/ubuntu"
+"/ubuntu-release-notes/pulls) in the release notes repository, review them"
+" and merge them."
+msgstr ""
+
+#: ../../contribute.md:40 864bbe22481142a18a56996175d49819
+msgid ""
+"Label every issue and pull request with the version number of the Ubuntu "
+"release where the release note applies, such as `26.04`. Add the `New "
+"release note` label if this introduces a new release note."
+msgstr ""
+
+#: ../../contribute.md:42 94b21d730a534ce5ae632d9631522cd5
+msgid "Information correctness"
+msgstr ""
+
+#: ../../contribute.md:44 a2843b48291a49aab8e0f2fe269e5d35
+msgid "**Engineers** are mainly responsible for this review."
+msgstr ""
+
+#: ../../contribute.md:46 92310e90a6374dc1b049a81a5273f913
+#, python-brace-format
+msgid ""
+"Review the changes since the previous interim release, such as {ref}`here"
+" <ubuntu-26.04-lts-changes-since-25.10>` for Ubuntu 26.04 LTS."
+msgstr ""
+
+#: ../../contribute.md:48 f49985406d974db1a15180be649f0255
+msgid ""
+"In this document, cover what you've been working on for the past 6 "
+"months. Make sure that the information related to your team there is "
+"correct and complete. Go into detail: this part of the release notes "
+"should be exhaustive."
+msgstr ""
+
+#: ../../contribute.md:50 a70548061f2b4aed851a01d3423f87c6
+msgid ""
+"Decide which of the 6-month changes you want to highlight as major "
+"changes. These will be gathered later as the basis of the next (or "
+"currently prepared) LTS release notes. Interim release notes contain a "
+"highlights section at the start."
+msgstr ""
+
+#: ../../contribute.md:52 42436bff1ee9470d8c542826ff4c0bcf
+#, python-brace-format
+msgid ""
+"If this is an LTS release, review the summary since the previous LTS "
+"release, such as {ref}`here <ubuntu-26.04-lts-summary>` for Ubuntu 26.04 "
+"LTS."
+msgstr ""
+
+#: ../../contribute.md:54 8cfb6b8c3d6a477a992f9061586cee22
+msgid ""
+"These are the highlights of the major changes in the past two years. "
+"Primarily, include significant new features and breaking changes to alert"
+" upgrading users."
+msgstr ""
+
+#: ../../contribute.md:56 2684cb5459e44798bcbe88e892cdfac1
+msgid ""
+"This part of the release notes should be less detailed. You can link to "
+"older interim release notes for additional details. If you want to repeat"
+" the same release note in an interim and LTS section, you can rely on "
+"[content reuse](https://canonical-starter-pack.readthedocs-"
+"hosted.com/stable/reference/myst-syntax-reference/#reuse)."
+msgstr ""
+
+#: ../../contribute.md:58 c41e910751714a27bd680f96b5fd45cf
+msgid "Writing style and content placement"
+msgstr ""
+
+#: ../../contribute.md:60 4a746b57d45840abb4ee0fea5228f4f2
+msgid "**Technical Authors** are mainly responsible for this review."
+msgstr ""
+
+#: ../../contribute.md:62 17a88614b085403595e0835c09860c0c
+msgid ""
+"Check that the writing is fine. Adjust headings to summarize every "
+"release note."
+msgstr ""
+
+#: ../../contribute.md:64 f1e947523fbf4409927cd629cad419ec
+msgid ""
+"Check the markup. Focus on code elements such as package names, tool "
+"names, function names and similar: format them as code literals. Code "
+"elements without any markup show up as spelling issues."
+msgstr ""
+
+#: ../../contribute.md:66 ed422911030a44ecbce4bb437abd8748
+msgid ""
+"In case of LTS, clarify the timeline of the change: Is this a change "
+"since the previous interim release or since the previous LTS release? "
+"Based on that, move the release note to the appropriate section."
+msgstr ""
+
+#: ../../contribute.md:68 16184dd04b6943159af7f2136d1996f8
+msgid ""
+"Check that the placement of each release note is correct. Separate the "
+"news into the following categories:"
+msgstr ""
+
+#: ../../contribute.md:70 b815ab41cc4f4e50a7be1a72b1a5db91
+msgid "New features or improvements"
+msgstr ""
+
+#: ../../contribute.md:71 05d55ae1e77b4c74891a1e37cce52b56
+msgid ""
+"Strictly improvements in functionality, performance, reliability, support"
+" level and similar."
+msgstr ""
+
+#: ../../contribute.md:73 8fc3ecf341b649da89f5066988a8dbd0
+msgid "Backwards-incompatible changes, including removed features"
+msgstr ""
+
+#: ../../contribute.md:74 e60df11b15d94fb6adbbca17a13996ba
+msgid ""
+"Something that worked in an earlier Ubuntu release no longer works. The "
+"user needs to actively change their configuration: rewrite a "
+"configuration file, switch to another application etc."
+msgstr ""
+
+#: ../../contribute.md:76 5b8450f471c340829b86c8bac458f564
+msgid "Deprecated features"
+msgstr ""
+
+#: ../../contribute.md:77 0ecd451dc31543439a3aa02ab1741a73
+msgid ""
+"Features that are planned to be removed in a later Ubuntu release. They "
+"still work as expected in the current release. We're giving Ubuntu users "
+"a heads-up."
+msgstr ""
+
+#: ../../contribute.md:79 e57a2716b714499385ae783635f142f4
+msgid "Bug fixes"
+msgstr ""
+
+#: ../../contribute.md:80 624c89eef46447ca916950f306c7d5c4
+msgid ""
+"Bugs that were present in an earlier Ubuntu release are fixed in this "
+"release. Also include updates to new upstream releases that only contain "
+"bug fixes."
+msgstr ""
+
+#: ../../contribute.md:82 886b373d1d484c6db0ce3547729983ee
+msgid "Known issues"
+msgstr ""
+
+#: ../../contribute.md:83 30d55636f79246fcae2ec80f781326f4
+msgid ""
+"Something doesn't work as expected in this Ubuntu release and the team is"
+" working on a fix. In each case, try to provide a workaround for users."
+msgstr ""
+
+#: ../../contribute.md:86 21bf2620e4be482a9b0a86429f81e3de
+msgid ""
+"In the LTS summary, these change types aren't separated the same way as "
+"in interim release notes. This is an experiment for now and we'll revisit"
+" the organization with upcoming releases."
+msgstr ""
+

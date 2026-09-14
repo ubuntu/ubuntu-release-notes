@@ -1,0 +1,557 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu release
+# notes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu release notes \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-13 02:01+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../25.04/schedule.md:2 d19db63440634f3eb3223ec65747be38
+msgid "Ubuntu Plucky Puffin Release Schedule"
+msgstr ""
+
+#: ../../25.04/schedule.md 578a0b570b6a43ac94d5f3fcd1bb322a
+#: 63e4e0199e4b43f1845d71731d1c3caa
+msgid "Week"
+msgstr ""
+
+#: ../../25.04/schedule.md 1923cc8d515a4a7eb37354396e488a55
+#: 4fa9f6b5e6294b1e8d9424fce3a14b40
+msgid "Date (Thursday)"
+msgstr ""
+
+#: ../../25.04/schedule.md 00d6edea9a894e6988840aebd20e55df
+msgid "25.04 events"
+msgstr ""
+
+#: ../../25.04/schedule.md b56f5c9c53d64cebb954ae389ce01381
+#: e366bf8a722b4a7e91cfc073a0c9c5e6
+msgid "**October 2024**"
+msgstr ""
+
+#: ../../25.04/schedule.md bf9fb9d2d7894b56b73386e4e0331efd
+#: c3ef3b90adcf4ab5975d9166235c88b9
+msgid "1"
+msgstr ""
+
+#: ../../25.04/schedule.md 1dedcee25cde47e08a436a852d4b849e
+#: 3ac847c22b3e4f36b855a6ba1d6fae86
+msgid "October 17"
+msgstr ""
+
+#: ../../25.04/schedule.md 6fbdecaa3d814103b433ac86283ebaff
+msgid "Toolchain Uploaded"
+msgstr ""
+
+#: ../../25.04/schedule.md 6082098a6cc5402b99e0a0ccbaf0cfc7
+#: e455a340bb87474297cd62667150fe75
+msgid "2"
+msgstr ""
+
+#: ../../25.04/schedule.md 2d0f6d80b9444447b89d7cfd64338199
+#: fd1748d93274401e8042585de2f0a0df
+msgid "October 24"
+msgstr ""
+
+#: ../../25.04/schedule.md 4ffdca02a4b64c1394a94744654baf7b
+msgid "Build with -O3 on amd64"
+msgstr ""
+
+#: ../../25.04/schedule.md 76028726a10c466b94ce6889b784b88d
+#: b3e2e48cceec432bbce4b3227e62c10f
+msgid "3"
+msgstr ""
+
+#: ../../25.04/schedule.md 48cbd789dba04c7fa5b9d3fd992fa505
+#: e88c0eaa60b449469cdf6cbf19742964
+msgid "October 31"
+msgstr ""
+
+#: ../../25.04/schedule.md 31dcb37064f8437986832511312506ee
+#: 8ee54d4ace224fce810161737c18046c
+msgid "**November 2024**"
+msgstr ""
+
+#: ../../25.04/schedule.md 49ce04d1684b48009e674fb6b29f799d
+#: 534e3f951f8c4f93b5035b2ade3e7cf3
+msgid "4"
+msgstr ""
+
+#: ../../25.04/schedule.md 1503046403eb476f81adee70a53aca9c
+#: bffb7ea338064aaa8190286847764de1
+msgid "November 07"
+msgstr ""
+
+#: ../../25.04/schedule.md 7358286f80ae433f8f0693d45ba3e838
+#: 92025e7900844f3cba7acdc5f5af7d64
+msgid "5"
+msgstr ""
+
+#: ../../25.04/schedule.md 640a0c1b764843828d51e3b46d37ecc1
+#: ad947e53d14d40f8a3be88455561849e
+msgid "November 14"
+msgstr ""
+
+#: ../../25.04/schedule.md 4f1951a9a6e84ab98ceef8ee2b36094c
+#: db6a44b17f2e4564b0f3b3e77304baec
+msgid "6"
+msgstr ""
+
+#: ../../25.04/schedule.md 8571150ce6e34e7aacad0549ceccdf2c
+#: 9589dce3196d47df8da6aa2dda09e921
+msgid "November 21"
+msgstr ""
+
+#: ../../25.04/schedule.md 1dad71dff47340aa8ee5f186f91c9911
+#: 4fd6ed4a6964493e8013fe836cb3f669
+msgid "7"
+msgstr ""
+
+#: ../../25.04/schedule.md b53f07d75a224abf81c5bea8b2bc937b
+#: f8129857ffec4a36b1f7a9d9485cd94e
+msgid "November 28"
+msgstr ""
+
+#: ../../25.04/schedule.md 0bdeef3e39764f428cf46db50a470960
+#: aafee8d33922481d90f409d38b3f339b
+msgid "**December 2024**"
+msgstr ""
+
+#: ../../25.04/schedule.md b2016ec71ce9433bac5bdfa1be443ecd
+#: d6dbef525c274f2b971fe5e52b31efff
+msgid "8"
+msgstr ""
+
+#: ../../25.04/schedule.md d1add02dc84b4b319440aff2275bfdec
+#: d61c262824374bbc95ee064ced4cb92e
+msgid "December 05"
+msgstr ""
+
+#: ../../25.04/schedule.md 012a3051216144a9b12b37887a35ccc3
+#: 3d36dfea979a46fca5114e07e6ae23ed
+msgid "9"
+msgstr ""
+
+#: ../../25.04/schedule.md 186f7778c340402da99fb204c5f76e35
+#: 894d5648d9ab4ed394250e4a27652719
+msgid "December 12"
+msgstr ""
+
+#: ../../25.04/schedule.md af93227363204c1cb15a6818c062a243
+#: ffd7c1d39d9045048b9bb5880b7e47a2
+msgid "10"
+msgstr ""
+
+#: ../../25.04/schedule.md 1f013efaa28343b6ba98e4521144dc2f
+#: 5e21934447824d46a79945334ac14514
+msgid "December 19"
+msgstr ""
+
+#: ../../25.04/schedule.md 13ba73716dfe4323a87f0d39a10520b6
+#: 4f6b1adebc744ec4a2976b81b0b7383e
+msgid "Ubuntu Testing Week (optional)"
+msgstr ""
+
+#: ../../25.04/schedule.md 7c574f69327644dc8c0cb28181e7d9b3
+#: 83b4fbf044584413b0f49ce5cb33310c
+msgid "11"
+msgstr ""
+
+#: ../../25.04/schedule.md 4a7ed1635ce24311840fbf8d25044710
+#: 727f50112d3d4fdbacdfc43d5a61aa14
+msgid "December 26"
+msgstr ""
+
+#: ../../25.04/schedule.md 84d6eda7f63b4ff1ba03843a1ff6feaf
+#: f627c0a042e94fe7b5fde930e20fb583
+msgid "**January 2025**"
+msgstr ""
+
+#: ../../25.04/schedule.md 1490d5a6574144d199c2a8f229fc14e0
+#: 7c203ddf4e5c4db7a064052c4930cd9a
+msgid "12"
+msgstr ""
+
+#: ../../25.04/schedule.md 31f69acfd0d34b9bb5fd845a84a8de5b
+#: 612c0dc292c84373913c5849b9accf66
+msgid "January 02"
+msgstr ""
+
+#: ../../25.04/schedule.md 1d42dc727961434290160a55a62b0645
+#: b1e04d029c3a4f07ae56b8264baf0cbc
+msgid "13"
+msgstr ""
+
+#: ../../25.04/schedule.md 462d81b037ea435a9d3c7be7507ff7a9
+#: e74c08972bcd4514ae17fc3830364d79
+msgid "January 09"
+msgstr ""
+
+#: ../../25.04/schedule.md 215d1f706ab14476bc65b1fe90f24c8e
+#: 2bf2657bc9bc4ca084589e202c1bdd92
+msgid "14"
+msgstr ""
+
+#: ../../25.04/schedule.md 127ad32bf946426fbc8baf16c672ea58
+#: 5e21684283504961bd2e82f5186a9714
+msgid "January 16"
+msgstr ""
+
+#: ../../25.04/schedule.md 3e4da2040f764a2eaa911cce90452361
+#: 7afad6c59aa64f72be9c446c76944c48
+msgid "15"
+msgstr ""
+
+#: ../../25.04/schedule.md 9b53f73b5c024d55a958cbed05df4d43
+#: b772e38ca56d4ac890255ac7d6864d46
+msgid "January 23"
+msgstr ""
+
+#: ../../25.04/schedule.md 1bbc9baac9444ded96a2c8e544628e76
+#: c08320d22cc04d00a0321070878e1554
+msgid "16"
+msgstr ""
+
+#: ../../25.04/schedule.md aad73f68ba72451096098168ef81004f
+#: f958ff16fd8744b99063588ef5ca4b2f
+msgid "January 30"
+msgstr ""
+
+#: ../../25.04/schedule.md 63398f5b681040aaa8131fe685426dfb
+#: d6810d6df42d48e78ffa1a268beb4db3
+msgid "**February 2025**"
+msgstr ""
+
+#: ../../25.04/schedule.md 6c2de1cdb0a346749f3a242f1a3b5fb1
+#: feea84a28a844f04b6bd377cbd335f25
+msgid "17"
+msgstr ""
+
+#: ../../25.04/schedule.md 5b3567199ecd41ca8f5432df81b21321
+#: 5ea0822e81734189bb65e1d936c83144
+msgid "February 06"
+msgstr ""
+
+#: ../../25.04/schedule.md 3479d2a5401c4231b81c5fddfcead681
+#: b02ec2314c044f78a9493a1371be619e
+msgid "18"
+msgstr ""
+
+#: ../../25.04/schedule.md 74ed7baf79a84303a056f2e17363d97d
+#: eff7b9b878c54c8fb0dc1e521e0f0ed3
+msgid "February 13"
+msgstr ""
+
+#: ../../25.04/schedule.md 130a60c9acaa49e6ae66690711c622eb
+#: 4553098a9f274b6ba596bd1863014711
+msgid "19"
+msgstr ""
+
+#: ../../25.04/schedule.md e6f4b51e45254f5395a8425ba47ae826
+#: ec76b32f1866459d96a70de09ffe4a5d
+msgid "February 20"
+msgstr ""
+
+#: ../../25.04/schedule.md 21b52d9d225845d58695ca7a5cc276c2
+msgid ""
+"[Feature Freeze](https://wiki.ubuntu.com/FeatureFreeze), Debian Import "
+"Freeze"
+msgstr ""
+
+#: ../../25.04/schedule.md 3b1208566993451d8c92414a91dd41fa
+#: 96717ab5414741489b61a3a5f659fbf9
+msgid "20"
+msgstr ""
+
+#: ../../25.04/schedule.md 03a1f4c796054aa58ba6fa070d8b3cfc
+#: f9ddff8aabdb4c29a8c1c81d58d2f79b
+msgid "February 27"
+msgstr ""
+
+#: ../../25.04/schedule.md dd4c211360d34e5f9d916e9f74144af3
+#: f00e35659c3a4c969155b5f55c7d4391
+msgid "**March 2025**"
+msgstr ""
+
+#: ../../25.04/schedule.md 288a59fd7ebf41ffa0f9d90d7b36b8a3
+#: 5a9401b772e4436e8e48630e64f8138c
+msgid "21"
+msgstr ""
+
+#: ../../25.04/schedule.md 895a43d87791473e878c4a453766d991
+#: b0424638664245edb3f13810e12d9679
+msgid "March 06"
+msgstr ""
+
+#: ../../25.04/schedule.md 493997b98b2d4978966353cc4a23d87d
+#: 7e40b9c93ec94b54b74ea9582c3b26e4
+msgid "22"
+msgstr ""
+
+#: ../../25.04/schedule.md 625dba4ef75b43a5839f4c141fd5eee1
+#: f04e6104a2ee4bdb97684b938eb1dd1a
+msgid "March 13"
+msgstr ""
+
+#: ../../25.04/schedule.md 9ffe4794bd524756b56340527597e42d
+msgid "[User Interface Freeze](https://wiki.ubuntu.com/UserInterfaceFreeze)"
+msgstr ""
+
+#: ../../25.04/schedule.md 3e8471bf2d7943819c8e4ca1b466a58e
+#: a601854e227b4d0abd581d9f9936eaf8
+msgid "23"
+msgstr ""
+
+#: ../../25.04/schedule.md e59cac5f181442bd98de9243bbdc804d
+#: e79b01dc03244bd9b396aac5be327cef
+msgid "March 20"
+msgstr ""
+
+#: ../../25.04/schedule.md 6fab6f4539064b4c85709227381cd387
+msgid ""
+"[Documentation String "
+"Freeze](https://wiki.ubuntu.com/DocumentationStringFreeze), [Kernel "
+"Feature Freeze](https://wiki.ubuntu.com/KernelFeatureFreeze)"
+msgstr ""
+
+#: ../../25.04/schedule.md 2f05516bd2af428bbf7a731f149cceeb
+#: f5ea577e12f44995b73b93af048f0cb0
+msgid "24"
+msgstr ""
+
+#: ../../25.04/schedule.md cc5c4538dc4f4a92b91ff535bb043cc9
+msgid "March 24 (Monday)"
+msgstr ""
+
+#: ../../25.04/schedule.md edb1ac5d888640b69c3ab137f5e13666
+msgid ""
+"[Beta Freeze](https://wiki.ubuntu.com/BetaFreeze), [Hardware Enablement "
+"Freeze](https://wiki.ubuntu.com/HardwareEnablementFreeze)"
+msgstr ""
+
+#: ../../25.04/schedule.md 100da93112e5474496a356566a5ac0e2
+msgid "⠀"
+msgstr ""
+
+#: ../../25.04/schedule.md 4b81a3801d9f408295d2351e009da42e
+#: 8dde029e95ae4b8a9a90ac40aef28bbf
+msgid "March 27"
+msgstr ""
+
+#: ../../25.04/schedule.md 6667f3894e1b451aa22b0b97fe2dd079
+msgid "Beta (mandatory)"
+msgstr ""
+
+#: ../../25.04/schedule.md 1b46d81479424c24b98abd11256a6254
+#: fa60d617f4944f849e829dc011e017bd
+msgid "**April 2025**"
+msgstr ""
+
+#: ../../25.04/schedule.md 41c22b2f743346e5ad17ca4f5a1a985b
+#: 470e280f94094153a6ae25f0a7f2c9b5
+msgid "25"
+msgstr ""
+
+#: ../../25.04/schedule.md 0942f1f22b084bfc8fed2e9785b1fec9
+#: 6f4b7e7b7a95448294f3e7aa8c81a2fe
+msgid "April 03"
+msgstr ""
+
+#: ../../25.04/schedule.md c4755d1edfac4ac5933efd1ec00bc7d8
+msgid ""
+"[Kernel Freeze](https://wiki.ubuntu.com/KernelFreeze), [Non Language Pack"
+" Translation "
+"Deadline](https://wiki.ubuntu.com/NonLanguagePackTranslationDeadline)"
+msgstr ""
+
+#: ../../25.04/schedule.md 0e70277acd1c458aa3468b9d612153d8
+#: 835eafe06d2d4b21b77e1fcdeb4d75b0
+msgid "26"
+msgstr ""
+
+#: ../../25.04/schedule.md 7ab18084c50643709968174bca4fcb32
+#: a961b77981f144428b593bbdc72b2561
+msgid "April 10"
+msgstr ""
+
+#: ../../25.04/schedule.md 3e8840cc2b574d5da40c450a6f5f6bda
+msgid ""
+"[Final Freeze](https://wiki.ubuntu.com/FinalFreeze), [Release "
+"Candidate](https://wiki.ubuntu.com/ReleaseCandidate), [Language Pack "
+"Translation "
+"Deadline](https://wiki.ubuntu.com/LanguagePackTranslationDeadline)"
+msgstr ""
+
+#: ../../25.04/schedule.md f304eaff863246cc882dc08135d0abf4
+#: f45e36514c50426398dcf44ea77b03d1
+msgid "27"
+msgstr ""
+
+#: ../../25.04/schedule.md 0933b49c47624a83857643d0927082a6
+#: c09c46b81255401ca99273ccb538a2bc
+msgid "April 17"
+msgstr ""
+
+#: ../../25.04/schedule.md 6541475d472e4df3b50db6d76cc12090
+msgid "[Final Release](https://wiki.ubuntu.com/FinalRelease)"
+msgstr ""
+
+#: ../../25.04/schedule.md:43 4dc3b22f49ec4f579cfb93de2d96e438
+msgid "Planned and potentially disruptive archive-wide activities"
+msgstr ""
+
+#: ../../25.04/schedule.md:45 c0477d175bf642dd9e418ecc9491ce34
+msgid ""
+"If you're planning a change that might have a disruptive effect on the "
+"archive - e.g. transitions or switches of important defaults (such as "
+"compiler versions) - list it here."
+msgstr ""
+
+#: ../../25.04/schedule.md fa10ece88ed04f868efa483303094203
+msgid "Planned activity"
+msgstr ""
+
+#: ../../25.04/schedule.md 29a61be12f0f43b791c6e9076641a640
+msgid "Python 3.13 as supported"
+msgstr ""
+
+#: ../../25.04/schedule.md 76c72f10947c4f80b460f3ecc7f57a0e
+msgid "binutils 2.44"
+msgstr ""
+
+#: ../../25.04/schedule.md 1990880f7ffb4462a6830a8d170a0ed3
+msgid "Python 3.13 as default"
+msgstr ""
+
+#: ../../25.04/schedule.md c6864a595dae4290a39bcf7c02ebafc4
+msgid "Qt 6.8.2 ([tentative](https://wiki.qt.io/Qt_6.8_Release))"
+msgstr ""
+
+#: ../../25.04/schedule.md ccd09f87bede44c986804e30976f6a79
+msgid "[GNOME 48 Beta](https://release.gnome.org/calendar/)"
+msgstr ""
+
+#: ../../25.04/schedule.md b4d476cb290d4929802961409a70bd58
+msgid "LLVM 20 as default, Go 1.24 as default"
+msgstr ""
+
+#: ../../25.04/schedule.md ff330511f6104a019a47d7a90a23bb6f
+msgid "Qt 6.8.3 (18th, [tentative](https://wiki.qt.io/Qt_6.8_Release))"
+msgstr ""
+
+#: ../../25.04/schedule.md 913a3db1b6dd4cbe921065bb69cb1ca0
+msgid "[GNOME 48.0](https://release.gnome.org/calendar/)"
+msgstr ""
+
+#: ../../25.04/schedule.md:84 511ae0166fb14806a6d7b0e2e8149786
+msgid "Ubuntu Plucky Puffin Release Task Signup Sheet"
+msgstr ""
+
+#: ../../25.04/schedule.md:86 17fef4abe0a64a0585b1469c9b3f6d46
+msgid "This signup sheet is to be used for planning release milestone tasks."
+msgstr ""
+
+#: ../../25.04/schedule.md:88 a88e9e7ce50844eea323faa6543e2166
+msgid ""
+"The Alpha and Beta 1 milestones have been replaced with [Testing "
+"Weeks](https://lists.ubuntu.com/archives/ubuntu-"
+"release/2018-April/004434.html), which are organized ad hoc at this "
+"point."
+msgstr ""
+
+#: ../../25.04/schedule.md 171699142d034ddb9b2036463fbc8c80
+msgid "Milestone"
+msgstr ""
+
+#: ../../25.04/schedule.md beda570accb54312b0862e5a7662a1b3
+msgid "Date"
+msgstr ""
+
+#: ../../25.04/schedule.md 11bede34274f48bbb5955d7361455f11
+msgid "Image (Nusakan) Engineering"
+msgstr ""
+
+#: ../../25.04/schedule.md 785c4a74b3714ae49280bf6fd8364720
+msgid "Checklist Tracking"
+msgstr ""
+
+#: ../../25.04/schedule.md 478a0e20f7cc4d8cb664ee03ac5c2660
+msgid "Announcement Email"
+msgstr ""
+
+#: ../../25.04/schedule.md 062614f3990d4beb811d5986f6be2db5
+msgid "Feature Freeze"
+msgstr ""
+
+#: ../../25.04/schedule.md 28ce4f9d8c4546578f12b17795cd4686
+#: 5d4a231b360d453ab5dc8cb2fe1f8637 e0244f3e24ae4e77a309e9109fce5fe2
+#: e8702e2a6aa040dea91651c2b258a7a7 ef06a3112fd6499ca0eddaea09e85adf
+#: f51bf90b3d1c4e359e38d6b2e35a5c5c
+msgid "n/a"
+msgstr ""
+
+#: ../../25.04/schedule.md 0a4966dca4f449028785fbfa546af0ec
+#: 23eb8379616245f0aa2e250ffa4686b4 784a1bc5417344308c823b05f8b1a0f3
+#: a11f02d71252474495ba0038cdf5bf23 af0cef9bc7e84018bed69e43c7745e6b
+#: d1e312307f654d7d8f25aa2359a5e994 fe2ebb4548d642b9a78ad169f857fc7a
+msgid "utkarsh"
+msgstr ""
+
+#: ../../25.04/schedule.md 51388f0f1bc1482799e05f612c4f929a
+msgid "UI Freeze"
+msgstr ""
+
+#: ../../25.04/schedule.md e3181446d80a4e41933b7fb1171b49b7
+msgid "Doc String Freeze"
+msgstr ""
+
+#: ../../25.04/schedule.md d4f260159bba46ee925da9595eae8989
+msgid "25.04 Beta"
+msgstr ""
+
+#: ../../25.04/schedule.md 3b19f15728d34487b94fd320e54736c0
+msgid "Final Freeze"
+msgstr ""
+
+#: ../../25.04/schedule.md 35109ea473e546a988002dea15064645
+msgid "25.04 Release"
+msgstr ""
+
+#: ../../25.04/schedule.md 134d7a3d58d643d5a962bfa0da8cce6d
+msgid "April 17 2025"
+msgstr ""
+
+#: ../../25.04/schedule.md:99 067184da6b7a4d6692f69f206e60d93b
+msgid ""
+"When the archive is frozen, all members of the release team are expected "
+"to participate in bug fix reviews."
+msgstr ""
+
+#: ../../25.04/schedule.md:101 3027b03cd98148ffa23e9bde4f9b9b02
+msgid ""
+"After [Feature Freeze](https://wiki.ubuntu.com/FeatureFreeze), all "
+"members of the release team are expected to participate in Feature Freeze"
+" Exception reviews in their particular area of expertise."
+msgstr ""
+
+#: ../../25.04/schedule.md:103 3cfbeaafbf5c445598720f4ba36020cd
+msgid ""
+"After [Final Beta](https://wiki.ubuntu.com/FinalBetaRelease), all members"
+" of the release team are expected to participate in Bug fix reviews in "
+"their particular area of expertise."
+msgstr ""
+

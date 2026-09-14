@@ -1,0 +1,2932 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu release
+# notes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu release notes \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-13 02:01+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../26.04/changes-since-previous-interim.md:6
+#: 17357184c614421fb0504020141b2527
+msgid "Ubuntu 26.04 LTS changes since 25.10"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:8
+#: c0b095b3f7e946f491b6a0deab811d2e
+msgid ""
+"If you're upgrading to Ubuntu 26.04 LTS from the previous interim "
+"release, Ubuntu 25.10 (Questing Quokka), the following changes apply to "
+"you."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:11
+#: 75545d05824d49c798b295db9b06dc5b
+#, python-brace-format
+msgid ""
+"Ubuntu 26.04 LTS is currently in development, scheduled to be released in"
+" April 2026. See the {ref}`release schedule <resolute-raccoon-schedule>`."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:14
+#: 7d5100f489c440edad242b1cc656369f
+msgid "New features and improvements"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:16
+#: 9979259e6d6344ef9c5c5a1dcd3b936a
+msgid "System features"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:18
+#: b803f42448324ed48c585707b717e74d
+msgid "cloud-init v. 26.1"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:20
+#: 0b35531b9a7d4e259feccbab99762851
+msgid "Cloud-init features introduced beyond v. 25.3 in Questing:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:22
+#: 7e15b7d4301a4fceb540763058058ef3
+msgid "Add support for s390x platform detection on LXD"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:23
+#: 39de96fe84ec4456980d6fa1e570fb01
+msgid "Add support for Tilaa cloud platform detection."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:24
+#: 73ac5aaa3f0e45b98d1f95613f6cd373
+msgid "Fix LXD Snap installs on Plucky and newer"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:25
+#: 20b3c763688f4cc4a584cf0e9bbaa504
+msgid ""
+"Scaleway cloud to support exposing regions and availability zones, drop "
+"private IP handling"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:26
+#: 7c0937587cfd4164844beff08d06cd9b
+msgid "Add network v1 support for bonds, bridges and VLANs"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:27
+#: 0701c402122b4b418dab2733b6304243
+msgid ""
+"Allow `network-config` to express `allow_accept_ra` for bonds, bridges "
+"and VLANsOpenStack `network_data.json` support of bond names"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:29
+#: ac6ebf0a1afb4929a8e7852b8a0fe53b
+msgid ""
+"See [cloud-init’s release notes for more "
+"details](https://github.com/canonical/cloud-init/releases)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:31
+#: 16005dca21a7436cb83e642561288d87
+msgid "fwupd"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:33
+#: 1cdce1d67fff4186834e9ce2b02211c6
+msgid ""
+"Systems running TPM/FDE will now prompt for the recovery key before "
+"firmware updates that may require the recovery key upon reboot."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:35
+#: fed1e39288844532aad1625dd2d2706c
+msgid "Linux kernel 7.0 🐧"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:37
+#: 06d4dc56f3a0412aab14af4f227ad817
+msgid ""
+"`cgroupfs` is now mounted with "
+"`nsdelegate,memory_recursiveprot,memory_hugetlb_accounting`"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:39
+#: 50c2c22fced0414294628d5b90229055
+msgid "Netplan v1.1.2 🌐"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:41
+#: ../../26.04/changes-since-previous-interim.md:45
+#: ../../26.04/changes-since-previous-interim.md:66
+#: ../../26.04/changes-since-previous-interim.md:498
+#: ../../26.04/changes-since-previous-interim.md:593
+#: ../../26.04/changes-since-previous-interim.md:692
+#: ../../26.04/changes-since-previous-interim.md:720
+#: 0b6fca65436a44faa6df9d1f34742bd4 4b8267c33a4d4e29afeb9140930dfdea
+#: 5ae72570388e4f74a518404a0e3562b5 6a13b0ceace14d2698c217053ec0aed1
+#: 7d1bd1fd28de4d2cb59a51e26c23257b 9e85bc2a8861460c9d7da615f8f8b14c
+#: c65f891a3ec9421ab4c6b90ac6c0a809
+msgid "..."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:43
+#: 9d00ec207b5f46aba3b721ac71d4e69e
+msgid "Package Management: APT 3.0"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:47
+#: 36fc10acf5e0403caac8489abb3b96dc
+msgid "sudo-rs"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:49
+#: 5516f46d595d42d4ba5e738e4573c37c
+msgid ""
+"Password feedback is now enabled by default in order to improve the user "
+"experience of `sudo`. If the previous behavior is preferred, password "
+"feedback can be disabled using the following steps:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:52
+#: b92c537c109f49728beb555409683211
+msgid "Edit sudoers using `sudo visudo` in the terminal"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:53
+#: 92892567762f486c88e661f5ad03ed45
+msgid "Add the option `Defaults !pwfeedback` to the configuration file"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:55
+#: 8225de71b2274859b3fdd7a47121c39f
+msgid "systemd 259.5"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:57
+#: 8c14cb954dad46499b6cdc241200bfaa
+msgid ""
+"The `systemd` service manager has been updated to version 259. For a "
+"complete list of changes, see the "
+"[changelog](https://github.com/systemd/systemd/releases/tag/v259)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:59
+#: 72d829a6617941d4801de2772e6df95a
+msgid "Also, refer to the removed and deprecated functionality:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:61
+#: a8c5925a25644f4296a96143828db378
+#, python-brace-format
+msgid "{ref}`cgroup-v1-removed`"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:62
+#: aa4b1cf492514b09afd18c9a3a77b1c2
+#, python-brace-format
+msgid "{ref}`system-v-scripts-deprecated`"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:64
+#: 8ca5b7cd0b6e4684b8b6e0dbb55e63cb
+msgid "TPM/FDE"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:68
+#: 48b492ca34bd4f60be65e0228d045ed6
+msgid "Ubuntu Insights integration with the release upgrader"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:70
+#: 7219cbad2b3e4d798ce2992d87040981
+msgid ""
+"When Ubuntu Insights is available and configured, the release upgrader "
+"will now use Ubuntu Insights at the end of a release upgrade to generate "
+"a report based on the existing consent state. Note, this change does not "
+"prevent the Ubuntu Report-based collection that may be triggered by a "
+"release upgrade."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:72
+#: 31dad597d4014115a8c489290b39da16
+msgid ""
+"This change only affects Desktop and WSL since presently, these are the "
+"only platforms that include Ubuntu Insights."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:75
+#: 36cc06c5c46d44c89598b82c5220392f
+msgid "IBM Z and LinuxONE (s390x)"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:77
+#: a6771fb7afd847cd922afdc7c82a183c
+msgid ""
+"The following provides an overview of selected and significant s390x-"
+"specific enhancements and improvements that landed in Ubuntu Server 26.04"
+" for IBM Z and LinuxONE."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:79
+#: 14fa3c7d4ef84e899b4f0995d3b0b095
+msgid ""
+"On the IBM Z (s390s) architecture, the architectural level set (ALS) was "
+"raised to build for IBM Z generation z15 (LinuxONE Emperor III) with the "
+"`march=z15` and `mtune=z16` compiler options ([LP: "
+"#2126577](https://launchpad.net/bugs/2126577)). This brings performance "
+"improvements on the later generations"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:81
+#: 7d39fa58ceb845209c2c47858cdae4d7
+#, python-brace-format
+msgid "{ref}`ibm-z14-support-removed`."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:83
+#: b2d8794fad59467981752da1ae6579ad
+msgid ""
+"With every new Ubuntu Server release the `s390-tools` package was "
+"gradually upgraded to its latest available release v2.41 ([LP: "
+"#2141945](https://launchpad.net/bugs/2141945)), that now:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:85
+#: d14b5d4785054130aec0f79fa896a6ef
+msgid ""
+"adds a `udev` rule to set `none` as default I/O scheduler for `virtio-"
+"blk` devices ([LP: #2138886](https://launchpad.net/bugs/2138886))"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:86
+#: 188ac2458a554585a2ee6a818e135e25
+msgid ""
+"adds a `udev` rule to disable the `rotational` attribute for `virtio-blk`"
+" (especially important for swapping or paging) ([LP: "
+"#2138887](https://launchpad.net/bugs/2138887))"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:87
+#: 62f4e5f0f2354a52ab99cf8c298f8b59
+msgid ""
+"introduces the new `pvverify` tool, that allows to verify host key "
+"documents in the context of Secure Execution (SE) ([LP: "
+"#2138888](https://launchpad.net/bugs/2138888))"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:88
+#: 24a1a241ea2c42a7b48f8956ca725d74
+msgid ""
+"and the `pvimg info` command was enhanced to display additional SE image "
+"information ([LP: #2141952](https://launchpad.net/bugs/2141952))"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:90
+#: fcb384e74ca4487aa789642f170b0632
+msgid ""
+"KVM enhancements arrived by adding zVDT Parallel Sysplex support ([LP: "
+"#2142654](https://launchpad.net/bugs/2142654)) and by rewriting `gmap` "
+"using MMU notifiers ([LP: #2142682](https://launchpad.net/bugs/2142682))."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:92
+#: 1eec81987f624900b522061a899d6975
+msgid ""
+"In the area of cryptography the following updates and improvements "
+"happened:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:94
+#: 89e04538306846be9dc9ebbffbdbda4a
+msgid ""
+"`zkey` support for `dm-integrity` with HMAC was added to the `s390-tools`"
+" package ([LP: #2096889](https://launchpad.net/bugs/2096889)) and to the "
+"kernel ([LP: #2138650](https://launchpad.net/bugs/2138650))"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:95
+#: 99faa7d2358c4e5a9699fd5bff94c0f3
+msgid ""
+"PHMAC was added to `cryptsetup` ([LP: "
+"#2138512](https://launchpad.net/bugs/2138512)), and required also "
+"`systemd` ([LP: #2138511](https://launchpad.net/bugs/2138511)) updates."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:96
+#: d397723f775942299f72a9f3565308e3
+msgid ""
+"The default use of clear keys by PAES and PHMAC in-kernel crypt modules "
+"was disabled ([LP: #2139610](https://launchpad.net/bugs/2139610)), but "
+"they can still be explicitly allowed with a module parameter."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:97
+#: b00d062884954d80be03ec531edca098
+msgid ""
+"An overwrite function was added to the `zcrypt` driver, allowing the "
+"configuring of the device driver on a per APQN basis ([LP: "
+"#2138854](https://launchpad.net/bugs/2138854))"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:98
+#: d4d2062617994277b1b92db207bfdf29
+msgid ""
+"The upgrade to `opecryptoki` v3.26 ([LP: "
+"#2135123](https://launchpad.net/bugs/2135123)) added ML-KEM and ML-DSA "
+"support for `ep11` token ([LP: "
+"#2138514](https://launchpad.net/bugs/2138514)) and `cca` token ([LP: "
+"#2138515](https://launchpad.net/bugs/2138515)) and BLS support for `ep11`"
+" token ([LP: #2138804](https://launchpad.net/bugs/2138804))."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:99
+#: 71fba745f066497fbfb384566bcac689
+msgid ""
+"The upgrade of `libzpc` to v1.4.1 ([LP: "
+"#2136312](https://launchpad.net/bugs/2136312)) removed a protected key "
+"verification pattern mismatch, now allowing to support Live Guest "
+"Relocation ([LP: #2140342](https://launchpad.net/bugs/2140342))"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:101
+#: 327ca297387d4ea8a835fa711cc5b81b
+msgid ""
+"The kernel also received selected improvements, like support for 128 KB "
+"tape block sizes ([LP: #2141569](https://launchpad.net/bugs/2141569)) and"
+" support for dynamic (de)configuration of hot-pluggable memory ([LP: "
+"#2142862](https://launchpad.net/bugs/2142862))."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:103
+#: 88e29dd03a114a11a6649691e8365fc0
+msgid ""
+"Finally several packages were updated to their latest upstream version to"
+" pick up s390x-specific upstream fixes and improvements. For example:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:105
+#: 5f0c94eca5334bac90865f7b3c92cea8
+msgid ""
+"`valgrind`, for full z17 support ([LP: "
+"#2139096](https://launchpad.net/bugs/2139096))"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:106
+#: 3f1265cabd8d42c998c35580de54497e
+msgid ""
+"`libdfp`, mainly fixes ([LP: "
+"#2122325](https://launchpad.net/bugs/2122325))"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:107
+#: 69251ad92187473aabce8cf8cce1c416
+msgid ""
+"`smc-tools` for fixes and additional statistics output ([LP: "
+"#2142098](https://launchpad.net/bugs/2142098))"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:109
+#: a585a3843501406f808b5ea6dfda557d
+msgid "Desktop features"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:111
+#: 42119a9143ca488a9218fadadea737a6
+msgid "GNOME 50"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:113
+#: f208359672064d19b66aaf1960a6b5e7
+msgid "The GNOME desktop environment has been updated to version 50."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:115
+#: db0af5d29ff3459e8a204cdc70d71ec1
+msgid "GStreamer 1.28"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:117
+#: 141e5521b77c40ad873c2a46a0e17415
+msgid ""
+"The GStreamer multimedia framework has been updated to [version "
+"1.28](https://gstreamer.freedesktop.org/releases/1.28/)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:119
+#: 3ca6c8e263644d3bb1372b29730bab33
+msgid "Added graphical Ubuntu Insights management controls to Settings"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:121
+#: b8e1841683724041a70def4a24520b5e
+msgid ""
+"Graphical controls to finely control Ubuntu Insights consent states as "
+"well as to preview reports have been added to Settings. They can be found"
+" under *Privacy & Security* within the *Telemetry* panel, which also "
+"replaces the *Diagnostics* panel."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:123
+#: f051e3a3312b4c10a0d99e93d3b20e1b
+msgid "Prompt for Ubuntu Insights consent on release upgrades"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:125
+#: 425fab5eea6b4574976bdc4ef761609c
+msgid ""
+"After a release upgrade, you'll be prompted for consent to collect system"
+" information via Ubuntu Insights. This prompt only appears if Ubuntu "
+"Insights consent isn't already set or if it's deemed necessary to re-"
+"prompt due to any other reason."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:127
+#: f5f85411ec3e42bd94bb7c4931db249e
+msgid ""
+"This change is part of creating a new release upgrade mode for GNOME "
+"Initial Setup."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:129
+#: 1ab55980055f441a8009e5db7e0354a6
+msgid "Server features"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:131
+#: a7af3c9a15ef477fa6ab2268ad9257ea
+msgid "Chrony 4.8"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:133
+#: fb8fe46f68bf4ce0b911b37cf7415597
+msgid ""
+"Chrony was updated to version 4.8, which adds support for limiting the "
+"selection of unreachable sources, fixes `refclock` handling on newer "
+"kernels and more."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:135
+#: 571340554ce34b948254f6df07f8abb1
+msgid ""
+"For more information about the 4.8 release or all the other changes since"
+" version 4.5 that was in Noble please have a look at [Chrony’s news "
+"page](https://chrony-project.org/news.html)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:137
+#: 8b1b270d89ec4abaad651ef814b5514a
+msgid "Exim4"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:139
+#: 6a77ddc9f33d452ab2a6d78843dbea78
+msgid ""
+"The Exim4 update to 4.99.1 improves handling many messages to a single "
+"host by using fewer forks & execs. New options like `dkim_verify_minimal`"
+" avoid calling the DKIM ACL after the first good verify and fix various "
+"bugs."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:141
+#: 52a8da7eb1cf4bf79e8f9b526fdd613d
+msgid ""
+"For a detailed list of changes please refer to the [upstream "
+"changelog](https://github.com/Exim/exim/blob/master/doc/doc-"
+"txt/ChangeLog#L84). The minor .1 in 4.99.1 ensures that recent re-"
+"occurring security issues of CVE-2025-26794 and CVE-2025-67896 are closed"
+" right away."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:143
+#: 1c9be2af5ffc44b2a5ad617bd72304a3
+msgid "Kerberos"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:145
+#: cf1b4a72a5fd4c9faa13b7a798562754
+msgid ""
+"Kerberos has been configured to observe the `/etc/krb5.conf.d/` directory"
+" by default. This introduces support for third-party packages that need "
+"to add Kerberos configuration."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:147
+#: 40149322faf149de914f2dcc959f0ba5
+msgid ""
+"If you have existing configuration snippets in `/etc/krb5.conf.d/`, but "
+"do not include them, they will now be included in the `krb5.conf` file."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:148
+#: f3c45d4ea9af498681ee317bf0d118dc
+msgid ""
+"If you already include `/etc/krb5.conf.d/` in your `krb5.conf` file, "
+"either active or commented out, no changes will be made."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:149
+#: 9dddd372ed994b5f97e2be6dc6ba687a
+msgid ""
+"If your existing `krb5.conf` file is a symbolic link, no changes will be "
+"made."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:151
+#: fe85e3ecc79045e99eeaad926781b8a4
+msgid ""
+"MIT Kerberos and Heimdal are both supported, but use different orderings "
+"for the include directive. MIT Kerberos uses alphanumerical order, while "
+"Heimdal uses the unpredictable order of the `readdir()` system call ([LP:"
+" "
+"#2140967](https://bugs.launchpad.net/ubuntu/+source/heimdal/+bug/2140967))"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:153
+#: bd811833c1a2413ca96be6d5ebf8e963
+msgid "`multipath-tools` 0.12.2"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:155
+#: 5b698df25cf94241aea373e848cea3d8
+msgid ""
+"Updated from version 0.11.1 to 0.12.2. See the 0.12 series in the "
+"[upstream changelog](https://github.com/opensvc/multipath-"
+"tools/blob/0.12.2/NEWS.md)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:157
+#: bdd63110b22240f2a1ded97d89e4710f
+msgid "OpenLDAP"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:159
+#: 7fa99a9e07514d79b3c37a4aaa908c73
+msgid "New version [2.6.10](https://launchpad.net/ubuntu/+source/openldap)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:161
+#: 5f18de702029433ba29ccd10866bb43c
+msgid ""
+"Running in [AppArmor enforce "
+"mode](https://documentation.ubuntu.com/server/how-to/security/apparmor/) "
+"now."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:162
+#: 61996b09f0054bf0960f962cc6ab5853
+msgid ""
+"Added patch to support changing `pbkdf2` iteration count (see task "
+"[#2125685](https://bugs.launchpad.net/ubuntu/+source/openldap/+bug/2125685))"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:164
+#: fd6a67ab1d5f45b4af75043c17ec77f0
+msgid ""
+"See the [2.6 series upstream release "
+"notes](https://git.openldap.org/openldap/openldap/-/blob/OPENLDAP_REL_ENG_2_6/CHANGES)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:166
+#: f8262f0f90c9443997cc80c9c8f717f6
+msgid "PHP 8.5.2"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:168
+#: b839270ad15140e9a64cd9e6888e6301
+msgid ""
+"PHP was updated to the 8.5.2 upstream version. Among other enhancements "
+"and bugfixes, the highlighted changes are:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:170
+#: d22cfd5881e94350bfe786290163e76b
+msgid "A new URI Extension"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:171
+#: 8278942103734073b8f10649202f896d
+msgid "The Pipe Operator"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:172
+#: 59187ded0f574f4d99b567432d704f17
+msgid "Clone With functionality"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:173
+#: cf79f06e07ec46e1a64b3ad3210e7c56
+msgid "The `#[\\NoDiscard]` Attribute"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:174
+#: 4d0974ef78de4bdbb7753809a130a0b3
+msgid "Closures and First-Class Callables in Constant Expressions"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:175
+#: ce1276cb972d495996aca34bcc9c4354
+msgid "Persistent `cURL` Share Handles"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:176
+#: 9d95751a19264294bc3fa3b6d72b9692
+msgid "`array_first()` and `array_last()` functions"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:178
+#: ../../26.04/changes-since-previous-interim.md:624
+#: ../../26.04/changes-since-previous-interim.md:702
+#: 5f89a1c99a8a4a46a000d2c80a2877bc 9a32cd8c37b2477da987453a70fc9d8a
+#: f9ab1a211cf444ab9fba060076b4c8cf
+msgid ""
+"Other breaking changes and new features can be seen in the [full upstream"
+" changelog](https://www.php.net/ChangeLog-8.php#PHP_8_5)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:180
+#: 8b1200f723854fd29d2fe49fcb085e86
+msgid "Samba 4.23"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:182
+#: 33ccc6ff89da44c3b5ea9db633bc63c1
+msgid "Samba has been updated to the new upstream 4.23 version."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:184
+#: 59ce6e00820f447fab45bbb2bd9a861d
+msgid "New features and important changes in 4.23:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:186
+#: 398a420ff5fc4869b26676fbaf8c47e1
+msgid "SMB3 Unix Extensions enabled by default"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:187
+#: 197a81fc985749ac98a8b43c6f471479
+msgid ""
+"NetBios is disabled by default in the configuration file "
+"`/etc/samba/smb.conf` for fresh installs"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:190
+#: 5dddb08b05ce49e3b8607a67befb442c
+msgid "SSSD"
+msgstr ""
+
+#: ../../reuse/26.04/sssd-2.12-features.txt:2 cd99a47c2ae84bacb441bd694253bb66
+msgid "SSSD has been updated to version 2.12."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:195
+#: 556c20017cb24719854072d305defbf4
+#, python-brace-format
+msgid "See also {ref}`26.04-sssd-changes`."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:197
+#: ../../26.04/changes-since-previous-interim.md:615
+#: 36f874cd3c6c40f88dc411efaa62f047 9b33e5d1db9f4db484c320439470d2c9
+msgid "Other changes of importance are listed upstream:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:199
+#: ../../26.04/changes-since-previous-interim.md:617
+#: 1a38eb8ce705425fb1e18c3907d0ded8 1ee9be7587b64938aef0d00d8e7b292c
+msgid "https://sssd.io/release-notes/sssd-2.11.0.html"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:200
+#: ../../26.04/changes-since-previous-interim.md:618
+#: 077e1183e71145e39babb757912b361e 96c46bf109a74dcfa024e77e57101d50
+msgid "https://sssd.io/release-notes/sssd-2.12.0.html"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:202
+#: e0d7517e6e314521939acdfe42ef212a
+msgid "Squid"
+msgstr ""
+
+#: ../../reuse/26.04/squid-7.2-features.txt:2 8f67ccc2bcfe41a3ac9824d84596698c
+msgid ""
+"Squid was updated to upstream version 7.2. Coming from version 6, the "
+"main new options are:"
+msgstr ""
+
+#: ../../reuse/26.04/squid-7.2-features.txt:4 9cdded77e3d24ca4a0ad602f56187871
+msgid "Add `tls_key_log` directive to log TLS master keys."
+msgstr ""
+
+#: ../../reuse/26.04/squid-7.2-features.txt:6 ea2009b92222430cb15ae5cabbb75f4d
+msgid ""
+"Add `key-extras` format to external ACL helpers to pass transaction "
+"details."
+msgstr ""
+
+#: ../../reuse/26.04/squid-7.2-features.txt:8 6c5748f74a3146c4a5c0e8ec0b0666e9
+msgid "Add `doh_query` directive to send DNS queries over HTTPS."
+msgstr ""
+
+#: ../../reuse/26.04/squid-7.2-features.txt:10 afc61e3a03224ce4aeb7e81a052f2ddd
+msgid ""
+"Add `cache_peer` option `tls-client-cert-switch` to select client "
+"certificates dynamically."
+msgstr ""
+
+#: ../../reuse/26.04/squid-7.2-features.txt:12 a795a4f7aa1641eeacb8b145788a8dbf
+msgid ""
+"Several bugfixes for crash scenarios are also included in this major "
+"release."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:207
+#: f5b4a2394ec74d9ba4edb7f8928785d0
+#, python-brace-format
+msgid "See also {ref}`26.04-squid-removals`."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:209
+#: ../../26.04/changes-since-previous-interim.md:632
+#: 887e622323554ab394e58225f25f4220 aee413df0e084a7190a7251c6289a9ee
+msgid ""
+"For a list of all changes and fixes, please check the [upstream releases "
+"page](https://github.com/squid-cache/squid/releases)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:211
+#: d047d3b2cd024f5cbdc1bf0c35348659
+msgid "SoS (`sosreport`)"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:213
+#: f72a92a4b80e4e30b1603fdd5f727f1d
+msgid ""
+"SoS was updated to 4.10.2. This upgrade introduces new plugins and also "
+"adds new features to existing plugins."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:215
+#: c17e4bf9fb3a49b48f61478674d5e7f4
+msgid ""
+"For more information see the "
+"[4.10.1](https://github.com/sosreport/sos/releases/tag/4.10.1) and "
+"[4.10.2](https://github.com/sosreport/sos/releases/tag/4.10.2) upstream "
+"release notes."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:217
+#: be80defb66474df29aa3904fcdab5d12
+msgid "Colored output with `strace` 6.19"
+msgstr ""
+
+#: ../../reuse/26.04/strace-6.19.txt:2 d8ac68c1039f4ea3ac7bc258992d3aac
+msgid ""
+"[`strace`](https://strace.io/) now supports colored output (configurable "
+"with `--color=...`, `STRACE_COLORS=...` and `NO_COLOR=1`)."
+msgstr ""
+
+#: ../../reuse/26.04/strace-6.19.txt:4 95a5d17adbb146a88b661e687f07ee64
+msgid "![Sample colored output](/images/strace-color.png)"
+msgstr ""
+
+#: ../../reuse/26.04/strace-6.19.txt:4 9b3c122804674aef898a60f560c3faa9
+msgid "Sample colored output"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:222
+#: 50c5c49c0902489bbdaea413f905d623
+msgid "Container stack"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:224
+#: 579d0296ebbe4091ba8176255a0a659d
+msgid ""
+"For the `containerd` and `runc` packages, we established a pattern to "
+"either keep the regular updates to the latest version or to opt for "
+"slower, more stable updates throughout the time the release is active. "
+"For more please read [Ubuntu Server Gazette - Issue 8 - Containers: "
+"Steady paths for agile stacks](https://discourse.ubuntu.com/t/ubuntu-"
+"server-gazette-issue-8-containers-steady-paths-for-agile-stacks/68680)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:226
+#: 7d09ccc04dd543a4952c5132687f785e
+msgid "containerd 2.2.2"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:228
+#: 71b4f070018c419d8d4f9c51c2485986
+msgid ""
+"The `containerd` packages (`src:containerd-app`, `src:containerd-stable`)"
+" were updated to version 2.2.2 Version 2 includes the stabilization of "
+"new features added in the last 1.x release as well as the removal of "
+"features which were deprecated in 1.x, meaning you should expect breaking"
+" changes here."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:230
+#: 0ec8218fe94942e2836c6c777a756ab3
+msgid ""
+"For further details on such changes, please refer to the `containerd` 2.0"
+" [upstream release "
+"notes](https://github.com/containerd/containerd/blob/main/docs/containerd-2.0.md)"
+" and check the notes for [individual point "
+"releases](https://github.com/containerd/containerd/releases)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:232
+#: d4193a1fd9154b0b834398e33f28c01c
+msgid "runc 1.4.0"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:234
+#: 1b74ac60c78f4a18b252341934a9c35e
+msgid ""
+"The `runc` package (`src:runc-app`) was updated to version 1.4.0. The "
+"most noteworthy change here is that the handling of `pids.limit` has been"
+" updated to match the newer guidance from the OCI runtime specification. "
+"In particular, now a maximum limit value of 0 will be treated as an "
+"actual limit (it will be treated the same as a limit value of 1). We only"
+" expect users that explicitly set `pids.limit` to 0 will see a behavior "
+"change."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:236
+#: a50aa17e89e44ba08527b5ced02a96eb
+msgid ""
+"For more details on this new release, please [check the upstream release "
+"notes](https://github.com/opencontainers/runc/releases/tag/v1.4.0)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:238
+#: 70233f49e91e4c7e8f21eb6e634ce0a0
+msgid "Docker 29"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:240
+#: 8f524105dd494c078b4b969620fa4681
+msgid ""
+"[docker.io](http://docker.io) was updated to version 29. This release "
+"includes several improvements and breaking changes."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:242
+#: 46496507b1f0446db842f27d153196ee
+msgid ""
+"There is a new experimental support for `nftables` which can be enabled "
+"by setting Docker daemon’s firewall-backend option to `nftables`."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:244
+#: 62d2cd2c1bcb4077bca6f01874b27958
+msgid ""
+"The `containerd` image store is now the default for **fresh installs**. "
+"This doesn’t apply to daemons configured with `userns-remap` or for users"
+" upgrading from a previous [docker.io](http://docker.io) version."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:246
+#: 931ea26b59c24753897075221a2f2f50
+msgid ""
+"For a comprehensive list of changes, please check the [upstream release "
+"notes](https://docs.docker.com/engine/release-notes/29/)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:248
+#: 6fe2744bbe8d4274b4e194451bb1cab6
+msgid "Virtualization stack"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:250
+#: e2b9f010589e40f5ade8194e2f998c8e
+msgid ""
+"The virtualization stack got various updates and to provide more "
+"flexibility an additional hardware enablement option was added that will "
+"in addition allow to switch to the virtualization stack of the following "
+"interim releases while otherwise staying on the LTS."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:254
+#: 7602e2548fea4c0c975a6bebfa8d268b
+msgid "libvirt"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:256
+#: 4c80ca4634fa47298606c6597c2df8cb
+msgid ""
+"The libvirt package was upgraded to version 12.0.0. Here is the important"
+" changes since Ubuntu Questing:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:258
+#: db5e3fd5d7cc44e995dc2b24c5878f8e
+msgid "Several new features have been added into the `bhyve` driver:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:260
+#: 50d64ed707cd4f05b3e0f0707dbbe28c
+msgid ""
+"Experimental NAT networking support using the Packet Filter (`pf`) "
+"firewall."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:262
+#: 067a8a285e2248c7bfbea992704b2fd4
+msgid ""
+"Querying domain block, interface, and memory statistics. Not all "
+"statistics fields are supported though."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:264
+#: 8f49b0846272448d81022a4a6c8b6dfa
+msgid "SLIRP networking support"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:266
+#: 710e9f3e782347f6af042f7333474785
+msgid "NVMe device support"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:268
+#: de96df9f08df452880652f34af8a7fe4
+msgid "`virtio-scsi` support"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:270
+#: a134c288cbb04595837a4dc7163294f2
+msgid "Initial ARM64 support"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:272
+#: e8308e35a3404348b3549b1feb8c7a48
+msgid "Multi-GPU: Add support for NUMA affinity of PCI devices"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:274
+#: e42b111b88bb471880ffb9f015b4e225
+msgid ""
+"To support NVIDIA Multi-Instance GPU (MIG) configurations, `libvirt` now "
+"handles QEMU’s `acpi-generic-initiator` device internally. MIG enables "
+"partitioning a physical GPU into multiple isolated instances, each "
+"associated with one or more virtual NUMA nodes."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:276
+#: b3fafa8e821b4c9c8f90132b7b724e8c
+msgid "Hyper-V:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:278
+#: c3aa9d0ffd31430c83b19ee39c9cb1bb
+msgid "Introduce Hyper-V host-model mode"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:280
+#: 678281785df04f039106fd849d2ee033
+msgid "Hyper-V `virttype` support for Qemu domains"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:282
+#: 0b9a68d3bb7241bb89228b7ca5645f3f
+msgid ""
+"For more details, please see the [upstream "
+"changelog](https://libvirt.org/news.html#v12-0-0-2026-01-15)"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:284
+#: 8f3c59185195442aaa0c07b39e633a63
+msgid "Some additional notable changes:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:286
+#: bfb5561e787d440b9bb4b01cb2983f3f
+msgid ""
+"The detection of the CPU MSR (Model Specific Register) features has been "
+"improved by enabling the `msr` kernel module load and fixing `vmx-*` "
+"features detection issue."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:288
+#: 828258de377f4cf181927ba6fb0ce616
+msgid "Use `sysusers` to manage users and groups"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:290
+#: 4528102372bf4cada8fef6d287b51ac9
+msgid "QEMU"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:292
+#: 77e7879a84f9419b8959778244b1dda5
+msgid ""
+"The QEMU package was upgraded to version 10.2.1. Here is the important "
+"changes since Ubuntu Questing:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:294
+#: c067297db3ee4695a115b0601314e1ba
+msgid ""
+"Upgrading Windows 11 makes the VM stop working and to fix this issue and "
+"ensure the migration path, we added new machine types for Resolute and "
+"old Ubuntu releases:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:296
+#: 6ecc81db0a45459dab19513fa0c0a8fb
+msgid ""
+"`pc-i440fx-questing-v2` Ubuntu 25.10 PC v2 (i440FX + PIIX, + 10.1 "
+"machine, 1996)"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:298
+#: bad576446f864ea381c8ad3c9cd576c9
+msgid ""
+"`pc-i440fx-noble-v2`   Ubuntu 24.04 LTS PC v2 (i440FX + PIIX, `arch-caps`"
+" fix, 1996)"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:300
+#: 3248c0e00c3f4710831dbe9e21c052af
+msgid ""
+"`pc-q35-noble-v2`      Ubuntu 24.04 LTS PC v2 (Q35 + ICH9, `arch-caps` "
+"fix, 2009)"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:302
+#: ea719811c135470fa31d075092f504d1
+msgid "Other notable new features:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:304
+#: a2cf73f561a14e7fa77be6dc62e7edde
+msgid "ARM"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:306
+#: ed6425c3cda84b29bcb9952d27622882
+msgid "New board model: `amd-versal2-virt`"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:308
+#: 3a182182f0e94afc8544751b863dc744
+msgid ""
+"New CPU architectural features emulated: `FEAT_TCR2`, `FEAT_CSSC`, "
+"`FEAT_SCTLR2`."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:310
+#: 85aa507797b24357b2bc038faa111968
+msgid "RISC-V"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:312
+#: a81683dedc9f4e60ac82661b99b2330c
+msgid "Add `riscv64` to `FirmwareArchitecture`"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:314
+#: 0a6230e5b6cf4c96a7d825c13a929027
+msgid "Update OpenSBI to v1.8.1"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:316
+#: 093d5378b8a14b63a05c0546d4ffccd3
+msgid "Implement MonitorDef HMP API"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:318
+#: badb2fd4c5094a85b26a9d3c986cb5ef
+msgid "X86"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:320
+#: cff12d58484a479bb2c52326a52eb72d
+msgid ""
+"Support for a new accelerator, MSHV, which lets you create VMs from a "
+"Hyper-V guest without using nested virtualization."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:322
+#: 7c7e9b45f9d94b64a4ecfccfcb275092
+msgid "Migration:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:324
+#: de60175f24ec47e4a08ca88ee2bb47da
+msgid "Supported new `cpr-exec` migration mode"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:326
+#: 7357a93272824e78bd617a250a585429
+msgid "Supported `mapped-ram` on snapshot save/load"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:328
+#: 31e5ecd956a64a1c9ea40bfd0d126a68
+msgid ""
+"For more details, please see related upstream "
+"[changelog](https://wiki.qemu.org/ChangeLog/10.2) and the general log on "
+"[removed features](https://qemu-project.gitlab.io/qemu/about/removed-"
+"features.html)"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:330
+#: 685700ed0f8a4c60b3b1638e639737bc
+msgid "EDK2"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:332
+#: 4e9eb6a9667046858381f1b2ccbecd65
+msgid ""
+"The package has been updated to version **2025.11**. Below are the most "
+"significant changes since Ubuntu Questing:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:334
+#: 8391e72fe371497fa44bff1e4acbfc19
+msgid "OVMF packaging rework"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:336
+#: c14e3307b202467cbd0b743fdac70a01
+msgid "OVMF has been split into the following packages:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:338
+#: f4265664f96947d9843d767454748e7f
+msgid "`ovmf-generic`"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:340
+#: 22271d23419e4ab784b93a32575294bf
+msgid "`ovmf-amdsev`"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:342
+#: 877cc3e2c5d04e4a85c50b60846ee16d
+msgid "`ovmf-inteltdx`"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:344
+#: 2e31250685284bc2a7677c3b5c12d034
+msgid ""
+"The `ovmf` package is now a **metapackage** that depends on the above "
+"variants. This allows users to install only the OVMF firmware compatible "
+"with their CPU."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:347
+#: 365ad357b7a740888f78a908b3b0e5e4
+msgid "`ovmf-inteltdx` changes"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:349
+#: 266c53bba8494bda812e9a3cdbe67188
+msgid "`OVMF.inteltdx.fd` has been removed."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:351
+#: 406633336073432fa68ff7bdc51bf35b
+msgid "`OVMF.inteltdx.secboot.fd` has been renamed to `OVMF.inteltdx.ms.fd`."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:353
+#: 9f7ff87a8b8c450caab721a05da59d5e
+msgid "Removed components"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:355
+#: fc33186cf4354da7b6b86e143ab1544f
+msgid "`qemu-efi-arm`"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:357
+#: 0f639b6c270d4214ba0dde50cf398020
+msgid "`ovmf-ia32`"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:359
+#: 860a06d747a04b2f9a530ae18e570ef6
+msgid "The `loongarch64` target is no longer built."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:361
+#: d3563c881d4a451abbd339854d42ae6c
+msgid "Secure Boot improvements"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:363
+#: 0c9e83a29c0548df8b3a3f0bfd66bca0
+msgid "NX is now enabled in all Secure Boot variants."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:365
+#: cecc9b7880e9468abca7c4aaabbffc54
+msgid "The `strictnx` variant has been dropped."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:367
+#: 29e3f5d6fff842098e7d348b9614d99d
+msgid "New package"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:369
+#: ef6459cd62c749a8adbc9ef5f78cb758
+msgid "Introduced `ovmf-legacy`, providing `OVMF.legacy.fd` with PVSCSI support."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:371
+#: b9d1141d2005474fa707359afc2d343c
+msgid ""
+"Further details on new features and bug fixes are available in the "
+"upstream changelogs:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:373
+#: 846f3f752b7942c2ba4057ad7f6fe8ff
+msgid "[edk2-stable202505](https://github.com/tianocore/edk2/releases/tag/edk2-stable202505)"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:375
+#: 12d01a2bfb264dcd9e5a64ed097c76a1
+msgid "[edk2-stable202508](https://github.com/tianocore/edk2/releases/tag/edk2-stable202508)"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:377
+#: f528192c29b4412c888040c7df2d68c9
+msgid "[edk2-stable202511](https://github.com/tianocore/edk2/releases/tag/edk2-stable202511)"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:379
+#: 7f9f3d35e1ce4cda82fb9b8197cc475f
+msgid "DocumentDB"
+msgstr ""
+
+#: ../../reuse/26.04/documentdb-0.108-0-features.txt:2
+#: 64655096dd504b3ba1a3fc295650a635
+msgid ""
+"DocumentDB is now available in Ubuntu, starting with version 0.108-0. It "
+"is a powerful, scalable, MongoDB compatible open-source document database"
+" built for modern applications, built on PostgreSQL. For more information"
+" see [documentdb.io](https://documentdb.io/)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:384
+#: b14662d88af745edb4b1193b1e97c12b
+msgid "MariaDB is fully supported"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:386
+#: 59edc28384da445e9cbbdfbab988e1d8
+msgid ""
+"MariaDB was updated to the latest LTS version 11.8.6. For more "
+"information on the MariaDB LTS, see the [upstream release "
+"notes](https://mariadb.com/docs/release-notes/community-server/11.8)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:389
+#: 3c4ce7c4fb9847f2b496e582e95860c7
+msgid ""
+"Starting with 26.04, MariaDB will now be provided with [full support in "
+"Ubuntu "
+"main](https://bugs.launchpad.net/ubuntu/+source/mariadb/+bug/2122095)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:391
+#: 105c7c5e659849088cd2e4b00d45bdf4
+msgid ""
+"MariaDB was updated to the latest LTS version 11.8.6. For more "
+"information on the MariaDB LTS, [see the upstream release "
+"notes](https://mariadb.com/docs/release-notes/community-server/11.8)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:393
+#: 002e95db88ac434ebb8dee053ea33501
+msgid "The MySQL and MariaDB servers are mutually exclusive on Ubuntu for now."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:395
+#: 36487a0386ea4021ba10a700f6554e76
+msgid "MySQL"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:397
+#: e1d552a615a446f6b32d9554fc5ae090
+msgid ""
+"MySQL’s current LTS version 8.4 is provided in Ubuntu 26.04 LTS, starting"
+" with version 8.4.8. Future security fixes will be provided by 8.4.x "
+"version updates. For more information see the [upstream release "
+"notes](https://dev.mysql.com/doc/relnotes/mysql/8.4/en/)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:399
+#: eddb53cb53f74d558946585ad9dce9c0
+msgid "MySQL Shell"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:401
+#: d93553a9989b441894285affa5e5fba5
+msgid ""
+"MySQL Shell was updated to the latest LTS version, 8.4.8, to match "
+"MySQL’s version. See the [upstream release "
+"notes](https://dev.mysql.com/doc/relnotes/mysql-shell/8.4/en/) for more "
+"information."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:403
+#: ec72852064d945a7b80b716af9db873f
+msgid "Percona Toolkit"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:405
+#: 708a8e2ecadd497f90063ce84ded8498
+msgid ""
+"Percona Toolkit was updated to the latest version, 3.7.1, and now "
+"includes additional tools for managing your MySQL, MariaDB, or PostgreSQL"
+" server. This includes `pt-galera-log-explainer`, `pt-k8s-debug-"
+"collector`,  and `pt-pg-summary` among others."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:407
+#: 7bebf1aa640643a8935019e3cdb35ec6
+msgid "PostgreSQL"
+msgstr ""
+
+#: ../../reuse/26.04/postgresql-18-features.txt:2
+#: 341a74a4efda4b6ca159e3e95ef2fd1b
+msgid ""
+"PostgreSQL was updated to version 18. This new version improves "
+"performance for workloads of all sizes through a new I/O subsystem that "
+"has demonstrated up to 3× performance improvements when reading from "
+"storage, and also increases the number of queries that can use indexes. "
+"This release makes major-version upgrades less disruptive, accelerating "
+"upgrade times and reducing the time required to reach expected "
+"performance after an upgrade completes. Developers also benefit from "
+"PostgreSQL 18 features, including virtual generated columns that compute "
+"values at query time, and the database-friendly `uuidv7()` function that "
+"provides better indexing and read performance for UUIDs. PostgreSQL 18 "
+"makes it easier to integrate with single-sign on (SSO) systems with "
+"support for OAuth 2.0 authentication."
+msgstr ""
+
+#: ../../reuse/26.04/postgresql-18-features.txt:4
+#: f5bac69059384daf9e7cb9797d2640ac
+msgid ""
+"For further information, check the [upstream release "
+"announcement](https://www.postgresql.org/about/news/postgresql-18-released-3142/)"
+" and the [upstream release "
+"notes](https://www.postgresql.org/docs/18/release-18.html)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:412
+#: ce1153df6b274201ad0602f4d2c3a029
+msgid "Valkey"
+msgstr ""
+
+#: ../../reuse/26.04/valkey-9.0-features.txt:2 3067150c175740a688988d1772e0793a
+msgid ""
+"Valkey was updated to version 9.0, starting with 9.0.3. This includes "
+"various features and improvements beyond 8.x, such as atomic slot "
+"migrations and hash field expiration."
+msgstr ""
+
+#: ../../reuse/26.04/valkey-9.0-features.txt:4 4962e65f1658491493d630f60f223760
+msgid ""
+"For more information on the new version, see the [Valkey 9 blog "
+"post](https://valkey.io/blog/introducing-valkey-9/). Release notes are "
+"available on the [Valkey project GitHub](https://github.com/valkey-"
+"io/valkey/releases)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:417
+#: 0358e2304d1d4ee7b9c5c06078632c5c
+msgid "fence-agents"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:419
+#: 693d006fb20848b4821a9059cc2bc8c9
+msgid ""
+"`fence-agents` is updated to version 4.17.0. This version includes a few "
+"new agents, like `aws_vpc_net` and `hetzner_cloud`, and enhancements to "
+"the existing ones."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:421
+#: 9a845d19943f409fa0dec90b8960243b
+msgid ""
+"In terms of security, the `azure_arm` agent replaced the dependency on "
+"`msrestazure` (deprecated) to `azure-identity`."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:423
+#: 20c1b7b0ac614ac18b11b1bfe87b4b8c
+msgid ""
+"For a list of all changes, please refer to the [upstream "
+"changes](https://github.com/ClusterLabs/fence-"
+"agents/compare/v4.16.0...v4.17.0)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:425
+#: 5d94049959fa4a46a18153e5cd31ded5
+msgid "resource-agents"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:427
+#: 8305f23ed7414e10b4e94d1bc8614d33
+msgid ""
+"`resource-agents` is updated to version 4.17.0. This version includes "
+"several new agents, like `aws-datasync-*` and `tickle-*`, and "
+"enhancements to the existing ones."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:429
+#: 8793e7dced3c483b972b1c46eeb870cd
+msgid ""
+"For a list of all changes, please refer to the [upstream release "
+"notes](https://github.com/ClusterLabs/resource-"
+"agents/blob/main/ChangeLog)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:431
+#: 0bffe6e6dc884e1ca73d2f58e5ea6ff3
+msgid "HAProxy"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:433
+#: 5aa5b9278872451fb4a5ae44b7f39b87
+msgid ""
+"HAProxy was updated to the latest upstream LTS release, 3.2, which "
+"introduces performance and efficiency improvements, faster and more "
+"reliable QUIC protocol support, and more. For further details on this new"
+" release, please check the HAProxy 3.2 [upstream "
+"announcement](https://www.mail-"
+"archive.com/haproxy@formilux.org/msg45917.html)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:435
+#: ../../26.04/changes-since-previous-interim.md:650
+#: a77d39a7a0f84f51a50d3ad9b9d1e572 e788ce20447a42f789d8e5cb57c04390
+msgid "Microsoft Azure"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:437
+#: 87c433ee8ae142249128b5174ac3f1d9
+msgid ""
+"The `walinuxagent` package was updated to version `2.15.0.1`. This "
+"release brings several improvements to the Microsoft Azure Linux Guest "
+"Agent since Ubuntu Questing:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:439
+#: 9abaeaffacd544618a7550044e4b8054
+msgid "Extension Security"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:440
+#: f5c04c6993ad46319ac0bf4286d78168
+msgid ""
+"Introduced support for extension signature validation and policy "
+"enforcement to improve the security of VM extensions."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:442
+#: 6bf15d45eef04482ba3a9fc7063cd26d
+msgid "Memory Management"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:443
+#: 97e7b527622a4e1ab5dfd0dfd3288bde
+msgid ""
+"Implemented memory quota management using cgroups to ensure the agent "
+"maintains a predictable resource footprint."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:445
+#: 64370d84248e47d6b11060eb4c410a0c
+msgid "Enhanced Reliability"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:446
+#: cbd2fa501c19485b8b52b1f7757526c3
+msgid ""
+"Improved telemetry and retry strategies for extension artifact downloads,"
+" along with more robust log collection handling."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:448
+#: abf1df87aa1549bb9195a41590a7285c
+msgid "Documentation"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:449
+#: 7771836bcfe644148117f406d4c40f21
+msgid ""
+"Added a new `waagent` manpage for better local access to command-line "
+"documentation."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:451
+#: a5a771050fda4af684fa45e67f597402
+msgid ""
+"To overcome the former issues around password-changing functionality it "
+"will now utilize sha512_crypt of python3-passlib to be compatible with "
+"python 3.13 that removed crypt."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:453
+#: 42b0bac4dffc4f2e8afda8e0024def04
+msgid ""
+"For further details on the changes in this update, please refer to the "
+"upstream release notes:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:455
+#: 126495b8ab2845ec866a95f0971c4907
+msgid "[v2.12.0.2](https://github.com/Azure/WALinuxAgent/releases/tag/v2.12.0.2)"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:456
+#: 76fecf514a1c4ab9b7a59f6020e986ad
+msgid "[v2.13.1.1](https://github.com/Azure/WALinuxAgent/releases/tag/v2.13.1.1)"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:457
+#: 779a8a420fcc403e9feec7d5a30ae798
+msgid "[v2.14.0.1](https://github.com/Azure/WALinuxAgent/releases/tag/v2.14.0.1)"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:458
+#: 4c8b7a092d214facba48c3c1b9bec1c8
+msgid "[v2.15.0.1](https://github.com/Azure/WALinuxAgent/releases/tag/v2.15.0.1)"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:460
+#: b3bf98e226c14c04a66a6af8663963df
+msgid "OpenStack 2026.1 Gazpacho"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:462
+#: 6d33ee10dcb74c7dac321ff9ebe48cde
+msgid ""
+"OpenStack has been updated to the [2026.1 "
+"Gazpacho](https://releases.openstack.org/gazpacho/index.html) release. "
+"Gazpacho is a [SLURP](https://releases.openstack.org/) release, "
+"supporting direct upgrades from the previous SLURP release (2025.1 "
+"Epoxy). This includes packages for Aodh, Barbican, Ceilometer, Cinder, "
+"Designate, Glance, Heat, Horizon, Ironic, Keystone, Magnum, Manila, "
+"Masakari, Mistral, Neutron, Nova, Octavia, Placement, Swift, Watcher, and"
+" Zaqar."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:464
+#: f614449052b54939a52f10b2a2dd6ce1
+msgid "Eventlet migration"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:465
+#: 9497a97f835345889068ff73212fdb77
+msgid ""
+"Multiple projects completed or advanced the migration from Eventlet to "
+"native Python threading, including Cyborg, Designate, Manila (technology "
+"preview), Nova (experimental), and Watcher. This long-running effort "
+"modernizes OpenStack's concurrency model for long-term sustainability. "
+"Operators should review per-service concurrency configuration before "
+"upgrading."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:467
+#: bb54ca6430224da482e9dda3e00c6331
+msgid "Nova (Compute)"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:468
+#: b5a3103fb1144ce8876f40563698eaae
+msgid ""
+"Parallel live migrations improve memory transfer speed via multi-"
+"connection support. `IOThread` is now enabled by default for QEMU "
+"instances, offloading disk I/O from vCPU threads. Live migration of "
+"instances with vTPM devices is now supported in host secret security "
+"mode. The volume-attach API is asynchronous starting from microversion "
+"2.101, and UEFI firmware selection is now delegated to `libvirt`. Full "
+"OpenAPI schema coverage has been achieved across all Nova API endpoints."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:470
+#: 9a1ac92a07ac478e97ff72043d5621d7
+msgid "Neutron (Networking)"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:471
+#: 100181ec17434cfcacaeea6151e8b8d7
+msgid ""
+"A new network IP availability details API extension provides richer "
+"subnet and allocation pool usage information. OVN BGP capabilities have "
+"been integrated into the Neutron OVN driver, and ML2/OVN now supports "
+"North/South routing for external (SR-IOV, bare metal) ports as well as "
+"allowed address pairs with virtual MAC addresses. Additional OVN "
+"configuration options improve scalability."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:473
+#: 24ef70e703704e7eaa3bd45e2a4da986
+msgid "Ironic (Bare Metal)"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:474
+#: 5e6e1e22a9ec4093bb58c4ddb87213ba
+msgid ""
+"NFS and CIFS/SMB transport protocols are now supported for Redfish "
+"Virtual Media boot. Two new deploy interfaces have been added: "
+"`autodetect` (selects the best interface automatically) and `noop` (marks"
+" nodes active without deploying an OS). A new standalone networking "
+"service enables physical switch management without Neutron, and "
+"VXLAN/Geneve overlay networks are now supported for bare metal nodes."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:476
+#: df62bcdbd5bc4b4e9f05001d07146d60
+msgid "Manila (Shared File Systems)"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:477
+#: aaae4f247ef04833ac5ce4d572cf3363
+msgid ""
+"QoS type support allows administrators to define throughput and IOPS "
+"limits via share type extra-specs or dedicated QoS type entities. Share "
+"replica metadata, custom export locations during share management, and "
+"new back-end drivers for HPE Alletra MP B10000 are included."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:479
+#: a93a384646db4999b86b3f4d94ef65b7
+msgid "Horizon (Dashboard)"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:480
+#: f51996e4a5c9438eb022f7e690d27d83
+msgid ""
+"Live migration with Nova microversion 2.30 is now supported, and the Key "
+"Pairs page has been rewritten from AngularJS to Python/Django. A new "
+"configuration option avoids full container listings in the Swift panel, "
+"reducing resource consumption."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:482
+#: 4c14a25ac58744998ea6bebfcf11b15a
+msgid ""
+"For the full list of [upstream release "
+"highlights](https://releases.openstack.org/gazpacho/highlights.html), see"
+" the OpenStack 2026.1 Gazpacho documentation."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:484
+#: 26e4769b26f2428c94091ac5e5327868
+msgid "Development features"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:486
+#: 0c2fa4f43bfd4c71b695b90724a2ab62
+msgid "Toolchain upgrades 🛠️"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:488
+#: 509c8a7eb7064b4c933bb1f405820509
+msgid "`glibc` 2.42 now ships non-UTF8 encodings as `libc-gconv-modules-extra`."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:489
+#: 6f9256c806b244fd92491d5dfde09017
+msgid "LLVM 21 is the default LLVM toolchain."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:490
+#: 05a6302b9b914f9bb27ad266c9e4106a
+msgid "Rust 1.93.1 is the default Rust toolchain."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:492
+#: d4f83346bcec46d1a82a3289ba2cc0b3
+msgid "OpenJDK"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:494
+#: d4a910c3e8b647af95bf2494bc2259e0
+msgid ""
+"OpenJDK 25 package is the default and is TCK (Technology Compatibility "
+"Kit) certified on AMD64, ARM64, S390X, PPC64EL. The Java TCK is the most "
+"comprehensive test suite that covers all aspects of Java SE specification"
+" including language features, libraries and APIs. This guarantees "
+"interoperability and conformance to standard."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:496
+#: 4b1841ab7b0649108ada70a1359322dd
+msgid ".NET"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:500
+#: cd4a34eb139b45e8b904adf7ea93a178
+msgid "Rust + cargo-auditable"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:502
+#: 41bba53a5dfb445985b3817ee951d29d
+msgid ""
+"Rust packages built on Launchpad now have opt-in [cargo-"
+"auditable](https://github.com/ubuntu/ubuntu-release-notes) support. If "
+"enabled, binaries will include JSON-formatted metadata in a header "
+"section of the binary expressing the dependencies used to compile the "
+"binary. If a CVE is discovered in a popular Rust crate, this dependency "
+"metadata lets users and sysadmins immediately check if a binary is "
+"compromised."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:506
+#: 6344dbfa03154666a938248dbccc1d59
+#, python-brace-format
+msgid ""
+"For example, the dependency metadata for {manpage}`sudo-rs(1)` looks like"
+" this:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:538
+#: 95fbf850221a48bfb3d33bd07a5ced47
+msgid "Pretty printed"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:539
+#: bdd0e8ab5437419ab510a8705e6cd504
+msgid ""
+"This has been pretty-printed for ease of readability. In real life the "
+"data is minified and compressed."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:542
+#: 626072a25619413a8ed0b2994539907b
+msgid ""
+"We have enabled cargo-auditable support for a few well-known Rust "
+"packages:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:543
+#: cf2e141941b74b1ab7f3c417a3291db3
+msgid "`alacritty`"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:544
+#: 41a57ef48478468cbc5d369b22c4ff18
+msgid "`bat`"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:545
+#: f8e1cfbbcda349a3830f05fbea9792d6
+msgid "`du-dust`"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:546
+#: 992bae2a817340ccb302f9a32c55d60e
+msgid "`eza`"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:547
+#: b15a128f68ef472080333c34b9541f76
+msgid "`fd-find`"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:548
+#: 136ebd0f537a45349a5dea628628f553
+msgid "`hyperfine`"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:549
+#: 332c3434d2ce4766843c7c70dc556764
+msgid "`ripgrep`"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:550
+#: f27528019da34c9ca98e828c93aeb81e
+msgid "`sd`"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:551
+#: 90fce22088da42b980d4fbbe3540ab57
+msgid "`sudo-rs`"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:553
+#: d456dfc2fab7481d835a6d14de897151
+msgid ""
+"We encourage developers to turn on cargo-auditable support for their own "
+"packages!"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:555
+#: 7d434ace7bf24e0582f93e8a4c14b98a
+msgid ""
+"For more information, including how to opt in, see the [Ubuntu project "
+"documentation](https://documentation.ubuntu.com/project/contributors"
+"/language-specific/rust/cargo-auditable/)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:557
+#: 7b1f3feea95d4d449b97a1a597f1615c
+msgid "Backwards-incompatible changes"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:559
+#: 35061dd50fc2412fa712243f016a2a25
+msgid "System changes"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:562
+#: c6536deda1ee418ab3ed9be1acd3ad67
+msgid "`cgroup` v1 support has been removed"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:564
+#: 31ecc6075f2f48daacc3ea191569164c
+msgid ""
+"`systemd` version 259 no longer supports `cgroup` v1 (`legacy` and "
+"`hybrid`) hierarchies. As a result:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:566
+#: fcb0a95fc0034744a6c1851bbf12d1a8
+msgid ""
+"Ubuntu installations running `cgroup` v1 will not be allowed to upgrade "
+"to Ubuntu 26.04 LTS."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:567
+#: 26af900097e045b1ae1c507fec5db90e
+msgid ""
+"Ubuntu 26.04 LTS container workloads will not run on a host booted with "
+"`cgroup` v1."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:568
+#: 09f7393bed9b49748ae43cc12f708ace
+msgid ""
+"Ubuntu 26.04 LTS hosts do not support container workloads that require "
+"`cgroup` v1: for example, Ubuntu earlier than 18.04 LTS."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:570
+#: 66513c21b9f24bcbb9473b8355fa7104
+msgid ""
+"This change was made in `systemd` version 258. See the "
+"[changelog](https://github.com/systemd/systemd/releases/tag/v258) for "
+"more information."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:572
+#: fc1daae39bc14568834f071b2b7571a9
+msgid "Removable media are mounted under `/run/media`"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:574
+#: dd7d0736cf2b4ecaad267a4b29e07f38
+msgid ""
+"In previous Ubuntu releases, removable media were mounted under the "
+"`/media` directory. Starting with Ubuntu 26.04 LTS, `/run/media` is now "
+"the mount directory instead. This has several benefits:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:576
+#: 5487c9b4e627483f962f80afe30e5dd1
+msgid "Better support for read-only root file systems"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:577
+#: 7f6a3a124ffa416795c9b8793b5002bd
+msgid "Better alignment with other distributions and upstream defaults"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:578
+#: e869cce955984ba1923a2b4e21af8f7c
+msgid ""
+"Not requiring special cleanup routines because `/run` is hosted on a "
+"virtual memory file system (`tmpfs`)"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:580
+#: 0c299dc4af5f4fdda3ba7cba2da47990
+msgid ""
+"If you rely on the specific directory path for media access, check that "
+"your setup still works. For example, test your existing scripts."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:582
+#: 0eac7aed3e1e45968adf13aa42ce4301
+msgid "[LP#2130110](https://bugs.launchpad.net/ubuntu/+source/udisks2/+bug/2130110)"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:585
+#: e0dff5df975c42ffb7e0f64a77e5df69
+msgid "Ubuntu no longer supports IBM Z generations z14 or older"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:587
+#: 5a848351f5c74027a8e56ba9f5441316
+msgid ""
+"On the IBM Z (s390s) architecture, the architectural level set (ALS) was "
+"raised to build for IBM Z generation z15 ([LP: "
+"#2126577](https://launchpad.net/bugs/2126577)). As a result, Ubuntu 26.04"
+" LTS no longer works on IBM Z generations z14 (LinuxONE II) or older. You"
+" can't install Ubuntu 26.04 LTS on this hardware or upgrade to it. The "
+"`ubuntu-release-upgrader` prevents you from performing the upgrade."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:589
+#: c2a036339ad94ce5a86543a353825cd2
+msgid ""
+"IBM Z generation z14 (LinuxONE II) is still supported by Ubuntu Server "
+"24.04 LTS for up to 15 years in total."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:591
+#: 2ca4979f97364d149503afc4d2460b61
+msgid "Desktop changes"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:595
+#: bd3501ae72254990ab40185280daabfe
+msgid "Server changes"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:597
+#: 4bc900fcf2154d9181a51f1fb936d2d0
+msgid "TLS 1.0 and 1.1 disabled in Apache"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:599
+#: c651ef179b4d4cc3b869d9173c54383d
+msgid ""
+"The Debian changes for the new version of Apache have disabled TLS 1.0 "
+"and 1.1, following RFC 8996. These should be already disabled by default "
+"in OpenSSL, and now Apache follows the same. See [the fixed "
+"bug](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=943415)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:601
+#: 536b9cd18ed24b4eb060f838c7622e9b
+msgid "NFS"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:603
+#: 4e69e68183c74b339b49f18f6048b37d
+msgid ""
+"The `blkmapd` and `nfs-blkmap` services have been removed. From the "
+"`NEWS` file:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:605
+#: 888d076c05fc4b8eb132b52d4eb6d132
+msgid ""
+"pNFS block layout is deprecated in favor of pNFS SCSI layout. This is  "
+"because block layout could easily result in data loss, as documented in "
+"<https://linux-nfs.org/wiki/index.php/PNFS_block_server_setup>."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:607
+#: 62b0bf1197904329bdbfbb5508e7fdb5
+msgid ""
+"Users of pNFS are advised to move to the revised SCSI/NVMe layouts  that "
+"are safe to use and don't require the use of blkmapd."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:610
+#: 5ccbb5a3e5344609aa4a97253fd278b8
+msgid "Breaking changes in SSSD"
+msgstr ""
+
+#: ../../reuse/26.04/sssd-2.12-changes.txt:2 23f14178de3247f78b0c7c083d9e0dda
+msgid ""
+"SSSD now runs under user `sssd` (instead of `root`). Make sure that "
+"`sssd` can still access secrets or integrations from its new user."
+msgstr ""
+
+#: ../../reuse/26.04/sssd-2.12-changes.txt:4 8e945b81d12e4a6c8faf33ee4ba5511b
+msgid ""
+"The implicit files provider and domain was removed: see "
+"<https://sssd.io/docs/files-provider-deprecation.html>."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:620
+#: 6630e95801674bd0bf144e9983f0fb98
+msgid "Breaking changes in PHP"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:622
+#: f4432aaab4874d4b932c9dad7a131095
+msgid ""
+"It is no longer possible to use `array` and `callable` as class alias "
+"names in `class_alias()`."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:627
+#: a3315f5b44024913a8b422440942de9a
+msgid "Removed options and directives in Squid"
+msgstr ""
+
+#: ../../reuse/26.04/squid-7.2-removals.txt:2 9bf54fd27a3749b8b187e48eb2701cad
+msgid "Some directives and options were removed in Squid 7.2:"
+msgstr ""
+
+#: ../../reuse/26.04/squid-7.2-removals.txt:4 4d7b82dfdbaa4efea5a5260e50663ba2
+msgid "Removed `client_delay_access` directive."
+msgstr ""
+
+#: ../../reuse/26.04/squid-7.2-removals.txt:6 cab7cfe9b6a441568bc2fbbd3dd2074f
+msgid "Removed `ftp_epsv` directive."
+msgstr ""
+
+#: ../../reuse/26.04/squid-7.2-removals.txt:8 790a4524cafd46299ff7ae982f44b695
+msgid "Removed `cache_peer` option `no-netdb-exchange`."
+msgstr ""
+
+#: ../../reuse/26.04/squid-7.2-removals.txt:10 6262af3c170c400897e41753216aa677
+msgid ""
+"Removed `client_persistent_connections` and "
+"`server_persistent_connections` directives."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:634
+#: 1124968c159a47e99c9c19741d70f4cb
+msgid "Kerberos removes deprecated algorithms from its default lists"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:636
+#: 655d8663a7dc439ea166d977df004b05
+msgid ""
+"MIT Kerberos no longer includes the `arcfour-hmac-md5` and the `des3-cbc-"
+"sha1` algorithms in its default encryption algorithm list (the `openssh` "
+"and `krb5` lists). They are weak, deprecated algorithms. Before, `krb5` "
+"would include them in its default algorithm lists when users do not "
+"specify a list with algorithms to be used."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:638
+#: c57679786bcf4cf4b6332ff5fb2a6d17
+msgid ""
+"Note that we did not remove support for those algorithms. Instead we just"
+" dropped them from the default list that the client will try in case the "
+"user do not specify any algorithms in their configuration file in the "
+"`permitted_enctypes` directive in the `libdefaults` section in "
+"`/etc/krb5.conf`."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:640
+#: d60393dd6a7b471ab5443dff3e94de27
+msgid "PostgreSQL is no longer available on i386"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:642
+#: a0a27a045344491a87f00d9d47b5efca
+msgid ""
+"PostgreSQL 18 in Ubuntu 26.04 LTS no longer builds for the i386 "
+"architecture. Therefore, it no longer produces the `libpq-dev` and "
+"`libpq5` binary packages for that architecture. This means that any "
+"package depending on those libraries will also not be available in i386."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:644
+#: 6980cb24eae440bda6bb97e6ef0dcd54
+msgid ""
+"See [LP: #2142320](https://bugs.launchpad.net/ubuntu-release-"
+"notes/+bug/2142320) for more information."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:646
+#: 7555f7527a5d44e0afc0b8545a3c7dd6
+msgid "Replaced agents in `resource-agents`"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:648
+#: 9208167d710e49a2b8a3e2b7e609d680
+msgid ""
+"The `oracledb` and `zabbixagent` agents were replaced by the `oracle` and"
+" `zabbix-agent`, respectively. You might need to adjust your existing "
+"configuration."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:652
+#: 8911cd65131b47da8c671da1ffd8ad2e
+msgid ""
+"`Azure Disk Encryption` (ADE) is scheduled for retirement on September "
+"15, 2028. A number of packages were historically pre-installed on Azure "
+"images to allow the enablement of ADE without requiring additional "
+"package installations. Due to its impending retirement, Ubuntu on Azure "
+"will no longer maintain the enablement of ADE without additional package "
+"installations. Accordingly, the following packages have been removed from"
+" one or more Ubuntu image-lines on Azure:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:654
+#: b9e4421baba94c29881120c234969890
+msgid "`python3-parted`"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:655
+#: 67a213e5c1414f2e9055c4bbba8f4c39
+msgid ""
+"This package is largely unsupported by its maintainers, imposing a "
+"potential security risk into the future. Its only known use was for the "
+"enablement of ADE. It is no longer pre-installed on any Ubuntu image on "
+"Azure."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:657
+#: ad8dfab516cf46fbb8e6b91f2a1bce9c
+msgid "`python3-six`"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:658
+#: 514affd7d2b24164afe177791e02f6c1
+msgid ""
+"The only known use of this package was for the enablement of ADE. It is "
+"no longer pre-installed on any Ubuntu image on Azure."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:660
+#: 6db0658e725b4c0c8fcfc146d89bddd8
+msgid "`lsscsi`"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:661
+#: 37b681f190c1488e8dd4145b63d98d56
+msgid ""
+"This package was initially introduced to support ADE. It has been removed"
+" from all minimal Ubuntu image-lines to maintain the minimal footprint "
+"assertion. However, it remains a pre-installed package for all non-"
+"minimized Ubuntu images on Azure since it is a valuable debugging tool "
+"for individual instances and server deployments."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:669
+#: 91fcfc6cd91f46f8af7fbf810c4b37c8
+msgid "Removed features in OpenStack"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:671
+#: 8549ac753afd4415ac87ddfd3223fe02
+msgid "The Manila V1 API and the Manila shell utility have been removed."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:673
+#: 46505ad23422438cb08228460b26e7d1
+msgid ""
+"For details, see the Manila [release "
+"highlights](https://releases.openstack.org/gazpacho/highlights#manila) "
+"and [release "
+"notes](https://docs.openstack.org/releasenotes/manila/2026.1.html)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:679
+#: 822529dd0e5a45c0a3df3a13739a3dfc
+msgid "Deprecated features"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:681
+#: 98082a9b66924e0494bc202b942097ba
+msgid "System deprecations"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:684
+#: 211a9e2033374900be2286466b9e414c
+msgid "Legacy System V service scripts are deprecated"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:686
+#: d465af902b7b412c828d12e6dd9a59e4
+msgid ""
+"Ubuntu 26.04 LTS is the last release that supports System V service "
+"scripts compatibility in `systemd`. Migrate your legacy System V scripts "
+"to native `systemd` unit files."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:688
+#: 7ad1cdfbcfbf45a09cda6f67b0185a4e
+msgid ""
+"`systemd` version 260 [has already dropped "
+"support](https://github.com/systemd/systemd/releases/tag/v260), so this "
+"change will take effect in Ubuntu 26.10."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:690
+#: ff8800830e864cababe45eb8a591eacc
+msgid "Desktop deprecations"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:694
+#: ba0aed8637b745928f5315c30d06ff68
+msgid "Server deprecations"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:696
+#: b1185d38770e44339a5081d451f4b419
+msgid "PHP"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:698
+#: 5feafc7052264766a2f92e475310c6ff
+msgid "Deprecation of the backtick operator"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:699
+#: 4b7016438218455f8001874f8dec1e99
+msgid ""
+"Non-canonical cast names (boolean), (integer), (double), and (binary) "
+"have been deprecated. (bool), (int), (float), and (string) need to be "
+"used instead."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:700
+#: 6704809d826c4ad186b76ff90f30123f
+msgid ""
+"Using null as an array offset or when calling array_key_exists() is now "
+"deprecated - now an empty string is needed."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:716
+#: 57cb856cb1f44797a2d1d81099960e14
+msgid "Bug fixes"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:718
+#: c36375d5078e4174b44e53d4ade50cd6
+msgid "Desktop fixes"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:722
+#: 7f25e5f9697c4a9e97b3c633e43584ab
+msgid "Server fixes"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:724
+#: 095b4ae19dc3414eb81d5e07a52c52a7
+msgid "Apache 2.4.65"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:726
+#: 9abc6891163d4d20bcebbbb795128062
+msgid ""
+"Apache has been updated to upstream version 2.4.65. For more details, see"
+" the [upstream release "
+"notes](https://www.apachelounge.com/Changelog-2.4.html)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:728
+#: 3aae7388029c4b5398c4fb67f10f162c
+msgid "Nginx 1.28.2"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:730
+#: 71c4b532f5b5414fb405596dcefee8e1
+msgid ""
+"Nginx was updated to version 1.28.2, which includes fixes for various "
+"bugs. See the [1.28 series upstream release "
+"notes](https://nginx.org/en/CHANGES-1.28)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:732
+#: 4940d6cc10a44977b59a259ac0b104d5
+msgid "Django 5.2.9"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:734
+#: fc966348fd9f420b970096f0231fedaa
+msgid ""
+"Django was updated to LTS version 5.2.9. For more information, see the "
+"[Django 5.2 release "
+"notes](https://docs.djangoproject.com/en/6.0/releases/5.2/)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:736
+#: 6a031bc5fb744a3ea1b8ec47fc37c4a2
+msgid "OpenSSH 10.2"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:738
+#: 582f5bd7f44c49f5b7473ffc9f336676
+msgid ""
+"OpenSSH was updated to version 10.2, which is a bugfix release on top of "
+"10.1 present in the Ubuntu Questing 25.10 release."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:740
+#: 2f09416ac1cb4a779b55c8b36bba8db9
+msgid ""
+"As per RFC 8732, gss-group14-sha1- and gss-gex-sha1- are considered "
+"deprecated algorithms and should not be used. Therefore, we dropped those"
+" deprecated algorithms from the Ubuntu GSS-API support patch. This does "
+"not mean those algorithms are no longer supported. Instead, they were "
+"removed from the default list that the client or the server will try for "
+"GSS key exchange in case the user does not specify any algorithms in "
+"their configuration file."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:742
+#: b69b6ea6b5dc410d800e44f7e63f34af
+msgid "Dovecot 2.4.2"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:744
+#: 7a1f24e4efd541879b35a65a9e1891c2
+msgid ""
+"Updated to 2.4.2. See the [upstream "
+"announcement](https://dovecot.org/mailman3/archives/list/dovecot@dovecot.org/thread/XTMMPVQ3QKQMYDZ3CZZCXPNHN7OXKS3L/)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:746
+#: 5e34e4baddff4ebb81314e7eaf9f3f27
+msgid "Postfix 3.10.6"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:748
+#: 41467415656949dea6f16c6cc595b073
+msgid ""
+"Postfix was updated to version 3.10.6. See the [upstream "
+"announcement](https://www.postfix.org/announcements/postfix-3.10.6.html)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:750
+#: c927aeb8e30c406a80bc3031136b802b
+msgid ""
+"A noteworthy change in the packaging of Postfix is that **by default it "
+"is no longer installed in a `chroot`, and only limited `chroot` support "
+"is available from now on**."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:752
+#: 659afde6899b42249a85c0d31cef9390
+msgid "`unbound` 1.24.2"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:754
+#: 12e7bcd2a64d43e9a0f9849af5a6607d
+msgid ""
+"Update to version 1.24.2. See the [upstream "
+"changelog](https://github.com/NLnetLabs/unbound/releases/tag/release-1.24.2)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:771
+#: 3f92edda433d4e08a6a8587ce16b10fd
+msgid "Known issues"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:773
+#: 45457aa1330b493697a46c063f19cb25
+msgid ""
+"As is to be expected with any release, there are some significant known "
+"bugs that users may encounter with this release of Ubuntu. The ones we "
+"know about at this point (and some of the workarounds) are documented "
+"here, so you don’t need to spend time reporting these bugs again:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:775
+#: af11957db1b84ff7a117f43349e2552f
+msgid "System issues"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:777
+#: a7281383365d41cf9106b84dbf7f28ef
+msgid "Hardware requiring `nomodeset`"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:779
+#: 37cc8e10b30742ceb7a8458d95775df4
+msgid ""
+"Some particular hardware (e.g. Thinkpad x201) might have issues ([general"
+" freeze](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2084055), "
+"[`desktop-security-center` not launching](https://github.com/canonical"
+"/desktop-security-center/issues/81)), when booted without `nomodeset` "
+"(Safe graphics). Follow these steps if you encounter such an issue:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:781
+#: 7aaf753783d94b849b0caa9f24a7c0de
+msgid ""
+"At the GRUB boot menu, press `e` (keep `Shift` pressed during early boot "
+"if the menu doesn’t show up)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:782
+#: 92aa799a2589411bb9501da7450d0f42
+msgid "Add `nomodeset` to `linux` line, like the example below:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:788
+#: 1fc30294d1714fe09ab39ecff24e1567
+#, python-brace-format
+msgid "Press {kbd}`Ctrl-x` to continue the boot process"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:789
+#: d45186fa14e74ce892ddee706eee0941
+msgid ""
+"After installation is complete, reboot, use `nomodeset` again, like the "
+"example below:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:795
+#: eba5927be38a40c5bb667acbf8f01569
+msgid ""
+"Add `nomodeset` to the GRUB config file, `/etc/default/grub`, like the "
+"example below:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:801
+#: 26f6b8a285004e66a143545714294937
+msgid "Finally, run `sudo update-grub` to make the change take effect."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:809
+#: 6d9d989877e84e138185b718a5ab62f3
+msgid "Raspberry Pi"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:811
+#: 76b48bbbc9c34f9b8d5ee4898a2ecf3a
+msgid ""
+"The new `gnome-initial-setup` has issues preventing it from working "
+"properly:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:812
+#: 3f393b5f4b634f95ba20cedc4a1819c0
+msgid ""
+"The selected key layout does not persist ([LP: "
+"#2127782](https://launchpad.net/bugs/2127782))"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:813
+#: 22b375b69caa43f48dfaaae85148160d
+msgid ""
+"Time zone input dropdown can \"wobble\" ([LP: "
+"#2084611](https://launchpad.net/bugs/2084611))"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:814
+#: b89d49c8140f44aba038e3743ec2ff66
+msgid ""
+"The hostname change is mandatory ([LP: "
+"#2093132](https://launchpad.net/bugs/2093132))"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:816
+#: 0fb56788d6f445deb5191a03c2a31b03
+msgid ""
+"During boot on the server image, if your `cloud-init` configuration (in "
+"`user-data` on the boot partition) relies upon networking (importing SSH "
+"keys, installing packages, etc.) you *must* ensure that at least one "
+"network interface is required (`optional: false`) in `network-config` on "
+"the boot partition. This is due to Netplan changes to the `wait-online` "
+"service (~~[LP: #2060311](https://launchpad.net/bugs/2060311)~~). "
+"Furthermore, a current issue may cause `cloud-init` to run before the "
+"network is ready ([LP: #2144891](https://launchpad.net/bugs/2144891))"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:818
+#: cc44dc16927f497e90ecf5c30a550bb4
+msgid ""
+"With the removal of the `crda` package in 22.04, the method of setting "
+"the WiFi regulatory domain (editing `/etc/default/crda`) no longer "
+"operates. On server images, use the `regulatory-domain` option in the "
+"Netplan configuration. On desktop images, append "
+"`cfg80211.ieee80211_regdom=GB` (substituting `GB` for the relevant "
+"country code) to the kernel command line in the `cmdline.txt` file on the"
+" boot partition  ([LP: #1951586](https://launchpad.net/bugs/1951586))."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:820
+#: 021d724410a14527b9072056d7a6c6eb
+msgid ""
+"Colors appear incorrectly in the Ubuntu App Center ([LP: "
+"#2076919](https://launchpad.net/bugs/2076919))"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:822
+#: cb50876262624602a16e987d701a58fe
+msgid ""
+"On server images, re-authentication to WiFi APs when regulatory domain is"
+" set result in `dmesg` spam to the console ([LP: "
+"#2063365](https://launchpad.net/bugs/2063365))"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:824
+#: 86b635eea28e4d73a4a2a5b1bfa7bdd5
+msgid "Netboot installs"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:826
+#: a072cac92a23411eb0c3f342881d030d
+msgid ""
+"There is a bug ([LP: #2104316](https://bugs.launchpad.net/ubuntu-power-"
+"systems/+bug/2104297)) in the *beta* images that prevents netboot "
+"installs in some scenarios."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:828
+#: 6ebb0753e5124d938b5015afb5b1af0f
+msgid "cloud-init upgrade"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:830
+#: 33c829b81d6e4e2191c4be16daec8993
+msgid ""
+"It has been reported that cloud-init may fail to upgrade properly in the "
+"Oracular to Plucky upgrade path, see [LP: "
+"#2104316](https://bugs.launchpad.net/ubuntu-power-systems/+bug/2104297)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:832
+#: e5b888467e0a4d4980d53aaa1f6bda3a
+msgid "ZFS with cryptoswap"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:834
+#: 7eacfac008964f74a41f64e2d984232c
+msgid ""
+"ZFS with Encryption on Ubuntu 24.10 will [fail to activate the cryptoswap"
+" "
+"partition](https://bugs.launchpad.net/ubuntu/+source/subiquity/+bug/2084089)."
+"  This affects both new installs and upgrades.  We expect to address this"
+" post-release with an archive update."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:836
+#: fe98ba751379456797875c7ada887d5e
+msgid "I/O scheduler"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:838
+#: baf09f176f574460bf3ebcc7717d9baf
+msgid ""
+"A bug prevents the I/O scheduler from being reset to “none” ([LP: "
+"#2083845](https://bugs.launchpad.net/bugs/2083845)): the fix is already "
+"in Linux v6.11.2, and will be part of the first SRU kernel."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:840
+#: d5d22cb4a10a44dbb47fed1046baed69
+msgid "FAN networking"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:842
+#: 3c01dd956440437b9f32c4abd2789577
+msgid ""
+"Support for FAN networking has been dropped in the 6.11 release kernel. "
+"It will be re-introduced in the next 6.11 kernel update shortly."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:846
+#: 0ed27bc304e746a8a4e90cdcf3ec4dd0
+msgid "Desktop issues"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:848
+#: 082d26374fa94fecb83e8d73296d64c8
+msgid "Localization"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:850
+#: ffd8486c87eb4aa7b368125205ef5d7e
+msgid ""
+"The Live Session of the new Ubuntu Desktop installer is not localized. It"
+" is still possible to perform a non-English installation using the new "
+"installer, but internet access at install time is required to download "
+"the language packs. ([LP: #2013329](https://bugs.launchpad.net/ubuntu-"
+"release-notes/+bug/2013329))"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:852
+#: 2bf302647cbe40d993f444fda750c459
+msgid "Screen reader support"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:854
+#: 0b7ec5efcb36411aab5ebaef771c2acd
+msgid ""
+"Screen reader support is present with the new desktop installer, but is "
+"incomplete ([LP: #2061015](https://launchpad.net/bugs/2061015), [LP: "
+"#2061018](https://launchpad.net/bugs/2061018), [LP: "
+"#2036962](https://launchpad.net/bugs/2036962), [LP: "
+"#2061021](https://launchpad.net/bugs/2061021))"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:856
+#: 6d19b052a3304eabaa245b688df1d248
+msgid "OEM installs"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:858
+#: f82ce683332740198712c57ab407cd76
+msgid ""
+"OEM installs are not supported yet. ([LP: "
+"#2048473](https://launchpad.net/bugs/2048473))"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:860
+#: 36ed8b88a0ad4610ac4069172834fadd
+msgid "Virtualized GTK 4 apps"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:862
+#: cc6872ef9cac440097f6a98125c8e051
+msgid ""
+"GTK 4 apps (including the desktop wallpaper) do not display correctly "
+"with VirtualBox or VMWare with 3D Acceleration ([LP: "
+"#2061118](https://launchpad.net/bugs/2061118))."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:864
+#: 8f35639920d54a81a90bc121e4a1b59d
+msgid "Limitations of TPM-backed full disk encryption"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:866
+#: 703c13bea3ec407aa32788faef648b89
+msgid ""
+"TPM-backed full disk encryption (TPM/FDE) has been introduced to enhance "
+"data security. The following are its known issues and limitations as of "
+"the Ubuntu 26.04.0 LTS release:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:868
+#: 258498d0437c45a494617d00daa2b1cf
+msgid ""
+"Some potentially eligible systems might be detected as **ineligible** for"
+" TPM/FDE."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:870
+#: 90fe26c83e83463f85d0c911bb85b7bb
+msgid ""
+"If you **forget the passphrase or PIN** and you boot your system with the"
+" recovery key, you can't remove or replace the passphrase or PIN anymore."
+" On subsequent boots, you have to continue using your recovery key."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:872
+#: 533ff8edcaa74c8e914ef29570dea865
+msgid "**Disk re-encryption** is currently not supported."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:874
+#: af8cc3531390420faa3633478ed65e47
+msgid ""
+"Certain **self-healing and reparation options** for defective systems "
+"after installation are currently missing."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:876
+#: 5e9ab0d38a7240d19b69ca5c3710350b
+msgid ""
+"TPM/FDE requires a specific kernel snap which may not include certain "
+"**kernel modules** necessary for some hardware functionalities. A notable"
+" example is the `vmd` module required for **NVMe RAID** configurations."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:878
+#: f96bb5ca72c84b7cbfd7954aeca8d06b
+msgid ""
+"In scenarios where such specific kernel modules are needed, you might "
+"have to disable the hardware feature (such as RAID) in the firmware to "
+"ensure the continued availability of the affected hardware post-"
+"installation. If disabling in the firmware is not an option, the related "
+"hardware will not be available post-installation with TPM/FDE enabled."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:880
+#: 32b58734bfc54dd091bba14f73c39e91
+msgid ""
+"**Nvidia drivers** are the only out-of-tree kernel drivers supported by "
+"TPM/FDE. You can't install other third-party drivers using DKMS."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:882
+#: 28ec6d2d8b4149439773c79baa105fcc
+msgid ""
+"For other known issues, see [FDE specific bug "
+"reports](https://bugs.launchpad.net/bugs/+bugs?field.searchtext=&orderby=-importance&field.status%3Alist=NEW&field.status%3Alist=CONFIRMED&field.status%3Alist=TRIAGED&field.status%3Alist=INPROGRESS&field.status%3Alist=FIXCOMMITTED&field.status%3Alist=INCOMPLETE_WITH_RESPONSE&field.status%3Alist=INCOMPLETE_WITHOUT_RESPONSE&assignee_option=any&field.assignee=&field.bug_reporter=&field.bug_commenter=&field.subscriber=&field.tag=fde&field.tags_combinator=ANY&field"
+".status_upstream-empty-"
+"marker=1&field.has_cve.used=&field.omit_dupes.used=&field.omit_dupes=on&field.affects_me.used=&field.has_patch.used=&field.has_branches.used=&field.has_branches=on&field.has_no_branches.used=&field.has_no_branches=on&field.has_blueprints.used=&field.has_blueprints=on&field.has_no_blueprints.used=&field.has_no_blueprints=on&search=Search)."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:884
+#: ddc41587eb9d4d3c979b5cf25d9e3a42
+msgid "Resuming from suspend on Nvidia"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:886
+#: e48806c8f09a49b58b88f4d1c80db034
+msgid ""
+"Resuming from suspend on Nvidia desktops (where Nvidia is the primary GPU"
+" so generally not laptops)  will exhibit visual corruption and freezes "
+"using the default Wayland session  "
+"([LP#1876632](https://bugs.launchpad.net/bugs/1876632)). If you need "
+"suspend/resume support then the simplest solution is to select ‘Ubuntu on"
+" Xorg’ at the login screen."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:888
+#: a93f38b5628e493caa328939e0d68724
+msgid "Classic fonts"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:890
+#: 3dd748653b0e4da38d42c24141669b3b
+msgid ""
+"Installing `ubuntu-fonts-classic` results in a non-Ubuntu font being "
+"displayed ([LP#2083683](https://bugs.launchpad.net/bugs/2083683)). To "
+"resolve this, install `gnome-tweaks` and set ‘Interface Text’ to "
+"‘Ubuntu’."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:892
+#: 7d63e829bad44a949d4920e56304da45
+msgid "Server issues"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:894
+#: b49f72f1d7ee41c8a422c8e0fe0fb9c1
+msgid "Apache2 security hardening breaks the `mod-php` JIT"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:896
+#: 897e5938dec84f37ae49939228ab0e12
+msgid ""
+"The Apache2 `systemd` service unit now sets the "
+"`MemoryDenyWriteExecute=yes` option by default as a security hardening "
+"measure. This prevents simultaneously writable and executable memory "
+"mappings. However, it breaks PHP's JIT compiler when using the "
+"`libapache2-mod-php` module, producing warnings such as the following:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:902
+#: 70f3ef25c889465f8e426bcd150e5000
+msgid ""
+"We recommend that you switch from `mod-php` to the `php-fpm` service, "
+"which isn't affected by the change."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:904
+#: 71052c4fb6434d79a8a2f28f4b752757
+msgid ""
+"If you want to continue using `mod-php`, override the setting by editing "
+"the Apache2 `systemd` unit:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:906
+#: ed3105e267a94a2fa3b6da44b2404739
+msgid "Open the editor:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:912
+#: 9b83c863e76d4a2faeb3e9660b3d7b53
+msgid "Uncomment and edit the following line and save:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:919
+#: 37268c44267548d8a1d08458b472f7a6
+msgid "Restart Apache2:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:925
+#: 16d05d327067405b8ba6f07e19c430b7
+msgid ""
+"See [LP: #2144455](https://bugs.launchpad.net/ubuntu-release-"
+"notes/+bug/2144455) and the [systemd.exec "
+"documentation](https://www.freedesktop.org/software/systemd/man/latest/systemd.exec.html#MemoryDenyWriteExecute=)"
+" for more information."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:936
+#: 0647c22747dd46d8adb80cc7022261be
+msgid "Installer"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:938
+#: 7fdf773adc7948c5812f8c69827c19e7
+msgid ""
+"On systems booting via U-Boot, U-Boot should be updated to the current "
+"Plucky version before installation as subiquity does not run flash-kernel"
+" and grub-update during the installation. So for first boot the device-"
+"tree from U-Boot will be used."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:940
+#: ab271c3db7f64f768cdab4b37a906694
+msgid ""
+"In some situations, it is acceptable to proceed with an offline "
+"installation when the mirror is inaccessible. In this scenario, it is "
+"advised to use:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:947
+#: 1839f016de1e4c0286f55d58e9bc21a3
+msgid ""
+"Network interfaces left unconfigured at install time are assumed to be "
+"configured via dhcp4. If this doesn’t happen (for example, because the "
+"interface is physically not connected) the boot process will block and "
+"wait for a few minutes ([LP: "
+"#2063331](https://bugs.launchpad.net/subiquity/+bug/2063331)). This can "
+"be fixed by removing the extra interfaces from `/etc/netplan/50-cloud-"
+"init.conf` or by marking them as `optional: true`. Cloud-init is disabled"
+" on systems installed from ISO images, so settings will persist."
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:949
+#: 6fb3b2ac3b5c4997a0232121fccb0343
+msgid "Official flavors"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:951
+#: a6c25c8aa9c9473cb6eb7ac113b437d5
+msgid "Find the release notes for the official flavors at the following links:"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:953
+#: 58c97cb2218f47a2b96977c31d6b5eac
+msgid ""
+"[Edubuntu Release Notes](https://discourse.ubuntu.com/t/edubuntu-26-04"
+"-beta-released/)"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:954
+#: 302f34561c284c498618671da158b687
+msgid ""
+"[Kubuntu Release "
+"Notes](https://wiki.ubuntu.com/PluckyPuffin/ReleaseNotes/Kubuntu)"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:955
+#: 2e82334ee69341aeb1547a6cde6999f5
+msgid "[Lubuntu Release Notes](https://lubuntu.me/lubuntu-25-04-p-p-released/)"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:956
+#: 15857e441a7b43c5ac13029b2b7a3237
+msgid ""
+"[Ubuntu Budgie Release Notes](https://ubuntubudgie.org/2025/04/ubuntu-"
+"budgie-25-04-release-notes/)"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:957
+#: 9ffe24a10de944ff8cd8266fa5a9a836
+msgid ""
+"[Ubuntu MATE Release Notes](https://ubuntu-mate.org/blog/ubuntu-mate-p-p"
+"-release-notes/)"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:958
+#: e4e88af3453d473d9c7d87a86437262a
+msgid ""
+"[Ubuntu Studio Release Notes](https://discourse.ubuntu.com/t/ubuntu-"
+"studio-26.04-release-notes/)"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:959
+#: 706505049eaf41c090fc70bed6393be3
+msgid ""
+"[Ubuntu Unity Release Notes](https://ubuntuunity.org/posts/ubuntu-"
+"unity-2504-released/)"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:960
+#: dea94dd5c88b41959bd066d208b4aa2f
+msgid ""
+"[Xubuntu Release Notes](https://wiki.xubuntu.org/releases/25.04/release-"
+"notes)"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:961
+#: e38a70862bf940a390c3b5e2fe47dcfd
+msgid ""
+"[Ubuntu Kylin Release "
+"Notes](https://ubuntukylin.com/news/ubuntukylin2504-en.html)"
+msgstr ""
+
+#: ../../26.04/changes-since-previous-interim.md:962
+#: 4872ed7379ad4cacb2db1d89404f80b8
+msgid "[Ubuntu Cinnamon Release Notes](https://ubuntucinnamon.org/?p=1348)"
+msgstr ""
+

@@ -11,7 +11,7 @@ tocdepth: 3
 
 Ubuntu is a Linux distribution for your desktop or server, with a fast and easy install, regular releases, a tight selection of excellent applications installed by default, and almost any other software you can imagine available through the network. Ubuntu 6.06 LTS (Long Term Support) will be supported with security updates for 5 years on the server and 3 years on the desktop after its release, and professional technical support is available from many companies around the world.
 
-These Release Notes cover new features in Ubuntu 6.06 LTS, download and installation notes, known issues, and frequently asked questions. Please read these notes before, during, and after installation and configuration of Ubuntu 6.06 LTS, and before reporting bugs in [Launchpad](https://launchpad.net/malone/distros/ubuntu).
+These Release Notes cover new features in Ubuntu 6.06 LTS, download and installation notes, known issues, and frequently asked questions. Please read these notes before, during, and after installation and configuration of Ubuntu 6.06 LTS, and before reporting bugs in Launchpad `https://launchpad.net/malone/distros/ubuntu`.
 We hope you enjoy Ubuntu.
 
 ---
@@ -53,13 +53,13 @@ Ubuntu is released regularly and predictably. Since our October 2005 release (Ub
 
 * There are both low-end, and "big iron" server kernels. The low-end
     server kernel is generic, and should work on the same equipment
-    that the desktop kernel runs on. The highend server kernel is
+    that the desktop kernel runs on. The high-end server kernel is
     geared towards systems with greater than 8 CPUs (ES7000 / Summit
     / BIGSMP).
 
 * Turn-key LAMP installation for this common deployment scenario
 
-* Improved support for clusters and SANs
+* Improved support for clusters and `SANs`
 
 * Numerous thin client enhancements, including faster client startup,
     graphical boot process, reduced memory requirements, and sound
@@ -108,7 +108,7 @@ Ubuntu is released regularly and predictably. Since our October 2005 release (Ub
 * The system PATH is now set in exactly one place, /etc/environment, for
     convenient administration
 
-As always, Ubuntu includes the very best of the 100% Free / Libre
+As always, Ubuntu includes the very best of the 100% Free / `Libre`
 application software world, and each new release incorporates
 countless new features and bugfixes from the global development
 community.
@@ -145,7 +145,7 @@ This is a small server profile, which provides a common base for all sorts of se
 
 * `redhat-cluster-suite` [fails to install properly](https://launchpad.net/bugs/47645) due to changed error reporting from `ccs_test`. A workaround is to install `ccs` first, provide a valid configuration for it, and install the rest of the suite later. See `/usr/share/doc/gfs-tools/min-gfs.txt` in the `gfs-tools` package for details. Updated packages are available via dapper-updates.
 
-* Upgrades from Ubuntu 5.10 on certain Dell desktop models may hang while upgrading a legacy support package for the PCMCIA subsystem.  An update has been published in the `dapper-updates` repository to correct this problem.
+* Upgrades from Ubuntu 5.10 on certain Dell desktop models may freeze while upgrading a legacy support package for the PCMCIA subsystem.  An update has been published in the `dapper-updates` repository to correct this problem.
 
 * Systems that have been upgraded from Ubuntu 5.04 (or earlier) [may have to manually delete linux-image-2.6.10 packages before the upgrade](https://launchpad.net/bugs/47537).
 
@@ -167,11 +167,11 @@ Technical Support for Ubuntu is available from a variety of sources: from the co
 
 * [www.ubuntu.com/support](http://www.ubuntu.com/support)
 
-If you have a question, or if you think you may have found a bug but aren't sure, first try asking on the #ubuntu IRC channel on Freenode, on the Ubuntu Users mailing list, or on the Ubuntu forums:
+If you have a question, or if you think you may have found a bug but aren't sure, first try asking on the #ubuntu IRC channel on `Freenode`, on the Ubuntu Users mailing list, or on the Ubuntu forums:
 
 * [lists.ubuntu.com/mailman/listinfo/ubuntu-users](http://lists.ubuntu.com/mailman/listinfo/ubuntu-users)
 
-* [www.ubuntuforums.org](http://www.ubuntuforums.org)
+* `www.ubuntuforums.org`
 
 
 (6-06-lts-reporting-bugs)=
@@ -197,7 +197,7 @@ You can find out more about Ubuntu on our website, IRC channel and wiki. If you'
 
 [www.ubuntu.com/](http://www.ubuntu.com/)
 
-For the release notes for Kubuntu visit [wiki.ubuntu.com/DapperReleaseNotes/Kubuntu](http://wiki.ubuntu.com/DapperReleaseNotes/Kubuntu)
+For the release notes for Kubuntu visit `wiki.ubuntu.com/DapperReleaseNotes/Kubuntu`
 
 To sign up for future Ubuntu announcements, please subscribe to Ubuntu's announcement list at:
 

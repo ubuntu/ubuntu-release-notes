@@ -7,11 +7,12 @@
 :reversed:
 
 - start: 2026-02-19
-  name: "[Feature Freeze](https://wiki.ubuntu.com/FeatureFreeze), Debian Import Freeze"
+  name: "[Feature Freeze](https://ubuntu.com/project/docs/release-team/freezes/#feature-freeze), Debian Import Freeze"
 - start: 2026-03-26
   name: Beta (mandatory)
 - start: 2026-04-23
-  name: "[Final Release](https://wiki.ubuntu.com/FinalRelease)"
+  name: "[Final Release](https://ubuntu.com/project/docs/release-team/release-cycle/#final-release)"
+
 ---
 **{{dtrange}}**
 
@@ -43,19 +44,22 @@
 | **February 2026** |  |  |
 | 17 | February 05 |  |
 | 18 | February 12 |  |
-| 19 | February 19 | [Feature Freeze](https://wiki.ubuntu.com/FeatureFreeze), Debian Import Freeze |
+| 19 | February 19 | [Feature Freeze](https://ubuntu.com/project/docs/release-team/freezes/#feature-freeze), Debian Import Freeze |
 | 20 | February 26 | Resolute Snapshot 4 |
 | **March 2026** |  |  |
 | 21 | March 05 |  |
-| 22 | March 12 | [User Interface Freeze](https://wiki.ubuntu.com/UserInterfaceFreeze) |
-| 23 | March 19 | [Documentation String Freeze](https://wiki.ubuntu.com/DocumentationStringFreeze), [Kernel Feature Freeze](https://wiki.ubuntu.com/KernelFeatureFreeze) |
-| 24 | March 23 (Monday) | [Beta Freeze](https://wiki.ubuntu.com/BetaFreeze), [Hardware Enablement Freeze](https://wiki.ubuntu.com/HardwareEnablementFreeze), ISO Testing Week (mandatory) |
+| 22 | March 12 | [User Interface Freeze](https://ubuntu.com/project/docs/release-team/freezes/#user-interface-freeze) |
+| 23 | March 19 | [Documentation String Freeze](https://ubuntu.com/project/docs/release-team/freezes/#documentation-string-freeze), [Kernel Feature Freeze](https://ubuntu.com/project/docs/release-team/freezes/#kernel-feature-freeze) |
+| 24 | March 23 (Monday) | [Beta Freeze](https://ubuntu.com/project/docs/release-team/freezes/#beta-freeze), [Hardware Enablement Freeze](https://ubuntu.com/project/docs/release-team/freezes/#hardware-enablement-freeze), ISO Testing Week (mandatory) |
 | ⠀ | March 26 | Beta (mandatory) |
 | **April 2026** |  |  |
 | 25 | April 02 |  |
-| 26 | April 09 | [Kernel Freeze](https://wiki.ubuntu.com/KernelFreeze), [Non Language Pack Translation Deadline](https://wiki.ubuntu.com/NonLanguagePackTranslationDeadline) |
-| 27 | April 16 | [Final Freeze](https://wiki.ubuntu.com/FinalFreeze), [Release Candidate](https://wiki.ubuntu.com/ReleaseCandidate), [Language Pack Translation Deadline](https://wiki.ubuntu.com/LanguagePackTranslationDeadline) |
-| 28 | April 23 | [Final Release](https://wiki.ubuntu.com/FinalRelease) |
+| 26 | April 09 | [Kernel Freeze](https://ubuntu.com/project/docs/release-team/freezes/#kernel-freeze), [Non Language Pack Translation Deadline](https://ubuntu.com/project/docs/release-team/freezes/#non-language-pack-translation-deadline) |
+| 27 | April 16 | [Final Freeze](https://ubuntu.com/project/docs/release-team/freezes/#final-freeze), [Release Candidate](https://ubuntu.com/project/docs/release-team/freezes/#release-candidate), [Language Pack Translation Deadline](https://ubuntu.com/project/docs/release-team/freezes/#language-pack-translation-deadline) |
+| 28 | April 23 | [Final Release](https://ubuntu.com/project/docs/release-team/release-cycle/#final-release) |
+|... | ||
+| **August 2026**| ||
+| 46 | August 27 | [26.04.1 Point Release ](https://ubuntu.com/project/docs/release-team/ubuntu-releases/#point-releases) |
 
 ## Planned and potentially disruptive archive-wide activities
 
@@ -115,6 +119,6 @@ The Alpha and Beta 1 milestones have been replaced with [Testing Weeks](https://
 
 When the archive is frozen, all members of the release team are expected to participate in bug fix reviews.
 
-After [Feature Freeze](https://wiki.ubuntu.com/FeatureFreeze), all members of the release team are expected to participate in Feature Freeze Exception reviews in their particular area of expertise.
+After [Feature Freeze](https://ubuntu.com/project/docs/release-team/freezes/#feature-freeze), all members of the release team are expected to participate in Feature Freeze Exception reviews in their particular area of expertise.
 
-After [Final Beta](https://wiki.ubuntu.com/FinalBetaRelease), all members of the release team are expected to participate in Bug fix reviews in their particular area of expertise.
+After [Final Beta](https://ubuntu.com/project/docs/release-team/release-cycle/#finalization), all members of the release team are expected to participate in Bug fix reviews in their particular area of expertise.

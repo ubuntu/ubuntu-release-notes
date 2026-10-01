@@ -53,7 +53,7 @@ Label every issue and pull request with the version number of the Ubuntu release
 
     These are the highlights of the major changes in the past two years. Primarily, include significant new features and breaking changes to alert upgrading users.
 
-    This part of the release notes should be less detailed. You can link to older interim release notes for additional details. If you want to repeat the same release note in an interim and LTS section, you can rely on [content reuse](https://canonical-starter-pack.readthedocs-hosted.com/stable/reference/myst-syntax-reference/#reuse).
+    This part of the release notes should be less detailed. You can link to older interim release notes for additional details. If you want to repeat the same release note in an interim and LTS section, you can rely on [content reuse](https://documentation.ubuntu.com/sphinx-stack/latest/reference/myst-syntax/#reuse).
 
 ### Writing style and content placement
 

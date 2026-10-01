@@ -24,7 +24,7 @@ Week | Date (Thursday) | 25.10 events
 15 | July 31 | Questing Snapshot 3
 **August 2025** |
 16 | August 04 | [Debian Import Freeze](https://canonical-ubuntu-project.readthedocs-hosted.com/release-team/freezes/#debian-import-freeze)
-17 | August 14 | [Feature Freeze](https://wiki.ubuntu.com/FeatureFreeze)
+17 | August 14 | [Feature Freeze](https://ubuntu.com/project/docs/release-team/freezes/#feature-freeze)
 18 | August 21 |
 19 | August 28 | Questing Snapshot 4
 **September 2025** |
@@ -32,10 +32,10 @@ Week | Date (Thursday) | 25.10 events
 21 | September 11 | [Documentation String Freeze](https://canonical-ubuntu-project.readthedocs-hosted.com/release-team/freezes/#documentation-string-freeze), [Kernel Feature Freeze](https://canonical-ubuntu-project.readthedocs-hosted.com/release-team/freezes/#kernel-feature-freeze)
 22 | September 15 (Monday) | [Beta Freeze](https://canonical-ubuntu-project.readthedocs-hosted.com/release-team/freezes/#beta-freeze), [Hardware Enablement Freeze](https://canonical-ubuntu-project.readthedocs-hosted.com/release-team/freezes/#hardware-enablement-freeze), ISO Testing Week (mandatory)
 ⠀ | September 18 | Questing Beta (mandatory)
-23 | September 25 | [Kernel Freeze](https://canonical-ubuntu-project.readthedocs-hosted.com/release-team/freezes/#kernel-freeze), [Non Language Pack Translation Deadline](https://wiki.ubuntu.com/NonLanguagePackTranslationDeadline)
+23 | September 25 | [Kernel Freeze](https://ubuntu.com/project/docs/release-team/freezes/#kernel-freeze), [Non Language Pack Translation Deadline](https://ubuntu.com/project/docs/release-team/freezes/#non-language-pack-translation-deadline)
 **October 2025** |
 24 | October 02 | [Final Freeze](https://canonical-ubuntu-project.readthedocs-hosted.com/release-team/freezes/#final-freeze), [Release Candidate](https://canonical-ubuntu-project.readthedocs-hosted.com/release-team/freezes/#release-candidate), [Language Pack Translation Deadline](https://canonical-ubuntu-project.readthedocs-hosted.com/release-team/freezes/#language-pack-translation-deadline)
-25 | October 09 | Questing [Final Release](https://wiki.ubuntu.com/FinalRelease)
+25 | October 09 | Questing [Final Release](https://ubuntu.com/project/docs/release-team/release-cycle/#final-release)
 
 
 ## Planned and potentially disruptive archive-wide activities
@@ -105,7 +105,7 @@ This signup sheet is to be used for planning release milestone tasks.
 |15 | July 31 | Questing Snapshot 3|
 |**August 2025** |  | |
 |16 | August 04 | [Debian Import Freeze](https://canonical-ubuntu-project.readthedocs-hosted.com/release-team/freezes/#debian-import-freeze)|
-|17 | August 14 | [Feature Freeze](https://wiki.ubuntu.com/FeatureFreeze)|
+|17 | August 14 | [Feature Freeze](https://ubuntu.com/project/docs/release-team/freezes/#feature-freeze)|
 |18 | August 21 | |
 |19 | August 28 | Questing Snapshot 4|
 |**September 2025** |  | |
@@ -113,13 +113,13 @@ This signup sheet is to be used for planning release milestone tasks.
 |21 | September 11 | [Documentation String Freeze](https://canonical-ubuntu-project.readthedocs-hosted.com/release-team/freezes/#documentation-string-freeze), [Kernel Feature Freeze](https://canonical-ubuntu-project.readthedocs-hosted.com/release-team/freezes/#kernel-feature-freeze)|
 |22 | September 15 (Monday) | [Beta Freeze](https://canonical-ubuntu-project.readthedocs-hosted.com/release-team/freezes/#beta-freeze), [Hardware Enablement Freeze](https://canonical-ubuntu-project.readthedocs-hosted.com/release-team/freezes/#hardware-enablement-freeze), ISO Testing Week (mandatory)|
 |⠀ | September 18 | Questing Beta (mandatory)|
-|23 | September 25 | [Kernel Freeze](https://canonical-ubuntu-project.readthedocs-hosted.com/release-team/freezes/#kernel-freeze), [Non Language Pack Translation Deadline](https://wiki.ubuntu.com/NonLanguagePackTranslationDeadline)|
+|23 | September 25 | [Kernel Freeze](https://ubuntu.com/project/docs/release-team/freezes/#kernel-freeze), [Non Language Pack Translation Deadline](https://ubuntu.com/project/docs/release-team/freezes/#non-language-pack-translation-deadline)|
 |**October 2025** |  | |
 |24 | October 02 | [Final Freeze](https://canonical-ubuntu-project.readthedocs-hosted.com/release-team/freezes/#final-freeze), [Release Candidate](https://canonical-ubuntu-project.readthedocs-hosted.com/release-team/freezes/#release-candidate), [Language Pack Translation Deadline](https://canonical-ubuntu-project.readthedocs-hosted.com/release-team/freezes/#language-pack-translation-deadline)|
-|25 | October 09 | Questing [Final Release](https://wiki.ubuntu.com/FinalRelease)|
+|25 | October 09 | Questing [Final Release](https://ubuntu.com/project/docs/release-team/release-cycle/#final-release)|
 
 When the archive is frozen, all members of the release team are expected to participate in bug fix reviews.
 
-After [Feature Freeze](https://wiki.ubuntu.com/FeatureFreeze), all members of the Release Team are expected to participate in Feature Freeze Exception reviews in their particular area of expertise.
+After [Feature Freeze](https://ubuntu.com/project/docs/release-team/freezes/#feature-freeze), all members of the Release Team are expected to participate in Feature Freeze Exception reviews in their particular area of expertise.
 
-After [Final Beta](https://wiki.ubuntu.com/FinalBetaRelease), all members of the Release Team are expected to participate in bug fix reviews in their particular area of expertise.
+After [Final Beta](https://ubuntu.com/project/docs/release-team/release-cycle/#finalization), all members of the Release Team are expected to participate in bug fix reviews in their particular area of expertise.

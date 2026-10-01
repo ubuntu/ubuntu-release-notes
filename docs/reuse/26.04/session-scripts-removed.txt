@@ -1,0 +1,5 @@
+`PreLogin` and `PostSession` scripts have been removed from GNOME as part of the X11 code cleanup. These scripts are used in corporate environments, for example to synchronize the user's home directory on login to a server and logout from a server, or to clean up sensitive data after logout.
+
+To work around the issue, you can reimplement the behavior of the removed scripts using {manpage}`PAM session modules <pam.conf(5)>`. For example, the actions that you were invoking from the GDM `PreLogin`, `PostLogin`, `PreSession` or `PostSession` scripts can be invoked from the {manpage}`pam_exec(8)` module instead.
+
+For details, see [the Ubuntu bug](https://bugs.launchpad.net/ubuntu-release-notes/+bug/2144783) and [the upstream issue](https://gitlab.gnome.org/GNOME/gdm/-/issues/1059).

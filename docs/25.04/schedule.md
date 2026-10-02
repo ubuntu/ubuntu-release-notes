@@ -26,18 +26,18 @@ Week | Date (Thursday) | 25.04 events
 **February 2025** |
 17 | February 06 | 
 18 | February 13 | 
-19 | February 20 | [Feature Freeze](https://wiki.ubuntu.com/FeatureFreeze), Debian Import Freeze
+19 | February 20 | [Feature Freeze](https://ubuntu.com/project/docs/release-team/freezes/#feature-freeze), Debian Import Freeze
 20 | February 27 | Ubuntu Testing Week (optional)
 **March 2025** |
 21 | March 06 | 
-22 | March 13 | [User Interface Freeze](https://wiki.ubuntu.com/UserInterfaceFreeze)
-23 | March 20 | [Documentation String Freeze](https://wiki.ubuntu.com/DocumentationStringFreeze), [Kernel Feature Freeze](https://wiki.ubuntu.com/KernelFeatureFreeze)
-24 | March 24 (Monday) | [Beta Freeze](https://wiki.ubuntu.com/BetaFreeze), [Hardware Enablement Freeze](https://wiki.ubuntu.com/HardwareEnablementFreeze)
+22 | March 13 | [User Interface Freeze](https://ubuntu.com/project/docs/release-team/freezes/#user-interface-freeze)
+23 | March 20 | [Documentation String Freeze](https://ubuntu.com/project/docs/release-team/freezes/#documentation-string-freeze), [Kernel Feature Freeze](https://ubuntu.com/project/docs/release-team/freezes/#kernel-feature-freeze)
+24 | March 24 (Monday) | [Beta Freeze](https://ubuntu.com/project/docs/release-team/freezes/#beta-freeze), [Hardware Enablement Freeze](https://ubuntu.com/project/docs/release-team/freezes/#hardware-enablement-freeze)
 ⠀ | March 27 | Beta (mandatory)
 **April 2025** |
-25 | April 03 | [Kernel Freeze](https://wiki.ubuntu.com/KernelFreeze), [Non Language Pack Translation Deadline](https://wiki.ubuntu.com/NonLanguagePackTranslationDeadline)
-26 | April 10 | [Final Freeze](https://wiki.ubuntu.com/FinalFreeze), [Release Candidate](https://wiki.ubuntu.com/ReleaseCandidate), [Language Pack Translation Deadline](https://wiki.ubuntu.com/LanguagePackTranslationDeadline)
-27 | April 17 | [Final Release](https://wiki.ubuntu.com/FinalRelease)
+25 | April 03 | [Kernel Freeze](https://ubuntu.com/project/docs/release-team/freezes/#kernel-freeze), [Non Language Pack Translation Deadline](https://ubuntu.com/project/docs/release-team/freezes/#non-language-pack-translation-deadline)
+26 | April 10 | [Final Freeze](https://ubuntu.com/project/docs/release-team/freezes/#final-freeze), [Release Candidate](https://ubuntu.com/project/docs/release-team/freezes/#release-candidate), [Language Pack Translation Deadline](https://ubuntu.com/project/docs/release-team/freezes/#language-pack-translation-deadline)
+27 | April 17 | [Final Release](https://ubuntu.com/project/docs/release-team/release-cycle/#final-release)
 
 
 ## Planned and potentially disruptive archive-wide activities
@@ -98,6 +98,6 @@ The Alpha and Beta 1 milestones have been replaced with [Testing Weeks](https://
 
 When the archive is frozen, all members of the release team are expected to participate in bug fix reviews.
 
-After [Feature Freeze](https://wiki.ubuntu.com/FeatureFreeze), all members of the release team are expected to participate in Feature Freeze Exception reviews in their particular area of expertise.
+After [Feature Freeze](https://ubuntu.com/project/docs/release-team/freezes/#feature-freeze), all members of the release team are expected to participate in Feature Freeze Exception reviews in their particular area of expertise.
 
-After [Final Beta](https://wiki.ubuntu.com/FinalBetaRelease), all members of the release team are expected to participate in Bug fix reviews in their particular area of expertise.
+After [Final Beta](https://ubuntu.com/project/docs/release-team/release-cycle/#finalization), all members of the release team are expected to participate in Bug fix reviews in their particular area of expertise.

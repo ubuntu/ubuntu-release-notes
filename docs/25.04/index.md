@@ -36,7 +36,7 @@ Ubuntu 25.04 will be supported for 9 months until January 2026. If you need long
 
 ## Upgrades
 
-* Upgrades to to Ubuntu 25.04 will refresh seeded snaps to the appropriate snap channels, regardless of what was being tracked before. Snaps that are newly-seeded will be installed during the upgrade. In particular, the following snaps will be installed or refreshed on upgrade: 
+* Upgrades to to Ubuntu 25.04 will refresh seeded snaps to the appropriate snap channels, regardless of what was being tracked before. Snaps that are newly-seeded will be installed during the upgrade. In particular, the following snaps will be installed or refreshed on upgrade:
 
   Early upgrades may wish to perform these updates manually.
 
@@ -94,7 +94,7 @@ Additionally, GraalVM Community Edition for JDK versions 21, 24 and 25ea is now 
 
 #### .NET
 
-.NET versions 8 and 9 continue to be supported. 
+.NET versions 8 and 9 continue to be supported.
 
 The [dotnet](https://snapcraft.io/dotnet) snap is updated to include .NET version 9. The [powershell-preview](https://snapcraft.io/powershell-preview) snap has been updated to build from source.
 
@@ -104,15 +104,15 @@ The [dotnet](https://snapcraft.io/dotnet) snap is updated to include .NET versio
 
 #### AppArmor profile writing effort
 
-As part of a profile writing effort to improve overall system security, the AppArmor package now includes many new profiles for applications. This improved sandboxing can help mitigate the impact of any exploit in the confined applications. However, these profiles may cause breakage for unanticipated uses of those applications, and we encourage users to file a bug on [Launchpad](https://bugs.launchpad.net/ubuntu/+source/apparmor/+filebug) for AppArmor-induced breakage in common use cases. When AppArmor denies an action, it usually generates a log entry describing the denial, which will help us investigate the bug, but which can also be used to add additional rules for customization or to work around the denials. AppArmor log entries can be read in the auditd logs, if auditd is installed, or in the syslog otherwise. [This page](https://gitlab.com/apparmor/apparmor/-/wikis/denial_quick_guide) describes how the information contained in the denial log can be used to update a local override.
+As part of a profile writing effort to improve overall system security, the AppArmor package now includes many new profiles for applications. This improved sandboxing can help mitigate the impact of any exploit in the confined applications. However, these profiles may cause breakage for unanticipated uses of those applications, and we encourage users to file a bug on [Launchpad](https://bugs.launchpad.net/ubuntu/+source/apparmor/+filebug) for AppArmor-induced breakage in common use cases. When AppArmor denies an action, it usually generates a log entry describing the denial, which will help us investigate the bug, but which can also be used to add additional rules for customization or to work around the denials. AppArmor log entries can be read in the auditd logs, if auditd is installed, or in the `syslog` otherwise. [This page](https://gitlab.com/apparmor/apparmor/-/wikis/denial_quick_guide) describes how the information contained in the denial log can be used to update a local override.
 
-#### AppArmor profile for bwrap
+#### AppArmor profile for `bwrap`
 
-AppArmor now comes with a bwrap profile (bwrap-userns-restrict) that allows it to create user namespaces and set up sandboxing, before transitioning to a tighter profile that denies capabilities for the processes running inside the bwrap sandbox. The addition of this profile should unblock more use cases for bwrap while allowing a reduction in the kernel attack surface opened up by unprivileged user namespaces. However, this profile still restricts unprivileged userns creation and capability usage even when bwrap (and its sandboxed application) are run as a privileged user, so such use cases may not be fully supported yet.
+AppArmor now comes with a `bwrap` profile (`bwrap-userns-restrict`) that allows it to create user namespaces and set up sandboxing, before transitioning to a tighter profile that denies capabilities for the processes running inside the `bwrap` sandbox. The addition of this profile should unblock more use cases for `bwrap` while allowing a reduction in the kernel attack surface opened up by unprivileged user namespaces. However, this profile still restricts unprivileged userns creation and capability usage even when `bwrap` (and its sandboxed application) are run as a privileged user, so such use cases may not be fully supported yet.
 
 #### AppArmor profile removals
 
-As part of [hardening improvements around AppArmor user namespace mediation](https://discourse.ubuntu.com/t/understanding-apparmor-user-namespace-restriction/58007), profiles for busybox and nautilus that directly allowed them access to user namespaces have been removed. As a result, the busybox unshare function can no longer be used to create unprivileged user namespaces. Nautilus' use of user namespaces should still work due to the new bwrap-users-restrict profile, but regressions are possible if there are bugs in the bwrap profile.
+As part of [hardening improvements around AppArmor user namespace mediation](https://discourse.ubuntu.com/t/understanding-apparmor-user-namespace-restriction/58007), profiles for busybox and nautilus that directly allowed them access to user namespaces have been removed. As a result, the busybox unshare function can no longer be used to create unprivileged user namespaces. Nautilus' use of user namespaces should still work due to the new `bwrap-users-restrict` profile, but regressions are possible if there are bugs in the `bwrap` profile.
 
 ### tzdata
 
@@ -191,13 +191,13 @@ Dynamic Boost will be active only when the laptop is powered by AC and there is 
 
 For more details refer to [NVIDIA's documentation](https://download.nvidia.com/XFree86/Linux-x86_64/570.133.07/README/dynamicboost.html).
 
-#### Support for new Intel® integrated and discrete GPUS 
-This release brings full support for Intel® Core™ Ultra Xe2 integrated Intel® Arc™ graphics, and Intel® Arc™ B580 and B570 “Battlemage” discrete GPUs. 
+#### Support for new Intel® integrated and discrete GPUS
+This release brings full support for Intel® Core™ Ultra Xe2 integrated Intel® Arc™ graphics, and Intel® Arc™ B580 and B570 “Battlemage” discrete GPUs.
 Moreover, the following features are also included:
- * Improved GPU and CPU ray tracing rendering performance in applications with Intel Embree support, such as Blender (v4.2+). Ray tracing hardware acceleration on the GPU improves frame rendering by 20-30%, due to a 2-4x speed-up for the ray tracing component. 
+ * Improved GPU and CPU ray tracing rendering performance in applications with Intel Embree support, such as Blender (v4.2+). Ray tracing hardware acceleration on the GPU improves frame rendering by 20-30%, due to a 2-4x speed-up for the ray tracing component.
  * Full hardware accelerated video encoding of AVC, JPEG, HEVC, and AV1 on “Battlemage” devices.
  * Introduction of the new CCS optimization in Intel® Compute Runtime.
- * Enable debugging support for Intel Xe GPUs. 
+ * Enable debugging support for Intel Xe GPUs.
  * oneAPI Level Zero Ray Tracing improves AI/ML workload speeds via Embree on SYCL
 
 ### Ubuntu Foundations
@@ -210,7 +210,7 @@ OpenSSL has been updated to [3.4.1](https://github.com/openssl/openssl/blob/open
 
 #### Package Management: APT 3.0
 
-APT has been updated to 3.0. 
+APT has been updated to 3.0.
 
 The new dependency solver is now automatically used if the classic solver cannot find a solution to either find a solution or add more context to the failure, and in other cases to [evaluate its performance](https://discourse.ubuntu.com/t/evaluating-the-new-apt-solver-in-25-04/55618).
 
@@ -244,7 +244,7 @@ ClamAV was updated from 1.3 in Ubuntu 24.10, to version 1.4.2 in 25.04.
 This brings a number of fixes, along with the following noteworthy
 changes from the Clamav 1.4.0 feature release:
 
-* Added support for extracting ALZ archives. The new ClamAV file type for ALZ archives is CL_TYPE_ALZ. Added a DCONF (Dynamic CONFiguration) option to enable or disable ALZ archive support, via ClamAV .cfg "signatures".
+* Added support for extracting ALZ archives. The new ClamAV file type for ALZ archives is CL_TYPE_ALZ. Added a DCONF (Dynamic Configuration) option to enable or disable ALZ archive support, via ClamAV .cfg "signatures".
 * Added support for extracting LHA/LZH archives. The new ClamAV file type for LHA/LZH archives is CL_TYPE_LHA_LZH. Added a DCONF option to enable or disable LHA/LZH archive support.
 * Added the ability to disable image fuzzy hashing, if needed. For context, image fuzzy hashing is a detection mechanism useful for identifying malware by matching images included with the malware or phishing email/document.
 * Added a DCONF option to enable or disable image fuzzy hashing support.
@@ -308,7 +308,7 @@ For further details on such changes, please refer to [the upstream release notes
 
 runc (src:runc-app) was updated to upstream version 1.2.5. This new version includes several fixes and changes including
 
-* When using cgroups v2, allow to set or update memory limit to "unlimited" and swap limit to a specific value. 
+* When using cgroups v2, allow to set or update memory limit to "unlimited" and swap limit to a specific value.
 * Mount options on bind-mounts that clear a mount flag are now always applied. Previously, if a user requested a bind-mount with only clearing options (such as `rw,exec,dev`) the options would be ignored and the original bind-mount options would be set.
 * Container configurations using bind-mounts with superblock mount flags (i.e. filesystem-specific mount flags, referred to as "data" in `mount(2)`, as opposed to VFS generic mount flags like `MS_NODEV`) will now return an error.
 * Fix CVE-2024-45310, a low-severity attack that allowed maliciously configured containers to create empty files and directories on the host.
@@ -353,18 +353,18 @@ Watch out for deprecation or removal of features in this [upstream page](https:/
 
 #### HAProxy
 The HAProxy package was upgraded to version 3.0.7. This new version introduces performance improvements for Lua scripts and stick tables, support for virtual ACL and map files, limiting glitchy HTTP/2 connections, and persistent stats after a reload.
-**Breaking changes** include detection of accidental multiple commands sent to the Runtime API, rejecting the `enabled` keyword for dynamic servers, stricter parsing of non-standard URIs and renaming of `tune.ssl.ocsp-update` to `tune.ocsp-update`. You can learn more about it at [https://www.haproxy.com/blog/announcing-haproxy-3-0](https://www.haproxy.com/blog/announcing-haproxy-3-0). A complete list of changes is avalilable at [https://www.haproxy.org/download/3.0/src/CHANGELOG](https://www.haproxy.org/download/3.0/src/CHANGELOG).
+**Breaking changes** include detection of accidental multiple commands sent to the Runtime API, rejecting the `enabled` keyword for dynamic servers, stricter parsing of non-standard URIs and renaming of `tune.ssl.ocsp-update` to `tune.ocsp-update`. You can learn more about it at [https://www.haproxy.com/blog/announcing-haproxy-3-0](https://www.haproxy.com/blog/announcing-haproxy-3-0). A complete list of changes is available at [https://www.haproxy.org/download/3.0/src/CHANGELOG](https://www.haproxy.org/download/3.0/src/CHANGELOG).
 
-#### freeradius 
+#### `freeradius`
 
-freeradius 3.2.7+dfsg-1ubuntu1 drops `radlast`. This is due to `radlast` calling `last`, which is no longer available in Ubuntu. These use `wtmp` 32 bit files, which are not 2038 compliant. Upstream source has dropped `radlast` and other tools in [an upstream commit](https://github.com/FreeRADIUS/freeradius-server/commit/b0f4123c84a0aeaa6fc393fd5e6fdaa0e0a86eaf). These were originally made optional, and later removed entirely. Information in [lp: 2096611](https://bugs.launchpad.net/ubuntu/+source/freeradius/+bug/2096611)
+`freeradius` 3.2.7+dfsg-1ubuntu1 drops `radlast`. This is due to `radlast` calling `last`, which is no longer available in Ubuntu. These use `wtmp` 32 bit files, which are not 2038 compliant. Upstream source has dropped `radlast` and other tools in [an upstream commit](https://github.com/FreeRADIUS/freeradius-server/commit/b0f4123c84a0aeaa6fc393fd5e6fdaa0e0a86eaf). These were originally made optional, and later removed entirely. Information in [lp: 2096611](https://bugs.launchpad.net/ubuntu/+source/freeradius/+bug/2096611)
 
 #### libvirt
 
 The [libvirt ](https://libvirt.org) package was upgraded to version 10.10.0. Here are the changes since Ubuntu Oracular:
 
 * network: make networks with `<forward mode='open'/>` more useful.
-   It is now permissable to have a `<forward mode='open'>` network that has no IP address assigned to the host's port of the bridge. This is the only way to create a libvirt network where guests are unreachable from the host (and vice versa) and also 0 firewall rules are added on the host.
+   It is now permissible to have a `<forward mode='open'>` network that has no IP address assigned to the host's port of the bridge. This is the only way to create a libvirt network where guests are unreachable from the host (and vice versa) and also 0 firewall rules are added on the host.
 
    It is now also possible for a `<forward mode='open'/>` network to use the `zone` attribute of `<bridge>` to set the firewalld zone of the bridge interface (normally it would not be set, as is done with other forward modes).
 
@@ -428,7 +428,7 @@ The upgrade from Oracular's 1.26.0 to Plucky's 1.26.3 brings a handful of bug fi
 
 The 2.6.9 release is a bugfix-only release with improvements to libldap, slapd, and slapo subcomponents.  For the full list of changes please see the [release notes](https://www.openldap.org/software/release/changes.html).
 
-#### Openssh
+#### OpenSSH
 
 OpenSSH was updated to version 9.9. Here are some highlights since 9.7, last shipped in Ubuntu 24.10:
 
@@ -460,12 +460,12 @@ Due to upstream policy, support for 32-bit MySQL Server has been removed. Howeve
 
 #### MySQL Shell
 
-MySQL Shell was updated from 8.0.38 to 8.4.4 to coencide with MySQL 8.4. It adds support for MySQL 8.4 servers, and provides additional improvements for interacting with MySQL 8.0 servers. For a list of features, see the [MySQL Shell 8.4 documentation](https://dev.mysql.com/doc/mysql-shell/8.4/en/). Release notes for MySQL Shell 8.4 can be found [here](https://dev.mysql.com/doc/relnotes/mysql-shell/8.4/en/).
+MySQL Shell was updated from 8.0.38 to 8.4.4 to coincide with MySQL 8.4. It adds support for MySQL 8.4 servers, and provides additional improvements for interacting with MySQL 8.0 servers. For a list of features, see the [MySQL Shell 8.4 documentation](https://dev.mysql.com/doc/mysql-shell/8.4/en/). Release notes for MySQL Shell 8.4 can be found [here](https://dev.mysql.com/doc/relnotes/mysql-shell/8.4/en/).
 
 
 #### Percona Xtrabackup
 
-Percona-Xtrabackup was updated from the 8.0 track to 8.4 with 8.4.0-1, also to coencide with the release of MySQL 8.4. This version provides changes to match MySQL 8.4, along with support for the `keyring_vault` component. For more information see the [upstream release notes](https://docs.percona.com/percona-xtrabackup/8.4/release-notes/8.4.0-1.html).
+Percona-Xtrabackup was updated from the 8.0 track to 8.4 with 8.4.0-1, also to coincide with the release of MySQL 8.4. This version provides changes to match MySQL 8.4, along with support for the `keyring_vault` component. For more information see the [upstream release notes](https://docs.percona.com/percona-xtrabackup/8.4/release-notes/8.4.0-1.html).
 
 
 #### PHP
@@ -485,6 +485,7 @@ PostgreSQL was updated to version 17, which contains several new features and en
 
 For more details, see the [upstream release notes](https://www.postgresql.org/docs/17/release-17.html).
 
+(qemu-25.04)=
 #### QEMU
 
 The [QEMU ](https://qemu.org/) package was updated to version 9.2.0. Here are the changes since Ubuntu Oracular.
@@ -510,7 +511,7 @@ The [QEMU ](https://qemu.org/) package was updated to version 9.2.0. Here are th
         `FEAT_CMOW`
   * The `max` CPU and any new CPU types will default to a 1GHz generic timer frequency rather than the old 62.5MHz (this is architecturally required from ARMv8.6 onwards).
   * KVM-based VMs can now support MTE (if the host CPU has MTE support).
-  * 
+  *
 
 * RISC-V
     * Support RISC-V privilege 1.13 spec.
@@ -579,7 +580,7 @@ Squid 6.13 is a stable release consisting mainly of bugfixes and cleanups.  One 
 
 SSSD has been updated to 2.10.1 and these are the highlights:
 
-  - unprivileged service user: there is initial support for running sssd with less privileges, but in Debian/Ubuntu the main daemons still run under root. Filesystem capabilities had to be added to many binary helpers, though:
+  - unprivileged service user: there is initial support for running `sssd` with less privileges, but in Debian/Ubuntu the main daemons still run under root. Filesystem capabilities had to be added to many binary helpers, though:
     - `sssd_pam`: *cap_dac_read_search*
     - `selinux_child`: *cap_setuid*, *cap_setgid*
     - `ldap_child`: *cap_dac_read_search*
@@ -719,7 +720,7 @@ If you notice any unexpected changes or bugs in the minimal images, create a new
 * In addition to arm64 server ISO there is now also an official generic arm64 desktop ISO targeting VMs, ACPI + EFI platforms and Snapdragon based WoA devices.
 * Initial hardware enablement work for the Snapdragon X Elite platform is included in the desktop ISO
 
-#### IBM Z and LinuxONE (s390x) ![image|32x32](upload://dZM0RRlelqCcZc6RhqJGMW8DMZr.png) 
+#### IBM Z and LinuxONE (s390x) ![image|32x32](upload://dZM0RRlelqCcZc6RhqJGMW8DMZr.png)
 
 The key package, 's390-tools', was step-by-step upgraded to latest version v2.37.0 ([LP: #2096789](https://launchpad.net/bugs/2096789), via [LP: #2091549](https://launchpad.net/bugs/2091549)), that covers the removal of scsi_logging_level, since it's now in sg3_utils ([LP: #2098500](https://launchpad.net/bugs/2098500)), the new pvimg and with that the rewritten genprotimg tool in Rust ([LP: #2098046](https://launchpad.net/bugs/2098046)), with it's new info command ([LP: #2098047](https://launchpad.net/bugs/2098047)), to display of encrypted & unencrypted Secure Execution (SE) image information, validations in genprotimg, if an SE image can run on particular host ([LP: #2097576](https://launchpad.net/bugs/2097576)), supporting unencrypted SE images by exposing the resp. SE header flag ([LP: #2098045](https://launchpad.net/bugs/2098045)), supporting extended attestation for SE ([LP: #2097535](https://launchpad.net/bugs/2097535)) and support for retrievable secrets in SE guests ([LP: #2097533](https://launchpad.net/bugs/2097533) and kernel [LP: #2097534](https://launchpad.net/bugs/2097534)).
 
@@ -793,18 +794,24 @@ As is to be expected with any release, there are some significant known bugs tha
 
 1. At the GRUB boot menu, press `e` (keep `Shift` pressed during early boot if the menu doesn't show up).
 2. Add `nomodeset` to `linux` line, like the example below:
-```
-linux /casper/vmlinuz nomodeset ---
-```
+
+   ```
+   linux /casper/vmlinuz nomodeset ---
+   ```
+
 3. Press `Ctrl-x` to continue the boot process
 4. After installation is complete, reboot, use `nomodeset` again, like the example below:
-```
-linux /boot/vmlinuz-6.11.0-8-generic nomodeset root=UUID=c5605a23-05ae-4d9d-b65f-e47ba48b7560 ro
-```
+
+   ```
+   linux /boot/vmlinuz-6.11.0-8-generic nomodeset root=UUID=c5605a23-05ae-4d9d-b65f-e47ba48b7560 ro
+   ```
+
 5. Add `nomodeset` to the GRUB config file, `/etc/default/grub`, like the example below:
-```
-GRUB_CMDLINE_LINUX="nomodeset"
-```
+
+   ```
+   GRUB_CMDLINE_LINUX="nomodeset"
+   ```
+
 6. Finally, run `sudo update-grub` to make the change take effect.
 
 
@@ -843,7 +850,7 @@ Libvirt provides the default network on install, in a nested installation it mod
 
 #### Openstack
 
-Currently, Nova Compute is non-functional because of a python3.13 incompatiblity ([LP:#2103413](https://bugs.launchpad.net/ubuntu/+source/nova/+bug/2103413)).
+Currently, Nova Compute is non-functional because of a python3.13 incompatibility ([LP:#2103413](https://bugs.launchpad.net/ubuntu/+source/nova/+bug/2103413)).
 The Openstack team and Upstream work on it and it will be resolved via an SRU later.
 
 The Ubuntu Cloud Archive is not affected by this bug.
@@ -878,7 +885,7 @@ There is a AppArmor related bug where containers cannot be promptly stopped due 
 
 #### s390x
 
-* Plucky provides better apparmor isolation for the tools in util-linux which is great, but it was found that on s390x this might break usage of lsblk. Fixes will soon be provided via bug [2107402](https://bugs.launchpad.net/ubuntu/+source/apparmor/+bug/2107402) and bug [2107455](https://bugs.launchpad.net/ubuntu/+source/apparmor/+bug/2107455). Until then the effect will be that lsblk on s390x will show no devices or in s390x based containers segfault. Until the SRU is available that can be mitigated by disabling the related apparmor profile via `aa-disable lsblk`.
+* Plucky provides better AppArmor isolation for the tools in util-linux which is great, but it was found that on s390x this might break usage of lsblk. Fixes will soon be provided via bug [2107402](https://bugs.launchpad.net/ubuntu/+source/apparmor/+bug/2107402) and bug [2107455](https://bugs.launchpad.net/ubuntu/+source/apparmor/+bug/2107455). Until then the effect will be that lsblk on s390x will show no devices or in s390x based containers segfault. Until the SRU is available that can be mitigated by disabling the related AppArmor profile via `aa-disable lsblk`.
 
 #### ppc64el
 
@@ -907,7 +914,7 @@ There is a AppArmor related bug where containers cannot be promptly stopped due 
 
 * The default audio output on the Raspberry Pi 4 is "Analogue Output - Built-in Audio" instead of "HDMI/Displayport", so you might be confused after the first boot when you hear no sound even after moving the volume slider. You can change the audio output to HDMI in the settings, which persists in subsequent boots. ([LP: #1993347](https://bugs.launchpad.net/ubuntu/+source/pipewire/+bug/1993347))
 
-#### Google Compute Platform 
+#### Google Compute Platform
 
 Nothing yet.
 

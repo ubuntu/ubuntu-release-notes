@@ -1,0 +1,11 @@
+Application developers and system administrators can now install the NVIDIA CUDA parallel computing platform from the Ubuntu Archives.
+
+For application developers targeting Ubuntu systems, this new distribution model means they can simply declare the CUDA runtime, while Ubuntu manages its installation and compatibility across a wide range of supported NVIDIA hardware. This ensures that CUDA will be more accessible and integrated into a widely-used and trusted Linux distribution.
+
+To install CUDA, use the following command:
+
+```bash
+sudo apt install cuda-toolkit
+```
+
+To learn more, see [Canonical announces it will support and distribute NVIDIA CUDA in Ubuntu](https://canonical.com/blog/canonical-announces-it-will-support-and-distribute-nvidia-cuda-in-ubuntu).

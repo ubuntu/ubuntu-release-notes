@@ -275,20 +275,9 @@ linkcheck_ignore = [
     r"https://www.monitoring-plugins\.org/news/.*",
     r"https://kernelnewbies\.org/.*",
     r"https://cairographics\.org/news/.*",
-    # Ubuntu 16.04 LTS release-notes import: dead / bot-challenged links
-    r"http://cdimage\.ubuntu\.com/.*/releases/16\.04\.4/release/",
-    r"https://help\.ubuntu\.com/community/Python/3",
-    r"https://help\.ubuntu\.com/community/S390X",
-    r"https://lists\.ubuntu\.com/archives/ubuntu-devel/2015-December/039028\.html",
-    r"http://conference\.libreoffice\.org/assets/Conference/Aarhus/Slides/MatthewFrancisPyUNO\.pdf",
-    r"https://help\.ubuntu\.com/16\.04/serverguide/kernel-crash-dump\.html",
-    r"http://dark-net\.net/nginx-http2-php7\.0",
-    r"https://jujucharms\.com/docs/devel/juju-upgrade",
-    r"https://jujucharms\.com/store",
-    r"https://jujucharms\.com/docs/devel/temp-release-notes",
-    r"https://blog\.jujugui\.org/2016/04/15/juju-2-0-beta-4-now-with-embedded-gui/",
-    r"http://help\.ubuntu\.com/community/ReportingBugs",
-    r"http://wiki\.ubuntu\.com/BugSquad",
+    # Ubuntu 16.04 LTS release-notes import: bot-challenged links (kept live)
+    r"https?://help\.ubuntu\.com/.*",
+    r"https?://dark-net\.net/.*",
 ]
 
 

@@ -49,21 +49,21 @@ You can download images from:  [releases.ubuntu.com/xenial/](http://releases.ubu
 
 ##[cdimage.ubuntu.com/ubuntu-base/releases/16.04.4/release/](http://cdimage.ubuntu.com/ubuntu-base/releases/16.04.4/release/) (Ubuntu Base)
 
-##`http://cdimage.ubuntu.com/kubuntu/releases/16.04.4/release/` (Kubuntu)
+##[cdimage.ubuntu.com/kubuntu/releases/16.04/release/](https://cdimage.ubuntu.com/kubuntu/releases/16.04/release/) (Kubuntu)
 
-##`http://cdimage.ubuntu.com/lubuntu/releases/16.04.4/release/` (Lubuntu)
+##[cdimage.ubuntu.com/lubuntu/releases/16.04/release/](https://cdimage.ubuntu.com/lubuntu/releases/16.04/release/) (Lubuntu)
 
-##`http://cdimage.ubuntu.com/ubuntustudio/releases/16.04.4/release/` (Ubuntu Studio)
+##[cdimage.ubuntu.com/ubuntustudio/releases/16.04/release/](https://cdimage.ubuntu.com/ubuntustudio/releases/16.04/release/) (Ubuntu Studio)
 
-##`http://cdimage.ubuntu.com/ubuntu-gnome/releases/16.04.4/release/` (Ubuntu GNOME)
+##[cdimage.ubuntu.com/ubuntu-gnome/releases/16.04/release/](https://cdimage.ubuntu.com/ubuntu-gnome/releases/16.04/release/) (Ubuntu GNOME)
 
-##`http://cdimage.ubuntu.com/ubuntukylin/releases/16.04.4/release/` (Ubuntu Kylin)
+##[cdimage.ubuntu.com/ubuntukylin/releases/16.04/release/](https://cdimage.ubuntu.com/ubuntukylin/releases/16.04/release/) (Ubuntu Kylin)
 
-##`http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.4/release/` (Ubuntu MATE)
+##[cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/](https://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/) (Ubuntu MATE)
 
-##`http://cdimage.ubuntu.com/xubuntu/releases/16.04.4/release/` (Xubuntu)
+##[cdimage.ubuntu.com/xubuntu/releases/16.04/release/](https://cdimage.ubuntu.com/xubuntu/releases/16.04/release/) (Xubuntu)
 
-##`http://cdimage.ubuntu.com/mythbuntu/releases/16.04.4/release/` (Mythbuntu)
+##[cdimage.ubuntu.com/mythbuntu/releases/16.04/release/](https://cdimage.ubuntu.com/mythbuntu/releases/16.04/release/) (Mythbuntu)
 
 
 
@@ -130,7 +130,7 @@ Ubuntu 16.04 LTS is based on the long-term supported Linux release series 4.4.
 Python2 is not installed anymore by default on the server, cloud and the touch images, long live Python3!
 Python3 itself has been upgraded to the 3.5 series.
 
-If you have your own programs based on Python 2, fear not! Python 2 will continue to be available (as the python package) for the foreseeable future. However, to best support future versions of Ubuntu you should consider porting your code to Python 3. Python/3 `https://help.ubuntu.com/community/Python/3` has some advice and resources on this.
+If you have your own programs based on Python 2, fear not! Python 2 will continue to be available (as the python package) for the foreseeable future. However, to best support future versions of Ubuntu you should consider porting your code to Python 3. [Python/3](https://help.ubuntu.com/community/Python/3) has some advice and resources on this.
 
 
 (16-04-lts-vim-defaults-to-python3)=
@@ -184,7 +184,7 @@ Apt 1.2 includes the new privilege separation features introduced in Apt 1.1. Im
 
 Ubuntu 16.04 LTS includes a new port to 64-bit z/Architecture for IBM mainframe computers. This is a practically complete port of Ubuntu Server and Cloud with around 95% binary package availability. We are excited to enable OpenStack software, Juju, MAAS, LXD, and much more on this platform.
 
-For more information about this port see S390X `https://help.ubuntu.com/community/S390X` page.
+For more information about this port see [S390X](https://help.ubuntu.com/community/S390X) page.
 
 
 (16-04-lts-ubuntu-desktop)=
@@ -286,7 +286,7 @@ LibreOffice 5.1 brings a lot of improvements to the entire package.  For more in
 (16-04-lts-general-3)=
 #### General
 
-New in 16.04, the kernel crash dump mechanism now supports remote kernel crash dumps. It is now possible to send kernel crash dumps to a remote server using the SSH or NFS protocols. Details of the new functionality are available in the Ubuntu Server Guide `https://help.ubuntu.com/16.04/serverguide/kernel-crash-dump.html`.
+New in 16.04, the kernel crash dump mechanism now supports remote kernel crash dumps. It is now possible to send kernel crash dumps to a remote server using the SSH or NFS protocols. Details of the new functionality are available in the [Ubuntu Server Guide](https://help.ubuntu.com/16.04/serverguide/kernel-crash-dump.html).
 
 Since the release of 16.04.2, the server ISOs are now larger than a standard 700MB CD. The increase in size is due to the ability to run the installer with the use of the [Hardware Enablement (HWE) kernel](https://wiki.ubuntu.com/Kernel/RollingLTSEnablementStack). The HWE kernels enables newer platforms and components, which require functionality delivered in newer kernels, while allowing the continued use of an LTS release.
 
@@ -384,7 +384,7 @@ docker was upgraded to version 1.10. Note that this requires migration of existi
 PHP was upgraded to 7.0. Note that this will require modifications to custom PHP extensions (https://wiki.php.net/phpng-upgrading) and may require modifications to PHP source code (http://php.net/manual/en/migration70.php).
 
 * NGINX and PHP 7.0
-  Upgrading from a prior version of Ubuntu with PHP5 FPM configurations and NGINX will require a manual configuration change (details at: `http://dark-net.net/nginx-http2-php7.0`).
+  Upgrading from a prior version of Ubuntu with PHP5 FPM configurations and NGINX will require a manual configuration change (details at: [dark-net.net/nginx-http2-php7.0](http://dark-net.net/nginx-http2-php7.0)).
 
 Most PHP-dependent packages were either rebuilt or upgraded for PHP7.0 support. Where that was not possible, packages may have been removed from the archive. There was one exception, Drupal7.
 
@@ -611,7 +611,7 @@ The release notes for the official flavours can be found at the following links:
 (16-04-lts-reporting-bugs)=
 ### Reporting bugs
 
-Your comments, bug reports, patches and suggestions will help fix bugs and improve the quality of future releases. Please report bugs using the tools provided `http://help.ubuntu.com/community/ReportingBugs`.
+Your comments, bug reports, patches and suggestions will help fix bugs and improve the quality of future releases. Please [report bugs using the tools provided](http://help.ubuntu.com/community/ReportingBugs).
 
 If you want to help out with bugs, the Bug Squad `http://wiki.ubuntu.com/BugSquad` is always looking for help.
 

@@ -35,35 +35,35 @@ Find the links to release notes for official flavours [here](https://wiki.ubuntu
 ### Download Ubuntu 16.04.7 LTS
 
 Images can be downloaded from a location near you.
-##
+
 **Note:** The Ubuntu Desktop images are now bigger than a standard CD, and you should use a USB or DVD for installation.
 
 You can download images from:  [releases.ubuntu.com/xenial/](http://releases.ubuntu.com/xenial/)
 
 
-##[releases.ubuntu.com/16.04.4/](http://releases.ubuntu.com/16.04.4/) (Ubuntu Desktop and Server)
+[releases.ubuntu.com/16.04.4/](http://releases.ubuntu.com/16.04.4/) (Ubuntu Desktop and Server)
 
-##[cdimage.ubuntu.com/ubuntu/releases/16.04.4/release/](http://cdimage.ubuntu.com/ubuntu/releases/16.04.4/release/) (Less Popular Ubuntu Images)
+[cdimage.ubuntu.com/ubuntu/releases/16.04.4/release/](http://cdimage.ubuntu.com/ubuntu/releases/16.04.4/release/) (Less Popular Ubuntu Images)
 
-##[cdimage.ubuntu.com/netboot/16.04.4/](http://cdimage.ubuntu.com/netboot/16.04.4/) (Ubuntu Netboot)
+[cdimage.ubuntu.com/netboot/16.04.4/](http://cdimage.ubuntu.com/netboot/16.04.4/) (Ubuntu Netboot)
 
-##[cdimage.ubuntu.com/ubuntu-base/releases/16.04.4/release/](http://cdimage.ubuntu.com/ubuntu-base/releases/16.04.4/release/) (Ubuntu Base)
+[cdimage.ubuntu.com/ubuntu-base/releases/16.04.4/release/](http://cdimage.ubuntu.com/ubuntu-base/releases/16.04.4/release/) (Ubuntu Base)
 
-##[cdimage.ubuntu.com/kubuntu/releases/16.04/release/](https://cdimage.ubuntu.com/kubuntu/releases/16.04/release/) (Kubuntu)
+[cdimage.ubuntu.com/kubuntu/releases/16.04/release/](https://cdimage.ubuntu.com/kubuntu/releases/16.04/release/) (Kubuntu)
 
-##[cdimage.ubuntu.com/lubuntu/releases/16.04/release/](https://cdimage.ubuntu.com/lubuntu/releases/16.04/release/) (Lubuntu)
+[cdimage.ubuntu.com/lubuntu/releases/16.04/release/](https://cdimage.ubuntu.com/lubuntu/releases/16.04/release/) (Lubuntu)
 
-##[cdimage.ubuntu.com/ubuntustudio/releases/16.04/release/](https://cdimage.ubuntu.com/ubuntustudio/releases/16.04/release/) (Ubuntu Studio)
+[cdimage.ubuntu.com/ubuntustudio/releases/16.04/release/](https://cdimage.ubuntu.com/ubuntustudio/releases/16.04/release/) (Ubuntu Studio)
 
-##[cdimage.ubuntu.com/ubuntu-gnome/releases/16.04/release/](https://cdimage.ubuntu.com/ubuntu-gnome/releases/16.04/release/) (Ubuntu GNOME)
+[cdimage.ubuntu.com/ubuntu-gnome/releases/16.04/release/](https://cdimage.ubuntu.com/ubuntu-gnome/releases/16.04/release/) (Ubuntu GNOME)
 
-##[cdimage.ubuntu.com/ubuntukylin/releases/16.04/release/](https://cdimage.ubuntu.com/ubuntukylin/releases/16.04/release/) (Ubuntu Kylin)
+[cdimage.ubuntu.com/ubuntukylin/releases/16.04/release/](https://cdimage.ubuntu.com/ubuntukylin/releases/16.04/release/) (Ubuntu Kylin)
 
-##[cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/](https://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/) (Ubuntu MATE)
+[cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/](https://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/) (Ubuntu MATE)
 
-##[cdimage.ubuntu.com/xubuntu/releases/16.04/release/](https://cdimage.ubuntu.com/xubuntu/releases/16.04/release/) (Xubuntu)
+[cdimage.ubuntu.com/xubuntu/releases/16.04/release/](https://cdimage.ubuntu.com/xubuntu/releases/16.04/release/) (Xubuntu)
 
-##[cdimage.ubuntu.com/mythbuntu/releases/16.04/release/](https://cdimage.ubuntu.com/mythbuntu/releases/16.04/release/) (Mythbuntu)
+[cdimage.ubuntu.com/mythbuntu/releases/16.04/release/](https://cdimage.ubuntu.com/mythbuntu/releases/16.04/release/) (Mythbuntu)
 
 
 

@@ -207,6 +207,8 @@ linkcheck_ignore = [
     r"https://github\.com/.*/blob/.*",
     # Ubuntu wiki (rate-limited)
     r"https://wiki\.ubuntu\.com/.*",
+    # Ubuntu wiki over HTTP (connect timeouts)
+    r"http://wiki\.ubuntu\.com.*",
     # Rate-blocked or bot-challenged (418 / 5xx responses)
     r"https?://ceph\.com.*",
     r"https://dev\.mysql\.com/.*",

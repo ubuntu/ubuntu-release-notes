@@ -215,6 +215,8 @@ linkcheck_ignore = [
     r"https://blogs\.oracle\.com/.*",
     r"https://gitlab\.gnome\.org/.*",
     r"https://discourse\.lubuntu\.me/.*",
+    # Mythbuntu: page is live but blocks bots with 403
+    r"http://www\.mythbuntu\.org/.*",
     r"https://downloads\.apache\.org/.*",
     r"https://www\.freedesktop\.org/.*",
     r"https://gstreamer\.freedesktop\.org/.*",

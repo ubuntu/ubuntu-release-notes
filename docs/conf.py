@@ -275,9 +275,14 @@ linkcheck_ignore = [
     r"https://www.monitoring-plugins\.org/news/.*",
     r"https://kernelnewbies\.org/.*",
     r"https://cairographics\.org/news/.*",
-    # Ubuntu 16.04 LTS release-notes import: bot-challenged links (kept live)
-    r"https?://help\.ubuntu\.com/.*",
     r"https?://dark-net\.net/.*",
+    # 22.10 release notes: dead (404) and (403) external links
+    r"https://bind9\.readthedocs\.io/en/v9_18_7/manpages\.html.*",
+    r"https://docs\.docker\.com/release-notes/.*",
+    r"https://www\.raspberrypi\.com/.*",
+    r"https://docs\.kernel\.org/admin-guide/gpio/sysfs\.html",
+    r"https://kubuntu\.org/news/.*",
+    r"https://ubuntuunity\.org/blog/.*",
 ]
 
 

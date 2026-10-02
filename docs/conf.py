@@ -275,6 +275,13 @@ linkcheck_ignore = [
     r"https://www.monitoring-plugins\.org/news/.*",
     r"https://kernelnewbies\.org/.*",
     r"https://cairographics\.org/news/.*",
+    # 22.10 release notes: dead (404) and bot-challenged (403) external links
+    r"https://bind9\.readthedocs\.io/en/v9_18_7/manpages\.html.*",
+    r"https://docs\.docker\.com/release-notes/.*",
+    r"https://www\.raspberrypi\.com/.*",
+    r"https://docs\.kernel\.org/admin-guide/gpio/sysfs\.html",
+    r"https://kubuntu\.org/news/.*",
+    r"https://ubuntuunity\.org/blog/.*",
 ]
 
 

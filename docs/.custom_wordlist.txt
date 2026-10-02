@@ -1251,3 +1251,4 @@ zpwr
 Zstack
 Zstd
 zstd
+Hyperpixel

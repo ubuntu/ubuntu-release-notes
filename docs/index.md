@@ -9,6 +9,7 @@ Release notes contain specific upgrade instructions for that particular release.
 :maxdepth: 2
 :caption: Supported LTS releases
 
+26.04 LTS (Resolute Raccoon) <26.04/index>
 24.04 LTS (Noble Numbat) <24.04/index>
 22.04 LTS (Jammy Jellyfish) <22.04/index>
 :::
@@ -18,7 +19,6 @@ Release notes contain specific upgrade instructions for that particular release.
 :maxdepth: 2
 :caption: Supported interim releases
 
-25.10 (Questing Quokka) <25.10/index>
 :::
 
 :::{toctree}
@@ -26,7 +26,7 @@ Release notes contain specific upgrade instructions for that particular release.
 :maxdepth: 2
 :caption: Currently in development
 
-26.04 LTS (Resolute Raccoon) <26.04/index>
+26.10 (Stonking Stingray) <26.10/index>
 :::
 
 :::{toctree}
@@ -47,14 +47,10 @@ Contribute to release notes <contribute>
 
 ## LTS releases
 
-<!--
-Still in development:
-
 ### 26.04 LTS (Resolute Raccoon)
 
 * {ref}`ubuntu-26.04-lts-release-notes`
 * {ref}`resolute-raccoon-schedule`
--->
 
 ### 24.04 LTS (Noble Numbat)
 
@@ -77,14 +73,12 @@ Still in development:
 
 ## Interim releases
 
-### 25.10 (Questing Quokka)
-
-* {ref}`ubuntu-25.10-release-notes`
+None at the moment.
 
 (release-policy-and-schedule)=
 ## Release policy and schedule
 
-Ubuntu releases a new version every six months. Releases of Ubuntu get a development codename (‘Questing Quokka’) and are versioned by the year and month of delivery – for example, Ubuntu 25.10 was released in October 2025.
+Ubuntu releases a new version every six months. Releases of Ubuntu get a development codename (‘Resolute Raccoon’) and are versioned by the year and month of delivery – for example, Ubuntu 26.04 was released in April 2026.
 
 Each version includes the latest features, updates, and security patches during its supported lifecycle.
 
@@ -126,7 +120,7 @@ You can find out more about Ubuntu on the [Ubuntu website](https://ubuntu.com/).
 
 ### Report bugs
 
-Your comments, bug reports, patches and suggestions help fix bugs and improve the quality of future releases. Please [report bugs using the tools provided](http://help.ubuntu.com/community/ReportingBugs). If you want to help with bugs, the [Bug Squad](http://wiki.ubuntu.com/BugSquad) is always looking for help.
+Your comments, bug reports, patches and suggestions help fix bugs and improve the quality of future releases. Please [report bugs using the tools provided](http://help.ubuntu.com/community/ReportingBugs). If you want to help with bugs, the [Bug Squad](https://ubuntu.com/project/docs/who-makes-ubuntu/specialist-teams/bug-squad/) is always looking for help.
 
 ### Get involved
 

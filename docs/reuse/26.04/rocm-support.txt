@@ -1,0 +1,115 @@
+The Ubuntu Universe repository now includes AMD ROCm software version 7.1.0. These libraries provide back-end infrastructure to support AI training and inference on AMD GPU hardware, as well as machine learning and high performance computing functionality.
+
+The ROCm libraries are regularly tested in Canonical's CI/CD processes. In addition to `autopkgtests`, several user-space applications are also tested including `llama.cpp`, `pytorch`, Blender and Lemonade Server.
+
+:::{dropdown} Supported hardware
+Currently only some hardware architectures are supported and integrated in Canonical's CI/CD tests but others will be added over time:
+
+| GFX ISA    | Hardware Family | CI Status |
+|---|---|---|
+| `gfx908`    | Instinct™ MI-100 | YES |
+| `gfx90a`    | Instinct MI-210, MI-250  | |
+| `gfx942`    | Instinct MI-300, MI-325  | |
+| `gfx1030`  | Navi21 / Radeon™  RX6900 Series, Pro V620 | |
+| `gfx1100`  | Navi31 / Radeon RX7900 Series | |
+| `gfx1101`  | Navi32 / Radeon RX7700 Series | |
+| `gfx1151`  | Strix Halo / Ryzen AI MAX 300 Series (Radeon 8040S, 8050S, 8060S) | YES |
+| `gfx1200`  | Navi48 / Radeon RX9060 | |
+| `gfx1201` | Navi44 / Radeon RX 9070XT, AI PRO R9700 | YES |
+
+Note that currently, {ref}`resolute-gfx908-blender-tests-issue`.
+:::
+
+::::{dropdown} ROCm libraries
+The following individual ROCm libraries are included, listed by source package name:
+
+:::{hlist}
+:columns: 3
+
+- `amdsmi`
+- `hipblas`
+- `hipblas-common`
+- `hipblaslt`
+- `hipcub`
+- `hipfft`
+- `hipify`
+- `hiprand`
+- `hipsolver`
+- `hipsparse`
+- `miopen`
+- `pkg-rocm-tools`
+- `rccl`
+- `rocblas`
+- `rocalution`
+- `rocm-cmake`
+- `rocm-core`
+- `rocdbgapi`
+- `rocfft`
+- `rocm-hipamd`
+- `rocminfo`
+- `rocm-llvm`
+- `rocm-smi-lib`
+- `rocprim`
+- `rocr-runtime`
+- `rocrand`
+- `rocsolver`
+- `rocsparse`
+- `rocthrust`
+- `roctracer`
+:::
+::::
+
+:::{dropdown} Install the ROCm software stack
+Two meta-packages are available, depending on your use case and needs. In most scenarios, you don't have to install these packages directly: the individual libraries can be installed as dependencies of end-user applications as needed.
+
+- Install the complete ROCm software stack, including binaries and header files:
+
+    ```bash
+    apt install rocm
+    ```
+
+    This is a large set of packages that is most suitable for benchmarking, testing or other scenarios where the full suite of functionality is required and installation size is not a concern.
+
+- Install only the development libraries and header files for developing ROCm-enabled applications:
+
+    ```bash
+    apt install rocm-dev
+    ```
+
+:::
+
+:::{dropdown} Install the Lemonade Server
+Lemonade Server is a local inference server that includes comprehensive support for AMD GPU, NPU, and CPU hardware and standards-compliant APIs for front-end applications to use, similar to Ollama.
+
+Install the back end:
+
+- Using snap:
+
+    ```bash
+    snap install lemonade-server
+    ```
+
+- Using Deb:
+
+    ```bash
+    apt install lemonade-server
+    ```
+
+Install the Lemonade front-end application:
+
+- Using snap:
+
+    ```bash
+    snap install lemonade-desktop
+    ```
+
+- Using Deb:
+
+    ```bash
+    apt install lemonade-desktop
+    ```
+
+For details, see the Lemonade Server home page: <https://lemonade-server.ai/>.
+:::
+
+For more information on ROCm, see [ROCm 7.1.0 release notes](https://rocm.docs.amd.com/en/docs-7.1.0/about/release-notes.html).

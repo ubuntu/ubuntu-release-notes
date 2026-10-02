@@ -1,0 +1,14 @@
+* Parental control options have been enhanced.
+* The Orca screen reader has been significantly improved.
+* A new Reduced Motion option enables you to reduce interface animations.
+* The annotation feature in the Document Viewer app has been modernized.
+* The Files app brings better performance and reliability, as well as a more refined user interface.
+* The Calendar app introduces an attendee list feature and comes with a more polished event management interface.
+* Date & Time settings enable you to set the first day of the week.
+* Sound settings more clearly distinguish between input and output.
+* The GNOME remote desktop solution enables hardware acceleration to improve performance. It also provides a more stable experience with NVIDIA drivers, scales HiDPI displays correctly and enables you to use your webcam from a remote connection.
+* Variable Refresh Rate (VRR) and Fractional Scaling Support have been improved.
+* The mouse cursor now operates smoothly at the maximum frame rate even if a game or professional app is running at a lower frame rate.
+* The desktop is now smoother with NVIDIA drivers.
+* Color management has been updated to the latest Wayland standard.
+* You can now record or screen-share monitors displaying High Dynamic range (HDR) content.

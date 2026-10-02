@@ -98,9 +98,10 @@ Ubuntu 22.04 LTS ships multiple optimized kernels on per-product basis:
 Additional optimized and certified kernel flavors will become available in Ubuntu 22.04 LTS in due course.
 
 #### UDP disabled for NFS mounts
-Since Ubuntu 20.10 ("Groovy Gorilla"), the kernel option `CONFIG_NFS_DISABLE_UDP_SUPPORT=y` is set and this disables using UDP as the transport for NFS mounts, regardless of NFS version.
+Since Ubuntu 20.10 (Groovy Gorilla), the kernel option `CONFIG_NFS_DISABLE_UDP_SUPPORT=y` is set and this disables using UDP as the transport for NFS mounts, regardless of NFS version.
 
 In practice, if you try to use `udp`, you will get this error:
+
 ```
 $ sudo mount f1:/storage /mnt -o udp
 mount.nfs: an incorrect mount option was specified
@@ -109,7 +110,7 @@ mount.nfs: an incorrect mount option was specified
 
 ### Toolchain Upgrades 🛠️
 
-GCC was updated to the 11.2.0 release, binutils to 2.38, and glibc to 2.35. Python 🐍 now ships at version 3.10.4, Perl 🐪 at version 5.34.0. LLVM now defaults to version 14. golang defaults to version 1.18.x. rustc defaults to version 1.58.
+GCC was updated to the 11.2.0 release, `binutils` to 2.38, and `glibc` to 2.35. Python 🐍 now ships at version 3.10.4, Perl 🐪 at version 5.34.0. LLVM now defaults to version 14. golang defaults to version 1.18.x. `rustc` defaults to version 1.58.
 
 In addition to OpenJDK 11, OpenJDK 18 is now provided (but not used for package builds).
 
@@ -122,7 +123,7 @@ The init system was updated to systemd v249, using a solid .11 patchlevel for th
 
 We've upgraded the OpenSSL library to the new 3.0 version, which disables a lot of legacy algorithms by default, as detailed in their [migration guide](https://www.openssl.org/docs/manmaster/man7/migration_guide.html). In particular, certificates using SHA1 or MD5 as hash algorithms are now invalid under the default security level.
 
-In addition to the upstream deprecations, please note that since Ubuntu 20.04 (Focal Fossa), the security level 2 (which is the default) disables the (D)TLS protocols below 1.2 (included).
+In addition to the upstream deprecations, please note that since Ubuntu 20.04 LTS (Focal Fossa), the security level 2 (which is the default) disables the (D)TLS protocols below 1.2 (included).
 
 Since the new version has an API bump, third-party packages that depend on libssl1.1 will need to be rebuilt to instead depend on libssl3, as the older ABI isn't provided anymore.
 
@@ -147,7 +148,7 @@ nftables is now the default backend for the firewall. All applications on the sy
   * … Which means faster access to the newest Firefox versions
   * Easily switch to a different Firefox flavor with snap channels including `esr/stable`, `latest/candidate`, `latest/beta`, and `latest/edge`
   * Sandboxed for improved security hardening for this critical app
-* Improved in 22.04.1: Firefox startup speed is [significantly faster](https://ubuntu.com/blog/improving-firefox-snap-performance-part-3) now compared to the original Ubuntu 22.04 release.
+* Improved in 22.04.1: Firefox startup speed is [significantly faster](https://ubuntu.com/blog/improving-firefox-snap-performance-part-3) now compared to the original Ubuntu 22.04 LTS release.
 * Desktop icons are shown in the bottom right by default but this can be changed through new settings added to the Appearance panel of the Settings app.
 * Also there are new settings to control the Dock look and behavior
 * Dock devices and filemanager integration has been improved
@@ -225,19 +226,19 @@ The agents are now separated in two packages: fence-agents-base and fence-agents
 It was updated to version 1.5.9. Some interesting changes are:
 
 * Update pull to handle of non-https urls in descriptors
-* Install apparmor parser for arm64 and update seccomp to 2.5.1
+* Install AppArmor parser for arm64 and update seccomp to 2.5.1
 * Add support for *clone3* syscall to fix issue with certain images when seccomp is enabled
 * Add image config labels in CRI container creation
 
 For the complete list of changes please refer to the [upstream release page](https://github.com/containerd/containerd/releases).
 
-###### runc
+###### `runc`
 
 It was updated to version 1.1.0. There are many improvements and bug fixes which can be found in the [upstream release page](https://github.com/opencontainers/runc/releases). Some deprecations and removals which might impact the upgrade are presented below:
 
 Deprecation
 
-* runc run/start now warns if a new container cgroup is non-empty or frozen; this warning will become an error in runc 1.2
+* runc run/start now warns if a new container cgroup is non-empty or frozen; this warning will become an error in `runc` 1.2
 
 Removals
 
@@ -291,7 +292,7 @@ Users upgrading from previous versions should be aware of the following changes:
 - Support for the map zone file format has been removed. Users relying on such zone file format should convert their zones to use the raw format and change configurations accordingly before upgrading.
 - Several obsolete, non-working configuration options have been removed and are now treated as configuration failures when present. A complete list of such configurations is available in the [upstream release notes](https://bind9.readthedocs.io/en/v9_18_1/notes.html#removed-features).
 
-##### Apache has been updated to 2.4.52 from 2.4.48.
+##### Apache has been updated to 2.4.52 from 2.4.48
 
  - OpenSSL support is improved to support OpenSSL v3.  mod_ssl also received various refinements for outgoing connection behaviors, backwards compatibility, and wireshark logging.
  - mod_md adds support for ACME External Account Binding (EAB) along with a host of other enhancements and fixes.
@@ -338,7 +339,7 @@ Changes have been made to:
 - Model.save() when providing a default for the primary key
 - Along with various minor module changes 
 
-For additional information, especially since an upgrade would be from the former v2.2 LTS to v3.2 LTS do not only check the Django project release notes of [3.2](https://docs.djangoproject.com/en/4.0/releases/3.2/) but also [3.1](https://docs.djangoproject.com/en/4.0/releases/3.1) and [3.0](https://docs.djangoproject.com/en/4.0/releases/3.0) as well as the various minor releases included up to 3.2.12 that is in Ubuntu 22.04.
+For additional information, especially since an upgrade would be from the former v2.2 LTS to v3.2 LTS do not only check the Django project release notes of [3.2](https://docs.djangoproject.com/en/4.0/releases/3.2/) but also [3.1](https://docs.djangoproject.com/en/4.0/releases/3.1) and [3.0](https://docs.djangoproject.com/en/4.0/releases/3.0) as well as the various minor releases included up to 3.2.12 that is in Ubuntu 22.04 LTS.
 
 ##### MySQL 8.0
 
@@ -370,12 +371,12 @@ Samba was updated to 4.15.5, which brings some noteworthy changes. Please see th
 * server multi channel support is no longer experimental
 * command-line options in all CLI tooling are now using a common parser, and unknown options which might have been ignored in the past, will now be rejected. See the [upstream release notes](https://www.samba.org/samba/history/samba-4.15.0.html) for details.
 * many `/etc/samba/smb.conf` parameters were changed, some removed. Please see the [upstream release notes](https://www.samba.org/samba/history/samba-4.15.0.html) for details.
-* the CTDB package was adjusted to work with the new NFS server version shipped in this Ubuntu 22.04
+* the CTDB package was adjusted to work with the new NFS server version shipped in this Ubuntu 22.04 LTS
 * `findsmb(1)` was removed
 * [glusterfs support enabled](https://bugs.launchpad.net/ubuntu/+source/samba/+bug/1894618) in the Ubuntu packaging. This was possible because [glusterfs was promoted to Main](https://bugs.launchpad.net/ubuntu/+source/glusterfs/+bug/1950321) during the 22.04 LTS development cycle, which allowed us to enable the glusterfs vfs module. This module is now present in the `samba-vfs-modules` package.
 
 ##### Quagga replaced with frr
-`quagga` was removed from Ubuntu 22.04 and replaced by FRRouting (`frr`, https://frrouting.org/).
+`quagga` was removed from Ubuntu 22.04 LTS and replaced by FRRouting (`frr`, https://frrouting.org/).
 
 ##### Chrony time synchronization
 
@@ -428,17 +429,17 @@ The new version 4.0.0 of virt-manager is the most recent update after almost 1.5
  * virtiofs filesystem driver UI option
  * enable a TPM by default when UEFI is used
  * Use cpu host-passthrough by default on qemu x86
- * use virtio-gpu video for most modern distros
+ * use `virtio-gpu` video for most modern distros
  * More details can be found on the [news page](https://github.com/virt-manager/virt-manager/blob/main/NEWS.md) and individual commits on the [projects website](https://github.com/virt-manager/virt-manager)
 
 ###### dpdk
 
-Following the yearly flow of upstream DPDK LTS releases Ubuntu 22.04 contains the most recent DPDK LTS 21.11.
+Following the yearly flow of upstream DPDK LTS releases Ubuntu 22.04 LTS contains the most recent DPDK LTS 21.11.
 That contains various new device drivers, fixes and optimizations. Even the rather huge [release notes](http://doc.dpdk.org/guides/rel_notes/release_21_11.html) is just about 21.11 itself. Compared to the former DPDK LTS 20.11 that shipped with Ubuntu 21.10 you'd also want to read the DPDK release notes of [21.02](http://doc.dpdk.org/guides/rel_notes/release_21_02.html), [21.05](http://doc.dpdk.org/guides/rel_notes/release_21_05.html) and [21.08](http://doc.dpdk.org/guides/rel_notes/release_21_08.html).
 
 ###### openvswitch
 
-The new version 2.17.0 of openvswitch is in Ubuntu 22.04 and provides a general update including the following changes:
+The new version 2.17.0 of openvswitch is in Ubuntu 22.04 LTS and provides a general update including the following changes:
 
  * Various features that ease the use of a userspace datapath.
  * Performance improvements for the OVSDB and clustered OVSDB which is heavily used in OVN deployments.
@@ -447,7 +448,7 @@ The new version 2.17.0 of openvswitch is in Ubuntu 22.04 and provides a general 
 
 ###### swtpm
 
-The `swtpm` as well as `libtpms` package is now available and supported in Ubuntu 22.04.
+The `swtpm` as well as `libtpms` package is now available and supported in Ubuntu 22.04 LTS.
 
 `swtpm` provides TPM emulators with different front-end interfaces to libtpms. TPM emulators provide socket interfaces (TCP/IP and unix) and the Linux CUSE interface for the creation of multiple native /dev/vtpm* devices..
 
@@ -490,7 +491,7 @@ Notable improvements introduced in this cycle:
      * CIS benchmarks packaged as part of Ubuntu Security Guide (USG)
      * [Beta real-time kernel](https://ubuntu.com/blog/real-time-ubuntu-released) based on 5.15 and PREEMPT_RT patches
  * Usability
-     * `ua security-status` provides a detailed view of available and applicable package updates provided by Ubuntu proper and Extended Security Maintenance channels
+     * `ua security-status` provides a detailed view of available and applicable package updates provided by standard Ubuntu and Extended Security Maintenance channels
      * Enable Desktop installer to validate and attach Ubuntu Advantage tokens
      * Support machine-readable output JSON/YAML format for most commands
      * Configurable auto attach behavior via `ua attach --attach-config`
@@ -510,7 +511,7 @@ Some of the key changes include:
 
 * **LXD virtual machines** now come with vTPM support as well as arbitrary PCI passthrough support. VMs can now be live-migrated and support some device hotplug and additional storage options.
 * **Networking** now includes OVN support combined with BGP, DNS, floating IP and hardware acceleration support.
-* **Projects** have grown a numwber of additional limits and restrictions, making it easy to safely grant access to various teams and limit their resource usage.
+* **Projects** have grown a number of additional limits and restrictions, making it easy to safely grant access to various teams and limit their resource usage.
 * **LXD-migrate** has been reworked with support for both containers and VMs
 * **Cluster** users can now perform easy maintenance through cluster evacuation, group servers into target groups and get detailed instance metrics across entire clusters.
 
@@ -519,13 +520,13 @@ Additional details and a complete changelog can be found [here](https://discuss.
 
 #### Ceph
 
-Ubuntu 22.04 includes the latest release candidate of the Ceph Quincy release.
+Ubuntu 22.04 LTS includes the latest release candidate of the Ceph Quincy release.
 
 Ceph packages will be updated as a [stable release update](https://bugs.launchpad.net/ubuntu/+source/ceph/+bug/1968318) once Quincy is released by the Ceph community.
 
 #### OpenStack
 
-Ubuntu 22.04 includes the latest OpenStack release, Yoga, including the following components:
+Ubuntu 22.04 LTS includes the latest OpenStack release, Yoga, including the following components:
 
 * OpenStack Identity - Keystone
 * OpenStack Imaging - Glance
@@ -553,7 +554,7 @@ Make sure you read the [OpenStack Charm Release Notes](https://docs.openstack.or
 
 #### needrestart and unattended operations
 
-[needrestart](https://discourse.ubuntu.com/t/needrestart-for-servers/21552) was first installed by default in Ubuntu 21.04 and continues to feature in Ubuntu 22.04. It helps ensure that services are correctly restarted when their dependencies receive security updates.
+[needrestart](https://discourse.ubuntu.com/t/needrestart-for-servers/21552) was first installed by default in Ubuntu 21.04 and continues to feature in Ubuntu 22.04 LTS. It helps ensure that services are correctly restarted when their dependencies receive security updates.
 
 By default, needrestart will prompt after upgrading packages if restarts are determined to be required. To suppress this behaviour, you can set `DEBIAN_FRONTEND=noninteractive` as usual. needrestart will then fall back to "list only mode". It will be necessary to restart services afterwards, for example by rebooting or invoking `needrestart -ra`.
 
@@ -586,7 +587,7 @@ Ubuntu 22.04 LTS is available on ARM in many public clouds - Azure, AWS, Oracle 
 
 Ubuntu 22.04 LTS adds linux-restricted-modules of NVIDIA drivers on ARM64. Users on ARM64 can now use `ubuntu-drivers` tool to install and configure NVIDIA drivers from the Ubuntu Archive.
 
-linux-generic-64k kernel flavor with 64K pages support is now avalable as a GA LTS kernel. It was first introduced in 20.10 release, and has been available as an HWE kernel since 20.04.2 LTS.
+linux-generic-64k kernel flavor with 64K pages support is now available as a GA LTS kernel. It was first introduced in 20.10 release, and has been available as an HWE kernel since 20.04.2 LTS.
 
 
 #### ppc64el
@@ -660,7 +661,7 @@ As is to be expected, with any release, there are some significant known bugs th
 * The kernel runtime parameter `kernel.task_delayacct` has been [switched off by default](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=e4042ad492357fa995921376462b04a025dd53b6) in 5.14 and later. That saves a small amount of cpu cycles and memory for a rarely used feature. But if you use any monitoring that needs those you'd now need to enable this either at boot time via kernel parameter `delayacct` or at runtime via `sudo sysctl -w kernel.task_delayacct=1` (There might be a slight delay after activating until statistics are available).
 
 ### System
-* systemd / journald now defaults to `zstd` compression and uses the “keyed hash” feature (upstream default as of v246). Therefore, journal files written on Ubuntu 22.04 (using systemd v249) cannot be opened using an older version of journal (i.e. from a 18.04/20.04/Core20 installation). This will fail with an error ([~~LP: #1953744~~](https://bugs.launchpad.net/subiquity/+bug/1953744), [~~forum.snapcraft.io~~](https://forum.snapcraft.io/t/accessing-journal-logs-from-22-04-hosts-when-using-older-base-snap/29627)):
+* systemd / journald now defaults to `zstd` compression and uses the “keyed hash” feature (upstream default as of v246). Therefore, journal files written on Ubuntu 22.04 LTS cannot be opened using an older version of journal (i.e. from a 18.04/20.04/Core20 installation). This will fail with an error ([~~LP: #1953744~~](https://bugs.launchpad.net/subiquity/+bug/1953744), [~~Snapcraft forum~~](https://forum.snapcraft.io/t/accessing-journal-logs-from-22-04-hosts-when-using-older-base-snap/29627)):
     ```
     Journal file xxx.journal has unknown incompatible flags 0xc
     Failed to open journal file xxx.journal: Protocol not supported
@@ -677,16 +678,18 @@ As is to be expected, with any release, there are some significant known bugs th
 * To use AppImages, you'll first [need to run](https://launchpad.net/bugs/1965636) `sudo apt install libfuse2`
 * When doing an offline install of Ubuntu Desktop with NVidia hardware enabled, nvidia-settings [will not be installed](https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1990535). You will need to run `sudo apt install nvidia-settings` after enabling the network.
 * When performing an installation with a Broadcom wireless network adapter, which requires third party drivers, on a system with UEFI and Secure Boot enabled the driver will not be loaded due to a failure to sign the driver. A workaround exists in [the bug](https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/2008120) tracking this particular issue.
-* A regression in the 22.04.5 images images prevents the Nvidia drivers to be correctly installed when whe installation is done in offline mode ([LP #2080522](https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/2080522)). The drivers are installed correctly when the installer has access to the Internet.
+* A regression in the 22.04.5 images images prevents the Nvidia drivers to be correctly installed when the installation is done in offline mode ([LP #2080522](https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/2080522)). The drivers are installed correctly when the installer has access to the Internet.
 * Some Dell, HP, Lenovo systems might not be able finish the installation offline with Ubuntu Desktop 22.04.5 image due to a bug in the installer ([LP: #2107458](https://bugs.launchpad.net/ubiquity/+bug/2107458)). This can be worked around by connecting to the internet during installation, or use [22.04.4 image](https://old-releases.ubuntu.com/releases/jammy/) to install instead. 
 
 ### Ubuntu Server
 
 * Starting with Subiquity 23.04.1 or Ubuntu Server 22.04.3: In some situations, it is acceptable to proceed with an offline install when the mirror is inaccessible. In this scenario, it is advised to use:
-```
-apt:
-  fallback: offline-install
-```
+
+  ```
+  apt:
+    fallback: offline-install
+  ```
+
 * 22.04.3 LTS live-server, which contains cloud-init version 22.2.1-0ubuntu0~22.04.1, is affected by [~~this bug~~](https://github.com/canonical/cloud-init/issues/4271). The effect of this is that, when using cloud-init to provide autoinstall data, the `h` aka `local-hostname` or `i` aka `instance-id` nocloud datastore arguments should not be used.  For an example of a working configuration, please see the [autoinstall-quickstart](https://ubuntu.com/server/docs/install/autoinstall-quickstart) guide.
 
 ### Active Directory Integration

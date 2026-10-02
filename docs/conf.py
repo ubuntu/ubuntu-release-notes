@@ -32,25 +32,14 @@ author = "Canonical Ltd."
 html_title = project
 
 
-# Copyright string; shown at the bottom of the page
+# The year in the copyright statement defaults to the current year, so
+# individual document versions show when they were built.
+# TODO: If the date must be a range, like in a software license, replace
+# 2026 with the starting year of development and use:
 #
-# Now, the starter pack uses CC-BY-SA as the license
-# and the current year as the copyright year.
-#
-# NOTE: For static works, it is common to provide the first publication year.
-#       Another option is to provide both the first year of publication
-#       and the current year, especially for docs that frequently change,
-#       e.g. 2022–2023 (note the en-dash).
-#
-#       A way to check a repo's creation date is to get a classic GitHub token
-#       with 'repo' permissions; see https://github.com/settings/tokens
-#       Next, use 'curl' and 'jq' to extract the date from the API's output:
-#
-#       curl -H 'Authorization: token <TOKEN>' \
-#         -H 'Accept: application/vnd.github.v3.raw' \
-#         https://api.github.com/repos/canonical/<REPO> | jq '.created_at'
+# copyright = f"2026-{datetime.date.today().year}"
 
-copyright = "%s CC-BY-SA, %s" % (datetime.date.today().year, author)
+copyright = f"{datetime.date.today().year}"
 
 
 # Documentation website URL
@@ -113,11 +102,9 @@ html_context = {
     #       and creating GitHub issues are added at the bottom of each page.
     "github_url": "https://github.com/ubuntu/ubuntu-release-notes",
     # Docs branch in the repo; used in links for viewing the source files
-    'repo_default_branch': 'main',
+    "repo_default_branch": "main",
     # Docs location in the repo; used in links for viewing the source files
     #
-
-
     # TODO: To customise the directory, uncomment and update as needed.
     "repo_folder": "/docs/",
     # TODO: To enable or disable the Previous / Next buttons at the bottom of pages
@@ -125,20 +112,24 @@ html_context = {
     # "sequential_nav": "both",
     # TODO: To enable listing contributors on individual pages, set to True
     "display_contributors": True,
-
     # Required for feedback button
-    'github_issues': 'enabled',
-
+    "github_issues": "enabled",
     # Links for the "Ubuntu docs" dropdown in the site header
     #  - comment out "your" docs set, duh! ;-)
     "ubuntu_docs": [
         # {"title": "Ubuntu release notes", "url": "https://documentation.ubuntu.com/release-notes/"},
-        {"title": "Ubuntu Desktop",        "url": "https://documentation.ubuntu.com/desktop/"},
-        {"title": "Ubuntu Server",         "url": "https://ubuntu.com/server/docs/"},
-        {"title": "Ubuntu on WSL",         "url": "https://documentation.ubuntu.com/wsl/latest/"},
-        {"title": "Ubuntu for developers", "url": "https://documentation.ubuntu.com/ubuntu-for-developers/"},
-        {"title": "Ubuntu project",        "url": "https://documentation.ubuntu.com/project/"},
-        {"title": "Ubuntu Pro",            "url": "https://documentation.ubuntu.com/pro/"},
+        {"title": "Ubuntu Desktop", "url": "https://documentation.ubuntu.com/desktop/"},
+        {"title": "Ubuntu Server", "url": "https://ubuntu.com/server/docs/"},
+        {
+            "title": "Ubuntu on WSL",
+            "url": "https://documentation.ubuntu.com/wsl/latest/",
+        },
+        {
+            "title": "Ubuntu for developers",
+            "url": "https://documentation.ubuntu.com/ubuntu-for-developers/",
+        },
+        {"title": "Ubuntu project", "url": "https://documentation.ubuntu.com/project/"},
+        {"title": "Ubuntu Pro", "url": "https://documentation.ubuntu.com/pro/"},
     ],
 }
 
@@ -157,7 +148,7 @@ html_extra_path = []
 # - https://git.launchpad.net/example
 #
 html_theme_options = {
-    # 'source_edit_link': 'https://github.com/ubuntu/ubuntu-release-notes',
+    "source_edit_link": "https://github.com/ubuntu/ubuntu-release-notes",
 }
 
 # Project slug; see https://meta.discourse.org/t/what-is-category-slug/87897
@@ -165,7 +156,7 @@ html_theme_options = {
 # TODO: If your documentation is hosted on https://docs.ubuntu.com/,
 #       uncomment and update as needed.
 
-slug = 'release-notes'
+slug = "release-notes"
 
 #######################
 # Sitemap configuration: https://sphinx-sitemap.readthedocs.io/
@@ -177,7 +168,7 @@ html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "/")
 
 # sphinx-sitemap uses html_baseurl to generate the full URL for each page:
 
-sitemap_url_scheme = '{link}'
+sitemap_url_scheme = "{link}"
 
 # Include `lastmod` dates in the sitemap:
 
@@ -186,9 +177,9 @@ sitemap_show_lastmod = True
 # Exclude generated pages from the sitemap:
 
 sitemap_excludes = [
-    '404/',
-    'genindex/',
-    'search/',
+    "404/",
+    "genindex/",
+    "search/",
 ]
 
 # TODO: Add more pages to sitemap_excludes if needed. Wildcards are supported.
@@ -206,17 +197,20 @@ templates_path = [".sphinx/_templates"]
 # Redirects #
 #############
 
-# To set up redirects: https://documatt.gitlab.io/sphinx-reredirects/usage.html
-# For example: 'explanation/old-name.html': '../how-to/prettify.html',
+# Add redirects to the 'redirects.txt' file
+# https://sphinxext-rediraffe.readthedocs.io/en/latest/
 
 # To set up redirects in the Read the Docs project dashboard:
 # https://docs.readthedocs.io/en/stable/guides/redirects.html
 
+rediraffe_redirects = "redirects.txt"
+
+# Strips '/index.html' from destination URLs when building with 'dirhtml'
+
 # NOTE: If undefined, set to None, or empty,
 #       the sphinx_reredirects extension will be disabled.
 
-redirects = {
-}
+redirects = {}
 
 
 ###########################
@@ -235,12 +229,81 @@ linkcheck_ignore = [
     # Rate-limited domains that cause delays
     r"http://www\.gnu\.org/software/.*",
     r"https://github\.com/.*/blob/.*",
-    ]
+    # Ubuntu wiki (rate-limited)
+    r"https://wiki\.ubuntu\.com/.*",
+    # Rate-blocked or bot-challenged (418 / 5xx responses)
+    r"https?://ceph\.com.*",
+    r"https://dev\.mysql\.com/.*",
+    r"https://blogs\.oracle\.com/.*",
+    r"https://gitlab\.gnome\.org/.*",
+    r"https://discourse\.lubuntu\.me/.*",
+    r"https://downloads\.apache\.org/.*",
+    r"https://www\.freedesktop\.org/.*",
+    r"https://gstreamer\.freedesktop\.org/.*",
+    r"https://linux-nfs\.org/wiki/.*",
+    # Flaky host (intermittent connection aborts from CI)
+    r"https://www\.xfce\.org/.*",
+    # Launchpad: bugs/commits may be private or deleted
+    r"https://bugs\.launchpad\.net/.*",
+    r"https://git\.launchpad\.net/.*",
+    r"https://launchpad\.net/bugs/.*",
+    # Ubuntu manpages site: pages for newer/unreleased series may 404
+    r"https://manpages\.ubuntu\.com/.*",
+    # Ubuntu ESM endpoint (times out from CI)
+    r"http://esm\.ubuntu\.com.*",
+    # Old / dead external pages
+    r"https://release\.gnome\.org/.*",
+    r"https://lubuntu\.me/.*",
+    # Filenames in text incorrectly parsed as URLs by the link checker
+    r"http://[^\s/]+\.(py|sh|mk|in)$",
+    # Servers being migrated right now - ignore for now
+    r"https://ubuntukylin\.com/.*",
+    # Dead links in existing content (historical; not worth updating)
+    r"https://github\.com/docker-snap/.*",
+    r"https://github\.com/ipxe/.*",
+    r"https://blog\.thunderbird\.net/.*",
+    # Unreleased / forthcoming Discourse posts
+    r"https://discourse\.ubuntu\.com/t/edubuntu-.*",
+    r"https://discourse\.ubuntu\.com/t/ubuntu-studio-.*",
+    # Various, probably rate-limited
+    r"https://thekelleys\.org\.uk/gitweb/.*",
+    r"https://git\.openldap\.org/.*",
+    r"https://github\.com/canonical/.*",
+    r"https://github\.com/snapcore/.*",
+    r"https://github\.com/systemd/.*",
+    r"https://ubuntustudio\.org/ubuntu-studio-.*-release-notes/",
+    r"https://www.monitoring-plugins\.org/news/.*",
+    r"https://kernelnewbies\.org/.*",
+    r"https://cairographics\.org/news/.*",
+    # 22.10 release notes: dead (404) and bot-challenged (403) external links
+    r"https://bind9\.readthedocs\.io/en/v9_18_7/manpages\.html.*",
+    r"https://docs\.docker\.com/release-notes/.*",
+    r"https://www\.raspberrypi\.com/.*",
+    r"https://docs\.kernel\.org/admin-guide/gpio/sysfs\.html",
+    r"https://kubuntu\.org/news/.*",
+    r"https://ubuntuunity\.org/blog/.*",
+]
 
 
 # A regex list of URLs where anchors are ignored by 'make linkcheck'
 
-linkcheck_anchors_ignore_for_url = [r"https://github\.com/.*"]
+linkcheck_anchors_ignore_for_url = [
+    r"https://github\.com/.*",
+    # Discourse anchor IDs change when posts are edited
+    r"https://discourse\.ubuntu\.com/.*",
+    # GitLab release tag anchors are not standard HTML ids
+    r"https://gitlab\.freedesktop\.org/.*",
+    # Ubuntu documentation anchors may drift between doc versions
+    r"https://documentation\.ubuntu\.com/.*",
+    # Launchpad bug list anchors use non-standard fragment format
+    r"https://launchpad\.net/.*",
+    # External project changelogs with non-stable anchor IDs
+    r"https://chrony-project\.org/.*",
+    # Dovecot docs restructure anchors between versions
+    r"https://doc\.dovecot\.org/.*",
+    # Raspberry Pi docs restructure anchors
+    r"https://www\.raspberrypi\.com/.*",
+]
 
 # give linkcheck multiple tries on failure
 linkcheck_timeout = 15
@@ -274,6 +337,7 @@ extensions = [
     "canonical_sphinx",
     "notfound.extension",
     "sphinx_design",
+    "sphinx_rerediraffe",
     "sphinx_reredirects",
     "sphinx_tabs.tabs",
     "sphinxcontrib.jquery",
@@ -296,7 +360,8 @@ extensions = [
 # Excludes files or directories from processing
 
 exclude_patterns = [
-    "doc-cheat-sheet*",
+    "reuse/*-template.md",
+    ".venv*",
 ]
 
 # Adds custom CSS files, located under 'html_static_path'
@@ -332,8 +397,10 @@ rst_epilog = """
 # NOTE: If set, adding ':manpage:' to an .rst file
 #       adds a link to the corresponding man section at the bottom of the page.
 
-manpages_url = 'https://manpages.ubuntu.com/manpages/resolute/en/' + \
-    'man{section}/{page}.{section}.html'
+manpages_url = (
+    "https://manpages.ubuntu.com/manpages/resolute/en/"
+    + "man{section}/{page}.{section}.html"
+)
 
 
 # Specifies a reST snippet to be prepended to each .rst file
@@ -358,13 +425,15 @@ if "discourse_prefix" not in html_context and "discourse" in html_context:
 
 # Workaround for substitutions.yaml
 
-if os.path.exists('./reuse/substitutions.yaml'):
-    with open('./reuse/substitutions.yaml', 'r') as fd:
+if os.path.exists("./reuse/substitutions.yaml"):
+    with open("./reuse/substitutions.yaml", "r") as fd:
         myst_substitutions = yaml.safe_load(fd.read())
 
 # Add configuration for intersphinx mapping
 
 intersphinx_mapping = {
-    'starter-pack': ('https://canonical-example-product-documentation.readthedocs-hosted.com/en/latest', None),
-    'sphinxcontrib-mermaid': ('https://sphinxcontrib-mermaid-demo.readthedocs.io/en/latest', None)
+    "sphinxcontrib-mermaid": (
+        "https://sphinxcontrib-mermaid-demo.readthedocs.io/en/latest",
+        None,
+    )
 }

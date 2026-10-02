@@ -1,0 +1,1 @@
+On top of the upstream improvements, the Ubuntu extensions have been improved to better address various accessibility requirements.

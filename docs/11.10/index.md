@@ -30,7 +30,7 @@ Oneiric Ocelot includes new releases of all major flavors of Ubuntu: desktop, se
 (11-10-lenses-and-interface-changes)=
 ##### Lenses and Interface Changes
 
-11.10 includes a new release of [compiz](http://www.compiz.org) and [Unity](http://unity.ubuntu.com).   Highlights of this release are:
+11.10 includes a new release of [`compiz`](http://www.compiz.org) and Unity `http://unity.ubuntu.com`.   Highlights of this release are:
 
 * A new Alt+Tab switcher.
 
@@ -79,7 +79,7 @@ Coinciding with the Ubuntu 11.10 release, a significant milestone in the ongoing
 
 [developer.ubuntu.com](http://developer.ubuntu.com) should now be the central point of reference for any topics related to Ubuntu application development, from creation to publication: porting, sharing, contributing, and finding information. This site should grow organically to provide the tools, share knowledge, and act as the springboard for fostering application proliferation and developer community growth.
 
-Read more in the [official announcement](http://developer.ubuntu.com/2011/09/announcing-the-ubuntu-app-developer-site/).
+Read more in the official announcement `http://developer.ubuntu.com/2011/09/announcing-the-ubuntu-app-developer-site/`.
 
 
 (11-10-new-localized-iso-tools)=
@@ -95,7 +95,7 @@ Ubuntu now provides a set of tools for Ubuntu LoCo teams to create custom images
 
 Backups are easy in Ubuntu 11.10 now that [Déjà Dup](http://live.gnome.org/DejaDup) is included as the default backup tool. Securely store copies of your important data on a separate hard drive, cloud server, or even Ubuntu One.
 
-The new [Gwibber](http://gwibber.com/) landed in Ubuntu 11.10, bringing improved performance and a new interface using the most recent GNOME technologies.
+The new [`Gwibber`](http://gwibber.com/) landed in Ubuntu 11.10, bringing improved performance and a new interface using the most recent GNOME technologies.
 
 [GNOME 3.2](http://library.gnome.org/misc/release-notes/3.2/) is included and is a major upgrade from GNOME 2.32 included in Ubuntu 11.04.  GNOME Classic is no longer installed by default, but can be enabled after installation completes by installing `gnome-panel`. Note that the indicator status menus have not yet been ported to the new gnome-panel and the default upstream panel layout is used instead of the heavy Ubuntu customizations. GNOME Shell is also available for install.
 
@@ -113,7 +113,7 @@ Synaptic and Pitivi are no longer included in the default install but are still 
 
 [Juju](http://juju.ubuntu.com) is available in Ubuntu 11.10 as a technical preview. Juju is a service deployment and orchestration framework developed by Canonical and used to deploy and manage services both on bare-metal and in the cloud. Through the use of what we call [charms](http://juju.ubuntu.com/Charms), juju provides you with shareable, re-usable, and repeatable expressions of DevOps best practices. You can use them unmodified, or easily change and connect them to fit your needs. Deploying a charm is similar to installing a package on Ubuntu: ask for it and it’s there, remove it and it’s completely gone.
 
-[Orchestra](http://wiki.ubuntu.com/ServerTeam/Orchestra) is a collection of the best free software services for provisioning, deploying, hosting, managing, and orchestrating datacenter services.  Instead of manually setting up a complex network installation environment, users can now leverage Orchestra to rapidly deploy new servers into production. The process is standardized and fully automated, and thus minimizes manual intervention and ensures consistency. This solution is provided as a response to all user requests that we received for making multiple installs and deployments easier. The core component of Orchestra provisioning is [Cobbler](https://fedorahosted.org/cobbler/) and Juju.
+Orchestra `http://wiki.ubuntu.com/ServerTeam/Orchestra` is a collection of the best free software services for provisioning, deploying, hosting, managing, and orchestrating datacenter services.  Instead of manually setting up a complex network installation environment, users can now leverage Orchestra to rapidly deploy new servers into production. The process is standardized and fully automated, and thus minimizes manual intervention and ensures consistency. This solution is provided as a response to all user requests that we received for making multiple installs and deployments easier. The core component of Orchestra provisioning is [Cobbler](https://fedorahosted.org/cobbler/) and Juju.
 
 Ubuntu Server 11.10 is the first release with support for the ARM architecture.  In this last cycle, the Ubuntu Server team worked closely with the Ubuntu ARM team to deliver a technical preview of ARM server support in Ubuntu Server 11.10.
 
@@ -169,7 +169,7 @@ For the deeply technical, there are improvements to TCP and fragment identifier 
 (11-10-upstart-1-3)=
 #### Upstart 1.3
 
-Ubuntu 11.10 features an update to [Upstart 1.3](http://upstart.at/2011/06/14/upstart-1-3-concordia-released/), with support for displaying boot-time status on servers and more reliable handling of legacy sysvinit scripts.
+Ubuntu 11.10 features an update to Upstart 1.3 `http://upstart.at/2011/06/14/upstart-1-3-concordia-released/`, with support for displaying boot-time status on servers and more reliable handling of legacy `sysvinit` scripts.
 
 
 (11-10-gcc-4-6-toolchain)=
@@ -232,9 +232,9 @@ Kubuntu brings the latest and greatest from KDE and aims to provide a well-round
 (11-10-new-features-3)=
 #### New Features
 
-**Muon Software Center and Package Manager**, Kubuntu's new default appication management suite provides both user-friendly and power-user interfaces for package management.
+**Muon Software Center and Package Manager**, Kubuntu's new default application management suite provides both user-friendly and power-user interfaces for package management.
 
-**kubuntu-low-fat-settings** provides package which brings a collection of configuration settings that turn off some services, krunner plugins, and graphical effects which will allow Kubuntu to run on older, lower-end systems by reducing the memory footprint of the workspace.
+**kubuntu-low-fat-settings** provides package which brings a collection of configuration settings that turn off some services, `krunner` plugins, and graphical effects which will allow Kubuntu to run on older, lower-end systems by reducing the memory footprint of the workspace.
 
 **Technical Preview of OpenGL ES Powered Desktop Effects** For those adventurous and curious, Kubuntu 11.10 has packaged the work towards using a more compatible and reliable version of OpenGL, [OpenGL ES](http://en.wikipedia.org/wiki/OpenGL_ES).
 
@@ -244,9 +244,9 @@ Kubuntu brings the latest and greatest from KDE and aims to provide a well-round
 
 **KDE 4.7.1** provides an entire selection updated software.
 
-**Amarok 2.4.3** features native support for remote NFS and SMB/CIFS collections, a better looking user interface, support for gpodder.net, as well as vastly improved reliability.
+**`Amarok 2.4.3`** features native support for remote NFS and SMB/CIFS collections, a better looking user interface, support for gpodder.net, as well as vastly improved reliability.
 
-**Kdepim 4.7.2** is the new Akonadi based pim suite that includes Kmail2. **Please see the [known issues section](https://wiki.ubuntu.com/OneiricOcelot/TechnicalOverview#Kubuntu-1) for problems relating to migrating pim data from previous versions to 11.10 and open issues associated with use of this re-engineered kdepim suite.**
+**`Kdepim 4.7.2`** is the new `Akonadi` based `pim` suite that includes Kmail2. **Please see the [known issues section](https://wiki.ubuntu.com/OneiricOcelot/TechnicalOverview#Kubuntu-1) for problems relating to migrating `pim` data from previous versions to 11.10 and open issues associated with use of this re-engineered `kdepim` suite.**
 
 **QtCreator 2.2.1** provides configurable mime types and code snippets, support for the Bazaar version control system as well as improved support for Qt Quick.
 
@@ -260,11 +260,11 @@ Please visit [kubuntu.org](http://kubuntu.org) for more information about Kubunt
 (11-10-new-features-4)=
 #### New Features
 
-**gThumb** is now in the default Xubuntu 11.10 installation, to help users with image transformations and viewing.
+**`gThumb`** is now in the default Xubuntu 11.10 installation, to help users with image transformations and viewing.
 
-**leafpad** is the new default text editor (instead of mousepad), and now includes the ability to print.
+**`leafpad`** is the new default text editor (instead of mousepad), and now includes the ability to print.
 
-**pastebinit** is now included in Xubuntu 11.10 installations by default. If you need to use [paste.ubuntu.com/](http://paste.ubuntu.com/), you can use pastebinit in terminals to paste directly without copying and pasting the data.
+**`pastebinit`** is now included in Xubuntu 11.10 installations by default. If you need to use [paste.ubuntu.com/](http://paste.ubuntu.com/), you can use `pastebinit` in terminals to paste directly without copying and pasting the data.
 
 **LightDM** is the new application that manages logins in Xubuntu 11.10.
 
@@ -284,7 +284,7 @@ See the [Xubuntu 11.10 release announcement](https://wiki.ubuntu.com/Xubuntu/One
 
 Lubuntu 11.10 is a brand new flavor of Ubuntu based on the Lightweight X11 Desktop Environment (LXDE) as its default GUI.  The goal is to provide a very lightweight distribution, with all the advantages of the Ubuntu world (repositories, support, etc.). Lubuntu is targeted at "normal" PC and laptop users running on low-specification hardware. The target user group for this flavor will be either those users who might not be proficient in using command line tools or those users who might not have enough resources for all the bells and whistles of the "full-featured" mainstream distributions.
 
-With many LXDE components, [Lubuntu](http://lubuntu.net) also uses well-known applications, such as Chromium, Openbox, Pidgin, to name a few. The [Lubuntu project wiki](https://wiki.ubuntu.com/Lubuntu) contains more information on the project and the [applications used](https://wiki.ubuntu.com/Lubuntu/Applications).
+With many LXDE components, [Lubuntu](http://lubuntu.net) also uses well-known applications, such as Chromium, `Openbox`, Pidgin, to name a few. The [Lubuntu project wiki](https://wiki.ubuntu.com/Lubuntu) contains more information on the project and the [applications used](https://wiki.ubuntu.com/Lubuntu/Applications).
 
 
 (11-10-edubuntu)=
@@ -294,7 +294,7 @@ Edubuntu 11.10 inherits all the changes that occurred in the Ubuntu desktop.
 
 This release of Edubuntu is better translated than ever before with all of our tools fully supporting translation.
 
-If you want to try Edubuntu 11.10 without having to download our DVD, you can try it online on WebLive: [www.edubuntu.org/weblive](http://www.edubuntu.org/weblive)
+If you want to try Edubuntu 11.10 without having to download our DVD, you can try it online on WebLive: `http://www.edubuntu.org/weblive`
 
 To learn more about Edubuntu 11.10, go to: [www.edubuntu.org/](http://www.edubuntu.org/).
 
@@ -312,12 +312,12 @@ The default desktop environment is now Unity with fallback to Unity 2D when the 
 
 Updates in this release include:
 
-* **gobby** was updated to gobby-0.5.
-* **gbrainy** was updated to the latest and greatest version 2.
+* **`gobby`** was updated to gobby-0.5.
+* **`gbrainy`** was updated to the latest and greatest version 2.
 
 Default changes include:
 
-* Nanny, Pessulus and Sabayon haven't been ported to Gnome 3.0/dconf yet and were consequently dropped from the default installation.
+* Nanny, `Pessulus` and Sabayon haven't been ported to Gnome 3.0/dconf yet and were consequently dropped from the default installation.
 
 
 (11-10-mythbuntu)=
@@ -391,23 +391,23 @@ In addition they can also be found at the following locations:
 
 * [cloud-images.ubuntu.com/releases/11.10/](http://cloud-images.ubuntu.com/releases/11.10/) (Ubuntu Cloud Images)
 
-* [cdimage.ubuntu.com/releases/11.10/](http://cdimage.ubuntu.com/releases/11.10/) (Ubuntu DVD, preinstalled ARM images, source)
+* `http://cdimage.ubuntu.com/releases/11.10/` (Ubuntu DVD, preinstalled ARM images, source)
 
-* [cdimage.ubuntu.com/netboot/11.10/](http://cdimage.ubuntu.com/netboot/11.10/) (Ubuntu Netboot)
+* `http://cdimage.ubuntu.com/netboot/11.10/` (Ubuntu Netboot)
 
-* [releases.ubuntu.com/kubuntu/11.10/](http://releases.ubuntu.com/kubuntu/11.10/) (Kubuntu)
+* `http://releases.ubuntu.com/kubuntu/11.10/` (Kubuntu)
 
-* [cdimage.ubuntu.com/kubuntu/releases/11.10/](http://cdimage.ubuntu.com/kubuntu/releases/11.10/) (Kubuntu DVD)
+* `http://cdimage.ubuntu.com/kubuntu/releases/11.10/` (Kubuntu DVD)
 
-* [cdimage.ubuntu.com/xubuntu/releases/11.10/](http://cdimage.ubuntu.com/xubuntu/releases/11.10/) (Xubuntu)
+* `http://cdimage.ubuntu.com/xubuntu/releases/11.10/` (Xubuntu)
 
-* [cdimage.ubuntu.com/edubuntu/releases/11.10/](http://cdimage.ubuntu.com/edubuntu/releases/11.10/) (Edubuntu)
+* `http://cdimage.ubuntu.com/edubuntu/releases/11.10/` (Edubuntu)
 
-* [cdimage.ubuntu.com/ubuntustudio/releases/11.10/](http://cdimage.ubuntu.com/ubuntustudio/releases/11.10/) (Ubuntu Studio)
+* `http://cdimage.ubuntu.com/ubuntustudio/releases/11.10/` (Ubuntu Studio)
 
-* [cdimage.ubuntu.com/mythbuntu/releases/11.10/](http://cdimage.ubuntu.com/mythbuntu/releases/11.10/) (Mythbuntu)
+* `http://cdimage.ubuntu.com/mythbuntu/releases/11.10/` (Mythbuntu)
 
-* [cdimage.ubuntu.com/lubuntu/releases/11.10/](http://cdimage.ubuntu.com/lubuntu/releases/11.10/) (Lubuntu)
+* `http://cdimage.ubuntu.com/lubuntu/releases/11.10/` (Lubuntu)
 
 
 (11-10-system-requirements)=
@@ -471,7 +471,7 @@ The issues we know about at this point (and some of the workarounds), are docume
 
 * Mac systems installed using manual partitioning may fail to boot if filesystem types other than ext2, ext3, or ext4 are used. (Bug:856763)
 
-* A 'guided resize' partitioning leaves Mac systems unbootable.  The workaround is to boot using the live cd and choose the option to boot from the first disk, then install gpttools, run `gpttools /dev/sda`, and reboot. (Bug:856826)
+* A 'guided resize' partitioning leaves Mac systems unbootable.  The workaround is to boot using the live cd and choose the option to boot from the first disk, then install `gpttools`, run `gpttools /dev/sda`, and reboot. (Bug:856826)
 
 * Chinese installs need to use the live environment instead of install only, to be able to type localized character. (Bug:871726)
 
@@ -524,7 +524,7 @@ $ sed -i -e 's#/var/run#/{,var/}run#' -e 's#/var/lock#/{run,var}/lock#' -e 's#/d
 
 * Orca can't read what is going on with Unity3d. By default if you install using the screen reader you will boot into the Unity 2d desktop.
 
-* For languages that are read right to left (arabic, hebrew), there is some inconsistency in display between the login screen (lightDM) and the desktop environment (unity). (Bug:871764)
+* For languages that are read right to left (Arabic, Hebrew), there is some inconsistency in display between the login screen (lightDM) and the desktop environment (unity). (Bug:871764)
 
 
 (11-10-desktop)=
@@ -544,7 +544,7 @@ $ sed -i -e 's#/var/run#/{,var/}run#' -e 's#/var/lock#/{run,var}/lock#' -e 's#/d
 
 * Sandy Bridge power regression from kernel 3.0.0-6 to 3.0.0-7 (30% more power at idle) (Bug:818830) -- Platforms affected by this power consumption regression are sixth generation i915 GPUs having the following PCI identifiers: 8086:0102, 8086:0112, 8086:0122, 8086:0106, 8086:0116, 8086:0126, 8086:010A. These displays are typically found in SandyBridge mobile and desktop platforms.
 
-* On ARM omap imagesd the networking support for the Beagle XM board is broken (Bug:838200)
+* On ARM `omap` images the networking support for the Beagle XM board is broken (Bug:838200)
 
 
 (11-10-ubuntu-server-2)=
@@ -564,13 +564,13 @@ $ sed -i -e 's#/var/run#/{,var/}run#' -e 's#/var/lock#/{run,var}/lock#' -e 's#/d
 (11-10-kubuntu-2)=
 ### Kubuntu
 
-_ Kmail migration fails (Bug:857828). You will need to delete your ~/.kde/share/config/kmail-migratorrc file, and run the migrator manually - _kmail-migrator --interactive* or skip the migration tool and reconfigure Kmail from scratch.
+_ `Kmail` migration fails (Bug:857828). You will need to delete your ~/.kde/share/config/kmail-migratorrc file, and run the migrator manually - _kmail-migrator --interactive* or skip the migration tool and reconfigure `Kmail` from scratch.
 
-* Shutdown in the live session under VirtualBox sometimes does not work and seems to just hang on the desktop. Just restart the computer with the power button in that case, there is no possibility of data loss. (Bug:805906)
+* Shutdown in the live session under VirtualBox sometimes does not work and seems to just freeze on the desktop. Just restart the computer with the power button in that case, there is no possibility of data loss. (Bug:805906)
 
 * A window may retain a taskbar entry after closing the application. [(KDE Bug 275469)](https://bugs.kde.org/show_bug.cgi?id=275469):
 
-* Kmail/Kontact cannot reliably retrieve email after a suspend resume cycle. Sometimes after resume, instead of displaying messages, "Retrieving folder contents, please wait" will be persistently displayed. If this occurs, use the Akonadi Server Configuration control module to restart Akonadi. That should resolve this issue. Restarting Kontact/Kmail will not. To access the control module use the search function in Kickoff (K menu) or Quicksand (alt-F2) to find it.(Bug:862483)
+* Kmail/Kontact cannot reliably retrieve email after a suspend resume cycle. Sometimes after resume, instead of displaying messages, "Retrieving folder contents, please wait" will be persistently displayed. If this occurs, use the `Akonadi` Server Configuration control module to restart `Akonadi`. That should resolve this issue. Restarting Kontact/Kmail will not. To access the control module use the search function in Kickoff (K menu) or Quicksand (alt-F2) to find it.(Bug:862483)
 
 
 (11-10-xubuntu-2)=
@@ -600,11 +600,11 @@ _ Kmail migration fails (Bug:857828). You will need to delete your ~/.kde/share/
 (11-10-lubuntu-2)=
 ### Lubuntu
 
-* In some cases, Lubuntu desktop ISO boot to a terminal prompt instead of the desktop session. You can manually start the session by typing "sudo start lxdm" (Bug:854837)
+* In some cases, Lubuntu desktop ISO boot to a terminal prompt instead of the desktop session. You can manually start the session by typing "`sudo start lxdm`" (Bug:854837)
 
-* Ubiquity require more than 4 Gb of free space to install, please use alternate ISO if you are in this case (Bug:819538)
+* Ubiquity require more than 4 GB of free space to install, please use alternate ISO if you are in this case (Bug:819538)
 
-* Keyboard layout can't be saved using LXKeymap. Please run "sudo dpkg-reconfigure keyboard-configuration" (Bug:729880)
+* Keyboard layout can't be saved using `LXKeymap`. Please run "sudo dpkg-reconfigure keyboard-configuration" (Bug:729880)
 
 * On persistent mode, items created on the desktop are not displayed until next reboot. (Bug:837470)
 
@@ -616,7 +616,7 @@ _ Kmail migration fails (Bug:857828). You will need to delete your ~/.kde/share/
 
 Your comments, bug reports, patches and suggestions will help fix bugs and improve the quality of future releases. Please [report bugs using the tools provided](http://help.ubuntu.com/community/ReportingBugs).
 
-If you want to help out with bugs, the [Bug Squad](http://wiki.ubuntu.com/BugSquad) is always looking for help.
+If you want to help out with bugs, the Bug Squad `http://wiki.ubuntu.com/BugSquad` is always looking for help.
 
 
 (11-10-participate-in-ubuntu)=

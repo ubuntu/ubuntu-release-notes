@@ -126,6 +126,7 @@ bpftools
 bpftrace
 brltty
 Broadcom
+Broadwell
 Brus
 btmtk
 btrfs
@@ -133,6 +134,7 @@ bugfix
 bugfixes
 buildd
 builtins
+bursty
 busybox
 bwrap
 byobu
@@ -167,6 +169,7 @@ Charmcraft
 charptr
 chdist
 cherrypick
+Cherryview
 Chiko
 chipid
 Chippo
@@ -419,6 +422,7 @@ gyre
 gzip
 hardcode
 hardcoded
+Haswell
 hds
 Heimdal
 helo
@@ -621,6 +625,7 @@ Luca
 Lunarlake
 LUNs
 Maag
+Macbook
 Macbooks
 machinectl
 MACs
@@ -644,6 +649,7 @@ Mellanox
 memfd
 memlock
 memorytexture
+Merrifield
 metacharacters
 metapackage
 micmute
@@ -1171,6 +1177,7 @@ utils
 utkarsh
 Utkarsh
 utmp
+Utopic
 uucore
 uv
 valgrind

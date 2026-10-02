@@ -283,6 +283,8 @@ linkcheck_ignore = [
     r"https?://www\.compiz\.org.*",
     r"http://www\.freedesktop\.org/.*",
     r"https?://paste\.ubuntu\.com/.*",
+    # Debian wiki serves a bot challenge page without the expected anchors
+    r"https?://wiki\.debian\.org/.*",
 ]
 
 # A regex list of URLs where anchors are ignored by 'make linkcheck'

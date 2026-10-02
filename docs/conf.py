@@ -285,6 +285,8 @@ linkcheck_ignore = [
     r"https?://paste\.ubuntu\.com/.*",
     # Debian wiki serves a bot challenge page without the expected anchors
     r"https?://wiki\.debian\.org/.*",
+    # KDE Bugzilla rejects CI runners (403 / unreachable); live for humans
+    r"https://bugs\.kde\.org/.*",
 ]
 
 # A regex list of URLs where anchors are ignored by 'make linkcheck'

@@ -207,6 +207,7 @@ linkcheck_ignore = [
     r"https://github\.com/.*/blob/.*",
     # Ubuntu wiki (rate-limited)
     r"https://wiki\.ubuntu\.com/.*",
+    r"http://wiki\.ubuntu\.com(/.*)?$",
     # Rate-blocked or bot-challenged (418 / 5xx responses)
     r"https?://ceph\.com.*",
     r"https://dev\.mysql\.com/.*",
@@ -214,6 +215,7 @@ linkcheck_ignore = [
     r"https://gitlab\.gnome\.org/.*",
     r"https://discourse\.lubuntu\.me/.*",
     r"https://downloads\.apache\.org/.*",
+    r"https?://freedesktop\.org/wiki/Software/systemd/.*",
     r"https://www\.freedesktop\.org/.*",
     r"https://gstreamer\.freedesktop\.org/.*",
     r"https://linux-nfs\.org/wiki/.*",

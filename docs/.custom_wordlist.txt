@@ -143,6 +143,7 @@ Caimbrie
 Caitir
 Calaminag
 Calanthe
+Calc
 Caley
 Calix
 Callables
@@ -194,6 +195,7 @@ codecs
 codenames
 coex
 coinstallation
+Compiz
 Computrace
 conffile
 conffiles
@@ -236,6 +238,7 @@ Danya
 Darko
 Darra
 Darsha
+Dartlang
 datapath
 Datasafe
 datasource
@@ -1022,6 +1025,7 @@ statx
 stderr
 stdin
 stdout
+Stencyl
 strace
 Streetman
 Strix

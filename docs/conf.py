@@ -265,6 +265,8 @@ linkcheck_ignore = [
     r"https://docs\.kernel\.org/admin-guide/gpio/sysfs\.html",
     r"https://kubuntu\.org/news/.*",
     r"https://ubuntuunity\.org/blog/.*",
+    # 13.10 release notes: bot-challenged (403) external link
+    r"https?://www\.arm\.com/products/tools/models/fast-models/foundation-model\.php",
     # 10.10 release notes: bot-challenged / TLS-broken external links
     r"https?://www\.kdedevelopers\.org/.*",
     r"https?://help\.ubuntu\.com/community/UEC/Images",
@@ -298,6 +300,8 @@ linkcheck_anchors_ignore_for_url = [
     r"https://doc\.dovecot\.org/.*",
     # Raspberry Pi docs restructure anchors
     r"https://www\.raspberrypi\.com/.*",
+    # Puppet docs moved to a GitHub archive without the old anchors
+    r"https?://docs\.puppetlabs\.com/.*",
 ]
 
 # How long the link checker will wait for a response for each request

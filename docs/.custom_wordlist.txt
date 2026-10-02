@@ -1286,3 +1286,16 @@ zpwr
 Zstack
 zstd
 Zstd
+Bonjour
+Calc
+Ghostscript
+Ghostscript's
+Joyent
+Maguro
+appstore
+downloader
+highbank
+maguro
+uevents
+webapps
+webpages

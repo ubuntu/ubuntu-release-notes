@@ -110,6 +110,7 @@ bittorrent
 blackwell
 blkmapd
 blockdev
+Blueman
 bluetooth
 Bluetooth
 bluez
@@ -125,6 +126,7 @@ bpftool
 bpftools
 bpftrace
 brltty
+Broxton
 Broadcom
 Brus
 btmtk
@@ -194,6 +196,7 @@ codecs
 codenames
 coex
 coinstallation
+Compiz
 Computrace
 conffile
 conffiles
@@ -769,6 +772,7 @@ pagnation
 Panko
 paramiko
 params
+partitioner
 passthrough
 patchlevel
 patchset
@@ -1111,6 +1115,7 @@ tplg
 TPMs
 traceback
 Tragis
+transactionally
 transitionals
 Treecko
 triggerable

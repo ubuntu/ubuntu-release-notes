@@ -207,6 +207,8 @@ linkcheck_ignore = [
     r"https://github\.com/.*/blob/.*",
     # Ubuntu wiki (rate-limited)
     r"https://wiki\.ubuntu\.com/.*",
+    # Same wiki, bare host and plain http (read timeouts from CI)
+    r"https?://wiki\.ubuntu\.com(/.*)?$",
     # Rate-blocked or bot-challenged (418 / 5xx responses)
     r"https?://ceph\.com.*",
     r"https://dev\.mysql\.com/.*",
@@ -216,6 +218,8 @@ linkcheck_ignore = [
     r"https://downloads\.apache\.org/.*",
     r"https://www\.freedesktop\.org/.*",
     r"https://gstreamer\.freedesktop\.org/.*",
+    # systemd wiki page served with 418 (bot challenge)
+    r"https?://freedesktop\.org/wiki/Software/systemd.*",
     r"https://linux-nfs\.org/wiki/.*",
     # Flaky host (intermittent connection aborts from CI)
     r"https://www\.xfce\.org/.*",

@@ -49,21 +49,21 @@ You can download images from:  [releases.ubuntu.com/xenial/](http://releases.ubu
 
 ##[cdimage.ubuntu.com/ubuntu-base/releases/16.04.4/release/](http://cdimage.ubuntu.com/ubuntu-base/releases/16.04.4/release/) (Ubuntu Base)
 
-##[cdimage.ubuntu.com/kubuntu/releases/16.04.4/release/](http://cdimage.ubuntu.com/kubuntu/releases/16.04.4/release/) (Kubuntu)
+##`http://cdimage.ubuntu.com/kubuntu/releases/16.04.4/release/` (Kubuntu)
 
-##[cdimage.ubuntu.com/lubuntu/releases/16.04.4/release/](http://cdimage.ubuntu.com/lubuntu/releases/16.04.4/release/) (Lubuntu)
+##`http://cdimage.ubuntu.com/lubuntu/releases/16.04.4/release/` (Lubuntu)
 
-##[cdimage.ubuntu.com/ubuntustudio/releases/16.04.4/release/](http://cdimage.ubuntu.com/ubuntustudio/releases/16.04.4/release/) (Ubuntu Studio)
+##`http://cdimage.ubuntu.com/ubuntustudio/releases/16.04.4/release/` (Ubuntu Studio)
 
-##[cdimage.ubuntu.com/ubuntu-gnome/releases/16.04.4/release/](http://cdimage.ubuntu.com/ubuntu-gnome/releases/16.04.4/release/) (Ubuntu GNOME)
+##`http://cdimage.ubuntu.com/ubuntu-gnome/releases/16.04.4/release/` (Ubuntu GNOME)
 
-##[cdimage.ubuntu.com/ubuntukylin/releases/16.04.4/release/](http://cdimage.ubuntu.com/ubuntukylin/releases/16.04.4/release/) (Ubuntu Kylin)
+##`http://cdimage.ubuntu.com/ubuntukylin/releases/16.04.4/release/` (Ubuntu Kylin)
 
-##[cdimage.ubuntu.com/ubuntu-mate/releases/16.04.4/release/](http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.4/release/) (Ubuntu MATE)
+##`http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.4/release/` (Ubuntu MATE)
 
-##[cdimage.ubuntu.com/xubuntu/releases/16.04.4/release/](http://cdimage.ubuntu.com/xubuntu/releases/16.04.4/release/) (Xubuntu)
+##`http://cdimage.ubuntu.com/xubuntu/releases/16.04.4/release/` (Xubuntu)
 
-##[cdimage.ubuntu.com/mythbuntu/releases/16.04.4/release/](http://cdimage.ubuntu.com/mythbuntu/releases/16.04.4/release/) (Mythbuntu)
+##`http://cdimage.ubuntu.com/mythbuntu/releases/16.04.4/release/` (Mythbuntu)
 
 
 
@@ -130,7 +130,7 @@ Ubuntu 16.04 LTS is based on the long-term supported Linux release series 4.4.
 Python2 is not installed anymore by default on the server, cloud and the touch images, long live Python3!
 Python3 itself has been upgraded to the 3.5 series.
 
-If you have your own programs based on Python 2, fear not! Python 2 will continue to be available (as the python package) for the foreseeable future. However, to best support future versions of Ubuntu you should consider porting your code to Python 3. [Python/3](https://help.ubuntu.com/community/Python/3) has some advice and resources on this.
+If you have your own programs based on Python 2, fear not! Python 2 will continue to be available (as the python package) for the foreseeable future. However, to best support future versions of Ubuntu you should consider porting your code to Python 3. Python/3 `https://help.ubuntu.com/community/Python/3` has some advice and resources on this.
 
 
 (16-04-lts-vim-defaults-to-python3)=
@@ -146,7 +146,7 @@ They can be made the default via the alternatives mechanism:
 (16-04-lts-golang-1-6)=
 #### Golang 1.6
 
-The golang toolchain was upgraded to the 1.6 series, and gccgo was upgraded to the GCC 6.1 release candidate 1. Thus the same level of standard library and compiler features are provided by both compilers on all fully supported architectures.
+The golang toolchain was upgraded to the 1.6 series, and `gccgo` was upgraded to the GCC 6.1 release candidate 1. Thus the same level of standard library and compiler features are provided by both compilers on all fully supported architectures.
 
 
 (16-04-lts-openssh-7-2p2)=
@@ -184,7 +184,7 @@ Apt 1.2 includes the new privilege separation features introduced in Apt 1.1. Im
 
 Ubuntu 16.04 LTS includes a new port to 64-bit z/Architecture for IBM mainframe computers. This is a practically complete port of Ubuntu Server and Cloud with around 95% binary package availability. We are excited to enable OpenStack software, Juju, MAAS, LXD, and much more on this platform.
 
-For more information about this port see [S390X](https://help.ubuntu.com/community/S390X) page.
+For more information about this port see S390X `https://help.ubuntu.com/community/S390X` page.
 
 
 (16-04-lts-ubuntu-desktop)=
@@ -204,7 +204,7 @@ The general theme for 16.04 on the desktop is one of bug fixes and incremental q
 
 * GNOME Calendar is now included by default
 
-* Empathy and Brasero are removed from the default installation
+* Empathy and `Brasero` are removed from the default installation
 
 * Chromium upgraded to version 48
 
@@ -214,22 +214,22 @@ The general theme for 16.04 on the desktop is one of bug fixes and incremental q
 
 * Improved HiDPI support in the greeter
 
-* Added more supported languages by default [More info](https://lists.ubuntu.com/archives/ubuntu-devel/2015-December/039028.html)
+* Added more supported languages by default More info `https://lists.ubuntu.com/archives/ubuntu-devel/2015-December/039028.html`
 
 * Multiple bug fixes
 
 
 (16-04-lts-unity-compiz)=
-#### Unity & Compiz
+#### Unity & `Compiz`
 
 * Improved launcher integration with file manager and devices
-* Support for formatting removable devices from quicklist
-* Improved support for gtk applications using headerbars
+* Support for formatting removable devices from `quicklist`
+* Improved support for gtk applications using `headerbars`
 * Improvements to the switcher and spread backends
 * Activate app spread by Super+Ctrl+W
 * Unity control center option to always show menus
 * Improvements to GNOME key grabbing
-* New dash overlay scrollbars
+* New dash overlay `scrollbars`
 * Better Dash theming support
 * Support for scaling cursors in HiDPI environments
 * Show icons launching state in launcher when apps launched elsewhere
@@ -247,7 +247,7 @@ LibreOffice 5.1 brings a lot of improvements to the entire package.  For more in
 
 * LibreOffice defaults to the Breeze theme in Ubuntu
 
-* Improvements in the Python scripting and language bindings [conference.libreoffice.org/assets/Conference/Aarhus/Slides/MatthewFrancisPyUNO.pdf](http://conference.libreoffice.org/assets/Conference/Aarhus/Slides/MatthewFrancisPyUNO.pdf)
+* Improvements in the Python scripting and language bindings `http://conference.libreoffice.org/assets/Conference/Aarhus/Slides/MatthewFrancisPyUNO.pdf`
 
 * Support for WebDAV via HTTPS
 
@@ -257,13 +257,13 @@ LibreOffice 5.1 brings a lot of improvements to the entire package.  For more in
 
 * Added support for whitespace hiding. A long standing feature request.
 
-* Mailmerge in Writer can use spreadsheets as a data source [vmiklos.hu/blog/mail-merge-embedding.html](http://vmiklos.hu/blog/mail-merge-embedding.html)
+* `Mailmerge` in Writer can use spreadsheets as a data source [vmiklos.hu/blog/mail-merge-embedding.html](http://vmiklos.hu/blog/mail-merge-embedding.html)
 
 * Spell check dialogue no longer auto closes
 
 
 (16-04-lts-calc-spreadsheets)=
-##### Calc spreadsheets
+##### `Calc` spreadsheets
 
 * Exponential and power trend lines handle negative Y values
 * Performance improvements leveraging SSE3 for SUM functions
@@ -286,7 +286,7 @@ LibreOffice 5.1 brings a lot of improvements to the entire package.  For more in
 (16-04-lts-general-3)=
 #### General
 
-New in 16.04, the kernel crash dump mechanism now supports remote kernel crash dumps. It is now possible to send kernel crash dumps to a remote server using the SSH or NFS protocols. Details of the new functionality are available in the [Ubuntu Server Guide](https://help.ubuntu.com/16.04/serverguide/kernel-crash-dump.html).
+New in 16.04, the kernel crash dump mechanism now supports remote kernel crash dumps. It is now possible to send kernel crash dumps to a remote server using the SSH or NFS protocols. Details of the new functionality are available in the Ubuntu Server Guide `https://help.ubuntu.com/16.04/serverguide/kernel-crash-dump.html`.
 
 Since the release of 16.04.2, the server ISOs are now larger than a standard 700MB CD. The increase in size is due to the ability to run the installer with the use of the [Hardware Enablement (HWE) kernel](https://wiki.ubuntu.com/Kernel/RollingLTSEnablementStack). The HWE kernels enables newer platforms and components, which require functionality delivered in newer kernels, while allowing the continued use of an LTS release.
 
@@ -384,7 +384,7 @@ docker was upgraded to version 1.10. Note that this requires migration of existi
 PHP was upgraded to 7.0. Note that this will require modifications to custom PHP extensions (https://wiki.php.net/phpng-upgrading) and may require modifications to PHP source code (http://php.net/manual/en/migration70.php).
 
 * NGINX and PHP 7.0
-  Upgrading from a prior version of Ubuntu with PHP5 FPM configurations and NGINX will require a manual configuration change (details at: [dark-net.net/nginx-http2-php7.0](http://dark-net.net/nginx-http2-php7.0)).
+  Upgrading from a prior version of Ubuntu with PHP5 FPM configurations and NGINX will require a manual configuration change (details at: `http://dark-net.net/nginx-http2-php7.0`).
 
 Most PHP-dependent packages were either rebuilt or upgraded for PHP7.0 support. Where that was not possible, packages may have been removed from the archive. There was one exception, Drupal7.
 
@@ -402,15 +402,15 @@ Password behavior when the MySQL root password is empty has changed. Packaging n
 (16-04-lts-juju-2-0)=
 #### Juju 2.0
 
-Juju and Juju UI have been updated to 2.0beta4. The final Juju 2.0 release will come via an update post-release.  The package name is `juju-2.0`. Juju 1.25.5 is available in the `juju` package for existing production environments. Please read the [upgrade documentation](https://jujucharms.com/docs/devel/juju-upgrade) before moving to 2.0.
+Juju and Juju UI have been updated to 2.0beta4. The final Juju 2.0 release will come via an update post-release.  The package name is `juju-2.0`. Juju 1.25.5 is available in the `juju` package for existing production environments. Please read the upgrade documentation `https://jujucharms.com/docs/devel/juju-upgrade` before moving to 2.0.
 
 Juju now supports modeling workloads on AWS, Microsoft Azure, Google Cloud Engine, Rackspace, Joyent, LXD, MAAS, and manual deployments.
 
-* The [Juju Charm Store](https://jujucharms.com/store) now has over 300 charms ready to deploy. Most of these workloads will deploy Trusty instances, but we expect 16.04 charms to start landing and being announced independent of Juju's release.
+* The Juju Charm Store `https://jujucharms.com/store` now has over 300 charms ready to deploy. Most of these workloads will deploy Trusty instances, but we expect 16.04 charms to start landing and being announced independent of Juju's release.
 
-* [Juju Core Release Notes](https://jujucharms.com/docs/devel/temp-release-notes)
+* Juju Core Release Notes `https://jujucharms.com/docs/devel/temp-release-notes`
 
-* [Juju GUI Release Notes](https://blog.jujugui.org/2016/04/15/juju-2-0-beta-4-now-with-embedded-gui/)
+* Juju GUI Release Notes `https://blog.jujugui.org/2016/04/15/juju-2-0-beta-4-now-with-embedded-gui/`
 
 
 (16-04-lts-known-issues)=
@@ -459,13 +459,13 @@ Users with customised MySQL server configurations may hit a maintainer script er
 (16-04-lts-fully-automated-preseed-install)=
 #### Fully automated preseed install
 
-Fully automated preseed installation is currently not possible with only DASD drives at the moment. For zfcp installation s390-zfcp/zfcp preseed key can be used. For more information please see [bug](https://bugs.launchpad.net/bugs/1572941) and [bug](https://bugs.launchpad.net/bugs/1564788).
+Fully automated preseed installation is currently not possible with only DASD drives at the moment. For `zfcp` installation s390-zfcp/zfcp preseed key can be used. For more information please see [bug](https://bugs.launchpad.net/bugs/1572941) and [bug](https://bugs.launchpad.net/bugs/1564788).
 
 
 (16-04-lts-zfcpdump-not-available-yet)=
-#### zfcpdump not available yet
+#### `zfcpdump` not available yet
 
-zfcpdump kernel is not available yet, and will be made available as an SRU at a later date. Please see this [bug](https://bugs.launchpad.net/bugs/1565841) for more information.
+`zfcpdump` kernel is not available yet, and will be made available as an SRU at a later date. Please see this [bug](https://bugs.launchpad.net/bugs/1565841) for more information.
 
 
 (16-04-lts-install-time-parameters-are-not-propagated-to-the-installed-system)=
@@ -483,7 +483,7 @@ The Linux kernel has an issue in its IPv6 stack with PCI/RoCE cards. IPv4 with P
 (16-04-lts-scsi-lun-detection-issues)=
 #### SCSI LUN detection issues
 
-Usage of SCSI LUNs on a DS8870 Storage server with μCode Bundles 87.51.xx.0 (LMC 7.7.51.xx) via NPIV enabled zfcp adaptors causes detection issues. Please see this [bug](https://bugs.launchpad.net/bugs/1567602) for more information.
+Usage of SCSI LUNs on a DS8870 Storage server with μCode Bundles 87.51.xx.0 (LMC 7.7.51.xx) via NPIV enabled `zfcp` adaptors causes detection issues. Please see this [bug](https://bugs.launchpad.net/bugs/1567602) for more information.
 
 
 (16-04-lts-z-edc-compression-cards)=
@@ -561,18 +561,18 @@ We expect to issue stable release updates enabling HTTP/2 support after the Apac
 
 
 (16-04-lts-fglrx)=
-#### fglrx
+#### `fglrx`
 
-The fglrx driver is now deprecated in 16.04, and we recommend its open source alternatives (radeon and amdgpu). AMD put a lot of work into the drivers, and we backported kernel code from Linux 4.5 to provide a better experience.
+The `fglrx` driver is now deprecated in 16.04, and we recommend its open source alternatives (radeon and amdgpu). AMD put a lot of work into the drivers, and we backported kernel code from Linux 4.5 to provide a better experience.
 
-When upgrading to Ubuntu 16.04 from a previous release, both the fglrx driver and the xorg.conf will be removed, so that the system is set to use either the amdgpu driver or the radeon driver (depending on the available hardware).
+When upgrading to Ubuntu 16.04 from a previous release, both the `fglrx` driver and the xorg.conf will be removed, so that the system is set to use either the amdgpu driver or the radeon driver (depending on the available hardware).
 
 More information is available at [tjaalton.wordpress.com/2016/03/11/no-catalystfglrx-video-driver-in-ubuntu-16-04/](https://tjaalton.wordpress.com/2016/03/11/no-catalystfglrx-video-driver-in-ubuntu-16-04/)
 
 (16-04-lts-6th-gen-intel-core-cpus-and-llvmpipe-software-rasterizer)=
-#### 6th gen Intel Core CPUs and llvmpipe software rasterizer
+#### 6th gen Intel Core CPUs and `llvmpipe` software `rasterizer`
 
-LLVM-3.8 enables AVX512 on all 6th generation Intel Core CPUs ("Skylake") when it should be enabled only on server CPU's. This causes the user session to fail to start when Mesa llvmpipe driver is used. This should happen only when the system has a separate GPU which isn't natively supported by open source drivers.
+LLVM-3.8 enables AVX512 on all 6th generation Intel Core CPUs ("Skylake") when it should be enabled only on server CPU's. This causes the user session to fail to start when Mesa `llvmpipe` driver is used. This should happen only when the system has a separate GPU which isn't natively supported by open source drivers.
 
 This bug will be handled in a post-release update. In order to install a machine suffering from this remember to boot directly to the installer instead of live-session which doesn't start, and select the option to "Download updates while installing" to make sure updated packages are installed before logging in for the first time. [bugs.launchpad.net/ubuntu/+source/llvm-toolchain-3.8/+bug/1564156](https://bugs.launchpad.net/ubuntu/+source/llvm-toolchain-3.8/+bug/1564156)
 
@@ -611,9 +611,9 @@ The release notes for the official flavours can be found at the following links:
 (16-04-lts-reporting-bugs)=
 ### Reporting bugs
 
-Your comments, bug reports, patches and suggestions will help fix bugs and improve the quality of future releases. Please [report bugs using the tools provided](http://help.ubuntu.com/community/ReportingBugs).
+Your comments, bug reports, patches and suggestions will help fix bugs and improve the quality of future releases. Please report bugs using the tools provided `http://help.ubuntu.com/community/ReportingBugs`.
 
-If you want to help out with bugs, the [Bug Squad](http://wiki.ubuntu.com/BugSquad) is always looking for help.
+If you want to help out with bugs, the Bug Squad `http://wiki.ubuntu.com/BugSquad` is always looking for help.
 
 
 (16-04-lts-participate-in-ubuntu)=

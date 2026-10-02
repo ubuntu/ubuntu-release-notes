@@ -1,0 +1,26 @@
+Intel's open-source oneAPI DPC++ compiler for building [SYCL](https://www.khronos.org/sycl/) code is now available in the Ubuntu Archive. The compiler runtime includes adapters for running on Intel GPU hardware.
+
+The following related packages are also now available from the Ubuntu archive:
+
+* DPC++ library (oneDPL), which provides a high-productivity API for developers
+* Deep Neural Network Library (oneDNN) built with the `dpclang-6` compiler for running on Intel GPUs
+
+These tools provide support for AI workloads on Intel GPU hardware. Note that users need to be in the `render` group in order to leverage Intel GPUs with these packages.
+
+:::{dropdown} Installation
+- Install the compiler and the library:
+
+    ```bash
+    sudo apt install dpclang-6
+    sudo apt install onedpl-headers
+    ```
+
+- Install the oneDNN development package and the oneDNN runtime:
+
+    ```bash
+    sudo apt install libdnnl-sycl-dev
+    sudo apt install libdnnl-sycl3
+    ```
+:::
+
+Additional components from Intel's oneAPI stack will be added to the Ubuntu archive in the future.

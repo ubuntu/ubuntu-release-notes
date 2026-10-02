@@ -1,0 +1,7 @@
+Snap applications using [XDG Desktop Portals](https://flatpak.github.io/xdg-desktop-portal/) are now better integrated into the desktop. Users can fully manage their access permissions and reach resources outside of the application's confinement in a natural way.
+
+In particular:
+
+* It's possible to open files or directories located in any path of the system with other desktop applications. For example, it's possible to open any file regardless of its location with the file manager using a snap application. This applies both to opening the file explicitly and using drag-and-drop.
+* It's possible to use Camera, Notification, USB and other XDG Desktop portals.
+* Snap application portal permissions can be controlled in GNOME Settings.

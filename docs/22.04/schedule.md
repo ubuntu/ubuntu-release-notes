@@ -26,21 +26,21 @@ Week | Date (Thursday) | 22.04 events
 16 | February 03 | Chinese New Year week
 17 | February 10 |
 18 | February 17 | 
-19 | February 24 | [Feature Freeze](https://wiki.ubuntu.com/FeatureFreeze), Debian Import Freeze,  20.04.4 Point Release
+19 | February 24 | [Feature Freeze](https://ubuntu.com/project/docs/release-team/freezes/#feature-freeze), Debian Import Freeze,  20.04.4 Point Release
 **March 2022** |
 20 | March 03 | Ubuntu Testing Week (optional)
 21 | March 10 | 
-22 | March 17 | [User Interface Freeze](https://wiki.ubuntu.com/UserInterfaceFreeze)
-23 | March 24 | [Documentation String Freeze](https://wiki.ubuntu.com/DocumentationStringFreeze), [Kernel Feature Freeze](https://wiki.ubuntu.com/KernelFeatureFreeze)
-24 | March 28 (Monday) | Beta Freeze, [Hardware Enablement Freeze](https://wiki.ubuntu.com/HardwareEnablementFreeze)
+22 | March 17 | [User Interface Freeze](https://ubuntu.com/project/docs/release-team/freezes/#user-interface-freeze)
+23 | March 24 | [Documentation String Freeze](https://ubuntu.com/project/docs/release-team/freezes/#documentation-string-freeze), [Kernel Feature Freeze](https://ubuntu.com/project/docs/release-team/freezes/#kernel-feature-freeze)
+24 | March 28 (Monday) | Beta Freeze, [Hardware Enablement Freeze](https://ubuntu.com/project/docs/release-team/freezes/#hardware-enablement-freeze)
 ⠀ | March 31 | Beta (mandatory)
 **April 2022** |
-25 | April 07 | [Kernel Freeze](https://wiki.ubuntu.com/KernelFreeze), [Non Language Pack Translation Deadline](https://wiki.ubuntu.com/NonLanguagePackTranslationDeadline)
-26 | April 14 | [Final Freeze](https://wiki.ubuntu.com/FinalFreeze), [Release Candidate](https://wiki.ubuntu.com/ReleaseCandidate), [Language Pack Translation Deadline](https://wiki.ubuntu.com/LanguagePackTranslationDeadline)
-27 | April 21 | [Final Release](https://wiki.ubuntu.com/FinalRelease)
+25 | April 07 | [Kernel Freeze](https://ubuntu.com/project/docs/release-team/freezes/#kernel-freeze), [Non Language Pack Translation Deadline](https://ubuntu.com/project/docs/release-team/freezes/#non-language-pack-translation-deadline)
+26 | April 14 | [Final Freeze](https://ubuntu.com/project/docs/release-team/freezes/#final-freeze), [Release Candidate](https://ubuntu.com/project/docs/release-team/freezes/#release-candidate), [Language Pack Translation Deadline](https://ubuntu.com/project/docs/release-team/freezes/#language-pack-translation-deadline)
+27 | April 21 | [Final Release](https://ubuntu.com/project/docs/release-team/release-cycle/#final-release)
 ... | ...
 **August 2022** |
-42 | August 04 | [22.04.1 Point Release ](https://wiki.ubuntu.com/PointReleaseProcess)
+42 | August 04 | [22.04.1 Point Release ](https://ubuntu.com/project/docs/release-team/ubuntu-releases/#point-releases)
 43 | August 11 | 
 44 | August 18 | 
 45 | August 21 | 
@@ -49,11 +49,11 @@ Week | Date (Thursday) | 22.04 events
 68 | February 02 | 
 69 | February 09 | 
 70 | February 16 | 
-71 | February 23 | [22.04.2 Point Release ](https://wiki.ubuntu.com/PointReleaseProcess)
+71 | February 23 | [22.04.2 Point Release ](https://ubuntu.com/project/docs/release-team/ubuntu-releases/#point-releases)
 ... | ...
 **August 2023** |
 94 | August 03 |
-95 | August 10 | [22.04.3 Point Release ](https://wiki.ubuntu.com/PointReleaseProcess)
+95 | August 10 | [22.04.3 Point Release ](https://ubuntu.com/project/docs/release-team/ubuntu-releases/#point-releases)
 96 | August 17 |
 97 | August 24 |
 98 | August 31 |
@@ -62,7 +62,7 @@ Week | Date (Thursday) | 22.04 events
 120 | February 1 |
 121 | February 8 |
 122 | February 15 |
-123 | February 22 | [22.04.4 Point Release ](https://wiki.ubuntu.com/PointReleaseProcess)
+123 | February 22 | [22.04.4 Point Release ](https://ubuntu.com/project/docs/release-team/ubuntu-releases/#point-releases)
 ... | ...
 **August 2024** |
 147 | August 01 | 
@@ -72,7 +72,7 @@ Week | Date (Thursday) | 22.04 events
 151 | August 29 |  
 **September 2024** |
 152 | September 05 | 
-153 | September 12 | [22.04.5 Point Release ](https://wiki.ubuntu.com/PointReleaseProcess)
+153 | September 12 | [22.04.5 Point Release ](https://ubuntu.com/project/docs/release-team/ubuntu-releases/#point-releases)
 
 
 ## Planned and potentially disruptive archive-wide activities
@@ -133,6 +133,6 @@ The Alpha and Beta 1 milestones have been replaced with [Testing Weeks](https://
 
 When the archive is frozen, all members of the release team are expected to participate in bug fix reviews.
 
-After [Feature Freeze](https://wiki.ubuntu.com/FeatureFreeze), all members of the release team are expected to participate in Feature Freeze Exception reviews in their particular area of expertise.
+After [Feature Freeze](https://ubuntu.com/project/docs/release-team/freezes/#feature-freeze), all members of the release team are expected to participate in Feature Freeze Exception reviews in their particular area of expertise.
 
-After [Final Beta](https://wiki.ubuntu.com/FinalBetaRelease), all members of the release team are expected to participate in Bug fix reviews in their particular area of expertise.
+After [Final Beta](https://ubuntu.com/project/docs/release-team/release-cycle/#finalization), all members of the release team are expected to participate in Bug fix reviews in their particular area of expertise.

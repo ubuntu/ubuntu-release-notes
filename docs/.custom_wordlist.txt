@@ -1304,3 +1304,10 @@ Zstack
 zstd
 Zstd
 Quantal
+Loongarch
+aws
+initramfsless
+southbridge
+Memop
+BMCs
+Aspeed

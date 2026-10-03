@@ -1304,3 +1304,14 @@ Zstack
 zstd
 Zstd
 Quantal
+Alderlake
+Adebaran
+configurability
+upcalls
+Impish's
+hirsute's
+Xena
+querydata
+plaintext
+Spinlock
+VTs

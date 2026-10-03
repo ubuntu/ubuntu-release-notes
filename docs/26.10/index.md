@@ -96,6 +96,22 @@ Samba in Ubuntu Server 26.10 has been updated to version 4.24.7. Important chang
 
 Please see the [Samba 4.24.0 release notes](https://www.samba.org/samba/history/samba-4.24.0.html) for the full list of changes.
 
+#### MySQL
+
+MySQL was updated from 8.4 LTS to 9.7 LTS, starting with 9.7.2. This is MySQL's latest long term support release, including new features such as the Hypergraph Optimizer, full JSON Duality Views support, and the Telemetry component.
+
+Upstream release notes are available in the [Mysql 9.7 documentation library](https://dev.mysql.com/doc/relnotes/mysql/9.7/en/). For more information about the transition from MySQL 8.4 to 9.7, see the [MySQL 9.7 overview](https://dev.mysql.com/doc/refman/9.7/en/mysql-nutshell.html).
+
+#### MySQL Shell
+
+MySQL Shell was updated to 9.7.1 to support the new MySQL LTS version. See the [upstream release notes](https://dev.mysql.com/doc/relnotes/mysql-shell/9.7/en/) for more information.
+
+#### Valkey
+
+Valkey was updated to the latest major release 9.1, starting with 9.1.2. This includes various performance and security threat model improvements.
+
+For more information on the new version, see the [Valkey 9.1 blog post](https://valkey.io/blog/valkey-9-1-delivers-improvements-in-security-performance-and-more/). Release notes are available on the [Valkey project GitHub](https://github.com/valkey-io/valkey/releases).
+
 ### Development features
 
 #### Toolchain upgrades

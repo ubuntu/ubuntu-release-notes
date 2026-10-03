@@ -199,6 +199,7 @@ if os.environ.get("READTHEDOCS"):
 # A regex list of URLs that are ignored by 'make linkcheck'
 linkcheck_ignore = [
     "http://127.0.0.1:8000",
+    r"http://localhost:?\d*/.*",
     "https://github.com/canonical/ACME/*",
     # The link checker tries to treat the part after # as an anchor and fails.
     "https://matrix.to/*",
@@ -312,6 +313,8 @@ linkcheck_anchors_ignore_for_url = [
     r"https://doc\.dovecot\.org/.*",
     # Raspberry Pi docs restructure anchors
     r"https://www\.raspberrypi\.com/.*",
+    # Libvirt formatdomain anchors restructure between versions
+    r"https://libvirt\.org/formatdomain\.html",
 ]
 
 # How long the link checker will wait for a response for each request

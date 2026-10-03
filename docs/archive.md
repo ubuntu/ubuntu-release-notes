@@ -8,6 +8,7 @@
 24.10 (Oracular Oriole) <24.10/index>
 22.10 (Kinetic Kudu) <22.10/index>
 20.04 LTS (Focal Fossa) <20.04/index>
+17.04 (Zesty Zapus) <17.04/index>
 16.04 LTS (Xenial Xerus) <16.04/index>
 12.10 (Quantal Quetzal) <12.10/index>
 12.04 LTS (Precise Pangolin) <12.04/index>

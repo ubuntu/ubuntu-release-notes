@@ -121,6 +121,7 @@ boolean
 bootloader
 Bootspeed
 borks
+Bouchard
 bpftool
 bpftools
 bpftrace
@@ -147,6 +148,7 @@ Caley
 Calix
 Callables
 camelCase
+Cannonlake
 Canonical('s)?
 cardreader
 CA's
@@ -376,6 +378,7 @@ gedit
 Geneve
 Genio
 genprotimg
+Gerdts
 getent
 Ghadi
 github

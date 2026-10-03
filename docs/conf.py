@@ -234,6 +234,8 @@ linkcheck_ignore = [
     r"http://[^\s/]+\.(py|sh|mk|in)$",
     # Servers being migrated right now - ignore for now
     r"https://ubuntukylin\.com/.*",
+    # 18.10 release notes: bot-challenged (567 access-denied wall) external link
+    r"https?://www\.ubuntukylin\.com/news/shownews\.php.*",
     # Dead links in existing content (historical; not worth updating)
     r"https://github\.com/docker-snap/.*",
     r"https://github\.com/ipxe/.*",

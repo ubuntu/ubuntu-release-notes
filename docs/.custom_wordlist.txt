@@ -506,6 +506,7 @@ Jetson
 jinkangkang
 journalctl
 journald
+Joyent
 js
 json
 jsonb
@@ -662,6 +663,7 @@ Mii
 mips
 miscompilation
 misconfiguration
+Mitaka
 mitigations
 Miyoko
 mkdir
@@ -866,6 +868,7 @@ quicksettings
 Quokka
 RA
 rabbitmqctl
+Rackspace
 Radeon
 radeonsi
 Rahme

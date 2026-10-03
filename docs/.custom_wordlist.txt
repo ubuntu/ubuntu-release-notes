@@ -118,6 +118,7 @@ Bolan
 Boldore
 bool
 boolean
+bootable
 bootloader
 Bootspeed
 borks
@@ -236,6 +237,7 @@ Danya
 Darko
 Darra
 Darsha
+datacenter
 datapath
 Datasafe
 datasource
@@ -264,6 +266,7 @@ devicetree
 devscripts
 dhclient
 dhcpcd
+Diablo
 dialogs
 Dilithium
 dirents
@@ -351,6 +354,7 @@ forkserver
 fprintd
 framebuffer
 framepointer
+Freescale
 freefont
 freeipmi
 freeradius
@@ -466,6 +470,7 @@ initramfs
 initrd
 initrdless
 inlining
+Inkscape
 inode
 intel
 intelrdt
@@ -501,6 +506,7 @@ Jetson
 jinkangkang
 journalctl
 journald
+Joyent
 js
 json
 jsonb
@@ -587,6 +593,7 @@ libxmlb
 libzdnn
 libzpc
 Lichee
+Linaro
 Linoone
 lintian
 llvm
@@ -621,6 +628,7 @@ Luca
 Lunarlake
 LUNs
 Maag
+Macbook
 Macbooks
 machinectl
 MACs
@@ -655,6 +663,7 @@ Mii
 mips
 miscompilation
 misconfiguration
+Mitaka
 mitigations
 Miyoko
 mkdir
@@ -679,6 +688,7 @@ MSBuild
 msr
 mtdpstore
 mtr
+multiarch
 Multipass
 multipath
 multipathd
@@ -730,6 +740,7 @@ nouveau
 Nouveau
 nss
 nullboot
+num
 numactl
 Numpy
 Nusakan
@@ -791,6 +802,7 @@ PIDs
 Pimoroni
 pipewire
 pipewiresrc
+Pitivi
 pkey
 pkgbinarymangler
 plantuml
@@ -835,6 +847,7 @@ PulseAudio
 pvimg
 PWAs
 pwd
+px
 pxgsettings
 Pygments
 pygobject
@@ -855,6 +868,7 @@ quicksettings
 Quokka
 RA
 rabbitmqctl
+Rackspace
 Radeon
 radeonsi
 Rahme
@@ -1028,11 +1042,13 @@ Strix
 Strongswan
 su
 subarch
+subarchitectures
 subcommands
 subcomponents
 subdirs
 subiquity
 Subiquity
+submenus
 subproject
 subprojects
 subscripting
@@ -1087,6 +1103,7 @@ texlive
 thermald
 Thinkpad
 Thinkplus
+throbber
 thumbnailer
 thumbnailers
 thunderbird

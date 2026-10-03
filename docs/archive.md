@@ -7,6 +7,7 @@
 25.04 (Plucky Puffin) <25.04/index>
 24.10 (Oracular Oriole) <24.10/index>
 22.10 (Kinetic Kudu) <22.10/index>
+21.04 (Hirsute Hippo) <21.04/index>
 20.04 LTS (Focal Fossa) <20.04/index>
 16.04 LTS (Xenial Xerus) <16.04/index>
 12.10 (Quantal Quetzal) <12.10/index>

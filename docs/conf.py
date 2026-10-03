@@ -217,6 +217,10 @@ linkcheck_ignore = [
     r"https://discourse\.lubuntu\.me/.*",
     # Mythbuntu: page is live but blocks bots with 403
     r"http://www\.mythbuntu\.org/.*",
+    # stgt project: redirects to SourceForge directory page which blocks bots with 403
+    r"https?://stgt\.sourceforge\.net/?",
+    # OpenVPN community wiki (Trac): blocks bots with 403
+    r"https://community\.openvpn\.net/openvpn/wiki/ChangesInOpenvpn25",
     r"https://downloads\.apache\.org/.*",
     r"https://www\.freedesktop\.org/.*",
     r"https://gstreamer\.freedesktop\.org/.*",

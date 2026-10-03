@@ -217,6 +217,11 @@ linkcheck_ignore = [
     r"https://discourse\.lubuntu\.me/.*",
     # Mythbuntu: page is live but blocks bots with 403
     r"http://www\.mythbuntu\.org/.*",
+    # Samba sites: page is live but blocks bots with 403
+    r"https://www\.samba\.org/samba/history/.*",
+    r"https://wiki\.samba\.org/index\.php/Samba_4\.12_Features_added/changed.*",
+    # Raspberry Pi docs moved to raspberrypi.com which bot-challenges with 403
+    r"https://www\.raspberrypi\.org/documentation/hardware/raspberrypi/bootmodes/README\.md",
     r"https://downloads\.apache\.org/.*",
     r"https://www\.freedesktop\.org/.*",
     r"https://gstreamer\.freedesktop\.org/.*",
@@ -306,6 +311,8 @@ linkcheck_anchors_ignore_for_url = [
     r"https://documentation\.ubuntu\.com/.*",
     # Launchpad bug list anchors use non-standard fragment format
     r"https://launchpad\.net/.*",
+    # QEMU wiki ChangeLog anchors fail to resolve
+    r"https://wiki\.qemu\.org/.*",
     # External project changelogs with non-stable anchor IDs
     r"https://chrony-project\.org/.*",
     # Dovecot docs restructure anchors between versions

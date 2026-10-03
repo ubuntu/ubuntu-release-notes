@@ -1286,3 +1286,16 @@ zpwr
 Zstack
 zstd
 Zstd
+Galera
+GNOME's
+Homescreen
+JavaScript
+VGA
+flo
+maguro
+nameserver
+sifr
+toolstack
+trendline
+trendlines
+upleveled

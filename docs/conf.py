@@ -279,6 +279,8 @@ linkcheck_ignore = [
     r"http://psubuntu\.com/.*",
     # 8.04 release notes: archive.canonical.com times out from CI
     r"https?://archive\.canonical\.com/.*",
+    # 14.04 release notes: bot-challenged (403) external link
+    r"https?://askubuntu\.com/questions/ask\?.*",
 ]
 
 # A regex list of URLs where anchors are ignored by 'make linkcheck'
@@ -298,6 +300,9 @@ linkcheck_anchors_ignore_for_url = [
     r"https://doc\.dovecot\.org/.*",
     # Raspberry Pi docs restructure anchors
     r"https://www\.raspberrypi\.com/.*",
+    # 14.04 release notes: external doc anchors not present on the page
+    r"https?://docs\.puppetlabs\.com/puppet/3/reference/release_notes\.html",
+    r"https?://wiki\.xenproject\.org/wiki/MigrationGuideToXen4\.1.*",
 ]
 
 # How long the link checker will wait for a response for each request

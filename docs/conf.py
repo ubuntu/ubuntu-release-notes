@@ -217,6 +217,7 @@ linkcheck_ignore = [
     r"https://www\.freedesktop\.org/.*",
     r"https://gstreamer\.freedesktop\.org/.*",
     r"https://linux-nfs\.org/wiki/.*",
+    r"https://didrocks\.fr/.*",
     # Flaky host (intermittent connection aborts from CI)
     r"https://www\.xfce\.org/.*",
     # Launchpad: bugs/commits may be private or deleted

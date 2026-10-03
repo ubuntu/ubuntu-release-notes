@@ -8,6 +8,7 @@
 24.10 (Oracular Oriole) <24.10/index>
 22.10 (Kinetic Kudu) <22.10/index>
 20.04 LTS (Focal Fossa) <20.04/index>
+19.10 (Eoan Ermine) <19.10/index>
 10.10 (Maverick Meerkat) <10.10/index>
 10.04 LTS (Lucid Lynx) <10.04/index>
 9.10 (Karmic Koala) <9.10/index>

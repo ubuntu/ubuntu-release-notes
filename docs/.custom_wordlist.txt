@@ -265,6 +265,7 @@ devscripts
 dhclient
 dhcpcd
 dialogs
+Didrocks
 Dilithium
 dirents
 distro
@@ -516,6 +517,7 @@ keymapper
 keytab
 killswitch
 kmod
+Komeda
 kpartx
 kprobes
 Krackan
@@ -1250,6 +1252,7 @@ wtpm
 Wubi
 xen
 Xen
+Xeon
 xetex
 Xfce
 xfsprogs

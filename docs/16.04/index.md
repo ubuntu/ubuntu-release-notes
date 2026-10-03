@@ -147,7 +147,7 @@ Recent OpenSSH releases disable several pieces of weak, legacy, and/or unsafe cr
 
 * Support for the 1024-bit `diffie-hellman-group1-sha1` key exchange is disabled by default at run-time.  It may be re-enabled using the [upstream instructions](http://www.openssh.com/legacy.html).
 
-_ Support for `ssh-dss`, `ssh-dss-cert-_` host and user keys is disabled by default at run-time.  These may be re-enabled using the [upstream instructions](http://www.openssh.com/legacy.html).
+Support for `ssh-dss`, `ssh-dss-cert` host and user keys is disabled by default at run-time.  These may be re-enabled using the [upstream instructions](http://www.openssh.com/legacy.html).
 
 * Support for the legacy `v00` cert format has been removed.
 

@@ -199,6 +199,8 @@ The default core utilities now run entirely on the Rust-based `uutils`
 implementation. The remaining GNU utilities (`cp`, `mv`, and `rm`), previously
 retained due to compatibility issues, have now been migrated.
 
+To switch between the Rust and GNU implementations of coreutils, refer to {ref}`resolute-rust-coreutils`.
+
 
 ## Backwards-incompatible changes
 

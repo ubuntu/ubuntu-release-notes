@@ -1037,6 +1037,7 @@ The `sudo` tool (the original `sudo` maintained by Todd C. Miller) has been rena
 See [Ubuntu Server Docs](https://documentation.ubuntu.com/server/how-to/security/user-management/#sudo-rs) for configuring your default `sudo` provider and for the differences between `sudo-rs` and `sudo.ws`.
 
 
+(resolute-rust-coreutils)=
 ### `rust-coreutils`
 :::{versionadded} 25.10
 :::
@@ -1052,18 +1053,16 @@ gnuls
 Alternatively, you can switch between the two sets of utilities by running the following commands:
 
 To switch to GNU coreutils:
-:  
 
-  ```none
-  sudo apt install coreutils-from-gnu --allow-remove-essential
-  ```
+```none
+sudo apt install coreutils-from-gnu coreutils-from-uutils- --allow-remove-essential
+```
 
 To switch back to rust-coreutils:
-:  
 
-  ```none
-  sudo apt install coreutils-from-uutils --allow-remove-essential
-  ```
+```none
+sudo apt install coreutils-from-uutils coreutils-from-gnu- --allow-remove-essential
+```
 
 Because of unresolved bugs, the `cp`, `mv`, and `rm` utilities are still from GNU in `rust-coreutils`.
 For more information, see [An update on rust-coreutils](https://discourse.ubuntu.com/t/an-update-on-rust-coreutils/80773).

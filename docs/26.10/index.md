@@ -189,7 +189,32 @@ The `virt-stack` gains performance resilience, architecture agility, and hardeni
 
 ### System features
 
-#### Linux kernel \<VERSION\>
+#### Linux kernel 7.3 🐧
+
+Ubuntu 26.10 ships with the Linux kernel 7.3. Because the final upstream 7.3 release is due after GA, the kernel in the release images (`7.3.0-9.9`) is based on `7.3-rc6`.
+
+Notable Ubuntu kernel changes since Ubuntu 26.04 LTS:
+
+* Snapdragon laptops and desktops ([LP: #2167217](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2167217), [LP: #2144643](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2144643), [LP: #2121477](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2121477)):
+  * Early support for Snapdragon X2 Elite laptops: Asus Zenbook A14 (UX3407NA), HP EliteBook X G2q 14 AI and Lenovo Yoga Slim 7x Gen 11.
+  * Support for more Snapdragon X Elite and X Plus devices: Lenovo IdeaCentre Mini 01Q8X10 (Snapdragon X Plus model), Lenovo IdeaPad Slim 5x 14Q8X9, HP EliteBook 6 G1q, Acer Swift 14 AI (SF14-11) and Acer Swift Go 14 AI (SFG14-01).
+  * Support for the built-in cameras of several Snapdragon X Elite laptops, including the Lenovo ThinkPad T14s, Lenovo Yoga Slim 7x, Dell XPS 13 9345, Dell Inspiron 14 7441 and Asus Zenbook A14.
+* Enablement for upcoming AMD Zen 6 client platforms: HSMP client interface ([LP: #2167555](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2167555)), CPPC boost frequencies ([LP: #2167550](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2167550)), EPP tuning ([LP: #2167558](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2167558)), fTPM ([LP: #2167552](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2167552)) and the Sensor Fusion Hub ([LP: #2167219](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2167219)).
+* Intel platforms:
+  * Support for the TI TAC5xx2 audio codec on Intel Nova Lake platforms ([LP: #2167689](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2167689)).
+  * Support for the Samsung S5K3J1 camera sensor on Intel MIPI camera platforms ([LP: #2121852](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2121852)).
+  * An additional 900 MHz link frequency for the OmniVision OV05C10 camera sensor ([LP: #2147409](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2147409)).
+* The amd64 and arm64 kernels now ship SPDX Software Bills of Materials (SBOM). The `linux-buildinfo-*` package of each kernel installs `sbom-source.spdx.json.zst`, `sbom-build.spdx.json.zst` and `sbom-output.spdx.json.zst` under `/usr/lib/linux/<version>-<flavour>/`.
+* GPIB (IEEE 488) instrument drivers are now built for amd64 ([LP: #2152714](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2152714)).
+* EROFS page cache sharing between files with identical content (experimental) is enabled ([LP: #2158501](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2158501)).
+* Prebuilt out-of-tree kernel modules:
+  * ZFS has been updated to 2.4.4.
+  * DOCA-OFED 3.5 kernel modules are available.
+  * Lustre 2.17.58 kernel modules are now prebuilt for the generic kernel on amd64.
+* NVIDIA drivers:
+  * Prebuilt kernel modules are available for the 580 and 615 driver series, including the `-server` variants.
+  * The 615 series replaces 595 and 610, including their `-server` variants. On upgrade, transitional packages move systems that use them to 615, for both the DKMS packages and the prebuilt kernel modules.
+  * The 615 series ships only the open kernel modules, which support Turing and newer GPUs: `nvidia-driver-615` and `nvidia-driver-615-server` are now transitional packages for `nvidia-driver-615-open` and `nvidia-driver-615-server-open`. The 580 series still ships both the proprietary and the open kernel modules.
 
 #### systemd \<VERSION\>
 

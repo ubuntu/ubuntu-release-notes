@@ -63,6 +63,17 @@ Some defaults were changed:
 
 See the [HAProxy 3.3](https://www.haproxy.com/blog/announcing-haproxy-3-3) and [HAProxy 3.4](https://www.haproxy.com/blog/announcing-haproxy-3-4) announcements for the complete list of changes.
 
+#### iPXE 2.0.0
+
+[iPXE](https://launchpad.net/ubuntu/+source/ipxe) was updated from `1.21.1+git` to 2.0.0. Highlights of [changes](https://github.com/ipxe/ipxe/blob/master/CHANGELOG.md):
+ * support UEFI secure boot
+ * support RISC-V and LoongArch64
+ * download & boot `autoexec.ipxe`
+ * EAPoL, port authentication, LLDP, initrd-style CPIO, DHC/ECDHE kex, GCM cipher, X25519, P-256/P-384 EC, ECDSA certs
+ * dynamically created interactive forms
+ * many new device drivers
+ * reproducible builds
+
 #### `libp11` 0.4.20
 
 [`libp11`](https://launchpad.net/ubuntu/+source/libp11) was updated from 0.4.18 to upstream version 0.4.20. Highlights include:

@@ -454,6 +454,9 @@ See [LP: #2101838](https://bugs.launchpad.net/ubuntu/+source/samba/+bug/2101838)
 ```{include} /reuse/26.04/squid-7.2-removals.txt
 ```
 
+```{include} /reuse/26.04/squid-7.2-packaging.txt
+```
+
 For a list of all changes and fixes, please check the [upstream releases page](https://github.com/squid-cache/squid/releases).
 
 ### SSSD

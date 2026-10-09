@@ -161,6 +161,9 @@ Other changes of importance are listed upstream:
 ```{include} /reuse/26.04/squid-7.2-features.txt
 ```
 
+```{include} /reuse/26.04/squid-7.2-packaging.txt
+```
+
 See also {ref}`26.04-squid-removals`.
 
 For a list of all changes and fixes, please check the [upstream releases page](https://github.com/squid-cache/squid/releases).
@@ -746,7 +749,7 @@ Other changes of importance are listed upstream:
 Other breaking changes and new features can be seen in the [full upstream changelog](https://www.php.net/ChangeLog-8.php#PHP_8_5).
 
 (26.04-squid-removals)=
-#### Removed options and directives in Squid
+#### Removed functionality in Squid
 
 ```{include} /reuse/26.04/squid-7.2-removals.txt
 ```

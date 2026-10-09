@@ -1,9 +1,13 @@
-Some directives and options were removed in Squid 7.2:
+Some long-standing configuration options and tools were removed in Squid 7. A proxy whose `squid.conf` still uses any of the removed directives below will fail to start after the upgrade, with a `FATAL` message in the cache log:
 
-* Removed `client_delay_access` directive.
+* Ident protocol (RFC 1413) support was removed. The `ident` and `ident_regex` ACL types, the `ident_lookup_access` and `ident_timeout` directives, and the `%ui` logformat / `%IDENT` external ACL codes are rejected at startup. Remove every Ident usage from your configuration before upgrading; in custom `logformat` definitions, replace `%ui` with `-`, which is what the built-in `common` and `combined` formats now log in that position.
 
-* Removed `ftp_epsv` directive.
+* The `mcast_miss_addr`, `mcast_miss_ttl`, `mcast_miss_port` and `mcast_miss_encode_key` directives were removed and are equally rejected at startup.
 
-* Removed `cache_peer` option `no-netdb-exchange`.
+* The `cache_object://` URL scheme was removed. The cache manager is now reached over plain HTTP at `http://<proxy>:3128/squid-internal-mgr/<section>`.
 
-* Removed `client_persistent_connections` and `server_persistent_connections` directives.
+* Edge Side Includes (ESI) protocol support was removed. A configuration using the `esi_parser` directive still parses, so no startup failure occurs, but the directive is obsolete and the feature no longer has any effect.
+
+* The `ntlm_smb_lm_auth` helper is no longer shipped (this also resolves CVE-2025-21311). A configuration referencing it still parses, so NTLM authentication only breaks at runtime. NTLM authenticating proxies must switch to Samba's `ntlm_auth` helper (`--helper-protocol=squid-2.5-ntlmssp`) or drop the NTLM scheme.
+
+* The `squidclient`, `squid-cgi` and `squid-purge` packages are no longer provided, as the tools were removed upstream. The release upgrader will remove an installed `squidclient`; use `curl` against the cache manager URL above instead.

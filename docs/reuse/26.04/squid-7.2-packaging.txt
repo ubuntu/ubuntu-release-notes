@@ -1,0 +1,3 @@
+The `squid-openssl` package no longer conflicts with `squid` and is instead an addon installed alongside it. `/usr/sbin/squid` has become an alternatives symlink managed by both flavors. Any existing `squid-openssl` installation is upgraded automatically with all behavior preserved (including ssl-bump). The only visible effects are the `squid.conf` conffile prompt during the upgrade and the new symlink.
+
+Any configurations that relied on the former `Conflicts` relationship (e.g co-installation guards in Puppet or Ansible) should be adjusted accordingly.

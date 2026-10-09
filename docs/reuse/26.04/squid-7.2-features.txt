@@ -1,11 +1,9 @@
-Squid was updated to upstream version 7.2. Coming from version 6, the main new options are:
+Squid was updated to upstream version 7.2. Coming from version 6, this major release focuses on cleanup rather than new functionality: upstream added no new configuration directives, and several long-standing but dead or deprecated features and tools were removed (see the removed functionality section). The few functional additions are limited to details such as:
 
-* Add `tls_key_log` directive to log TLS master keys.
+* Add `%byte{value}` logformat code for logging or sending any byte position of a message.
 
-* Add `key-extras` format to external ACL helpers to pass transaction details.
+* Honor the `buffered_logs off` setting in the `udp` access_log module.
 
-* Add `doh_query` directive to send DNS queries over HTTPS.
+* Support no-digest X509 certificate keys such as ML-DSA/EdDSA.
 
-* Add `cache_peer` option `tls-client-cert-switch` to select client certificates dynamically.
-
-Several bugfixes for crash scenarios are also included in this major release.
+Numerous crash, memory-safety and security fixes are also included in this major release.

@@ -7,8 +7,6 @@ tocdepth: 3
 (ubuntu-6-06-lts-release-notes)=
 # Ubuntu 6.06 LTS release notes
 
-## Ubuntu 6.06 LTS Release Notes
-
 Ubuntu is a Linux distribution for your desktop or server, with a fast and easy install, regular releases, a tight selection of excellent applications installed by default, and almost any other software you can imagine available through the network. Ubuntu 6.06 LTS (Long Term Support) will be supported with security updates for 5 years on the server and 3 years on the desktop after its release, and professional technical support is available from many companies around the world.
 
 These Release Notes cover new features in Ubuntu 6.06 LTS, download and installation notes, known issues, and frequently asked questions. Please read these notes before, during, and after installation and configuration of Ubuntu 6.06 LTS, and before reporting bugs in Launchpad `https://launchpad.net/malone/distros/ubuntu`.
@@ -18,13 +16,13 @@ We hope you enjoy Ubuntu.
 
 
 (6-06-lts-whats-new)=
-### What's new
+## What's new
 
 Ubuntu is released regularly and predictably. Since our October 2005 release (Ubuntu 5.10), we've made a lot of improvements to give you the best Linux experience possible. Here's what's new with Ubuntu 6.06 LTS:
 
 
 (6-06-lts-on-the-desktop-cd)=
-#### On the Desktop CD
+### On the Desktop CD
 
 * A new, very fast, graphical installer based on the Live CD
 
@@ -45,7 +43,7 @@ Ubuntu is released regularly and predictably. Since our October 2005 release (Ub
 
 
 (6-06-lts-on-the-server)=
-#### On the Server
+### On the Server
 
 * New kernels targeted at server platforms. The server kernels are
     tuned differently than the desktop kernels (providing better
@@ -67,7 +65,7 @@ Ubuntu is released regularly and predictably. Since our October 2005 release (Ub
 
 
 (6-06-lts-localization)=
-#### Localization
+### Localization
 
 * Automatic setup of non-Latin input methods
 
@@ -77,7 +75,7 @@ Ubuntu is released regularly and predictably. Since our October 2005 release (Ub
 
 
 (6-06-lts-installation-and-upgrades)=
-#### Installation and Upgrades
+### Installation and Upgrades
 
 * Ubuntu can now be installed to USB devices, such as removable
     hard drives and flash memory, using the text-mode installer
@@ -92,7 +90,7 @@ Ubuntu is released regularly and predictably. Since our October 2005 release (Ub
 
 
 (6-06-lts-under-the-hood)=
-#### "Under the hood"
+### "Under the hood"
 
 * GCC 4.0.3
 
@@ -115,7 +113,7 @@ community.
 
 
 (6-06-lts-downloading-and-installing)=
-### Downloading and Installing
+## Downloading and Installing
 
 Ubuntu 6.06 LTS supports three (3) major architectures: Intel x86, AMD64, and PowerPC. Depending on your needs, you might manage with less than some of the recommended hardware listed in the table below. However, most users risk being frustrated if they ignore these suggestions. These notes are guides. For step by step upgrade instructions please see DapperUpgrades.
 
@@ -137,7 +135,7 @@ This is a small server profile, which provides a common base for all sorts of se
 
 
 (6-06-lts-known-issues)=
-#### Known Issues
+### Known Issues
 
 * A number of problems have been reported with the installer on the Desktop CD; the [list of known issues in Ubiquity](https://wiki.ubuntu.com/DapperReleaseNotes/UbiquityKnownIssues) outlines some of these that can easily be avoided or worked around. Some of these will be corrected in later updates. In the meantime, if you cannot work around an installer problem with the Desktop CD, the alternate install CD remains available.
 
@@ -159,7 +157,7 @@ This is a small server profile, which provides a common base for all sorts of se
 
 
 (6-06-lts-getting-help-and-technical-support)=
-### Getting Help and Technical Support
+## Getting Help and Technical Support
 
 Ubuntu 6.06 LTS gives users an easy way to get help in most applications installed by default. Once you have an active internet connection, from an open application, just click on Help → Get Help Online  and you'll be directed to an online webpage that gives you help and support options for the application.
 
@@ -175,7 +173,7 @@ If you have a question, or if you think you may have found a bug but aren't sure
 
 
 (6-06-lts-reporting-bugs)=
-### Reporting Bugs
+## Reporting Bugs
 
 Your comments, bug reports, patches and suggestions will help fix bugs and improve future releases. Please report bugs through Malone:
 
@@ -183,7 +181,7 @@ Your comments, bug reports, patches and suggestions will help fix bugs and impro
 
 
 (6-06-lts-participate-in-ubuntu)=
-### Participate in Ubuntu
+## Participate in Ubuntu
 
 If you would like to help shape Ubuntu, take a look at the list of ways you can participate at
 
@@ -191,7 +189,7 @@ If you would like to help shape Ubuntu, take a look at the list of ways you can 
 
 
 (6-06-lts-more-information)=
-### More Information
+## More Information
 
 You can find out more about Ubuntu on our website, IRC channel and wiki. If you're new to Ubuntu, please visit:
 

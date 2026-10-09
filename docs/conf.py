@@ -280,7 +280,7 @@ linkcheck_ignore = [
     # 22.10 release notes: dead (404) and (403) external links
     # 20.04 release notes: bot-challenged links (kept live)
     r"https?://help\.ubuntu\.com/.*",
-    r"https://en\.wikipedia\.org/.*",
+    r"https?://en\.wikipedia\.org/.*",
     r"http://connectivity-check\.ubuntu\.com/",
     r"https?://www\.bluez\.org/.*",
     # Old apt repository host unreachable from CI (historical release notes)

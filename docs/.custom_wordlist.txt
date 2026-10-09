@@ -432,6 +432,7 @@ Glycin
 Gmock
 GNOME's
 gnudate
+Gobuntu
 Gogoat
 Goirand
 golang
@@ -569,6 +570,7 @@ keytab
 killswitch
 kmod
 Komeda
+Kopete
 kpartx
 kprobes
 Krackan
@@ -1374,6 +1376,7 @@ Xfce
 xfsprogs
 Xilinx
 xindy
+Xinerama
 XInput
 xml
 xmlrpc

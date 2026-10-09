@@ -191,7 +191,11 @@ The `virt-stack` gains performance resilience, architecture agility, and hardeni
 
 #### Linux kernel \<VERSION\>
 
-#### systemd \<VERSION\>
+#### systemd 261.3
+
+The `systemd` service manager has been updated to version 261. For a complete list of changes, see the [changelog](https://github.com/systemd/systemd/releases/tag/v261).
+
+See also {ref}`support-for-legacy-system-v-scripts-removed`.
 
 #### 100% Rust `coreutils`
 
@@ -266,6 +270,10 @@ See the [HAProxy 3.3](https://www.haproxy.com/blog/announcing-haproxy-3-3) and [
 ### Platforms
 
 ### System changes
+
+#### Support for legacy System V scripts removed
+
+As announced in previous release notes, the component `systemd-sysv-generator` for creating systemd services from `/etc/init.d` scripts at runtime has been removed. Packages in the Ubuntu archive that were previously relying on this component either now ship a systemd service, or have been removed if they were no longer maintained.
 
 
 ## Deprecated features

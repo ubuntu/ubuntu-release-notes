@@ -196,15 +196,15 @@ Ubuntu 26.10 ships with the Linux kernel 7.3. Because the final upstream 7.3 rel
 Notable Ubuntu kernel changes since Ubuntu 26.04 LTS:
 
 * Snapdragon laptops and desktops ([LP: #2167217](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2167217), [LP: #2144643](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2144643), [LP: #2121477](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2121477)):
-  * Early support for Snapdragon X2 Elite laptops: Asus Zenbook A14 (UX3407NA), HP EliteBook X G2q 14 AI and Lenovo Yoga Slim 7x Gen 11.
-  * Support for more Snapdragon X Elite and X Plus devices: Lenovo IdeaCentre Mini 01Q8X10 (Snapdragon X Plus model), Lenovo IdeaPad Slim 5x 14Q8X9, HP EliteBook 6 G1q, Acer Swift 14 AI (SF14-11) and Acer Swift Go 14 AI (SFG14-01).
-  * Support for the built-in cameras of several Snapdragon X Elite laptops, including the Lenovo ThinkPad T14s, Lenovo Yoga Slim 7x, Dell XPS 13 9345, Dell Inspiron 14 7441 and Asus Zenbook A14.
-* Enablement for upcoming AMD Zen 6 client platforms: HSMP client interface ([LP: #2167555](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2167555)), CPPC boost frequencies ([LP: #2167550](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2167550)), EPP tuning ([LP: #2167558](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2167558)), fTPM ([LP: #2167552](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2167552)) and the Sensor Fusion Hub ([LP: #2167219](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2167219)).
+  * Early support for Snapdragon X2 Elite laptops: Asus Zenbook A14 (UX3407NA), HP EliteBook X G2q 14 AI, and Lenovo Yoga Slim 7x Gen 11.
+  * Support for more Snapdragon X Elite and X Plus devices: Lenovo IdeaCentre Mini 01Q8X10 (Snapdragon X Plus model), Lenovo IdeaPad Slim 5x 14Q8X9, HP EliteBook 6 G1q, Acer Swift 14 AI (SF14-11), and Acer Swift Go 14 AI (SFG14-01).
+  * Support for the built-in cameras of several Snapdragon X Elite laptops, including the Lenovo ThinkPad T14s, Lenovo Yoga Slim 7x, Dell XPS 13 9345, Dell Inspiron 14 7441, and Asus Zenbook A14.
+* Enablement for upcoming AMD Zen 6 client platforms: HSMP client interface ([LP: #2167555](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2167555)), CPPC boost frequencies ([LP: #2167550](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2167550)), EPP tuning ([LP: #2167558](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2167558)), fTPM ([LP: #2167552](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2167552)), and the Sensor Fusion Hub ([LP: #2167219](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2167219)).
 * Intel platforms:
   * Support for the TI TAC5xx2 audio codec on Intel Nova Lake platforms ([LP: #2167689](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2167689)).
   * Support for the Samsung S5K3J1 camera sensor on Intel MIPI camera platforms ([LP: #2121852](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2121852)).
   * An additional 900 MHz link frequency for the OmniVision OV05C10 camera sensor ([LP: #2147409](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2147409)).
-* The amd64 and arm64 kernels now ship SPDX Software Bills of Materials (SBOM). The `linux-buildinfo-*` package of each kernel installs `sbom-source.spdx.json.zst`, `sbom-build.spdx.json.zst` and `sbom-output.spdx.json.zst` under `/usr/lib/linux/<version>-<flavour>/`.
+* The amd64 and arm64 kernels now ship SPDX Software Bills of Materials (SBOM). The `linux-buildinfo-*` package of each kernel installs `sbom-source.spdx.json.zst`, `sbom-build.spdx.json.zst`, and `sbom-output.spdx.json.zst` under `/usr/lib/linux/<version>-<flavour>/`.
 * GPIB (IEEE 488) instrument drivers are now built for amd64 ([LP: #2152714](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2152714)).
 * EROFS page cache sharing between files with identical content (experimental) is enabled ([LP: #2158501](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2158501)).
 * Prebuilt out-of-tree kernel modules:

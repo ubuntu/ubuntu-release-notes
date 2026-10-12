@@ -268,6 +268,11 @@ connections.
 | Rust 🦀 | 1.97.1 | Rust 1.97 stable toolchain with LLVM miscompilation fixes. [Release Notes](https://blog.rust-lang.org/2026/07/16/Rust-1.97.1/) |
 | Zig ⚡ | 0.16 | Zig is a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software. [Release Notes](https://ziglang.org/download/0.16.0/release-notes.html)|
 
+#### OpenJDK
+
+- OpenJDK 27 is available in the `openjdk-27` package.
+- Ubuntu OpenJDK [JRE](https://hub.docker.com/r/ubuntu/jre) and [JDK](https://hub.docker.com/r/ubuntu/jdk) ROCK images are available for OpenJDK 25.
+
 ### Enterprise features
 
 ### Cloud features

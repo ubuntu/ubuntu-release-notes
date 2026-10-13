@@ -562,6 +562,12 @@ Ubuntu 26.04 LTS is shipping with the Linux kernel 7.0, based on the upstream fi
 
 Other features can be found in the [Linux 7.0 upstream changelog](https://kernelnewbies.org/Linux_7.0).
 
+#### Support for new Intel processors
+
+Resolute brings full support for Intel® Core™ Ultra Series 3 processors (codenamed Panther Lake), Intel® Core™ Series 3 processors (codenamed Wildcat Lake), and Intel® Xeon® 6+ processors (codenamed Clearwater Forest).
+
+Resolute adds initial support for Intel next-generation client processor (codenamed Nova Lake) and Xeon® server processor (codenamed Diamond Rapids).
+
 #### sudo-rs
 
 Password feedback is now enabled by default in order to improve the user experience of `sudo`.

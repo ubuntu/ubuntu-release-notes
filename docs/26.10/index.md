@@ -271,7 +271,7 @@ connections.
 #### OpenJDK
 
 - OpenJDK 27 is available in the `openjdk-27` package.
-- Ubuntu OpenJDK [JRE](https://hub.docker.com/r/ubuntu/jre) and [JDK](https://hub.docker.com/r/ubuntu/jdk) ROCK images are available for OpenJDK 25.
+- Ubuntu OpenJDK [JRE](https://hub.docker.com/r/ubuntu/jre) and [JDK](https://hub.docker.com/r/ubuntu/jdk) rock images are available for OpenJDK 25.
 
 ### Enterprise features
 

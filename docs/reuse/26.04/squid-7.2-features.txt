@@ -1,8 +1,8 @@
 Squid was updated to upstream version 7.2. Coming from version 6, this major release focuses on cleanup rather than new functionality: upstream added no new configuration directives, and several long-standing but dead or deprecated features and tools were removed (see the removed functionality section). The few functional additions are limited to details such as:
 
-* Add `%byte{value}` logformat code for logging or sending any byte position of a message.
+* Add `%byte{value}` `logformat` code for logging or sending any byte position of a message.
 
-* Honor the `buffered_logs off` setting in the `udp` access_log module.
+* Honor the `buffered_logs off` setting in the `udp` `access_log` module.
 
 * Support no-digest X509 certificate keys such as ML-DSA/EdDSA.
 

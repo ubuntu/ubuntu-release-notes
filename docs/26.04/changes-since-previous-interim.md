@@ -836,6 +836,11 @@ On the IBM Z (s390s) architecture, the architectural level set (ALS) was raised 
 
 IBM Z generation z14 (LinuxONE II) is still supported by Ubuntu Server 24.04 LTS for up to 15 years in total.
 
+#### `pkcon` replaced with `pkgcli`
+
+```{include} /reuse/26.04/pkcon-removed.txt
+```
+
 
 ## Deprecated features
 

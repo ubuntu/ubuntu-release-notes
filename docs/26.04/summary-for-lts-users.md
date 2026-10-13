@@ -1258,6 +1258,13 @@ APT now provides an interface for viewing and manipulating its command history.
     Freed space: 8119 kB
     ```
 
+### The `pkcon` command has been removed
+:::{versionremoved} 26.04
+:::
+
+```{include} /reuse/26.04/pkcon-removed.txt
+```
+
 ### Dracut
 :::{versionchanged} 25.10
 :::

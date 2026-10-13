@@ -1,0 +1,9 @@
+The `pkcon` command, a command-line utility for managing Debian packages, distributed as part of PackageKit, was dropped in Ubuntu 26.04.
+
+A new command-line utility from PackageKit is available as `pkgcli` with equivalent functionality.
+
+PackageKit is pre-installed in both Ubuntu Desktop and Ubuntu Server.
+
+See [LP: #2150176](https://bugs.launchpad.net/ubuntu/+source/packagekit/+bug/2150176) for more information.
+
+For the full list of changes, see the [upstream changelog](https://github.com/PackageKit/PackageKit/blob/main/NEWS).

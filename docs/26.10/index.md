@@ -25,6 +25,10 @@ Release schedule <schedule>
 
 ### Desktop features
 
+#### System-level opt-out for Ubuntu Insights
+
+Administrators can now opt out of anonymous Ubuntu Insights system report collection for the entire system. Enabling the configuration overrides individual opt-ins such that they are instead interpreted as opt-outs. Users with sufficient permissions can change this setting, either in the Settings application or by using Ubuntu Insights' command-line interface.
+
 ### Server features
 
 #### FreeRADIUS 3.2.10

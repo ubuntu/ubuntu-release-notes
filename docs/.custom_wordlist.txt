@@ -930,6 +930,8 @@ qeth
 qpdf
 qualcomm
 Quantal
+Zenbook
+Inspiron
 querydata
 quicksettings
 Quokka

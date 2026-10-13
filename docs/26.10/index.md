@@ -25,6 +25,12 @@ Release schedule <schedule>
 
 ### Desktop features
 
+#### TPM-backed FDE without a hardware root of trust
+
+Computers without a hardware root of trust can now be installed with TPM-backed full disk encryption (FDE), provided that a PIN or passphrase is also set on the TPM-backed key.
+
+This was already backported in Ubuntu Desktop 26.04.1. For reference, see [Hardware-backed disk encryption requirements](https://ubuntu.com/desktop/docs/en/latest/reference/hardware-backed-disk-encryption-requirements/).
+
 ### Server features
 
 #### FreeRADIUS 3.2.10

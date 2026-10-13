@@ -518,6 +518,7 @@ initrdless
 Inkscape
 inlining
 inode
+Inspiron
 intel
 intelrdt
 interators
@@ -1402,6 +1403,7 @@ Zbkx
 ZBook
 zcrypt
 zdev
+Zenbook
 zenity
 zeroconf
 Zicbop

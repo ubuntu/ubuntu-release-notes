@@ -60,6 +60,14 @@
 |... | ||
 | **August 2026**| ||
 | 46 | August 27 | [26.04.1 Point Release ](https://ubuntu.com/project/docs/release-team/ubuntu-releases/#point-releases) |
+| **February 2027** | | |
+| 71 | February 18 | 26.04.2 Point Release |
+| **August 2027** | | |
+| 98 | August 26 | 26.04.3 Point Release |
+| **February 2028** | | |
+| 123 | February 17 | 26.04.4 Point Release |
+| **September 2028** | | |
+| 153 | September 14 | 26.04.5 Point Release |
 
 ## Planned and potentially disruptive archive-wide activities
 

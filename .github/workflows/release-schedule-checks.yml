@@ -1,0 +1,38 @@
+name: Release schedule checks
+
+# Fast feedback on schedule.yaml edits. The docs build (Read the Docs)
+# generates the actual tables and calendar files.
+
+on:
+  push:
+    branches:
+    - main
+    paths:
+    - 'docs/*/schedule.yaml'
+    - 'docs/_data/milestones.yaml'
+    - 'docs/_ext/release_schedule.py'
+    - '.github/workflows/release-schedule-checks.yml'
+  pull_request:
+    paths:
+    - 'docs/*/schedule.yaml'
+    - 'docs/_data/milestones.yaml'
+    - 'docs/_ext/release_schedule.py'
+    - '.github/workflows/release-schedule-checks.yml'
+
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    steps:
+    - uses: actions/checkout@v5
+    - uses: actions/setup-python@v6
+      with:
+        python-version: '3.11'  # Same as Read the Docs
+    - name: Install dependencies
+      run: pip install pyyaml
+    - name: Validate schedules and generate calendars
+      run: python3 docs/_ext/release_schedule.py --ics-dir calendar
+    - name: Upload calendars
+      uses: actions/upload-artifact@v4
+      with:
+        name: release-calendars
+        path: calendar/*.ics

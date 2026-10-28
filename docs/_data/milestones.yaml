@@ -1,0 +1,81 @@
+# Standard Ubuntu release milestones.
+#
+# In docs/<version>/schedule.yaml, write the ID (for example `feature-freeze`)
+# instead of the full name and link. The ID is replaced by the name below,
+# linked to `url` if one is set.
+#
+#   name:     Text shown in the schedule and in the calendar.
+#             {version} is replaced by the release version (for example 26.04).
+#             {n} is replaced by a counter: the first `point-release` in a
+#             schedule is 1, the second is 2 and so on.
+#   url:      Optional link.
+#   timeline: Optional. If true, the milestone is also shown in the timeline
+#             at the top of the page (for schedules with `timeline: true`).
+
+toolchain-upload:
+  name: Toolchain Uploaded
+
+testing-week:
+  name: Ubuntu Testing Week (optional)
+
+feature-freeze:
+  name: Feature Freeze
+  url: https://ubuntu.com/project/docs/release-team/freezes/#feature-freeze
+  timeline: true
+
+debian-import-freeze:
+  name: Debian Import Freeze
+
+user-interface-freeze:
+  name: User Interface Freeze
+  url: https://ubuntu.com/project/docs/release-team/freezes/#user-interface-freeze
+
+documentation-string-freeze:
+  name: Documentation String Freeze
+  url: https://ubuntu.com/project/docs/release-team/freezes/#documentation-string-freeze
+
+kernel-feature-freeze:
+  name: Kernel Feature Freeze
+  url: https://ubuntu.com/project/docs/release-team/freezes/#kernel-feature-freeze
+
+beta-freeze:
+  name: Beta Freeze
+  url: https://ubuntu.com/project/docs/release-team/freezes/#beta-freeze
+
+hardware-enablement-freeze:
+  name: Hardware Enablement Freeze
+  url: https://ubuntu.com/project/docs/release-team/freezes/#hardware-enablement-freeze
+
+beta:
+  name: Beta (mandatory)
+  timeline: true
+
+kernel-freeze:
+  name: Kernel Freeze
+  url: https://ubuntu.com/project/docs/release-team/freezes/#kernel-freeze
+
+non-language-pack-translation-deadline:
+  name: Non Language Pack Translation Deadline
+  url: https://ubuntu.com/project/docs/release-team/freezes/#non-language-pack-translation-deadline
+
+final-freeze:
+  name: Final Freeze
+  url: https://ubuntu.com/project/docs/release-team/freezes/#final-freeze
+
+release-candidate:
+  name: Release Candidate
+  url: https://ubuntu.com/project/docs/release-team/freezes/#release-candidate
+
+language-pack-translation-deadline:
+  name: Language Pack Translation Deadline
+  url: https://ubuntu.com/project/docs/release-team/freezes/#language-pack-translation-deadline
+
+final-release:
+  name: Final Release
+  url: https://ubuntu.com/project/docs/release-team/release-cycle/#final-release
+  timeline: true
+
+point-release:
+  name: "{version}.{n} Point Release"
+  url: https://ubuntu.com/project/docs/release-team/ubuntu-releases/#point-releases
+  timeline: true

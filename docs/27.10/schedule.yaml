@@ -1,0 +1,46 @@
+# Release schedule for Ubuntu 27.10 (U U).
+#
+# This file generates the tables in schedule.md and the calendar (.ics) files.
+# Instructions: https://documentation.ubuntu.com/release-notes/contribute/#update-a-release-schedule
+#
+# Add one line per date, in YYYY-MM-DD format. For several items on the same
+# date, use a list. Use the IDs from docs/_data/milestones.yaml (for example
+# `feature-freeze`) for standard milestones, or write any text (Markdown links
+# are allowed). Put text in double quotes if it starts with "[" or contains
+# ": ", for example: 2026-08-06: "[GNOME 50](https://example.com)"
+# Also quote text that contains " #": the rest of the line is a comment otherwise.
+
+codename: U U
+start: 2027-04-29  # Week 1. Must be a Thursday.
+release: 2027-10-14  # Final release date.
+timeline: false      # Show key milestones in a timeline at the top.
+
+# Release milestones and other events.
+events:
+  2027-04-29: toolchain-upload
+  2027-07-01: testing-week
+  2027-08-19:
+    - feature-freeze
+    - debian-import-freeze
+  2027-08-26: testing-week
+  2027-09-09: user-interface-freeze
+  2027-09-16:
+    - documentation-string-freeze
+    - kernel-feature-freeze
+  2027-09-20:
+    - beta-freeze
+    - hardware-enablement-freeze
+  2027-09-23: beta
+  2027-09-30:
+    - kernel-freeze
+    - non-language-pack-translation-deadline
+  2027-10-07:
+    - final-freeze
+    - release-candidate
+    - language-pack-translation-deadline
+  2027-10-14: final-release
+
+# Planned and potentially disruptive archive-wide activities,
+# such as transitions or switches of important defaults.
+activities:
+  # YYYY-MM-DD: Description of the change

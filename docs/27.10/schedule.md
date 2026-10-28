@@ -3,80 +3,21 @@
 
 <!-- migrated from https://discourse.ubuntu.com/t/u-u-release-schedule/75626 -->
 
-| Week | Date (Thursday) | 27.10 events |
-|----|----|----|
-| **April 2027** |  |  |
-| 1 | April 29 | Toolchain Uploaded |
-| **May 2027** |  |  |
-| 2 | May 06 |  |
-| 3 | May 13 |  |
-| 4 | May 20 |  |
-| 5 | May 27 |  |
-| **June 2027** |  |  |
-| 6 | June 03 |  |
-| 7 | June 10 |  |
-| 8 | June 17 |  |
-| 9 | June 24 |  |
-| **July 2027** |  |  |
-| 10 | July 01 | Ubuntu Testing Week (optional) |
-| 11 | July 08 |  |
-| 12 | July 15 |  |
-| 13 | July 22 |  |
-| 14 | July 29 |  |
-| **August 2027** |  |  |
-| 15 | August 05 |  |
-| 16 | August 12 |  |
-| 17 | August 19 | [Feature Freeze](https://ubuntu.com/project/docs/release-team/freezes/#feature-freeze), Debian Import Freeze |
-| 18 | August 26 | Ubuntu Testing Week (optional) |
-| **September 2027** |  |  |
-| 19 | September 02 |  |
-| 20 | September 09 | [User Interface Freeze](https://ubuntu.com/project/docs/release-team/freezes/#user-interface-freeze) |
-| 21 | September 16 | [Documentation String Freeze](https://ubuntu.com/project/docs/release-team/freezes/#documentation-string-freeze), [Kernel Feature Freeze](https://ubuntu.com/project/docs/release-team/freezes/#kernel-feature-freeze) |
-| 22 | September 20 (Monday) | [Beta Freeze](https://ubuntu.com/project/docs/release-team/freezes/#beta-freeze), [Hardware Enablement Freeze](https://ubuntu.com/project/docs/release-team/freezes/#hardware-enablement-freeze) |
-| ⠀ | September 23 | Beta (mandatory) |
-| 23 | September 30 | [Kernel Freeze](https://ubuntu.com/project/docs/release-team/freezes/#kernel-freeze), [Non Language Pack Translation Deadline](https://ubuntu.com/project/docs/release-team/freezes/#non-language-pack-translation-deadline) |
-| **October 2027** |  |  |
-| 24 | October 07 | [Final Freeze](https://ubuntu.com/project/docs/release-team/freezes/#final-freeze), [Release Candidate](https://ubuntu.com/project/docs/release-team/freezes/#release-candidate), [Language Pack Translation Deadline](https://ubuntu.com/project/docs/release-team/freezes/#language-pack-translation-deadline) |
-| 25 | October 14 | [Final Release](https://ubuntu.com/project/docs/release-team/release-cycle/#final-release) |
+```{include} ../_generated/27.10/timeline.md
+```
+
+```{include} ../_generated/27.10/calendar.md
+```
+
+```{include} ../_generated/27.10/events.md
+```
 
 ## Planned and potentially disruptive archive-wide activities
 
-If you’re planning a change that might have a disruptive effect on the archive - e.g. transitions or switches of important defaults (such as compiler versions) - list it here.
+If you’re planning a change that might have a disruptive effect on the archive - e.g. transitions or switches of important defaults (such as compiler versions) - add it to the `activities` section of [`docs/27.10/schedule.yaml`](https://github.com/ubuntu/ubuntu-release-notes/blob/main/docs/27.10/schedule.yaml).
 
-| Week | Date (Thursday) | Planned activity |
-|----|----|----|
-| **April 2027** |  |  |
-| 1 | April 29 |  |
-| **May 2027** |  |  |
-| 2 | May 06 |  |
-| 3 | May 13 |  |
-| 4 | May 20 |  |
-| 5 | May 27 |  |
-| **June 2027** |  |  |
-| 6 | June 03 |  |
-| 7 | June 10 |  |
-| 8 | June 17 |  |
-| 9 | June 24 |  |
-| **July 2027** |  |  |
-| 10 | July 01 |  |
-| 11 | July 08 |  |
-| 12 | July 15 |  |
-| 13 | July 22 |  |
-| 14 | July 29 |  |
-| **August 2027** |  |  |
-| 15 | August 05 |  |
-| 16 | August 12 |  |
-| 17 | August 19 |  |
-| 18 | August 26 |  |
-| **September 2027** |  |  |
-| 19 | September 02 |  |
-| 20 | September 09 |  |
-| 21 | September 16 |  |
-| 22 | September 23 |  |
-| 23 | September 30 |  |
-| **October 2027** |  |  |
-| 24 | October 07 |  |
-| 25 | October 14 |  |
+```{include} ../_generated/27.10/activities.md
+```
 
 ## Ubuntu U U Release Task Signup Sheet
 

@@ -3,81 +3,21 @@
 
 <!-- migrated from https://discourse.ubuntu.com/t/s-s-release-schedule/47201 -->
 
-Week | Date (Thursday) | 26.10 events
---- | --- | ---
-**April 2026** |
-1 | April 30 | Toolchain Uploaded
-**May 2026** |
-2 | May 07 | 
-3 | May 14 | 
-4 | May 21 | 
-5 | May 28 | 
-**June 2026** |
-6 | June 04 | 
-7 | June 11 | 
-8 | June 18 | 
-9 | June 25 | 
-**July 2026** |
-10 | July 02 | Ubuntu Testing Week (optional)
-11 | July 09 | 
-12 | July 16 | 
-13 | July 23 | 
-14 | July 30 | 
-**August 2026** |
-15 | August 06 | Expected Glibc 2.44 merge 
-16 | August 13 | Expected LLVM default transition
-17 | August 20 | [Feature Freeze](https://ubuntu.com/project/docs/release-team/freezes/#feature-freeze), Debian Import Freeze
-18 | August 27 | Ubuntu Testing Week (optional)
-**September 2026** |
-19 | September 03 | 
-20 | September 10 | [User Interface Freeze](https://ubuntu.com/project/docs/release-team/freezes/#user-interface-freeze)
-21 | September 17 | [Documentation String Freeze](https://ubuntu.com/project/docs/release-team/freezes/#documentation-string-freeze), [Kernel Feature Freeze](https://ubuntu.com/project/docs/release-team/freezes/#kernel-feature-freeze)
-22 | September 21 (Monday) | [Beta Freeze](https://ubuntu.com/project/docs/release-team/freezes/#beta-freeze), [Hardware Enablement Freeze](https://ubuntu.com/project/docs/release-team/freezes/#hardware-enablement-freeze)
-⠀ | September 24 | Beta (mandatory)
-**October 2026** |
-23 | October 01 | [Kernel Freeze](https://ubuntu.com/project/docs/release-team/freezes/#kernel-freeze), [Non Language Pack Translation Deadline](https://ubuntu.com/project/docs/release-team/freezes/#non-language-pack-translation-deadline)
-24 | October 08 | [Final Freeze](https://ubuntu.com/project/docs/release-team/freezes/#final-freeze), [Release Candidate](https://ubuntu.com/project/docs/release-team/freezes/#release-candidate), [Language Pack Translation Deadline](https://ubuntu.com/project/docs/release-team/freezes/#language-pack-translation-deadline)
-25 | October 15 | [Final Release](https://ubuntu.com/project/docs/release-team/release-cycle/#final-release)
+```{include} ../_generated/26.10/timeline.md
+```
 
+```{include} ../_generated/26.10/calendar.md
+```
+
+```{include} ../_generated/26.10/events.md
+```
 
 ## Planned and potentially disruptive archive-wide activities
 
-If you're planning a change that might have a disruptive effect on the archive - e.g. transitions or switches of important defaults (such as compiler versions) - list it here.
+If you're planning a change that might have a disruptive effect on the archive - e.g. transitions or switches of important defaults (such as compiler versions) - add it to the `activities` section of [`docs/26.10/schedule.yaml`](https://github.com/ubuntu/ubuntu-release-notes/blob/main/docs/26.10/schedule.yaml).
 
-Week | Date (Thursday) | Planned activity
---- | --- | ---
-**April 2026** |
-1 | April 30 | 
-**May 2026** |
-2 | May 07 | 
-3 | May 14 | 
-4 | May 21 | 
-5 | May 28 | 
-**June 2026** |
-6 | June 04 | 
-7 | June 11 | 
-8 | June 18 | 
-9 | June 25 | 
-**July 2026** |
-10 | July 02 | 
-11 | July 09 | 
-12 | July 16 | 
-13 | July 23 | 
-14 | July 30 | 
-**August 2026** |
-15 | August 06 | 
-16 | August 13 | 
-17 | August 20 | 
-18 | August 27 | 
-**September 2026** |
-19 | September 03 | 
-20 | September 10 | 
-21 | September 17 | 
-22 | September 24 | 
-**October 2026** |
-23 | October 01 | 
-24 | October 08 | 
-25 | October 15 | 
+```{include} ../_generated/26.10/activities.md
+```
 
 ## Ubuntu Stonking Stingray Release Task Signup Sheet
 

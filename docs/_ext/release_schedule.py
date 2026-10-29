@@ -427,10 +427,33 @@ def render_calendar_links(schedule: Schedule) -> str:
         f" · {_calendar_link('All Ubuntu releases', ALL_RELEASES_ICS)}\n"
         "\n"
         "Download the file to import it once, or copy the link and add it "
-        "to your calendar app as a subscription to receive updates.\n"
+        "to your calendar app as a subscription to receive updates. "
+        "See {ref}`release-calendars`.\n"
         ":::\n"
         "::::\n"
     )
+
+
+def render_calendar_index(schedules: list[Schedule]) -> str:
+    """Table of all calendar files, for the "Release calendars" page."""
+    lines = [
+        _row("Calendar", "Release schedule", "Contents"),
+        "|----|----|----|",
+        _row(
+            _calendar_link(ALL_RELEASES_ICS, ALL_RELEASES_ICS),
+            "All releases below",
+            "Release milestones only",
+        ),
+    ]
+    for schedule in reversed(schedules):
+        lines.append(
+            _row(
+                _calendar_link(f"{schedule.slug}.ics", f"{schedule.slug}.ics"),
+                f"{{doc}}`{schedule.version} ({schedule.codename}) </{schedule.version}/schedule>`",
+                "Release milestones and archive-wide activities",
+            )
+        )
+    return "\n".join(lines) + "\n"
 
 
 def render_markdown(schedules: list[Schedule]) -> dict[str, str]:
@@ -449,6 +472,7 @@ def render_markdown(schedules: list[Schedule]) -> dict[str, str]:
         }
         for name, body in parts.items():
             files[f"{schedule.version}/{name}"] = body
+    files["calendars.md"] = render_calendar_index(schedules)
     return files
 
 

@@ -207,24 +207,7 @@ MySQL was updated from 8.4 LTS to 9.7 LTS, starting with 9.7.2. This is MySQL's 
 
 Upstream release notes are available in the [Mysql 9.7 documentation library](https://dev.mysql.com/doc/relnotes/mysql/9.7/en/). For more information about the transition from MySQL 8.4 to 9.7, see the [MySQL 9.7 overview](https://dev.mysql.com/doc/refman/9.7/en/mysql-nutshell.html).
 
-The `mysql_native_password` authentication plugin has been removed upstream. If
-you previously enabled it in your MySQL server configuration (for example by
-adding `mysql_native_password=ON` under `[mysqld]` in
-`/etc/mysql/mysql.conf.d/mysqld.cnf`, as suggested in the 26.04 release notes),
-remove that entry and migrate any accounts that still use the plugin before
-upgrading:
-
-```
-    ALTER USER 'user'@'host' IDENTIFIED WITH 'caching_sha2_password' BY 'password';
-```
-
-The Ubuntu release upgrader will detect accounts or a configuration still using
-`mysql_native_password` and block upgrading until this migration is done.
-
-Note that adding `mysql_native_password=ON` while still on Ubuntu 24.04 LTS or
-25.x will prevent MySQL 8.0 from restarting; apply the workaround only on
-26.04 or later, and prefer migrating accounts instead.
-
+Additionally, see {ref}`26-10-mysql_native_password-removed`.
 
 #### MySQL Shell
 
@@ -832,6 +815,27 @@ See [LP: #2155023](https://bugs.launchpad.net/ubuntu/+source/libp11/+bug/2155023
 * `http-send-name-header` can no longer target the `connection`, `content-length`, `host` or `transfer-encoding` headers, and multiple `-m` match types in a single ACL are no longer accepted.
 
 See the [HAProxy 3.3](https://www.haproxy.com/blog/announcing-haproxy-3-3) and [HAProxy 3.4](https://www.haproxy.com/blog/announcing-haproxy-3-4) announcements for the complete list of changes.
+
+(26-10-mysql_native_password-removed)=
+#### The `mysql_native_password` plugin has been removed
+
+The `mysql_native_password` authentication plugin has been removed upstream. If
+you previously enabled it in your MySQL server configuration (for example by
+adding `mysql_native_password=ON` under `[mysqld]` in
+`/etc/mysql/mysql.conf.d/mysqld.cnf`, as suggested in the 26.04 release notes),
+remove that entry and migrate any accounts that still use the plugin before
+upgrading:
+
+```text
+    ALTER USER 'user'@'host' IDENTIFIED WITH 'caching_sha2_password' BY 'password';
+```
+
+The Ubuntu release upgrader will detect accounts or a configuration still using
+`mysql_native_password` and block upgrading until this migration is done.
+
+Note that adding `mysql_native_password=ON` while still on Ubuntu 24.04 LTS or
+25.x will prevent MySQL 8.0 from restarting; apply the workaround only on
+26.04 or later, and prefer migrating accounts instead.
 
 <!-- ### Development changes -->
 

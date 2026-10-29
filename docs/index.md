@@ -43,6 +43,7 @@ Older releases <archive>
 :hidden:
 :maxdepth: 2
 
+Release calendars <calendar>
 Contribute to release notes <contribute>
 :::
 

@@ -68,7 +68,7 @@ If you’re planning a change that might have a disruptive effect on the archive
 | 15 | January 28 |  |
 | **February 2027** |  |  |
 | 16 | February 04 |  |
-| 17 | February 11 |  |
+| 17 | February 11 | [glibc 2.45](https://sourceware.org/glibc/wiki/Release/2.45) upload |
 | 18 | February 18 |  |
 | 19 | February 25 |  |
 | **March 2027** |  |  |

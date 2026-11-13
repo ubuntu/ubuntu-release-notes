@@ -329,6 +329,25 @@ linkcheck_ignore = [
     r"https?://wiki\.debian\.org/.*",
     # KDE Bugzilla rejects CI runners (403 / unreachable); live for humans
     r"https://bugs\.kde\.org/.*",
+    r"http://releases\.ubuntu\.com/.*",
+    r"https://www\.cacti\.net/.*",
+    # 26.10 release notes: Max retries exceeded
+    r"https://frrouting\.org/.*",
+    r"https://www.frrouting\.org/.*",
+    # 20.10 release notes: bot-challenged (403) external link
+    r"https://lubuntu\.me",
+    r"https://lists\.gnu\.org/.*",
+    r"https?://wiki\.openstack\.org/.*",
+    r"http://dev\.mysql\.com/.*",
+    r"http://docs\.puppetlabs\.com/.*",
+    r"http://se\.releases\.ubuntu\.com/.*",
+    r"http://shipit\.ubuntu\.com/.*",
+    r"http://sunsolve\.sun\.com/.*",
+    r"http://live\.gnome\.org/.*",
+    r"http://www\.gnome\.org/.*",
+    r"http://us\.releases\.ubuntu\.com/.*",
+    r"http://www\.ubuntuforums\.org",
+    r"https://discuss\.linuxcontainers\.org/.*",
 ]
 
 # A regex list of URLs where anchors are ignored by 'make linkcheck'

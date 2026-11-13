@@ -111,11 +111,11 @@ If the package needed for a specific command is not found, 7.04 will now prompt 
 
 Get it while it's hot. ISO CD images and torrents are available at:
 
-* [releases.ubuntu.com/feisty/](http://releases.ubuntu.com/feisty/) (Ubuntu)
-* [releases.ubuntu.com/kubuntu/feisty/](http://releases.ubuntu.com/kubuntu/feisty/) (Kubuntu)
-* [releases.ubuntu.com/edubuntu/feisty/](http://releases.ubuntu.com/edubuntu/feisty/) (Edubuntu)
-* [cdimage.ubuntu.com/xubuntu/releases/feisty/](http://cdimage.ubuntu.com/xubuntu/releases/feisty/) (Xubuntu)
-* [cdimage.ubuntu.com/ports/releases/feisty/](http://cdimage.ubuntu.com/ports/releases/feisty/) (PowerPC, IA-64, SPARC)
+* Ubuntu: `http://releases.ubuntu.com/feisty/`
+* Kubuntu: `http://releases.ubuntu.com/kubuntu/feisty/`
+* Edubuntu: `http://releases.ubuntu.com/edubuntu/feisty/`
+* Xubuntu: `http://cdimage.ubuntu.com/xubuntu/releases/feisty/`
+* PowerpC, IA-64, SPARC: `http://cdimage.ubuntu.com/ports/releases/feisty/`
 
 ### Reporting Bugs & Testing
 

@@ -9,7 +9,7 @@ tocdepth: 3
 
 Ubuntu is a Linux distribution for your desktop or server, with a fast and easy install, regular releases, a tight selection of excellent applications installed by default, and almost any other software you can imagine available through the network. Ubuntu provides security updates for 18 months after each release, and professional technical support is available from many companies around the world.
 
-These Release Notes cover new features in Ubuntu 5.10, download and installation notes, known issues, and frequently asked questions. Please read these notes before, during, and after installation and configuration of Ubuntu 5.10, and before reporting bugs in [Bugzilla](http://bugzilla.ubuntu.com).
+These Release Notes cover new features in Ubuntu 5.10, download and installation notes, known issues, and frequently asked questions. Please read these notes before, during, and after installation and configuration of Ubuntu 5.10, and before reporting bugs in Bugzilla.
 
 We hope you enjoy Ubuntu 5.10.
 
@@ -144,10 +144,10 @@ Ubuntu 5.10 can be pre-installed to computers for resale and redistribution. Mak
 
 ## Known Issues
 
-* Installations on powerpc with /boot on an XFS filesystem will fail to boot ([bug 14485](http://bugzilla.ubuntu.com/show_bug.cgi?id=14485)). To work around this, use a different filesystem for /boot, such as ext3.
+* Installations on powerpc with /boot on an XFS filesystem will fail to boot ([bug 14485](https://bugs.launchpad.net/ubuntu/+source/yaboot/+bug/20719)). To work around this, use a different filesystem for /boot, such as ext3.
 * Upgrades from 5.04 (Hoary) using Swiss German or Swiss French keyboard layouts -- de_CH and fr_CH respectively -- in combination with other layouts, will result in a 'cannot set keyboard configuration' dialog, and a standard US PC-104 key map will be used.  To work around this, go into the GNOME keyboard selector, and remove and re-add the offending layout.
-* Attempting to use multiple layouts added from within the GNOME keyboard selector will fail ([bug 15372](http://bugzilla.ubuntu.com/show_bug.cgi?id=15372)).  To work around this, select another option than 'Both Alt keys together change group' in the 'Group Shift/Lock behaviour' group of the Layout Options tab in the keyboard selector, such as 'Both {kbd}`Ctrl` keys together change group'.
-* SDL and OpenAL audio will default to OSS output, which may cause audio output issues ([bug 16444](http://bugzilla.ubuntu.com/show_bug.cgi?id=16444)).  To work around this, install the libsdl1.2debian-alsa package from universe.
+* Attempting to use multiple layouts added from within the GNOME keyboard selector will fail ([bug 15372](https://bugs.launchpad.net/ubuntu/+source/xkeyboard-config/+bug/21595)).  To work around this, select another option than 'Both Alt keys together change group' in the 'Group Shift/Lock behaviour' group of the Layout Options tab in the keyboard selector, such as 'Both {kbd}`Ctrl` keys together change group'.
+* SDL and OpenAL audio will default to OSS output, which may cause audio output issues ([bug 16444](https://bugs.launchpad.net/ubuntu/+source/libsdl1.2/+bug/36234)).  To work around this, install the libsdl1.2debian-alsa package from universe.
 
 ## Frequently Asked Questions
 
@@ -176,9 +176,7 @@ If you have a question, or if you think you may have found a bug but aren't sure
 
 ## Reporting Bugs
 
-Your comments, bug reports, patches and suggestions will help fix bugs and improve future releases. Please report bugs through Bugzilla:
-
-[bugzilla.ubuntu.com/](http://bugzilla.ubuntu.com/)
+Your comments, bug reports, patches and suggestions will help fix bugs and improve future releases. Please report bugs through Bugzilla.
 
 ## Participate in Ubuntu
 

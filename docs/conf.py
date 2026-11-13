@@ -280,7 +280,7 @@ linkcheck_ignore = [
     # 22.10 release notes: dead (404) and (403) external links
     # 20.04 release notes: bot-challenged links (kept live)
     r"https?://help\.ubuntu\.com/.*",
-    r"https://en\.wikipedia\.org/.*",
+    r"https?://en\.wikipedia\.org/.*",
     r"http://connectivity-check\.ubuntu\.com/",
     r"https?://www\.bluez\.org/.*",
     # Old apt repository host unreachable from CI (historical release notes)
@@ -329,6 +329,25 @@ linkcheck_ignore = [
     r"https?://wiki\.debian\.org/.*",
     # KDE Bugzilla rejects CI runners (403 / unreachable); live for humans
     r"https://bugs\.kde\.org/.*",
+    r"http://releases\.ubuntu\.com/.*",
+    r"https://www\.cacti\.net/.*",
+    # 26.10 release notes: Max retries exceeded
+    r"https://frrouting\.org/.*",
+    r"https://www.frrouting\.org/.*",
+    # 20.10 release notes: bot-challenged (403) external link
+    r"https://lubuntu\.me",
+    r"https://lists\.gnu\.org/.*",
+    r"https?://wiki\.openstack\.org/.*",
+    r"http://dev\.mysql\.com/.*",
+    r"http://docs\.puppetlabs\.com/.*",
+    r"http://se\.releases\.ubuntu\.com/.*",
+    r"http://shipit\.ubuntu\.com/.*",
+    r"http://sunsolve\.sun\.com/.*",
+    r"http://live\.gnome\.org/.*",
+    r"http://www\.gnome\.org/.*",
+    r"http://us\.releases\.ubuntu\.com/.*",
+    r"http://www\.ubuntuforums\.org",
+    r"https://discuss\.linuxcontainers\.org/.*",
 ]
 
 # A regex list of URLs where anchors are ignored by 'make linkcheck'

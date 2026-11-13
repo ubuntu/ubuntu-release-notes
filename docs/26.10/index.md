@@ -572,7 +572,7 @@ Ubuntu Desktop and Xubuntu Minimal RISC-V desktop images are provided with suppo
 
 #### Improvements in IBM Z and LinuxONE support
 
-Early IBM Z (s390x) core platform operations for `s390-tools` receive critical updates with Secure Execution (SEL) instrumentation. An SEL `initramfs` image can now be customized during early boot ([LP: #2139601](https://launchpad.net/bugs/2139601)), supported by a new tool to build basic SEL-`qcow2` images ([LP: #2139602](https://launchpad.net/bugs/2139602)). Memory operations were also improved with `s390`/`sclp` architectural support for dynamic configuration and deconfiguration of hot-pluggable memory ([LP: #2142862](https://launchpad.net/bugs/2142862)).
+Early IBM Z (s390x) core platform operations for `s390-tools` receive critical updates with Secure Execution (SEL) instrumentation. An SEL `initramfs` image can now be customized during early boot ([LP: #2139601](https://launchpad.net/bugs/2139601)), supported by a new tool to build basic SEL-`qcow2` images ([LP: #2139602](https://launchpad.net/bugs/2139602)). Memory operations were also improved with `s390`/`sclp` architectural support for dynamic configuration and de-configuration of hot-pluggable memory ([LP: #2142862](https://launchpad.net/bugs/2142862)).
 
 Updates have been landed to modernize I/O architectures and hardware monitoring telemetry on the IBM Z platform. This introduces support for new PCI adapter notification actions for Spyre and NVMe storage subsystems ([LP: #2160042](https://launchpad.net/bugs/2160042)). Storage tracking accuracy is reinforced by adding NVMe SMART data health monitoring protocols directly into the background `zpcimon` management service within `s390-tools` ([LP: #2160048](https://launchpad.net/bugs/2160048)).
 

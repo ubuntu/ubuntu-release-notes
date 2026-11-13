@@ -499,11 +499,15 @@ appstore
 apus
 archs
 argparse
+Artful's
 artifacting
 asound
 asure
 asus
 async
+Ataxx
+Atheros
+Athlon
 auditd
 authPrompt
 authctl
@@ -523,6 +527,7 @@ autostart
 autosuspend
 autosync
 autotrim
+Avahi
 aws
 aznfs
 backend
@@ -669,6 +674,7 @@ dpkg
 dput
 dracut
 driverless
+Driverless
 dropins
 dsp
 du
@@ -680,6 +686,8 @@ earlyconsole
 easen
 easter
 ecc
+Edgy's
+Edubuntu
 efivarfs
 eg
 elanmoc
@@ -710,6 +718,7 @@ fixups
 flashable
 flatpak
 flatpanel's
+Flickr
 flo
 focal's
 fonts
@@ -720,6 +729,7 @@ framebuffer
 framepointer
 freefont
 freeipmi
+Freenode
 freeradius
 frr
 fsidd
@@ -728,6 +738,8 @@ fw
 fwpath
 fwupd
 fwupdmgr
+Gaim
+Galera
 gamepads
 gbp
 gcc
@@ -741,12 +753,22 @@ genprotimg
 getent
 github
 gjs
+GLArea
+glchess
+GLib
 glibc
 gluster
 glusterfs
 glxgear
 glxgears
+Glycin
+Gmock
+GNOME's
+Gnopernicus
 gnudate
+Gobuntu
+Gogoat
+Goirand
 golang
 goodix
 gpio
@@ -755,6 +777,9 @@ gpsmon
 gpu
 gsc
 gstreamer
+Gstreamer
+GStreamer
+gThumb
 gtk
 gtype
 gvfs
@@ -784,6 +809,8 @@ hugepfnmap
 hw
 hwdb
 hwmon
+Hyperpixel
+IBMCloud
 iMac
 iMacs
 ibus
@@ -822,6 +849,9 @@ iwlwifi
 ixgbe
 jammy's
 jemalloc
+Jetpack
+Jetson
+Jigdo
 jinkangkang
 journalctl
 journald
@@ -836,6 +866,8 @@ keymapper
 keytab
 killswitch
 kmod
+Komeda
+Kopete
 kpartx
 kprobes
 kronosnet
@@ -934,6 +966,7 @@ memfd
 memlock
 memorytexture
 memslots
+Merrifield
 metacharacters
 metapackage
 micmute
@@ -1030,6 +1063,7 @@ packagekit
 pagnation
 paramiko
 params
+paravirtualization
 partitioner
 passthrough
 patchlevel
@@ -1048,6 +1082,7 @@ pkgbinarymangler
 plaintext
 plantuml
 plocate
+Plone
 plucky's
 pluggable
 plymouth
@@ -1060,6 +1095,7 @@ pollset
 poppler
 portblock
 postcopy
+Postfix's
 postinst
 postprocessing
 powerpc
@@ -1096,6 +1132,7 @@ qeth
 qpdf
 qualcomm
 querydata
+queuegraph
 quicksettings
 rabbitmqctl
 radeonsi
@@ -1129,6 +1166,7 @@ resizable
 resolvconf
 retrigger(ing)?
 revalidator
+Reversi
 rfkill
 rhythmbox
 rmadison
@@ -1163,6 +1201,8 @@ sched
 sclp
 scp
 screencasting
+Screenful
+scriptable
 scrollbar
 scrollbars
 scsi
@@ -1220,6 +1260,9 @@ sparsifying
 speechsynthesis
 speex
 spread_test_example
+Spyre
+SRUs
+Ssdbltrp
 sshd
 ssl
 sssctl
@@ -1314,6 +1357,7 @@ uevent
 uevents
 ufw
 ukify
+Ultravisor
 umask
 umounted
 uname
@@ -1344,6 +1388,7 @@ userfaults
 userland
 userns
 userspace
+USplash
 usrmerge
 utils
 utkarsh
@@ -1396,6 +1441,8 @@ whitespace
 whitespaces
 whoopsie
 wifi
+WiFi
+wikiwiki
 winbind's
 wipefs
 wireguard
@@ -1411,6 +1458,8 @@ xen
 xetex
 xfsprogs
 xindy
+Xinerama
+XInput
 xml
 xmlrpc
 xserver
@@ -1425,6 +1474,9 @@ zimg
 zipl
 zkey
 zlib
+Zmmul
+Zope
 zpool
 zpwr
 zstd
+Zstd

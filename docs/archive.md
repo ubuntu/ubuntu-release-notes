@@ -38,5 +38,8 @@
 8.10 (Intrepid Ibex) <8.10/index>
 8.04 LTS (Hardy Heron) <8.04/index>
 7.10 (Gutsy Gibbon) <7.10/index>
+7.04 (Feisty Fawn) <7.04/index>
+6.10 (Edgy Eft) <6.10/index>
 6.06 LTS (Dapper Drake) <6.06/index>
+5.10 (Breezy Badger) <5.10/index>
 :::

@@ -3,7 +3,7 @@
 These release notes cover new features and changes in Ubuntu \<VERSION\> (\<WORDY WORD\>).
 
 :::{important}
-Ubuntu \<VERSION\> (\<WORDY WORD\>) is currently in development, scheduled to be released in October \<YEAR\>.
+Ubuntu \<VERSION\> (\<WORDY WORD\>) is currently in development, scheduled to be released in \<MONTH\> \<YEAR\>.
 :::
 
 For the release schedule of Ubuntu \<VERSION\>, refer to:

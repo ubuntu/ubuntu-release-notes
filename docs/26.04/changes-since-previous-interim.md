@@ -161,6 +161,9 @@ Other changes of importance are listed upstream:
 ```{include} /reuse/26.04/squid-7.2-features.txt
 ```
 
+```{include} /reuse/26.04/squid-7.2-packaging.txt
+```
+
 See also {ref}`26.04-squid-removals`.
 
 For a list of all changes and fixes, please check the [upstream releases page](https://github.com/squid-cache/squid/releases).
@@ -562,6 +565,12 @@ Ubuntu 26.04 LTS is shipping with the Linux kernel 7.0, based on the upstream fi
 
 Other features can be found in the [Linux 7.0 upstream changelog](https://kernelnewbies.org/Linux_7.0).
 
+#### Support for new Intel processors
+
+Resolute brings full support for Intel® Core™ Ultra Series 3 processors (codenamed Panther Lake), Intel® Core™ Series 3 processors (codenamed Wildcat Lake), and Intel® Xeon® 6+ processors (codenamed Clearwater Forest).
+
+Resolute adds initial support for Intel next-generation client processor (codenamed Nova Lake) and Xeon® server processor (codenamed Diamond Rapids).
+
 #### sudo-rs
 
 Password feedback is now enabled by default in order to improve the user experience of `sudo`.
@@ -746,7 +755,7 @@ Other changes of importance are listed upstream:
 Other breaking changes and new features can be seen in the [full upstream changelog](https://www.php.net/ChangeLog-8.php#PHP_8_5).
 
 (26.04-squid-removals)=
-#### Removed options and directives in Squid
+#### Removed functionality in Squid
 
 ```{include} /reuse/26.04/squid-7.2-removals.txt
 ```
@@ -835,6 +844,11 @@ If you rely on the specific directory path for media access, check that your set
 On the IBM Z (s390s) architecture, the architectural level set (ALS) was raised to build for IBM Z generation z15 ([LP: #2126577](https://launchpad.net/bugs/2126577)). As a result, Ubuntu 26.04 LTS no longer works on IBM Z generations z14 (LinuxONE II) or older. You can't install Ubuntu 26.04 LTS on this hardware or upgrade to it. The `ubuntu-release-upgrader` prevents you from performing the upgrade.
 
 IBM Z generation z14 (LinuxONE II) is still supported by Ubuntu Server 24.04 LTS for up to 15 years in total.
+
+#### `pkcon` replaced with `pkgcli`
+
+```{include} /reuse/26.04/pkcon-removed.txt
+```
 
 
 ## Deprecated features
@@ -998,6 +1012,12 @@ For other known issues, see [FDE specific bug reports](https://bugs.launchpad.ne
 #### Classic fonts
 
 Installing `ubuntu-fonts-classic` results in a non-Ubuntu font being displayed ([LP#2083683](https://bugs.launchpad.net/bugs/2083683)). To resolve this, install `gnome-tweaks` and set ‘Interface Text’ to ‘Ubuntu’.
+
+#### The "Foreign Packages Installed" prompt is too long to scroll
+
+When upgrading from Ubuntu 24.04 LTS to Ubuntu 26.04 LTS, the "Foreign Packages Installed" prompt can show a package list so long that it cannot be scrolled down to reach the options.
+
+As a workaround, press Enter to cancel the upgrade, remove the unneeded foreign packages, and start the upgrade again. In the reported case, the list consisted mostly of `erlang*` packages, which `sudo apt purge erlang*` removed. Once the list is shorter, the options to continue (`[no]` / `[yes]`) become visible.
 
 
 ### Server issues

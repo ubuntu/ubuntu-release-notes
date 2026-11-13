@@ -1,5 +1,5 @@
-(t-t-schedule)=
-# Ubuntu T T Release Schedule
+(tenacious-t-rex-schedule)=
+# Ubuntu Tenacious T-Rex Release Schedule
 
 <!-- migrated from https://discourse.ubuntu.com/t/t-t-release-schedule/75625 -->
 
@@ -68,7 +68,7 @@ If you’re planning a change that might have a disruptive effect on the archive
 | 15 | January 28 |  |
 | **February 2027** |  |  |
 | 16 | February 04 |  |
-| 17 | February 11 |  |
+| 17 | February 11 | [glibc 2.45](https://sourceware.org/glibc/wiki/Release/2.45) upload |
 | 18 | February 18 |  |
 | 19 | February 25 |  |
 | **March 2027** |  |  |
@@ -82,7 +82,7 @@ If you’re planning a change that might have a disruptive effect on the archive
 | 26 | April 15 |  |
 | 27 | April 22 |  |
 
-## Ubuntu T T Release Task Signup Sheet
+## Ubuntu Tenacious T-Rex Release Task Signup Sheet
 
 This signup sheet is to be used for planning release milestone tasks.
 

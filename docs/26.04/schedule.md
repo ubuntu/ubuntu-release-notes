@@ -12,6 +12,16 @@
   name: Beta (mandatory)
 - start: 2026-04-23
   name: "[Final Release](https://ubuntu.com/project/docs/release-team/release-cycle/#final-release)"
+- start: 2026-08-27
+  name: "[26.04.1 Point Release](https://ubuntu.com/project/docs/release-team/ubuntu-releases/#point-releases)"
+- start: 2027-02-18
+  name: 26.04.2 Point Release
+- start: 2027-08-26
+  name: 26.04.3 Point Release
+- start: 2028-02-17
+  name: 26.04.4 Point Release
+- start: 2028-09-14
+  name: 26.04.5 Point Release
 
 ---
 **{{dtrange}}**
@@ -60,6 +70,14 @@
 |... | ||
 | **August 2026**| ||
 | 46 | August 27 | [26.04.1 Point Release ](https://ubuntu.com/project/docs/release-team/ubuntu-releases/#point-releases) |
+| **February 2027** | | |
+| 71 | February 18 | 26.04.2 Point Release |
+| **August 2027** | | |
+| 98 | August 26 | 26.04.3 Point Release |
+| **February 2028** | | |
+| 123 | February 17 | 26.04.4 Point Release |
+| **September 2028** | | |
+| 153 | September 14 | 26.04.5 Point Release |
 
 ## Planned and potentially disruptive archive-wide activities
 

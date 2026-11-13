@@ -189,6 +189,15 @@ You can install the app manually with the following command:
 sudo apt install software-properties-gtk
 ```
 
+### NVIDIA drivers
+
+You can install NVIDIA drivers as follows:
+
+* The fastest way to get a driver is: `sudo ubuntu-drivers install --recommended`
+* The supported way to get the latest driver is: `sudo ubuntu-drivers install nvidia:595`
+* You can get back the old GUI with: `sudo apt install software-properties-gtk`
+* The only drivers Ubuntu supports officially are those installed by the above methods.
+
 ### App Center enhancements
 :::{versionadded} 24.10
 :::
@@ -384,6 +393,31 @@ Coming from Ubuntu 24.04 LTS, please follow [dovecot’s 2.3 upgrade documentati
 
 When you’re coming from other versions, follow [the upgrade overview](https://doc.dovecot.org/2.4.2/installation/upgrade/overview.html).
 
+### OpenLDAP
+:::{versionadded} 25.04
+:::
+
+The OpenLDAP packages are now built against OpenSSL instead of GnuTLS. The
+upstream release notes can be found
+[here](https://www.openldap.org/software/release/announce.html).
+
+If you have configured a custom cipher suite, note that:
+- `olcTLSCipherSuite` (slapd) and `TLS_CIPHER_SUITE` (ldap.conf) now take an
+  OpenSSL cipher list (see [openssl-ciphers(1)](https://manpages.ubuntu.com/manpages/resolute/en/man1/openssl-ciphers.1.html)),
+  not a GnuTLS priority string. A leftover GnuTLS string (for example
+  `NORMAL:%COMPAT`) will prevent `slapd` from starting after the upgrade, and
+  will break TLS for LDAP client tools once the client host itself is upgraded.
+  Remove the setting or replace it with an OpenSSL cipher list.
+- `TLS_CRLFILE` is accepted but ignored; use `TLS_CRLCHECK` (with
+  `TLS_CACERTDIR`) instead.
+- If no CA certificates are configured, the system default trust store is now
+  loaded automatically.
+
+If you have customized `/etc/apparmor.d/usr.sbin.slapd`, the upgrade will keep
+your version of the profile. `slapd` now runs as a systemd `Type=notify`
+service; your customized profile needs the rule `@{run}/systemd/notify w,`
+(present in the packaged profile) or `slapd` will fail to start with a timeout.
+
 ### Postfix
 
 Specific release notes for major version releases since Ubuntu 24.04 LTS (Noble Numbat) are:
@@ -452,6 +486,9 @@ See [LP: #2101838](https://bugs.launchpad.net/ubuntu/+source/samba/+bug/2101838)
 ```
 
 ```{include} /reuse/26.04/squid-7.2-removals.txt
+```
+
+```{include} /reuse/26.04/squid-7.2-packaging.txt
 ```
 
 For a list of all changes and fixes, please check the [upstream releases page](https://github.com/squid-cache/squid/releases).
@@ -1257,6 +1294,13 @@ APT now provides an interface for viewing and manipulating its command history.
     Upgrading: 0, Installing: 0, Removing: 4, Not Upgrading: 0
     Freed space: 8119 kB
     ```
+
+### The `pkcon` command has been removed
+:::{versionremoved} 26.04
+:::
+
+```{include} /reuse/26.04/pkcon-removed.txt
+```
 
 ### Dracut
 :::{versionchanged} 25.10

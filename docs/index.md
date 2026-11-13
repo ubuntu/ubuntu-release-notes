@@ -19,6 +19,7 @@ Release notes contain specific upgrade instructions for that particular release.
 :maxdepth: 2
 :caption: Supported interim releases
 
+26.10 (Stonking Stingray) <26.10/index>
 :::
 
 :::{toctree}
@@ -26,7 +27,7 @@ Release notes contain specific upgrade instructions for that particular release.
 :maxdepth: 2
 :caption: Currently in development
 
-26.10 (Stonking Stingray) <26.10/index>
+27.04 (Tenacious T-Rex) <27.04/index>
 :::
 
 :::{toctree}
@@ -73,7 +74,7 @@ Contribute to release notes <contribute>
 
 ## Interim releases
 
-None at the moment.
+* {ref}`ubuntu-26.10-release-notes`
 
 (release-policy-and-schedule)=
 ## Release policy and schedule

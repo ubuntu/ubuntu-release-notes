@@ -51,6 +51,7 @@ apus
 APUs
 archs
 argparse
+Artful's
 artifacting
 Asobo
 asound
@@ -58,6 +59,7 @@ Aspeed
 asure
 asus
 async
+Ataxx
 Atheros
 Athlon
 auditd
@@ -80,6 +82,7 @@ autostart
 autosuspend
 autosync
 autotrim
+Avahi
 aws
 aznfs
 AZs
@@ -315,6 +318,7 @@ dput
 dracut
 Dracut
 driverless
+Driverless
 dropins
 dsp
 du
@@ -327,6 +331,7 @@ earlyconsole
 easen
 easter
 ecc
+Edgy's
 Edubuntu
 efivarfs
 eg
@@ -374,6 +379,7 @@ fixups
 flashable
 flatpak
 flatpanel's
+Flickr
 flo
 Fluendo
 focal's
@@ -385,6 +391,7 @@ framebuffer
 framepointer
 freefont
 freeipmi
+Freenode
 freeradius
 Freescale
 Freshclam
@@ -398,6 +405,7 @@ fw
 fwpath
 fwupd
 fwupdmgr
+Gaim
 Galera
 gamepads
 gbp
@@ -422,6 +430,7 @@ github
 GitHub
 gjs
 GLArea
+glchess
 GLib
 glibc
 gluster
@@ -431,6 +440,7 @@ glxgears
 Glycin
 Gmock
 GNOME's
+Gnopernicus
 gnudate
 Gobuntu
 Gogoat
@@ -452,6 +462,7 @@ GSettings
 gstreamer
 Gstreamer
 GStreamer
+gThumb
 gtk
 Gtk
 gtype
@@ -491,6 +502,7 @@ hw
 hwdb
 hwmon
 Hyperpixel
+IBMCloud
 ibus
 IBus
 ica
@@ -550,6 +562,7 @@ Jellyfin
 jemalloc
 Jetpack
 Jetson
+Jigdo
 jinkangkang
 journalctl
 journald
@@ -647,6 +660,7 @@ Lichee
 Linaro
 Linoone
 lintian
+livepatches
 llvm
 lmtp
 localed
@@ -708,6 +722,7 @@ memfd
 memlock
 Memop
 memorytexture
+memslots
 Merrifield
 metacharacters
 metapackage
@@ -797,6 +812,7 @@ Noto
 nouveau
 Nouveau
 nss
+ntpsec
 nullboot
 num
 numactl
@@ -840,6 +856,7 @@ pagnation
 Panko
 paramiko
 params
+paravirtualization
 partitioner
 passthrough
 patchlevel
@@ -869,6 +886,7 @@ pkgbinarymangler
 plaintext
 plantuml
 plocate
+Plone
 plucky's
 Plucky's
 pluggable
@@ -887,6 +905,7 @@ poppler
 Poppler
 portblock
 postcopy
+Postfix's
 postinst
 postprocessing
 powerpc
@@ -931,6 +950,7 @@ qpdf
 qualcomm
 Quantal
 querydata
+queuegraph
 quicksettings
 Quokka
 RA
@@ -981,6 +1001,7 @@ reStructuredText
 Resync
 retrigger(ing)?
 revalidator
+Reversi
 rfkill
 rhythmbox
 Rightscale
@@ -1030,6 +1051,7 @@ SCons
 scp
 screencasting
 Screenful
+scriptable
 scrollbar
 scrollbars
 scsi
@@ -1105,6 +1127,7 @@ Spiana
 Spinlock
 Spread
 spread_test_example
+Spyre
 SRUs
 Ssdbltrp
 sshd
@@ -1243,6 +1266,7 @@ uevents
 ufw
 UIDs
 ukify
+Ultravisor
 umask
 umounted
 uname
@@ -1277,6 +1301,7 @@ userfaults
 userland
 userns
 userspace
+USplash
 usrmerge
 Ussuri
 utils
@@ -1352,6 +1377,7 @@ whitespaces
 whoopsie
 wifi
 WiFi
+wikiwiki
 winbind's
 wipefs
 wireguard
@@ -1411,14 +1437,9 @@ Zknh
 Zkr
 zlib
 Zmmul
+Zope
 zpool
 zpwr
 Zstack
 zstd
 Zstd
-Artful's
-Driverless
-GNOME's
-IBMCloud
-livepatches
-ntpsec

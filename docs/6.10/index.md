@@ -34,7 +34,7 @@ If the upgrade is performed on a system without update-manager (e.g. on a server
 
 ### New Startup Screen
 
-All the improvements in usplash have begun to pay off, as the new theme has landed. The usplash will now scale to larger screens and many different resolutions.
+All the improvements in USplash have begun to pay off, as the new theme has landed. The USplash will now scale to larger screens and many different resolutions.
 
 ### GNOME 2.16
 
@@ -46,7 +46,7 @@ It is a wikiwiki world out there, and now your desktop does not have to be left 
 
 ### F-spot
 
-With Ubuntu 6.10 comes a replacement of gthumb, the photo manager, in the form of a new Mono application, F-spot. F-spot allows easy tagging, editing and uploading to various online photo websites, including Flickr.
+With Ubuntu 6.10 comes a replacement of gThumb, the photo manager, in the form of a new Mono application, F-spot. F-spot allows easy tagging, editing and uploading to various online photo websites, including Flickr.
 
 ### Evolution
 
@@ -66,7 +66,7 @@ Gaim 2.0 beta 3.1 is a large leap forward, including a great many tweaks to the 
 
 ### Orca
 
-Replacing the venerable Gnopernicus is the new Orca, a scriptable screenreader for the GNOME desktop, further enhancing accessibility features in Ubuntu. Expect some great things from this in the coming months and years. Best of all, it is written in Ubuntu's favourite language, Python.
+Replacing the venerable Gnopernicus is the new Orca, a scriptable screen reader for the GNOME desktop, further enhancing accessibility features in Ubuntu. Expect some great things from this in the coming months and years. Best of all, it is written in Ubuntu's favourite language, Python.
 
 ### New Theme
 

@@ -54,7 +54,7 @@ Ubuntu is released regularly and predictably. Since our April 2005 release (Ubun
 
 ### Installation
 
-* A new OEM mode to simplify the process of preinstalling Ubuntu on computers for resale or redistribution
+* A new OEM mode to simplify the process of pre-installing Ubuntu on computers for resale or redistribution
 * Automatically makes existing hard drive partitions available to the desktop
 * Simple "dual boot" configuration with automatic resizing of an existing installed OS
 * The second stage of the installation now has a progress bar
@@ -145,8 +145,8 @@ Ubuntu 5.10 can be pre-installed to computers for resale and redistribution. Mak
 ## Known Issues
 
 * Installations on powerpc with /boot on an XFS filesystem will fail to boot ([bug 14485](http://bugzilla.ubuntu.com/show_bug.cgi?id=14485)). To work around this, use a different filesystem for /boot, such as ext3.
-* Upgrades from 5.04 (Hoary) using Swiss German or Swiss French keyboard layouts -- de_CH and fr_CH respectively -- in combination with other layouts, will result in a 'cannot set keyboard configuration' dialog, and a standard US PC-104 keymap will be used.  To work around this, go into the GNOME keyboard selector, and remove and re-add the offending layout.
-* Attempting to use multiple layouts added from within the GNOME keyboard selector will fail ([bug 15372](http://bugzilla.ubuntu.com/show_bug.cgi?id=15372)).  To work around this, select another option than 'Both Alt keys together change group' in the 'Group Shift/Lock behaviour' group of the Layout Options tab in the keyboard selector, such as 'Both Ctrl keys together change group'.
+* Upgrades from 5.04 (Hoary) using Swiss German or Swiss French keyboard layouts -- de_CH and fr_CH respectively -- in combination with other layouts, will result in a 'cannot set keyboard configuration' dialog, and a standard US PC-104 key map will be used.  To work around this, go into the GNOME keyboard selector, and remove and re-add the offending layout.
+* Attempting to use multiple layouts added from within the GNOME keyboard selector will fail ([bug 15372](http://bugzilla.ubuntu.com/show_bug.cgi?id=15372)).  To work around this, select another option than 'Both Alt keys together change group' in the 'Group Shift/Lock behaviour' group of the Layout Options tab in the keyboard selector, such as 'Both {kbd}`Ctrl` keys together change group'.
 * SDL and OpenAL audio will default to OSS output, which may cause audio output issues ([bug 16444](http://bugzilla.ubuntu.com/show_bug.cgi?id=16444)).  To work around this, install the libsdl1.2debian-alsa package from universe.
 
 ## Frequently Asked Questions

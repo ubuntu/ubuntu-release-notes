@@ -85,3 +85,47 @@ Label every issue and pull request with the version number of the Ubuntu release
     :::{note}
     In the LTS summary, these change types aren't separated the same way as in interim release notes. This is an experiment for now and we'll revisit the organization with upcoming releases.
     :::
+
+(contribute-update-release-schedule)=
+## Update a release schedule
+
+The release schedule of each Ubuntu release, such as {ref}`resolute-raccoon-schedule`, is generated from the `schedule.yaml` file in the release directory: for example, `docs/26.04/schedule.yaml`. The same file also generates calendar files that you can subscribe to.
+
+Don't edit the schedule tables in `schedule.md`. Edit `schedule.yaml` instead:
+
+```yaml
+codename: Stonking Stingray
+start: 2026-04-30    # Week 1. Must be a Thursday.
+release: 2026-10-15  # Final release date.
+
+events:
+  2026-04-30: toolchain-upload
+  2026-08-06: Expected Glibc 2.44 merge
+  2026-08-20:
+    - feature-freeze
+    - debian-import-freeze
+
+activities:
+  2026-08-13: LLVM default transition
+```
+
+- Write dates in the `YYYY-MM-DD` format.
+- If there's more than one item on the same date, list them under the date, as on `2026-08-20` above. Don't repeat the date.
+- For standard milestones, such as freezes, use their ID: for example, `feature-freeze`. The ID is replaced with the full name and link. See `docs/_data/milestones.yaml` for all IDs.
+- For anything else, write plain text. You can use Markdown links.
+- If an item starts with `[`, such as a Markdown link, or contains a colon followed by a space or a space followed by `#`, put it in double quotes: `2026-08-06: "[GNOME 50](https://example.com)"`. Otherwise, YAML misreads it: for example, everything after ` #` is ignored as a comment.
+- Dates that aren't on a Thursday, such as the Monday Beta Freeze, are labeled with the weekday automatically.
+- List events after the release date, such as point releases, in the same way. They show up after the regular weeks.
+- Add planned, potentially disruptive archive-wide changes, such as transitions or switches of important defaults, under `activities`.
+- To show the key milestones, such as the freezes, the Beta and the final release, in a timeline at the top of the page, set `timeline: true`. The milestones marked with `timeline: true` in `docs/_data/milestones.yaml` are shown.
+- The codename must also appear in the page heading in `schedule.md`. If you change one, change the other.
+
+The week numbers, months and empty weeks are generated for you.
+
+To check your changes locally, run:
+
+```none
+python3 docs/_ext/release_schedule.py --check
+```
+
+The calendar files are published at `calendar/ubuntu-<version>.ics` in this documentation, and `calendar/ubuntu-releases.ics` combines the milestones of all releases.

@@ -54,7 +54,7 @@ If you’re planning a change that might have a disruptive effect on the archive
 | 3 | November 05 |  |
 | 4 | November 12 |  |
 | 5 | November 19 |  |
-| 6 | November 26 |  |
+| 6 | November 26 | gcc-defaults transition (GCC 16.2) |
 | **December 2026** |  |  |
 | 7 | December 03 |  |
 | 8 | December 10 |  |

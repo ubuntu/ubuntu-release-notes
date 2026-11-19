@@ -119,17 +119,18 @@ Ubuntu 6.06 LTS supports three (3) major architectures: Intel x86, AMD64, and Po
 
 Table 1 Recommended Minimum Requirements
 
-| **Install Type** | **RAM**       | **Hard Drive Space** |
+| Install Type | RAM       | Hard Drive Space |
+| ------------ | --------- | ---------------- |
 | Desktop          | 256 megabytes | 3 gigabytes          |
 | Server           | 64 megabytes  | 500 megabytes        |
 
 Here are some common Ubuntu system configurations. Once again, the size of the installation will greatly depend on the software you install during setup. For most users, the default applications are suitable enough for general use.
 
-**Desktop**
+### Desktop
 
 A standard desktop box, including a full desktop environment, sound, office suite, email clients, etc. You'll need about 3 gigabytes of hard drive space.
 
-**Server**
+### Server
 
 This is a small server profile, which provides a common base for all sorts of server applications. It's minimal and designed to have the desired services added on top, such as file/print services, web hosting, email hosting, etc. For these services at least 500MB of disk space will suffice, but consider adding more space depending on the services you'd like to host with your server.
 

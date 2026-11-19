@@ -75,17 +75,18 @@ Ubuntu 5.10 supports three (3) major architectures: Intel x86, AMD64, and PowerP
 
 Table 1 Recommended Minimum Requirements
 
-| **Install Type** | **RAM**       | **Hard Drive Space** |
+| Install Type | RAM       | Hard Drive Space |
+| ------------ | --------- | ---------------- |
 | Desktop          | 128 megabytes | 2 gigabytes          |
 | Server           | 64 megabytes  | 500 megabytes        |
 
 Here are some common Ubuntu 5.10 system configurations. Once again, the size of the installation will greatly depend on the software you install during setup. For most users, the default applications are suitable enough for general use.
 
-**Desktop**
+### Desktop
 
 A standard desktop box, including the X Window System, full desktop environment, sound, office suite, email clients, etc. You'll need about 2 gigabytes of hard drive space using the standard desktop task.
 
-**Server**
+### Server
 
 This is a small server profile, which provides a common base for all sorts of server applications. It's minimal and designed to have the desired services added on top, such as file/print services, web hosting, email hosting, etc. For these services at least 500MB of disk space will suffice, but consider adding more space depending on the services you'd like to host with your server.
 
@@ -112,7 +113,7 @@ Ship-It will mail pressed CDs worldwide free of charge. To receive a complimenta
 
 Once you have a copy of Ubuntu 5.10, follow these instructions to install:
 
-**Default Mode**
+#### Default Mode
 
 The default installation mode provides the best computing experience with Ubuntu 5.10. You'll have a fully-functioning desktop with the default settings. Make sure your computer meets the recommended minimum requirements when installing in Default Mode.
 
@@ -121,7 +122,7 @@ The default installation mode provides the best computing experience with Ubuntu
 3. The Ubuntu 5.10 installer will run. Follow the on-screen instructions to start the installation.
 4. Once the installation is complete, the login screen will appear and you are able to log in to use Ubuntu 5.10
 
-**Server Mode**
+#### Server Mode
 
 The Server Mode provides a base system suitable for installing server applications. You can add more services as needed after installation. Make sure your computer meets the recommended minimum requirements when installing in Server Mode.
 
@@ -130,7 +131,7 @@ The Server Mode provides a base system suitable for installing server applicatio
 3. The Ubuntu 5.10 installer will run. Follow the on-screen instructions to start the installation.
 4. Once the installation is complete, you will be informed that Ubuntu 5.10 is ready for use.
 
-**OEM Mode**
+#### OEM Mode
 
 Ubuntu 5.10 can be pre-installed to computers for resale and redistribution. Make sure the computer meets the recommended minimum requirements when installing in OEM Mode.
 

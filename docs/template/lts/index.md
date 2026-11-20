@@ -70,7 +70,7 @@ For details of the changes applied since 26.04, refer to the following changelog
 
 ## Support lifespan
 
-Ubuntu {{ version }} LTS is designated as a long-term support release. This means it will continue to receive security updates and critical bug fixes for five years. Ubuntu {{ version }} LTS will be supported until April 2031.
+Ubuntu {{ version }} LTS is designated as a long-term support release. This means it will continue to receive security updates and critical bug fixes for five years. Ubuntu {{ version }} LTS will be supported until {{ lts_support_end }}.
 
 With an Ubuntu Pro subscription, access to ESM (Expanded Security Maintenance) updates will be available for ten years.
 

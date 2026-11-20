@@ -7,12 +7,15 @@ Examples:
 """
 
 import argparse
+import logging
 import re
 import sys
 from datetime import date
 from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, StrictUndefined
+
+logger = logging.getLogger(Path(__file__).stem)
 
 DOCS_DIR = Path(__file__).resolve().parent.parent
 TEMPLATE_ROOT = DOCS_DIR / "template"
@@ -62,12 +65,22 @@ def parse_args() -> argparse.Namespace:
         help="use the LTS templates instead of the interim ones",
     )
     parser.add_argument(
+        "-v",
+        "--verbose",
+        action="store_true",
+        help="print debug messages",
+    )
+    parser.add_argument(
         "-f",
         "--force",
         action="store_true",
         help="overwrite template files in an existing release directory",
     )
     args = parser.parse_args()
+    logging.basicConfig(
+        format="%(levelname)s: %(message)s",
+        level=logging.DEBUG if args.verbose else logging.INFO,
+    )
 
     if not re.fullmatch(r"\d{2}\.(04|10)", args.version):
         parser.error("version must look like YY.04 or YY.10")
@@ -82,17 +95,17 @@ def parse_args() -> argparse.Namespace:
     year = int(args.version[:2])
     is_lts_version = args.version.endswith(".04") and year % 2 == 0
     if is_lts_version and not args.lts:
-        print(
-            f"Warning: {args.version} is an LTS release, but --lts was not set. "
+        logger.warning(
+            "%s is an LTS release, but --lts was not set. "
             "Proceeding with the interim templates. Re-run with --lts --force "
             "to overwrite the generated release notes.",
-            file=sys.stderr,
+            args.version,
         )
     elif args.lts and not is_lts_version:
-        print(
-            f"Warning: {args.version} is not an LTS version (LTS releases are "
-            "YY.04 in even years). Proceeding with the LTS templates.",
-            file=sys.stderr,
+        logger.warning(
+            "%s is not an LTS version (LTS releases are YY.04 in even years). "
+            "Proceeding with the LTS templates.",
+            args.version,
         )
     return args
 
@@ -110,10 +123,11 @@ def lts_context(version: str, index_text: str) -> dict:
     for key, old_version in (("interim", old_interim), ("lts", old_lts)):
         codename = find_codename(index_text, old_version)
         if codename is None:
-            print(
-                f"Warning: no codename for {old_version} found in {INDEX_FILE.name}; "
-                f'using the placeholder "{PLACEHOLDER_CODENAME}".',
-                file=sys.stderr,
+            logger.warning(
+                'no codename for %s found in %s; using the placeholder "%s".',
+                old_version,
+                INDEX_FILE.name,
+                PLACEHOLDER_CODENAME,
             )
         context[f"old_{key}_codename"] = codename or PLACEHOLDER_CODENAME
     return context
@@ -179,21 +193,20 @@ def main() -> int:
     args = parse_args()
     target = DOCS_DIR / args.version
     if target.exists() and not args.force:
-        print(
-            f"Error: {target} already exists. Use -f/--force to overwrite it.",
-            file=sys.stderr,
-        )
+        logger.error("%s already exists. Use -f/--force to overwrite it.", target)
         return 1
 
     index_text = INDEX_FILE.read_text(encoding="utf-8")
     context = build_context(args, index_text)
     template_dir = TEMPLATE_ROOT / ("lts" if args.lts else "interim")
+    logger.debug("Using templates from %s", template_dir)
+    logger.debug("Template context: %s", context)
     try:
         new_index_text, listed = add_to_index(
             index_text, f"{args.version} ({args.codename}) <{args.version}/index>"
         )
     except ValueError as error:
-        print(f"Error: {error}", file=sys.stderr)
+        logger.error("%s", error)
         return 1
     env = Environment(
         loader=FileSystemLoader([template_dir, TEMPLATE_ROOT]),
@@ -210,6 +223,7 @@ def main() -> int:
             relative = relative.with_suffix("")
         destination = target / relative
         destination.parent.mkdir(parents=True, exist_ok=True)
+        logger.debug("Writing %s", destination)
         if source.suffix == TEMPLATE_SUFFIX:
             template = env.get_template(source.relative_to(template_dir).as_posix())
             rendered = template.render(**context)
@@ -218,13 +232,15 @@ def main() -> int:
             destination.write_bytes(source.read_bytes())
 
     if listed:
-        print(
-            f"Warning: {INDEX_FILE.name} already lists a release under "
-            f'"{DEV_CAPTION}": {", ".join(listed)}',
-            file=sys.stderr,
+        logger.warning(
+            '%s already lists a release under "%s": %s',
+            INDEX_FILE.name,
+            DEV_CAPTION,
+            ", ".join(listed),
         )
     if new_index_text != index_text:
         INDEX_FILE.write_text(new_index_text, encoding="utf-8")
+        logger.debug("Added the release to %s", INDEX_FILE)
 
     print(f"Created {target}")
     return 0

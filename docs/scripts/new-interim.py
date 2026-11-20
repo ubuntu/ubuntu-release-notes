@@ -28,7 +28,9 @@ def format_month(year: int, month: int) -> str:
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    parser = argparse.ArgumentParser(
+        description="Create a new interim release directory from the template."
+    )
     parser.add_argument("version", help="version number, e.g. 26.10")
     parser.add_argument("codename", help='release code name, e.g. "Stonking Stingray"')
     parser.add_argument(

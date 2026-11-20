@@ -17,6 +17,8 @@ DOCS_DIR = Path(__file__).resolve().parent.parent
 TEMPLATE_DIR = DOCS_DIR / "template" / "interim"
 INTERIM_SUPPORT_MONTHS = 9
 TEMPLATE_SUFFIX = ".jinja2"
+INDEX_FILE = DOCS_DIR / "index.md"
+DEV_CAPTION = "Currently in development"
 PLACEHOLDER_DATE = "day month year"
 PLACEHOLDER_MONTH = "month year"
 
@@ -74,6 +76,38 @@ def build_context(args: argparse.Namespace) -> dict:
     }
 
 
+def add_to_index(text: str, entry: str) -> tuple[str, list[str]]:
+    """Append entry to the in-development toctree.
+
+    Returns the new index text and the entries that were already listed.
+    """
+    pattern = re.compile(
+        r"^(?P<fence>:{3,})\{toctree\}\n(?P<body>.*?)^(?P=fence)[ \t]*$",
+        re.DOTALL | re.MULTILINE,
+    )
+    for match in pattern.finditer(text):
+        body = match["body"]
+        if f":caption: {DEV_CAPTION}" not in body.splitlines():
+            continue
+
+        lines = body.splitlines()
+        existing = [
+            line for line in lines if line.strip() and not line.startswith(":")
+        ]
+        if entry in existing:
+            return text, []
+        while lines and not lines[-1].strip():
+            lines.pop()
+        if not existing:
+            lines.append("")
+        lines.append(entry)
+        new_body = "\n".join(lines) + "\n"
+        new_text = text[: match.start("body")] + new_body + text[match.end("body") :]
+        return new_text, existing
+
+    raise ValueError(f'no toctree with the caption "{DEV_CAPTION}" found in {INDEX_FILE}')
+
+
 def main() -> int:
     args = parse_args()
     target = DOCS_DIR / args.version
@@ -85,6 +119,14 @@ def main() -> int:
         return 1
 
     context = build_context(args)
+    index_text = INDEX_FILE.read_text(encoding="utf-8")
+    try:
+        new_index_text, listed = add_to_index(
+            index_text, f"{args.version} ({args.codename}) <{args.version}/index>"
+        )
+    except ValueError as error:
+        print(f"Error: {error}", file=sys.stderr)
+        return 1
     env = Environment(
         loader=FileSystemLoader(TEMPLATE_DIR),
         undefined=StrictUndefined,
@@ -106,6 +148,15 @@ def main() -> int:
             destination.write_text(rendered, encoding="utf-8")
         else:
             destination.write_bytes(source.read_bytes())
+
+    if listed:
+        print(
+            f"Warning: {INDEX_FILE.name} already lists a release under "
+            f'"{DEV_CAPTION}": {", ".join(listed)}',
+            file=sys.stderr,
+        )
+    if new_index_text != index_text:
+        INDEX_FILE.write_text(new_index_text, encoding="utf-8")
 
     print(f"Created {target}")
     return 0

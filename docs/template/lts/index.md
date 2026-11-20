@@ -14,6 +14,8 @@ These release notes cover new features and changes in Ubuntu {{ version }} LTS (
 Ubuntu {{ version }} LTS ({{ codename }}) is currently in development, scheduled to be released on {{ release_date }}.
 :::
 
+For the release schedule of Ubuntu {{ version }} LTS, refer to the {ref}`release schedule <{{ codename_slug }}-schedule>`.
+
 
 ## Changes since your version of Ubuntu
 
@@ -59,12 +61,12 @@ If you're currently using an older Ubuntu LTS or interim release, such as Ubuntu
 <!--
 ## Point releases
 
-For details of the changes applied since 26.04, refer to the following changelogs:
+For details of the changes applied since {{ version }}.0, refer to the following changelogs:
 
 :::{toctree}
 :maxdepth: 1
 
-26.04.1 <1>
+{{ version }}.1 <1>
 :::
 -->
 

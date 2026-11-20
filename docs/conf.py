@@ -439,6 +439,7 @@ extensions = [
 exclude_patterns = [
     "reuse/*-template.md",
     ".venv*",
+    "template",
 ]
 
 # Adds custom CSS files, located remotely or in 'html_static_path'.

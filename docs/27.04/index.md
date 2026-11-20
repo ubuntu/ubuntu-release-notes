@@ -8,35 +8,138 @@ tocdepth: 3
 These release notes cover new features and changes in Ubuntu 27.04 (Tenacious T-Rex).
 
 :::{important}
-Ubuntu 27.04 (Tenacious T-Rex) is currently in development, scheduled to be released in April 2027.
+Ubuntu 27.04 (Tenacious T-Rex) is currently in development, scheduled to be released on 22 April 2027.
 :::
 
-For the release schedule of Ubuntu 27.04, refer to the {ref}`release schedule <tenacious-t-rex-schedule>`:
+For the release schedule of Ubuntu 27.04, refer to the {ref}`release schedule <tenacious-t-rex-schedule>`.
 
 :::{toctree}
 :maxdepth: 1
+:hidden:
 
 Release schedule <schedule>
 :::
 
-
 ## Support lifespan
+
+Ubuntu 27.04 will be supported for 9 months, from April 2027 until January 2028.
+
+For details, see [Ubuntu release cycle](https://ubuntu.com/about/release-cycle).
+
+
 ## Upgrades
-## New features in 27.04
-### Updated Packages
-### Linux kernel \<VERSION\> 🐧
-### systemd \<VERSION\>
-### Toolchain Upgrades 🛠️
-### Default configuration changes ⚙️
-### Ubuntu Desktop
-### Ubuntu Foundations
-### Ubuntu Server
-### OpenStack
-### Platforms
-## Known Issues
-### General
-### Linux kernel
-### Ubuntu Desktop
-### Ubuntu Server
+
+To upgrade from a previous Ubuntu release, refer to the [Ubuntu Desktop](https://ubuntu.com/desktop/docs/en/latest/how-to/upgrade-ubuntu-desktop/) or [Ubuntu Server](https://ubuntu.com/server/docs/how-to/software/upgrade-your-release/) guide.
+
+## New features and improvements
+
+### Desktop features
+
+### Server features
+
+### Development features
+
+### Enterprise features
+
+### Cloud features
+
+### Security features
+
+### Hardware support features
+
+### System features
+
+
+## Backwards-incompatible changes
+
+### Desktop changes
+
+### Server changes
+
+### Development changes
+
+### Enterprise changes
+
+### Cloud changes
+
+### Security changes
+
+### Hardware support changes
+
+### System changes
+
+
+## Deprecated features
+
+### Desktop deprecations
+
+### Server deprecations
+
+### Development deprecations
+
+### Enterprise deprecations
+
+### Cloud deprecations
+
+### Security deprecations
+
+### Hardware support deprecations
+
+### System deprecations
+
+
+## Bug fixes
+
+### Desktop fixes
+
+### Server fixes
+
+### Development fixes
+
+### Enterprise fixes
+
+### Cloud fixes
+
+### Security fixes
+
+### Hardware support fixes
+
+### System fixes
+
+
+## Known issues
+
+### Desktop issues
+
+### Server issues
+
+### Development issues
+
+### Enterprise issues
+
+### Cloud issues
+
+### Security issues
+
+### Hardware support issues
+
+### System issues
+
+
 ## Official flavors
+
+Find the release notes for the official flavors at the following links:
+
+* [Edubuntu release notes](https://discourse.ubuntu.com/t/...)
+* [Kubuntu release notes](https://kubuntu.org/news/...)
+* [Lubuntu release notes](https://lubuntu.me/...)
+* [Ubuntu Budgie release notes](https://ubuntubudgie.org/blog/...)
+* [Ubuntu Studio release notes](https://discourse.ubuntu.com/t/...)
+* [Xubuntu release notes](https://xubuntu.org/releasedocs/27.04/release-notes/)
+* [Ubuntu Unity release notes](https://ubuntuunity.org/posts/...)
+* [Ubuntu Kylin release notes](https://ubuntukylin.com/news/...)
+* [Ubuntu Cinnamon release notes](https://ubuntucinnamon.org/...)
+
 ## More information
+
+Refer to {ref}`release-policy-and-schedule` and {ref}`project-and-community`.

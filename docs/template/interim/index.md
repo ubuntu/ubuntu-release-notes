@@ -4,7 +4,7 @@
 These release notes cover new features and changes in Ubuntu yy.mm (X X).
 
 :::{important}
-Ubuntu yy.mm (X X) is currently in development, scheduled to be released in month year.
+Ubuntu yy.mm (X X) is currently in development, scheduled to be released on day month year.
 :::
 
 For the release schedule of Ubuntu yy.mm, refer to the {ref}`release schedule <x-x-schedule>`.
@@ -18,8 +18,14 @@ Release schedule <schedule>
 
 ## Support lifespan
 
+Ubuntu yy.mm will be supported for 9 months, from month year until month year.
+
+For details, see [Ubuntu release cycle](https://ubuntu.com/about/release-cycle).
+
+
 ## Upgrades
 
+To upgrade from a previous Ubuntu release, refer to the [Ubuntu Desktop](https://ubuntu.com/desktop/docs/en/latest/how-to/upgrade-ubuntu-desktop/) or [Ubuntu Server](https://ubuntu.com/server/docs/how-to/software/upgrade-your-release/) guide.
 
 ## New features and improvements
 
@@ -131,3 +137,5 @@ Find the release notes for the official flavors at the following links:
 * [Ubuntu Cinnamon release notes](https://ubuntucinnamon.org/...)
 
 ## More information
+
+Refer to {ref}`release-policy-and-schedule` and {ref}`project-and-community`.

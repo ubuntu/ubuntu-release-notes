@@ -144,6 +144,16 @@ def build_context(args: argparse.Namespace, index_text: str) -> dict:
     return context
 
 
+def has_caption(body: str, caption: str) -> bool:
+    """Whether a toctree body declares the given :caption: option.
+
+    Whitespace-tolerant: indentation, trailing whitespace, or unusual
+    spacing around the colons does not hide the caption.
+    """
+    pattern = rf"^\s*:\s*caption\s*:\s*{re.escape(caption)}\s*$"
+    return any(re.match(pattern, line) for line in body.splitlines())
+
+
 def add_to_index(text: str, entry: str) -> tuple[str, list[str]]:
     """Append entry to the in-development toctree.
 
@@ -151,15 +161,15 @@ def add_to_index(text: str, entry: str) -> tuple[str, list[str]]:
     """
     for match in TOCTREE.finditer(text):
         body = match["body"]
-        if f":caption: {DEV_CAPTION}" not in body.splitlines():
+        if not has_caption(body, DEV_CAPTION):
             continue
 
         lines = body.splitlines()
         existing = [
             line for line in lines if line.strip() and not line.startswith(":")
         ]
-        if entry in existing:
-            return text, []
+        if any(line.strip() == entry.strip() for line in existing):
+            return text, existing
         while lines and not lines[-1].strip():
             lines.pop()
         if not existing:
@@ -229,7 +239,7 @@ def new_series(args: argparse.Namespace) -> int:
 
 def find_toctree(text: str, caption: str) -> re.Match:
     for match in TOCTREE.finditer(text):
-        if f":caption: {caption}" in match["body"].splitlines():
+        if has_caption(match["body"], caption):
             return match
     raise ReleaseError(f'no toctree with the caption "{caption}" found in {INDEX_FILE}')
 

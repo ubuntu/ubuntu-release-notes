@@ -329,6 +329,10 @@ def update_release_page(
     notice = NOTICE.search(text)
     if not notice:
         raise ReleaseError(f"no in-development notice found in {path}")
+    if notice["version"] != version:
+        raise ReleaseError(
+            f"notice in {path} mentions {notice['version']}, expected {version}"
+        )
     planned = notice["date"]
     released = (
         format_date(date.fromisoformat(release_date)) if release_date else planned

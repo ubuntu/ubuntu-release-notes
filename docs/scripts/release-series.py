@@ -73,11 +73,13 @@ def parse_args() -> argparse.Namespace:
         format="%(levelname)s: %(message)s",
         level=logging.DEBUG if args.verbose else logging.INFO,
     )
+    if args.release_date and not re.fullmatch(r"\d{4}-\d{2}-\d{2}", args.release_date):
+        parser.error("--release-date must be in YYYY-MM-DD format")
     if args.release_date:
         try:
             date.fromisoformat(args.release_date)
         except ValueError:
-            parser.error("--release-date must be a valid date in YYYY-MM-DD format")
+            parser.error("--release-date is not a valid date")
     return args
 
 

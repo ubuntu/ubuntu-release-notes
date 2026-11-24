@@ -4,13 +4,14 @@
 The ``new`` command creates a release directory from the interim or LTS templates
 and adds it to the in-development toctree. The ``release`` command moves the
 current development series to the supported releases and updates its release
-notes.
+notes. The ``archive`` command moves a supported series to the older releases.
 
 Examples:
     ./series.py new 26.10 "Stonking Stingray" --release-date 2026-10-15
     ./series.py new 28.04 "Example Codename" --lts --release-date 2028-04-20
     ./series.py release
     ./series.py release --release-date 2027-04-22
+    ./series.py archive 26.10
 """
 
 import argparse
@@ -27,6 +28,7 @@ logger = logging.getLogger(Path(__file__).stem)
 DOCS_DIR = Path(__file__).resolve().parent.parent
 TEMPLATE_ROOT = DOCS_DIR / "template"
 INDEX_FILE = DOCS_DIR / "index.md"
+ARCHIVE_FILE = DOCS_DIR / "archive.md"
 INTERIM_SUPPORT_MONTHS = 9
 LTS_SUPPORT_MONTHS = 5 * 12
 PLACEHOLDER_CODENAME = "codename"
@@ -240,14 +242,37 @@ def find_dev_series(text: str) -> tuple[str, str, bool, str]:
     return match["version"], match["codename"], bool(match["lts"]), entries[0]
 
 
+def remove_toctree_entry(text: str, entry: str, source_caption: str) -> str:
+    """Remove an entry from the toctree with the given caption."""
+    source = find_toctree(text, source_caption)
+    body = "".join(
+        line + "\n"
+        for line in source["body"].splitlines()
+        if line.rstrip() != entry.rstrip()
+    )
+    return text[: source.start("body")] + body + text[source.end("body") :]
+
+
+def prepend_toctree_entry(text: str, entry: str) -> str:
+    """Put an entry first in the document's toctree."""
+    target = TOCTREE.search(text)
+    if not target:
+        raise ReleaseError(f"no toctree found in {ARCHIVE_FILE}")
+    lines = target["body"].splitlines()
+    existing = [i for i, line in enumerate(lines) if line.strip() and line[0] != ":"]
+    if any(lines[i].rstrip() == entry.rstrip() for i in existing):
+        raise ReleaseError(f"{ARCHIVE_FILE.name} already lists {entry}")
+    if existing:
+        lines.insert(existing[0], entry)
+    else:
+        lines += ["", entry]
+    new_body = "\n".join(lines) + "\n"
+    return text[: target.start("body")] + new_body + text[target.end("body") :]
+
+
 def move_toctree_entry(text: str, entry: str, target_caption: str) -> str:
     """Remove entry from the in-development toctree and put it first in the target."""
-    dev = find_toctree(text, DEV_CAPTION)
-    body = "".join(
-        line + "\n" for line in dev["body"].splitlines() if line.rstrip() != entry.rstrip()
-    )
-    text = text[: dev.start("body")] + body + text[dev.end("body") :]
-
+    text = remove_toctree_entry(text, entry, DEV_CAPTION)
     target = find_toctree(text, target_caption)
     lines = target["body"].splitlines()
     existing = [i for i, line in enumerate(lines) if line.strip() and line[0] != ":"]
@@ -270,6 +295,26 @@ def add_to_section(text: str, heading: str, block: str, marker: str) -> str:
         logger.warning(f"{INDEX_FILE.name} already lists {marker}")
         return text
     return text[: match.end()] + block + text[match.end() :]
+
+
+def remove_from_index_section(
+    text: str, version: str, codename: str, is_lts: bool
+) -> str:
+    """Remove a release's visible links from the index page."""
+    if is_lts:
+        heading = f"### {version} LTS ({codename})"
+        match = re.search(rf"^{re.escape(heading)}\n\n", text, re.MULTILINE)
+        if not match:
+            raise ReleaseError(f'no "{heading}" section found in {INDEX_FILE}')
+        next_heading = re.compile(r"^#{2,3} ", re.MULTILINE).search(text, match.end())
+        end = next_heading.start() if next_heading else len(text)
+        return text[: match.start()] + text[end:]
+
+    marker = f"* {{ref}}`ubuntu-{version}-release-notes`"
+    match = re.search(rf"^{re.escape(marker)}\n", text, re.MULTILINE)
+    if not match:
+        raise ReleaseError(f"{INDEX_FILE.name} does not list {marker}")
+    return text[: match.start()] + text[match.end() :]
 
 
 def format_date(value: date) -> str:
@@ -352,13 +397,57 @@ def release_series(args: argparse.Namespace) -> int:
     return 0
 
 
+def find_supported_series(text: str, version: str) -> tuple[str, str, bool, str]:
+    """Return the caption, codename, LTS flag, and toctree line of a series."""
+    found = []
+    for caption in (LTS_CAPTION, INTERIM_CAPTION):
+        body = find_toctree(text, caption)["body"]
+        entries = [line for line in body.splitlines() if line.strip() and line[0] != ":"]
+        for entry in entries:
+            match = ENTRY.match(entry.strip())
+            if match and match["version"] == version:
+                found.append((caption, match["codename"], bool(match["lts"]), entry))
+
+    if not found:
+        raise ReleaseError(f"no supported series found for Ubuntu {version}")
+    if len(found) > 1:
+        raise ReleaseError(f"Ubuntu {version} is listed in multiple supported toctrees")
+    return found[0]
+
+
+def archive_series(args: argparse.Namespace) -> int:
+    index_text = INDEX_FILE.read_text(encoding="utf-8")
+    archive_text = ARCHIVE_FILE.read_text(encoding="utf-8")
+    try:
+        caption, codename, is_lts, entry = find_supported_series(
+            index_text, args.version
+        )
+        label = f"{args.version}{' LTS' if is_lts else ''}"
+        logger.info(f"Archiving Ubuntu {label} ({codename})")
+
+        new_index = remove_toctree_entry(index_text, entry, caption)
+        new_index = remove_from_index_section(
+            new_index, args.version, codename, is_lts
+        )
+        new_archive = prepend_toctree_entry(archive_text, entry)
+    except ReleaseError as error:
+        logger.error(f"{error}")
+        return 1
+
+    INDEX_FILE.write_text(new_index, encoding="utf-8")
+    ARCHIVE_FILE.write_text(new_archive, encoding="utf-8")
+    print(f"Archived {label} ({codename})")
+    return 0
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Create a new Ubuntu release series or publish the current one.",
+        description="Create, publish, or archive an Ubuntu release series.",
         epilog=(
             "examples:\n"
             '  ./series.py new 26.10 "Stonking Stingray" --release-date 2026-10-15\n'
-            "  ./series.py release --release-date 2027-04-22"
+            "  ./series.py release --release-date 2027-04-22\n"
+            "  ./series.py archive 26.10"
         ),
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
@@ -410,6 +499,17 @@ def parse_args() -> argparse.Namespace:
     )
     release_parser.set_defaults(handler=release_series)
 
+    archive_parser = subparsers.add_parser(
+        "archive",
+        help="move a supported series to the older releases",
+        description="Move a supported series to the older releases.",
+    )
+    archive_parser.add_argument("version", help="version number, e.g. 26.10")
+    archive_parser.add_argument(
+        "-v", "--verbose", action="store_true", help="print debug messages"
+    )
+    archive_parser.set_defaults(handler=archive_series)
+
     args = parser.parse_args()
     logging.basicConfig(
         format="%(levelname)s: %(message)s",
@@ -434,8 +534,10 @@ def parse_args() -> argparse.Namespace:
                 "(LTS releases are YY.04 in even years). "
                 "Proceeding with the LTS templates."
             )
-    else:
+    elif args.command == "release":
         validate_release_date(release_parser, args.release_date)
+    elif not re.fullmatch(r"\d{2}\.(04|10)", args.version):
+        archive_parser.error("version must look like YY.04 or YY.10")
     return args
 
 

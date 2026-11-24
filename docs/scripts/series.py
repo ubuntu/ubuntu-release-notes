@@ -179,8 +179,9 @@ def new_series(args: argparse.Namespace) -> int:
     logger.debug(f"Using templates from {template_dir}")
     logger.debug(f"Template context: {context}")
     try:
+        label = f"{args.version}{' LTS' if args.lts else ''}"
         new_index_text, listed = add_to_index(
-            index_text, f"{args.version} ({args.codename}) <{args.version}/index>"
+            index_text, f"{label} ({args.codename}) <{args.version}/index>"
         )
     except ValueError as error:
         logger.error(f"{error}")

@@ -363,9 +363,6 @@ def release_series(args: argparse.Namespace) -> int:
     index_text = INDEX_FILE.read_text(encoding="utf-8")
     try:
         version, codename, is_lts, entry = find_dev_series(index_text)
-        logger.info(
-            f"Releasing Ubuntu {version}{' LTS' if is_lts else ''} ({codename})"
-        )
         page = DOCS_DIR / version / "index.md"
         if not page.is_file():
             raise ReleaseError(f"{page} does not exist")
@@ -423,7 +420,6 @@ def archive_series(args: argparse.Namespace) -> int:
             index_text, args.version
         )
         label = f"{args.version}{' LTS' if is_lts else ''}"
-        logger.info(f"Archiving Ubuntu {label} ({codename})")
 
         new_index = remove_toctree_entry(index_text, entry, caption)
         new_index = remove_from_index_section(

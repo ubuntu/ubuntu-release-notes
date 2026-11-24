@@ -106,10 +106,8 @@ def lts_context(version: str, index_text: str) -> dict:
         codename = find_codename(index_text, old_version)
         if codename is None:
             logger.warning(
-                'no codename for %s found in %s; using the placeholder "%s".',
-                old_version,
-                INDEX_FILE.name,
-                PLACEHOLDER_CODENAME,
+                f"no codename for {old_version} found in {INDEX_FILE.name}; "
+                f'using the placeholder "{PLACEHOLDER_CODENAME}".'
             )
         context[f"old_{key}_codename"] = codename or PLACEHOLDER_CODENAME
     return context
@@ -170,20 +168,20 @@ def add_to_index(text: str, entry: str) -> tuple[str, list[str]]:
 def new_series(args: argparse.Namespace) -> int:
     target = DOCS_DIR / args.version
     if target.exists() and not args.force:
-        logger.error("%s already exists. Use -f/--force to overwrite it.", target)
+        logger.error(f"{target} already exists. Use -f/--force to overwrite it.")
         return 1
 
     index_text = INDEX_FILE.read_text(encoding="utf-8")
     context = build_context(args, index_text)
     template_dir = TEMPLATE_ROOT / ("lts" if args.lts else "interim")
-    logger.debug("Using templates from %s", template_dir)
-    logger.debug("Template context: %s", context)
+    logger.debug(f"Using templates from {template_dir}")
+    logger.debug(f"Template context: {context}")
     try:
         new_index_text, listed = add_to_index(
             index_text, f"{args.version} ({args.codename}) <{args.version}/index>"
         )
     except ValueError as error:
-        logger.error("%s", error)
+        logger.error(f"{error}")
         return 1
     env = Environment(
         loader=FileSystemLoader([template_dir, TEMPLATE_ROOT]),
@@ -200,7 +198,7 @@ def new_series(args: argparse.Namespace) -> int:
             relative = relative.with_suffix("")
         destination = target / relative
         destination.parent.mkdir(parents=True, exist_ok=True)
-        logger.debug("Writing %s", destination)
+        logger.debug(f"Writing {destination}")
         if source.suffix == TEMPLATE_SUFFIX:
             template = env.get_template(source.relative_to(template_dir).as_posix())
             rendered = template.render(**context)
@@ -210,14 +208,12 @@ def new_series(args: argparse.Namespace) -> int:
 
     if listed:
         logger.warning(
-            '%s already lists a release under "%s": %s',
-            INDEX_FILE.name,
-            DEV_CAPTION,
-            ", ".join(listed),
+            f'{INDEX_FILE.name} already lists a release under "{DEV_CAPTION}": '
+            f'{", ".join(listed)}'
         )
     if new_index_text != index_text:
         INDEX_FILE.write_text(new_index_text, encoding="utf-8")
-        logger.debug("Added the release to %s", INDEX_FILE)
+        logger.debug(f"Added the release to {INDEX_FILE}")
 
     print(f"Created {target}")
     return 0
@@ -271,7 +267,7 @@ def add_to_section(text: str, heading: str, block: str, marker: str) -> str:
     section_end = re.compile(r"^## ", re.MULTILINE).search(text, match.end())
     section = text[match.end() : section_end.start() if section_end else len(text)]
     if marker in section:
-        logger.warning("%s already lists %s", INDEX_FILE.name, marker)
+        logger.warning(f"{INDEX_FILE.name} already lists {marker}")
         return text
     return text[: match.end()] + block + text[match.end() :]
 
@@ -302,7 +298,7 @@ def update_release_page(
                 flags=re.MULTILINE,
             )
             if not count:
-                logger.warning("no rubric with %s found in %s", planned, path.name)
+                logger.warning(f"no rubric with {planned} found in {path.name}")
     else:
         lifespan = INTERIM_LIFESPAN.search(text)
         if not lifespan:
@@ -315,7 +311,7 @@ def update_release_page(
         text = text[: lifespan.start()] + replacement + text[lifespan.end() :]
 
     path.write_text(text, encoding="utf-8")
-    logger.debug("Updated %s", path)
+    logger.debug(f"Updated {path}")
 
 
 def release_series(args: argparse.Namespace) -> int:
@@ -323,7 +319,7 @@ def release_series(args: argparse.Namespace) -> int:
     try:
         version, codename, is_lts, entry = find_dev_series(index_text)
         logger.info(
-            "Releasing Ubuntu %s%s (%s)", version, " LTS" if is_lts else "", codename
+            f"Releasing Ubuntu {version}{' LTS' if is_lts else ''} ({codename})"
         )
         page = DOCS_DIR / version / "index.md"
         if not page.is_file():
@@ -348,7 +344,7 @@ def release_series(args: argparse.Namespace) -> int:
         new_index = add_to_section(new_index, heading, block, marker)
         update_release_page(page, version, is_lts, args.release_date)
     except ReleaseError as error:
-        logger.error("%s", error)
+        logger.error(f"{error}")
         return 1
 
     INDEX_FILE.write_text(new_index, encoding="utf-8")
@@ -428,16 +424,15 @@ def parse_args() -> argparse.Namespace:
         is_lts_version = args.version.endswith(".04") and year % 2 == 0
         if is_lts_version and not args.lts:
             logger.warning(
-                "%s is an LTS release, but --lts was not set. "
+                f"{args.version} is an LTS release, but --lts was not set. "
                 "Proceeding with the interim templates. Re-run with --lts --force "
-                "to overwrite the generated release notes.",
-                args.version,
+                "to overwrite the generated release notes."
             )
         elif args.lts and not is_lts_version:
             logger.warning(
-                "%s is not an LTS version (LTS releases are YY.04 in even years). "
-                "Proceeding with the LTS templates.",
-                args.version,
+                f"{args.version} is not an LTS version "
+                "(LTS releases are YY.04 in even years). "
+                "Proceeding with the LTS templates."
             )
     else:
         validate_release_date(release_parser, args.release_date)

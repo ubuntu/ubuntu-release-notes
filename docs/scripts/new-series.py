@@ -2,8 +2,8 @@
 """Create a new release directory in docs/ from docs/template/{interim,lts}.
 
 Examples:
-    ./new-version.py 26.10 "Stonking Stingray" --release-date 2026-10-15
-    ./new-version.py 28.04 "Example Codename" --lts --release-date 2028-04-20
+    ./new-series.py 26.10 "Stonking Stingray" --release-date 2026-10-15
+    ./new-series.py 28.04 "Example Codename" --lts --release-date 2028-04-20
 """
 
 import argparse

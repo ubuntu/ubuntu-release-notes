@@ -80,6 +80,13 @@ def format_month(year: int, month: int) -> str:
     return date(year, month, 1).strftime("%B %Y")
 
 
+def end_of_support_month(year: int, month: int, is_lts: bool) -> str:
+    """Return the month in which support ends for a release in year/month."""
+    support = LTS_SUPPORT_MONTHS if is_lts else INTERIM_SUPPORT_MONTHS
+    total = year * 12 + (month - 1) + support
+    return format_month(total // 12, total % 12 + 1)
+
+
 def previous_version(version: str, steps: int) -> str:
     """Return the release `steps` half-year cycles (04/10) before version."""
     year, month = (int(part) for part in version.split("."))
@@ -123,9 +130,7 @@ def build_context(args: argparse.Namespace, index_text: str) -> dict:
         year, month = released.year, released.month
         release_date = f"{released.day} {format_month(year, month)}"
         release_month = format_month(year, month)
-        support = LTS_SUPPORT_MONTHS if args.lts else INTERIM_SUPPORT_MONTHS
-        total = year * 12 + (month - 1) + support
-        end_of_support = format_month(total // 12, total % 12 + 1)
+        end_of_support = end_of_support_month(year, month, args.lts)
     context = {
         "codename": args.codename,
         "codename_slug": "-".join(args.codename.lower().split()),
@@ -334,13 +339,17 @@ def update_release_page(
             f"notice in {path} mentions {notice['version']}, expected {version}"
         )
     planned = notice["date"]
-    released = (
-        format_date(date.fromisoformat(release_date)) if release_date else planned
-    )
+    if release_date:
+        released_date = date.fromisoformat(release_date)
+        released = format_date(released_date)
+    else:
+        released_date = None
+        released = planned
     text = text[: notice.start()] + text[notice.end() :]
 
     if is_lts:
-        if release_date:
+        if released_date:
+            end = end_of_support_month(released_date.year, released_date.month, True)
             text, count = re.subn(
                 rf"^(:::\{{rubric\}}) {re.escape(planned)}$",
                 rf"\1 {released}",
@@ -349,14 +358,28 @@ def update_release_page(
             )
             if not count:
                 logger.warning(f"no rubric with {planned} found in {path.name}")
+            text, count = re.subn(
+                rf"(Ubuntu {re.escape(version)} LTS will be supported until) .+?\.",
+                rf"\1 {end}.",
+                text,
+            )
+            if not count:
+                logger.warning(
+                    f'no "will be supported until" sentence found in {path.name}'
+                )
     else:
         lifespan = INTERIM_LIFESPAN.search(text)
         if not lifespan:
             raise ReleaseError(f"no support lifespan sentence found in {path}")
+        end = (
+            end_of_support_month(released_date.year, released_date.month, False)
+            if released_date
+            else lifespan["end"]
+        )
         replacement = (
             f"Ubuntu {version} was released on {released}. "
             f"It will be supported for {lifespan['months']} months, "
-            f"until {lifespan['end']}."
+            f"until {end}."
         )
         text = text[: lifespan.start()] + replacement + text[lifespan.end() :]
 

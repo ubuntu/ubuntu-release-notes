@@ -347,17 +347,19 @@ def update_release_page(
         released = planned
     text = text[: notice.start()] + text[notice.end() :]
 
+    if released_date:
+        text, count = re.subn(
+            rf"^(:::\{{rubric\}}) {re.escape(planned)}$",
+            rf"\1 {released}",
+            text,
+            flags=re.MULTILINE,
+        )
+        if not count:
+            logger.warning(f"no rubric with {planned} found in {path.name}")
+
     if is_lts:
         if released_date:
             end = end_of_support_month(released_date.year, released_date.month, True)
-            text, count = re.subn(
-                rf"^(:::\{{rubric\}}) {re.escape(planned)}$",
-                rf"\1 {released}",
-                text,
-                flags=re.MULTILINE,
-            )
-            if not count:
-                logger.warning(f"no rubric with {planned} found in {path.name}")
             text, count = re.subn(
                 rf"(Ubuntu {re.escape(version)} LTS will be supported until) .+?\.",
                 rf"\1 {end}.",
